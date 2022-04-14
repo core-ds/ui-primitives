@@ -1,7 +1,7 @@
 {
-    "name": "alfa-ui-primitives",
+    "name": "ui-primitives",
     "version": "3.36.0",
-    "description": "UI primitives for sharing between platforms in Alfa-Bank projects",
+    "description": "UI primitives for sharing between platforms in Design System Team projects",
     "keywords": [
         "alfa-bank",
         "design",
@@ -11,9 +11,9 @@
     ],
     "repository": {
         "type": "git",
-        "url": "git+https://github.com/alfa-laboratory/alfa-ui-primitives.git"
+        "url": "git+https://github.com/core-ds/ui-primitives.git"
     },
-    "author": "Alfa-Bank Team",
+    "author": "Design System Team",
     "license": "MIT",
     "scripts": {
         "commitmsg": "commitlint -e",
