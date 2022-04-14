@@ -14,4 +14,4 @@ jobs:
     # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
     - uses: actions/checkout@v2
     
-    - run: curl -X POST -u '${{secrets.PAT_USERNAME}}:${{secrets.PAT_TOKEN}}' -H 'Accept:\ application/vnd.github.everest-preview+json' -H 'Content-Type:\ application/json' https://api.github.com/repos/alfa-laboratory/icons/dispatches --data '{"event_type":"build_application"}'
+    - run: curl -X POST -u '${{secrets.PAT_USERNAME}}:${{secrets.PAT_TOKEN}}' -H 'Accept:\ application/vnd.github.everest-preview+json' -H 'Content-Type:\ application/json' https://api.github.com/repos/core-ds/icons/dispatches --data '{"event_type":"build_application"}'
