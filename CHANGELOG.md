@@ -1,3 +1,13 @@
+<a name="3.37.0"></a>
+# [3.37.0](https://github.com/core-ds/ui-primitives/compare/v3.36.0...v3.37.0) (2022-04-14)
+
+
+### Features
+
+* **icons:** metals ([9309327](https://github.com/core-ds/ui-primitives/commit/9309327))
+
+
+
 <a name="3.36.0"></a>
 # [3.36.0](https://github.com/alfa-laboratory/alfa-ui-primitives/compare/v3.35.0...v3.36.0) (2022-03-31)
 
