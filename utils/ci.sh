@@ -19,8 +19,8 @@ else
 
     npm ci
 
-    git config --global user.email "ds@alfabank.ru"
-    git config --global user.name "alfa-bot"
+    git config --global user.email "ds@gitmax.tech"
+    git config --global user.name "core-ds-bot"
 
     # Если были мажорные изменения, релизим мажорную версию пакета
     if [ -z "$MAJOR_CHANGES" ]
