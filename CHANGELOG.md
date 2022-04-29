@@ -1,3 +1,18 @@
+<a name="3.43.0"></a>
+# [3.43.0](https://github.com/core-ds/ui-primitives/compare/v3.42.0...v3.43.0) (2022-04-29)
+
+
+### Bug Fixes
+
+* readme ([d4933cd](https://github.com/core-ds/ui-primitives/commit/d4933cd))
+
+
+### Features
+
+* **icons:** add 1 icon ([60dce29](https://github.com/core-ds/ui-primitives/commit/60dce29))
+
+
+
 <a name="3.42.0"></a>
 # [3.42.0](https://github.com/core-ds/ui-primitives/compare/v3.41.0...v3.42.0) (2022-04-29)
 
