@@ -12,7 +12,7 @@
 	"dark_bg_info": {
 		"rgba": "rgba(0, 28, 60, 1)",
 		"hex": "#001c3c",
-		"alias": "backgroundColorLinkMuted"
+		"alias": "backgroundColorInfo"
 	},
 	"dark_bg_negative_muted": {
 		"rgba": "rgba(53, 17, 13, 1)",
@@ -27,7 +27,7 @@
 	"dark_bg_overlay": {
 		"rgba": "rgba(0, 0, 0, 0.8)",
 		"hex": "#cc000000",
-		"alias": "specialBackgroundColorOverlay"
+		"alias": "backgroundColorOverlay"
 	},
 	"dark_bg_positive_muted": {
 		"rgba": "rgba(4, 33, 23, 1)",
@@ -202,12 +202,12 @@
 	"dark_specialbg_component": {
 		"rgba": "rgba(255, 255, 255, 0.1)",
 		"hex": "#1affffff",
-		"alias": "backgroundColorComponent"
+		"alias": "specialBackgroundColorComponent"
 	},
 	"dark_specialbg_component_inverted": {
 		"rgba": "rgba(0, 0, 0, 0.08)",
 		"hex": "#14000000",
-		"alias": "backgroundColorComponentInverted"
+		"alias": "specialBackgroundColorComponentInverted"
 	},
 	"dark_specialbg_nulled": {
 		"rgba": "rgba(255, 255, 255, 0)",
@@ -342,7 +342,7 @@
 	"light_bg_info": {
 		"rgba": "rgba(214, 232, 252, 1)",
 		"hex": "#d6e8fc",
-		"alias": "backgroundColorLinkMuted"
+		"alias": "backgroundColorInfo"
 	},
 	"light_bg_negative_muted": {
 		"rgba": "rgba(251, 232, 231, 1)",
@@ -757,7 +757,7 @@
 	"static_text_secondary_light_transparent": {
 		"rgba": "rgba(235, 235, 245, 0.6)",
 		"hex": "#99ebebf5",
-		"alias": "staticTextColorSecondaryLightTransparent"
+		"alias": "staticTextColorSecondaryLight"
 	},
 	"static_text_tertiary_dark": {
 		"rgba": "rgba(197, 197, 199, 1)",
@@ -777,6 +777,6 @@
 	"static_text_tertiary_light_transparent": {
 		"rgba": "rgba(235, 235, 245, 0.3)",
 		"hex": "#4debebf5",
-		"alias": "staticTextColorTertiaryLightTransparent"
+		"alias": "staticTextColorTertiaryLight"
 	}
 }
