@@ -1,3 +1,13 @@
+<a name="3.47.0"></a>
+# [3.47.0](https://github.com/core-ds/ui-primitives/compare/v3.46.0...v3.47.0) (2022-05-06)
+
+
+### Features
+
+* **icons:** add 1 icon ([db511db](https://github.com/core-ds/ui-primitives/commit/db511db))
+
+
+
 <a name="3.46.0"></a>
 # [3.46.0](https://github.com/core-ds/ui-primitives/compare/v3.44.0...v3.46.0) (2022-05-05)
 
