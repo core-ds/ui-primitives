@@ -1,3 +1,8 @@
+<a name="4.0.0"></a>
+# [4.0.0](https://github.com/core-ds/ui-primitives/compare/v3.48.0...v4.0.0) (2022-05-06)
+
+
+
 <a name="3.48.0"></a>
 # [3.48.0](https://github.com/core-ds/ui-primitives/compare/v3.47.0...v3.48.0) (2022-05-06)
 
