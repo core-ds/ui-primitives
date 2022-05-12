@@ -2,10 +2,16 @@ addReviewers: true
 
 reviewers:
   - slavastrizh
-  - Shushuru
-  - Elenajoyka
   - andylovesyou
+  - DenisLipin
   - gridnoir
+  - OlegMeo
+  - MariaGalukha
+  - shalaeva-liza
+  - TashaRTV
+  - sataevru
 
 skipKeywords:
   - wip
+
+numberOfReviewers: 0
