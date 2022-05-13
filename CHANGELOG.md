@@ -1,3 +1,13 @@
+<a name="5.0.0"></a>
+# [5.0.0](https://github.com/core-ds/ui-primitives/compare/v4.2.0...v5.0.0) (2022-05-13)
+
+
+### Features
+
+* **tokens:** v2 styles ([#39](https://github.com/core-ds/ui-primitives/issues/39)) ([994ae72](https://github.com/core-ds/ui-primitives/commit/994ae72))
+
+
+
 <a name="4.2.0"></a>
 # [4.2.0](https://github.com/core-ds/ui-primitives/compare/v4.1.0...v4.2.0) (2022-05-12)
 
