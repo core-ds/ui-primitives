@@ -1,3 +1,13 @@
+<a name="5.12.0"></a>
+# [5.12.0](https://github.com/core-ds/ui-primitives/compare/v5.11.0...v5.12.0) (2022-06-08)
+
+
+### Features
+
+* **icons:** user and user-rounded ([#68](https://github.com/core-ds/ui-primitives/issues/68)) ([8c83492](https://github.com/core-ds/ui-primitives/commit/8c83492))
+
+
+
 <a name="5.11.0"></a>
 # [5.11.0](https://github.com/core-ds/ui-primitives/compare/v5.10.0...v5.11.0) (2022-06-03)
 
