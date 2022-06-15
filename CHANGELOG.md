@@ -1,3 +1,13 @@
+<a name="5.14.0"></a>
+# [5.14.0](https://github.com/core-ds/ui-primitives/compare/v5.13.0...v5.14.0) (2022-06-15)
+
+
+### Features
+
+* **icons:** move logo ([#111](https://github.com/core-ds/ui-primitives/issues/111)) ([2556b3d](https://github.com/core-ds/ui-primitives/commit/2556b3d))
+
+
+
 <a name="5.13.0"></a>
 # [5.13.0](https://github.com/core-ds/ui-primitives/compare/v5.12.0...v5.13.0) (2022-06-15)
 
