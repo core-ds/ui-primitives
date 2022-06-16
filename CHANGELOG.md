@@ -1,3 +1,13 @@
+<a name="5.16.0"></a>
+# [5.16.0](https://github.com/core-ds/ui-primitives/compare/v5.15.0...v5.16.0) (2022-06-16)
+
+
+### Features
+
+* **icons:** move play ([#116](https://github.com/core-ds/ui-primitives/issues/116)) ([cc49dac](https://github.com/core-ds/ui-primitives/commit/cc49dac))
+
+
+
 <a name="5.15.0"></a>
 # [5.15.0](https://github.com/core-ds/ui-primitives/compare/v5.14.0...v5.15.0) (2022-06-16)
 
