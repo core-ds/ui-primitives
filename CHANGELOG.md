@@ -1,3 +1,13 @@
+<a name="5.20.0"></a>
+# [5.20.0](https://github.com/core-ds/ui-primitives/compare/v5.19.0...v5.20.0) (2022-06-17)
+
+
+### Features
+
+* **icons:** add 1 icon ([#122](https://github.com/core-ds/ui-primitives/issues/122)) ([7830b02](https://github.com/core-ds/ui-primitives/commit/7830b02))
+
+
+
 <a name="5.19.0"></a>
 # [5.19.0](https://github.com/core-ds/ui-primitives/compare/v5.18.0...v5.19.0) (2022-06-16)
 
