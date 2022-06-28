@@ -1,3 +1,13 @@
+<a name="6.0.0"></a>
+# [6.0.0](https://github.com/core-ds/ui-primitives/compare/v5.24.0...v6.0.0) (2022-06-28)
+
+
+### Bug Fixes
+
+* **icons:** bundle folders ([#134](https://github.com/core-ds/ui-primitives/issues/134)) ([d151f0e](https://github.com/core-ds/ui-primitives/commit/d151f0e))
+
+
+
 <a name="5.24.0"></a>
 # [5.24.0](https://github.com/core-ds/ui-primitives/compare/v5.21.0...v5.24.0) (2022-06-24)
 
