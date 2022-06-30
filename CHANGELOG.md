@@ -1,3 +1,17 @@
+<a name="6.4.0"></a>
+# [6.4.0](https://github.com/core-ds/ui-primitives/compare/v6.1.0...v6.4.0) (2022-06-30)
+
+
+### Features
+
+* **icons:** add 1 icon ([#135](https://github.com/core-ds/ui-primitives/issues/135)) ([9639e02](https://github.com/core-ds/ui-primitives/commit/9639e02))
+* **icons:** add 1 icon ([#136](https://github.com/core-ds/ui-primitives/issues/136)) ([7d9f90f](https://github.com/core-ds/ui-primitives/commit/7d9f90f))
+* **icons:** add 1 icon ([#137](https://github.com/core-ds/ui-primitives/issues/137)) ([63b6a26](https://github.com/core-ds/ui-primitives/commit/63b6a26))
+* **icons:** add 1 icon ([#138](https://github.com/core-ds/ui-primitives/issues/138)) ([65dcb64](https://github.com/core-ds/ui-primitives/commit/65dcb64))
+* **icons:** add 1 icon ([#140](https://github.com/core-ds/ui-primitives/issues/140)) ([ebfbce8](https://github.com/core-ds/ui-primitives/commit/ebfbce8))
+
+
+
 <a name="6.1.0"></a>
 # [6.1.0](https://github.com/core-ds/ui-primitives/compare/v6.0.0...v6.1.0) (2022-06-29)
 
