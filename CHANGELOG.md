@@ -1,3 +1,13 @@
+<a name="6.5.0"></a>
+# [6.5.0](https://github.com/core-ds/ui-primitives/compare/v6.4.0...v6.5.0) (2022-07-04)
+
+
+### Features
+
+* **icons:** add 1 icon ([#141](https://github.com/core-ds/ui-primitives/issues/141)) ([38b8341](https://github.com/core-ds/ui-primitives/commit/38b8341))
+
+
+
 <a name="6.4.0"></a>
 # [6.4.0](https://github.com/core-ds/ui-primitives/compare/v6.1.0...v6.4.0) (2022-06-30)
 
