@@ -1,3 +1,13 @@
+<a name="6.8.0"></a>
+# [6.8.0](https://github.com/core-ds/ui-primitives/compare/v6.7.0...v6.8.0) (2022-07-08)
+
+
+### Features
+
+* **tokens:** transparent text colors by default ([#144](https://github.com/core-ds/ui-primitives/issues/144)) ([a9a7cda](https://github.com/core-ds/ui-primitives/commit/a9a7cda))
+
+
+
 <a name="6.7.0"></a>
 # [6.7.0](https://github.com/core-ds/ui-primitives/compare/v6.6.0...v6.7.0) (2022-07-06)
 
