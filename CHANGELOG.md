@@ -1,3 +1,8 @@
+<a name="6.13.0"></a>
+# [6.13.0](https://github.com/core-ds/ui-primitives/compare/v6.12.0...v6.13.0) (2022-07-20)
+
+
+
 <a name="6.11.0"></a>
 # [6.11.0](https://github.com/core-ds/ui-primitives/compare/v6.10.0...v6.11.0) (2022-07-18)
 
