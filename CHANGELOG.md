@@ -1,3 +1,13 @@
+<a name="6.14.0"></a>
+# [6.14.0](https://github.com/core-ds/ui-primitives/compare/v6.12.0...v6.14.0) (2022-07-20)
+
+
+### Bug Fixes
+
+* dirty release, sorry ([379d536](https://github.com/core-ds/ui-primitives/commit/379d536))
+
+
+
 <a name="6.13.0"></a>
 # [6.13.0](https://github.com/core-ds/ui-primitives/compare/v6.12.0...v6.13.0) (2022-07-20)
 
