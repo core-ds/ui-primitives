@@ -1,3 +1,13 @@
+<a name="6.16.0"></a>
+# [6.16.0](https://github.com/core-ds/ui-primitives/compare/v6.15.0...v6.16.0) (2022-07-22)
+
+
+### Bug Fixes
+
+* revert ci script ([02aabeb](https://github.com/core-ds/ui-primitives/commit/02aabeb))
+
+
+
 <a name="6.15.0"></a>
 # [6.15.0](https://github.com/core-ds/ui-primitives/compare/v6.14.0...v6.15.0) (2022-07-20)
 
