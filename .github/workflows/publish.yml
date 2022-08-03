@@ -3,6 +3,10 @@ on:
   push:
     branches:
       - master
+      
+concurrency:
+  group: "publish"
+  cancel-in-progress: true
 
 jobs:
   build:
