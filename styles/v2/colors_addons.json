@@ -443,5 +443,179 @@
 		"rgba": "rgba(33, 145, 135, 1)",
 		"hex": "#219187",
 		"alias": "staticStatusColorTeal"
+	},
+	"static_graphic_blue_chill_old": {
+		"rgba": "rgba(15, 156, 140, 1)",
+		"hex": "#0f9c8c",
+		"alias": "staticGraphicBlueChill",
+		"deprecated": true
+	},
+	"static_graphic_blue_maya_old": {
+		"rgba": "rgba(126, 179, 255, 1)",
+		"hex": "#7eb3ff",
+		"alias": "staticGraphicColorMaya",
+		"deprecated": true
+	},
+	"static_graphic_boulder_old": {
+		"rgba": "rgba(122, 122, 122, 1)",
+		"hex": "#7a7a7a",
+		"alias": "staticGraphicBoulder",
+		"deprecated": true
+	},
+	"static_graphic_brink_pink_old": {
+		"rgba": "rgba(252, 97, 124, 1)",
+		"hex": "#fc617c",
+		"alias": "staticGraphicBrinkPink",
+		"deprecated": true
+	},
+	"static_graphic_burnt_sienna_old": {
+		"rgba": "rgba(235, 122, 88, 1)",
+		"hex": "#eb7a58",
+		"alias": "staticGraphicBurntSienna",
+		"deprecated": true
+	},
+	"static_graphic_chatelle_old": {
+		"rgba": "rgba(191, 175, 198, 1)",
+		"hex": "#bfafc6",
+		"alias": "staticGraphicChatelle",
+		"deprecated": true
+	},
+	"static_graphic_chathams_blue_old": {
+		"rgba": "rgba(21, 89, 102, 1)",
+		"hex": "#155966",
+		"alias": "staticGraphicChathamsBlue",
+		"deprecated": true
+	},
+	"static_graphic_curious_blue_light_old": {
+		"rgba": "rgba(59, 153, 217, 1)",
+		"hex": "#3b99d9",
+		"alias": "staticGraphicCuriousBlueLight",
+		"deprecated": true
+	},
+	"static_graphic_fun_blue_old": {
+		"rgba": "rgba(29, 106, 181, 1)",
+		"hex": "#1d6ab5",
+		"alias": "staticGraphicFunBlue",
+		"deprecated": true
+	},
+	"static_graphic_hippie_blue_old": {
+		"rgba": "rgba(90, 164, 176, 1)",
+		"hex": "#5aa4b0",
+		"alias": "staticGraphicHippieBlue",
+		"deprecated": true
+	},
+	"static_graphic_jaffa_light_old": {
+		"rgba": "rgba(241, 136, 54, 1)",
+		"hex": "#f18836",
+		"alias": "staticGraphicJaffaLight",
+		"deprecated": true
+	},
+	"static_graphic_java_old": {
+		"rgba": "rgba(21, 192, 224, 1)",
+		"hex": "#15c0e0",
+		"alias": "staticGraphicJava",
+		"deprecated": true
+	},
+	"static_graphic_mantis_old": {
+		"rgba": "rgba(99, 205, 79, 1)",
+		"hex": "#63cd4f",
+		"alias": "staticGraphicMantis",
+		"deprecated": true
+	},
+	"static_graphic_matisse_old": {
+		"rgba": "rgba(22, 84, 143, 1)",
+		"hex": "#16548f",
+		"alias": "staticGraphicMatisse",
+		"deprecated": true
+	},
+	"static_graphic_milano_red_old": {
+		"rgba": "rgba(205, 21, 1, 1)",
+		"hex": "#cd1501",
+		"alias": "staticGraphicMilanoRed",
+		"deprecated": true
+	},
+	"static_graphic_mirage_old": {
+		"rgba": "rgba(29, 36, 52, 1)",
+		"hex": "#1d2434",
+		"alias": "staticGraphicMirage",
+		"deprecated": true
+	},
+	"static_graphic_nevada_old": {
+		"rgba": "rgba(98, 107, 117, 1)",
+		"hex": "#626b75",
+		"alias": "staticGraphicNevada",
+		"deprecated": true
+	},
+	"static_graphic_olivine_old": {
+		"rgba": "rgba(135, 185, 101, 1)",
+		"hex": "#87b965",
+		"alias": "staticGraphicOlivine",
+		"deprecated": true
+	},
+	"static_graphic_persimmon_old": {
+		"rgba": "rgba(255, 92, 92, 1)",
+		"hex": "#ff5c5c",
+		"alias": "staticGraphicColorPermission",
+		"deprecated": true
+	},
+	"static_graphic_pewter_old": {
+		"rgba": "rgba(150, 165, 165, 1)",
+		"hex": "#96a5a5",
+		"alias": "staticGraphicPewter",
+		"deprecated": true
+	},
+	"static_graphic_pickled_bluewood_old": {
+		"rgba": "rgba(45, 63, 80, 1)",
+		"hex": "#2d3f50",
+		"alias": "staticGraphicPickledBluewood",
+		"deprecated": true
+	},
+	"static_graphic_porsche_old": {
+		"rgba": "rgba(231, 185, 101, 1)",
+		"hex": "#e7b965",
+		"alias": "staticGraphicPorsche",
+		"deprecated": true
+	},
+	"static_graphic_red_damask_old": {
+		"rgba": "rgba(218, 113, 60, 1)",
+		"hex": "#da713c",
+		"alias": "staticGraphicRedDamask",
+		"deprecated": true
+	},
+	"static_graphic_saffron_old": {
+		"rgba": "rgba(240, 195, 48, 1)",
+		"hex": "#f0c330",
+		"alias": "staticGraphicSaffron",
+		"deprecated": true
+	},
+	"static_graphic_sandy_brown_old": {
+		"rgba": "rgba(243, 143, 111, 1)",
+		"hex": "#f38f6f",
+		"alias": "staticGraphicSandybrown",
+		"deprecated": true
+	},
+	"static_graphic_turkish_rose_old": {
+		"rgba": "rgba(181, 106, 107, 1)",
+		"hex": "#b56a6b",
+		"alias": "staticGraphicTurkishRose",
+		"deprecated": true
+	},
+	"static_graphic_turquoise_blue_old": {
+		"rgba": "rgba(107, 211, 230, 1)",
+		"hex": "#6bd3e6",
+		"alias": "staticGraphicTurquoiseBlue",
+		"deprecated": true
+	},
+	"static_graphic_valencia_old": {
+		"rgba": "rgba(216, 70, 59, 1)",
+		"hex": "#d8463b",
+		"alias": "staticGraphicValencia",
+		"deprecated": true
+	},
+	"static_graphic_waikawa_gray_old": {
+		"rgba": "rgba(91, 109, 156, 1)",
+		"hex": "#5b6d9c",
+		"alias": "staticGraphicWaikawaGray",
+		"deprecated": true
 	}
 }

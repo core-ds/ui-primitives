@@ -698,5 +698,83 @@
 		"rgba": "rgba(235, 235, 245, 0.3)",
 		"hex": "#4debebf5",
 		"alias": "staticTextColorTertiaryLight"
+	},
+	"dark_bg_info_old": {
+		"rgba": "rgba(0, 28, 60, 1)",
+		"hex": "#001c3c",
+		"alias": "backgroundColorLinkMuted",
+		"deprecated": true
+	},
+	"dark_bg_overlay_old": {
+		"rgba": "rgba(0, 0, 0, 0.8)",
+		"hex": "#cc000000",
+		"alias": "specialBackgroundColorOverlay",
+		"deprecated": true
+	},
+	"dark_specialbg_component_old": {
+		"rgba": "rgba(255, 255, 255, 0.1)",
+		"hex": "#1affffff",
+		"alias": "backgroundColorComponent",
+		"deprecated": true
+	},
+	"dark_specialbg_component_inverted_old": {
+		"rgba": "rgba(0, 0, 0, 0.08)",
+		"hex": "#14000000",
+		"alias": "backgroundColorComponentInverted",
+		"deprecated": true
+	},
+	"static_text_secondary_light_transparent_old": {
+		"rgba": "rgba(235, 235, 245, 0.6)",
+		"hex": "#99ebebf5",
+		"alias": "staticTextColorSecondaryLightTransparent",
+		"deprecated": true
+	},
+	"static_text_tertiary_light_transparent_old": {
+		"rgba": "rgba(235, 235, 245, 0.3)",
+		"hex": "#4debebf5",
+		"alias": "staticTextColorTertiaryLightTransparent",
+		"deprecated": true
+	},
+	"light_bg_info_old": {
+		"rgba": "rgba(214, 232, 252, 1)",
+		"hex": "#d6e8fc",
+		"alias": "backgroundColorLinkMuted",
+		"deprecated": true
+	},
+	"dark_bg_neutral": {
+		"rgba": "rgba(58, 58, 60, 1)",
+		"hex": "#3a3a3c",
+		"alias": "backgroundColorNeutral",
+		"deprecated": true
+	},
+	"dark_graphic_neutral": {
+		"rgba": "rgba(42, 42, 44, 1)",
+		"hex": "#2a2a2c",
+		"alias": "graphicColorNeutral",
+		"deprecated": true
+	},
+	"light_bg_neutral": {
+		"rgba": "rgba(220, 220, 221, 1)",
+		"hex": "#dcdcdd",
+		"alias": "backgroundColorNeutral",
+		"deprecated": true
+	},
+	"light_graphic_neutral": {
+		"rgba": "rgba(220, 220, 221, 1)",
+		"hex": "#dcdcdd",
+		"alias": "graphicColorNeutral",
+		"deprecated": true
+	},
+	"static_bg_neutral_dark": {
+		"rgba": "rgba(58, 58, 60, 1)",
+		"hex": "#3a3a3c",
+		"alias": "staticBackgroundColorNeutralDark",
+		"deprecated": true
+	},
+	"static_bg_neutral_light": {
+		"rgba": "rgba(220, 220, 221, 1)",
+		"hex": "#dcdcdd",
+		"alias": "staticBackgroundColorNeutralLight",
+		"deprecated": true
 	}
 }

@@ -698,5 +698,87 @@
 		"rgba": "rgba(255, 255, 255, 0.4)",
 		"hex": "#66ffffff",
 		"alias": "staticTextColorTertiaryLight"
+	},
+	"dark_bg_info_old": {
+		"rgba": "rgba(0, 28, 60, 1)",
+		"hex": "#001c3c",
+		"alias": "backgroundColorLinkMuted",
+		"deprecated": true
+	},
+	"dark_specialbg_component_old": {
+		"rgba": "rgba(255, 255, 255, 0.15)",
+		"hex": "#26ffffff",
+		"alias": "backgroundColorComponent",
+		"deprecated": true
+	},
+	"dark_specialbg_component_inverted_old": {
+		"rgba": "rgba(11, 31, 53, 0.07)",
+		"hex": "#120b1f35",
+		"alias": "backgroundColorComponentInverted",
+		"deprecated": true
+	},
+	"dark_specialbg_nulled_old": {
+		"rgba": "rgba(11, 31, 53, 0)",
+		"hex": "#000b1f35",
+		"alias": "backgroundColorNulled",
+		"deprecated": true
+	},
+	"dark_specialbg_primary_grouped_old": {
+		"rgba": "rgba(11, 31, 53, 1)",
+		"hex": "#0b1f35",
+		"alias": "backgroundColorPrimaryGrouped",
+		"deprecated": true
+	},
+	"dark_specialbg_secondary_grouped_old": {
+		"rgba": "rgba(35, 53, 73, 1)",
+		"hex": "#233549",
+		"alias": "backgroundColorSecondaryGrouped",
+		"deprecated": true
+	},
+	"dark_specialbg_tertiary_grouped_old": {
+		"rgba": "rgba(60, 76, 93, 1)",
+		"hex": "#3c4c5d",
+		"alias": "backgroundColorTertiaryGrouped",
+		"deprecated": true
+	},
+	"light_bg_info_old": {
+		"rgba": "rgba(214, 232, 252, 1)",
+		"hex": "#d6e8fc",
+		"alias": "backgroundColorLinkMuted",
+		"deprecated": true
+	},
+	"static_bg_dark": {
+		"rgba": "rgba(0, 0, 0, 1)",
+		"hex": "#000000",
+		"deprecated": true
+	},
+	"static_bg_light": {
+		"rgba": "rgba(255, 255, 255, 1)",
+		"hex": "#ffffff",
+		"deprecated": true
+	},
+	"dark_bg_neutral": {
+		"rgba": "rgba(72, 87, 103, 1)",
+		"hex": "#485767",
+		"alias": "backgroundColorNeutral",
+		"deprecated": true
+	},
+	"dark_graphic_neutral": {
+		"rgba": "rgba(72, 87, 103, 1)",
+		"hex": "#485767",
+		"alias": "graphicColorNeutral",
+		"deprecated": true
+	},
+	"light_bg_neutral": {
+		"rgba": "rgba(219, 222, 225, 1)",
+		"hex": "#dbdee1",
+		"alias": "backgroundColorNeutral",
+		"deprecated": true
+	},
+	"light_graphic_neutral": {
+		"rgba": "rgba(219, 222, 225, 1)",
+		"hex": "#dbdee1",
+		"alias": "graphicColorNeutral",
+		"deprecated": true
 	}
 }
