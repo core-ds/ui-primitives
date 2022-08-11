@@ -1,3 +1,13 @@
+<a name="6.23.0"></a>
+# [6.23.0](https://github.com/core-ds/ui-primitives/compare/v6.22.0...v6.23.0) (2022-08-11)
+
+
+### Features
+
+* **icons:** add 4 icons  ([bec0cf4](https://github.com/core-ds/ui-primitives/commit/bec0cf4))
+
+
+
 <a name="6.22.0"></a>
 # [6.22.0](https://github.com/core-ds/ui-primitives/compare/v6.21.0...v6.22.0) (2022-08-09)
 
