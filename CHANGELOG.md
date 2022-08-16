@@ -1,3 +1,13 @@
+<a name="6.25.0"></a>
+# [6.25.0](https://github.com/core-ds/ui-primitives/compare/v6.24.0...v6.25.0) (2022-08-16)
+
+
+### Features
+
+* **tokens:** deprecated styles resurrection ([#201](https://github.com/core-ds/ui-primitives/issues/201)) ([2b689bc](https://github.com/core-ds/ui-primitives/commit/2b689bc))
+
+
+
 <a name="6.24.0"></a>
 # [6.24.0](https://github.com/core-ds/ui-primitives/compare/v6.23.0...v6.24.0) (2022-08-15)
 
