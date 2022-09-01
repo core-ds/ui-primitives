@@ -229,61 +229,6 @@
     "letter_spacing": 1.25,
     "monospace": false
   },
-  "LegacyXLarge": {
-    "font_size": 34,
-    "line_height": 41,
-    "line_spacing": 0,
-    "font_family": "System",
-    "font_weight": "bold",
-    "text_all_caps": false,
-    "letter_spacing": 0.37,
-    "monospace": false,
-    "deprecated": true
-  },
-  "LegacyLarge": {
-    "font_size": 30,
-    "line_height": 36,
-    "line_spacing": 0,
-    "font_family": "System",
-    "font_weight": "bold",
-    "text_all_caps": false,
-    "letter_spacing": 0.36,
-    "monospace": false,
-    "deprecated": true
-  },
-  "LegacyMedium": {
-    "font_size": 27,
-    "line_height": 32,
-    "line_spacing": 0,
-    "font_family": "System",
-    "font_weight": "bold",
-    "text_all_caps": false,
-    "letter_spacing": 0.35,
-    "monospace": false,
-    "deprecated": true
-  },
-  "LegacySmall": {
-    "font_size": 22,
-    "line_height": 28,
-    "line_spacing": 2,
-    "font_family": "System",
-    "font_weight": "bold",
-    "text_all_caps": false,
-    "letter_spacing": 0.35,
-    "monospace": false,
-    "deprecated": true
-  },
-  "LegacyXSmall": {
-    "font_size": 17,
-    "line_height": 24,
-    "line_spacing": 4,
-    "font_family": "System",
-    "font_weight": "bold",
-    "text_all_caps": false,
-    "letter_spacing": -0.41,
-    "monospace": false,
-    "deprecated": true
-  },
   "PromoXLarge": {
     "font_size": 34,
     "line_height": 41,
@@ -483,6 +428,61 @@
     "text_all_caps": false,
     "letter_spacing": 0.07,
     "monospace": true
+  },
+  "LegacyXLarge": {
+    "font_size": 34,
+    "line_height": 41,
+    "line_spacing": 0,
+    "font_family": "System",
+    "font_weight": "bold",
+    "text_all_caps": false,
+    "letter_spacing": 0.37,
+    "monospace": false,
+    "deprecated": true
+  },
+  "LegacyLarge": {
+    "font_size": 30,
+    "line_height": 36,
+    "line_spacing": 0,
+    "font_family": "System",
+    "font_weight": "bold",
+    "text_all_caps": false,
+    "letter_spacing": 0.36,
+    "monospace": false,
+    "deprecated": true
+  },
+  "LegacyMedium": {
+    "font_size": 27,
+    "line_height": 32,
+    "line_spacing": 0,
+    "font_family": "System",
+    "font_weight": "bold",
+    "text_all_caps": false,
+    "letter_spacing": 0.35,
+    "monospace": false,
+    "deprecated": true
+  },
+  "LegacySmall": {
+    "font_size": 22,
+    "line_height": 28,
+    "line_spacing": 2,
+    "font_family": "System",
+    "font_weight": "bold",
+    "text_all_caps": false,
+    "letter_spacing": 0.35,
+    "monospace": false,
+    "deprecated": true
+  },
+  "LegacyXSmall": {
+    "font_size": 17,
+    "line_height": 24,
+    "line_spacing": 4,
+    "font_family": "System",
+    "font_weight": "bold",
+    "text_all_caps": false,
+    "letter_spacing": -0.41,
+    "monospace": false,
+    "deprecated": true
   },
   "Heading1": {
     "alias": "headerL",
