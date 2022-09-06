@@ -1,3 +1,13 @@
+<a name="7.0.0"></a>
+# [7.0.0](https://github.com/core-ds/ui-primitives/compare/v6.38.0...v7.0.0) (2022-09-06)
+
+
+### Features
+
+* **styles:** update styles, remove v2 BREAKING CHANGE ([#214](https://github.com/core-ds/ui-primitives/issues/214)) ([725d402](https://github.com/core-ds/ui-primitives/commit/725d402))
+
+
+
 <a name="6.38.0"></a>
 # [6.38.0](https://github.com/core-ds/ui-primitives/compare/v6.37.0...v6.38.0) (2022-09-05)
 
