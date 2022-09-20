@@ -1,3 +1,8 @@
+<a name="8.0.0"></a>
+# [8.0.0](https://github.com/core-ds/ui-primitives/compare/v7.11.0...v8.0.0) (2022-09-20)
+
+
+
 <a name="7.11.0"></a>
 # [7.11.0](https://github.com/core-ds/ui-primitives/compare/v7.10.0...v7.11.0) (2022-09-20)
 
