@@ -232,12 +232,12 @@
 	"dark_specialbg_secondary_transparent": {
 		"rgba": "rgba(255, 255, 255, 0.1)",
 		"hex": "#1affffff",
-		"alias": "specialBackgroundColorSecondary"
+		"alias": "specialBackgroundColorSecondaryTransparent"
 	},
 	"dark_specialbg_secondary_transparent_inverted": {
 		"rgba": "rgba(11, 31, 53, 0.05)",
 		"hex": "#0d0b1f35",
-		"alias": "specialBackgroundColorSecondaryInverted"
+		"alias": "specialBackgroundColorSecondaryTransparentInverted"
 	},
 	"dark_specialbg_tertiary_grouped": {
 		"rgba": "rgba(60, 76, 93, 1)",
@@ -247,12 +247,12 @@
 	"dark_specialbg_tertiary_transparent": {
 		"rgba": "rgba(255, 255, 255, 0.2)",
 		"hex": "#33ffffff",
-		"alias": "specialBackgroundColorTertiary"
+		"alias": "specialBackgroundColorTertiaryTransparent"
 	},
 	"dark_specialbg_tertiary_transparent_inverted": {
 		"rgba": "rgba(11, 31, 53, 0.1)",
 		"hex": "#1a0b1f35",
-		"alias": "specialBackgroundColorTertiaryInverted"
+		"alias": "specialBackgroundColorTertiaryTransparentInverted"
 	},
 	"dark_text_accent": {
 		"rgba": "rgba(239, 49, 36, 1)",
@@ -552,12 +552,12 @@
 	"light_specialbg_secondary_transparent": {
 		"rgba": "rgba(11, 31, 53, 0.05)",
 		"hex": "#0d0b1f35",
-		"alias": "specialBackgroundColorSecondary"
+		"alias": "specialBackgroundColorSecondaryTransparent"
 	},
 	"light_specialbg_secondary_transparent_inverted": {
 		"rgba": "rgba(255, 255, 255, 0.1)",
 		"hex": "#1affffff",
-		"alias": "specialBackgroundColorSecondaryInverted"
+		"alias": "specialBackgroundColorSecondaryTransparentInverted"
 	},
 	"light_specialbg_tertiary_grouped": {
 		"rgba": "rgba(243, 244, 245, 1)",
@@ -567,12 +567,12 @@
 	"light_specialbg_tertiary_transparent": {
 		"rgba": "rgba(11, 31, 53, 0.1)",
 		"hex": "#1a0b1f35",
-		"alias": "specialBackgroundColorTertiary"
+		"alias": "specialBackgroundColorTertiaryTransparent"
 	},
 	"light_specialbg_tertiary_transparent_inverted": {
 		"rgba": "rgba(255, 255, 255, 0.2)",
 		"hex": "#33ffffff",
-		"alias": "specialBackgroundColorTertiaryInverted"
+		"alias": "specialBackgroundColorTertiaryTransparentInverted"
 	},
 	"light_text_accent": {
 		"rgba": "rgba(239, 49, 36, 1)",
