@@ -1,3 +1,13 @@
+<a name="8.10.0"></a>
+# [8.10.0](https://github.com/core-ds/ui-primitives/compare/v8.9.0...v8.10.0) (2022-09-29)
+
+
+### Features
+
+* **styles:** new specialbg colors 🤖 ([#243](https://github.com/core-ds/ui-primitives/issues/243)) ([d07c44c](https://github.com/core-ds/ui-primitives/commit/d07c44c))
+
+
+
 <a name="8.9.0"></a>
 # [8.9.0](https://github.com/core-ds/ui-primitives/compare/v8.8.0...v8.9.0) (2022-09-27)
 
