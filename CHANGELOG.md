@@ -1,3 +1,13 @@
+<a name="8.13.0"></a>
+# [8.13.0](https://github.com/core-ds/ui-primitives/compare/v8.12.0...v8.13.0) (2022-09-30)
+
+
+### Features
+
+* **icons:** add 11 icons ([#247](https://github.com/core-ds/ui-primitives/issues/247)) ([b8a228b](https://github.com/core-ds/ui-primitives/commit/b8a228b))
+
+
+
 <a name="8.12.0"></a>
 # [8.12.0](https://github.com/core-ds/ui-primitives/compare/v8.11.0...v8.12.0) (2022-09-30)
 
