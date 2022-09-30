@@ -1,3 +1,699 @@
+<a name="8.13.0"></a>
+# [8.13.0](https://github.com/core-ds/ui-primitives/compare/v8.12.0...v8.13.0) (2022-09-30)
+
+
+### Features
+
+* **icons:** add 11 icons ([#247](https://github.com/core-ds/ui-primitives/issues/247)) ([b8a228b](https://github.com/core-ds/ui-primitives/commit/b8a228b))
+
+
+
+<a name="8.12.0"></a>
+# [8.12.0](https://github.com/core-ds/ui-primitives/compare/v8.11.0...v8.12.0) (2022-09-30)
+
+
+### Features
+
+* **icons:** add 11 icons ([#246](https://github.com/core-ds/ui-primitives/issues/246)) ([db4ff2f](https://github.com/core-ds/ui-primitives/commit/db4ff2f))
+
+
+
+<a name="8.11.0"></a>
+# [8.11.0](https://github.com/core-ds/ui-primitives/compare/v8.10.0...v8.11.0) (2022-09-30)
+
+
+### Features
+
+* **icons:** add 6 icons ([#245](https://github.com/core-ds/ui-primitives/issues/245)) ([37e1d82](https://github.com/core-ds/ui-primitives/commit/37e1d82))
+
+
+
+<a name="8.10.0"></a>
+# [8.10.0](https://github.com/core-ds/ui-primitives/compare/v8.9.0...v8.10.0) (2022-09-29)
+
+
+### Features
+
+* **styles:** new specialbg colors 🤖 ([#243](https://github.com/core-ds/ui-primitives/issues/243)) ([d07c44c](https://github.com/core-ds/ui-primitives/commit/d07c44c))
+
+
+
+<a name="8.9.0"></a>
+# [8.9.0](https://github.com/core-ds/ui-primitives/compare/v8.8.0...v8.9.0) (2022-09-27)
+
+
+### Features
+
+* **icons:** add 1 icon ([#244](https://github.com/core-ds/ui-primitives/issues/244)) ([e68eda8](https://github.com/core-ds/ui-primitives/commit/e68eda8))
+
+
+
+<a name="8.8.0"></a>
+# [8.8.0](https://github.com/core-ds/ui-primitives/compare/v8.7.0...v8.8.0) (2022-09-26)
+
+
+### Features
+
+* **icons:** add 2 icons ([#241](https://github.com/core-ds/ui-primitives/issues/241)) ([0101fb9](https://github.com/core-ds/ui-primitives/commit/0101fb9))
+* **icons:** add 6 icons ([#242](https://github.com/core-ds/ui-primitives/issues/242)) ([323cf74](https://github.com/core-ds/ui-primitives/commit/323cf74))
+
+
+
+<a name="8.7.0"></a>
+# [8.7.0](https://github.com/core-ds/ui-primitives/compare/v8.6.0...v8.7.0) (2022-09-23)
+
+
+### Features
+
+* **icons:** add 2 icons ([#240](https://github.com/core-ds/ui-primitives/issues/240)) ([562a9e6](https://github.com/core-ds/ui-primitives/commit/562a9e6))
+
+
+
+<a name="8.6.0"></a>
+# [8.6.0](https://github.com/core-ds/ui-primitives/compare/v8.5.0...v8.6.0) (2022-09-23)
+
+
+### Features
+
+* **icons:** add 4 icons ([#239](https://github.com/core-ds/ui-primitives/issues/239)) ([021aecb](https://github.com/core-ds/ui-primitives/commit/021aecb))
+
+
+
+<a name="8.5.0"></a>
+# [8.5.0](https://github.com/core-ds/ui-primitives/compare/v8.4.0...v8.5.0) (2022-09-23)
+
+
+### Features
+
+* **icons:** add 29 icons ([#238](https://github.com/core-ds/ui-primitives/issues/238)) ([7808929](https://github.com/core-ds/ui-primitives/commit/7808929))
+
+
+
+<a name="8.4.0"></a>
+# [8.4.0](https://github.com/core-ds/ui-primitives/compare/v8.3.0...v8.4.0) (2022-09-23)
+
+
+### Features
+
+* **icons:** add 21 icons ([#237](https://github.com/core-ds/ui-primitives/issues/237)) ([96e37ad](https://github.com/core-ds/ui-primitives/commit/96e37ad))
+
+
+
+<a name="8.3.0"></a>
+# [8.3.0](https://github.com/core-ds/ui-primitives/compare/v8.2.0...v8.3.0) (2022-09-23)
+
+
+### Features
+
+* **icons:** add 24 icons ([#236](https://github.com/core-ds/ui-primitives/issues/236)) ([5c4ab5d](https://github.com/core-ds/ui-primitives/commit/5c4ab5d))
+
+
+
+<a name="8.2.0"></a>
+# [8.2.0](https://github.com/core-ds/ui-primitives/compare/v8.1.0...v8.2.0) (2022-09-23)
+
+
+### Features
+
+* **icons:** add 29 icons ([#235](https://github.com/core-ds/ui-primitives/issues/235)) ([6ccb1c0](https://github.com/core-ds/ui-primitives/commit/6ccb1c0))
+
+
+
+<a name="8.1.0"></a>
+# [8.1.0](https://github.com/core-ds/ui-primitives/compare/v8.0.0...v8.1.0) (2022-09-22)
+
+
+### Features
+
+* **icons:** add 2 icons  ([c1ae81d](https://github.com/core-ds/ui-primitives/commit/c1ae81d))
+
+
+
+<a name="8.0.0"></a>
+# [8.0.0](https://github.com/core-ds/ui-primitives/compare/v7.11.0...v8.0.0) (2022-09-20)
+
+
+
+<a name="7.11.0"></a>
+# [7.11.0](https://github.com/core-ds/ui-primitives/compare/v7.10.0...v7.11.0) (2022-09-20)
+
+
+### Features
+
+* **icons:** add 1 icon ([#232](https://github.com/core-ds/ui-primitives/issues/232)) ([7ab1d98](https://github.com/core-ds/ui-primitives/commit/7ab1d98))
+
+
+
+<a name="7.10.0"></a>
+# [7.10.0](https://github.com/core-ds/ui-primitives/compare/v7.9.0...v7.10.0) (2022-09-19)
+
+
+### Features
+
+* **icons:** add 2 icons ([#231](https://github.com/core-ds/ui-primitives/issues/231)) ([bb57ccb](https://github.com/core-ds/ui-primitives/commit/bb57ccb))
+
+
+
+<a name="7.9.0"></a>
+# [7.9.0](https://github.com/core-ds/ui-primitives/compare/v7.8.0...v7.9.0) (2022-09-19)
+
+
+### Features
+
+* **icons:** add 1 icon ([#230](https://github.com/core-ds/ui-primitives/issues/230)) ([43faa58](https://github.com/core-ds/ui-primitives/commit/43faa58))
+
+
+
+<a name="7.8.0"></a>
+# [7.8.0](https://github.com/core-ds/ui-primitives/compare/v7.7.0...v7.8.0) (2022-09-15)
+
+
+### Features
+
+* **icons:** add 2 icons ([#228](https://github.com/core-ds/ui-primitives/issues/228)) ([e364264](https://github.com/core-ds/ui-primitives/commit/e364264))
+
+
+
+<a name="7.7.0"></a>
+# [7.7.0](https://github.com/core-ds/ui-primitives/compare/v7.6.0...v7.7.0) (2022-09-14)
+
+
+### Features
+
+* **icons:** add 1 icon ([c11eef9](https://github.com/core-ds/ui-primitives/commit/c11eef9))
+
+
+
+<a name="7.6.0"></a>
+# [7.6.0](https://github.com/core-ds/ui-primitives/compare/v7.5.0...v7.6.0) (2022-09-09)
+
+
+### Features
+
+* **icons:** add 4 icons ([#226](https://github.com/core-ds/ui-primitives/issues/226)) ([3709249](https://github.com/core-ds/ui-primitives/commit/3709249))
+
+
+
+<a name="7.5.0"></a>
+# [7.5.0](https://github.com/core-ds/ui-primitives/compare/v7.4.0...v7.5.0) (2022-09-07)
+
+
+### Features
+
+* **icons:** add 1 icon ([#225](https://github.com/core-ds/ui-primitives/issues/225)) ([0d881c3](https://github.com/core-ds/ui-primitives/commit/0d881c3))
+
+
+
+<a name="7.4.0"></a>
+# [7.4.0](https://github.com/core-ds/ui-primitives/compare/v7.3.0...v7.4.0) (2022-09-07)
+
+
+### Features
+
+* **icons:** add 1 icon ([#224](https://github.com/core-ds/ui-primitives/issues/224)) ([3a2143f](https://github.com/core-ds/ui-primitives/commit/3a2143f))
+
+
+
+<a name="7.3.0"></a>
+# [7.3.0](https://github.com/core-ds/ui-primitives/compare/v7.2.0...v7.3.0) (2022-09-07)
+
+
+### Features
+
+* **icons:** add 1 icon ([#223](https://github.com/core-ds/ui-primitives/issues/223)) ([01d22e3](https://github.com/core-ds/ui-primitives/commit/01d22e3))
+
+
+
+<a name="7.2.0"></a>
+# [7.2.0](https://github.com/core-ds/ui-primitives/compare/v7.1.0...v7.2.0) (2022-09-07)
+
+
+### Features
+
+* **icons:** add 1 icon ([#222](https://github.com/core-ds/ui-primitives/issues/222)) ([c19645c](https://github.com/core-ds/ui-primitives/commit/c19645c))
+
+
+
+<a name="7.1.0"></a>
+# [7.1.0](https://github.com/core-ds/ui-primitives/compare/v7.0.0...v7.1.0) (2022-09-06)
+
+
+### Features
+
+* **icons:** add 1 icon ([#221](https://github.com/core-ds/ui-primitives/issues/221)) ([4823790](https://github.com/core-ds/ui-primitives/commit/4823790))
+
+
+
+<a name="7.0.0"></a>
+# [7.0.0](https://github.com/core-ds/ui-primitives/compare/v6.38.0...v7.0.0) (2022-09-06)
+
+
+### Features
+
+* **styles:** update styles, remove v2 BREAKING CHANGE ([#214](https://github.com/core-ds/ui-primitives/issues/214)) ([725d402](https://github.com/core-ds/ui-primitives/commit/725d402))
+
+
+
+<a name="6.38.0"></a>
+# [6.38.0](https://github.com/core-ds/ui-primitives/compare/v6.37.0...v6.38.0) (2022-09-05)
+
+
+### Features
+
+* **icons:** add 1 icon ([#217](https://github.com/core-ds/ui-primitives/issues/217)) ([a3b7a2e](https://github.com/core-ds/ui-primitives/commit/a3b7a2e))
+
+
+
+<a name="6.37.0"></a>
+# [6.37.0](https://github.com/core-ds/ui-primitives/compare/v6.36.0...v6.37.0) (2022-09-05)
+
+
+### Features
+
+* **icons:** add 1 icon ([#218](https://github.com/core-ds/ui-primitives/issues/218)) ([79e73e0](https://github.com/core-ds/ui-primitives/commit/79e73e0))
+
+
+
+<a name="6.36.0"></a>
+# [6.36.0](https://github.com/core-ds/ui-primitives/compare/v6.35.0...v6.36.0) (2022-09-05)
+
+
+### Features
+
+* **icons:** add 1 icon ([#219](https://github.com/core-ds/ui-primitives/issues/219)) ([fb24220](https://github.com/core-ds/ui-primitives/commit/fb24220))
+
+
+
+<a name="6.35.0"></a>
+# [6.35.0](https://github.com/core-ds/ui-primitives/compare/v6.34.0...v6.35.0) (2022-09-05)
+
+
+### Features
+
+* **icons:** add 1 icon ([#220](https://github.com/core-ds/ui-primitives/issues/220)) ([012236f](https://github.com/core-ds/ui-primitives/commit/012236f))
+
+
+
+<a name="6.34.0"></a>
+# [6.34.0](https://github.com/core-ds/ui-primitives/compare/v6.33.0...v6.34.0) (2022-09-05)
+
+
+### Features
+
+* **icons:** add 1 icon ([#216](https://github.com/core-ds/ui-primitives/issues/216)) ([f26da54](https://github.com/core-ds/ui-primitives/commit/f26da54))
+
+
+
+<a name="6.33.0"></a>
+# [6.33.0](https://github.com/core-ds/ui-primitives/compare/v6.32.0...v6.33.0) (2022-08-31)
+
+
+### Features
+
+* **icons:** add 1 icon ([#213](https://github.com/core-ds/ui-primitives/issues/213)) ([8bab41f](https://github.com/core-ds/ui-primitives/commit/8bab41f))
+
+
+
+<a name="6.32.0"></a>
+# [6.32.0](https://github.com/core-ds/ui-primitives/compare/v6.31.0...v6.32.0) (2022-08-31)
+
+
+### Features
+
+* **icons:** add 2 icons ([#212](https://github.com/core-ds/ui-primitives/issues/212)) ([32585b4](https://github.com/core-ds/ui-primitives/commit/32585b4))
+
+
+
+<a name="6.31.0"></a>
+# [6.31.0](https://github.com/core-ds/ui-primitives/compare/v6.30.0...v6.31.0) (2022-08-31)
+
+
+### Features
+
+* **icons:** add 3 icons ([#211](https://github.com/core-ds/ui-primitives/issues/211)) ([ed42d2d](https://github.com/core-ds/ui-primitives/commit/ed42d2d))
+
+
+
+<a name="6.30.0"></a>
+# [6.30.0](https://github.com/core-ds/ui-primitives/compare/v6.29.0...v6.30.0) (2022-08-26)
+
+
+### Features
+
+* **icons:** add 1 icon ([#210](https://github.com/core-ds/ui-primitives/issues/210)) ([94253f0](https://github.com/core-ds/ui-primitives/commit/94253f0))
+
+
+
+<a name="6.29.0"></a>
+# [6.29.0](https://github.com/core-ds/ui-primitives/compare/v6.28.0...v6.29.0) (2022-08-25)
+
+
+### Features
+
+* **icons:** add 3 icons ([#209](https://github.com/core-ds/ui-primitives/issues/209)) ([da54a73](https://github.com/core-ds/ui-primitives/commit/da54a73))
+
+
+
+<a name="6.28.0"></a>
+# [6.28.0](https://github.com/core-ds/ui-primitives/compare/v6.27.0...v6.28.0) (2022-08-24)
+
+
+### Features
+
+* **icons:** add 1 icon ([#208](https://github.com/core-ds/ui-primitives/issues/208)) ([617e675](https://github.com/core-ds/ui-primitives/commit/617e675))
+
+
+
+<a name="6.27.0"></a>
+# [6.27.0](https://github.com/core-ds/ui-primitives/compare/v6.26.0...v6.27.0) (2022-08-24)
+
+
+### Features
+
+* **icons:** add 1 icon ([#207](https://github.com/core-ds/ui-primitives/issues/207)) ([9ec0cfe](https://github.com/core-ds/ui-primitives/commit/9ec0cfe))
+
+
+
+<a name="6.26.0"></a>
+# [6.26.0](https://github.com/core-ds/ui-primitives/compare/v6.25.0...v6.26.0) (2022-08-24)
+
+
+### Features
+
+* **icons:** add 1 icon ([#206](https://github.com/core-ds/ui-primitives/issues/206)) ([e9a44e6](https://github.com/core-ds/ui-primitives/commit/e9a44e6))
+
+
+
+<a name="6.25.0"></a>
+# [6.25.0](https://github.com/core-ds/ui-primitives/compare/v6.24.0...v6.25.0) (2022-08-16)
+
+
+### Features
+
+* **tokens:** deprecated styles resurrection ([#201](https://github.com/core-ds/ui-primitives/issues/201)) ([2b689bc](https://github.com/core-ds/ui-primitives/commit/2b689bc))
+
+
+
+<a name="6.24.0"></a>
+# [6.24.0](https://github.com/core-ds/ui-primitives/compare/v6.23.0...v6.24.0) (2022-08-15)
+
+
+### Features
+
+* **icons:** add 3 icons  ([4d7941d](https://github.com/core-ds/ui-primitives/commit/4d7941d))
+
+
+
+<a name="6.23.0"></a>
+# [6.23.0](https://github.com/core-ds/ui-primitives/compare/v6.22.0...v6.23.0) (2022-08-11)
+
+
+### Features
+
+* **icons:** add 4 icons  ([bec0cf4](https://github.com/core-ds/ui-primitives/commit/bec0cf4))
+
+
+
+<a name="6.22.0"></a>
+# [6.22.0](https://github.com/core-ds/ui-primitives/compare/v6.21.0...v6.22.0) (2022-08-09)
+
+
+### Features
+
+* **icons:** add 1 icon ([58adbf6](https://github.com/core-ds/ui-primitives/commit/58adbf6))
+
+
+
+<a name="6.21.0"></a>
+# [6.21.0](https://github.com/core-ds/ui-primitives/compare/v6.20.0...v6.21.0) (2022-08-05)
+
+
+### Features
+
+* **icons:** add 1 icon ([#199](https://github.com/core-ds/ui-primitives/issues/199)) ([7b0fba1](https://github.com/core-ds/ui-primitives/commit/7b0fba1))
+
+
+
+<a name="6.20.0"></a>
+# [6.20.0](https://github.com/core-ds/ui-primitives/compare/v6.19.0...v6.20.0) (2022-08-05)
+
+
+### Features
+
+* **icons:** add 1 icon ([#198](https://github.com/core-ds/ui-primitives/issues/198)) ([7adfc2b](https://github.com/core-ds/ui-primitives/commit/7adfc2b))
+
+
+
+<a name="6.19.0"></a>
+# [6.19.0](https://github.com/core-ds/ui-primitives/compare/v6.18.0...v6.19.0) (2022-08-05)
+
+
+### Features
+
+* **icons:** add 1 icon ([#197](https://github.com/core-ds/ui-primitives/issues/197)) ([47edbb9](https://github.com/core-ds/ui-primitives/commit/47edbb9))
+
+
+
+<a name="6.18.0"></a>
+# [6.18.0](https://github.com/core-ds/ui-primitives/compare/v6.17.0...v6.18.0) (2022-08-05)
+
+
+### Features
+
+* **icons:** add 1 icon ([#196](https://github.com/core-ds/ui-primitives/issues/196)) ([c8c32e5](https://github.com/core-ds/ui-primitives/commit/c8c32e5))
+
+
+
+<a name="6.17.0"></a>
+# [6.17.0](https://github.com/core-ds/ui-primitives/compare/v6.16.0...v6.17.0) (2022-07-22)
+
+
+### Features
+
+* **icons:** add 3 icons ([#195](https://github.com/core-ds/ui-primitives/issues/195)) ([7f52fc2](https://github.com/core-ds/ui-primitives/commit/7f52fc2))
+
+
+
+<a name="6.16.0"></a>
+# [6.16.0](https://github.com/core-ds/ui-primitives/compare/v6.15.0...v6.16.0) (2022-07-22)
+
+
+### Bug Fixes
+
+* revert ci script ([02aabeb](https://github.com/core-ds/ui-primitives/commit/02aabeb))
+
+
+
+<a name="6.15.0"></a>
+# [6.15.0](https://github.com/core-ds/ui-primitives/compare/v6.14.0...v6.15.0) (2022-07-20)
+
+
+
+<a name="6.14.0"></a>
+# [6.14.0](https://github.com/core-ds/ui-primitives/compare/v6.12.0...v6.14.0) (2022-07-20)
+
+
+### Bug Fixes
+
+* dirty release, sorry ([379d536](https://github.com/core-ds/ui-primitives/commit/379d536))
+
+
+
+<a name="6.13.0"></a>
+# [6.13.0](https://github.com/core-ds/ui-primitives/compare/v6.12.0...v6.13.0) (2022-07-20)
+
+
+
+<a name="6.11.0"></a>
+# [6.11.0](https://github.com/core-ds/ui-primitives/compare/v6.10.0...v6.11.0) (2022-07-18)
+
+
+### Features
+
+* **icons:** add 2 icons ([#174](https://github.com/core-ds/ui-primitives/issues/174)) ([ff00c22](https://github.com/core-ds/ui-primitives/commit/ff00c22))
+
+
+
+<a name="6.10.0"></a>
+# [6.10.0](https://github.com/core-ds/ui-primitives/compare/v6.9.0...v6.10.0) (2022-07-13)
+
+
+### Features
+
+* **icons:** add 4 icons ([#171](https://github.com/core-ds/ui-primitives/issues/171)) ([9091a27](https://github.com/core-ds/ui-primitives/commit/9091a27))
+
+
+
+<a name="6.9.0"></a>
+# [6.9.0](https://github.com/core-ds/ui-primitives/compare/v6.8.0...v6.9.0) (2022-07-11)
+
+
+### Features
+
+* **icons:** add 2 icons ([#147](https://github.com/core-ds/ui-primitives/issues/147)) ([76d5fee](https://github.com/core-ds/ui-primitives/commit/76d5fee))
+
+
+
+<a name="6.8.0"></a>
+# [6.8.0](https://github.com/core-ds/ui-primitives/compare/v6.7.0...v6.8.0) (2022-07-08)
+
+
+### Features
+
+* **tokens:** transparent text colors by default ([#144](https://github.com/core-ds/ui-primitives/issues/144)) ([a9a7cda](https://github.com/core-ds/ui-primitives/commit/a9a7cda))
+
+
+
+<a name="6.7.0"></a>
+# [6.7.0](https://github.com/core-ds/ui-primitives/compare/v6.6.0...v6.7.0) (2022-07-06)
+
+
+### Features
+
+* **icons:** add 1 icon ([#143](https://github.com/core-ds/ui-primitives/issues/143)) ([16c952a](https://github.com/core-ds/ui-primitives/commit/16c952a))
+
+
+
+<a name="6.6.0"></a>
+# [6.6.0](https://github.com/core-ds/ui-primitives/compare/v6.5.0...v6.6.0) (2022-07-04)
+
+
+### Features
+
+* **icons:** add 1 icon ([#142](https://github.com/core-ds/ui-primitives/issues/142)) ([1c5d2dd](https://github.com/core-ds/ui-primitives/commit/1c5d2dd))
+
+
+
+<a name="6.5.0"></a>
+# [6.5.0](https://github.com/core-ds/ui-primitives/compare/v6.4.0...v6.5.0) (2022-07-04)
+
+
+### Features
+
+* **icons:** add 1 icon ([#141](https://github.com/core-ds/ui-primitives/issues/141)) ([38b8341](https://github.com/core-ds/ui-primitives/commit/38b8341))
+
+
+
+<a name="6.4.0"></a>
+# [6.4.0](https://github.com/core-ds/ui-primitives/compare/v6.1.0...v6.4.0) (2022-06-30)
+
+
+### Features
+
+* **icons:** add 1 icon ([#135](https://github.com/core-ds/ui-primitives/issues/135)) ([9639e02](https://github.com/core-ds/ui-primitives/commit/9639e02))
+* **icons:** add 1 icon ([#136](https://github.com/core-ds/ui-primitives/issues/136)) ([7d9f90f](https://github.com/core-ds/ui-primitives/commit/7d9f90f))
+* **icons:** add 1 icon ([#137](https://github.com/core-ds/ui-primitives/issues/137)) ([63b6a26](https://github.com/core-ds/ui-primitives/commit/63b6a26))
+* **icons:** add 1 icon ([#138](https://github.com/core-ds/ui-primitives/issues/138)) ([65dcb64](https://github.com/core-ds/ui-primitives/commit/65dcb64))
+* **icons:** add 1 icon ([#140](https://github.com/core-ds/ui-primitives/issues/140)) ([ebfbce8](https://github.com/core-ds/ui-primitives/commit/ebfbce8))
+
+
+
+<a name="6.1.0"></a>
+# [6.1.0](https://github.com/core-ds/ui-primitives/compare/v6.0.0...v6.1.0) (2022-06-29)
+
+
+### Features
+
+* **icons:** add 1 icon ([#132](https://github.com/core-ds/ui-primitives/issues/132)) ([3288ac4](https://github.com/core-ds/ui-primitives/commit/3288ac4))
+
+
+
+<a name="6.0.0"></a>
+# [6.0.0](https://github.com/core-ds/ui-primitives/compare/v5.24.0...v6.0.0) (2022-06-28)
+
+
+### Bug Fixes
+
+* **icons:** bundle folders ([#134](https://github.com/core-ds/ui-primitives/issues/134)) ([d151f0e](https://github.com/core-ds/ui-primitives/commit/d151f0e))
+
+
+
+<a name="5.24.0"></a>
+# [5.24.0](https://github.com/core-ds/ui-primitives/compare/v5.21.0...v5.24.0) (2022-06-24)
+
+
+### Features
+
+* **icons:** add 1 icon ([#124](https://github.com/core-ds/ui-primitives/issues/124)) ([ec748d2](https://github.com/core-ds/ui-primitives/commit/ec748d2))
+* **icons:** add 1 icon ([#129](https://github.com/core-ds/ui-primitives/issues/129)) ([4af80d1](https://github.com/core-ds/ui-primitives/commit/4af80d1))
+* **icons:** add 1 icon ([#130](https://github.com/core-ds/ui-primitives/issues/130)) ([f702bc9](https://github.com/core-ds/ui-primitives/commit/f702bc9))
+* **icons:** add 2 icons ([#126](https://github.com/core-ds/ui-primitives/issues/126)) ([6c748fc](https://github.com/core-ds/ui-primitives/commit/6c748fc))
+* **icons:** add 2 icons ([#127](https://github.com/core-ds/ui-primitives/issues/127)) ([0d05aa6](https://github.com/core-ds/ui-primitives/commit/0d05aa6))
+* **icons:** add 20 icons ([#125](https://github.com/core-ds/ui-primitives/issues/125)) ([06a2116](https://github.com/core-ds/ui-primitives/commit/06a2116))
+* **icons:** add 6 icons ([#128](https://github.com/core-ds/ui-primitives/issues/128)) ([699031a](https://github.com/core-ds/ui-primitives/commit/699031a))
+
+
+
+<a name="5.21.0"></a>
+# [5.21.0](https://github.com/core-ds/ui-primitives/compare/v5.20.0...v5.21.0) (2022-06-17)
+
+
+### Features
+
+* **icons:** add 22 icons ([#65](https://github.com/core-ds/ui-primitives/issues/65)) ([1550e7e](https://github.com/core-ds/ui-primitives/commit/1550e7e))
+
+
+
+<a name="5.20.0"></a>
+# [5.20.0](https://github.com/core-ds/ui-primitives/compare/v5.19.0...v5.20.0) (2022-06-17)
+
+
+### Features
+
+* **icons:** add 1 icon ([#122](https://github.com/core-ds/ui-primitives/issues/122)) ([7830b02](https://github.com/core-ds/ui-primitives/commit/7830b02))
+
+
+
+<a name="5.19.0"></a>
+# [5.19.0](https://github.com/core-ds/ui-primitives/compare/v5.18.0...v5.19.0) (2022-06-16)
+
+
+### Features
+
+* **icons:** add 1 icon ([#117](https://github.com/core-ds/ui-primitives/issues/117)) ([80e6060](https://github.com/core-ds/ui-primitives/commit/80e6060))
+
+
+
+<a name="5.18.0"></a>
+# [5.18.0](https://github.com/core-ds/ui-primitives/compare/v5.17.0...v5.18.0) (2022-06-16)
+
+
+### Features
+
+* **icons:** add 1 icon ([#113](https://github.com/core-ds/ui-primitives/issues/113)) ([a09f4b4](https://github.com/core-ds/ui-primitives/commit/a09f4b4))
+
+
+
+<a name="5.17.0"></a>
+# [5.17.0](https://github.com/core-ds/ui-primitives/compare/v5.16.0...v5.17.0) (2022-06-16)
+
+
+### Features
+
+* **icons:** add 1 icon ([#114](https://github.com/core-ds/ui-primitives/issues/114)) ([296ddb3](https://github.com/core-ds/ui-primitives/commit/296ddb3))
+
+
+
+<a name="5.16.0"></a>
+# [5.16.0](https://github.com/core-ds/ui-primitives/compare/v5.15.0...v5.16.0) (2022-06-16)
+
+
+### Features
+
+* **icons:** move play ([#116](https://github.com/core-ds/ui-primitives/issues/116)) ([cc49dac](https://github.com/core-ds/ui-primitives/commit/cc49dac))
+
+
+
+<a name="5.15.0"></a>
+# [5.15.0](https://github.com/core-ds/ui-primitives/compare/v5.14.0...v5.15.0) (2022-06-16)
+
+
+### Features
+
+* **icons:** add 1 icon ([#112](https://github.com/core-ds/ui-primitives/issues/112)) ([44c8fb2](https://github.com/core-ds/ui-primitives/commit/44c8fb2))
+
+
+
 <a name="5.14.0"></a>
 # [5.14.0](https://github.com/core-ds/ui-primitives/compare/v5.13.0...v5.14.0) (2022-06-15)
 
