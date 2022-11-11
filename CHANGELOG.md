@@ -1,3 +1,15 @@
+<a name="9.0.0"></a>
+# [9.0.0](https://github.com/core-ds/ui-primitives/compare/v8.21.0...v9.0.0) (2022-11-11)
+
+
+### Features
+
+* **icons:** add 1 icon ([34544c8](https://github.com/core-ds/ui-primitives/commit/34544c8))
+* **icons:** add 3 icons  ([c9eaaf5](https://github.com/core-ds/ui-primitives/commit/c9eaaf5))
+* **icons:** rename ios and android icons ([#257](https://github.com/core-ds/ui-primitives/issues/257)) ([21800ec](https://github.com/core-ds/ui-primitives/commit/21800ec))
+
+
+
 <a name="8.21.0"></a>
 # [8.21.0](https://github.com/core-ds/ui-primitives/compare/v8.20.0...v8.21.0) (2022-11-07)
 
