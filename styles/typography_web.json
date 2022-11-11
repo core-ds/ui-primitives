@@ -313,7 +313,7 @@
   },
   "headline-mobile_xsmall": {
     "font_size": 16,
-    "line_height": 24,
+    "line_height": 20,
     "font_weight": 500,
     "font_family": "var(--font-family-styrene)"
   },
@@ -343,7 +343,7 @@
   },
   "headline-system-mobile_xsmall": {
     "font_size": 16,
-    "line_height": 24,
+    "line_height": 20,
     "font_weight": 600,
     "font_family": "var(--font-family-system)"
   },
