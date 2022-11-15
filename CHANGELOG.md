@@ -1,3 +1,13 @@
+<a name="9.4.0"></a>
+# [9.4.0](https://github.com/core-ds/ui-primitives/compare/v9.3.0...v9.4.0) (2022-11-15)
+
+
+### Features
+
+* **styles:** update web typography ([#260](https://github.com/core-ds/ui-primitives/issues/260)) ([eca811d](https://github.com/core-ds/ui-primitives/commit/eca811d))
+
+
+
 <a name="9.3.0"></a>
 # [9.3.0](https://github.com/core-ds/ui-primitives/compare/v9.2.0...v9.3.0) (2022-11-15)
 
