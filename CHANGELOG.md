@@ -1,3 +1,13 @@
+<a name="9.11.0"></a>
+# [9.11.0](https://github.com/core-ds/ui-primitives/compare/v9.10.0...v9.11.0) (2022-12-02)
+
+
+### Features
+
+* **icons:** add 1 icon ([d3edb82](https://github.com/core-ds/ui-primitives/commit/d3edb82))
+
+
+
 <a name="9.10.0"></a>
 # [9.10.0](https://github.com/core-ds/ui-primitives/compare/v9.9.0...v9.10.0) (2022-12-01)
 
