@@ -329,10 +329,10 @@
 		"hex": "#ffefdc",
 		"alias": "backgroundColorAttentionMuted"
 	},
-	"light_bg_light_bg_info": {
+	"light_bg_info": {
 		"rgba": "rgba(230, 241, 255, 1)",
 		"hex": "#e6f1ff",
-		"alias": "backgroundColorLightBgInfo"
+		"alias": "backgroundColorInfo"
 	},
 	"light_bg_negative_muted": {
 		"rgba": "rgba(255, 235, 229, 1)",
