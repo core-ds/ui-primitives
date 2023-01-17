@@ -450,7 +450,7 @@
 		"alias": "staticGraphicBlueChill",
 		"deprecated": true
 	},
-	"static_graphic_blue_maya_old": {
+	"static_graphic_maya_old": {
 		"rgba": "rgba(126, 179, 255, 1)",
 		"hex": "#7eb3ff",
 		"alias": "staticGraphicColorMaya",
@@ -552,7 +552,7 @@
 		"alias": "staticGraphicOlivine",
 		"deprecated": true
 	},
-	"static_graphic_persimmon_old": {
+	"static_graphic_permission_old": {
 		"rgba": "rgba(255, 92, 92, 1)",
 		"hex": "#ff5c5c",
 		"alias": "staticGraphicColorPermission",
@@ -588,7 +588,7 @@
 		"alias": "staticGraphicSaffron",
 		"deprecated": true
 	},
-	"static_graphic_sandy_brown_old": {
+	"static_graphic_sandybrown_old": {
 		"rgba": "rgba(243, 143, 111, 1)",
 		"hex": "#f38f6f",
 		"alias": "staticGraphicSandybrown",
