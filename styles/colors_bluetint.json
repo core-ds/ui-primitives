@@ -816,5 +816,77 @@
 		"hex": "#dcdcdd",
 		"alias": "staticBackgroundColorNeutralLight",
 		"deprecated": true
+	},
+	"light_text_disabled_transparent": {
+		"rgba": "rgba(1, 1, 24, 0.26)",
+		"hex": "#42010118",
+		"alias": "textColorDisabledTransparent",
+		"deprecated": true
+	},
+	"dark_text_disabled_transparent": {
+		"rgba": "rgba(220, 220, 243, 0.14)",
+		"hex": "#24dcdcf3",
+		"alias": "textColorDisabledTransparent",
+		"deprecated": true
+	},
+	"light_text_secondary_inverted_transparent": {
+		"rgba": "rgba(239, 239, 254, 0.53)",
+		"hex": "#87efeffe",
+		"alias": "textColorSecondaryInvertedTransparent",
+		"deprecated": true
+	},
+	"dark_text_secondary_inverted_transparent": {
+		"rgba": "rgba(3, 3, 16, 0.56)",
+		"hex": "#8f030310",
+		"alias": "textColorSecondaryInvertedTransparent",
+		"deprecated": true
+	},
+	"light_text_secondary_transparent": {
+		"rgba": "rgba(3, 3, 16, 0.56)",
+		"hex": "#8f030310",
+		"alias": "textColorSecondaryTransparent",
+		"deprecated": true
+	},
+	"dark_text_secondary_transparent": {
+		"rgba": "rgba(239, 239, 254, 0.53)",
+		"hex": "#87efeffe",
+		"alias": "textColorSecondaryTransparent",
+		"deprecated": true
+	},
+	"light_text_tertiary_inverted_transparent": {
+		"rgba": "rgba(233, 233, 251, 0.35)",
+		"hex": "#59e9e9fb",
+		"alias": "textColorTertiaryInvertedTransparent",
+		"deprecated": true
+	},
+	"dark_text_tertiary_inverted_transparent": {
+		"rgba": "rgba(1, 1, 18, 0.41)",
+		"hex": "#69010112",
+		"alias": "textColorTertiaryInvertedTransparent",
+		"deprecated": true
+	},
+	"light_text_tertiary_transparent": {
+		"rgba": "rgba(1, 1, 18, 0.41)",
+		"hex": "#69010112",
+		"alias": "textColorTertiaryTransparent",
+		"deprecated": true
+	},
+	"dark_text_tertiary_transparent": {
+		"rgba": "rgba(233, 233, 251, 0.35)",
+		"hex": "#59e9e9fb",
+		"alias": "textColorTertiaryTransparent",
+		"deprecated": true
+	},
+	"static_text_secondary_dark_transparent": {
+		"rgba": "rgba(3, 3, 16, 0.56)",
+		"hex": "#8f030310",
+		"alias": "staticTextColorSecondaryDarkTransparent",
+		"deprecated": true
+	},
+	"static_text_tertiary_dark_transparent": {
+		"rgba": "rgba(1, 1, 18, 0.41)",
+		"hex": "#69010112",
+		"alias": "staticTextColorTertiaryDarkTransparent",
+		"deprecated": true
 	}
 }
