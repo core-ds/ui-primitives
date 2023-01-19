@@ -1,3 +1,13 @@
+<a name="9.32.0"></a>
+# [9.32.0](https://github.com/core-ds/ui-primitives/compare/v9.31.0...v9.32.0) (2023-01-19)
+
+
+### Bug Fixes
+
+* **icons:** fix incorrect names ([#292](https://github.com/core-ds/ui-primitives/issues/292)) ([21f6498](https://github.com/core-ds/ui-primitives/commit/21f6498))
+
+
+
 <a name="9.31.0"></a>
 # [9.31.0](https://github.com/core-ds/ui-primitives/compare/v9.30.0...v9.31.0) (2023-01-19)
 
