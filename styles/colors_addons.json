@@ -450,12 +450,6 @@
 		"alias": "staticGraphicBlueChill",
 		"deprecated": true
 	},
-	"static_graphic_blue_maya_old": {
-		"rgba": "rgba(126, 179, 255, 1)",
-		"hex": "#7eb3ff",
-		"alias": "staticGraphicColorMaya",
-		"deprecated": true
-	},
 	"static_graphic_boulder_old": {
 		"rgba": "rgba(122, 122, 122, 1)",
 		"hex": "#7a7a7a",
@@ -528,6 +522,12 @@
 		"alias": "staticGraphicMatisse",
 		"deprecated": true
 	},
+	"static_graphic_maya": {
+		"rgba": "rgba(126, 179, 255, 1)",
+		"hex": "#7eb3ff",
+		"alias": "staticGraphicColorMaya",
+		"deprecated": true
+	},
 	"static_graphic_milano_red_old": {
 		"rgba": "rgba(205, 21, 1, 1)",
 		"hex": "#cd1501",
@@ -552,7 +552,7 @@
 		"alias": "staticGraphicOlivine",
 		"deprecated": true
 	},
-	"static_graphic_persimmon_old": {
+	"static_graphic_permission": {
 		"rgba": "rgba(255, 92, 92, 1)",
 		"hex": "#ff5c5c",
 		"alias": "staticGraphicColorPermission",
@@ -588,7 +588,7 @@
 		"alias": "staticGraphicSaffron",
 		"deprecated": true
 	},
-	"static_graphic_sandy_brown_old": {
+	"static_graphic_sandybrown_old": {
 		"rgba": "rgba(243, 143, 111, 1)",
 		"hex": "#f38f6f",
 		"alias": "staticGraphicSandybrown",
