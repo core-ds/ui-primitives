@@ -1,3 +1,13 @@
+<a name="9.31.0"></a>
+# [9.31.0](https://github.com/core-ds/ui-primitives/compare/v9.30.0...v9.31.0) (2023-01-19)
+
+
+### Features
+
+* **styles:** update deprecated colors for SDUI wellness ([#300](https://github.com/core-ds/ui-primitives/issues/300)) ([9eb9f14](https://github.com/core-ds/ui-primitives/commit/9eb9f14))
+
+
+
 <a name="9.30.0"></a>
 # [9.30.0](https://github.com/core-ds/ui-primitives/compare/v9.29.0...v9.30.0) (2023-01-17)
 
