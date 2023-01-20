@@ -1,3 +1,13 @@
+<a name="10.0.0"></a>
+# [10.0.0](https://github.com/core-ds/ui-primitives/compare/v9.36.0...v10.0.0) (2023-01-20)
+
+
+### Bug Fixes
+
+* remove test icons ([#306](https://github.com/core-ds/ui-primitives/issues/306)) ([a4c1df1](https://github.com/core-ds/ui-primitives/commit/a4c1df1))
+
+
+
 <a name="9.36.0"></a>
 # [9.36.0](https://github.com/core-ds/ui-primitives/compare/v9.35.0...v9.36.0) (2023-01-20)
 
