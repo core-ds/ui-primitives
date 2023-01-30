@@ -1,4 +1,9 @@
 {
+	"dynamic_nulled": {
+		"rgba": "rgba(0, 0, 0, 0)",
+		"hex": "#00000000",
+		"alias": "transparentColorNulled"
+	},
 	"dynamic_primary_dark": {
 		"rgba": "rgba(0, 0, 0, 0.8)",
 		"hex": "#cc000000",
@@ -58,6 +63,11 @@
 		"rgba": "rgba(255, 255, 255, 0.48)",
 		"hex": "#7affffff",
 		"alias": "transparentColorTertiaryLight"
+	},
+	"static_nulled": {
+		"rgba": "rgba(0, 0, 0, 0)",
+		"hex": "#00000000",
+		"alias": "staticTransparentColorNulled"
 	},
 	"static_primary_dark": {
 		"rgba": "rgba(0, 0, 0, 0.8)",
