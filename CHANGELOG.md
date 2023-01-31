@@ -1,3 +1,13 @@
+<a name="10.5.0"></a>
+# [10.5.0](https://github.com/core-ds/ui-primitives/compare/v10.4.0...v10.5.0) (2023-01-31)
+
+
+### Features
+
+* **styles:** update transparent colors ([#310](https://github.com/core-ds/ui-primitives/issues/310)) ([36f1c7d](https://github.com/core-ds/ui-primitives/commit/36f1c7d))
+
+
+
 <a name="10.4.0"></a>
 # [10.4.0](https://github.com/core-ds/ui-primitives/compare/v10.3.0...v10.4.0) (2023-01-31)
 
