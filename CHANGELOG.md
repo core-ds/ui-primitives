@@ -1,3 +1,13 @@
+<a name="10.8.0"></a>
+# [10.8.0](https://github.com/core-ds/ui-primitives/compare/v10.7.0...v10.8.0) (2023-02-06)
+
+
+### Features
+
+* **styles:** update bluetint colors ([#314](https://github.com/core-ds/ui-primitives/issues/314)) ([def8e82](https://github.com/core-ds/ui-primitives/commit/def8e82))
+
+
+
 <a name="10.7.0"></a>
 # [10.7.0](https://github.com/core-ds/ui-primitives/compare/v10.6.0...v10.7.0) (2023-02-01)
 
