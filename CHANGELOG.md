@@ -1,3 +1,13 @@
+<a name="11.0.0"></a>
+# [11.0.0](https://github.com/core-ds/ui-primitives/compare/v10.9.0...v11.0.0) (2023-02-13)
+
+
+### Features
+
+* **icons:** remove duplicate ([#316](https://github.com/core-ds/ui-primitives/issues/316)) ([b7ca5e6](https://github.com/core-ds/ui-primitives/commit/b7ca5e6))
+
+
+
 <a name="10.9.0"></a>
 # [10.9.0](https://github.com/core-ds/ui-primitives/compare/v10.8.0...v10.9.0) (2023-02-07)
 
