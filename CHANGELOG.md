@@ -1,3 +1,13 @@
+<a name="11.20.0"></a>
+# [11.20.0](https://github.com/core-ds/ui-primitives/compare/v11.19.0...v11.20.0) (2023-05-04)
+
+
+### Features
+
+* **icons:** add 1 icon ([#339](https://github.com/core-ds/ui-primitives/issues/339)) ([261a84c](https://github.com/core-ds/ui-primitives/commit/261a84c))
+
+
+
 <a name="11.19.0"></a>
 # [11.19.0](https://github.com/core-ds/ui-primitives/compare/v11.18.0...v11.19.0) (2023-04-28)
 
