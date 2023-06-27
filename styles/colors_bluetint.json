@@ -610,8 +610,8 @@
 		"alias": "textColorPositive"
 	},
 	"light_text_primary": {
-		"rgba": "rgba(14, 14, 14, 1)",
-		"hex": "#0e0e0e",
+		"rgba": "rgba(17, 17, 17, 1)",
+		"hex": "#111111",
 		"alias": "textColorPrimary"
 	},
 	"light_text_primary_inverted": {
