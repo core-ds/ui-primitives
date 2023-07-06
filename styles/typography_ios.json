@@ -41,8 +41,8 @@
   },
   "HeadlineXSmall": {
     "font_size": 17,
-    "line_height": 24,
-    "line_spacing": 4,
+    "line_height": 20,
+    "line_spacing": 0,
     "font_family": "System",
     "font_weight": "semibold",
     "text_all_caps": false,
@@ -117,6 +117,16 @@
     "font_weight": "regular",
     "text_all_caps": false,
     "letter_spacing": -0.41,
+    "monospace": false
+  },
+  "ParagraphComponentSecondary": {
+    "font_size": 14,
+    "line_height": 18,
+    "line_spacing": 1,
+    "font_family": "System",
+    "font_weight": "regular",
+    "text_all_caps": false,
+    "letter_spacing": -0.15,
     "monospace": false
   },
   "ParagraphTagline": {
@@ -209,6 +219,16 @@
     "letter_spacing": -0.41,
     "monospace": false
   },
+  "AccentComponentSecondary": {
+    "font_size": 14,
+    "line_height": 18,
+    "line_spacing": 1,
+    "font_family": "System",
+    "font_weight": "bold",
+    "text_all_caps": false,
+    "letter_spacing": -0.15,
+    "monospace": false
+  },
   "AccentTagline": {
     "font_size": 13,
     "line_height": 18,
@@ -271,8 +291,8 @@
   },
   "PromoXSmall": {
     "font_size": 17,
-    "line_height": 24,
-    "line_spacing": 4,
+    "line_height": 20,
+    "line_spacing": 0,
     "font_family": "System",
     "font_weight": "regular",
     "text_all_caps": false,
@@ -347,6 +367,16 @@
     "font_weight": "semibold",
     "text_all_caps": false,
     "letter_spacing": -0.41,
+    "monospace": false
+  },
+  "ActionComponentSecondary": {
+    "font_size": 14,
+    "line_height": 18,
+    "line_spacing": 1,
+    "font_family": "System",
+    "font_weight": "medium",
+    "text_all_caps": false,
+    "letter_spacing": -0.15,
     "monospace": false
   },
   "ActionTagline": {

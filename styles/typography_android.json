@@ -45,9 +45,9 @@
   },
   "HeadlineXSmall": {
     "font_size": 16,
-    "line_height": 24,
-    "line_spacing": 5,
-    "line_spacing_extra": 5,
+    "line_height": 20,
+    "line_spacing": 1,
+    "line_spacing_extra": 1,
     "font_family": "roboto_medium",
     "text_all_caps": false,
     "letter_spacing": 0.01,
@@ -130,6 +130,17 @@
     "letter_spacing": 0.01,
     "first_baseline_to_top_height": 15,
     "last_baseline_to_bottom_height": 5
+  },
+  "ParagraphComponentSecondary": {
+    "font_size": 14,
+    "line_height": 18,
+    "line_spacing": 1,
+    "line_spacing_extra": 2,
+    "font_family": "robotoroman_regular",
+    "text_all_caps": false,
+    "letter_spacing": 0,
+    "first_baseline_to_top_height": 0,
+    "last_baseline_to_bottom_height": 0
   },
   "ParagraphTagline": {
     "font_size": 12,
@@ -230,6 +241,17 @@
     "first_baseline_to_top_height": 15,
     "last_baseline_to_bottom_height": 5
   },
+  "AccentComponentSecondary": {
+    "font_size": 14,
+    "line_height": 18,
+    "line_spacing": 1,
+    "line_spacing_extra": 2,
+    "font_family": "sfprotext_bold",
+    "text_all_caps": false,
+    "letter_spacing": 0,
+    "first_baseline_to_top_height": 0,
+    "last_baseline_to_bottom_height": 0
+  },
   "AccentTagline": {
     "font_size": 12,
     "line_height": 16,
@@ -298,9 +320,9 @@
   },
   "PromoXSmall": {
     "font_size": 16,
-    "line_height": 24,
-    "line_spacing": 5,
-    "line_spacing_extra": 5,
+    "line_height": 20,
+    "line_spacing": 1,
+    "line_spacing_extra": 1,
     "font_family": "roboto_regular",
     "text_all_caps": false,
     "letter_spacing": 0.01,
@@ -383,6 +405,17 @@
     "letter_spacing": 0.01,
     "first_baseline_to_top_height": 15,
     "last_baseline_to_bottom_height": 5
+  },
+  "ActionComponentSecondary": {
+    "font_size": 14,
+    "line_height": 18,
+    "line_spacing": 1,
+    "line_spacing_extra": 2,
+    "font_family": "robotoroman_medium",
+    "text_all_caps": false,
+    "letter_spacing": 0,
+    "first_baseline_to_top_height": 0,
+    "last_baseline_to_bottom_height": 0
   },
   "ActionTagline": {
     "font_size": 12,
