@@ -1,3 +1,13 @@
+<a name="11.35.0"></a>
+# [11.35.0](https://github.com/core-ds/ui-primitives/compare/v11.34.0...v11.35.0) (2023-07-07)
+
+
+### Bug Fixes
+
+* **styles:** fixed font family for android typography ([#360](https://github.com/core-ds/ui-primitives/issues/360)) ([18dcebe](https://github.com/core-ds/ui-primitives/commit/18dcebe))
+
+
+
 <a name="11.34.0"></a>
 # [11.34.0](https://github.com/core-ds/ui-primitives/compare/v11.33.0...v11.34.0) (2023-07-06)
 
