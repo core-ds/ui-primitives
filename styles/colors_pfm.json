@@ -2,326 +2,326 @@
 	"static_pfm_custom_blue": {
 		"rgba": "rgba(98, 168, 254, 1)",
 		"hex": "#62a8fe",
-		"alias": "staticPfmCustomColorBlue"
+		"alias": "staticPfmColorCustomBlue"
 	},
 	"static_pfm_custom_cyan": {
 		"rgba": "rgba(71, 178, 224, 1)",
 		"hex": "#47b2e0",
-		"alias": "staticPfmCustomColorCyan"
+		"alias": "staticPfmColorCustomCyan"
 	},
 	"static_pfm_custom_indigo": {
 		"rgba": "rgba(150, 160, 250, 1)",
 		"hex": "#96a0fa",
-		"alias": "staticPfmCustomColorIndigo"
+		"alias": "staticPfmColorCustomIndigo"
 	},
 	"static_pfm_custom_jungle": {
 		"rgba": "rgba(41, 188, 140, 1)",
 		"hex": "#29bc8c",
-		"alias": "staticPfmCustomColorJungle"
+		"alias": "staticPfmColorCustomJungle"
 	},
 	"static_pfm_custom_magenta": {
 		"rgba": "rgba(246, 126, 165, 1)",
 		"hex": "#f67ea5",
-		"alias": "staticPfmCustomColorMagenta"
+		"alias": "staticPfmColorCustomMagenta"
 	},
 	"static_pfm_custom_orange": {
 		"rgba": "rgba(254, 163, 64, 1)",
 		"hex": "#fea340",
-		"alias": "staticPfmCustomColorOrange"
+		"alias": "staticPfmColorCustomOrange"
 	},
 	"static_pfm_custom_pistachio": {
 		"rgba": "rgba(135, 181, 29, 1)",
 		"hex": "#87b51d",
-		"alias": "staticPfmCustomColorPistachio"
+		"alias": "staticPfmColorCustomPistachio"
 	},
 	"static_pfm_custom_purple": {
 		"rgba": "rgba(180, 149, 242, 1)",
 		"hex": "#b495f2",
-		"alias": "staticPfmCustomColorPurple"
+		"alias": "staticPfmColorCustomPurple"
 	},
 	"static_pfm_custom_red": {
 		"rgba": "rgba(253, 92, 66, 1)",
 		"hex": "#fd5c42",
-		"alias": "staticPfmCustomColorRed"
+		"alias": "staticPfmColorCustomRed"
 	},
 	"static_pfm_custom_yellow": {
 		"rgba": "rgba(245, 211, 2, 1)",
 		"hex": "#f5d302",
-		"alias": "staticPfmCustomColorYellow"
+		"alias": "staticPfmColorCustomYellow"
 	},
 	"static_pfm_system_alcohol": {
 		"rgba": "rgba(246, 149, 39, 1)",
 		"hex": "#f69527",
-		"alias": "staticPfmSystemColorAlcohol"
+		"alias": "staticPfmColorSystemAlcohol"
 	},
 	"static_pfm_system_animals": {
 		"rgba": "rgba(91, 126, 22, 1)",
 		"hex": "#5b7e16",
-		"alias": "staticPfmSystemColorAnimals"
+		"alias": "staticPfmColorSystemAnimals"
 	},
 	"static_pfm_system_auto": {
 		"rgba": "rgba(26, 171, 124, 1)",
 		"hex": "#1aab7c",
-		"alias": "staticPfmSystemColorAuto"
+		"alias": "staticPfmColorSystemAuto"
 	},
 	"static_pfm_system_beauty": {
 		"rgba": "rgba(239, 99, 148, 1)",
 		"hex": "#ef6394",
-		"alias": "staticPfmSystemColorBeauty"
+		"alias": "staticPfmColorSystemBeauty"
 	},
 	"static_pfm_system_benefits": {
 		"rgba": "rgba(169, 179, 249, 1)",
 		"hex": "#a9b3f9",
-		"alias": "staticPfmSystemColorBenefits"
+		"alias": "staticPfmColorSystemBenefits"
 	},
 	"static_pfm_system_bonus": {
 		"rgba": "rgba(28, 166, 161, 1)",
 		"hex": "#1ca6a1",
-		"alias": "staticPfmSystemColorBonus"
+		"alias": "staticPfmColorSystemBonus"
 	},
 	"static_pfm_system_books": {
 		"rgba": "rgba(196, 171, 245, 1)",
 		"hex": "#c4abf5",
-		"alias": "staticPfmSystemColorBooks"
+		"alias": "staticPfmColorSystemBooks"
 	},
 	"static_pfm_system_business": {
 		"rgba": "rgba(51, 158, 206, 1)",
 		"hex": "#339ece",
-		"alias": "staticPfmSystemColorBusiness"
+		"alias": "staticPfmColorSystemBusiness"
 	},
 	"static_pfm_system_business_trip_payment": {
 		"rgba": "rgba(108, 195, 238, 1)",
 		"hex": "#6cc3ee",
-		"alias": "staticPfmSystemColorBusinessTripPayment"
+		"alias": "staticPfmColorSystemBusinessTripPayment"
 	},
 	"static_pfm_system_c2c_transfer": {
 		"rgba": "rgba(62, 111, 216, 1)",
 		"hex": "#3e6fd8",
-		"alias": "staticPfmSystemColorC2cTransfer"
+		"alias": "staticPfmColorSystemC2cTransfer"
 	},
 	"static_pfm_system_cafe_restaurants": {
 		"rgba": "rgba(253, 164, 63, 1)",
 		"hex": "#fda43f",
-		"alias": "staticPfmSystemColorCafeRestaurants"
+		"alias": "staticPfmColorSystemCafeRestaurants"
 	},
 	"static_pfm_system_cash_deposit": {
 		"rgba": "rgba(134, 188, 253, 1)",
 		"hex": "#86bcfd",
-		"alias": "staticPfmSystemColorCashDeposit"
+		"alias": "staticPfmColorSystemCashDeposit"
 	},
 	"static_pfm_system_cash_withdrawal": {
 		"rgba": "rgba(107, 101, 216, 1)",
 		"hex": "#6b65d8",
-		"alias": "staticPfmSystemColorCashWithdrawal"
+		"alias": "staticPfmColorSystemCashWithdrawal"
 	},
 	"static_pfm_system_cashback": {
 		"rgba": "rgba(249, 90, 63, 1)",
 		"hex": "#f95a3f",
-		"alias": "staticPfmSystemColorCashback"
+		"alias": "staticPfmColorSystemCashback"
 	},
 	"static_pfm_system_charity": {
 		"rgba": "rgba(225, 100, 206, 1)",
 		"hex": "#e164ce",
-		"alias": "staticPfmSystemColorCharity"
+		"alias": "staticPfmColorSystemCharity"
 	},
 	"static_pfm_system_clothes_shoes": {
 		"rgba": "rgba(28, 166, 161, 1)",
 		"hex": "#1ca6a1",
-		"alias": "staticPfmSystemColorClothesShoes"
+		"alias": "staticPfmColorSystemClothesShoes"
 	},
 	"static_pfm_system_construction_repair": {
 		"rgba": "rgba(20, 128, 124, 1)",
 		"hex": "#14807c",
-		"alias": "staticPfmSystemColorConstructionRepair"
+		"alias": "staticPfmColorSystemConstructionRepair"
 	},
 	"static_pfm_system_credit": {
 		"rgba": "rgba(249, 90, 63, 1)",
 		"hex": "#f95a3f",
-		"alias": "staticPfmSystemColorCredit"
+		"alias": "staticPfmColorSystemCredit"
 	},
 	"static_pfm_system_digital_goods": {
 		"rgba": "rgba(183, 64, 168, 1)",
 		"hex": "#b740a8",
-		"alias": "staticPfmSystemColorDigitalGoods"
+		"alias": "staticPfmColorSystemDigitalGoods"
 	},
 	"static_pfm_system_dont_remember": {
 		"rgba": "rgba(33, 133, 55, 1)",
 		"hex": "#218537",
-		"alias": "staticPfmSystemColorDontRemember"
+		"alias": "staticPfmColorSystemDontRemember"
 	},
 	"static_pfm_system_education": {
 		"rgba": "rgba(17, 132, 91, 1)",
 		"hex": "#11845b",
-		"alias": "staticPfmSystemColorEducation"
+		"alias": "staticPfmColorSystemEducation"
 	},
 	"static_pfm_system_electronics": {
 		"rgba": "rgba(254, 139, 111, 1)",
 		"hex": "#fe8b6f",
-		"alias": "staticPfmSystemColorElectronics"
+		"alias": "staticPfmColorSystemElectronics"
 	},
 	"static_pfm_system_entertainments": {
 		"rgba": "rgba(140, 90, 208, 1)",
 		"hex": "#8c5ad0",
-		"alias": "staticPfmSystemColorEntertainments"
+		"alias": "staticPfmColorSystemEntertainments"
 	},
 	"static_pfm_system_expenses_return_payment": {
 		"rgba": "rgba(36, 175, 72, 1)",
 		"hex": "#24af48",
-		"alias": "staticPfmSystemColorExpensesReturnPayment"
+		"alias": "staticPfmColorSystemExpensesReturnPayment"
 	},
 	"static_pfm_system_familiy": {
 		"rgba": "rgba(242, 154, 226, 1)",
 		"hex": "#f29ae2",
-		"alias": "staticPfmSystemColorFamiliy"
+		"alias": "staticPfmColorSystemFamiliy"
 	},
 	"static_pfm_system_fastfood": {
 		"rgba": "rgba(166, 127, 237, 1)",
 		"hex": "#a67fed",
-		"alias": "staticPfmSystemColorFastfood"
+		"alias": "staticPfmColorSystemFastfood"
 	},
 	"static_pfm_system_fines_taxes": {
 		"rgba": "rgba(251, 112, 81, 1)",
 		"hex": "#fb7051",
-		"alias": "staticPfmSystemColorFinesTaxes"
+		"alias": "staticPfmColorSystemFinesTaxes"
 	},
 	"static_pfm_system_flowers": {
 		"rgba": "rgba(119, 163, 21, 1)",
 		"hex": "#77a315",
-		"alias": "staticPfmSystemColorFlowers"
+		"alias": "staticPfmColorSystemFlowers"
 	},
 	"static_pfm_system_fuel_station": {
 		"rgba": "rgba(220, 130, 20, 1)",
 		"hex": "#dc8214",
-		"alias": "staticPfmSystemColorFuelStation"
+		"alias": "staticPfmColorSystemFuelStation"
 	},
 	"static_pfm_system_health": {
 		"rgba": "rgba(102, 210, 119, 1)",
 		"hex": "#66d277",
-		"alias": "staticPfmSystemColorHealth"
+		"alias": "staticPfmColorSystemHealth"
 	},
 	"static_pfm_system_hobby": {
 		"rgba": "rgba(78, 203, 199, 1)",
 		"hex": "#4ecbc7",
-		"alias": "staticPfmSystemColorHobby"
+		"alias": "staticPfmColorSystemHobby"
 	},
 	"static_pfm_system_home_repair": {
 		"rgba": "rgba(82, 208, 161, 1)",
 		"hex": "#52d0a1",
-		"alias": "staticPfmSystemColorHomeRepair"
+		"alias": "staticPfmColorSystemHomeRepair"
 	},
 	"static_pfm_system_internet_tv": {
 		"rgba": "rgba(108, 195, 238, 1)",
 		"hex": "#6cc3ee",
-		"alias": "staticPfmSystemColorInternetTv"
+		"alias": "staticPfmColorSystemInternetTv"
 	},
 	"static_pfm_system_investment": {
 		"rgba": "rgba(166, 127, 237, 1)",
 		"hex": "#a67fed",
-		"alias": "staticPfmSystemColorInvestment"
+		"alias": "staticPfmColorSystemInvestment"
 	},
 	"static_pfm_system_jewelry": {
 		"rgba": "rgba(246, 156, 182, 1)",
 		"hex": "#f69cb6",
-		"alias": "staticPfmSystemColorJewelry"
+		"alias": "staticPfmColorSystemJewelry"
 	},
 	"static_pfm_system_mortgage": {
 		"rgba": "rgba(36, 175, 72, 1)",
 		"hex": "#24af48",
-		"alias": "staticPfmSystemColorMortgage"
+		"alias": "staticPfmColorSystemMortgage"
 	},
 	"static_pfm_system_other": {
 		"rgba": "rgba(191, 175, 198, 1)",
 		"hex": "#bfafc6",
-		"alias": "staticPfmSystemColorOther"
+		"alias": "staticPfmColorSystemOther"
 	},
 	"static_pfm_system_other_expenses": {
 		"rgba": "rgba(169, 179, 249, 1)",
 		"hex": "#a9b3f9",
-		"alias": "staticPfmSystemColorOtherExpenses"
+		"alias": "staticPfmColorSystemOtherExpenses"
 	},
 	"static_pfm_system_other_income": {
 		"rgba": "rgba(157, 203, 60, 1)",
 		"hex": "#9dcb3c",
-		"alias": "staticPfmSystemColorOtherIncome"
+		"alias": "staticPfmColorSystemOtherIncome"
 	},
 	"static_pfm_system_public_transport": {
 		"rgba": "rgba(62, 111, 216, 1)",
 		"hex": "#3e6fd8",
-		"alias": "staticPfmSystemColorPublicTransport"
+		"alias": "staticPfmColorSystemPublicTransport"
 	},
 	"static_pfm_system_refill": {
 		"rgba": "rgba(59, 192, 88, 1)",
 		"hex": "#3bc058",
-		"alias": "staticPfmSystemColorRefill"
+		"alias": "staticPfmColorSystemRefill"
 	},
 	"static_pfm_system_rent_auto": {
 		"rgba": "rgba(26, 171, 124, 1)",
 		"hex": "#1aab7c",
-		"alias": "staticPfmSystemColorRentAuto"
+		"alias": "staticPfmColorSystemRentAuto"
 	},
 	"static_pfm_system_safe_box": {
 		"rgba": "rgba(51, 158, 206, 1)",
 		"hex": "#339ece",
-		"alias": "staticPfmSystemColorSafeBox"
+		"alias": "staticPfmColorSystemSafeBox"
 	},
 	"static_pfm_system_salary": {
 		"rgba": "rgba(28, 166, 161, 1)",
 		"hex": "#1ca6a1",
-		"alias": "staticPfmSystemColorSalary"
+		"alias": "staticPfmColorSystemSalary"
 	},
 	"static_pfm_system_sport_goods": {
 		"rgba": "rgba(131, 138, 246, 1)",
 		"hex": "#838af6",
-		"alias": "staticPfmSystemColorSportGoods"
+		"alias": "staticPfmColorSystemSportGoods"
 	},
 	"static_pfm_system_supermarkets": {
 		"rgba": "rgba(157, 203, 60, 1)",
 		"hex": "#9dcb3c",
-		"alias": "staticPfmSystemColorSupermarkets"
+		"alias": "staticPfmColorSystemSupermarkets"
 	},
 	"static_pfm_system_taxi": {
 		"rgba": "rgba(244, 211, 1, 1)",
 		"hex": "#f4d301",
-		"alias": "staticPfmSystemColorTaxi"
+		"alias": "staticPfmColorSystemTaxi"
 	},
 	"static_pfm_system_tobacco": {
 		"rgba": "rgba(246, 149, 39, 1)",
 		"hex": "#f69527",
-		"alias": "staticPfmSystemColorTobacco"
+		"alias": "staticPfmColorSystemTobacco"
 	},
 	"static_pfm_system_transactions": {
 		"rgba": "rgba(134, 188, 253, 1)",
 		"hex": "#86bcfd",
-		"alias": "staticPfmSystemColorTransactions"
+		"alias": "staticPfmColorSystemTransactions"
 	},
 	"static_pfm_system_transfers": {
 		"rgba": "rgba(65, 148, 250, 1)",
 		"hex": "#4194fa",
-		"alias": "staticPfmSystemColorTransfers"
+		"alias": "staticPfmColorSystemTransfers"
 	},
 	"static_pfm_system_transport": {
 		"rgba": "rgba(62, 111, 216, 1)",
 		"hex": "#3e6fd8",
-		"alias": "staticPfmSystemColorTransport"
+		"alias": "staticPfmColorSystemTransport"
 	},
 	"static_pfm_system_travel": {
 		"rgba": "rgba(244, 211, 1, 1)",
 		"hex": "#f4d301",
-		"alias": "staticPfmSystemColorTravel"
+		"alias": "staticPfmColorSystemTravel"
 	},
 	"static_pfm_system_user_other_expenses": {
 		"rgba": "rgba(169, 179, 249, 1)",
 		"hex": "#a9b3f9",
-		"alias": "staticPfmSystemColorUserOtherExpenses"
+		"alias": "staticPfmColorSystemUserOtherExpenses"
 	},
 	"static_pfm_system_utilities": {
 		"rgba": "rgba(65, 148, 250, 1)",
 		"hex": "#4194fa",
-		"alias": "staticPfmSystemColorUtilities"
+		"alias": "staticPfmColorSystemUtilities"
 	},
 	"static_pfm_system_vacation_payment": {
 		"rgba": "rgba(244, 211, 1, 1)",
 		"hex": "#f4d301",
-		"alias": "staticPfmSystemColorVacationPayment"
+		"alias": "staticPfmColorSystemVacationPayment"
 	}
 }
