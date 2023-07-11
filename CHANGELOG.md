@@ -1,3 +1,13 @@
+<a name="11.36.0"></a>
+# [11.36.0](https://github.com/core-ds/ui-primitives/compare/v11.35.0...v11.36.0) (2023-07-11)
+
+
+### Features
+
+* **styles:** introducing pfm colors 🤖 ([#361](https://github.com/core-ds/ui-primitives/issues/361)) ([0ffcaa9](https://github.com/core-ds/ui-primitives/commit/0ffcaa9))
+
+
+
 <a name="11.35.0"></a>
 # [11.35.0](https://github.com/core-ds/ui-primitives/compare/v11.34.0...v11.35.0) (2023-07-07)
 
