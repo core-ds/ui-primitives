@@ -1,3 +1,13 @@
+<a name="12.7.0"></a>
+# [12.7.0](https://github.com/core-ds/ui-primitives/compare/v12.6.0...v12.7.0) (2023-08-29)
+
+
+### Features
+
+* **styles:** updated pfm colors ([#386](https://github.com/core-ds/ui-primitives/issues/386)) ([c593a78](https://github.com/core-ds/ui-primitives/commit/c593a78))
+
+
+
 <a name="12.6.0"></a>
 # [12.6.0](https://github.com/core-ds/ui-primitives/compare/v12.5.0...v12.6.0) (2023-08-25)
 
