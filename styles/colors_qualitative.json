@@ -1,0 +1,642 @@
+{
+	"dark_qualitative_duocolor_set_a_1": {
+		"rgba": "rgba(34, 209, 87, 1)",
+		"hex": "#22d157",
+		"alias": "qualitativeDuocolorSetAColor1"
+	},
+	"dark_qualitative_duocolor_set_a_2": {
+		"rgba": "rgba(255, 93, 59, 1)",
+		"hex": "#ff5d3b",
+		"alias": "qualitativeDuocolorSetAColor2"
+	},
+	"dark_qualitative_duocolor_set_b_1": {
+		"rgba": "rgba(34, 209, 87, 1)",
+		"hex": "#22d157",
+		"alias": "qualitativeDuocolorSetBColor1"
+	},
+	"dark_qualitative_duocolor_set_b_2": {
+		"rgba": "rgba(253, 161, 52, 1)",
+		"hex": "#fda134",
+		"alias": "qualitativeDuocolorSetBColor2"
+	},
+	"dark_qualitative_duocolor_set_c_1": {
+		"rgba": "rgba(92, 166, 249, 1)",
+		"hex": "#5ca6f9",
+		"alias": "qualitativeDuocolorSetCColor1"
+	},
+	"dark_qualitative_duocolor_set_c_2": {
+		"rgba": "rgba(253, 161, 52, 1)",
+		"hex": "#fda134",
+		"alias": "qualitativeDuocolorSetCColor2"
+	},
+	"dark_qualitative_duocolor_set_d_1": {
+		"rgba": "rgba(149, 197, 53, 1)",
+		"hex": "#95c535",
+		"alias": "qualitativeDuocolorSetDColor1"
+	},
+	"dark_qualitative_duocolor_set_d_2": {
+		"rgba": "rgba(155, 150, 248, 1)",
+		"hex": "#9b96f8",
+		"alias": "qualitativeDuocolorSetDColor2"
+	},
+	"dark_qualitative_duocolor_set_e_1": {
+		"rgba": "rgba(12, 181, 183, 1)",
+		"hex": "#0cb5b7",
+		"alias": "qualitativeDuocolorSetEColor1"
+	},
+	"dark_qualitative_duocolor_set_e_2": {
+		"rgba": "rgba(253, 161, 52, 1)",
+		"hex": "#fda134",
+		"alias": "qualitativeDuocolorSetEColor2"
+	},
+	"dark_qualitative_duocolor_set_f_1": {
+		"rgba": "rgba(254, 222, 19, 1)",
+		"hex": "#fede13",
+		"alias": "qualitativeDuocolorSetFColor1"
+	},
+	"dark_qualitative_duocolor_set_f_2": {
+		"rgba": "rgba(155, 150, 248, 1)",
+		"hex": "#9b96f8",
+		"alias": "qualitativeDuocolorSetFColor2"
+	},
+	"dark_qualitative_duocolor_set_g_1": {
+		"rgba": "rgba(149, 197, 53, 1)",
+		"hex": "#95c535",
+		"alias": "qualitativeDuocolorSetGColor1"
+	},
+	"dark_qualitative_duocolor_set_g_2": {
+		"rgba": "rgba(203, 133, 229, 1)",
+		"hex": "#cb85e5",
+		"alias": "qualitativeDuocolorSetGColor2"
+	},
+	"dark_qualitative_flexible_1": {
+		"rgba": "rgba(149, 197, 53, 1)",
+		"hex": "#95c535",
+		"alias": "qualitativeFlexibleColor1"
+	},
+	"dark_qualitative_flexible_10": {
+		"rgba": "rgba(127, 102, 222, 1)",
+		"hex": "#7f66de",
+		"alias": "qualitativeFlexibleColor10"
+	},
+	"dark_qualitative_flexible_11": {
+		"rgba": "rgba(94, 204, 115, 1)",
+		"hex": "#5ecc73",
+		"alias": "qualitativeFlexibleColor11"
+	},
+	"dark_qualitative_flexible_12": {
+		"rgba": "rgba(25, 175, 222, 1)",
+		"hex": "#19afde",
+		"alias": "qualitativeFlexibleColor12"
+	},
+	"dark_qualitative_flexible_13": {
+		"rgba": "rgba(254, 222, 19, 1)",
+		"hex": "#fede13",
+		"alias": "qualitativeFlexibleColor13"
+	},
+	"dark_qualitative_flexible_14": {
+		"rgba": "rgba(246, 116, 204, 1)",
+		"hex": "#f674cc",
+		"alias": "qualitativeFlexibleColor14"
+	},
+	"dark_qualitative_flexible_2": {
+		"rgba": "rgba(52, 142, 243, 1)",
+		"hex": "#348ef3",
+		"alias": "qualitativeFlexibleColor2"
+	},
+	"dark_qualitative_flexible_3": {
+		"rgba": "rgba(255, 119, 86, 1)",
+		"hex": "#ff7756",
+		"alias": "qualitativeFlexibleColor3"
+	},
+	"dark_qualitative_flexible_4": {
+		"rgba": "rgba(1, 163, 116, 1)",
+		"hex": "#01a374",
+		"alias": "qualitativeFlexibleColor4"
+	},
+	"dark_qualitative_flexible_5": {
+		"rgba": "rgba(253, 161, 52, 1)",
+		"hex": "#fda134",
+		"alias": "qualitativeFlexibleColor5"
+	},
+	"dark_qualitative_flexible_6": {
+		"rgba": "rgba(191, 102, 221, 1)",
+		"hex": "#bf66dd",
+		"alias": "qualitativeFlexibleColor6"
+	},
+	"dark_qualitative_flexible_7": {
+		"rgba": "rgba(252, 153, 182, 1)",
+		"hex": "#fc99b6",
+		"alias": "qualitativeFlexibleColor7"
+	},
+	"dark_qualitative_flexible_8": {
+		"rgba": "rgba(20, 167, 65, 1)",
+		"hex": "#14a741",
+		"alias": "qualitativeFlexibleColor8"
+	},
+	"dark_qualitative_flexible_9": {
+		"rgba": "rgba(114, 220, 223, 1)",
+		"hex": "#72dcdf",
+		"alias": "qualitativeFlexibleColor9"
+	},
+	"dark_qualitative_monocolor_blue": {
+		"rgba": "rgba(92, 166, 249, 1)",
+		"hex": "#5ca6f9",
+		"alias": "qualitativeMonocolorColorBlue"
+	},
+	"dark_qualitative_monocolor_green": {
+		"rgba": "rgba(34, 209, 87, 1)",
+		"hex": "#22d157",
+		"alias": "qualitativeMonocolorColorGreen"
+	},
+	"dark_qualitative_monocolor_indigo": {
+		"rgba": "rgba(155, 150, 248, 1)",
+		"hex": "#9b96f8",
+		"alias": "qualitativeMonocolorColorIndigo"
+	},
+	"dark_qualitative_monocolor_magenta": {
+		"rgba": "rgba(251, 120, 159, 1)",
+		"hex": "#fb789f",
+		"alias": "qualitativeMonocolorColorMagenta"
+	},
+	"dark_qualitative_monocolor_orange": {
+		"rgba": "rgba(253, 161, 52, 1)",
+		"hex": "#fda134",
+		"alias": "qualitativeMonocolorColorOrange"
+	},
+	"dark_qualitative_monocolor_pistachio": {
+		"rgba": "rgba(149, 197, 53, 1)",
+		"hex": "#95c535",
+		"alias": "qualitativeMonocolorColorPistachio"
+	},
+	"dark_qualitative_monocolor_red": {
+		"rgba": "rgba(255, 93, 59, 1)",
+		"hex": "#ff5d3b",
+		"alias": "qualitativeMonocolorColorRed"
+	},
+	"dark_qualitative_monocolor_teal": {
+		"rgba": "rgba(12, 181, 183, 1)",
+		"hex": "#0cb5b7",
+		"alias": "qualitativeMonocolorColorTeal"
+	},
+	"dark_qualitative_monocolor_yellow": {
+		"rgba": "rgba(254, 222, 19, 1)",
+		"hex": "#fede13",
+		"alias": "qualitativeMonocolorColorYellow"
+	},
+	"dark_qualitative_tetracolor_set_a_1": {
+		"rgba": "rgba(21, 151, 196, 1)",
+		"hex": "#1597c4",
+		"alias": "qualitativeTetracolorSetAColor1"
+	},
+	"dark_qualitative_tetracolor_set_a_2": {
+		"rgba": "rgba(66, 204, 164, 1)",
+		"hex": "#42cca4",
+		"alias": "qualitativeTetracolorSetAColor2"
+	},
+	"dark_qualitative_tetracolor_set_a_3": {
+		"rgba": "rgba(191, 102, 221, 1)",
+		"hex": "#bf66dd",
+		"alias": "qualitativeTetracolorSetAColor3"
+	},
+	"dark_qualitative_tetracolor_set_a_4": {
+		"rgba": "rgba(254, 222, 19, 1)",
+		"hex": "#fede13",
+		"alias": "qualitativeTetracolorSetAColor4"
+	},
+	"dark_qualitative_tetracolor_set_b_1": {
+		"rgba": "rgba(139, 126, 243, 1)",
+		"hex": "#8b7ef3",
+		"alias": "qualitativeTetracolorSetBColor1"
+	},
+	"dark_qualitative_tetracolor_set_b_2": {
+		"rgba": "rgba(66, 204, 164, 1)",
+		"hex": "#42cca4",
+		"alias": "qualitativeTetracolorSetBColor2"
+	},
+	"dark_qualitative_tetracolor_set_b_3": {
+		"rgba": "rgba(21, 151, 196, 1)",
+		"hex": "#1597c4",
+		"alias": "qualitativeTetracolorSetBColor3"
+	},
+	"dark_qualitative_tetracolor_set_b_4": {
+		"rgba": "rgba(253, 161, 52, 1)",
+		"hex": "#fda134",
+		"alias": "qualitativeTetracolorSetBColor4"
+	},
+	"dark_qualitative_tetracolor_set_c_1": {
+		"rgba": "rgba(191, 102, 221, 1)",
+		"hex": "#bf66dd",
+		"alias": "qualitativeTetracolorSetCColor1"
+	},
+	"dark_qualitative_tetracolor_set_c_2": {
+		"rgba": "rgba(66, 204, 164, 1)",
+		"hex": "#42cca4",
+		"alias": "qualitativeTetracolorSetCColor2"
+	},
+	"dark_qualitative_tetracolor_set_c_3": {
+		"rgba": "rgba(254, 222, 19, 1)",
+		"hex": "#fede13",
+		"alias": "qualitativeTetracolorSetCColor3"
+	},
+	"dark_qualitative_tetracolor_set_c_4": {
+		"rgba": "rgba(255, 119, 86, 1)",
+		"hex": "#ff7756",
+		"alias": "qualitativeTetracolorSetCColor4"
+	},
+	"dark_qualitative_tricolor_set_a_1": {
+		"rgba": "rgba(149, 197, 53, 1)",
+		"hex": "#95c535",
+		"alias": "qualitativeTricolorSetAColor1"
+	},
+	"dark_qualitative_tricolor_set_a_2": {
+		"rgba": "rgba(155, 150, 248, 1)",
+		"hex": "#9b96f8",
+		"alias": "qualitativeTricolorSetAColor2"
+	},
+	"dark_qualitative_tricolor_set_a_3": {
+		"rgba": "rgba(254, 222, 19, 1)",
+		"hex": "#fede13",
+		"alias": "qualitativeTricolorSetAColor3"
+	},
+	"dark_qualitative_tricolor_set_b_1": {
+		"rgba": "rgba(34, 209, 87, 1)",
+		"hex": "#22d157",
+		"alias": "qualitativeTricolorSetBColor1"
+	},
+	"dark_qualitative_tricolor_set_b_2": {
+		"rgba": "rgba(203, 133, 229, 1)",
+		"hex": "#cb85e5",
+		"alias": "qualitativeTricolorSetBColor2"
+	},
+	"dark_qualitative_tricolor_set_b_3": {
+		"rgba": "rgba(253, 161, 52, 1)",
+		"hex": "#fda134",
+		"alias": "qualitativeTricolorSetBColor3"
+	},
+	"dark_qualitative_tricolor_set_c_1": {
+		"rgba": "rgba(255, 119, 86, 1)",
+		"hex": "#ff7756",
+		"alias": "qualitativeTricolorSetCColor1"
+	},
+	"dark_qualitative_tricolor_set_c_2": {
+		"rgba": "rgba(12, 181, 183, 1)",
+		"hex": "#0cb5b7",
+		"alias": "qualitativeTricolorSetCColor2"
+	},
+	"dark_qualitative_tricolor_set_c_3": {
+		"rgba": "rgba(253, 161, 52, 1)",
+		"hex": "#fda134",
+		"alias": "qualitativeTricolorSetCColor3"
+	},
+	"dark_qualitative_tricolor_set_d_1": {
+		"rgba": "rgba(149, 197, 53, 1)",
+		"hex": "#95c535",
+		"alias": "qualitativeTricolorSetDColor1"
+	},
+	"dark_qualitative_tricolor_set_d_2": {
+		"rgba": "rgba(92, 166, 249, 1)",
+		"hex": "#5ca6f9",
+		"alias": "qualitativeTricolorSetDColor2"
+	},
+	"dark_qualitative_tricolor_set_d_3": {
+		"rgba": "rgba(255, 119, 86, 1)",
+		"hex": "#ff7756",
+		"alias": "qualitativeTricolorSetDColor3"
+	},
+	"dark_qualitative_tricolor_set_e_1": {
+		"rgba": "rgba(253, 161, 52, 1)",
+		"hex": "#fda134",
+		"alias": "qualitativeTricolorSetEColor1"
+	},
+	"dark_qualitative_tricolor_set_e_2": {
+		"rgba": "rgba(92, 166, 249, 1)",
+		"hex": "#5ca6f9",
+		"alias": "qualitativeTricolorSetEColor2"
+	},
+	"dark_qualitative_tricolor_set_e_3": {
+		"rgba": "rgba(254, 222, 19, 1)",
+		"hex": "#fede13",
+		"alias": "qualitativeTricolorSetEColor3"
+	},
+	"light_qualitative_duocolor_set_a_1": {
+		"rgba": "rgba(21, 200, 79, 1)",
+		"hex": "#15c84f",
+		"alias": "qualitativeDuocolorSetAColor1"
+	},
+	"light_qualitative_duocolor_set_a_2": {
+		"rgba": "rgba(255, 84, 49, 1)",
+		"hex": "#ff5431",
+		"alias": "qualitativeDuocolorSetAColor2"
+	},
+	"light_qualitative_duocolor_set_b_1": {
+		"rgba": "rgba(21, 200, 79, 1)",
+		"hex": "#15c84f",
+		"alias": "qualitativeDuocolorSetBColor1"
+	},
+	"light_qualitative_duocolor_set_b_2": {
+		"rgba": "rgba(253, 161, 52, 1)",
+		"hex": "#fda134",
+		"alias": "qualitativeDuocolorSetBColor2"
+	},
+	"light_qualitative_duocolor_set_c_1": {
+		"rgba": "rgba(52, 142, 243, 1)",
+		"hex": "#348ef3",
+		"alias": "qualitativeDuocolorSetCColor1"
+	},
+	"light_qualitative_duocolor_set_c_2": {
+		"rgba": "rgba(253, 161, 52, 1)",
+		"hex": "#fda134",
+		"alias": "qualitativeDuocolorSetCColor2"
+	},
+	"light_qualitative_duocolor_set_d_1": {
+		"rgba": "rgba(149, 197, 53, 1)",
+		"hex": "#95c535",
+		"alias": "qualitativeDuocolorSetDColor1"
+	},
+	"light_qualitative_duocolor_set_d_2": {
+		"rgba": "rgba(139, 126, 243, 1)",
+		"hex": "#8b7ef3",
+		"alias": "qualitativeDuocolorSetDColor2"
+	},
+	"light_qualitative_duocolor_set_e_1": {
+		"rgba": "rgba(1, 159, 156, 1)",
+		"hex": "#019f9c",
+		"alias": "qualitativeDuocolorSetEColor1"
+	},
+	"light_qualitative_duocolor_set_e_2": {
+		"rgba": "rgba(253, 161, 52, 1)",
+		"hex": "#fda134",
+		"alias": "qualitativeDuocolorSetEColor2"
+	},
+	"light_qualitative_duocolor_set_f_1": {
+		"rgba": "rgba(246, 212, 24, 1)",
+		"hex": "#f6d418",
+		"alias": "qualitativeDuocolorSetFColor1"
+	},
+	"light_qualitative_duocolor_set_f_2": {
+		"rgba": "rgba(139, 126, 243, 1)",
+		"hex": "#8b7ef3",
+		"alias": "qualitativeDuocolorSetFColor2"
+	},
+	"light_qualitative_duocolor_set_g_1": {
+		"rgba": "rgba(149, 197, 53, 1)",
+		"hex": "#95c535",
+		"alias": "qualitativeDuocolorSetGColor1"
+	},
+	"light_qualitative_duocolor_set_g_2": {
+		"rgba": "rgba(191, 102, 221, 1)",
+		"hex": "#bf66dd",
+		"alias": "qualitativeDuocolorSetGColor2"
+	},
+	"light_qualitative_flexible_1": {
+		"rgba": "rgba(149, 197, 53, 1)",
+		"hex": "#95c535",
+		"alias": "qualitativeFlexibleColor1"
+	},
+	"light_qualitative_flexible_10": {
+		"rgba": "rgba(111, 82, 196, 1)",
+		"hex": "#6f52c4",
+		"alias": "qualitativeFlexibleColor10"
+	},
+	"light_qualitative_flexible_11": {
+		"rgba": "rgba(49, 186, 82, 1)",
+		"hex": "#31ba52",
+		"alias": "qualitativeFlexibleColor11"
+	},
+	"light_qualitative_flexible_12": {
+		"rgba": "rgba(21, 151, 196, 1)",
+		"hex": "#1597c4",
+		"alias": "qualitativeFlexibleColor12"
+	},
+	"light_qualitative_flexible_13": {
+		"rgba": "rgba(246, 212, 24, 1)",
+		"hex": "#f6d418",
+		"alias": "qualitativeFlexibleColor13"
+	},
+	"light_qualitative_flexible_14": {
+		"rgba": "rgba(229, 82, 188, 1)",
+		"hex": "#e552bc",
+		"alias": "qualitativeFlexibleColor14"
+	},
+	"light_qualitative_flexible_2": {
+		"rgba": "rgba(48, 119, 228, 1)",
+		"hex": "#3077e4",
+		"alias": "qualitativeFlexibleColor2"
+	},
+	"light_qualitative_flexible_3": {
+		"rgba": "rgba(255, 93, 59, 1)",
+		"hex": "#ff5d3b",
+		"alias": "qualitativeFlexibleColor3"
+	},
+	"light_qualitative_flexible_4": {
+		"rgba": "rgba(0, 141, 102, 1)",
+		"hex": "#008d66",
+		"alias": "qualitativeFlexibleColor4"
+	},
+	"light_qualitative_flexible_5": {
+		"rgba": "rgba(251, 149, 23, 1)",
+		"hex": "#fb9517",
+		"alias": "qualitativeFlexibleColor5"
+	},
+	"light_qualitative_flexible_6": {
+		"rgba": "rgba(173, 78, 198, 1)",
+		"hex": "#ad4ec6",
+		"alias": "qualitativeFlexibleColor6"
+	},
+	"light_qualitative_flexible_7": {
+		"rgba": "rgba(251, 120, 159, 1)",
+		"hex": "#fb789f",
+		"alias": "qualitativeFlexibleColor7"
+	},
+	"light_qualitative_flexible_8": {
+		"rgba": "rgba(5, 143, 51, 1)",
+		"hex": "#058f33",
+		"alias": "qualitativeFlexibleColor8"
+	},
+	"light_qualitative_flexible_9": {
+		"rgba": "rgba(63, 201, 203, 1)",
+		"hex": "#3fc9cb",
+		"alias": "qualitativeFlexibleColor9"
+	},
+	"light_qualitative_monocolor_blue": {
+		"rgba": "rgba(52, 142, 243, 1)",
+		"hex": "#348ef3",
+		"alias": "qualitativeMonocolorColorBlue"
+	},
+	"light_qualitative_monocolor_green": {
+		"rgba": "rgba(21, 200, 79, 1)",
+		"hex": "#15c84f",
+		"alias": "qualitativeMonocolorColorGreen"
+	},
+	"light_qualitative_monocolor_indigo": {
+		"rgba": "rgba(139, 126, 243, 1)",
+		"hex": "#8b7ef3",
+		"alias": "qualitativeMonocolorColorIndigo"
+	},
+	"light_qualitative_monocolor_magenta": {
+		"rgba": "rgba(239, 84, 135, 1)",
+		"hex": "#ef5487",
+		"alias": "qualitativeMonocolorColorMagenta"
+	},
+	"light_qualitative_monocolor_orange": {
+		"rgba": "rgba(253, 161, 52, 1)",
+		"hex": "#fda134",
+		"alias": "qualitativeMonocolorColorOrange"
+	},
+	"light_qualitative_monocolor_pistachio": {
+		"rgba": "rgba(149, 197, 53, 1)",
+		"hex": "#95c535",
+		"alias": "qualitativeMonocolorColorPistachio"
+	},
+	"light_qualitative_monocolor_red": {
+		"rgba": "rgba(255, 84, 49, 1)",
+		"hex": "#ff5431",
+		"alias": "qualitativeMonocolorColorRed"
+	},
+	"light_qualitative_monocolor_teal": {
+		"rgba": "rgba(1, 159, 156, 1)",
+		"hex": "#019f9c",
+		"alias": "qualitativeMonocolorColorTeal"
+	},
+	"light_qualitative_monocolor_yellow": {
+		"rgba": "rgba(246, 212, 24, 1)",
+		"hex": "#f6d418",
+		"alias": "qualitativeMonocolorColorYellow"
+	},
+	"light_qualitative_tetracolor_set_a_1": {
+		"rgba": "rgba(0, 132, 169, 1)",
+		"hex": "#0084a9",
+		"alias": "qualitativeTetracolorSetAColor1"
+	},
+	"light_qualitative_tetracolor_set_a_2": {
+		"rgba": "rgba(20, 184, 140, 1)",
+		"hex": "#14b88c",
+		"alias": "qualitativeTetracolorSetAColor2"
+	},
+	"light_qualitative_tetracolor_set_a_3": {
+		"rgba": "rgba(173, 78, 198, 1)",
+		"hex": "#ad4ec6",
+		"alias": "qualitativeTetracolorSetAColor3"
+	},
+	"light_qualitative_tetracolor_set_a_4": {
+		"rgba": "rgba(246, 212, 24, 1)",
+		"hex": "#f6d418",
+		"alias": "qualitativeTetracolorSetAColor4"
+	},
+	"light_qualitative_tetracolor_set_b_1": {
+		"rgba": "rgba(127, 102, 222, 1)",
+		"hex": "#7f66de",
+		"alias": "qualitativeTetracolorSetBColor1"
+	},
+	"light_qualitative_tetracolor_set_b_2": {
+		"rgba": "rgba(20, 184, 140, 1)",
+		"hex": "#14b88c",
+		"alias": "qualitativeTetracolorSetBColor2"
+	},
+	"light_qualitative_tetracolor_set_b_3": {
+		"rgba": "rgba(0, 132, 169, 1)",
+		"hex": "#0084a9",
+		"alias": "qualitativeTetracolorSetBColor3"
+	},
+	"light_qualitative_tetracolor_set_b_4": {
+		"rgba": "rgba(253, 161, 52, 1)",
+		"hex": "#fda134",
+		"alias": "qualitativeTetracolorSetBColor4"
+	},
+	"light_qualitative_tetracolor_set_c_1": {
+		"rgba": "rgba(173, 78, 198, 1)",
+		"hex": "#ad4ec6",
+		"alias": "qualitativeTetracolorSetCColor1"
+	},
+	"light_qualitative_tetracolor_set_c_2": {
+		"rgba": "rgba(20, 184, 140, 1)",
+		"hex": "#14b88c",
+		"alias": "qualitativeTetracolorSetCColor2"
+	},
+	"light_qualitative_tetracolor_set_c_3": {
+		"rgba": "rgba(246, 212, 24, 1)",
+		"hex": "#f6d418",
+		"alias": "qualitativeTetracolorSetCColor3"
+	},
+	"light_qualitative_tetracolor_set_c_4": {
+		"rgba": "rgba(255, 119, 86, 1)",
+		"hex": "#ff7756",
+		"alias": "qualitativeTetracolorSetCColor4"
+	},
+	"light_qualitative_tricolor_set_a_1": {
+		"rgba": "rgba(149, 197, 53, 1)",
+		"hex": "#95c535",
+		"alias": "qualitativeTricolorSetAColor1"
+	},
+	"light_qualitative_tricolor_set_a_2": {
+		"rgba": "rgba(139, 126, 243, 1)",
+		"hex": "#8b7ef3",
+		"alias": "qualitativeTricolorSetAColor2"
+	},
+	"light_qualitative_tricolor_set_a_3": {
+		"rgba": "rgba(246, 212, 24, 1)",
+		"hex": "#f6d418",
+		"alias": "qualitativeTricolorSetAColor3"
+	},
+	"light_qualitative_tricolor_set_b_1": {
+		"rgba": "rgba(21, 200, 79, 1)",
+		"hex": "#15c84f",
+		"alias": "qualitativeTricolorSetBColor1"
+	},
+	"light_qualitative_tricolor_set_b_2": {
+		"rgba": "rgba(191, 102, 221, 1)",
+		"hex": "#bf66dd",
+		"alias": "qualitativeTricolorSetBColor2"
+	},
+	"light_qualitative_tricolor_set_b_3": {
+		"rgba": "rgba(253, 161, 52, 1)",
+		"hex": "#fda134",
+		"alias": "qualitativeTricolorSetBColor3"
+	},
+	"light_qualitative_tricolor_set_c_1": {
+		"rgba": "rgba(255, 119, 86, 1)",
+		"hex": "#ff7756",
+		"alias": "qualitativeTricolorSetCColor1"
+	},
+	"light_qualitative_tricolor_set_c_2": {
+		"rgba": "rgba(1, 159, 156, 1)",
+		"hex": "#019f9c",
+		"alias": "qualitativeTricolorSetCColor2"
+	},
+	"light_qualitative_tricolor_set_c_3": {
+		"rgba": "rgba(253, 161, 52, 1)",
+		"hex": "#fda134",
+		"alias": "qualitativeTricolorSetCColor3"
+	},
+	"light_qualitative_tricolor_set_d_1": {
+		"rgba": "rgba(149, 197, 53, 1)",
+		"hex": "#95c535",
+		"alias": "qualitativeTricolorSetDColor1"
+	},
+	"light_qualitative_tricolor_set_d_2": {
+		"rgba": "rgba(52, 142, 243, 1)",
+		"hex": "#348ef3",
+		"alias": "qualitativeTricolorSetDColor2"
+	},
+	"light_qualitative_tricolor_set_d_3": {
+		"rgba": "rgba(255, 119, 86, 1)",
+		"hex": "#ff7756",
+		"alias": "qualitativeTricolorSetDColor3"
+	},
+	"light_qualitative_tricolor_set_e_1": {
+		"rgba": "rgba(253, 161, 52, 1)",
+		"hex": "#fda134",
+		"alias": "qualitativeTricolorSetEColor1"
+	},
+	"light_qualitative_tricolor_set_e_2": {
+		"rgba": "rgba(52, 142, 243, 1)",
+		"hex": "#348ef3",
+		"alias": "qualitativeTricolorSetEColor2"
+	},
+	"light_qualitative_tricolor_set_e_3": {
+		"rgba": "rgba(246, 212, 24, 1)",
+		"hex": "#f6d418",
+		"alias": "qualitativeTricolorSetEColor3"
+	}
+}
