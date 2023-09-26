@@ -639,6 +639,26 @@
 		"hex": "#52ebebf5",
 		"alias": "textColorTertiaryInverted"
 	},
+	"static_accent_primary": {
+		"rgba": "rgba(239, 49, 36, 1)",
+		"hex": "#ef3124",
+		"alias": "staticAccentColorPrimary"
+	},
+	"static_accent_primary_inverted": {
+		"rgba": "rgba(248, 58, 42, 1)",
+		"hex": "#f83a2a",
+		"alias": "staticAccentColorPrimaryInverted"
+	},
+	"static_accent_secondary": {
+		"rgba": "rgba(14, 14, 15, 1)",
+		"hex": "#0e0e0f",
+		"alias": "staticAccentColorSecondary"
+	},
+	"static_accent_secondary_inverted": {
+		"rgba": "rgba(255, 255, 255, 1)",
+		"hex": "#ffffff",
+		"alias": "staticAccentColorSecondaryInverted"
+	},
 	"static_bg_accent": {
 		"rgba": "rgba(239, 49, 36, 1)",
 		"hex": "#ef3124",
@@ -704,35 +724,265 @@
 		"hex": "#ffffff",
 		"alias": "staticGraphicColorLight"
 	},
+	"static_neutral_0": {
+		"rgba": "rgba(255, 255, 255, 1)",
+		"hex": "#ffffff",
+		"alias": "staticNeutralColor0"
+	},
+	"static_neutral_0_inverted": {
+		"rgba": "rgba(41, 41, 44, 1)",
+		"hex": "#29292c",
+		"alias": "staticNeutralColor0Inverted"
+	},
+	"static_neutral_100": {
+		"rgba": "rgba(242, 243, 245, 1)",
+		"hex": "#f2f3f5",
+		"alias": "staticNeutralColor100"
+	},
+	"static_neutral_100_inverted": {
+		"rgba": "rgba(28, 28, 30, 1)",
+		"hex": "#1c1c1e",
+		"alias": "staticNeutralColor100Inverted"
+	},
+	"static_neutral_1500": {
+		"rgba": "rgba(14, 14, 15, 1)",
+		"hex": "#0e0e0f",
+		"alias": "staticNeutralColor1500"
+	},
+	"static_neutral_1500_inverted": {
+		"rgba": "rgba(255, 255, 255, 1)",
+		"hex": "#ffffff",
+		"alias": "staticNeutralColor1500Inverted"
+	},
+	"static_neutral_200": {
+		"rgba": "rgba(237, 238, 240, 1)",
+		"hex": "#edeef0",
+		"alias": "staticNeutralColor200"
+	},
+	"static_neutral_200_inverted": {
+		"rgba": "rgba(33, 33, 36, 1)",
+		"hex": "#212124",
+		"alias": "staticNeutralColor200Inverted"
+	},
+	"static_neutral_300": {
+		"rgba": "rgba(231, 232, 235, 1)",
+		"hex": "#e7e8eb",
+		"alias": "staticNeutralColor300"
+	},
+	"static_neutral_300_inverted": {
+		"rgba": "rgba(41, 41, 44, 1)",
+		"hex": "#29292c",
+		"alias": "staticNeutralColor300Inverted"
+	},
+	"static_neutral_400": {
+		"rgba": "rgba(210, 211, 217, 1)",
+		"hex": "#d2d3d9",
+		"alias": "staticNeutralColor400"
+	},
+	"static_neutral_400_inverted": {
+		"rgba": "rgba(53, 53, 57, 1)",
+		"hex": "#353539",
+		"alias": "staticNeutralColor400Inverted"
+	},
+	"static_neutral_500": {
+		"rgba": "rgba(186, 187, 194, 1)",
+		"hex": "#babbc2",
+		"alias": "staticNeutralColor500"
+	},
+	"static_neutral_500_inverted": {
+		"rgba": "rgba(74, 74, 81, 1)",
+		"hex": "#4a4a51",
+		"alias": "staticNeutralColor500Inverted"
+	},
+	"static_neutral_700": {
+		"rgba": "rgba(137, 137, 145, 1)",
+		"hex": "#898991",
+		"alias": "staticNeutralColor700"
+	},
+	"static_neutral_700_inverted": {
+		"rgba": "rgba(137, 137, 145, 1)",
+		"hex": "#898991",
+		"alias": "staticNeutralColor700Inverted"
+	},
+	"static_neutral_translucent_0": {
+		"rgba": "rgba(255, 255, 255, 1)",
+		"hex": "#ffffff",
+		"alias": "staticNeutralTranslucentColor0"
+	},
+	"static_neutral_translucent_0_inverted": {
+		"rgba": "rgba(214, 214, 229, 0.07)",
+		"hex": "#12d6d6e5",
+		"alias": "staticNeutralTranslucentColor0Inverted"
+	},
+	"static_neutral_translucent_100": {
+		"rgba": "rgba(38, 55, 88, 0.06)",
+		"hex": "#0f263758",
+		"alias": "staticNeutralTranslucentColor100"
+	},
+	"static_neutral_translucent_100_inverted": {
+		"rgba": "rgba(214, 214, 229, 0.07)",
+		"hex": "#12d6d6e5",
+		"alias": "staticNeutralTranslucentColor100Inverted"
+	},
+	"static_neutral_translucent_200": {
+		"rgba": "rgba(30, 43, 68, 0.08)",
+		"hex": "#141e2b44",
+		"alias": "staticNeutralTranslucentColor200"
+	},
+	"static_neutral_translucent_200_inverted": {
+		"rgba": "rgba(225, 225, 248, 0.09)",
+		"hex": "#17e1e1f8",
+		"alias": "staticNeutralTranslucentColor200Inverted"
+	},
+	"static_neutral_translucent_300": {
+		"rgba": "rgba(15, 25, 55, 0.1)",
+		"hex": "#1a0f1937",
+		"alias": "staticNeutralTranslucentColor300"
+	},
+	"static_neutral_translucent_300_inverted": {
+		"rgba": "rgba(222, 222, 238, 0.13)",
+		"hex": "#21dedeee",
+		"alias": "staticNeutralTranslucentColor300Inverted"
+	},
+	"static_neutral_translucent_400": {
+		"rgba": "rgba(5, 11, 44, 0.18)",
+		"hex": "#2e050b2c",
+		"alias": "staticNeutralTranslucentColor400"
+	},
+	"static_neutral_translucent_400_inverted": {
+		"rgba": "rgba(231, 231, 248, 0.18)",
+		"hex": "#2ee7e7f8",
+		"alias": "staticNeutralTranslucentColor400Inverted"
+	},
+	"static_neutral_translucent_500": {
+		"rgba": "rgba(9, 12, 37, 0.28)",
+		"hex": "#47090c25",
+		"alias": "staticNeutralTranslucentColor500"
+	},
+	"static_neutral_translucent_500_inverted": {
+		"rgba": "rgba(228, 228, 251, 0.28)",
+		"hex": "#47e4e4fb",
+		"alias": "staticNeutralTranslucentColor500Inverted"
+	},
+	"static_neutral_translucent_700": {
+		"rgba": "rgba(4, 4, 21, 0.47)",
+		"hex": "#78040415",
+		"alias": "staticNeutralTranslucentColor700"
+	},
+	"static_neutral_translucent_700_inverted": {
+		"rgba": "rgba(238, 238, 251, 0.55)",
+		"hex": "#8ceeeefb",
+		"alias": "staticNeutralTranslucentColor700Inverted"
+	},
 	"static_text_accent": {
 		"rgba": "rgba(239, 49, 36, 1)",
 		"hex": "#ef3124",
 		"alias": "staticTextColorAccent"
+	},
+	"static_text_attention": {
+		"rgba": "rgba(234, 131, 19, 1)",
+		"hex": "#ea8313",
+		"alias": "staticTextColorAttention"
+	},
+	"static_text_attention_inverted": {
+		"rgba": "rgba(250, 147, 19, 1)",
+		"hex": "#fa9313",
+		"alias": "staticTextColorAttentionInverted"
+	},
+	"static_text_info": {
+		"rgba": "rgba(42, 119, 239, 1)",
+		"hex": "#2a77ef",
+		"alias": "staticTextColorInfo"
+	},
+	"static_text_info_inverted": {
+		"rgba": "rgba(74, 157, 252, 1)",
+		"hex": "#4a9dfc",
+		"alias": "staticTextColorInfoInverted"
+	},
+	"static_text_negative": {
+		"rgba": "rgba(236, 46, 20, 1)",
+		"hex": "#ec2e14",
+		"alias": "staticTextColorNegative"
+	},
+	"static_text_negative_inverted": {
+		"rgba": "rgba(255, 84, 49, 1)",
+		"hex": "#ff5431",
+		"alias": "staticTextColorNegativeInverted"
+	},
+	"static_text_positive": {
+		"rgba": "rgba(13, 147, 54, 1)",
+		"hex": "#0d9336",
+		"alias": "staticTextColorPositive"
+	},
+	"static_text_positive_inverted": {
+		"rgba": "rgba(12, 196, 77, 1)",
+		"hex": "#0cc44d",
+		"alias": "staticTextColorPositiveInverted"
+	},
+	"static_text_primary": {
+		"rgba": "rgba(14, 14, 15, 1)",
+		"hex": "#0e0e0f",
+		"alias": "staticTextColorPrimary"
 	},
 	"static_text_primary_dark": {
 		"rgba": "rgba(14, 14, 14, 1)",
 		"hex": "#0e0e0e",
 		"alias": "staticTextColorPrimaryDark"
 	},
+	"static_text_primary_inverted": {
+		"rgba": "rgba(255, 255, 255, 1)",
+		"hex": "#ffffff",
+		"alias": "staticTextColorPrimaryInverted"
+	},
 	"static_text_primary_light": {
 		"rgba": "rgba(255, 255, 255, 1)",
 		"hex": "#ffffff",
 		"alias": "staticTextColorPrimaryLight"
+	},
+	"static_text_quaternary": {
+		"rgba": "rgba(5, 11, 44, 0.18)",
+		"hex": "#2e050b2c",
+		"alias": "staticTextColorQuaternary"
+	},
+	"static_text_quaternary_inverted": {
+		"rgba": "rgba(231, 231, 248, 0.18)",
+		"hex": "#2ee7e7f8",
+		"alias": "staticTextColorQuaternaryInverted"
+	},
+	"static_text_secondary": {
+		"rgba": "rgba(4, 4, 19, 0.55)",
+		"hex": "#8c040413",
+		"alias": "staticTextColorSecondary"
 	},
 	"static_text_secondary_dark": {
 		"rgba": "rgba(60, 60, 67, 0.66)",
 		"hex": "#a83c3c43",
 		"alias": "staticTextColorSecondaryDark"
 	},
+	"static_text_secondary_inverted": {
+		"rgba": "rgba(238, 238, 251, 0.55)",
+		"hex": "#8ceeeefb",
+		"alias": "staticTextColorSecondaryInverted"
+	},
 	"static_text_secondary_light": {
 		"rgba": "rgba(235, 235, 245, 0.54)",
 		"hex": "#8aebebf5",
 		"alias": "staticTextColorSecondaryLight"
 	},
+	"static_text_tertiary": {
+		"rgba": "rgba(5, 8, 29, 0.38)",
+		"hex": "#6105081d",
+		"alias": "staticTextColorTertiary"
+	},
 	"static_text_tertiary_dark": {
 		"rgba": "rgba(60, 60, 67, 0.4)",
 		"hex": "#663c3c43",
 		"alias": "staticTextColorTertiaryDark"
+	},
+	"static_text_tertiary_inverted": {
+		"rgba": "rgba(233, 233, 250, 0.37)",
+		"hex": "#5ee9e9fa",
+		"alias": "staticTextColorTertiaryInverted"
 	},
 	"static_text_tertiary_light": {
 		"rgba": "rgba(235, 235, 245, 0.32)",
