@@ -26,7 +26,8 @@
         "version": "git fetch --tags && npm run changelog && git add CHANGELOG.md",
         "postversion": "npm run pub",
         "pub": "./utils/publish.sh",
-        "ci": "./utils/ci.sh"
+        "ci": "./utils/ci.sh",
+        "update-bb-mirror": "git push -f https://{userName}@git.moscow.alfaintra.net/scm/ef/ui-primitives.git"
     },
     "devDependencies": {
         "@commitlint/cli": "5.2.0",
