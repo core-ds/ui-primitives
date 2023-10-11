@@ -1,3 +1,13 @@
+<a name="12.14.0"></a>
+# [12.14.0](https://github.com/core-ds/ui-primitives/compare/v12.13.0...v12.14.0) (2023-10-11)
+
+
+### Features
+
+* update colors ([#427](https://github.com/core-ds/ui-primitives/issues/427)) ([08c8b2f](https://github.com/core-ds/ui-primitives/commit/08c8b2f))
+
+
+
 <a name="12.13.0"></a>
 # [12.13.0](https://github.com/core-ds/ui-primitives/compare/v12.12.0...v12.13.0) (2023-10-11)
 
