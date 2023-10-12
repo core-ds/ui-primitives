@@ -1,3 +1,8 @@
+<a name="13.0.0"></a>
+# [13.0.0](https://github.com/core-ds/ui-primitives/compare/v12.18.0...v13.0.0) (2023-10-12)
+
+
+
 <a name="12.18.0"></a>
 # [12.18.0](https://github.com/core-ds/ui-primitives/compare/v12.17.0...v12.18.0) (2023-10-12)
 
