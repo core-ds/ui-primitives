@@ -1,3 +1,13 @@
+<a name="12.17.0"></a>
+# [12.17.0](https://github.com/core-ds/ui-primitives/compare/v12.16.0...v12.17.0) (2023-10-12)
+
+
+### Features
+
+* **icons:** add 2 icons ([#431](https://github.com/core-ds/ui-primitives/issues/431)) ([925dade](https://github.com/core-ds/ui-primitives/commit/925dade))
+
+
+
 <a name="12.16.0"></a>
 # [12.16.0](https://github.com/core-ds/ui-primitives/compare/v12.15.0...v12.16.0) (2023-10-11)
 
