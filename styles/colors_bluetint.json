@@ -509,10 +509,30 @@
 		"hex": "#29292c",
 		"alias": "neutralColor300"
 	},
+	"dark_neutral_300_hover": {
+		"rgba": "rgba(47, 47, 50, 1)",
+		"hex": "#2f2f32",
+		"alias": "neutralColor300Hover"
+	},
 	"dark_neutral_300_inverted": {
 		"rgba": "rgba(231, 232, 235, 1)",
 		"hex": "#e7e8eb",
 		"alias": "neutralColor300Inverted"
+	},
+	"dark_neutral_300_inverted_hover": {
+		"rgba": "rgba(220, 221, 225, 1)",
+		"hex": "#dcdde1",
+		"alias": "neutralColor300InvertedHover"
+	},
+	"dark_neutral_300_inverted_press": {
+		"rgba": "rgba(210, 211, 217, 1)",
+		"hex": "#d2d3d9",
+		"alias": "neutralColor300InvertedPress"
+	},
+	"dark_neutral_300_press": {
+		"rgba": "rgba(53, 53, 57, 1)",
+		"hex": "#353539",
+		"alias": "neutralColor300Press"
 	},
 	"dark_neutral_400": {
 		"rgba": "rgba(53, 53, 57, 1)",
@@ -719,10 +739,30 @@
 		"hex": "#21dedeee",
 		"alias": "neutralTranslucentColor300"
 	},
+	"dark_neutral_translucent_300_hover": {
+		"rgba": "rgba(234, 234, 248, 0.15)",
+		"hex": "#26eaeaf8",
+		"alias": "neutralTranslucentColor300Hover"
+	},
 	"dark_neutral_translucent_300_inverted": {
 		"rgba": "rgba(15, 25, 55, 0.1)",
 		"hex": "#1a0f1937",
 		"alias": "neutralTranslucentColor300Inverted"
+	},
+	"dark_neutral_translucent_300_inverted_hover": {
+		"rgba": "rgba(5, 12, 41, 0.14)",
+		"hex": "#24050c29",
+		"alias": "neutralTranslucentColor300InvertedHover"
+	},
+	"dark_neutral_translucent_300_inverted_press": {
+		"rgba": "rgba(5, 11, 44, 0.18)",
+		"hex": "#2e050b2c",
+		"alias": "neutralTranslucentColor300InvertedPress"
+	},
+	"dark_neutral_translucent_300_press": {
+		"rgba": "rgba(231, 231, 248, 0.18)",
+		"hex": "#2ee7e7f8",
+		"alias": "neutralTranslucentColor300Press"
 	},
 	"dark_neutral_translucent_400": {
 		"rgba": "rgba(231, 231, 248, 0.18)",
@@ -1929,10 +1969,30 @@
 		"hex": "#e7e8eb",
 		"alias": "neutralColor300"
 	},
+	"light_neutral_300_hover": {
+		"rgba": "rgba(220, 221, 225, 1)",
+		"hex": "#dcdde1",
+		"alias": "neutralColor300Hover"
+	},
 	"light_neutral_300_inverted": {
 		"rgba": "rgba(41, 41, 44, 1)",
 		"hex": "#29292c",
 		"alias": "neutralColor300Inverted"
+	},
+	"light_neutral_300_inverted_hover": {
+		"rgba": "rgba(47, 47, 50, 1)",
+		"hex": "#2f2f32",
+		"alias": "neutralColor300InvertedHover"
+	},
+	"light_neutral_300_inverted_press": {
+		"rgba": "rgba(53, 53, 57, 1)",
+		"hex": "#353539",
+		"alias": "neutralColor300InvertedPress"
+	},
+	"light_neutral_300_press": {
+		"rgba": "rgba(210, 211, 217, 1)",
+		"hex": "#d2d3d9",
+		"alias": "neutralColor300Press"
 	},
 	"light_neutral_400": {
 		"rgba": "rgba(210, 211, 217, 1)",
@@ -2139,10 +2199,30 @@
 		"hex": "#1a0f1937",
 		"alias": "neutralTranslucentColor300"
 	},
+	"light_neutral_translucent_300_hover": {
+		"rgba": "rgba(5, 12, 41, 0.14)",
+		"hex": "#24050c29",
+		"alias": "neutralTranslucentColor300Hover"
+	},
 	"light_neutral_translucent_300_inverted": {
 		"rgba": "rgba(222, 222, 238, 0.13)",
 		"hex": "#21dedeee",
 		"alias": "neutralTranslucentColor300Inverted"
+	},
+	"light_neutral_translucent_300_inverted_hover": {
+		"rgba": "rgba(234, 234, 248, 0.15)",
+		"hex": "#26eaeaf8",
+		"alias": "neutralTranslucentColor300InvertedHover"
+	},
+	"light_neutral_translucent_300_inverted_press": {
+		"rgba": "rgba(231, 231, 248, 0.18)",
+		"hex": "#2ee7e7f8",
+		"alias": "neutralTranslucentColor300InvertedPress"
+	},
+	"light_neutral_translucent_300_press": {
+		"rgba": "rgba(5, 11, 44, 0.18)",
+		"hex": "#2e050b2c",
+		"alias": "neutralTranslucentColor300Press"
 	},
 	"light_neutral_translucent_400": {
 		"rgba": "rgba(5, 11, 44, 0.18)",
