@@ -1,0 +1,24 @@
+@import "@alfalab/core-components/vars/index.css";
+@import "@alfalab/core-components/themes/mobile.css";
+
+html {
+    height: 100%;
+    box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: inherit;
+}
+
+body {
+    overflow: auto;
+    min-height: 100%;
+    margin: 0 auto;
+    font-family: var(--font-family-system);
+    color: var(--color-light-text-primary);
+    background-color: var(--color-light-bg-primary);
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
