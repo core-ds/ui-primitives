@@ -125,8 +125,8 @@
 		"alias": "backgroundColorAccent"
 	},
 	"dark_bg_attention_muted": {
-		"rgba": "rgba(57, 41, 30, 1)",
-		"hex": "#39291e",
+		"rgba": "rgba(54, 41, 31, 1)",
+		"hex": "#36291f",
 		"alias": "backgroundColorAttentionMuted"
 	},
 	"dark_bg_info": {
@@ -135,13 +135,13 @@
 		"alias": "backgroundColorInfo"
 	},
 	"dark_bg_info_muted": {
-		"rgba": "rgba(34, 42, 62, 1)",
-		"hex": "#222a3e",
+		"rgba": "rgba(36, 42, 57, 1)",
+		"hex": "#242a39",
 		"alias": "backgroundColorInfoMuted"
 	},
 	"dark_bg_negative_muted": {
-		"rgba": "rgba(61, 35, 33, 1)",
-		"hex": "#3d2321",
+		"rgba": "rgba(57, 37, 35, 1)",
+		"hex": "#392523",
 		"alias": "backgroundColorNegativeMuted"
 	},
 	"dark_bg_opaque": {
@@ -155,8 +155,8 @@
 		"alias": "backgroundColorOverlay"
 	},
 	"dark_bg_positive_muted": {
-		"rgba": "rgba(32, 46, 35, 1)",
-		"hex": "#202e23",
+		"rgba": "rgba(35, 45, 37, 1)",
+		"hex": "#232d25",
 		"alias": "backgroundColorPositiveMuted"
 	},
 	"dark_bg_primary": {
@@ -975,8 +975,8 @@
 		"alias": "statusColorInfoPress"
 	},
 	"dark_status_muted_alt_attention": {
-		"rgba": "rgba(67, 46, 31, 1)",
-		"hex": "#432e1f",
+		"rgba": "rgba(65, 47, 34, 1)",
+		"hex": "#412f22",
 		"alias": "statusMutedAltColorAttention"
 	},
 	"dark_status_muted_alt_attention_hover": {
@@ -990,8 +990,8 @@
 		"alias": "statusMutedAltColorAttentionInverted"
 	},
 	"dark_status_muted_alt_attention_inverted_hover": {
-		"rgba": "rgba(249, 212, 163, 1)",
-		"hex": "#f9d4a3",
+		"rgba": "rgba(246, 215, 175, 1)",
+		"hex": "#f6d7af",
 		"alias": "statusMutedAltColorAttentionInvertedHover"
 	},
 	"dark_status_muted_alt_attention_inverted_press": {
@@ -1000,8 +1000,8 @@
 		"alias": "statusMutedAltColorAttentionInvertedPress"
 	},
 	"dark_status_muted_alt_attention_press": {
-		"rgba": "rgba(101, 64, 37, 1)",
-		"hex": "#654025",
+		"rgba": "rgba(99, 65, 40, 1)",
+		"hex": "#634128",
 		"alias": "statusMutedAltColorAttentionPress"
 	},
 	"dark_status_muted_alt_info": {
@@ -1020,8 +1020,8 @@
 		"alias": "statusMutedAltColorInfoInverted"
 	},
 	"dark_status_muted_alt_info_inverted_hover": {
-		"rgba": "rgba(195, 222, 252, 1)",
-		"hex": "#c3defc",
+		"rgba": "rgba(196, 222, 250, 1)",
+		"hex": "#c4defa",
 		"alias": "statusMutedAltColorInfoInvertedHover"
 	},
 	"dark_status_muted_alt_info_inverted_press": {
@@ -1030,18 +1030,18 @@
 		"alias": "statusMutedAltColorInfoInvertedPress"
 	},
 	"dark_status_muted_alt_info_press": {
-		"rgba": "rgba(53, 68, 112, 1)",
-		"hex": "#354470",
+		"rgba": "rgba(58, 69, 106, 1)",
+		"hex": "#3a456a",
 		"alias": "statusMutedAltColorInfoPress"
 	},
 	"dark_status_muted_alt_negative": {
-		"rgba": "rgba(74, 41, 38, 1)",
-		"hex": "#4a2926",
+		"rgba": "rgba(68, 41, 38, 1)",
+		"hex": "#442926",
 		"alias": "statusMutedAltColorNegative"
 	},
 	"dark_status_muted_alt_negative_hover": {
-		"rgba": "rgba(87, 47, 44, 1)",
-		"hex": "#572f2c",
+		"rgba": "rgba(86, 48, 45, 1)",
+		"hex": "#56302d",
 		"alias": "statusMutedAltColorNegativeHover"
 	},
 	"dark_status_muted_alt_negative_inverted": {
@@ -1060,18 +1060,18 @@
 		"alias": "statusMutedAltColorNegativeInvertedPress"
 	},
 	"dark_status_muted_alt_negative_press": {
-		"rgba": "rgba(109, 58, 51, 1)",
-		"hex": "#6d3a33",
+		"rgba": "rgba(108, 59, 52, 1)",
+		"hex": "#6c3b34",
 		"alias": "statusMutedAltColorNegativePress"
 	},
 	"dark_status_muted_alt_positive": {
-		"rgba": "rgba(35, 55, 39, 1)",
-		"hex": "#233727",
+		"rgba": "rgba(37, 53, 40, 1)",
+		"hex": "#253528",
 		"alias": "statusMutedAltColorPositive"
 	},
 	"dark_status_muted_alt_positive_hover": {
-		"rgba": "rgba(36, 64, 42, 1)",
-		"hex": "#24402a",
+		"rgba": "rgba(40, 63, 45, 1)",
+		"hex": "#283f2d",
 		"alias": "statusMutedAltColorPositiveHover"
 	},
 	"dark_status_muted_alt_positive_inverted": {
@@ -1090,18 +1090,18 @@
 		"alias": "statusMutedAltColorPositiveInvertedPress"
 	},
 	"dark_status_muted_alt_positive_press": {
-		"rgba": "rgba(40, 78, 47, 1)",
-		"hex": "#284e2f",
+		"rgba": "rgba(45, 77, 50, 1)",
+		"hex": "#2d4d32",
 		"alias": "statusMutedAltColorPositivePress"
 	},
 	"dark_status_muted_attention": {
-		"rgba": "rgba(57, 41, 30, 1)",
-		"hex": "#39291e",
+		"rgba": "rgba(54, 41, 31, 1)",
+		"hex": "#36291f",
 		"alias": "statusMutedColorAttention"
 	},
 	"dark_status_muted_attention_hover": {
-		"rgba": "rgba(67, 46, 31, 1)",
-		"hex": "#432e1f",
+		"rgba": "rgba(65, 47, 34, 1)",
+		"hex": "#412f22",
 		"alias": "statusMutedColorAttentionHover"
 	},
 	"dark_status_muted_attention_inverted": {
@@ -1115,8 +1115,8 @@
 		"alias": "statusMutedColorAttentionInvertedHover"
 	},
 	"dark_status_muted_attention_inverted_press": {
-		"rgba": "rgba(249, 212, 163, 1)",
-		"hex": "#f9d4a3",
+		"rgba": "rgba(246, 215, 175, 1)",
+		"hex": "#f6d7af",
 		"alias": "statusMutedColorAttentionInvertedPress"
 	},
 	"dark_status_muted_attention_press": {
@@ -1140,13 +1140,13 @@
 		"alias": "statusMutedColorInfoInverted"
 	},
 	"dark_status_muted_info_inverted_hover": {
-		"rgba": "rgba(212, 232, 255, 1)",
-		"hex": "#d4e8ff",
+		"rgba": "rgba(216, 234, 255, 1)",
+		"hex": "#d8eaff",
 		"alias": "statusMutedColorInfoInvertedHover"
 	},
 	"dark_status_muted_info_inverted_press": {
-		"rgba": "rgba(195, 222, 252, 1)",
-		"hex": "#c3defc",
+		"rgba": "rgba(196, 222, 250, 1)",
+		"hex": "#c4defa",
 		"alias": "statusMutedColorInfoInvertedPress"
 	},
 	"dark_status_muted_info_press": {
@@ -1155,13 +1155,13 @@
 		"alias": "statusMutedColorInfoPress"
 	},
 	"dark_status_muted_negative": {
-		"rgba": "rgba(61, 35, 33, 1)",
-		"hex": "#3d2321",
+		"rgba": "rgba(57, 37, 35, 1)",
+		"hex": "#392523",
 		"alias": "statusMutedColorNegative"
 	},
 	"dark_status_muted_negative_hover": {
-		"rgba": "rgba(74, 41, 38, 1)",
-		"hex": "#4a2926",
+		"rgba": "rgba(68, 41, 38, 1)",
+		"hex": "#442926",
 		"alias": "statusMutedColorNegativeHover"
 	},
 	"dark_status_muted_negative_inverted": {
@@ -1180,8 +1180,8 @@
 		"alias": "statusMutedColorNegativeInvertedPress"
 	},
 	"dark_status_muted_negative_press": {
-		"rgba": "rgba(87, 47, 44, 1)",
-		"hex": "#572f2c",
+		"rgba": "rgba(86, 48, 45, 1)",
+		"hex": "#56302d",
 		"alias": "statusMutedColorNegativePress"
 	},
 	"dark_status_muted_positive": {
@@ -1190,13 +1190,13 @@
 		"alias": "statusMutedColorPositive"
 	},
 	"dark_status_muted_positive_hover": {
-		"rgba": "rgba(35, 55, 39, 1)",
-		"hex": "#233727",
+		"rgba": "rgba(37, 53, 40, 1)",
+		"hex": "#253528",
 		"alias": "statusMutedColorPositiveHover"
 	},
 	"dark_status_muted_positive_inverted": {
-		"rgba": "rgba(218, 250, 226, 1)",
-		"hex": "#dafae2",
+		"rgba": "rgba(223, 248, 229, 1)",
+		"hex": "#dff8e5",
 		"alias": "statusMutedColorPositiveInverted"
 	},
 	"dark_status_muted_positive_inverted_hover": {
@@ -1210,8 +1210,8 @@
 		"alias": "statusMutedColorPositiveInvertedPress"
 	},
 	"dark_status_muted_positive_press": {
-		"rgba": "rgba(36, 64, 42, 1)",
-		"hex": "#24402a",
+		"rgba": "rgba(40, 63, 45, 1)",
+		"hex": "#283f2d",
 		"alias": "statusMutedColorPositivePress"
 	},
 	"dark_status_negative": {
@@ -1695,8 +1695,8 @@
 		"alias": "backgroundColorOverlay"
 	},
 	"light_bg_positive_muted": {
-		"rgba": "rgba(218, 250, 226, 1)",
-		"hex": "#dafae2",
+		"rgba": "rgba(223, 248, 229, 1)",
+		"hex": "#dff8e5",
 		"alias": "backgroundColorPositiveMuted"
 	},
 	"light_bg_primary": {
@@ -2520,13 +2520,13 @@
 		"alias": "statusMutedAltColorAttention"
 	},
 	"light_status_muted_alt_attention_hover": {
-		"rgba": "rgba(249, 212, 163, 1)",
-		"hex": "#f9d4a3",
+		"rgba": "rgba(246, 215, 175, 1)",
+		"hex": "#f6d7af",
 		"alias": "statusMutedAltColorAttentionHover"
 	},
 	"light_status_muted_alt_attention_inverted": {
-		"rgba": "rgba(67, 46, 31, 1)",
-		"hex": "#432e1f",
+		"rgba": "rgba(65, 47, 34, 1)",
+		"hex": "#412f22",
 		"alias": "statusMutedAltColorAttentionInverted"
 	},
 	"light_status_muted_alt_attention_inverted_hover": {
@@ -2535,8 +2535,8 @@
 		"alias": "statusMutedAltColorAttentionInvertedHover"
 	},
 	"light_status_muted_alt_attention_inverted_press": {
-		"rgba": "rgba(101, 64, 37, 1)",
-		"hex": "#654025",
+		"rgba": "rgba(99, 65, 40, 1)",
+		"hex": "#634128",
 		"alias": "statusMutedAltColorAttentionInvertedPress"
 	},
 	"light_status_muted_alt_attention_press": {
@@ -2545,18 +2545,18 @@
 		"alias": "statusMutedAltColorAttentionPress"
 	},
 	"light_status_muted_alt_info": {
-		"rgba": "rgba(212, 232, 255, 1)",
-		"hex": "#d4e8ff",
+		"rgba": "rgba(216, 234, 255, 1)",
+		"hex": "#d8eaff",
 		"alias": "statusMutedAltColorInfo"
 	},
 	"light_status_muted_alt_info_hover": {
-		"rgba": "rgba(195, 222, 252, 1)",
-		"hex": "#c3defc",
+		"rgba": "rgba(196, 222, 250, 1)",
+		"hex": "#c4defa",
 		"alias": "statusMutedAltColorInfoHover"
 	},
 	"light_status_muted_alt_info_inverted": {
-		"rgba": "rgba(40, 49, 73, 1)",
-		"hex": "#283149",
+		"rgba": "rgba(41, 48, 68, 1)",
+		"hex": "#293044",
 		"alias": "statusMutedAltColorInfoInverted"
 	},
 	"light_status_muted_alt_info_inverted_hover": {
@@ -2565,8 +2565,8 @@
 		"alias": "statusMutedAltColorInfoInvertedHover"
 	},
 	"light_status_muted_alt_info_inverted_press": {
-		"rgba": "rgba(53, 68, 112, 1)",
-		"hex": "#354470",
+		"rgba": "rgba(58, 69, 106, 1)",
+		"hex": "#3a456a",
 		"alias": "statusMutedAltColorInfoInvertedPress"
 	},
 	"light_status_muted_alt_info_press": {
@@ -2585,18 +2585,18 @@
 		"alias": "statusMutedAltColorNegativeHover"
 	},
 	"light_status_muted_alt_negative_inverted": {
-		"rgba": "rgba(74, 41, 38, 1)",
-		"hex": "#4a2926",
+		"rgba": "rgba(68, 41, 38, 1)",
+		"hex": "#442926",
 		"alias": "statusMutedAltColorNegativeInverted"
 	},
 	"light_status_muted_alt_negative_inverted_hover": {
-		"rgba": "rgba(87, 47, 44, 1)",
-		"hex": "#572f2c",
+		"rgba": "rgba(86, 48, 45, 1)",
+		"hex": "#56302d",
 		"alias": "statusMutedAltColorNegativeInvertedHover"
 	},
 	"light_status_muted_alt_negative_inverted_press": {
-		"rgba": "rgba(109, 58, 51, 1)",
-		"hex": "#6d3a33",
+		"rgba": "rgba(108, 59, 52, 1)",
+		"hex": "#6c3b34",
 		"alias": "statusMutedAltColorNegativeInvertedPress"
 	},
 	"light_status_muted_alt_negative_press": {
@@ -2615,18 +2615,18 @@
 		"alias": "statusMutedAltColorPositiveHover"
 	},
 	"light_status_muted_alt_positive_inverted": {
-		"rgba": "rgba(35, 55, 39, 1)",
-		"hex": "#233727",
+		"rgba": "rgba(37, 53, 40, 1)",
+		"hex": "#253528",
 		"alias": "statusMutedAltColorPositiveInverted"
 	},
 	"light_status_muted_alt_positive_inverted_hover": {
-		"rgba": "rgba(36, 64, 42, 1)",
-		"hex": "#24402a",
+		"rgba": "rgba(40, 63, 45, 1)",
+		"hex": "#283f2d",
 		"alias": "statusMutedAltColorPositiveInvertedHover"
 	},
 	"light_status_muted_alt_positive_inverted_press": {
-		"rgba": "rgba(40, 78, 47, 1)",
-		"hex": "#284e2f",
+		"rgba": "rgba(45, 77, 50, 1)",
+		"hex": "#2d4d32",
 		"alias": "statusMutedAltColorPositiveInvertedPress"
 	},
 	"light_status_muted_alt_positive_press": {
@@ -2645,13 +2645,13 @@
 		"alias": "statusMutedColorAttentionHover"
 	},
 	"light_status_muted_attention_inverted": {
-		"rgba": "rgba(57, 41, 30, 1)",
-		"hex": "#39291e",
+		"rgba": "rgba(54, 41, 31, 1)",
+		"hex": "#36291f",
 		"alias": "statusMutedColorAttentionInverted"
 	},
 	"light_status_muted_attention_inverted_hover": {
-		"rgba": "rgba(67, 46, 31, 1)",
-		"hex": "#432e1f",
+		"rgba": "rgba(65, 47, 34, 1)",
+		"hex": "#412f22",
 		"alias": "statusMutedColorAttentionInvertedHover"
 	},
 	"light_status_muted_attention_inverted_press": {
@@ -2660,8 +2660,8 @@
 		"alias": "statusMutedColorAttentionInvertedPress"
 	},
 	"light_status_muted_attention_press": {
-		"rgba": "rgba(249, 212, 163, 1)",
-		"hex": "#f9d4a3",
+		"rgba": "rgba(246, 215, 175, 1)",
+		"hex": "#f6d7af",
 		"alias": "statusMutedColorAttentionPress"
 	},
 	"light_status_muted_info": {
@@ -2670,8 +2670,8 @@
 		"alias": "statusMutedColorInfo"
 	},
 	"light_status_muted_info_hover": {
-		"rgba": "rgba(212, 232, 255, 1)",
-		"hex": "#d4e8ff",
+		"rgba": "rgba(216, 234, 255, 1)",
+		"hex": "#d8eaff",
 		"alias": "statusMutedColorInfoHover"
 	},
 	"light_status_muted_info_inverted": {
@@ -2690,8 +2690,8 @@
 		"alias": "statusMutedColorInfoInvertedPress"
 	},
 	"light_status_muted_info_press": {
-		"rgba": "rgba(195, 222, 252, 1)",
-		"hex": "#c3defc",
+		"rgba": "rgba(196, 222, 250, 1)",
+		"hex": "#c4defa",
 		"alias": "statusMutedColorInfoPress"
 	},
 	"light_status_muted_negative": {
@@ -2705,18 +2705,18 @@
 		"alias": "statusMutedColorNegativeHover"
 	},
 	"light_status_muted_negative_inverted": {
-		"rgba": "rgba(61, 35, 33, 1)",
-		"hex": "#3d2321",
+		"rgba": "rgba(57, 37, 35, 1)",
+		"hex": "#392523",
 		"alias": "statusMutedColorNegativeInverted"
 	},
 	"light_status_muted_negative_inverted_hover": {
-		"rgba": "rgba(74, 41, 38, 1)",
-		"hex": "#4a2926",
+		"rgba": "rgba(68, 41, 38, 1)",
+		"hex": "#442926",
 		"alias": "statusMutedColorNegativeInvertedHover"
 	},
 	"light_status_muted_negative_inverted_press": {
-		"rgba": "rgba(87, 47, 44, 1)",
-		"hex": "#572f2c",
+		"rgba": "rgba(86, 48, 45, 1)",
+		"hex": "#56302d",
 		"alias": "statusMutedColorNegativeInvertedPress"
 	},
 	"light_status_muted_negative_press": {
@@ -2725,8 +2725,8 @@
 		"alias": "statusMutedColorNegativePress"
 	},
 	"light_status_muted_positive": {
-		"rgba": "rgba(218, 250, 226, 1)",
-		"hex": "#dafae2",
+		"rgba": "rgba(223, 248, 229, 1)",
+		"hex": "#dff8e5",
 		"alias": "statusMutedColorPositive"
 	},
 	"light_status_muted_positive_hover": {
@@ -2740,13 +2740,13 @@
 		"alias": "statusMutedColorPositiveInverted"
 	},
 	"light_status_muted_positive_inverted_hover": {
-		"rgba": "rgba(35, 55, 39, 1)",
-		"hex": "#233727",
+		"rgba": "rgba(37, 53, 40, 1)",
+		"hex": "#253528",
 		"alias": "statusMutedColorPositiveInvertedHover"
 	},
 	"light_status_muted_positive_inverted_press": {
-		"rgba": "rgba(36, 64, 42, 1)",
-		"hex": "#24402a",
+		"rgba": "rgba(40, 63, 45, 1)",
+		"hex": "#283f2d",
 		"alias": "statusMutedColorPositiveInvertedPress"
 	},
 	"light_status_muted_positive_press": {
@@ -3655,43 +3655,43 @@
 		"alias": "staticStatusColorInfoInverted"
 	},
 	"static_status_muted_alt_attention": {
-		"rgba": "rgba(255, 227, 188, 1)",
-		"hex": "#ffe3bc",
+		"rgba": "rgba(253, 230, 200, 1)",
+		"hex": "#fde6c8",
 		"alias": "staticStatusMutedAltColorAttention"
 	},
 	"static_status_muted_alt_attention_inverted": {
-		"rgba": "rgba(67, 46, 31, 1)",
-		"hex": "#432e1f",
+		"rgba": "rgba(65, 47, 34, 1)",
+		"hex": "#412f22",
 		"alias": "staticStatusMutedAltColorAttentionInverted"
 	},
 	"static_status_muted_alt_info": {
-		"rgba": "rgba(212, 232, 255, 1)",
-		"hex": "#d4e8ff",
+		"rgba": "rgba(216, 234, 255, 1)",
+		"hex": "#d8eaff",
 		"alias": "staticStatusMutedAltColorInfo"
 	},
 	"static_status_muted_alt_info_inverted": {
-		"rgba": "rgba(40, 49, 73, 1)",
-		"hex": "#283149",
+		"rgba": "rgba(41, 48, 68, 1)",
+		"hex": "#293044",
 		"alias": "staticStatusMutedAltColorInfoInverted"
 	},
 	"static_status_muted_alt_negative": {
-		"rgba": "rgba(255, 218, 218, 1)",
-		"hex": "#ffdada",
+		"rgba": "rgba(255, 223, 223, 1)",
+		"hex": "#ffdfdf",
 		"alias": "staticStatusMutedAltColorNegative"
 	},
 	"static_status_muted_alt_negative_inverted": {
-		"rgba": "rgba(74, 41, 38, 1)",
-		"hex": "#4a2926",
+		"rgba": "rgba(68, 41, 38, 1)",
+		"hex": "#442926",
 		"alias": "staticStatusMutedAltColorNegativeInverted"
 	},
 	"static_status_muted_alt_positive": {
-		"rgba": "rgba(200, 242, 209, 1)",
-		"hex": "#c8f2d1",
+		"rgba": "rgba(209, 241, 215, 1)",
+		"hex": "#d1f1d7",
 		"alias": "staticStatusMutedAltColorPositive"
 	},
 	"static_status_muted_alt_positive_inverted": {
-		"rgba": "rgba(35, 55, 39, 1)",
-		"hex": "#233727",
+		"rgba": "rgba(37, 53, 40, 1)",
+		"hex": "#253528",
 		"alias": "staticStatusMutedAltColorPositiveInverted"
 	},
 	"static_status_muted_attention": {
@@ -3700,8 +3700,8 @@
 		"alias": "staticStatusMutedColorAttention"
 	},
 	"static_status_muted_attention_inverted": {
-		"rgba": "rgba(57, 41, 30, 1)",
-		"hex": "#39291e",
+		"rgba": "rgba(54, 41, 31, 1)",
+		"hex": "#36291f",
 		"alias": "staticStatusMutedColorAttentionInverted"
 	},
 	"static_status_muted_info": {
@@ -3720,18 +3720,18 @@
 		"alias": "staticStatusMutedColorNegative"
 	},
 	"static_status_muted_negative_inverted": {
-		"rgba": "rgba(61, 35, 33, 1)",
-		"hex": "#3d2321",
+		"rgba": "rgba(57, 37, 35, 1)",
+		"hex": "#392523",
 		"alias": "staticStatusMutedColorNegativeInverted"
 	},
 	"static_status_muted_positive": {
-		"rgba": "rgba(218, 250, 226, 1)",
-		"hex": "#dafae2",
+		"rgba": "rgba(223, 248, 229, 1)",
+		"hex": "#dff8e5",
 		"alias": "staticStatusMutedColorPositive"
 	},
 	"static_status_muted_positive_inverted": {
-		"rgba": "rgba(32, 46, 35, 1)",
-		"hex": "#202e23",
+		"rgba": "rgba(35, 45, 37, 1)",
+		"hex": "#232d25",
 		"alias": "staticStatusMutedColorPositiveInverted"
 	},
 	"static_status_negative": {
