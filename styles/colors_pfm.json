@@ -1,32 +1,32 @@
 {
 	"static_pfm_custom_blue": {
-		"rgba": "rgba(94, 165, 251, 1)",
-		"hex": "#5ea5fb",
+		"rgba": "rgba(97, 165, 253, 1)",
+		"hex": "#61a5fd",
 		"alias": "staticPfmCustomColorBlue"
 	},
 	"static_pfm_custom_cyan": {
-		"rgba": "rgba(14, 175, 220, 1)",
-		"hex": "#0eafdc",
+		"rgba": "rgba(25, 175, 222, 1)",
+		"hex": "#19afde",
 		"alias": "staticPfmCustomColorCyan"
 	},
 	"static_pfm_custom_indigo": {
-		"rgba": "rgba(144, 154, 244, 1)",
-		"hex": "#909af4",
+		"rgba": "rgba(155, 150, 249, 1)",
+		"hex": "#9b96f9",
 		"alias": "staticPfmCustomColorIndigo"
 	},
 	"static_pfm_custom_jungle": {
-		"rgba": "rgba(34, 184, 136, 1)",
-		"hex": "#22b888",
+		"rgba": "rgba(20, 184, 140, 1)",
+		"hex": "#14b88c",
 		"alias": "staticPfmCustomColorJungle"
 	},
 	"static_pfm_custom_magenta": {
-		"rgba": "rgba(249, 121, 164, 1)",
-		"hex": "#f979a4",
+		"rgba": "rgba(251, 115, 156, 1)",
+		"hex": "#fb739c",
 		"alias": "staticPfmCustomColorMagenta"
 	},
 	"static_pfm_custom_orange": {
-		"rgba": "rgba(253, 161, 52, 1)",
-		"hex": "#fda134",
+		"rgba": "rgba(245, 147, 34, 1)",
+		"hex": "#f59322",
 		"alias": "staticPfmCustomColorOrange"
 	},
 	"static_pfm_custom_pistachio": {
@@ -35,18 +35,268 @@
 		"alias": "staticPfmCustomColorPistachio"
 	},
 	"static_pfm_custom_purple": {
-		"rgba": "rgba(176, 145, 238, 1)",
-		"hex": "#b091ee",
+		"rgba": "rgba(206, 131, 234, 1)",
+		"hex": "#ce83ea",
 		"alias": "staticPfmCustomColorPurple"
 	},
 	"static_pfm_custom_red": {
-		"rgba": "rgba(255, 100, 65, 1)",
-		"hex": "#ff6441",
+		"rgba": "rgba(247, 85, 59, 1)",
+		"hex": "#f7553b",
 		"alias": "staticPfmCustomColorRed"
 	},
 	"static_pfm_custom_yellow": {
-		"rgba": "rgba(246, 212, 0, 1)",
-		"hex": "#f6d400",
+		"rgba": "rgba(246, 212, 17, 1)",
+		"hex": "#f6d411",
 		"alias": "staticPfmCustomColorYellow"
+	},
+	"static_pfm_system_acrux": {
+		"rgba": "rgba(9, 170, 175, 1)",
+		"hex": "#09aaaf",
+		"alias": "staticPfmSystemColorAcrux"
+	},
+	"static_pfm_system_alcor": {
+		"rgba": "rgba(216, 132, 254, 1)",
+		"hex": "#d884fe",
+		"alias": "staticPfmSystemColorAlcor"
+	},
+	"static_pfm_system_aldebaran": {
+		"rgba": "rgba(255, 141, 115, 1)",
+		"hex": "#ff8d73",
+		"alias": "staticPfmSystemColorAldebaran"
+	},
+	"static_pfm_system_andromeda": {
+		"rgba": "rgba(255, 161, 188, 1)",
+		"hex": "#ffa1bc",
+		"alias": "staticPfmSystemColorAndromeda"
+	},
+	"static_pfm_system_apollo": {
+		"rgba": "rgba(225, 33, 105, 1)",
+		"hex": "#e12169",
+		"alias": "staticPfmSystemColorApollo"
+	},
+	"static_pfm_system_atlas": {
+		"rgba": "rgba(206, 89, 250, 1)",
+		"hex": "#ce59fa",
+		"alias": "staticPfmSystemColorAtlas"
+	},
+	"static_pfm_system_betelgeuse": {
+		"rgba": "rgba(127, 113, 253, 1)",
+		"hex": "#7f71fd",
+		"alias": "staticPfmSystemColorBetelgeuse"
+	},
+	"static_pfm_system_capella": {
+		"rgba": "rgba(204, 165, 4, 1)",
+		"hex": "#cca504",
+		"alias": "staticPfmSystemColorCapella"
+	},
+	"static_pfm_system_carmenta": {
+		"rgba": "rgba(13, 160, 127, 1)",
+		"hex": "#0da07f",
+		"alias": "staticPfmSystemColorCarmenta"
+	},
+	"static_pfm_system_concordia": {
+		"rgba": "rgba(11, 177, 231, 1)",
+		"hex": "#0bb1e7",
+		"alias": "staticPfmSystemColorConcordia"
+	},
+	"static_pfm_system_cupid": {
+		"rgba": "rgba(254, 80, 200, 1)",
+		"hex": "#fe50c8",
+		"alias": "staticPfmSystemColorCupid"
+	},
+	"static_pfm_system_electra": {
+		"rgba": "rgba(226, 169, 251, 1)",
+		"hex": "#e2a9fb",
+		"alias": "staticPfmSystemColorElectra"
+	},
+	"static_pfm_system_enif": {
+		"rgba": "rgba(128, 192, 2, 1)",
+		"hex": "#80c002",
+		"alias": "staticPfmSystemColorEnif"
+	},
+	"static_pfm_system_fides": {
+		"rgba": "rgba(63, 205, 254, 1)",
+		"hex": "#3fcdfe",
+		"alias": "staticPfmSystemColorFides"
+	},
+	"static_pfm_system_galaxy": {
+		"rgba": "rgba(42, 119, 239, 1)",
+		"hex": "#2a77ef",
+		"alias": "staticPfmSystemColorGalaxy"
+	},
+	"static_pfm_system_helix": {
+		"rgba": "rgba(4, 181, 69, 1)",
+		"hex": "#04b545",
+		"alias": "staticPfmSystemColorHelix"
+	},
+	"static_pfm_system_hubble": {
+		"rgba": "rgba(117, 117, 125, 1)",
+		"hex": "#75757d",
+		"alias": "staticPfmSystemColorHubble"
+	},
+	"static_pfm_system_jupiter": {
+		"rgba": "rgba(253, 178, 77, 1)",
+		"hex": "#fdb24d",
+		"alias": "staticPfmSystemColorJupiter"
+	},
+	"static_pfm_system_kaus": {
+		"rgba": "rgba(106, 158, 2, 1)",
+		"hex": "#6a9e02",
+		"alias": "staticPfmSystemColorKaus"
+	},
+	"static_pfm_system_kepler": {
+		"rgba": "rgba(250, 147, 19, 1)",
+		"hex": "#fa9313",
+		"alias": "staticPfmSystemColorKepler"
+	},
+	"static_pfm_system_maia": {
+		"rgba": "rgba(255, 114, 162, 1)",
+		"hex": "#ff72a2",
+		"alias": "staticPfmSystemColorMaia"
+	},
+	"static_pfm_system_mars": {
+		"rgba": "rgba(253, 101, 68, 1)",
+		"hex": "#fd6544",
+		"alias": "staticPfmSystemColorMars"
+	},
+	"static_pfm_system_meissa": {
+		"rgba": "rgba(4, 150, 198, 1)",
+		"hex": "#0496c6",
+		"alias": "staticPfmSystemColorMeissa"
+	},
+	"static_pfm_system_mercury": {
+		"rgba": "rgba(234, 131, 19, 1)",
+		"hex": "#ea8313",
+		"alias": "staticPfmSystemColorMercury"
+	},
+	"static_pfm_system_mira": {
+		"rgba": "rgba(21, 217, 172, 1)",
+		"hex": "#15d9ac",
+		"alias": "staticPfmSystemColorMira"
+	},
+	"static_pfm_system_mizar": {
+		"rgba": "rgba(186, 61, 216, 1)",
+		"hex": "#ba3dd8",
+		"alias": "staticPfmSystemColorMizar"
+	},
+	"static_pfm_system_nebula": {
+		"rgba": "rgba(74, 231, 119, 1)",
+		"hex": "#4ae777",
+		"alias": "staticPfmSystemColorNebula"
+	},
+	"static_pfm_system_numa": {
+		"rgba": "rgba(10, 190, 148, 1)",
+		"hex": "#0abe94",
+		"alias": "staticPfmSystemColorNuma"
+	},
+	"static_pfm_system_orcus": {
+		"rgba": "rgba(153, 139, 255, 1)",
+		"hex": "#998bff",
+		"alias": "staticPfmSystemColorOrcus"
+	},
+	"static_pfm_system_orion": {
+		"rgba": "rgba(232, 195, 5, 1)",
+		"hex": "#e8c305",
+		"alias": "staticPfmSystemColorOrion"
+	},
+	"static_pfm_system_pluto": {
+		"rgba": "rgba(179, 170, 255, 1)",
+		"hex": "#b3aaff",
+		"alias": "staticPfmSystemColorPluto"
+	},
+	"static_pfm_system_proserpina": {
+		"rgba": "rgba(13, 147, 54, 1)",
+		"hex": "#0d9336",
+		"alias": "staticPfmSystemColorProserpina"
+	},
+	"static_pfm_system_proxima": {
+		"rgba": "rgba(254, 136, 227, 1)",
+		"hex": "#fe88e3",
+		"alias": "staticPfmSystemColorProxima"
+	},
+	"static_pfm_system_regulus": {
+		"rgba": "rgba(49, 147, 252, 1)",
+		"hex": "#3193fc",
+		"alias": "staticPfmSystemColorRegulus"
+	},
+	"static_pfm_system_rigel": {
+		"rgba": "rgba(99, 170, 253, 1)",
+		"hex": "#63aafd",
+		"alias": "staticPfmSystemColorRigel"
+	},
+	"static_pfm_system_saturn": {
+		"rgba": "rgba(220, 179, 11, 1)",
+		"hex": "#dcb30b",
+		"alias": "staticPfmSystemColorSaturn"
+	},
+	"static_pfm_system_sirius": {
+		"rgba": "rgba(255, 159, 147, 1)",
+		"hex": "#ff9f93",
+		"alias": "staticPfmSystemColorSirius"
+	},
+	"static_pfm_system_spica": {
+		"rgba": "rgba(149, 195, 253, 1)",
+		"hex": "#95c3fd",
+		"alias": "staticPfmSystemColorSpica"
+	},
+	"static_pfm_system_sun": {
+		"rgba": "rgba(251, 215, 0, 1)",
+		"hex": "#fbd700",
+		"alias": "staticPfmSystemColorSun"
+	},
+	"static_pfm_system_tars": {
+		"rgba": "rgba(160, 161, 169, 1)",
+		"hex": "#a0a1a9",
+		"alias": "staticPfmSystemColorTars"
+	},
+	"static_pfm_system_terra": {
+		"rgba": "rgba(23, 208, 85, 1)",
+		"hex": "#17d055",
+		"alias": "staticPfmSystemColorTerra"
+	},
+	"static_pfm_system_triton": {
+		"rgba": "rgba(5, 138, 143, 1)",
+		"hex": "#058a8f",
+		"alias": "staticPfmSystemColorTriton"
+	},
+	"static_pfm_system_uranus": {
+		"rgba": "rgba(73, 223, 231, 1)",
+		"hex": "#49dfe7",
+		"alias": "staticPfmSystemColorUranus"
+	},
+	"static_pfm_system_vega": {
+		"rgba": "rgba(9, 200, 208, 1)",
+		"hex": "#09c8d0",
+		"alias": "staticPfmSystemColorVega"
+	},
+	"static_pfm_system_venus": {
+		"rgba": "rgba(239, 37, 169, 1)",
+		"hex": "#ef25a9",
+		"alias": "staticPfmSystemColorVenus"
+	},
+	"static_pfm_system_voyager": {
+		"rgba": "rgba(95, 95, 102, 1)",
+		"hex": "#5f5f66",
+		"alias": "staticPfmSystemColorVoyager"
+	},
+	"static_pfm_system_vulcan": {
+		"rgba": "rgba(236, 46, 20, 1)",
+		"hex": "#ec2e14",
+		"alias": "staticPfmSystemColorVulcan"
+	},
+	"static_pfm_system_webb": {
+		"rgba": "rgba(186, 187, 194, 1)",
+		"hex": "#babbc2",
+		"alias": "staticPfmSystemColorWebb"
+	},
+	"static_pfm_system_wezen": {
+		"rgba": "rgba(251, 62, 139, 1)",
+		"hex": "#fb3e8b",
+		"alias": "staticPfmSystemColorWezen"
+	},
+	"static_pfm_system_zwickу": {
+		"rgba": "rgba(153, 216, 39, 1)",
+		"hex": "#99d827",
+		"alias": "staticPfmSystemColorZwickу"
 	}
 }
