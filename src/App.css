@@ -1,21 +1,61 @@
+@font-face {
+    font-family: 'Styrene UI';
+    src: url('https://alfabank.servicecdn.ru/media/fonts/styrene-ui/styrene-ui_regular.woff2')
+    format('woff2'),
+    url('https://alfabank.servicecdn.ru/media/fonts/styrene-ui/styrene-ui_regular.woff')
+    format('woff');
+    font-weight: 400;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Styrene UI';
+    src: url('https://alfabank.servicecdn.ru/media/fonts/styrene-ui/styrene-ui_medium.woff2')
+    format('woff2'),
+    url('https://alfabank.servicecdn.ru/media/fonts/styrene-ui/styrene-ui_medium.woff')
+    format('woff');
+    font-weight: 500;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Styrene UI';
+    src: url('https://alfabank.servicecdn.ru/media/fonts/styrene-ui/styrene-ui_bold.woff2')
+    format('woff2'),
+    url('https://alfabank.servicecdn.ru/media/fonts/styrene-ui/styrene-ui_bold.woff')
+    format('woff');
+    font-weight: 700;
+    font-style: normal;
+}
+
+html {
+    height: 100%;
+}
+
+body {
+    height: 100%;
+    font-family: var(--font-family);
+    color: var(--color-light-text-primary);
+    background-color: var(--color-light-bg-primary);
+    padding: var(--gap-3xl) var(--gap-m) 0;
+
+    @media screen and (min-width: 600px) {
+        padding: var(--gap-5xl) var(--gap-l) 0;
+    }
+}
+
 #root {
     margin: 0 auto;
-    height: 100vh;
+    height: 100%;
     display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
-    align-items: center;
 }
 
 .wrapper {
     max-width: 880px;
     width: 100%;
-    padding: 0 var(--gap-s);
-    margin: 20% auto 0;
+    margin: 0 auto;
 }
 
 .title {
-    margin-bottom: var(--gap-l);
+    margin-bottom: var(--gap-m);
 }
 
 .form {
@@ -50,7 +90,7 @@
     border: 1px solid var(--color-light-border-primary);
 }
 
-.copy {
+.copy.copy {
     position: absolute;
     top: 8px;
     right: 8px;

@@ -1907,6 +1907,11 @@ prelude-ls@^1.2.1:
   resolved "https://registry.yarnpkg.com/prelude-ls/-/prelude-ls-1.2.1.tgz#debc6489d7a6e6b0e7611888cec880337d316396"
   integrity sha512-vkcDPrRZo1QZLbn5RLGPpg/WmIQ65qoWWhcGKf/b5eplkkarX0m9z8ppCat4mlOqUsWpyNuYgO3VRyrYHSzX5g==
 
+prettier@^3.1.0:
+  version "3.1.0"
+  resolved "https://registry.yarnpkg.com/prettier/-/prettier-3.1.0.tgz#c6d16474a5f764ea1a4a373c593b779697744d5e"
+  integrity sha512-TQLvXjq5IAibjh8EpBIkNKxO749UEWABoiIZehEPiY4GNpVdhaFKqSTu+QrlU6D2dPAfubRmtJTi4K4YkQ5eXw==
+
 prop-types@^15.6.2, prop-types@^15.7.2:
   version "15.8.1"
   resolved "https://registry.yarnpkg.com/prop-types/-/prop-types-15.8.1.tgz#67d87bf1a694f48435cf332c24af10214a3140b5"
@@ -2351,10 +2356,10 @@ ui-primitives@^11.17.0:
   resolved "https://registry.yarnpkg.com/ui-primitives/-/ui-primitives-11.45.0.tgz#90829a38d419657869af4b8938ddd560c83180da"
   integrity sha512-ZxpuWvaLfSIth4mdTyjuWm3zid0w7Xc9iX0KbHEWXdb2wLA7SKgxc2KxlYp0eNFHt+vXLvfH4nFr1pi76594MQ==
 
-ui-primitives@^13.3.0:
-  version "13.3.0"
-  resolved "https://registry.yarnpkg.com/ui-primitives/-/ui-primitives-13.3.0.tgz#ca70bee7781723d9f6767ae1e513640b17189fbd"
-  integrity sha512-PY5ML9DsTn8EHCYJMkXsRQ7J6AANVvYxFUMwsp6yWvQcTv8DhHtWIOGBi7jAYJoLCoRW97B006nESSJkfzroTQ==
+ui-primitives@^13.15.0:
+  version "13.15.0"
+  resolved "https://registry.yarnpkg.com/ui-primitives/-/ui-primitives-13.15.0.tgz#f7f684094ad560acef147650ce908653955a528f"
+  integrity sha512-FSYMVme3oS3Y14uCoXYaoeWe02/V5ghnPDMEZa3hprIN+lvRzkhr/iHLwT/YswnTBZkekkXdetNnTPvA9AMWag==
 
 unified@^9.0.0:
   version "9.2.2"

@@ -4,10 +4,19 @@ import { CopyLineMIcon } from "@alfalab/icons-glyph/CopyLineMIcon";
 import { IconButton } from "@alfalab/core-components/icon-button";
 import { Typography } from "@alfalab/core-components/typography";
 import { Input } from "@alfalab/core-components/input";
-import { SelectDesktop } from "@alfalab/core-components/select/desktop";
+import { Select } from "@alfalab/core-components/select";
 import copy from "copy-to-clipboard";
 import "./App.css";
 import { convert } from "./converter";
+import { BaseOption } from "@alfalab/core-components/select/shared";
+import { useMatchMedia } from "@alfalab/core-components/mq";
+
+const BREAKPOINT = 600;
+
+const OPTIONS = [
+    { key: "web", content: "Web" },
+    { key: "mobile", content: "Mobile" },
+];
 
 function App() {
     const [platform, setPlatform] = useState<Platform>("web");
@@ -15,7 +24,9 @@ function App() {
     const [hint, setHint] = useState<string>("");
     const [result, setResult] = useState<string>("");
     const [copyToastOpen, setCopyToastOpen] = useState<boolean>(false);
-    const copyRef = useRef<HTMLButtonElement>(null);
+    const copyRef = useRef<HTMLButtonElement | null>(null);
+
+    const [isDesktop] = useMatchMedia(`(min-width: ${BREAKPOINT}px)`);
 
     const handleCopy = () => {
         setCopyToastOpen(true);
@@ -39,11 +50,13 @@ function App() {
         }
     }, [platform, style]);
 
+    const Title = isDesktop ? Typography.Title : Typography.TitleMobile;
+
     return (
         <div className="wrapper">
-            <Typography.TitleResponsive view="xlarge" tag="h1" className="title">
+            <Title view="xlarge" tag="h1" className="title" font="styrene">
                 Конвертер токенов
-            </Typography.TitleResponsive>
+            </Title>
 
             <div className="form">
                 <Input
@@ -57,17 +70,16 @@ function App() {
                     onClear={() => setStyle("")}
                 />
 
-                <SelectDesktop
+                <Select
+                    breakpoint={BREAKPOINT}
                     className="platform"
                     block
                     size="m"
                     placeholder="Выберите платформу"
+                    Option={BaseOption}
                     selected={platform}
-                    onChange={(payload) => payload.selected && setPlatform(payload.selected.key as Platform)}
-                    options={[
-                        { key: "web", content: "Web" },
-                        { key: "mobile", content: "Mobile" },
-                    ]}
+                    onChange={({ selected }) => selected && setPlatform(selected.key as Platform)}
+                    options={OPTIONS}
                 />
             </div>
 
@@ -80,11 +92,18 @@ function App() {
             {result && (
                 <div className="result">
                     {result}
-                    <IconButton icon={CopyLineMIcon} view="secondary" className="copy" onClick={handleCopy} ref={copyRef} />
+                    <IconButton
+                        icon={CopyLineMIcon}
+                        view="secondary"
+                        className="copy"
+                        onClick={handleCopy}
+                        ref={copyRef}
+                    />
                 </div>
             )}
 
             <Toast
+                breakpoint={BREAKPOINT}
                 open={copyToastOpen}
                 anchorElement={copyRef.current}
                 position="top"
