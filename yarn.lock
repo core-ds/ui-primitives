@@ -7,10 +7,10 @@
   resolved "https://registry.yarnpkg.com/@aashutoshrathi/word-wrap/-/word-wrap-1.2.6.tgz#bd9154aec9983f77b3a034ecaa015c2e4201f6cf"
   integrity sha512-1Yjs2SvM8TflER/OD3cOjhWWOZb58A2t7wpE2S9XfBYTiIl+XFhQG2bjy4Pu1I+EAlCNUzRDYDdFwFYUKvXcIA==
 
-"@alfalab/core-components@43.1.3-beta.0":
-  version "43.1.3-beta.0"
-  resolved "https://registry.yarnpkg.com/@alfalab/core-components/-/core-components-43.1.3-beta.0.tgz#dbb48ac2e83e6825d25e36fe847fb7b034631ba8"
-  integrity sha512-mIxcHJlBtFUrH918kbAyb1itnjkoclD+jvAttH3rHvz8M85L+nG63oiVuSVLKhqctdvwh7gX7sEAjoKVH/cjxg==
+"@alfalab/core-components@^43.2.0":
+  version "43.2.0"
+  resolved "https://registry.yarnpkg.com/@alfalab/core-components/-/core-components-43.2.0.tgz#fb9336b5c90955adb2b2b22c43f2ca881f1d48e4"
+  integrity sha512-qUIycCELhRSpwCPVaF8MV5h2asYxNvMJwCC4BlQ4CWSzwy35NhPdfAtoMcCQUwpiLAF69IhP7Bz95pf56qhfdw==
   dependencies:
     "@alfalab/data" "^1.6.0"
     "@alfalab/hooks" "^1.13.0"
