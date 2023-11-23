@@ -1,3 +1,13 @@
+<a name="13.19.0"></a>
+# [13.19.0](https://github.com/core-ds/ui-primitives/compare/v13.18.0...v13.19.0) (2023-11-23)
+
+
+### Bug Fixes
+
+* **styles:** fix pfm color typo ([#457](https://github.com/core-ds/ui-primitives/issues/457)) ([4172cb9](https://github.com/core-ds/ui-primitives/commit/4172cb9))
+
+
+
 <a name="13.18.0"></a>
 # [13.18.0](https://github.com/core-ds/ui-primitives/compare/v13.17.0...v13.18.0) (2023-11-22)
 
