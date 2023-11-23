@@ -294,9 +294,14 @@
 		"hex": "#fb3e8b",
 		"alias": "staticPfmSystemColorWezen"
 	},
-	"static_pfm_system_zwickу": {
+	"static_pfm_system_zwickÃÂÃÂ": {
 		"rgba": "rgba(153, 216, 39, 1)",
 		"hex": "#99d827",
-		"alias": "staticPfmSystemColorZwickу"
+		"alias": "staticPfmSystemColorZwickÃÂÃÂ"
+	},
+	"static_pfm_system_zwicky": {
+		"rgba": "rgba(153, 216, 39, 1)",
+		"hex": "#99d827",
+		"alias": "staticPfmSystemColorZwicky"
 	}
 }
