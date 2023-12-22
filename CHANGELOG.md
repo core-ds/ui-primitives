@@ -1,3 +1,33 @@
+<a name="13.24.0"></a>
+# [13.24.0](https://github.com/core-ds/ui-primitives/compare/v13.23.0...v13.24.0) (2023-12-22)
+
+
+### Features
+
+* **icons:** add 2 icons ([#467](https://github.com/core-ds/ui-primitives/issues/467)) ([41e6dbf](https://github.com/core-ds/ui-primitives/commit/41e6dbf))
+
+
+
+<a name="13.23.0"></a>
+# [13.23.0](https://github.com/core-ds/ui-primitives/compare/v13.22.0...v13.23.0) (2023-12-22)
+
+
+### Features
+
+* **icons:** add 17 icons ([#466](https://github.com/core-ds/ui-primitives/issues/466)) ([0820dc7](https://github.com/core-ds/ui-primitives/commit/0820dc7))
+
+
+
+<a name="13.22.0"></a>
+# [13.22.0](https://github.com/core-ds/ui-primitives/compare/v13.21.0...v13.22.0) (2023-12-22)
+
+
+### Bug Fixes
+
+* **icons:** fixed download icon ([#464](https://github.com/core-ds/ui-primitives/issues/464)) ([7a97f9c](https://github.com/core-ds/ui-primitives/commit/7a97f9c))
+
+
+
 <a name="13.21.0"></a>
 # [13.21.0](https://github.com/core-ds/ui-primitives/compare/v13.20.0...v13.21.0) (2023-12-06)
 
