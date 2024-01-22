@@ -1,3 +1,13 @@
+<a name="14.0.0"></a>
+# [14.0.0](https://github.com/core-ds/ui-primitives/compare/v13.30.0...v14.0.0) (2024-01-22)
+
+
+### Bug Fixes
+
+* **logotype:** delete icons logo ([#480](https://github.com/core-ds/ui-primitives/issues/480)) ([8f4a865](https://github.com/core-ds/ui-primitives/commit/8f4a865))
+
+
+
 <a name="13.30.0"></a>
 # [13.30.0](https://github.com/core-ds/ui-primitives/compare/v13.29.0...v13.30.0) (2024-01-22)
 
