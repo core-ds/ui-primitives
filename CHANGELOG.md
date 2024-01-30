@@ -1,3 +1,23 @@
+<a name="14.6.0"></a>
+# [14.6.0](https://github.com/core-ds/ui-primitives/compare/v14.4.0...v14.6.0) (2024-01-30)
+
+
+### Features
+
+* **icons:** add 1 icon ([#489](https://github.com/core-ds/ui-primitives/issues/489)) ([3f44a39](https://github.com/core-ds/ui-primitives/commit/3f44a39))
+* **icons:** add 1 icon ([#490](https://github.com/core-ds/ui-primitives/issues/490)) ([4b14a28](https://github.com/core-ds/ui-primitives/commit/4b14a28))
+* **icons:** add 1 icon ([#491](https://github.com/core-ds/ui-primitives/issues/491)) ([03cb4b6](https://github.com/core-ds/ui-primitives/commit/03cb4b6))
+* **icons:** add 1 icon ([#492](https://github.com/core-ds/ui-primitives/issues/492)) ([4635090](https://github.com/core-ds/ui-primitives/commit/4635090))
+* **icons:** add 1 icon ([#493](https://github.com/core-ds/ui-primitives/issues/493)) ([203126b](https://github.com/core-ds/ui-primitives/commit/203126b))
+* **icons:** add 1 icon ([#495](https://github.com/core-ds/ui-primitives/issues/495)) ([f2697e1](https://github.com/core-ds/ui-primitives/commit/f2697e1))
+* **icons:** add 1 icon ([#502](https://github.com/core-ds/ui-primitives/issues/502)) ([338a450](https://github.com/core-ds/ui-primitives/commit/338a450))
+* **icons:** add 1 icon ([#515](https://github.com/core-ds/ui-primitives/issues/515)) ([a0c3b7e](https://github.com/core-ds/ui-primitives/commit/a0c3b7e))
+* **icons:** add 16 icons ([#517](https://github.com/core-ds/ui-primitives/issues/517)) ([8560cb1](https://github.com/core-ds/ui-primitives/commit/8560cb1))
+* **icons:** add 2 icons ([#516](https://github.com/core-ds/ui-primitives/issues/516)) ([b0ae6ca](https://github.com/core-ds/ui-primitives/commit/b0ae6ca))
+* **icons:** add 5 icons ([#488](https://github.com/core-ds/ui-primitives/issues/488)) ([4314232](https://github.com/core-ds/ui-primitives/commit/4314232))
+
+
+
 <a name="14.4.0"></a>
 # [14.4.0](https://github.com/core-ds/ui-primitives/compare/v14.3.0...v14.4.0) (2024-01-23)
 
