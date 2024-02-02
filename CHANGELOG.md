@@ -1,3 +1,16 @@
+<a name="14.7.0"></a>
+# [14.7.0](https://github.com/core-ds/ui-primitives/compare/v14.6.0...v14.7.0) (2024-02-02)
+
+
+### Features
+
+* **icons:** add 1 icon ([#522](https://github.com/core-ds/ui-primitives/issues/522)) ([fa94f2e](https://github.com/core-ds/ui-primitives/commit/fa94f2e))
+* **icons:** add 16 icons ([#519](https://github.com/core-ds/ui-primitives/issues/519)) ([e2cede4](https://github.com/core-ds/ui-primitives/commit/e2cede4))
+* **icons:** add 16 icons ([#520](https://github.com/core-ds/ui-primitives/issues/520)) ([bf70ec1](https://github.com/core-ds/ui-primitives/commit/bf70ec1))
+* **icons:** add 16 icons ([#521](https://github.com/core-ds/ui-primitives/issues/521)) ([d3e9212](https://github.com/core-ds/ui-primitives/commit/d3e9212))
+
+
+
 <a name="14.6.0"></a>
 # [14.6.0](https://github.com/core-ds/ui-primitives/compare/v14.4.0...v14.6.0) (2024-01-30)
 
