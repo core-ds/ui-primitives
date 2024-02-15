@@ -1,3 +1,13 @@
+<a name="14.14.0"></a>
+# [14.14.0](https://github.com/core-ds/ui-primitives/compare/v14.13.0...v14.14.0) (2024-02-15)
+
+
+### Features
+
+* **icons:** add 19 icons ([#529](https://github.com/core-ds/ui-primitives/issues/529)) ([71bc201](https://github.com/core-ds/ui-primitives/commit/71bc201))
+
+
+
 <a name="14.13.0"></a>
 # [14.13.0](https://github.com/core-ds/ui-primitives/compare/v14.12.0...v14.13.0) (2024-02-15)
 
