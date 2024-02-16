@@ -1,3 +1,13 @@
+<a name="16.0.0"></a>
+# [16.0.0](https://github.com/core-ds/ui-primitives/compare/v15.2.0...v16.0.0) (2024-02-16)
+
+
+### Bug Fixes
+
+* **icons:** remove icons glyph_letter ([#533](https://github.com/core-ds/ui-primitives/issues/533)) ([25491ee](https://github.com/core-ds/ui-primitives/commit/25491ee))
+
+
+
 <a name="15.2.0"></a>
 # [15.2.0](https://github.com/core-ds/ui-primitives/compare/v15.1.0...v15.2.0) (2024-02-15)
 
