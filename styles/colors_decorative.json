@@ -2,6 +2,8 @@
 	"dark_decorative_blue": {
 		"rgba": "rgba(49, 147, 252, 1)",
 		"hex": "#3193fc",
+		"figma": "decorative/blue",
+		"web": "--color-dark-decorative-blue",
 		"alias": "decorativeColorBlue"
 	},
 	"dark_decorative_blue_hover": {
@@ -12,6 +14,8 @@
 	"dark_decorative_blue_inverted": {
 		"rgba": "rgba(34, 136, 250, 1)",
 		"hex": "#2288fa",
+		"figma": "decorative_inverted/blue",
+		"web": "--color-dark-decorative-blue-inverted",
 		"alias": "decorativeColorBlueInverted"
 	},
 	"dark_decorative_blue_inverted_hover": {
@@ -32,6 +36,8 @@
 	"dark_decorative_cyan": {
 		"rgba": "rgba(11, 190, 243, 1)",
 		"hex": "#0bbef3",
+		"figma": "decorative/cyan",
+		"web": "--color-dark-decorative-cyan",
 		"alias": "decorativeColorCyan"
 	},
 	"dark_decorative_cyan_hover": {
@@ -42,6 +48,8 @@
 	"dark_decorative_cyan_inverted": {
 		"rgba": "rgba(11, 177, 231, 1)",
 		"hex": "#0bb1e7",
+		"figma": "decorative_inverted/cyan",
+		"web": "--color-dark-decorative-cyan-inverted",
 		"alias": "decorativeColorCyanInverted"
 	},
 	"dark_decorative_cyan_inverted_hover": {
@@ -62,6 +70,8 @@
 	"dark_decorative_fuchsia": {
 		"rgba": "rgba(255, 110, 214, 1)",
 		"hex": "#ff6ed6",
+		"figma": "decorative/fuchsia",
+		"web": "--color-dark-decorative-fuchsia",
 		"alias": "decorativeColorFuchsia"
 	},
 	"dark_decorative_fuchsia_hover": {
@@ -72,6 +82,8 @@
 	"dark_decorative_fuchsia_inverted": {
 		"rgba": "rgba(254, 80, 200, 1)",
 		"hex": "#fe50c8",
+		"figma": "decorative_inverted/fuchsia",
+		"web": "--color-dark-decorative-fuchsia-inverted",
 		"alias": "decorativeColorFuchsiaInverted"
 	},
 	"dark_decorative_fuchsia_inverted_hover": {
@@ -92,6 +104,8 @@
 	"dark_decorative_green": {
 		"rgba": "rgba(23, 208, 85, 1)",
 		"hex": "#17d055",
+		"figma": "decorative/green",
+		"web": "--color-dark-decorative-green",
 		"alias": "decorativeColorGreen"
 	},
 	"dark_decorative_green_hover": {
@@ -102,6 +116,8 @@
 	"dark_decorative_green_inverted": {
 		"rgba": "rgba(12, 196, 77, 1)",
 		"hex": "#0cc44d",
+		"figma": "decorative_inverted/green",
+		"web": "--color-dark-decorative-green-inverted",
 		"alias": "decorativeColorGreenInverted"
 	},
 	"dark_decorative_green_inverted_hover": {
@@ -122,6 +138,8 @@
 	"dark_decorative_indigo": {
 		"rgba": "rgba(153, 139, 255, 1)",
 		"hex": "#998bff",
+		"figma": "decorative/indigo",
+		"web": "--color-dark-decorative-indigo",
 		"alias": "decorativeColorIndigo"
 	},
 	"dark_decorative_indigo_hover": {
@@ -132,6 +150,8 @@
 	"dark_decorative_indigo_inverted": {
 		"rgba": "rgba(127, 113, 253, 1)",
 		"hex": "#7f71fd",
+		"figma": "decorative_inverted/indigo",
+		"web": "--color-dark-decorative-indigo-inverted",
 		"alias": "decorativeColorIndigoInverted"
 	},
 	"dark_decorative_indigo_inverted_hover": {
@@ -152,6 +172,8 @@
 	"dark_decorative_jungle": {
 		"rgba": "rgba(2, 206, 162, 1)",
 		"hex": "#02cea2",
+		"figma": "decorative/jungle",
+		"web": "--color-dark-decorative-jungle",
 		"alias": "decorativeColorJungle"
 	},
 	"dark_decorative_jungle_hover": {
@@ -162,6 +184,8 @@
 	"dark_decorative_jungle_inverted": {
 		"rgba": "rgba(10, 190, 148, 1)",
 		"hex": "#0abe94",
+		"figma": "decorative_inverted/jungle",
+		"web": "--color-dark-decorative-jungle-inverted",
 		"alias": "decorativeColorJungleInverted"
 	},
 	"dark_decorative_jungle_inverted_hover": {
@@ -182,6 +206,8 @@
 	"dark_decorative_magenta": {
 		"rgba": "rgba(255, 114, 162, 1)",
 		"hex": "#ff72a2",
+		"figma": "decorative/magenta",
+		"web": "--color-dark-decorative-magenta",
 		"alias": "decorativeColorMagenta"
 	},
 	"dark_decorative_magenta_hover": {
@@ -192,6 +218,8 @@
 	"dark_decorative_magenta_inverted": {
 		"rgba": "rgba(254, 85, 148, 1)",
 		"hex": "#fe5594",
+		"figma": "decorative_inverted/magenta",
+		"web": "--color-dark-decorative-magenta-inverted",
 		"alias": "decorativeColorMagentaInverted"
 	},
 	"dark_decorative_magenta_inverted_hover": {
@@ -212,6 +240,8 @@
 	"dark_decorative_muted_alt_blue": {
 		"rgba": "rgba(41, 48, 68, 1)",
 		"hex": "#293044",
+		"figma": "decorative-muted-alt/blue",
+		"web": "--color-dark-decorative-muted-alt-blue",
 		"alias": "decorativeMutedAltColorBlue"
 	},
 	"dark_decorative_muted_alt_blue_hover": {
@@ -222,6 +252,8 @@
 	"dark_decorative_muted_alt_blue_inverted": {
 		"rgba": "rgba(216, 234, 255, 1)",
 		"hex": "#d8eaff",
+		"figma": "decorative-muted-alt_inverted/blue",
+		"web": "--color-dark-decorative-muted-alt-blue-inverted",
 		"alias": "decorativeMutedAltColorBlueInverted"
 	},
 	"dark_decorative_muted_alt_blue_inverted_hover": {
@@ -242,6 +274,8 @@
 	"dark_decorative_muted_alt_cyan": {
 		"rgba": "rgba(29, 52, 66, 1)",
 		"hex": "#1d3442",
+		"figma": "decorative-muted-alt/cyan",
+		"web": "--color-dark-decorative-muted-alt-cyan",
 		"alias": "decorativeMutedAltColorCyan"
 	},
 	"dark_decorative_muted_alt_cyan_hover": {
@@ -252,6 +286,8 @@
 	"dark_decorative_muted_alt_cyan_inverted": {
 		"rgba": "rgba(204, 238, 252, 1)",
 		"hex": "#cceefc",
+		"figma": "decorative-muted-alt_inverted/cyan",
+		"web": "--color-dark-decorative-muted-alt-cyan-inverted",
 		"alias": "decorativeMutedAltColorCyanInverted"
 	},
 	"dark_decorative_muted_alt_cyan_inverted_hover": {
@@ -272,6 +308,8 @@
 	"dark_decorative_muted_alt_fuchsia": {
 		"rgba": "rgba(64, 40, 55, 1)",
 		"hex": "#402837",
+		"figma": "decorative-muted-alt/fuchsia",
+		"web": "--color-dark-decorative-muted-alt-fuchsia",
 		"alias": "decorativeMutedAltColorFuchsia"
 	},
 	"dark_decorative_muted_alt_fuchsia_hover": {
@@ -282,6 +320,8 @@
 	"dark_decorative_muted_alt_fuchsia_inverted": {
 		"rgba": "rgba(249, 224, 245, 1)",
 		"hex": "#f9e0f5",
+		"figma": "decorative-muted-alt_inverted/fuchsia",
+		"web": "--color-dark-decorative-muted-alt-fuchsia-inverted",
 		"alias": "decorativeMutedAltColorFuchsiaInverted"
 	},
 	"dark_decorative_muted_alt_fuchsia_inverted_hover": {
@@ -302,6 +342,8 @@
 	"dark_decorative_muted_alt_green": {
 		"rgba": "rgba(37, 53, 40, 1)",
 		"hex": "#253528",
+		"figma": "decorative-muted-alt/green",
+		"web": "--color-dark-decorative-muted-alt-green",
 		"alias": "decorativeMutedAltColorGreen"
 	},
 	"dark_decorative_muted_alt_green_hover": {
@@ -312,6 +354,8 @@
 	"dark_decorative_muted_alt_green_inverted": {
 		"rgba": "rgba(209, 241, 215, 1)",
 		"hex": "#d1f1d7",
+		"figma": "decorative-muted-alt_inverted/green",
+		"web": "--color-dark-decorative-muted-alt-green-inverted",
 		"alias": "decorativeMutedAltColorGreenInverted"
 	},
 	"dark_decorative_muted_alt_green_inverted_hover": {
@@ -332,6 +376,8 @@
 	"dark_decorative_muted_alt_indigo": {
 		"rgba": "rgba(51, 45, 66, 1)",
 		"hex": "#332d42",
+		"figma": "decorative-muted-alt/indigo",
+		"web": "--color-dark-decorative-muted-alt-indigo",
 		"alias": "decorativeMutedAltColorIndigo"
 	},
 	"dark_decorative_muted_alt_indigo_hover": {
@@ -342,6 +388,8 @@
 	"dark_decorative_muted_alt_indigo_inverted": {
 		"rgba": "rgba(228, 231, 255, 1)",
 		"hex": "#e4e7ff",
+		"figma": "decorative-muted-alt_inverted/indigo",
+		"web": "--color-dark-decorative-muted-alt-indigo-inverted",
 		"alias": "decorativeMutedAltColorIndigoInverted"
 	},
 	"dark_decorative_muted_alt_indigo_inverted_hover": {
@@ -362,6 +410,8 @@
 	"dark_decorative_muted_alt_jungle": {
 		"rgba": "rgba(30, 54, 49, 1)",
 		"hex": "#1e3631",
+		"figma": "decorative-muted-alt/jungle",
+		"web": "--color-dark-decorative-muted-alt-jungle",
 		"alias": "decorativeMutedAltColorJungle"
 	},
 	"dark_decorative_muted_alt_jungle_hover": {
@@ -372,6 +422,8 @@
 	"dark_decorative_muted_alt_jungle_inverted": {
 		"rgba": "rgba(201, 242, 230, 1)",
 		"hex": "#c9f2e6",
+		"figma": "decorative-muted-alt_inverted/jungle",
+		"web": "--color-dark-decorative-muted-alt-jungle-inverted",
 		"alias": "decorativeMutedAltColorJungleInverted"
 	},
 	"dark_decorative_muted_alt_jungle_inverted_hover": {
@@ -392,6 +444,8 @@
 	"dark_decorative_muted_alt_magenta": {
 		"rgba": "rgba(69, 39, 44, 1)",
 		"hex": "#45272c",
+		"figma": "decorative-muted-alt/magenta",
+		"web": "--color-dark-decorative-muted-alt-magenta",
 		"alias": "decorativeMutedAltColorMagenta"
 	},
 	"dark_decorative_muted_alt_magenta_hover": {
@@ -402,6 +456,8 @@
 	"dark_decorative_muted_alt_magenta_inverted": {
 		"rgba": "rgba(255, 224, 231, 1)",
 		"hex": "#ffe0e7",
+		"figma": "decorative-muted-alt_inverted/magenta",
+		"web": "--color-dark-decorative-muted-alt-magenta-inverted",
 		"alias": "decorativeMutedAltColorMagentaInverted"
 	},
 	"dark_decorative_muted_alt_magenta_inverted_hover": {
@@ -422,6 +478,8 @@
 	"dark_decorative_muted_alt_orange": {
 		"rgba": "rgba(65, 47, 34, 1)",
 		"hex": "#412f22",
+		"figma": "decorative-muted-alt/orange",
+		"web": "--color-dark-decorative-muted-alt-orange",
 		"alias": "decorativeMutedAltColorOrange"
 	},
 	"dark_decorative_muted_alt_orange_hover": {
@@ -432,6 +490,8 @@
 	"dark_decorative_muted_alt_orange_inverted": {
 		"rgba": "rgba(253, 230, 200, 1)",
 		"hex": "#fde6c8",
+		"figma": "decorative-muted-alt_inverted/orange",
+		"web": "--color-dark-decorative-muted-alt-orange-inverted",
 		"alias": "decorativeMutedAltColorOrangeInverted"
 	},
 	"dark_decorative_muted_alt_orange_inverted_hover": {
@@ -452,6 +512,8 @@
 	"dark_decorative_muted_alt_pistachio": {
 		"rgba": "rgba(45, 51, 34, 1)",
 		"hex": "#2d3322",
+		"figma": "decorative-muted-alt/pistachio",
+		"web": "--color-dark-decorative-muted-alt-pistachio",
 		"alias": "decorativeMutedAltColorPistachio"
 	},
 	"dark_decorative_muted_alt_pistachio_hover": {
@@ -462,6 +524,8 @@
 	"dark_decorative_muted_alt_pistachio_inverted": {
 		"rgba": "rgba(224, 239, 200, 1)",
 		"hex": "#e0efc8",
+		"figma": "decorative-muted-alt_inverted/pistachio",
+		"web": "--color-dark-decorative-muted-alt-pistachio-inverted",
 		"alias": "decorativeMutedAltColorPistachioInverted"
 	},
 	"dark_decorative_muted_alt_pistachio_inverted_hover": {
@@ -482,6 +546,8 @@
 	"dark_decorative_muted_alt_purple": {
 		"rgba": "rgba(60, 41, 61, 1)",
 		"hex": "#3c293d",
+		"figma": "decorative-muted-alt/purple",
+		"web": "--color-dark-decorative-muted-alt-purple",
 		"alias": "decorativeMutedAltColorPurple"
 	},
 	"dark_decorative_muted_alt_purple_hover": {
@@ -492,6 +558,8 @@
 	"dark_decorative_muted_alt_purple_inverted": {
 		"rgba": "rgba(242, 227, 253, 1)",
 		"hex": "#f2e3fd",
+		"figma": "decorative-muted-alt_inverted/purple",
+		"web": "--color-dark-decorative-muted-alt-purple-inverted",
 		"alias": "decorativeMutedAltColorPurpleInverted"
 	},
 	"dark_decorative_muted_alt_purple_inverted_hover": {
@@ -512,16 +580,22 @@
 	"dark_decorative_muted_alt_red": {
 		"rgba": "rgba(68, 41, 38, 1)",
 		"hex": "#442926",
+		"figma": "decorative-muted-alt/red",
+		"web": "--color-dark-decorative-muted-alt-red",
 		"alias": "decorativeMutedAltColorRed"
 	},
 	"dark_decorative_muted_alt_red_inverted": {
 		"rgba": "rgba(255, 223, 223, 1)",
 		"hex": "#ffdfdf",
+		"figma": "decorative-muted-alt_inverted/red",
+		"web": "--color-dark-decorative-muted-alt-red-inverted",
 		"alias": "decorativeMutedAltColorRedInverted"
 	},
 	"dark_decorative_muted_alt_teal": {
 		"rgba": "rgba(27, 53, 58, 1)",
 		"hex": "#1b353a",
+		"figma": "decorative-muted-alt/teal",
+		"web": "--color-dark-decorative-muted-alt-teal",
 		"alias": "decorativeMutedAltColorTeal"
 	},
 	"dark_decorative_muted_alt_teal_hover": {
@@ -532,6 +606,8 @@
 	"dark_decorative_muted_alt_teal_inverted": {
 		"rgba": "rgba(200, 241, 243, 1)",
 		"hex": "#c8f1f3",
+		"figma": "decorative-muted-alt_inverted/teal",
+		"web": "--color-dark-decorative-muted-alt-teal-inverted",
 		"alias": "decorativeMutedAltColorTealInverted"
 	},
 	"dark_decorative_muted_alt_teal_inverted_hover": {
@@ -552,16 +628,22 @@
 	"dark_decorative_muted_alt_yellow": {
 		"rgba": "rgba(58, 49, 31, 1)",
 		"hex": "#3a311f",
+		"figma": "decorative-muted-alt/yellow",
+		"web": "--color-dark-decorative-muted-alt-yellow",
 		"alias": "decorativeMutedAltColorYellow"
 	},
 	"dark_decorative_muted_alt_yellow_inverted": {
 		"rgba": "rgba(247, 234, 193, 1)",
 		"hex": "#f7eac1",
+		"figma": "decorative-muted-alt_inverted/yellow",
+		"web": "--color-dark-decorative-muted-alt-yellow-inverted",
 		"alias": "decorativeMutedAltColorYellowInverted"
 	},
 	"dark_decorative_muted_blue": {
 		"rgba": "rgba(34, 42, 62, 1)",
 		"hex": "#222a3e",
+		"figma": "decorative-muted/blue",
+		"web": "--color-dark-decorative-muted-blue",
 		"alias": "decorativeMutedColorBlue"
 	},
 	"dark_decorative_muted_blue_hover": {
@@ -572,6 +654,8 @@
 	"dark_decorative_muted_blue_inverted": {
 		"rgba": "rgba(228, 240, 255, 1)",
 		"hex": "#e4f0ff",
+		"figma": "decorative-muted_inverted/blue",
+		"web": "--color-dark-decorative-muted-blue-inverted",
 		"alias": "decorativeMutedColorBlueInverted"
 	},
 	"dark_decorative_muted_blue_inverted_hover": {
@@ -592,6 +676,8 @@
 	"dark_decorative_muted_cyan": {
 		"rgba": "rgba(30, 44, 55, 1)",
 		"hex": "#1e2c37",
+		"figma": "decorative-muted/cyan",
+		"web": "--color-dark-decorative-muted-cyan",
 		"alias": "decorativeMutedColorCyan"
 	},
 	"dark_decorative_muted_cyan_hover": {
@@ -602,6 +688,8 @@
 	"dark_decorative_muted_cyan_inverted": {
 		"rgba": "rgba(222, 245, 255, 1)",
 		"hex": "#def5ff",
+		"figma": "decorative-muted_inverted/cyan",
+		"web": "--color-dark-decorative-muted-cyan-inverted",
 		"alias": "decorativeMutedColorCyanInverted"
 	},
 	"dark_decorative_muted_cyan_inverted_hover": {
@@ -622,6 +710,8 @@
 	"dark_decorative_muted_fuchsia": {
 		"rgba": "rgba(54, 36, 46, 1)",
 		"hex": "#36242e",
+		"figma": "decorative-muted/fuchsia",
+		"web": "--color-dark-decorative-muted-fuchsia",
 		"alias": "decorativeMutedColorFuchsia"
 	},
 	"dark_decorative_muted_fuchsia_hover": {
@@ -632,6 +722,8 @@
 	"dark_decorative_muted_fuchsia_inverted": {
 		"rgba": "rgba(252, 234, 250, 1)",
 		"hex": "#fceafa",
+		"figma": "decorative-muted_inverted/fuchsia",
+		"web": "--color-dark-decorative-muted-fuchsia-inverted",
 		"alias": "decorativeMutedColorFuchsiaInverted"
 	},
 	"dark_decorative_muted_fuchsia_inverted_hover": {
@@ -652,6 +744,8 @@
 	"dark_decorative_muted_green": {
 		"rgba": "rgba(35, 45, 37, 1)",
 		"hex": "#232d25",
+		"figma": "decorative-muted/green",
+		"web": "--color-dark-decorative-muted-green",
 		"alias": "decorativeMutedColorGreen"
 	},
 	"dark_decorative_muted_green_hover": {
@@ -662,6 +756,8 @@
 	"dark_decorative_muted_green_inverted": {
 		"rgba": "rgba(223, 248, 229, 1)",
 		"hex": "#dff8e5",
+		"figma": "decorative-muted_inverted/green",
+		"web": "--color-dark-decorative-muted-green-inverted",
 		"alias": "decorativeMutedColorGreenInverted"
 	},
 	"dark_decorative_muted_green_inverted_hover": {
@@ -682,6 +778,8 @@
 	"dark_decorative_muted_indigo": {
 		"rgba": "rgba(43, 39, 54, 1)",
 		"hex": "#2b2736",
+		"figma": "decorative-muted/indigo",
+		"web": "--color-dark-decorative-muted-indigo",
 		"alias": "decorativeMutedColorIndigo"
 	},
 	"dark_decorative_muted_indigo_hover": {
@@ -692,6 +790,8 @@
 	"dark_decorative_muted_indigo_inverted": {
 		"rgba": "rgba(238, 237, 255, 1)",
 		"hex": "#eeedff",
+		"figma": "decorative-muted_inverted/indigo",
+		"web": "--color-dark-decorative-muted-indigo-inverted",
 		"alias": "decorativeMutedColorIndigoInverted"
 	},
 	"dark_decorative_muted_indigo_inverted_hover": {
@@ -712,6 +812,8 @@
 	"dark_decorative_muted_jungle": {
 		"rgba": "rgba(31, 46, 42, 1)",
 		"hex": "#1f2e2a",
+		"figma": "decorative-muted/jungle",
+		"web": "--color-dark-decorative-muted-jungle",
 		"alias": "decorativeMutedColorJungle"
 	},
 	"dark_decorative_muted_jungle_hover": {
@@ -722,6 +824,8 @@
 	"dark_decorative_muted_jungle_inverted": {
 		"rgba": "rgba(218, 250, 239, 1)",
 		"hex": "#dafaef",
+		"figma": "decorative-muted_inverted/jungle",
+		"web": "--color-dark-decorative-muted-jungle-inverted",
 		"alias": "decorativeMutedColorJungleInverted"
 	},
 	"dark_decorative_muted_jungle_inverted_hover": {
@@ -742,6 +846,8 @@
 	"dark_decorative_muted_magenta": {
 		"rgba": "rgba(56, 35, 38, 1)",
 		"hex": "#382326",
+		"figma": "decorative-muted/magenta",
+		"web": "--color-dark-decorative-muted-magenta",
 		"alias": "decorativeMutedColorMagenta"
 	},
 	"dark_decorative_muted_magenta_hover": {
@@ -752,6 +858,8 @@
 	"dark_decorative_muted_magenta_inverted": {
 		"rgba": "rgba(255, 234, 238, 1)",
 		"hex": "#ffeaee",
+		"figma": "decorative-muted_inverted/magenta",
+		"web": "--color-dark-decorative-muted-magenta-inverted",
 		"alias": "decorativeMutedColorMagentaInverted"
 	},
 	"dark_decorative_muted_magenta_inverted_hover": {
@@ -772,6 +880,8 @@
 	"dark_decorative_muted_orange": {
 		"rgba": "rgba(54, 41, 31, 1)",
 		"hex": "#36291f",
+		"figma": "decorative-muted/orange",
+		"web": "--color-dark-decorative-muted-orange",
 		"alias": "decorativeMutedColorOrange"
 	},
 	"dark_decorative_muted_orange_hover": {
@@ -782,6 +892,8 @@
 	"dark_decorative_muted_orange_inverted": {
 		"rgba": "rgba(255, 239, 217, 1)",
 		"hex": "#ffefd9",
+		"figma": "decorative-muted_inverted/orange",
+		"web": "--color-dark-decorative-muted-orange-inverted",
 		"alias": "decorativeMutedColorOrangeInverted"
 	},
 	"dark_decorative_muted_orange_inverted_hover": {
@@ -802,6 +914,8 @@
 	"dark_decorative_muted_pistachio": {
 		"rgba": "rgba(41, 45, 29, 1)",
 		"hex": "#292d1d",
+		"figma": "decorative-muted/pistachio",
+		"web": "--color-dark-decorative-muted-pistachio",
 		"alias": "decorativeMutedColorPistachio"
 	},
 	"dark_decorative_muted_pistachio_hover": {
@@ -812,6 +926,8 @@
 	"dark_decorative_muted_pistachio_inverted": {
 		"rgba": "rgba(233, 247, 217, 1)",
 		"hex": "#e9f7d9",
+		"figma": "decorative-muted_inverted/pistachio",
+		"web": "--color-dark-decorative-muted-pistachio-inverted",
 		"alias": "decorativeMutedColorPistachioInverted"
 	},
 	"dark_decorative_muted_pistachio_inverted_hover": {
@@ -832,6 +948,8 @@
 	"dark_decorative_muted_purple": {
 		"rgba": "rgba(51, 38, 51, 1)",
 		"hex": "#332633",
+		"figma": "decorative-muted/purple",
+		"web": "--color-dark-decorative-muted-purple",
 		"alias": "decorativeMutedColorPurple"
 	},
 	"dark_decorative_muted_purple_hover": {
@@ -842,6 +960,8 @@
 	"dark_decorative_muted_purple_inverted": {
 		"rgba": "rgba(249, 235, 254, 1)",
 		"hex": "#f9ebfe",
+		"figma": "decorative-muted_inverted/purple",
+		"web": "--color-dark-decorative-muted-purple-inverted",
 		"alias": "decorativeMutedColorPurpleInverted"
 	},
 	"dark_decorative_muted_purple_inverted_hover": {
@@ -862,16 +982,22 @@
 	"dark_decorative_muted_red": {
 		"rgba": "rgba(57, 37, 35, 1)",
 		"hex": "#392523",
+		"figma": "decorative-muted/red",
+		"web": "--color-dark-decorative-muted-red",
 		"alias": "decorativeMutedColorRed"
 	},
 	"dark_decorative_muted_red_inverted": {
 		"rgba": "rgba(255, 235, 235, 1)",
 		"hex": "#ffebeb",
+		"figma": "decorative-muted_inverted/red",
+		"web": "--color-dark-decorative-muted-red-inverted",
 		"alias": "decorativeMutedColorRedInverted"
 	},
 	"dark_decorative_muted_teal": {
 		"rgba": "rgba(29, 45, 49, 1)",
 		"hex": "#1d2d31",
+		"figma": "decorative-muted/teal",
+		"web": "--color-dark-decorative-muted-teal",
 		"alias": "decorativeMutedColorTeal"
 	},
 	"dark_decorative_muted_teal_hover": {
@@ -882,6 +1008,8 @@
 	"dark_decorative_muted_teal_inverted": {
 		"rgba": "rgba(218, 247, 248, 1)",
 		"hex": "#daf7f8",
+		"figma": "decorative-muted_inverted/teal",
+		"web": "--color-dark-decorative-muted-teal-inverted",
 		"alias": "decorativeMutedColorTealInverted"
 	},
 	"dark_decorative_muted_teal_inverted_hover": {
@@ -902,16 +1030,22 @@
 	"dark_decorative_muted_yellow": {
 		"rgba": "rgba(51, 43, 28, 1)",
 		"hex": "#332b1c",
+		"figma": "decorative-muted/yellow",
+		"web": "--color-dark-decorative-muted-yellow",
 		"alias": "decorativeMutedColorYellow"
 	},
 	"dark_decorative_muted_yellow_inverted": {
 		"rgba": "rgba(251, 242, 211, 1)",
 		"hex": "#fbf2d3",
+		"figma": "decorative-muted_inverted/yellow",
+		"web": "--color-dark-decorative-muted-yellow-inverted",
 		"alias": "decorativeMutedColorYellowInverted"
 	},
 	"dark_decorative_orange": {
 		"rgba": "rgba(253, 161, 54, 1)",
 		"hex": "#fda136",
+		"figma": "decorative/orange",
+		"web": "--color-dark-decorative-orange",
 		"alias": "decorativeColorOrange"
 	},
 	"dark_decorative_orange_hover": {
@@ -922,6 +1056,8 @@
 	"dark_decorative_orange_inverted": {
 		"rgba": "rgba(250, 147, 19, 1)",
 		"hex": "#fa9313",
+		"figma": "decorative_inverted/orange",
+		"web": "--color-dark-decorative-orange-inverted",
 		"alias": "decorativeColorOrangeInverted"
 	},
 	"dark_decorative_orange_inverted_hover": {
@@ -942,6 +1078,8 @@
 	"dark_decorative_pistachio": {
 		"rgba": "rgba(139, 203, 6, 1)",
 		"hex": "#8bcb06",
+		"figma": "decorative/pistachio",
+		"web": "--color-dark-decorative-pistachio",
 		"alias": "decorativeColorPistachio"
 	},
 	"dark_decorative_pistachio_hover": {
@@ -952,6 +1090,8 @@
 	"dark_decorative_pistachio_inverted": {
 		"rgba": "rgba(128, 192, 2, 1)",
 		"hex": "#80c002",
+		"figma": "decorative_inverted/pistachio",
+		"web": "--color-dark-decorative-pistachio-inverted",
 		"alias": "decorativeColorPistachioInverted"
 	},
 	"dark_decorative_pistachio_inverted_hover": {
@@ -972,6 +1112,8 @@
 	"dark_decorative_purple": {
 		"rgba": "rgba(216, 132, 254, 1)",
 		"hex": "#d884fe",
+		"figma": "decorative/purple",
+		"web": "--color-dark-decorative-purple",
 		"alias": "decorativeColorPurple"
 	},
 	"dark_decorative_purple_hover": {
@@ -982,6 +1124,8 @@
 	"dark_decorative_purple_inverted": {
 		"rgba": "rgba(212, 109, 250, 1)",
 		"hex": "#d46dfa",
+		"figma": "decorative_inverted/purple",
+		"web": "--color-dark-decorative-purple-inverted",
 		"alias": "decorativeColorPurpleInverted"
 	},
 	"dark_decorative_purple_inverted_hover": {
@@ -1002,16 +1146,22 @@
 	"dark_decorative_red": {
 		"rgba": "rgba(253, 101, 68, 1)",
 		"hex": "#fd6544",
+		"figma": "decorative/red",
+		"web": "--color-dark-decorative-red",
 		"alias": "decorativeColorRed"
 	},
 	"dark_decorative_red_inverted": {
 		"rgba": "rgba(255, 84, 49, 1)",
 		"hex": "#ff5431",
+		"figma": "decorative_inverted/red",
+		"web": "--color-dark-decorative-red-inverted",
 		"alias": "decorativeColorRedInverted"
 	},
 	"dark_decorative_teal": {
 		"rgba": "rgba(9, 200, 208, 1)",
 		"hex": "#09c8d0",
+		"figma": "decorative/teal",
+		"web": "--color-dark-decorative-teal",
 		"alias": "decorativeColorTeal"
 	},
 	"dark_decorative_teal_hover": {
@@ -1022,6 +1172,8 @@
 	"dark_decorative_teal_inverted": {
 		"rgba": "rgba(9, 185, 190, 1)",
 		"hex": "#09b9be",
+		"figma": "decorative_inverted/teal",
+		"web": "--color-dark-decorative-teal-inverted",
 		"alias": "decorativeColorTealInverted"
 	},
 	"dark_decorative_teal_inverted_hover": {
@@ -1042,146 +1194,204 @@
 	"dark_decorative_text_blue": {
 		"rgba": "rgba(74, 157, 252, 1)",
 		"hex": "#4a9dfc",
+		"figma": "decorative-text/blue",
+		"web": "--color-dark-decorative-text-blue",
 		"alias": "decorativeTextColorBlue"
 	},
 	"dark_decorative_text_blue_inverted": {
 		"rgba": "rgba(42, 119, 239, 1)",
 		"hex": "#2a77ef",
+		"figma": "decorative-text_inverted/blue",
+		"web": "--color-dark-decorative-text-blue-inverted",
 		"alias": "decorativeTextColorBlueInverted"
 	},
 	"dark_decorative_text_cyan": {
 		"rgba": "rgba(11, 177, 231, 1)",
 		"hex": "#0bb1e7",
+		"figma": "decorative-text/cyan",
+		"web": "--color-dark-decorative-text-cyan",
 		"alias": "decorativeTextColorCyan"
 	},
 	"dark_decorative_text_cyan_inverted": {
 		"rgba": "rgba(12, 133, 180, 1)",
 		"hex": "#0c85b4",
+		"figma": "decorative-text_inverted/cyan",
+		"web": "--color-dark-decorative-text-cyan-inverted",
 		"alias": "decorativeTextColorCyanInverted"
 	},
 	"dark_decorative_text_fuchsia": {
 		"rgba": "rgba(254, 80, 200, 1)",
 		"hex": "#fe50c8",
+		"figma": "decorative-text/fuchsia",
+		"web": "--color-dark-decorative-text-fuchsia",
 		"alias": "decorativeTextColorFuchsia"
 	},
 	"dark_decorative_text_fuchsia_inverted": {
 		"rgba": "rgba(220, 32, 151, 1)",
 		"hex": "#dc2097",
+		"figma": "decorative-text_inverted/fuchsia",
+		"web": "--color-dark-decorative-text-fuchsia-inverted",
 		"alias": "decorativeTextColorFuchsiaInverted"
 	},
 	"dark_decorative_text_green": {
 		"rgba": "rgba(12, 196, 77, 1)",
 		"hex": "#0cc44d",
+		"figma": "decorative-text/green",
+		"web": "--color-dark-decorative-text-green",
 		"alias": "decorativeTextColorGreen"
 	},
 	"dark_decorative_text_green_inverted": {
 		"rgba": "rgba(13, 147, 54, 1)",
 		"hex": "#0d9336",
+		"figma": "decorative-text_inverted/green",
+		"web": "--color-dark-decorative-text-green-inverted",
 		"alias": "decorativeTextColorGreenInverted"
 	},
 	"dark_decorative_text_indigo": {
 		"rgba": "rgba(153, 139, 255, 1)",
 		"hex": "#998bff",
+		"figma": "decorative-text/indigo",
+		"web": "--color-dark-decorative-text-indigo",
 		"alias": "decorativeTextColorIndigo"
 	},
 	"dark_decorative_text_indigo_inverted": {
 		"rgba": "rgba(122, 99, 241, 1)",
 		"hex": "#7a63f1",
+		"figma": "decorative-text_inverted/indigo",
+		"web": "--color-dark-decorative-text-indigo-inverted",
 		"alias": "decorativeTextColorIndigoInverted"
 	},
 	"dark_decorative_text_jungle": {
 		"rgba": "rgba(10, 190, 148, 1)",
 		"hex": "#0abe94",
+		"figma": "decorative-text/jungle",
+		"web": "--color-dark-decorative-text-jungle",
 		"alias": "decorativeTextColorJungle"
 	},
 	"dark_decorative_text_jungle_inverted": {
 		"rgba": "rgba(13, 142, 116, 1)",
 		"hex": "#0d8e74",
+		"figma": "decorative-text_inverted/jungle",
+		"web": "--color-dark-decorative-text-jungle-inverted",
 		"alias": "decorativeTextColorJungleInverted"
 	},
 	"dark_decorative_text_magenta": {
 		"rgba": "rgba(254, 85, 148, 1)",
 		"hex": "#fe5594",
+		"figma": "decorative-text/magenta",
+		"web": "--color-dark-decorative-text-magenta",
 		"alias": "decorativeTextColorMagenta"
 	},
 	"dark_decorative_text_magenta_inverted": {
 		"rgba": "rgba(225, 33, 105, 1)",
 		"hex": "#e12169",
+		"figma": "decorative-text_inverted/magenta",
+		"web": "--color-dark-decorative-text-magenta-inverted",
 		"alias": "decorativeTextColorMagentaInverted"
 	},
 	"dark_decorative_text_orange": {
 		"rgba": "rgba(250, 147, 19, 1)",
 		"hex": "#fa9313",
+		"figma": "decorative-text/orange",
+		"web": "--color-dark-decorative-text-orange",
 		"alias": "decorativeTextColorOrange"
 	},
 	"dark_decorative_text_orange_inverted": {
 		"rgba": "rgba(234, 131, 19, 1)",
 		"hex": "#ea8313",
+		"figma": "decorative-text_inverted/orange",
+		"web": "--color-dark-decorative-text-orange-inverted",
 		"alias": "decorativeTextColorOrangeInverted"
 	},
 	"dark_decorative_text_pistachio": {
 		"rgba": "rgba(128, 192, 2, 1)",
 		"hex": "#80c002",
+		"figma": "decorative-text/pistachio",
+		"web": "--color-dark-decorative-text-pistachio",
 		"alias": "decorativeTextColorPistachio"
 	},
 	"dark_decorative_text_pistachio_inverted": {
 		"rgba": "rgba(97, 139, 2, 1)",
 		"hex": "#618b02",
+		"figma": "decorative-text_inverted/pistachio",
+		"web": "--color-dark-decorative-text-pistachio-inverted",
 		"alias": "decorativeTextColorPistachioInverted"
 	},
 	"dark_decorative_text_purple": {
 		"rgba": "rgba(212, 109, 250, 1)",
 		"hex": "#d46dfa",
+		"figma": "decorative-text/purple",
+		"web": "--color-dark-decorative-text-purple",
 		"alias": "decorativeTextColorPurple"
 	},
 	"dark_decorative_text_purple_inverted": {
 		"rgba": "rgba(186, 61, 216, 1)",
 		"hex": "#ba3dd8",
+		"figma": "decorative-text_inverted/purple",
+		"web": "--color-dark-decorative-text-purple-inverted",
 		"alias": "decorativeTextColorPurpleInverted"
 	},
 	"dark_decorative_text_red": {
 		"rgba": "rgba(255, 84, 49, 1)",
 		"hex": "#ff5431",
+		"figma": "decorative-text/red",
+		"web": "--color-dark-decorative-text-red",
 		"alias": "decorativeTextColorRed"
 	},
 	"dark_decorative_text_red_inverted": {
 		"rgba": "rgba(236, 46, 20, 1)",
 		"hex": "#ec2e14",
+		"figma": "decorative-text_inverted/red",
+		"web": "--color-dark-decorative-text-red-inverted",
 		"alias": "decorativeTextColorRedInverted"
 	},
 	"dark_decorative_text_teal": {
 		"rgba": "rgba(9, 185, 190, 1)",
 		"hex": "#09b9be",
+		"figma": "decorative-text/teal",
+		"web": "--color-dark-decorative-text-teal",
 		"alias": "decorativeTextColorTeal"
 	},
 	"dark_decorative_text_teal_inverted": {
 		"rgba": "rgba(5, 138, 143, 1)",
 		"hex": "#058a8f",
+		"figma": "decorative-text_inverted/teal",
+		"web": "--color-dark-decorative-text-teal-inverted",
 		"alias": "decorativeTextColorTealInverted"
 	},
 	"dark_decorative_text_yellow": {
 		"rgba": "rgba(254, 223, 0, 1)",
 		"hex": "#fedf00",
+		"figma": "decorative-text/yellow",
+		"web": "--color-dark-decorative-text-yellow",
 		"alias": "decorativeTextColorYellow"
 	},
 	"dark_decorative_text_yellow_inverted": {
 		"rgba": "rgba(220, 179, 11, 1)",
 		"hex": "#dcb30b",
+		"figma": "decorative-text_inverted/yellow",
+		"web": "--color-dark-decorative-text-yellow-inverted",
 		"alias": "decorativeTextColorYellowInverted"
 	},
 	"dark_decorative_yellow": {
 		"rgba": "rgba(254, 223, 0, 1)",
 		"hex": "#fedf00",
+		"figma": "decorative/yellow",
+		"web": "--color-dark-decorative-yellow",
 		"alias": "decorativeColorYellow"
 	},
 	"dark_decorative_yellow_inverted": {
 		"rgba": "rgba(251, 215, 0, 1)",
 		"hex": "#fbd700",
+		"figma": "decorative_inverted/yellow",
+		"web": "--color-dark-decorative-yellow-inverted",
 		"alias": "decorativeColorYellowInverted"
 	},
 	"light_decorative_blue": {
 		"rgba": "rgba(34, 136, 250, 1)",
 		"hex": "#2288fa",
+		"figma": "decorative/blue",
+		"web": "--color-light-decorative-blue",
 		"alias": "decorativeColorBlue"
 	},
 	"light_decorative_blue_hover": {
@@ -1192,6 +1402,8 @@
 	"light_decorative_blue_inverted": {
 		"rgba": "rgba(49, 147, 252, 1)",
 		"hex": "#3193fc",
+		"figma": "decorative_inverted/blue",
+		"web": "--color-light-decorative-blue-inverted",
 		"alias": "decorativeColorBlueInverted"
 	},
 	"light_decorative_blue_inverted_hover": {
@@ -1212,6 +1424,8 @@
 	"light_decorative_cyan": {
 		"rgba": "rgba(11, 177, 231, 1)",
 		"hex": "#0bb1e7",
+		"figma": "decorative/cyan",
+		"web": "--color-light-decorative-cyan",
 		"alias": "decorativeColorCyan"
 	},
 	"light_decorative_cyan_hover": {
@@ -1222,6 +1436,8 @@
 	"light_decorative_cyan_inverted": {
 		"rgba": "rgba(11, 190, 243, 1)",
 		"hex": "#0bbef3",
+		"figma": "decorative_inverted/cyan",
+		"web": "--color-light-decorative-cyan-inverted",
 		"alias": "decorativeColorCyanInverted"
 	},
 	"light_decorative_cyan_inverted_hover": {
@@ -1242,6 +1458,8 @@
 	"light_decorative_fuchsia": {
 		"rgba": "rgba(254, 80, 200, 1)",
 		"hex": "#fe50c8",
+		"figma": "decorative/fuchsia",
+		"web": "--color-light-decorative-fuchsia",
 		"alias": "decorativeColorFuchsia"
 	},
 	"light_decorative_fuchsia_hover": {
@@ -1252,6 +1470,8 @@
 	"light_decorative_fuchsia_inverted": {
 		"rgba": "rgba(255, 110, 214, 1)",
 		"hex": "#ff6ed6",
+		"figma": "decorative_inverted/fuchsia",
+		"web": "--color-light-decorative-fuchsia-inverted",
 		"alias": "decorativeColorFuchsiaInverted"
 	},
 	"light_decorative_fuchsia_inverted_hover": {
@@ -1272,6 +1492,8 @@
 	"light_decorative_green": {
 		"rgba": "rgba(12, 196, 77, 1)",
 		"hex": "#0cc44d",
+		"figma": "decorative/green",
+		"web": "--color-light-decorative-green",
 		"alias": "decorativeColorGreen"
 	},
 	"light_decorative_green_hover": {
@@ -1282,6 +1504,8 @@
 	"light_decorative_green_inverted": {
 		"rgba": "rgba(23, 208, 85, 1)",
 		"hex": "#17d055",
+		"figma": "decorative_inverted/green",
+		"web": "--color-light-decorative-green-inverted",
 		"alias": "decorativeColorGreenInverted"
 	},
 	"light_decorative_green_inverted_hover": {
@@ -1302,6 +1526,8 @@
 	"light_decorative_indigo": {
 		"rgba": "rgba(127, 113, 253, 1)",
 		"hex": "#7f71fd",
+		"figma": "decorative/indigo",
+		"web": "--color-light-decorative-indigo",
 		"alias": "decorativeColorIndigo"
 	},
 	"light_decorative_indigo_hover": {
@@ -1312,6 +1538,8 @@
 	"light_decorative_indigo_inverted": {
 		"rgba": "rgba(153, 139, 255, 1)",
 		"hex": "#998bff",
+		"figma": "decorative_inverted/indigo",
+		"web": "--color-light-decorative-indigo-inverted",
 		"alias": "decorativeColorIndigoInverted"
 	},
 	"light_decorative_indigo_inverted_hover": {
@@ -1332,6 +1560,8 @@
 	"light_decorative_jungle": {
 		"rgba": "rgba(10, 190, 148, 1)",
 		"hex": "#0abe94",
+		"figma": "decorative/jungle",
+		"web": "--color-light-decorative-jungle",
 		"alias": "decorativeColorJungle"
 	},
 	"light_decorative_jungle_hover": {
@@ -1342,6 +1572,8 @@
 	"light_decorative_jungle_inverted": {
 		"rgba": "rgba(2, 206, 162, 1)",
 		"hex": "#02cea2",
+		"figma": "decorative_inverted/jungle",
+		"web": "--color-light-decorative-jungle-inverted",
 		"alias": "decorativeColorJungleInverted"
 	},
 	"light_decorative_jungle_inverted_hover": {
@@ -1362,6 +1594,8 @@
 	"light_decorative_magenta": {
 		"rgba": "rgba(254, 85, 148, 1)",
 		"hex": "#fe5594",
+		"figma": "decorative/magenta",
+		"web": "--color-light-decorative-magenta",
 		"alias": "decorativeColorMagenta"
 	},
 	"light_decorative_magenta_hover": {
@@ -1372,6 +1606,8 @@
 	"light_decorative_magenta_inverted": {
 		"rgba": "rgba(255, 114, 162, 1)",
 		"hex": "#ff72a2",
+		"figma": "decorative_inverted/magenta",
+		"web": "--color-light-decorative-magenta-inverted",
 		"alias": "decorativeColorMagentaInverted"
 	},
 	"light_decorative_magenta_inverted_hover": {
@@ -1392,6 +1628,8 @@
 	"light_decorative_muted_alt_blue": {
 		"rgba": "rgba(216, 234, 255, 1)",
 		"hex": "#d8eaff",
+		"figma": "decorative-muted-alt/blue",
+		"web": "--color-light-decorative-muted-alt-blue",
 		"alias": "decorativeMutedAltColorBlue"
 	},
 	"light_decorative_muted_alt_blue_hover": {
@@ -1402,6 +1640,8 @@
 	"light_decorative_muted_alt_blue_inverted": {
 		"rgba": "rgba(41, 48, 68, 1)",
 		"hex": "#293044",
+		"figma": "decorative-muted-alt_inverted/blue",
+		"web": "--color-light-decorative-muted-alt-blue-inverted",
 		"alias": "decorativeMutedAltColorBlueInverted"
 	},
 	"light_decorative_muted_alt_blue_inverted_hover": {
@@ -1422,6 +1662,8 @@
 	"light_decorative_muted_alt_cyan": {
 		"rgba": "rgba(204, 238, 252, 1)",
 		"hex": "#cceefc",
+		"figma": "decorative-muted-alt/cyan",
+		"web": "--color-light-decorative-muted-alt-cyan",
 		"alias": "decorativeMutedAltColorCyan"
 	},
 	"light_decorative_muted_alt_cyan_hover": {
@@ -1432,6 +1674,8 @@
 	"light_decorative_muted_alt_cyan_inverted": {
 		"rgba": "rgba(29, 52, 66, 1)",
 		"hex": "#1d3442",
+		"figma": "decorative-muted-alt_inverted/cyan",
+		"web": "--color-light-decorative-muted-alt-cyan-inverted",
 		"alias": "decorativeMutedAltColorCyanInverted"
 	},
 	"light_decorative_muted_alt_cyan_inverted_hover": {
@@ -1452,6 +1696,8 @@
 	"light_decorative_muted_alt_fuchsia": {
 		"rgba": "rgba(249, 224, 245, 1)",
 		"hex": "#f9e0f5",
+		"figma": "decorative-muted-alt/fuchsia",
+		"web": "--color-light-decorative-muted-alt-fuchsia",
 		"alias": "decorativeMutedAltColorFuchsia"
 	},
 	"light_decorative_muted_alt_fuchsia_hover": {
@@ -1462,6 +1708,8 @@
 	"light_decorative_muted_alt_fuchsia_inverted": {
 		"rgba": "rgba(64, 40, 55, 1)",
 		"hex": "#402837",
+		"figma": "decorative-muted-alt_inverted/fuchsia",
+		"web": "--color-light-decorative-muted-alt-fuchsia-inverted",
 		"alias": "decorativeMutedAltColorFuchsiaInverted"
 	},
 	"light_decorative_muted_alt_fuchsia_inverted_hover": {
@@ -1482,6 +1730,8 @@
 	"light_decorative_muted_alt_green": {
 		"rgba": "rgba(209, 241, 215, 1)",
 		"hex": "#d1f1d7",
+		"figma": "decorative-muted-alt/green",
+		"web": "--color-light-decorative-muted-alt-green",
 		"alias": "decorativeMutedAltColorGreen"
 	},
 	"light_decorative_muted_alt_green_hover": {
@@ -1492,6 +1742,8 @@
 	"light_decorative_muted_alt_green_inverted": {
 		"rgba": "rgba(37, 53, 40, 1)",
 		"hex": "#253528",
+		"figma": "decorative-muted-alt_inverted/green",
+		"web": "--color-light-decorative-muted-alt-green-inverted",
 		"alias": "decorativeMutedAltColorGreenInverted"
 	},
 	"light_decorative_muted_alt_green_inverted_hover": {
@@ -1512,6 +1764,8 @@
 	"light_decorative_muted_alt_indigo": {
 		"rgba": "rgba(228, 231, 255, 1)",
 		"hex": "#e4e7ff",
+		"figma": "decorative-muted-alt/indigo",
+		"web": "--color-light-decorative-muted-alt-indigo",
 		"alias": "decorativeMutedAltColorIndigo"
 	},
 	"light_decorative_muted_alt_indigo_hover": {
@@ -1522,6 +1776,8 @@
 	"light_decorative_muted_alt_indigo_inverted": {
 		"rgba": "rgba(51, 45, 66, 1)",
 		"hex": "#332d42",
+		"figma": "decorative-muted-alt_inverted/indigo",
+		"web": "--color-light-decorative-muted-alt-indigo-inverted",
 		"alias": "decorativeMutedAltColorIndigoInverted"
 	},
 	"light_decorative_muted_alt_indigo_inverted_hover": {
@@ -1542,6 +1798,8 @@
 	"light_decorative_muted_alt_jungle": {
 		"rgba": "rgba(201, 242, 230, 1)",
 		"hex": "#c9f2e6",
+		"figma": "decorative-muted-alt/jungle",
+		"web": "--color-light-decorative-muted-alt-jungle",
 		"alias": "decorativeMutedAltColorJungle"
 	},
 	"light_decorative_muted_alt_jungle_hover": {
@@ -1552,6 +1810,8 @@
 	"light_decorative_muted_alt_jungle_inverted": {
 		"rgba": "rgba(30, 54, 49, 1)",
 		"hex": "#1e3631",
+		"figma": "decorative-muted-alt_inverted/jungle",
+		"web": "--color-light-decorative-muted-alt-jungle-inverted",
 		"alias": "decorativeMutedAltColorJungleInverted"
 	},
 	"light_decorative_muted_alt_jungle_inverted_hover": {
@@ -1572,6 +1832,8 @@
 	"light_decorative_muted_alt_magenta": {
 		"rgba": "rgba(255, 224, 231, 1)",
 		"hex": "#ffe0e7",
+		"figma": "decorative-muted-alt/magenta",
+		"web": "--color-light-decorative-muted-alt-magenta",
 		"alias": "decorativeMutedAltColorMagenta"
 	},
 	"light_decorative_muted_alt_magenta_hover": {
@@ -1582,6 +1844,8 @@
 	"light_decorative_muted_alt_magenta_inverted": {
 		"rgba": "rgba(69, 39, 44, 1)",
 		"hex": "#45272c",
+		"figma": "decorative-muted-alt_inverted/magenta",
+		"web": "--color-light-decorative-muted-alt-magenta-inverted",
 		"alias": "decorativeMutedAltColorMagentaInverted"
 	},
 	"light_decorative_muted_alt_magenta_inverted_hover": {
@@ -1602,6 +1866,8 @@
 	"light_decorative_muted_alt_orange": {
 		"rgba": "rgba(253, 230, 200, 1)",
 		"hex": "#fde6c8",
+		"figma": "decorative-muted-alt/orange",
+		"web": "--color-light-decorative-muted-alt-orange",
 		"alias": "decorativeMutedAltColorOrange"
 	},
 	"light_decorative_muted_alt_orange_hover": {
@@ -1612,6 +1878,8 @@
 	"light_decorative_muted_alt_orange_inverted": {
 		"rgba": "rgba(65, 47, 34, 1)",
 		"hex": "#412f22",
+		"figma": "decorative-muted-alt_inverted/orange",
+		"web": "--color-light-decorative-muted-alt-orange-inverted",
 		"alias": "decorativeMutedAltColorOrangeInverted"
 	},
 	"light_decorative_muted_alt_orange_inverted_hover": {
@@ -1632,6 +1900,8 @@
 	"light_decorative_muted_alt_pistachio": {
 		"rgba": "rgba(224, 239, 200, 1)",
 		"hex": "#e0efc8",
+		"figma": "decorative-muted-alt/pistachio",
+		"web": "--color-light-decorative-muted-alt-pistachio",
 		"alias": "decorativeMutedAltColorPistachio"
 	},
 	"light_decorative_muted_alt_pistachio_hover": {
@@ -1642,6 +1912,8 @@
 	"light_decorative_muted_alt_pistachio_inverted": {
 		"rgba": "rgba(45, 51, 34, 1)",
 		"hex": "#2d3322",
+		"figma": "decorative-muted-alt_inverted/pistachio",
+		"web": "--color-light-decorative-muted-alt-pistachio-inverted",
 		"alias": "decorativeMutedAltColorPistachioInverted"
 	},
 	"light_decorative_muted_alt_pistachio_inverted_hover": {
@@ -1662,6 +1934,8 @@
 	"light_decorative_muted_alt_purple": {
 		"rgba": "rgba(242, 227, 253, 1)",
 		"hex": "#f2e3fd",
+		"figma": "decorative-muted-alt/purple",
+		"web": "--color-light-decorative-muted-alt-purple",
 		"alias": "decorativeMutedAltColorPurple"
 	},
 	"light_decorative_muted_alt_purple_hover": {
@@ -1672,6 +1946,8 @@
 	"light_decorative_muted_alt_purple_inverted": {
 		"rgba": "rgba(60, 41, 61, 1)",
 		"hex": "#3c293d",
+		"figma": "decorative-muted-alt_inverted/purple",
+		"web": "--color-light-decorative-muted-alt-purple-inverted",
 		"alias": "decorativeMutedAltColorPurpleInverted"
 	},
 	"light_decorative_muted_alt_purple_inverted_hover": {
@@ -1692,16 +1968,22 @@
 	"light_decorative_muted_alt_red": {
 		"rgba": "rgba(255, 223, 223, 1)",
 		"hex": "#ffdfdf",
+		"figma": "decorative-muted-alt/red",
+		"web": "--color-light-decorative-muted-alt-red",
 		"alias": "decorativeMutedAltColorRed"
 	},
 	"light_decorative_muted_alt_red_inverted": {
 		"rgba": "rgba(68, 41, 38, 1)",
 		"hex": "#442926",
+		"figma": "decorative-muted-alt_inverted/red",
+		"web": "--color-light-decorative-muted-alt-red-inverted",
 		"alias": "decorativeMutedAltColorRedInverted"
 	},
 	"light_decorative_muted_alt_teal": {
 		"rgba": "rgba(200, 241, 243, 1)",
 		"hex": "#c8f1f3",
+		"figma": "decorative-muted-alt/teal",
+		"web": "--color-light-decorative-muted-alt-teal",
 		"alias": "decorativeMutedAltColorTeal"
 	},
 	"light_decorative_muted_alt_teal_hover": {
@@ -1712,6 +1994,8 @@
 	"light_decorative_muted_alt_teal_inverted": {
 		"rgba": "rgba(27, 53, 58, 1)",
 		"hex": "#1b353a",
+		"figma": "decorative-muted-alt_inverted/teal",
+		"web": "--color-light-decorative-muted-alt-teal-inverted",
 		"alias": "decorativeMutedAltColorTealInverted"
 	},
 	"light_decorative_muted_alt_teal_inverted_hover": {
@@ -1732,16 +2016,22 @@
 	"light_decorative_muted_alt_yellow": {
 		"rgba": "rgba(247, 234, 193, 1)",
 		"hex": "#f7eac1",
+		"figma": "decorative-muted-alt/yellow",
+		"web": "--color-light-decorative-muted-alt-yellow",
 		"alias": "decorativeMutedAltColorYellow"
 	},
 	"light_decorative_muted_alt_yellow_inverted": {
 		"rgba": "rgba(58, 49, 31, 1)",
 		"hex": "#3a311f",
+		"figma": "decorative-muted-alt_inverted/yellow",
+		"web": "--color-light-decorative-muted-alt-yellow-inverted",
 		"alias": "decorativeMutedAltColorYellowInverted"
 	},
 	"light_decorative_muted_blue": {
 		"rgba": "rgba(228, 240, 255, 1)",
 		"hex": "#e4f0ff",
+		"figma": "decorative-muted/blue",
+		"web": "--color-light-decorative-muted-blue",
 		"alias": "decorativeMutedColorBlue"
 	},
 	"light_decorative_muted_blue_hover": {
@@ -1752,6 +2042,8 @@
 	"light_decorative_muted_blue_inverted": {
 		"rgba": "rgba(34, 42, 62, 1)",
 		"hex": "#222a3e",
+		"figma": "decorative-muted_inverted/blue",
+		"web": "--color-light-decorative-muted-blue-inverted",
 		"alias": "decorativeMutedColorBlueInverted"
 	},
 	"light_decorative_muted_blue_inverted_hover": {
@@ -1772,6 +2064,8 @@
 	"light_decorative_muted_cyan": {
 		"rgba": "rgba(222, 245, 255, 1)",
 		"hex": "#def5ff",
+		"figma": "decorative-muted/cyan",
+		"web": "--color-light-decorative-muted-cyan",
 		"alias": "decorativeMutedColorCyan"
 	},
 	"light_decorative_muted_cyan_hover": {
@@ -1782,6 +2076,8 @@
 	"light_decorative_muted_cyan_inverted": {
 		"rgba": "rgba(30, 44, 55, 1)",
 		"hex": "#1e2c37",
+		"figma": "decorative-muted_inverted/cyan",
+		"web": "--color-light-decorative-muted-cyan-inverted",
 		"alias": "decorativeMutedColorCyanInverted"
 	},
 	"light_decorative_muted_cyan_inverted_hover": {
@@ -1802,6 +2098,8 @@
 	"light_decorative_muted_fuchsia": {
 		"rgba": "rgba(252, 234, 250, 1)",
 		"hex": "#fceafa",
+		"figma": "decorative-muted/fuchsia",
+		"web": "--color-light-decorative-muted-fuchsia",
 		"alias": "decorativeMutedColorFuchsia"
 	},
 	"light_decorative_muted_fuchsia_hover": {
@@ -1812,6 +2110,8 @@
 	"light_decorative_muted_fuchsia_inverted": {
 		"rgba": "rgba(54, 36, 46, 1)",
 		"hex": "#36242e",
+		"figma": "decorative-muted_inverted/fuchsia",
+		"web": "--color-light-decorative-muted-fuchsia-inverted",
 		"alias": "decorativeMutedColorFuchsiaInverted"
 	},
 	"light_decorative_muted_fuchsia_inverted_hover": {
@@ -1832,6 +2132,8 @@
 	"light_decorative_muted_green": {
 		"rgba": "rgba(223, 248, 229, 1)",
 		"hex": "#dff8e5",
+		"figma": "decorative-muted/green",
+		"web": "--color-light-decorative-muted-green",
 		"alias": "decorativeMutedColorGreen"
 	},
 	"light_decorative_muted_green_hover": {
@@ -1842,6 +2144,8 @@
 	"light_decorative_muted_green_inverted": {
 		"rgba": "rgba(35, 45, 37, 1)",
 		"hex": "#232d25",
+		"figma": "decorative-muted_inverted/green",
+		"web": "--color-light-decorative-muted-green-inverted",
 		"alias": "decorativeMutedColorGreenInverted"
 	},
 	"light_decorative_muted_green_inverted_hover": {
@@ -1862,6 +2166,8 @@
 	"light_decorative_muted_indigo": {
 		"rgba": "rgba(238, 237, 255, 1)",
 		"hex": "#eeedff",
+		"figma": "decorative-muted/indigo",
+		"web": "--color-light-decorative-muted-indigo",
 		"alias": "decorativeMutedColorIndigo"
 	},
 	"light_decorative_muted_indigo_hover": {
@@ -1872,6 +2178,8 @@
 	"light_decorative_muted_indigo_inverted": {
 		"rgba": "rgba(43, 39, 54, 1)",
 		"hex": "#2b2736",
+		"figma": "decorative-muted_inverted/indigo",
+		"web": "--color-light-decorative-muted-indigo-inverted",
 		"alias": "decorativeMutedColorIndigoInverted"
 	},
 	"light_decorative_muted_indigo_inverted_hover": {
@@ -1892,6 +2200,8 @@
 	"light_decorative_muted_jungle": {
 		"rgba": "rgba(218, 250, 239, 1)",
 		"hex": "#dafaef",
+		"figma": "decorative-muted/jungle",
+		"web": "--color-light-decorative-muted-jungle",
 		"alias": "decorativeMutedColorJungle"
 	},
 	"light_decorative_muted_jungle_hover": {
@@ -1902,6 +2212,8 @@
 	"light_decorative_muted_jungle_inverted": {
 		"rgba": "rgba(31, 46, 42, 1)",
 		"hex": "#1f2e2a",
+		"figma": "decorative-muted_inverted/jungle",
+		"web": "--color-light-decorative-muted-jungle-inverted",
 		"alias": "decorativeMutedColorJungleInverted"
 	},
 	"light_decorative_muted_jungle_inverted_hover": {
@@ -1922,6 +2234,8 @@
 	"light_decorative_muted_magenta": {
 		"rgba": "rgba(255, 234, 238, 1)",
 		"hex": "#ffeaee",
+		"figma": "decorative-muted/magenta",
+		"web": "--color-light-decorative-muted-magenta",
 		"alias": "decorativeMutedColorMagenta"
 	},
 	"light_decorative_muted_magenta_hover": {
@@ -1932,6 +2246,8 @@
 	"light_decorative_muted_magenta_inverted": {
 		"rgba": "rgba(56, 35, 38, 1)",
 		"hex": "#382326",
+		"figma": "decorative-muted_inverted/magenta",
+		"web": "--color-light-decorative-muted-magenta-inverted",
 		"alias": "decorativeMutedColorMagentaInverted"
 	},
 	"light_decorative_muted_magenta_inverted_hover": {
@@ -1952,6 +2268,8 @@
 	"light_decorative_muted_orange": {
 		"rgba": "rgba(255, 239, 217, 1)",
 		"hex": "#ffefd9",
+		"figma": "decorative-muted/orange",
+		"web": "--color-light-decorative-muted-orange",
 		"alias": "decorativeMutedColorOrange"
 	},
 	"light_decorative_muted_orange_hover": {
@@ -1962,6 +2280,8 @@
 	"light_decorative_muted_orange_inverted": {
 		"rgba": "rgba(54, 41, 31, 1)",
 		"hex": "#36291f",
+		"figma": "decorative-muted_inverted/orange",
+		"web": "--color-light-decorative-muted-orange-inverted",
 		"alias": "decorativeMutedColorOrangeInverted"
 	},
 	"light_decorative_muted_orange_inverted_hover": {
@@ -1982,6 +2302,8 @@
 	"light_decorative_muted_pistachio": {
 		"rgba": "rgba(233, 247, 217, 1)",
 		"hex": "#e9f7d9",
+		"figma": "decorative-muted/pistachio",
+		"web": "--color-light-decorative-muted-pistachio",
 		"alias": "decorativeMutedColorPistachio"
 	},
 	"light_decorative_muted_pistachio_hover": {
@@ -1992,6 +2314,8 @@
 	"light_decorative_muted_pistachio_inverted": {
 		"rgba": "rgba(41, 45, 29, 1)",
 		"hex": "#292d1d",
+		"figma": "decorative-muted_inverted/pistachio",
+		"web": "--color-light-decorative-muted-pistachio-inverted",
 		"alias": "decorativeMutedColorPistachioInverted"
 	},
 	"light_decorative_muted_pistachio_inverted_hover": {
@@ -2012,6 +2336,8 @@
 	"light_decorative_muted_purple": {
 		"rgba": "rgba(249, 235, 254, 1)",
 		"hex": "#f9ebfe",
+		"figma": "decorative-muted/purple",
+		"web": "--color-light-decorative-muted-purple",
 		"alias": "decorativeMutedColorPurple"
 	},
 	"light_decorative_muted_purple_hover": {
@@ -2022,6 +2348,8 @@
 	"light_decorative_muted_purple_inverted": {
 		"rgba": "rgba(51, 38, 51, 1)",
 		"hex": "#332633",
+		"figma": "decorative-muted_inverted/purple",
+		"web": "--color-light-decorative-muted-purple-inverted",
 		"alias": "decorativeMutedColorPurpleInverted"
 	},
 	"light_decorative_muted_purple_inverted_hover": {
@@ -2042,16 +2370,22 @@
 	"light_decorative_muted_red": {
 		"rgba": "rgba(255, 235, 235, 1)",
 		"hex": "#ffebeb",
+		"figma": "decorative-muted/red",
+		"web": "--color-light-decorative-muted-red",
 		"alias": "decorativeMutedColorRed"
 	},
 	"light_decorative_muted_red_inverted": {
 		"rgba": "rgba(57, 37, 35, 1)",
 		"hex": "#392523",
+		"figma": "decorative-muted_inverted/red",
+		"web": "--color-light-decorative-muted-red-inverted",
 		"alias": "decorativeMutedColorRedInverted"
 	},
 	"light_decorative_muted_teal": {
 		"rgba": "rgba(218, 247, 248, 1)",
 		"hex": "#daf7f8",
+		"figma": "decorative-muted/teal",
+		"web": "--color-light-decorative-muted-teal",
 		"alias": "decorativeMutedColorTeal"
 	},
 	"light_decorative_muted_teal_hover": {
@@ -2062,6 +2396,8 @@
 	"light_decorative_muted_teal_inverted": {
 		"rgba": "rgba(29, 45, 49, 1)",
 		"hex": "#1d2d31",
+		"figma": "decorative-muted_inverted/teal",
+		"web": "--color-light-decorative-muted-teal-inverted",
 		"alias": "decorativeMutedColorTealInverted"
 	},
 	"light_decorative_muted_teal_inverted_hover": {
@@ -2082,16 +2418,22 @@
 	"light_decorative_muted_yellow": {
 		"rgba": "rgba(251, 242, 211, 1)",
 		"hex": "#fbf2d3",
+		"figma": "decorative-muted/yellow",
+		"web": "--color-light-decorative-muted-yellow",
 		"alias": "decorativeMutedColorYellow"
 	},
 	"light_decorative_muted_yellow_inverted": {
 		"rgba": "rgba(51, 43, 28, 1)",
 		"hex": "#332b1c",
+		"figma": "decorative-muted_inverted/yellow",
+		"web": "--color-light-decorative-muted-yellow-inverted",
 		"alias": "decorativeMutedColorYellowInverted"
 	},
 	"light_decorative_orange": {
 		"rgba": "rgba(250, 147, 19, 1)",
 		"hex": "#fa9313",
+		"figma": "decorative/orange",
+		"web": "--color-light-decorative-orange",
 		"alias": "decorativeColorOrange"
 	},
 	"light_decorative_orange_hover": {
@@ -2102,6 +2444,8 @@
 	"light_decorative_orange_inverted": {
 		"rgba": "rgba(253, 161, 54, 1)",
 		"hex": "#fda136",
+		"figma": "decorative_inverted/orange",
+		"web": "--color-light-decorative-orange-inverted",
 		"alias": "decorativeColorOrangeInverted"
 	},
 	"light_decorative_orange_inverted_hover": {
@@ -2122,6 +2466,8 @@
 	"light_decorative_pistachio": {
 		"rgba": "rgba(128, 192, 2, 1)",
 		"hex": "#80c002",
+		"figma": "decorative/pistachio",
+		"web": "--color-light-decorative-pistachio",
 		"alias": "decorativeColorPistachio"
 	},
 	"light_decorative_pistachio_hover": {
@@ -2132,6 +2478,8 @@
 	"light_decorative_pistachio_inverted": {
 		"rgba": "rgba(139, 203, 6, 1)",
 		"hex": "#8bcb06",
+		"figma": "decorative_inverted/pistachio",
+		"web": "--color-light-decorative-pistachio-inverted",
 		"alias": "decorativeColorPistachioInverted"
 	},
 	"light_decorative_pistachio_inverted_hover": {
@@ -2152,6 +2500,8 @@
 	"light_decorative_purple": {
 		"rgba": "rgba(212, 109, 250, 1)",
 		"hex": "#d46dfa",
+		"figma": "decorative/purple",
+		"web": "--color-light-decorative-purple",
 		"alias": "decorativeColorPurple"
 	},
 	"light_decorative_purple_hover": {
@@ -2162,6 +2512,8 @@
 	"light_decorative_purple_inverted": {
 		"rgba": "rgba(216, 132, 254, 1)",
 		"hex": "#d884fe",
+		"figma": "decorative_inverted/purple",
+		"web": "--color-light-decorative-purple-inverted",
 		"alias": "decorativeColorPurpleInverted"
 	},
 	"light_decorative_purple_inverted_hover": {
@@ -2182,16 +2534,22 @@
 	"light_decorative_red": {
 		"rgba": "rgba(255, 84, 49, 1)",
 		"hex": "#ff5431",
+		"figma": "decorative/red",
+		"web": "--color-light-decorative-red",
 		"alias": "decorativeColorRed"
 	},
 	"light_decorative_red_inverted": {
 		"rgba": "rgba(253, 101, 68, 1)",
 		"hex": "#fd6544",
+		"figma": "decorative_inverted/red",
+		"web": "--color-light-decorative-red-inverted",
 		"alias": "decorativeColorRedInverted"
 	},
 	"light_decorative_teal": {
 		"rgba": "rgba(9, 185, 190, 1)",
 		"hex": "#09b9be",
+		"figma": "decorative/teal",
+		"web": "--color-light-decorative-teal",
 		"alias": "decorativeColorTeal"
 	},
 	"light_decorative_teal_hover": {
@@ -2202,6 +2560,8 @@
 	"light_decorative_teal_inverted": {
 		"rgba": "rgba(9, 200, 208, 1)",
 		"hex": "#09c8d0",
+		"figma": "decorative_inverted/teal",
+		"web": "--color-light-decorative-teal-inverted",
 		"alias": "decorativeColorTealInverted"
 	},
 	"light_decorative_teal_inverted_hover": {
@@ -2222,141 +2582,197 @@
 	"light_decorative_text_blue": {
 		"rgba": "rgba(42, 119, 239, 1)",
 		"hex": "#2a77ef",
+		"figma": "decorative-text/blue",
+		"web": "--color-light-decorative-text-blue",
 		"alias": "decorativeTextColorBlue"
 	},
 	"light_decorative_text_blue_inverted": {
 		"rgba": "rgba(74, 157, 252, 1)",
 		"hex": "#4a9dfc",
+		"figma": "decorative-text_inverted/blue",
+		"web": "--color-light-decorative-text-blue-inverted",
 		"alias": "decorativeTextColorBlueInverted"
 	},
 	"light_decorative_text_cyan": {
 		"rgba": "rgba(12, 133, 180, 1)",
 		"hex": "#0c85b4",
+		"figma": "decorative-text/cyan",
+		"web": "--color-light-decorative-text-cyan",
 		"alias": "decorativeTextColorCyan"
 	},
 	"light_decorative_text_cyan_inverted": {
 		"rgba": "rgba(11, 177, 231, 1)",
 		"hex": "#0bb1e7",
+		"figma": "decorative-text_inverted/cyan",
+		"web": "--color-light-decorative-text-cyan-inverted",
 		"alias": "decorativeTextColorCyanInverted"
 	},
 	"light_decorative_text_fuchsia": {
 		"rgba": "rgba(220, 32, 151, 1)",
 		"hex": "#dc2097",
+		"figma": "decorative-text/fuchsia",
+		"web": "--color-light-decorative-text-fuchsia",
 		"alias": "decorativeTextColorFuchsia"
 	},
 	"light_decorative_text_fuchsia_inverted": {
 		"rgba": "rgba(254, 80, 200, 1)",
 		"hex": "#fe50c8",
+		"figma": "decorative-text_inverted/fuchsia",
+		"web": "--color-light-decorative-text-fuchsia-inverted",
 		"alias": "decorativeTextColorFuchsiaInverted"
 	},
 	"light_decorative_text_green": {
 		"rgba": "rgba(13, 147, 54, 1)",
 		"hex": "#0d9336",
+		"figma": "decorative-text/green",
+		"web": "--color-light-decorative-text-green",
 		"alias": "decorativeTextColorGreen"
 	},
 	"light_decorative_text_green_inverted": {
 		"rgba": "rgba(12, 196, 77, 1)",
 		"hex": "#0cc44d",
+		"figma": "decorative-text_inverted/green",
+		"web": "--color-light-decorative-text-green-inverted",
 		"alias": "decorativeTextColorGreenInverted"
 	},
 	"light_decorative_text_indigo": {
 		"rgba": "rgba(122, 99, 241, 1)",
 		"hex": "#7a63f1",
+		"figma": "decorative-text/indigo",
+		"web": "--color-light-decorative-text-indigo",
 		"alias": "decorativeTextColorIndigo"
 	},
 	"light_decorative_text_indigo_inverted": {
 		"rgba": "rgba(153, 139, 255, 1)",
 		"hex": "#998bff",
+		"figma": "decorative-text_inverted/indigo",
+		"web": "--color-light-decorative-text-indigo-inverted",
 		"alias": "decorativeTextColorIndigoInverted"
 	},
 	"light_decorative_text_jungle": {
 		"rgba": "rgba(13, 142, 116, 1)",
 		"hex": "#0d8e74",
+		"figma": "decorative-text/jungle",
+		"web": "--color-light-decorative-text-jungle",
 		"alias": "decorativeTextColorJungle"
 	},
 	"light_decorative_text_jungle_inverted": {
 		"rgba": "rgba(10, 190, 148, 1)",
 		"hex": "#0abe94",
+		"figma": "decorative-text_inverted/jungle",
+		"web": "--color-light-decorative-text-jungle-inverted",
 		"alias": "decorativeTextColorJungleInverted"
 	},
 	"light_decorative_text_magenta": {
 		"rgba": "rgba(225, 33, 105, 1)",
 		"hex": "#e12169",
+		"figma": "decorative-text/magenta",
+		"web": "--color-light-decorative-text-magenta",
 		"alias": "decorativeTextColorMagenta"
 	},
 	"light_decorative_text_magenta_inverted": {
 		"rgba": "rgba(254, 85, 148, 1)",
 		"hex": "#fe5594",
+		"figma": "decorative-text_inverted/magenta",
+		"web": "--color-light-decorative-text-magenta-inverted",
 		"alias": "decorativeTextColorMagentaInverted"
 	},
 	"light_decorative_text_orange": {
 		"rgba": "rgba(234, 131, 19, 1)",
 		"hex": "#ea8313",
+		"figma": "decorative-text/orange",
+		"web": "--color-light-decorative-text-orange",
 		"alias": "decorativeTextColorOrange"
 	},
 	"light_decorative_text_orange_inverted": {
 		"rgba": "rgba(250, 147, 19, 1)",
 		"hex": "#fa9313",
+		"figma": "decorative-text_inverted/orange",
+		"web": "--color-light-decorative-text-orange-inverted",
 		"alias": "decorativeTextColorOrangeInverted"
 	},
 	"light_decorative_text_pistachio": {
 		"rgba": "rgba(97, 139, 2, 1)",
 		"hex": "#618b02",
+		"figma": "decorative-text/pistachio",
+		"web": "--color-light-decorative-text-pistachio",
 		"alias": "decorativeTextColorPistachio"
 	},
 	"light_decorative_text_pistachio_inverted": {
 		"rgba": "rgba(128, 192, 2, 1)",
 		"hex": "#80c002",
+		"figma": "decorative-text_inverted/pistachio",
+		"web": "--color-light-decorative-text-pistachio-inverted",
 		"alias": "decorativeTextColorPistachioInverted"
 	},
 	"light_decorative_text_purple": {
 		"rgba": "rgba(186, 61, 216, 1)",
 		"hex": "#ba3dd8",
+		"figma": "decorative-text/purple",
+		"web": "--color-light-decorative-text-purple",
 		"alias": "decorativeTextColorPurple"
 	},
 	"light_decorative_text_purple_inverted": {
 		"rgba": "rgba(212, 109, 250, 1)",
 		"hex": "#d46dfa",
+		"figma": "decorative-text_inverted/purple",
+		"web": "--color-light-decorative-text-purple-inverted",
 		"alias": "decorativeTextColorPurpleInverted"
 	},
 	"light_decorative_text_red": {
 		"rgba": "rgba(236, 46, 20, 1)",
 		"hex": "#ec2e14",
+		"figma": "decorative-text/red",
+		"web": "--color-light-decorative-text-red",
 		"alias": "decorativeTextColorRed"
 	},
 	"light_decorative_text_red_inverted": {
 		"rgba": "rgba(255, 84, 49, 1)",
 		"hex": "#ff5431",
+		"figma": "decorative-text_inverted/red",
+		"web": "--color-light-decorative-text-red-inverted",
 		"alias": "decorativeTextColorRedInverted"
 	},
 	"light_decorative_text_teal": {
 		"rgba": "rgba(5, 138, 143, 1)",
 		"hex": "#058a8f",
+		"figma": "decorative-text/teal",
+		"web": "--color-light-decorative-text-teal",
 		"alias": "decorativeTextColorTeal"
 	},
 	"light_decorative_text_teal_inverted": {
 		"rgba": "rgba(9, 185, 190, 1)",
 		"hex": "#09b9be",
+		"figma": "decorative-text_inverted/teal",
+		"web": "--color-light-decorative-text-teal-inverted",
 		"alias": "decorativeTextColorTealInverted"
 	},
 	"light_decorative_text_yellow": {
 		"rgba": "rgba(220, 179, 11, 1)",
 		"hex": "#dcb30b",
+		"figma": "decorative-text/yellow",
+		"web": "--color-light-decorative-text-yellow",
 		"alias": "decorativeTextColorYellow"
 	},
 	"light_decorative_text_yellow_inverted": {
 		"rgba": "rgba(254, 223, 0, 1)",
 		"hex": "#fedf00",
+		"figma": "decorative-text_inverted/yellow",
+		"web": "--color-light-decorative-text-yellow-inverted",
 		"alias": "decorativeTextColorYellowInverted"
 	},
 	"light_decorative_yellow": {
 		"rgba": "rgba(251, 215, 0, 1)",
 		"hex": "#fbd700",
+		"figma": "decorative/yellow",
+		"web": "--color-light-decorative-yellow",
 		"alias": "decorativeColorYellow"
 	},
 	"light_decorative_yellow_inverted": {
 		"rgba": "rgba(254, 223, 0, 1)",
 		"hex": "#fedf00",
+		"figma": "decorative_inverted/yellow",
+		"web": "--color-light-decorative-yellow-inverted",
 		"alias": "decorativeColorYellowInverted"
 	}
 }
