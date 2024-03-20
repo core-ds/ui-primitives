@@ -1,52 +1,43 @@
-import { useEffect, useRef, useState } from "react";
-import { Toast } from "@alfalab/core-components/toast";
-import { CopyLineMIcon } from "@alfalab/icons-glyph/CopyLineMIcon";
-import { IconButton } from "@alfalab/core-components/icon-button";
+import { useEffect, useState } from "react";
 import { Typography } from "@alfalab/core-components/typography";
+import { SegmentedControl, Segment } from "@alfalab/core-components/segmented-control";
 import { Input } from "@alfalab/core-components/input";
-import { Select } from "@alfalab/core-components/select";
-import copy from "copy-to-clipboard";
-import "./App.css";
 import { convert } from "./converter";
-import { BaseOption } from "@alfalab/core-components/select/shared";
 import { useMatchMedia } from "@alfalab/core-components/mq";
+import { Result } from "./result";
 
 const BREAKPOINT = 600;
 
-const OPTIONS = [
-    { key: "web", content: "Web" },
-    { key: "mobile", content: "Mobile" },
-];
+import "./App.css";
 
 function App() {
     const [platform, setPlatform] = useState<Platform>("web");
     const [style, setStyle] = useState<string>("");
     const [hint, setHint] = useState<string>("");
-    const [result, setResult] = useState<string>("");
-    const [copyToastOpen, setCopyToastOpen] = useState<boolean>(false);
-    const copyRef = useRef<HTMLButtonElement | null>(null);
+    const [token, setToken] = useState<Token>();
+    const [error, setError] = useState<string>("");
 
     const [isDesktop] = useMatchMedia(`(min-width: ${BREAKPOINT}px)`);
 
-    const handleCopy = () => {
-        setCopyToastOpen(true);
-        copy(result);
-    };
-
     useEffect(() => {
-        setResult("");
+        setToken(undefined);
+        setError("");
+        setHint("");
 
         if (!style) {
-            setHint("");
             return;
         }
 
         try {
-            setResult(convert(style, platform));
-            setHint("");
+            const converted = convert(style, platform);
+            if (converted) {
+                setToken(converted);
+                setHint("");
+            } else {
+                setHint("Такого токена не существует");
+            }
         } catch (e) {
-            console.error(e);
-            setHint("Ничего не нашлось, похоже такого токена нет в core");
+            setError(e instanceof Error ? e.message : "Ошибка");
         }
     }, [platform, style]);
 
@@ -54,34 +45,33 @@ function App() {
 
     return (
         <div className="wrapper">
-            <Title view="xlarge" tag="h1" className="title" font="styrene">
+            <Title view="xlarge" tag="h1" weight="bold" className="title">
                 Конвертер токенов
             </Title>
 
-            <div className="form">
-                <Input
-                    className="style"
-                    block
-                    size="m"
-                    placeholder="Скопируйте сюда название токена из фигмы"
-                    value={style}
-                    onChange={(_, payload) => setStyle(payload.value)}
-                    clear
-                    onClear={() => setStyle("")}
-                />
-
-                <Select
-                    breakpoint={BREAKPOINT}
-                    className="platform"
-                    block
-                    size="m"
-                    placeholder="Выберите платформу"
-                    Option={BaseOption}
-                    selected={platform}
-                    onChange={({ selected }) => selected && setPlatform(selected.key as Platform)}
-                    options={OPTIONS}
-                />
+            <div className="filters">
+                <SegmentedControl
+                    size="xxs"
+                    onChange={(id) => setPlatform(id as Platform)}
+                    selectedId={platform}
+                    className="platforms"
+                >
+                    <Segment id="web" title="Web" />
+                    <Segment id="ios" title="iOS" />
+                    <Segment id="android" title="Android" />
+                </SegmentedControl>
             </div>
+
+            <Input
+                className="style"
+                block
+                size="m"
+                placeholder="Скопируйте сюда название токена из макета"
+                value={style}
+                onChange={(_, payload) => setStyle(payload.value)}
+                clear
+                onClear={() => setStyle("")}
+            />
 
             {hint && (
                 <Typography.Text view="primary-small" color="secondary" className="hint">
@@ -89,34 +79,25 @@ function App() {
                 </Typography.Text>
             )}
 
-            {result && (
-                <div className="result">
-                    {result}
-                    <IconButton
-                        icon={CopyLineMIcon}
-                        view="secondary"
-                        className="copy"
-                        onClick={handleCopy}
-                        ref={copyRef}
-                    />
+            {error && (
+                <Typography.Text view="primary-small" color="negative" className="error">
+                    {error}
+                </Typography.Text>
+            )}
+
+            {token?.type === "color" && <Result value={token.name} />}
+
+            {token?.type === "typography" && platform === "web" && (
+                <div className="results">
+                    <Result label="Component.Typography" value={token.nameComponentTypography} />
+
+                    <Result label="Component.Text" value={token.nameComponentText} />
+
+                    <Result label="Mixin" value={token.nameMixin} />
                 </div>
             )}
 
-            <Toast
-                breakpoint={BREAKPOINT}
-                open={copyToastOpen}
-                anchorElement={copyRef.current}
-                position="top"
-                offset={[0, 8]}
-                badge="positive"
-                title="Скопировано"
-                hasCloser={false}
-                block={false}
-                onClose={() => {
-                    setCopyToastOpen(false);
-                }}
-                autoCloseDelay={1500}
-            />
+            {token?.type === "typography" && platform !== "web" && <Result value={token.name} />}
         </div>
     );
 }
