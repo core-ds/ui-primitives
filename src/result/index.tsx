@@ -49,9 +49,8 @@ export function Result({ label, value }: Props) {
             <Toast
                 open={copyToastOpen}
                 anchorElement={copyRef.current}
-                position="top"
-                offset={[0, 8]}
-                badge="positive"
+                position="right"
+                offset={[0, 24]}
                 title="Скопировано"
                 hasCloser={false}
                 block={false}

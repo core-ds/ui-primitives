@@ -19,10 +19,15 @@ export function convert(styleName: string, platform: Platform): Token | undefine
 }
 
 function convertColorToken(styleName: string, platform: Platform) {
-    let tokenName = styleName.replace(/\//g, "_");
+    let tokenName = toSnakeCase(styleName.replace(/\//g, "_"));
 
-    if (tokenName.includes("static_") === false) {
+    if (/(light|dark|static)_/.test(tokenName) === false) {
         tokenName = `light_${tokenName}`;
+    }
+
+    if (tokenName.includes("_inverted")) {
+        tokenName = tokenName.replace("_inverted", "");
+        tokenName = `${tokenName}_inverted`;
     }
 
     if (tokenName in colors) {
@@ -30,7 +35,7 @@ function convertColorToken(styleName: string, platform: Platform) {
 
         return {
             type: "color",
-            name: platform === "web" ? `var(${token.web})` : token.alias,
+            name: platform === "web" ? `var(${token.web ?? "отсутствует web алиас"})` : token.alias,
         } as const;
     }
 }
