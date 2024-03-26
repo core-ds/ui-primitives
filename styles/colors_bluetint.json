@@ -4174,66 +4174,79 @@
 	"static_bg_accent": {
 		"rgba": "rgba(239, 49, 36, 1)",
 		"hex": "#ef3124",
+		"figma": "static/bg/accent",
 		"alias": "staticBackgroundColorAccent"
 	},
 	"static_bg_primary_dark": {
 		"rgba": "rgba(14, 14, 14, 1)",
 		"hex": "#0e0e0e",
+		"figma": "static/bg-dark/primary",
 		"alias": "staticBackgroundColorPrimaryDark"
 	},
 	"static_bg_primary_light": {
 		"rgba": "rgba(255, 255, 255, 1)",
 		"hex": "#ffffff",
+		"figma": "static/bg-light/primary",
 		"alias": "staticBackgroundColorPrimaryLight"
 	},
 	"static_bg_quaternary_dark": {
 		"rgba": "rgba(54, 54, 58, 1)",
 		"hex": "#36363a",
+		"figma": "static/bg-dark/quaternary",
 		"alias": "staticBackgroundColorQuaternaryDark"
 	},
 	"static_bg_quaternary_light": {
 		"rgba": "rgba(231, 232, 236, 1)",
 		"hex": "#e7e8ec",
+		"figma": "static/bg-light/quaternary",
 		"alias": "staticBackgroundColorQuaternaryLight"
 	},
 	"static_bg_secondary_dark": {
 		"rgba": "rgba(28, 28, 30, 1)",
 		"hex": "#1c1c1e",
+		"figma": "static/bg-dark/secondary",
 		"alias": "staticBackgroundColorSecondaryDark"
 	},
 	"static_bg_secondary_light": {
 		"rgba": "rgba(242, 243, 245, 1)",
 		"hex": "#f2f3f5",
+		"figma": "static/bg-light/secondary",
 		"alias": "staticBackgroundColorSecondaryLight"
 	},
 	"static_bg_tertiary_dark": {
 		"rgba": "rgba(39, 39, 42, 1)",
 		"hex": "#27272a",
+		"figma": "static/bg-dark/tertiary",
 		"alias": "staticBackgroundColorTertiaryDark"
 	},
 	"static_bg_tertiary_light": {
 		"rgba": "rgba(237, 238, 240, 1)",
 		"hex": "#edeef0",
+		"figma": "static/bg-light/tertiary",
 		"alias": "staticBackgroundColorTertiaryLight"
 	},
 	"static_border_accent": {
 		"rgba": "rgba(239, 49, 36, 1)",
 		"hex": "#ef3124",
+		"figma": "static/border/accent",
 		"alias": "staticBorderColorAccent"
 	},
 	"static_graphic_accent": {
 		"rgba": "rgba(239, 49, 36, 1)",
 		"hex": "#ef3124",
+		"figma": "static/graphic/accent",
 		"alias": "staticGraphicColorAccent"
 	},
 	"static_graphic_dark": {
 		"rgba": "rgba(14, 14, 14, 1)",
 		"hex": "#0e0e0e",
+		"figma": "static/graphic/dark",
 		"alias": "staticGraphicColorDark"
 	},
 	"static_graphic_light": {
 		"rgba": "rgba(255, 255, 255, 1)",
 		"hex": "#ffffff",
+		"figma": "static/graphic/light",
 		"alias": "staticGraphicColorLight"
 	},
 	"static_neutral_0": {
@@ -5065,6 +5078,7 @@
 	"static_text_accent": {
 		"rgba": "rgba(239, 49, 36, 1)",
 		"hex": "#ef3124",
+		"figma": "static/text/accent",
 		"alias": "staticTextColorAccent"
 	},
 	"static_text_attention": {
@@ -5245,6 +5259,7 @@
 	"static_text_primary_dark": {
 		"rgba": "rgba(14, 14, 14, 1)",
 		"hex": "#0e0e0e",
+		"figma": "static/text-dark/primary",
 		"alias": "staticTextColorPrimaryDark"
 	},
 	"static_text_primary_hover": {
@@ -5278,6 +5293,7 @@
 	"static_text_primary_light": {
 		"rgba": "rgba(255, 255, 255, 1)",
 		"hex": "#ffffff",
+		"figma": "static/text-light/primary",
 		"alias": "staticTextColorPrimaryLight"
 	},
 	"static_text_primary_press": {
@@ -5311,6 +5327,7 @@
 	"static_text_secondary_dark": {
 		"rgba": "rgba(4, 4, 19, 0.55)",
 		"hex": "#8c040413",
+		"figma": "static/text-dark/secondary",
 		"alias": "staticTextColorSecondaryDark"
 	},
 	"static_text_secondary_hover": {
@@ -5344,6 +5361,7 @@
 	"static_text_secondary_light": {
 		"rgba": "rgba(238, 238, 251, 0.55)",
 		"hex": "#8ceeeefb",
+		"figma": "static/text-light/secondary",
 		"alias": "staticTextColorSecondaryLight"
 	},
 	"static_text_secondary_press": {
@@ -5363,6 +5381,7 @@
 	"static_text_tertiary_dark": {
 		"rgba": "rgba(5, 8, 29, 0.38)",
 		"hex": "#6105081d",
+		"figma": "static/text-dark/tertiary",
 		"alias": "staticTextColorTertiaryDark"
 	},
 	"static_text_tertiary_hover": {
@@ -5396,6 +5415,7 @@
 	"static_text_tertiary_light": {
 		"rgba": "rgba(233, 233, 250, 0.37)",
 		"hex": "#5ee9e9fa",
+		"figma": "static/text-light/tertiary",
 		"alias": "staticTextColorTertiaryLight"
 	},
 	"static_text_tertiary_press": {
