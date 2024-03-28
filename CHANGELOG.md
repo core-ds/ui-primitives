@@ -1,3 +1,13 @@
+<a name="16.15.0"></a>
+# [16.15.0](https://github.com/core-ds/ui-primitives/compare/v16.14.0...v16.15.0) (2024-03-28)
+
+
+### Features
+
+* **icons:** intruducing AM logo bundle ([#548](https://github.com/core-ds/ui-primitives/issues/548)) ([59265b6](https://github.com/core-ds/ui-primitives/commit/59265b6))
+
+
+
 <a name="16.14.0"></a>
 # [16.14.0](https://github.com/core-ds/ui-primitives/compare/v16.13.0...v16.14.0) (2024-03-26)
 
