@@ -1,3 +1,13 @@
+<a name="16.17.0"></a>
+# [16.17.0](https://github.com/core-ds/ui-primitives/compare/v16.16.0...v16.17.0) (2024-04-02)
+
+
+### Features
+
+* update web aliases ([c0e2ef1](https://github.com/core-ds/ui-primitives/commit/c0e2ef1))
+
+
+
 <a name="16.16.0"></a>
 # [16.16.0](https://github.com/core-ds/ui-primitives/compare/v16.15.0...v16.16.0) (2024-04-01)
 
