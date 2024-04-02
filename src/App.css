@@ -58,40 +58,37 @@ body {
     margin-bottom: var(--gap-m);
 }
 
-.form {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    gap: 8px;
+@media screen and (min-width: 600px) {
+    .title {
+        margin-bottom: var(--gap-xl);
+    }
 }
 
 .style {
-    flex-basis: 70%;
+    margin-bottom: var(--gap-xl);
 }
 
 .platform {
     flex-basis: 30%;
 }
 
-.hint {
+.hint,
+.error {
     display: block;
-    margin-top: var(--gap-s);
+    margin-top: var(--gap-2xl);
+    text-align: center;
 }
 
-.result {
-    position: relative;
-    margin-top: var(--gap-xs);
+.filters {
     display: flex;
-    padding: 22px 68px 22px var(--gap-l);
-    align-items: center;
-    gap: 12px;
-    border-radius: var(--border-radius-xl);
-    color: #d13340;
-    border: 1px solid var(--color-light-border-primary);
+    gap: 16px;
+    margin-bottom: var(--gap-m);
 }
 
-.copy.copy {
-    position: absolute;
-    top: 8px;
-    right: 8px;
+.types {
+    min-width: 200px;
+}
+
+.platforms {
+    min-width: 320px;
 }

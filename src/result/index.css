@@ -1,0 +1,30 @@
+.result {
+    position: relative;
+    margin-top: var(--gap-xs);
+    display: flex;
+    padding: 10px 68px 10px var(--gap-l);
+    align-items: center;
+    min-height: 64px;
+    border-radius: var(--border-radius-xl);
+    border: 1px solid var(--color-light-border-primary);
+}
+
+.label {
+    display: block;
+    margin-bottom: var(--gap-3xs);
+}
+
+.value {
+    display: block;
+}
+
+.copy {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    padding: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
