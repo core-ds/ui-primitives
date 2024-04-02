@@ -2396,9 +2396,9 @@ typescript@^5.0.2:
   integrity sha512-mI4WrpHsbCIcwT9cF4FZvr80QUeKvsUsUvKDoR+X/7XHQH98xYD8YHZg7ANtz2GtZt/CBq2QJ0thkGJMHfqc1w==
 
 ui-primitives@*:
-  version "16.10.0"
-  resolved "https://registry.yarnpkg.com/ui-primitives/-/ui-primitives-16.10.0.tgz#1171998c1281caac87730db957f0cb60dd5acbcc"
-  integrity sha512-BC2sVFBGP/19dOYtMd1Y+lW+RZV9WuxkANyTpcC0HM+HkFrAzujRiVykEPdbxQ2RVUf6zACLeTL66YGuuTbauw==
+  version "16.14.0"
+  resolved "https://registry.yarnpkg.com/ui-primitives/-/ui-primitives-16.14.0.tgz#3f03edda7217d0dbd2d74ccde735fb0a560301cd"
+  integrity sha512-Y8qiyXgQJQY1eOaVyL6dCefIKION+zoEVT9WfUGhdiFG59vFnF0D/0Q1kFLlu5aAU3KDhwbq8PU5Z9lDR73UTQ==
 
 ui-primitives@^13.9.0:
   version "13.15.0"

@@ -19,25 +19,48 @@ export function convert(styleName: string, platform: Platform): Token | undefine
 }
 
 function convertColorToken(styleName: string, platform: Platform) {
-    let tokenName = toSnakeCase(styleName.replace(/\//g, "_"));
+    const token = findTokenByFigmaAlias(styleName) ?? findTokenInColorKeys(styleName);
 
-    if (/(light|dark|static)_/.test(tokenName) === false) {
-        tokenName = `light_${tokenName}`;
+    if (!token) return;
+
+    return {
+        type: "color",
+        name: platform === "web" ? `var(${token.web ?? "отсутствует web алиас"})` : token.alias,
+    } as const;
+}
+
+function findTokenByFigmaAlias(styleName: string) {
+    for (const key in colors) {
+        const token = colors[key];
+        if (token.figma === styleName && key.includes("dark") === false) {
+            return token;
+        }
     }
 
-    if (tokenName.includes("_inverted")) {
-        tokenName = tokenName.replace("_inverted", "");
-        tokenName = `${tokenName}_inverted`;
+    return null;
+}
+
+function findTokenInColorKeys(styleName: string) {
+    let key = toSnakeCase(styleName.replace(/\//g, "_"));
+
+    if (/(light|dark|static)_/.test(key) === false) {
+        key = `light_${key}`;
     }
 
-    if (tokenName in colors) {
-        const token = colors[tokenName];
+    const suffixes: string[] = [];
 
-        return {
-            type: "color",
-            name: platform === "web" ? `var(${token.web ?? "отсутствует web алиас"})` : token.alias,
-        } as const;
-    }
+    ["transparent", "inverted"].forEach((suffix) => {
+        if (key.includes(`_${suffix}`)) {
+            suffixes.push(suffix);
+            key = key.replace(`_${suffix}`, "");
+        }
+    });
+
+    suffixes.forEach((suffix) => {
+        key = `${key}_${suffix}`;
+    });
+
+    return colors[key];
 }
 
 function convertTypographyToken(originalStyleName: string, platform: Platform) {
@@ -48,7 +71,7 @@ function convertTypographyToken(originalStyleName: string, platform: Platform) {
         styleName = originalStyleName.replace("Mono", "Paragraph");
     }
 
-    const { groupName, size } = parseTypographyStyle(styleName);
+    const { groupName, size, fontSize, lineHeight } = parseTypographyStyle(styleName);
 
     let tokenName;
     if (platform === "web") {
@@ -65,6 +88,12 @@ function convertTypographyToken(originalStyleName: string, platform: Platform) {
         if (platform === "web" && originalStyleName.startsWith("Mono")) {
             // TODO: в веб токенах нет информации о моноширинности
             token.monospace = true;
+        }
+
+        if (platform !== "web") {
+            if (token.font_size !== fontSize || token.line_height !== lineHeight) {
+                return;
+            }
         }
 
         return {
@@ -210,13 +239,21 @@ function buildMixin(meta: TypographyToken["meta"], tokenName: string) {
 
 function parseTypographyStyle(styleName: string) {
     const [groupName, sizePart] = styleName.split("/").map((part) => part.trim());
+
+    const m = /(\d+-\d+)\s?/.exec(sizePart);
+    const numericSize = m ? m[1] : "";
+
+    const [fontSize, lineHeight] = numericSize.split("-").map(Number);
+
     const size = sizePart
-        .replace(/\d+-\d+\s+/, "")
+        .replace(numericSize, "")
         .replace(/\(.*\)/, "")
         .trim();
 
     return {
         groupName,
+        fontSize,
+        lineHeight,
         size,
     };
 }

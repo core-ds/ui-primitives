@@ -24,6 +24,7 @@ export const colors = {
         rgba: string;
         hex: string;
         alias: string;
+        figma: string;
         web: string;
     }
 >;
