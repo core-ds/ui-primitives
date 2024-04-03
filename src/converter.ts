@@ -248,6 +248,7 @@ function parseTypographyStyle(styleName: string) {
     const size = sizePart
         .replace(numericSize, "")
         .replace(/\(.*\)/, "")
+        .replace(/\[.*\]/, "")
         .trim();
 
     return {
