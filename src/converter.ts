@@ -90,10 +90,8 @@ function convertTypographyToken(originalStyleName: string, platform: Platform) {
             token.monospace = true;
         }
 
-        if (platform !== "web") {
-            if (token.font_size !== fontSize || token.line_height !== lineHeight) {
-                return;
-            }
+        if (token.font_size !== fontSize || token.line_height !== lineHeight) {
+            return;
         }
 
         return {
