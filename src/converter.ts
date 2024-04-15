@@ -19,6 +19,8 @@ export function convert(styleName: string, platform: Platform): Token | undefine
 }
 
 function convertColorToken(styleName: string, platform: Platform) {
+    styleName = styleName.trim().replace(/\s\(.*\)$/, "");
+
     const token = findTokenByFigmaAlias(styleName) ?? findTokenInColorKeys(styleName);
 
     if (!token) return;
