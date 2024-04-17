@@ -1,3 +1,13 @@
+<a name="16.21.0"></a>
+# [16.21.0](https://github.com/core-ds/ui-primitives/compare/v16.20.0...v16.21.0) (2024-04-17)
+
+
+### Features
+
+* **styles:** updated colors ([#556](https://github.com/core-ds/ui-primitives/issues/556)) ([d7c4f8f](https://github.com/core-ds/ui-primitives/commit/d7c4f8f))
+
+
+
 <a name="16.20.0"></a>
 # [16.20.0](https://github.com/core-ds/ui-primitives/compare/v16.19.0...v16.20.0) (2024-04-11)
 
