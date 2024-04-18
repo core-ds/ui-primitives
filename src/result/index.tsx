@@ -1,11 +1,10 @@
-import { useRef, useState } from "react";
 import { Toast } from "@alfalab/core-components/toast";
 import { CopyLineMIcon } from "@alfalab/icons-glyph/CopyLineMIcon";
 import { IconButton } from "@alfalab/core-components/icon-button";
-import copy from "copy-to-clipboard";
 
 import "./index.css";
 import { Typography } from "@alfalab/core-components/typography";
+import {useResult} from "./hooks/useResult.tsx";
 
 type Props = {
     label?: string;
@@ -13,14 +12,7 @@ type Props = {
 };
 
 export function Result({ label, value }: Props) {
-    const [copyToastOpen, setCopyToastOpen] = useState<boolean>(false);
-    const copyRef = useRef<HTMLButtonElement>(null);
-
-    const handleCopy = () => {
-        setCopyToastOpen(true);
-
-        copy(value);
-    };
+    const {copyToastOpen, handleCopy, closeCopyToast} = useResult(value);
 
     return (
         <>
@@ -42,21 +34,16 @@ export function Result({ label, value }: Props) {
                     view="secondary"
                     className="copy"
                     onClick={handleCopy}
-                    ref={copyRef}
                 />
             </div>
 
             <Toast
                 open={copyToastOpen}
-                anchorElement={copyRef.current}
-                position="right"
-                offset={[0, 24]}
                 title="Скопировано"
                 hasCloser={false}
                 block={false}
-                onClose={() => {
-                    setCopyToastOpen(false);
-                }}
+                style={{ left: '50%', transform: 'translateX(-50%)' }}
+                onClose={closeCopyToast}
                 autoCloseDelay={1500}
             />
         </>
