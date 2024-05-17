@@ -1,12 +1,592 @@
 {
+  "attrs": [
+    {
+      "name": "backgroundColorToolbar",
+      "format": "color"
+    },
+    {
+      "name": "buttonStyleSecondary",
+      "format": "reference"
+    },
+    {
+      "name": "toolbarTransparentWhiteOverlayStyle",
+      "format": "reference"
+    },
+    {
+      "name": "tabBarStyle",
+      "format": "reference"
+    },
+    {
+      "name": "buttonStyleTertiary",
+      "format": "reference"
+    },
+    {
+      "name": "fitSystemWindows",
+      "format": "boolean"
+    },
+    {
+      "name": "backgroundColorSecondaryToolbar",
+      "format": "color"
+    },
+    {
+      "name": "buttonStyleInvertedDeepLink",
+      "format": "reference"
+    },
+    {
+      "name": "actionButtonStylePrimary",
+      "format": "reference"
+    },
+    {
+      "name": "rippleColorPrimary",
+      "format": "color"
+    },
+    {
+      "name": "buttonStylePrimary",
+      "format": "reference"
+    },
+    {
+      "name": "progressBarBackground",
+      "format": "color"
+    },
+    {
+      "name": "textColorToolbar",
+      "format": "color"
+    },
+    {
+      "name": "toolbarIconTint",
+      "format": "color"
+    },
+    {
+      "name": "separator_enabled",
+      "format": "boolean"
+    },
+    {
+      "name": "redesign_enabled",
+      "format": "boolean"
+    },
+    {
+      "name": "subtitleTextColorToolbar",
+      "format": "color"
+    },
+    {
+      "name": "iconTintColorToolbar",
+      "format": "color"
+    },
+    {
+      "name": "stbv_bottom_line_background_color",
+      "format": "color"
+    },
+    {
+      "name": "stbv_bottom_line_background_height",
+      "format": "dimension"
+    },
+    {
+      "name": "ab_icon_color_enabled",
+      "format": "color"
+    },
+    {
+      "name": "ab_button_background_enabled",
+      "format": "color"
+    },
+    {
+      "name": "ab_icon_color_disabled",
+      "format": "color"
+    },
+    {
+      "name": "ab_button_background_pressed",
+      "format": "color"
+    },
+    {
+      "name": "ab_button_background_disabled",
+      "format": "color"
+    },
+    {
+      "name": "ab_label_color_disabled",
+      "format": "color"
+    },
+    {
+      "name": "ab_icon_color_pressed",
+      "format": "color"
+    },
+    {
+      "name": "ab_label_color_enabled",
+      "format": "color"
+    }
+  ],
+  "schemes": [
+    {
+      "name": "tools",
+      "url": "http://schemas.android.com/tools"
+    }
+  ],
   "common": {
-    "colorPrimary": "?backgroundColorAccent",
+    "colorPrimary": "?backgroundColorPrimary",
     "colorControlNormal": "?graphicColorSecondary",
     "colorControlActivated": "?graphicColorSecondary",
-    "colorControlHighlight": "?graphicColorSecondary",
     "android:textColor": "?textColorPrimary",
     "android:textColorLink": "?textColorLink",
     "android:ambientShadowAlpha": 0.04,
-    "android:spotShadowAlpha": 0.12
-  }
+    "android:spotShadowAlpha": 0.12,
+    "windowActionBar": false,
+    "windowNoTitle": true,
+    "staticBackgroundColorLight": "?staticBackgroundColorPrimaryLight",
+    "staticBackgroundColorDark": "?staticBackgroundColorPrimaryDark",
+    "rippleColorPrimary": "?colorControlHighlight",
+    "android:statusBarColor": "#08182a",
+    "colorPrimaryDark": "?textColorNegative",
+    "colorAccent": "?backgroundColorAccent",
+    "colorSwitchThumbNormal": "?graphicColorSecondary",
+    "progressBarBackground": "?backgroundColorOverlay",
+    "colorControlHighlight": "@color/color_control_highlight",
+    "buttonTint": "@color/thumb_color",
+    "trackTint": "@color/switch_track_selector",
+    "fitSystemWindows": true,
+    "backgroundColorToolbar": "?backgroundColorPrimary",
+    "backgroundColorSecondaryToolbar": "?backgroundColorSecondary",
+    "textColorToolbar": "?textColorPrimary",
+    "toolbarIconTint": "?graphicColorPrimary",
+    "android:itemBackground": "?specialBackgroundColorSecondaryGrouped",
+    "windowActionModeOverlay": true,
+    "actionModeBackground": "?backgroundColorToolbar",
+    "wrapped_resource": {
+      "name": "android:forceDarkAllowed",
+      "value": false,
+      "other_params": [
+        {
+          "namespace": "tools",
+          "name": "targetApi",
+          "value": "q"
+        }
+      ]
+    },
+    "actionModeCloseButtonStyle": "@style/AppbarCloseButton",
+    "actionBarTheme": "@style/DynamicToolbarStyleActionMode",
+    "actionModeStyle": "@style/ActionModeStyle",
+    "chipStyle": "@style/Element.Chip",
+    "chipGroupStyle": "@style/Element.ChipGroup",
+    "alertDialogStyle": "@style/AlfaDialog",
+    "alertDialogTheme": "@style/AlfaDialog",
+    "tabBarStyle": "@style/ScrollableTabBarStyle",
+    "buttonStylePrimary": "@style/ButtonPrimary",
+    "buttonStyleSecondary": "@style/ButtonSecondary",
+    "buttonStyleTertiary": "@style/ButtonTertiary",
+    "actionButtonStylePrimary": "@style/ActionButtonPrimary",
+    "buttonStyleInvertedDeepLink": "@style/ButtonInvertedDeepLink"
+  },
+  "styles": {
+    "Element.Chip": {
+      "parent": "Base.Widget.MaterialComponents.Chip",
+      "android:checkable": true,
+      "android:clickable": true,
+      "android:focusable": true,
+      "checkedIconEnabled": false,
+      "checkedIcon": "@null",
+      "closeIconEnabled": false,
+      "closeIcon": "@null",
+      "android:textColor": "@color/chip_text_selector",
+      "android:textAppearance": "?textStylePrimaryComponentsRegular",
+      "chipBackgroundColor": "@color/chip_background_selector",
+      "chipCornerRadius": "8dp",
+      "textStartPadding": "16dp",
+      "textEndPadding": "16dp",
+      "android:paddingTop": "10dp",
+      "android:paddingBottom": "10dp"
+    },
+    "Element.ChipGroup": {
+      "parent": "Widget.MaterialComponents.ChipGroup",
+      "chipSpacing": "8dp",
+      "chipSpacingHorizontal": "8dp",
+      "singleLine": true,
+      "singleSelection": true
+    },
+    "AlfaDialog": {
+      "parent": "Theme.AppCompat.Light.Dialog.Alert",
+      "colorAccent": "?textColorNegative",
+      "buttonBarNegativeButtonStyle": "@style/DialogButtonStyle",
+      "buttonBarPositiveButtonStyle": "@style/DialogButtonStyle",
+      "android:windowTitleStyle": "@style/DialogTitleTextStyle",
+      "android:background": "?specialBackgroundColorSecondaryGrouped",
+      "android:textColorSecondary": "?textColorSecondary",
+      "android:textColorPrimary": "?textColorSecondary"
+    },
+    "DialogButtonStyle": {
+      "parent": "Widget.AppCompat.Button.ButtonBar.AlertDialog",
+      "android:textColor": "?textColorPrimary",
+      "android:textAllCaps": true,
+      "android:fontFamily": "@font/roboto_medium",
+      "android:textSize": "14sp"
+    },
+    "DialogTitleTextStyle": {
+      "parent": null,
+      "android:textColor": "?textColorPrimary",
+      "android:textSize": "18sp",
+      "android:fontFamily": "@font/roboto_medium"
+    },
+    "ScrollableTabBarStyle": {
+      "parent": "BaseScrollableTabBarStyle",
+      "redesign_enabled": true
+    },
+    "BaseScrollableTabBarStyle": {
+      "parent": null,
+      "android:layout_width": "match_parent",
+      "android:layout_height": "52dp",
+      "tabMode": "scrollable",
+      "tabMaxWidth": "0dp",
+      "tabIndicatorColor": "?borderColorAccent",
+      "tabContentStart": "16dp",
+      "tabPaddingStart": "0dp",
+      "tabPaddingEnd": "0dp",
+      "stbv_bottom_line_background_height": "1dp",
+      "stbv_bottom_line_background_color": "?borderColorPrimary",
+      "tabIndicatorHeight": "2dp"
+    },
+    "ButtonBase": {
+      "parent": "Widget.MaterialComponents.Button",
+      "android:insetLeft": "0dp",
+      "android:insetRight": "0dp",
+      "android:insetTop": "0dp",
+      "android:insetBottom": "0dp",
+      "android:textAppearance": "?textStylePrimaryComponentsMedium",
+      "cornerRadius": "12dp",
+      "android:stateListAnimator": "@null",
+      "rippleColor": "?colorControlHighlight"
+    },
+    "ButtonPrimary": {
+      "parent": "ButtonBase",
+      "backgroundTint": "?backgroundColorSecondaryInverted",
+      "android:textColor": "@color/button_text_color_primary_selector"
+    },
+    "ButtonSecondary": {
+      "parent": "ButtonBase",
+      "backgroundTint": "?backgroundColorSecondary",
+      "android:textColor": "@color/button_text_color_secondary_selector"
+    },
+    "ButtonTertiary": {
+      "parent": "ButtonBase",
+      "backgroundTint": "?specialBackgroundColorNulled",
+      "android:textColor": "@color/button_text_color_secondary_selector"
+    },
+    "ActionButtonPrimary": {
+      "parent": null,
+      "ab_icon_color_enabled": "?graphicColorPrimaryInverted",
+      "ab_icon_color_pressed": "?graphicColorPrimaryInverted",
+      "ab_icon_color_disabled": "?textColorDisabled",
+      "ab_button_background_enabled": "?backgroundColorSecondaryInverted",
+      "ab_button_background_pressed": "?backgroundColorPrimaryInverted",
+      "ab_button_background_disabled": "?textColorDisabled",
+      "ab_label_color_enabled": "?textColorPrimary",
+      "ab_label_color_disabled": "?textColorDisabled"
+    },
+    "AppbarCloseButton": {
+      "parent": "Widget.AppCompat.Light.ActionButton.CloseMode",
+      "android:tint": "?graphicColorPrimary"
+    },
+    "DynamicToolbarStyleActionMode": {
+      "parent": null,
+      "titleTextStyle": "?textStylePrimaryComponentsMedium"
+    },
+    "ActionModeStyle": {
+      "parent": "Widget.AppCompat.ActionMode",
+      "titleTextStyle": "@style/ActionModeTitleTextStyle"
+    },
+    "ActionModeTitleTextStyle": {
+      "parent": "TextAppearance.AppCompat.Widget.ActionMode.Title",
+      "android:textColor": "?textColorPrimary"
+    },
+    "ButtonInvertedDeepLink": {
+      "parent": "ButtonBaseDeepLink",
+      "android:textColor": "?textColorPrimary",
+      "backgroundTint": "?backgroundColorSecondary"
+    },
+    "ButtonBaseDeepLink": {
+      "parent": "Widget.MaterialComponents.Button",
+      "android:textAppearance": "?textStyleSecondaryMedium",
+      "android:paddingStart": "16dp",
+      "android:paddingEnd": "16dp",
+      "android:paddingTop": "12dp",
+      "cornerRadius": "12dp",
+      "android:paddingBottom": "12dp",
+      "rippleColor": "?rippleColorPrimary",
+      "android:stateListAnimator": "@null"
+    }
+  },
+  "color_selectors": [
+    {
+      "filename": "thumb_color.xml",
+      "items": [
+        {
+          "item_params": [
+            {
+              "scheme": "android",
+              "name": "color",
+              "value": "?graphicColorTertiary"
+            },
+            {
+              "scheme": "android",
+              "name": "state_enabled",
+              "value": "false"
+            }
+          ]
+        },
+        {
+          "item_params": [
+            {
+              "scheme": "android",
+              "name": "color",
+              "value": "?graphicColorPrimary"
+            },
+            {
+              "scheme": "android",
+              "name": "state_checked",
+              "value": "true"
+            }
+          ]
+        },
+        {
+          "item_params": [
+            {
+              "scheme": "android",
+              "name": "color",
+              "value": "?graphicColorSecondary"
+            },
+            {
+              "scheme": "android",
+              "name": "state_checked",
+              "value": "false"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "filename": "switch_track_selector.xml",
+      "items": [
+        {
+          "item_params": [
+            {
+              "scheme": "android",
+              "name": "color",
+              "value": "?graphicColorTertiary"
+            },
+            {
+              "scheme": "android",
+              "name": "state_enabled",
+              "value": "true"
+            }
+          ]
+        },
+        {
+          "item_params": [
+            {
+              "scheme": "android",
+              "name": "color",
+              "value": "?graphicColorQuaternary"
+            },
+            {
+              "scheme": "android",
+              "name": "state_enabled",
+              "value": "false"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "filename": "button_text_color_secondary_selector.xml",
+      "items": [
+        {
+          "item_params": [
+            {
+              "scheme": "android",
+              "name": "color",
+              "value": "?textColorPrimary"
+            },
+            {
+              "scheme": "android",
+              "name": "state_enabled",
+              "value": "true"
+            }
+          ]
+        },
+        {
+          "item_params": [
+            {
+              "scheme": "android",
+              "name": "color",
+              "value": "?textColorTertiary"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "filename": "chip_background_selector.xml",
+      "items": [
+        {
+          "item_params": [
+            {
+              "scheme": "android",
+              "name": "color",
+              "value": "?backgroundColorPrimaryInverted"
+            },
+            {
+              "scheme": "android",
+              "name": "state_checked",
+              "value": "true"
+            },
+            {
+              "scheme": "android",
+              "name": "state_pressed",
+              "value": "true"
+            }
+          ]
+        },
+        {
+          "item_params": [
+            {
+              "scheme": "android",
+              "name": "color",
+              "value": "?backgroundColorPrimaryInverted"
+            },
+            {
+              "scheme": "android",
+              "name": "state_pressed",
+              "value": "true"
+            }
+          ]
+        },
+        {
+          "item_params": [
+            {
+              "scheme": "android",
+              "name": "color",
+              "value": "?backgroundColorPrimaryInverted"
+            },
+            {
+              "scheme": "android",
+              "name": "state_checked",
+              "value": "true"
+            }
+          ]
+        },
+        {
+          "item_params": [
+            {
+              "scheme": "android",
+              "name": "color",
+              "value": "?backgroundColorSecondary"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "filename": "chip_text_selector.xml",
+      "items": [
+        {
+          "item_params": [
+            {
+              "scheme": "android",
+              "name": "color",
+              "value": "?textColorPrimaryInverted"
+            },
+            {
+              "scheme": "android",
+              "name": "state_checked",
+              "value": "true"
+            },
+            {
+              "scheme": "android",
+              "name": "state_pressed",
+              "value": "true"
+            }
+          ]
+        },
+        {
+          "item_params": [
+            {
+              "scheme": "android",
+              "name": "color",
+              "value": "?textColorPrimaryInverted"
+            },
+            {
+              "scheme": "android",
+              "name": "state_pressed",
+              "value": "true"
+            }
+          ]
+        },
+        {
+          "item_params": [
+            {
+              "scheme": "android",
+              "name": "color",
+              "value": "?textColorPrimaryInverted"
+            },
+            {
+              "scheme": "android",
+              "name": "state_checked",
+              "value": "true"
+            }
+          ]
+        },
+        {
+          "item_params": [
+            {
+              "scheme": "android",
+              "name": "color",
+              "value": "?textColorPrimary"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "filename": "button_text_color_primary_selector.xml",
+      "items": [
+        {
+          "item_params": [
+            {
+              "scheme": "android",
+              "name": "color",
+              "value": "?textColorPrimaryInverted"
+            },
+            {
+              "scheme": "android",
+              "name": "state_enabled",
+              "value": "true"
+            }
+          ]
+        },
+        {
+          "item_params": [
+            {
+              "scheme": "android",
+              "name": "color",
+              "value": "?textColorTertiaryInverted"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "filename": "color_control_highlight.xml",
+      "items": [
+        {
+          "item_params": [
+            {
+              "scheme": "android",
+              "name": "color",
+              "value": "?backgroundColorPrimaryInverted"
+            },
+            {
+              "scheme": "android",
+              "name": "alpha",
+              "value": ".08"
+            }
+          ]
+        }
+      ]
+    }
+  ]
 }
