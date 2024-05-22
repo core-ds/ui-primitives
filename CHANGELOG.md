@@ -1,3 +1,8 @@
+<a name="16.26.0"></a>
+# [16.26.0](https://github.com/core-ds/ui-primitives/compare/v16.25.0...v16.26.0) (2024-05-22)
+
+
+
 <a name="16.25.0"></a>
 # [16.25.0](https://github.com/core-ds/ui-primitives/compare/v16.24.0...v16.25.0) (2024-05-17)
 
