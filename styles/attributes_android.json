@@ -120,7 +120,7 @@
     }
   ],
   "common": {
-    "colorPrimary": "?backgroundColorPrimary",
+    "colorPrimary": "?backgroundColorAccent",
     "colorControlNormal": "?graphicColorSecondary",
     "colorControlActivated": "?graphicColorSecondary",
     "android:textColor": "?textColorPrimary",
