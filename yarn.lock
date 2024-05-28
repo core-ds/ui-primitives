@@ -2395,15 +2395,15 @@ typescript@^5.0.2:
   resolved "https://registry.yarnpkg.com/typescript/-/typescript-5.2.2.tgz#5ebb5e5a5b75f085f22bc3f8460fba308310fa78"
   integrity sha512-mI4WrpHsbCIcwT9cF4FZvr80QUeKvsUsUvKDoR+X/7XHQH98xYD8YHZg7ANtz2GtZt/CBq2QJ0thkGJMHfqc1w==
 
-ui-primitives@*:
-  version "16.17.0"
-  resolved "https://registry.yarnpkg.com/ui-primitives/-/ui-primitives-16.17.0.tgz#a34d96ed0b6f3d05615758f8cf3341ff77c6fc69"
-  integrity sha512-5lC5FWNE91KpYus4gzNY8XDo6XJOw+leSxnnklQttuIzRQAewvrxZ0nl9Utx78JqRdNJU4Jz2lfZzAxDSCUnkw==
-
 ui-primitives@^13.9.0:
   version "13.15.0"
   resolved "https://registry.yarnpkg.com/ui-primitives/-/ui-primitives-13.15.0.tgz#f7f684094ad560acef147650ce908653955a528f"
   integrity sha512-FSYMVme3oS3Y14uCoXYaoeWe02/V5ghnPDMEZa3hprIN+lvRzkhr/iHLwT/YswnTBZkekkXdetNnTPvA9AMWag==
+
+ui-primitives@^16.28.0:
+  version "16.28.0"
+  resolved "https://registry.yarnpkg.com/ui-primitives/-/ui-primitives-16.28.0.tgz#0ea07221f24bf492a34561a54630d763a10fbf13"
+  integrity sha512-z5ICaFvOy1KKJ3ONvBNTiJzSPYlNrOyc91tLLYfaoAVe1KTYhH6U4AJ4R2N5d5AqtPyszGY2TvuiqbXnjM4G9g==
 
 unified@^9.0.0:
   version "9.2.2"
