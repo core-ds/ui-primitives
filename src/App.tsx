@@ -65,7 +65,7 @@ function App() {
             <Input
                 className="style"
                 block
-                size="m"
+                size="s"
                 placeholder="Скопируйте сюда название токена из макета"
                 value={style}
                 onChange={(_, payload) => setStyle(payload.value)}
