@@ -1,3 +1,13 @@
+<a name="17.0.0"></a>
+# [17.0.0](https://github.com/core-ds/ui-primitives/compare/v16.32.0...v17.0.0) (2024-06-07)
+
+
+### Bug Fixes
+
+* delete icon test ([#574](https://github.com/core-ds/ui-primitives/issues/574)) ([0c0bd68](https://github.com/core-ds/ui-primitives/commit/0c0bd68))
+
+
+
 <a name="16.32.0"></a>
 # [16.32.0](https://github.com/core-ds/ui-primitives/compare/v16.31.0...v16.32.0) (2024-06-07)
 
