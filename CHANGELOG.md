@@ -1,3 +1,13 @@
+<a name="17.2.0"></a>
+# [17.2.0](https://github.com/core-ds/ui-primitives/compare/v17.1.0...v17.2.0) (2024-06-11)
+
+
+### Features
+
+* **icons:** add 2 icons ([#576](https://github.com/core-ds/ui-primitives/issues/576)) ([6a87b6e](https://github.com/core-ds/ui-primitives/commit/6a87b6e))
+
+
+
 <a name="17.1.0"></a>
 # [17.1.0](https://github.com/core-ds/ui-primitives/compare/v17.0.0...v17.1.0) (2024-06-10)
 
