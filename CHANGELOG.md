@@ -1,3 +1,13 @@
+<a name="17.6.0"></a>
+# [17.6.0](https://github.com/core-ds/ui-primitives/compare/v17.5.0...v17.6.0) (2024-06-19)
+
+
+### Features
+
+* **styles:** some styles are marked as deprecated ([#580](https://github.com/core-ds/ui-primitives/issues/580)) ([c821153](https://github.com/core-ds/ui-primitives/commit/c821153))
+
+
+
 <a name="17.5.0"></a>
 # [17.5.0](https://github.com/core-ds/ui-primitives/compare/v17.4.0...v17.5.0) (2024-06-17)
 
