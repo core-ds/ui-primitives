@@ -1,3 +1,13 @@
+<a name="17.9.0"></a>
+# [17.9.0](https://github.com/core-ds/ui-primitives/compare/v17.8.0...v17.9.0) (2024-06-20)
+
+
+### Features
+
+* update colors ([#587](https://github.com/core-ds/ui-primitives/issues/587)) ([2ef6cbd](https://github.com/core-ds/ui-primitives/commit/2ef6cbd))
+
+
+
 <a name="17.8.0"></a>
 # [17.8.0](https://github.com/core-ds/ui-primitives/compare/v17.7.0...v17.8.0) (2024-06-20)
 
