@@ -3780,8 +3780,8 @@
 		"alias": "staticAccentColorSecondaryPress"
 	},
 	"static_bg_primary_dark": {
-		"rgba": "rgba(14, 14, 14, 1)",
-		"hex": "#0e0e0e",
+		"rgba": "rgba(18, 18, 19, 1)",
+		"hex": "#121213",
 		"figma": "static/bg-dark/primary",
 		"alias": "staticBackgroundColorPrimaryDark",
 		"web": "--color-static-bg-primary-dark"
@@ -5139,8 +5139,8 @@
 	},
 	"dark_bg_primary": {
 		"deprecated": true,
-		"rgba": "rgba(14, 14, 14, 1)",
-		"hex": "#0e0e0e",
+		"rgba": "rgba(18, 18, 19, 1)",
+		"hex": "#121213",
 		"alias": "backgroundColorPrimary",
 		"web": "--color-dark-bg-primary"
 	},
@@ -5342,15 +5342,15 @@
 	},
 	"dark_graphic_primary": {
 		"deprecated": true,
-		"rgba": "rgba(255, 255, 255, 1)",
-		"hex": "#ffffff",
+		"rgba": "rgba(241, 241, 241, 1)",
+		"hex": "#f1f1f1",
 		"alias": "graphicColorPrimary",
 		"web": "--color-dark-graphic-primary"
 	},
 	"dark_graphic_primary_inverted": {
 		"deprecated": true,
-		"rgba": "rgba(14, 14, 14, 1)",
-		"hex": "#0e0e0e",
+		"rgba": "rgba(33, 33, 36, 1)",
+		"hex": "#212124",
 		"alias": "graphicColorPrimaryInverted",
 		"web": "--color-dark-graphic-primary-inverted"
 	},
@@ -5650,8 +5650,8 @@
 	},
 	"light_bg_primary_inverted": {
 		"deprecated": true,
-		"rgba": "rgba(14, 14, 14, 1)",
-		"hex": "#0e0e0e",
+		"rgba": "rgba(18, 18, 19, 1)",
+		"hex": "#121213",
 		"alias": "backgroundColorPrimaryInverted",
 		"web": "--color-light-bg-primary-inverted"
 	},
@@ -5839,15 +5839,15 @@
 	},
 	"light_graphic_primary": {
 		"deprecated": true,
-		"rgba": "rgba(14, 14, 14, 1)",
-		"hex": "#0e0e0e",
+		"rgba": "rgba(33, 33, 36, 1)",
+		"hex": "#212124",
 		"alias": "graphicColorPrimary",
 		"web": "--color-light-graphic-primary"
 	},
 	"light_graphic_primary_inverted": {
 		"deprecated": true,
-		"rgba": "rgba(255, 255, 255, 1)",
-		"hex": "#ffffff",
+		"rgba": "rgba(241, 241, 241, 1)",
+		"hex": "#f1f1f1",
 		"alias": "graphicColorPrimaryInverted",
 		"web": "--color-light-graphic-primary-inverted"
 	},
@@ -6150,16 +6150,16 @@
 	},
 	"static_graphic_dark": {
 		"deprecated": true,
-		"rgba": "rgba(14, 14, 14, 1)",
-		"hex": "#0e0e0e",
+		"rgba": "rgba(33, 33, 36, 1)",
+		"hex": "#212124",
 		"figma": "static/graphic/dark",
 		"alias": "staticGraphicColorDark",
 		"web": "--color-static-graphic-dark"
 	},
 	"static_graphic_light": {
 		"deprecated": true,
-		"rgba": "rgba(255, 255, 255, 1)",
-		"hex": "#ffffff",
+		"rgba": "rgba(241, 241, 241, 1)",
+		"hex": "#f1f1f1",
 		"figma": "static/graphic/light",
 		"alias": "staticGraphicColorLight",
 		"web": "--color-static-graphic-light"
