@@ -335,6 +335,48 @@
 		"web": "--color-dark-neutral-100-press",
 		"alias": "neutralColor100Press"
 	},
+	"dark_neutral_1300": {
+		"rgba": "rgba(242, 243, 245, 1)",
+		"hex": "#f2f3f5",
+		"figma": "neutral/1300",
+		"web": "--color-dark-neutral-1300",
+		"alias": "neutralColor1300"
+	},
+	"dark_neutral_1300_hover": {
+		"rgba": "rgba(210, 211, 217, 1)",
+		"hex": "#d2d3d9",
+		"figma": "neutral/1300/hover",
+		"web": "--color-dark-neutral-1300-hover",
+		"alias": "neutralColor1300Hover"
+	},
+	"dark_neutral_1300_inverted": {
+		"rgba": "rgba(33, 33, 36, 1)",
+		"hex": "#212124",
+		"figma": "neutral_inverted/1300",
+		"web": "--color-dark-neutral-1300-inverted",
+		"alias": "neutralColor1300Inverted"
+	},
+	"dark_neutral_1300_inverted_hover": {
+		"rgba": "rgba(63, 63, 69, 1)",
+		"hex": "#3f3f45",
+		"figma": "neutral_inverted/1300/hover",
+		"web": "--color-dark-neutral-1300-inverted-hover",
+		"alias": "neutralColor1300InvertedHover"
+	},
+	"dark_neutral_1300_inverted_press": {
+		"rgba": "rgba(95, 95, 102, 1)",
+		"hex": "#5f5f66",
+		"figma": "neutral_inverted/1300/press",
+		"web": "--color-dark-neutral-1300-inverted-press",
+		"alias": "neutralColor1300InvertedPress"
+	},
+	"dark_neutral_1300_press": {
+		"rgba": "rgba(186, 187, 194, 1)",
+		"hex": "#babbc2",
+		"figma": "neutral/1300/press",
+		"web": "--color-dark-neutral-1300-press",
+		"alias": "neutralColor1300Press"
+	},
 	"dark_neutral_1500": {
 		"rgba": "rgba(255, 255, 255, 1)",
 		"hex": "#ffffff",
@@ -693,15 +735,15 @@
 		"alias": "neutralTranslucentColor1300Inverted"
 	},
 	"dark_neutral_translucent_1300_inverted_hover": {
-		"rgba": "rgba(3, 3, 8, 0.8)",
-		"hex": "#cc030308",
+		"rgba": "rgba(2, 2, 10, 0.76)",
+		"hex": "#c202020a",
 		"figma": "neutral-translucent_inverted/1300/hover",
 		"web": "--color-dark-neutral-translucent-1300-inverted-hover",
 		"alias": "neutralTranslucentColor1300InvertedHover"
 	},
 	"dark_neutral_translucent_1300_inverted_press": {
-		"rgba": "rgba(0, 0, 10, 0.71)",
-		"hex": "#b500000a",
+		"rgba": "rgba(1, 1, 12, 0.63)",
+		"hex": "#a101010c",
 		"figma": "neutral-translucent_inverted/1300/press",
 		"web": "--color-dark-neutral-translucent-1300-inverted-press",
 		"alias": "neutralTranslucentColor1300InvertedPress"
@@ -2141,6 +2183,48 @@
 		"web": "--color-light-neutral-100-press",
 		"alias": "neutralColor100Press"
 	},
+	"light_neutral_1300": {
+		"rgba": "rgba(33, 33, 36, 1)",
+		"hex": "#212124",
+		"figma": "neutral/1300",
+		"web": "--color-light-neutral-1300",
+		"alias": "neutralColor1300"
+	},
+	"light_neutral_1300_hover": {
+		"rgba": "rgba(63, 63, 69, 1)",
+		"hex": "#3f3f45",
+		"figma": "neutral/1300/hover",
+		"web": "--color-light-neutral-1300-hover",
+		"alias": "neutralColor1300Hover"
+	},
+	"light_neutral_1300_inverted": {
+		"rgba": "rgba(242, 243, 245, 1)",
+		"hex": "#f2f3f5",
+		"figma": "neutral_inverted/1300",
+		"web": "--color-light-neutral-1300-inverted",
+		"alias": "neutralColor1300Inverted"
+	},
+	"light_neutral_1300_inverted_hover": {
+		"rgba": "rgba(210, 211, 217, 1)",
+		"hex": "#d2d3d9",
+		"figma": "neutral_inverted/1300/hover",
+		"web": "--color-light-neutral-1300-inverted-hover",
+		"alias": "neutralColor1300InvertedHover"
+	},
+	"light_neutral_1300_inverted_press": {
+		"rgba": "rgba(186, 187, 194, 1)",
+		"hex": "#babbc2",
+		"figma": "neutral_inverted/1300/press",
+		"web": "--color-light-neutral-1300-inverted-press",
+		"alias": "neutralColor1300InvertedPress"
+	},
+	"light_neutral_1300_press": {
+		"rgba": "rgba(95, 95, 102, 1)",
+		"hex": "#5f5f66",
+		"figma": "neutral/1300/press",
+		"web": "--color-light-neutral-1300-press",
+		"alias": "neutralColor1300Press"
+	},
 	"light_neutral_1500": {
 		"rgba": "rgba(18, 18, 19, 1)",
 		"hex": "#121213",
@@ -2485,8 +2569,8 @@
 		"alias": "neutralTranslucentColor1300"
 	},
 	"light_neutral_translucent_1300_hover": {
-		"rgba": "rgba(3, 3, 8, 0.8)",
-		"hex": "#cc030308",
+		"rgba": "rgba(2, 2, 10, 0.76)",
+		"hex": "#c202020a",
 		"figma": "neutral-translucent/1300/hover",
 		"web": "--color-light-neutral-translucent-1300-hover",
 		"alias": "neutralTranslucentColor1300Hover"
@@ -2513,8 +2597,8 @@
 		"alias": "neutralTranslucentColor1300InvertedPress"
 	},
 	"light_neutral_translucent_1300_press": {
-		"rgba": "rgba(0, 0, 10, 0.71)",
-		"hex": "#b500000a",
+		"rgba": "rgba(1, 1, 12, 0.63)",
+		"hex": "#a101010c",
 		"figma": "neutral-translucent/1300/press",
 		"web": "--color-light-neutral-translucent-1300-press",
 		"alias": "neutralTranslucentColor1300Press"
@@ -3786,6 +3870,48 @@
 		"web": "--color-static-neutral-100-press",
 		"alias": "staticNeutralColor100Press"
 	},
+	"static_neutral_1300": {
+		"rgba": "rgba(33, 33, 36, 1)",
+		"hex": "#212124",
+		"figma": "static_neutral/1300",
+		"web": "--color-static-neutral-1300",
+		"alias": "staticNeutralColor1300"
+	},
+	"static_neutral_1300_hover": {
+		"rgba": "rgba(63, 63, 69, 1)",
+		"hex": "#3f3f45",
+		"figma": "static_neutral/1300/hover",
+		"web": "--color-static-neutral-1300-hover",
+		"alias": "staticNeutralColor1300Hover"
+	},
+	"static_neutral_1300_inverted": {
+		"rgba": "rgba(242, 243, 245, 1)",
+		"hex": "#f2f3f5",
+		"figma": "static_neutral_inverted/1300",
+		"web": "--color-static-neutral-1300-inverted",
+		"alias": "staticNeutralColor1300Inverted"
+	},
+	"static_neutral_1300_inverted_hover": {
+		"rgba": "rgba(210, 211, 217, 1)",
+		"hex": "#d2d3d9",
+		"figma": "static_neutral_inverted/1300/hover",
+		"web": "--color-static-neutral-1300-inverted-hover",
+		"alias": "staticNeutralColor1300InvertedHover"
+	},
+	"static_neutral_1300_inverted_press": {
+		"rgba": "rgba(186, 187, 194, 1)",
+		"hex": "#babbc2",
+		"figma": "static_neutral_inverted/1300/press",
+		"web": "--color-static-neutral-1300-inverted-press",
+		"alias": "staticNeutralColor1300InvertedPress"
+	},
+	"static_neutral_1300_press": {
+		"rgba": "rgba(95, 95, 102, 1)",
+		"hex": "#5f5f66",
+		"figma": "static_neutral/1300/press",
+		"web": "--color-static-neutral-1300-press",
+		"alias": "staticNeutralColor1300Press"
+	},
 	"static_neutral_1500": {
 		"rgba": "rgba(18, 18, 19, 1)",
 		"hex": "#121213",
@@ -4130,8 +4256,8 @@
 		"alias": "staticNeutralTranslucentColor1300"
 	},
 	"static_neutral_translucent_1300_hover": {
-		"rgba": "rgba(3, 3, 8, 0.8)",
-		"hex": "#cc030308",
+		"rgba": "rgba(2, 2, 10, 0.76)",
+		"hex": "#c202020a",
 		"figma": "static_neutral-translucent/1300/hover",
 		"web": "--color-static-neutral-translucent-1300-hover",
 		"alias": "staticNeutralTranslucentColor1300Hover"
@@ -4158,8 +4284,8 @@
 		"alias": "staticNeutralTranslucentColor1300InvertedPress"
 	},
 	"static_neutral_translucent_1300_press": {
-		"rgba": "rgba(0, 0, 10, 0.71)",
-		"hex": "#b500000a",
+		"rgba": "rgba(1, 1, 12, 0.63)",
+		"hex": "#a101010c",
 		"figma": "static_neutral-translucent/1300/press",
 		"web": "--color-static-neutral-translucent-1300-press",
 		"alias": "staticNeutralTranslucentColor1300Press"
