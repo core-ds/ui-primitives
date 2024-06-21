@@ -9,7 +9,7 @@
 	"static_students_razzle_rose": {
 		"rgba": "rgba(254, 52, 198, 1)",
 		"hex": "#FE34C6",
-		"figma": "static_alfa-students/razzle-rose",
+		"figma": "static_students/razzle-rose",
 		"alias": "staticStudentsColorRazzleRose",
 		"web": "--color-static-students-razzle-rose"
 	}
