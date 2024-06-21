@@ -1,0 +1,16 @@
+{
+	"static_students_electric_lime": {
+		"rgba": "rgba(143, 255, 0, 1)",
+		"hex": "#8FFF00",
+		"figma": "static_students/electric-lime",
+		"alias": "staticStudentsColorElectricLime",
+		"web": "--color-static-students-electric-lime"
+	},
+	"static_students_razzle_rose": {
+		"rgba": "rgba(254, 52, 198, 1)",
+		"hex": "#FE34C6",
+		"figma": "static_students/razzle-rose",
+		"alias": "staticStudentsColorRazzleRose",
+		"web": "--color-static-students-razzle-rose"
+	}
+}
