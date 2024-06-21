@@ -1,3 +1,13 @@
+<a name="17.10.0"></a>
+# [17.10.0](https://github.com/core-ds/ui-primitives/compare/v17.9.0...v17.10.0) (2024-06-21)
+
+
+### Features
+
+* add colors_students.json ([#581](https://github.com/core-ds/ui-primitives/issues/581)) ([636e77c](https://github.com/core-ds/ui-primitives/commit/636e77c))
+
+
+
 <a name="17.9.0"></a>
 # [17.9.0](https://github.com/core-ds/ui-primitives/compare/v17.8.0...v17.9.0) (2024-06-20)
 
