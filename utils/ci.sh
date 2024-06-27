@@ -6,8 +6,8 @@ git fetch --tags
 
 # Смотрим, были ли изменения в папках icons и styles
 LATEST_TAG=$(git describe --tags --abbrev=0)
-CHANGES=$(git diff --name-only $LATEST_TAG HEAD | grep -E "(icons|styles)/")
-MAJOR_CHANGES=$(git diff --name-only $LATEST_TAG HEAD --diff-filter=D | grep -E "(icons|styles)/")
+CHANGES=$(git diff --name-only $LATEST_TAG HEAD | grep -E "(icons|styles|animations)/")
+MAJOR_CHANGES=$(git diff --name-only $LATEST_TAG HEAD --diff-filter=D | grep -E "(icons|styles|animations)/")
 
 # Если были изменения, релизим новую версию пакета
 if [ -z "$CHANGES" ]
