@@ -2,7 +2,7 @@
 
 rm -rf .publish
 mkdir .publish
-cp -r {icons,styles,package.json,README.md,.npmrc} .publish
+cp -r {icons,styles,animations,package.json,README.md,.npmrc} .publish
 cd .publish
 npm publish
 
