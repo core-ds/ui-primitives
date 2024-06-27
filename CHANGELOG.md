@@ -1,3 +1,19 @@
+<a name="17.13.0"></a>
+# [17.13.0](https://github.com/core-ds/ui-primitives/compare/v17.12.0...v17.13.0) (2024-06-27)
+
+
+### Bug Fixes
+
+* delete animation ([#592](https://github.com/core-ds/ui-primitives/issues/592)) ([1be0c03](https://github.com/core-ds/ui-primitives/commit/1be0c03))
+
+
+### Features
+
+* **animations:** add test animations ([#591](https://github.com/core-ds/ui-primitives/issues/591)) ([7c5ff31](https://github.com/core-ds/ui-primitives/commit/7c5ff31))
+* **animations:** add test animations ([#593](https://github.com/core-ds/ui-primitives/issues/593)) ([cc21d8f](https://github.com/core-ds/ui-primitives/commit/cc21d8f))
+
+
+
 <a name="17.12.0"></a>
 # [17.12.0](https://github.com/core-ds/ui-primitives/compare/v17.11.0...v17.12.0) (2024-06-24)
 
