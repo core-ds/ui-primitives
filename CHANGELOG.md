@@ -1,3 +1,13 @@
+<a name="18.1.0"></a>
+# [18.1.0](https://github.com/core-ds/ui-primitives/compare/v18.0.0...v18.1.0) (2024-06-28)
+
+
+### Features
+
+* **icons:** add 49 icons ([#598](https://github.com/core-ds/ui-primitives/issues/598)) ([d69fe82](https://github.com/core-ds/ui-primitives/commit/d69fe82))
+
+
+
 <a name="18.0.0"></a>
 # [18.0.0](https://github.com/core-ds/ui-primitives/compare/v17.15.0...v18.0.0) (2024-06-28)
 
