@@ -1,3 +1,13 @@
+<a name="19.0.0"></a>
+# [19.0.0](https://github.com/core-ds/ui-primitives/compare/v18.1.0...v19.0.0) (2024-07-01)
+
+
+### Bug Fixes
+
+* **icons:** remove icons one-c ([#599](https://github.com/core-ds/ui-primitives/issues/599)) ([99e46d9](https://github.com/core-ds/ui-primitives/commit/99e46d9))
+
+
+
 <a name="18.1.0"></a>
 # [18.1.0](https://github.com/core-ds/ui-primitives/compare/v18.0.0...v18.1.0) (2024-06-28)
 
