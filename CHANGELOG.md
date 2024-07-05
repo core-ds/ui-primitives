@@ -1,3 +1,13 @@
+<a name="19.4.0"></a>
+# [19.4.0](https://github.com/core-ds/ui-primitives/compare/v19.3.0...v19.4.0) (2024-07-05)
+
+
+### Features
+
+* **icons:** add 6 icons ([#603](https://github.com/core-ds/ui-primitives/issues/603)) ([22e2ca2](https://github.com/core-ds/ui-primitives/commit/22e2ca2))
+
+
+
 <a name="19.3.0"></a>
 # [19.3.0](https://github.com/core-ds/ui-primitives/compare/v19.2.0...v19.3.0) (2024-07-05)
 
