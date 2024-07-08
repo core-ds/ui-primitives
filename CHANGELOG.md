@@ -1,3 +1,13 @@
+<a name="20.5.0"></a>
+# [20.5.0](https://github.com/core-ds/ui-primitives/compare/v20.4.0...v20.5.0) (2024-07-08)
+
+
+### Features
+
+* update colors ([#588](https://github.com/core-ds/ui-primitives/issues/588)) ([9ddcc42](https://github.com/core-ds/ui-primitives/commit/9ddcc42))
+
+
+
 <a name="20.4.0"></a>
 # [20.4.0](https://github.com/core-ds/ui-primitives/compare/v20.3.0...v20.4.0) (2024-07-05)
 
