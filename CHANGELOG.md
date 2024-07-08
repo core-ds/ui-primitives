@@ -1,3 +1,13 @@
+<a name="20.6.0"></a>
+# [20.6.0](https://github.com/core-ds/ui-primitives/compare/v20.5.0...v20.6.0) (2024-07-08)
+
+
+### Features
+
+* **icons:** add 1 icon ([#640](https://github.com/core-ds/ui-primitives/issues/640)) ([58981f1](https://github.com/core-ds/ui-primitives/commit/58981f1))
+
+
+
 <a name="20.5.0"></a>
 # [20.5.0](https://github.com/core-ds/ui-primitives/compare/v20.4.0...v20.5.0) (2024-07-08)
 
