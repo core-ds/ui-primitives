@@ -55,6 +55,14 @@
 		"font_weight": 700,
 		"font_family": "var(--font-family-system)"
 	},
+	"accent_tagline": {
+		"font_size": 12,
+		"line_height": 16,
+		"font_weight": 700,
+		"letter_spacing": 1.25,
+		"text_transform": "uppercase",
+		"font_family": "var(--font-family-system)"
+	},
 	"action_caps": {
 		"font_size": 12,
 		"line_height": 16,
@@ -109,6 +117,14 @@
 		"font_size": 11,
 		"line_height": 16,
 		"font_weight": 500,
+		"font_family": "var(--font-family-system)"
+	},
+	"action_tagline": {
+		"font_size": 12,
+		"line_height": 16,
+		"font_weight": 700,
+		"letter_spacing": 1.25,
+		"text_transform": "uppercase",
 		"font_family": "var(--font-family-system)"
 	},
 	"headline-mobile_large": {
@@ -315,6 +331,14 @@
 		"font_size": 11,
 		"line_height": 16,
 		"font_weight": 400,
+		"font_family": "var(--font-family-system)"
+	},
+	"paragraph_tagline": {
+		"font_size": 12,
+		"line_height": 16,
+		"font_weight": 500,
+		"letter_spacing": 1.25,
+		"text_transform": "uppercase",
 		"font_family": "var(--font-family-system)"
 	},
 	"promo-mobile_large": {
