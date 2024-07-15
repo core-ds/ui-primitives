@@ -1,3 +1,13 @@
+<a name="20.8.0"></a>
+# [20.8.0](https://github.com/core-ds/ui-primitives/compare/v20.7.0...v20.8.0) (2024-07-15)
+
+
+### Features
+
+* **styles:** added typography tagline ([#658](https://github.com/core-ds/ui-primitives/issues/658)) ([f8464d4](https://github.com/core-ds/ui-primitives/commit/f8464d4))
+
+
+
 <a name="20.7.0"></a>
 # [20.7.0](https://github.com/core-ds/ui-primitives/compare/v20.6.0...v20.7.0) (2024-07-10)
 
