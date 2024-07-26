@@ -45,7 +45,7 @@ function App() {
 
     return (
         <div className="wrapper">
-            <Title view="xlarge" tag="h1" weight="bold" className="title">
+            <Title view="xlarge" tag="h1" className="title">
                 Конвертер токенов
             </Title>
 
