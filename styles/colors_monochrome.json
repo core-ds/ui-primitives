@@ -1,0 +1,1332 @@
+{
+	"dark_black_10": {
+		"rgba": "rgba(255, 255, 255, 0.1)",
+		"hex": "#1affffff",
+		"figma": "black/10",
+		"web": "--color-dark-black-10",
+		"alias": "blackColor10"
+	},
+	"dark_black_10_inverted": {
+		"rgba": "rgba(0, 0, 0, 0.1)",
+		"hex": "#1a000000",
+		"figma": "black_inverted/10",
+		"web": "--color-dark-black-10-inverted",
+		"alias": "blackColor10Inverted"
+	},
+	"dark_black_100": {
+		"rgba": "rgba(255, 255, 255, 1)",
+		"hex": "#ffffff",
+		"figma": "black/100",
+		"web": "--color-dark-black-100",
+		"alias": "blackColor100"
+	},
+	"dark_black_100_inverted": {
+		"rgba": "rgba(0, 0, 0, 1)",
+		"hex": "#000000",
+		"figma": "black_inverted/100",
+		"web": "--color-dark-black-100-inverted",
+		"alias": "blackColor100Inverted"
+	},
+	"dark_black_12": {
+		"rgba": "rgba(255, 255, 255, 0.12)",
+		"hex": "#1fffffff",
+		"figma": "black/12",
+		"web": "--color-dark-black-12",
+		"alias": "blackColor12"
+	},
+	"dark_black_12_inverted": {
+		"rgba": "rgba(0, 0, 0, 0.12)",
+		"hex": "#1f000000",
+		"figma": "black_inverted/12",
+		"web": "--color-dark-black-12-inverted",
+		"alias": "blackColor12Inverted"
+	},
+	"dark_black_16": {
+		"rgba": "rgba(255, 255, 255, 0.16)",
+		"hex": "#29ffffff",
+		"figma": "black/16",
+		"web": "--color-dark-black-16",
+		"alias": "blackColor16"
+	},
+	"dark_black_16_inverted": {
+		"rgba": "rgba(0, 0, 0, 0.16)",
+		"hex": "#29000000",
+		"figma": "black_inverted/16",
+		"web": "--color-dark-black-16-inverted",
+		"alias": "blackColor16Inverted"
+	},
+	"dark_black_2": {
+		"rgba": "rgba(255, 255, 255, 0.02)",
+		"hex": "#05ffffff",
+		"figma": "black/2",
+		"web": "--color-dark-black-2",
+		"alias": "blackColor2"
+	},
+	"dark_black_2_inverted": {
+		"rgba": "rgba(0, 0, 0, 0.02)",
+		"hex": "#05000000",
+		"figma": "black_inverted/2",
+		"web": "--color-dark-black-2-inverted",
+		"alias": "blackColor2Inverted"
+	},
+	"dark_black_20": {
+		"rgba": "rgba(255, 255, 255, 0.2)",
+		"hex": "#33ffffff",
+		"figma": "black/20",
+		"web": "--color-dark-black-20",
+		"alias": "blackColor20"
+	},
+	"dark_black_20_inverted": {
+		"rgba": "rgba(0, 0, 0, 0.2)",
+		"hex": "#33000000",
+		"figma": "black_inverted/20",
+		"web": "--color-dark-black-20-inverted",
+		"alias": "blackColor20Inverted"
+	},
+	"dark_black_24": {
+		"rgba": "rgba(255, 255, 255, 0.24)",
+		"hex": "#3dffffff",
+		"figma": "black/24",
+		"web": "--color-dark-black-24",
+		"alias": "blackColor24"
+	},
+	"dark_black_24_inverted": {
+		"rgba": "rgba(0, 0, 0, 0.24)",
+		"hex": "#3d000000",
+		"figma": "black_inverted/24",
+		"web": "--color-dark-black-24-inverted",
+		"alias": "blackColor24Inverted"
+	},
+	"dark_black_32": {
+		"rgba": "rgba(255, 255, 255, 0.32)",
+		"hex": "#52ffffff",
+		"figma": "black/32",
+		"web": "--color-dark-black-32",
+		"alias": "blackColor32"
+	},
+	"dark_black_32_inverted": {
+		"rgba": "rgba(0, 0, 0, 0.32)",
+		"hex": "#52000000",
+		"figma": "black_inverted/32",
+		"web": "--color-dark-black-32-inverted",
+		"alias": "blackColor32Inverted"
+	},
+	"dark_black_4": {
+		"rgba": "rgba(255, 255, 255, 0.04)",
+		"hex": "#0affffff",
+		"figma": "black/4",
+		"web": "--color-dark-black-4",
+		"alias": "blackColor4"
+	},
+	"dark_black_4_inverted": {
+		"rgba": "rgba(0, 0, 0, 0.04)",
+		"hex": "#0a000000",
+		"figma": "black_inverted/4",
+		"web": "--color-dark-black-4-inverted",
+		"alias": "blackColor4Inverted"
+	},
+	"dark_black_40": {
+		"rgba": "rgba(255, 255, 255, 0.4)",
+		"hex": "#66ffffff",
+		"figma": "black/40",
+		"web": "--color-dark-black-40",
+		"alias": "blackColor40"
+	},
+	"dark_black_40_inverted": {
+		"rgba": "rgba(0, 0, 0, 0.4)",
+		"hex": "#66000000",
+		"figma": "black_inverted/40",
+		"web": "--color-dark-black-40-inverted",
+		"alias": "blackColor40Inverted"
+	},
+	"dark_black_44": {
+		"rgba": "rgba(255, 255, 255, 0.44)",
+		"hex": "#70ffffff",
+		"figma": "black/44",
+		"web": "--color-dark-black-44",
+		"alias": "blackColor44"
+	},
+	"dark_black_44_inverted": {
+		"rgba": "rgba(0, 0, 0, 0.44)",
+		"hex": "#70000000",
+		"figma": "black_inverted/44",
+		"web": "--color-dark-black-44-inverted",
+		"alias": "blackColor44Inverted"
+	},
+	"dark_black_48": {
+		"rgba": "rgba(255, 255, 255, 0.48)",
+		"hex": "#7affffff",
+		"figma": "black/48",
+		"web": "--color-dark-black-48",
+		"alias": "blackColor48"
+	},
+	"dark_black_48_inverted": {
+		"rgba": "rgba(0, 0, 0, 0.48)",
+		"hex": "#7a000000",
+		"figma": "black_inverted/48",
+		"web": "--color-dark-black-48-inverted",
+		"alias": "blackColor48Inverted"
+	},
+	"dark_black_56": {
+		"rgba": "rgba(255, 255, 255, 0.56)",
+		"hex": "#8fffffff",
+		"figma": "black/56",
+		"web": "--color-dark-black-56",
+		"alias": "blackColor56"
+	},
+	"dark_black_56_inverted": {
+		"rgba": "rgba(0, 0, 0, 0.56)",
+		"hex": "#8f000000",
+		"figma": "black_inverted/56",
+		"web": "--color-dark-black-56-inverted",
+		"alias": "blackColor56Inverted"
+	},
+	"dark_black_6": {
+		"rgba": "rgba(255, 255, 255, 0.06)",
+		"hex": "#0fffffff",
+		"figma": "black/6",
+		"web": "--color-dark-black-6",
+		"alias": "blackColor6"
+	},
+	"dark_black_6_inverted": {
+		"rgba": "rgba(0, 0, 0, 0.06)",
+		"hex": "#0f000000",
+		"figma": "black_inverted/6",
+		"web": "--color-dark-black-6-inverted",
+		"alias": "blackColor6Inverted"
+	},
+	"dark_black_64": {
+		"rgba": "rgba(255, 255, 255, 0.64)",
+		"hex": "#a3ffffff",
+		"figma": "black/64",
+		"web": "--color-dark-black-64",
+		"alias": "blackColor64"
+	},
+	"dark_black_64_inverted": {
+		"rgba": "rgba(0, 0, 0, 0.64)",
+		"hex": "#a3000000",
+		"figma": "black_inverted/64",
+		"web": "--color-dark-black-64-inverted",
+		"alias": "blackColor64Inverted"
+	},
+	"dark_black_72": {
+		"rgba": "rgba(255, 255, 255, 0.72)",
+		"hex": "#b8ffffff",
+		"figma": "black/72",
+		"web": "--color-dark-black-72",
+		"alias": "blackColor72"
+	},
+	"dark_black_72_inverted": {
+		"rgba": "rgba(0, 0, 0, 0.72)",
+		"hex": "#b8000000",
+		"figma": "black_inverted/72",
+		"web": "--color-dark-black-72-inverted",
+		"alias": "blackColor72Inverted"
+	},
+	"dark_black_8": {
+		"rgba": "rgba(255, 255, 255, 0.08)",
+		"hex": "#14ffffff",
+		"figma": "black/8",
+		"web": "--color-dark-black-8",
+		"alias": "blackColor8"
+	},
+	"dark_black_8_inverted": {
+		"rgba": "rgba(0, 0, 0, 0.08)",
+		"hex": "#14000000",
+		"figma": "black_inverted/8",
+		"web": "--color-dark-black-8-inverted",
+		"alias": "blackColor8Inverted"
+	},
+	"dark_black_80": {
+		"rgba": "rgba(255, 255, 255, 0.8)",
+		"hex": "#ccffffff",
+		"figma": "black/80",
+		"web": "--color-dark-black-80",
+		"alias": "blackColor80"
+	},
+	"dark_black_80_inverted": {
+		"rgba": "rgba(0, 0, 0, 0.8)",
+		"hex": "#cc000000",
+		"figma": "black_inverted/80",
+		"web": "--color-dark-black-80-inverted",
+		"alias": "blackColor80Inverted"
+	},
+	"dark_black_88": {
+		"rgba": "rgba(255, 255, 255, 0.88)",
+		"hex": "#e0ffffff",
+		"figma": "black/88",
+		"web": "--color-dark-black-88",
+		"alias": "blackColor88"
+	},
+	"dark_black_88_inverted": {
+		"rgba": "rgba(0, 0, 0, 0.88)",
+		"hex": "#e0000000",
+		"figma": "black_inverted/88",
+		"web": "--color-dark-black-88-inverted",
+		"alias": "blackColor88Inverted"
+	},
+	"dark_white_10": {
+		"rgba": "rgba(0, 0, 0, 0.1)",
+		"hex": "#1a000000",
+		"figma": "white/10",
+		"web": "--color-dark-white-10",
+		"alias": "whiteColor10"
+	},
+	"dark_white_10_inverted": {
+		"rgba": "rgba(255, 255, 255, 0.1)",
+		"hex": "#1affffff",
+		"figma": "white_inverted/10",
+		"web": "--color-dark-white-10-inverted",
+		"alias": "whiteColor10Inverted"
+	},
+	"dark_white_100": {
+		"rgba": "rgba(0, 0, 0, 1)",
+		"hex": "#000000",
+		"figma": "white/100",
+		"web": "--color-dark-white-100",
+		"alias": "whiteColor100"
+	},
+	"dark_white_100_inverted": {
+		"rgba": "rgba(255, 255, 255, 1)",
+		"hex": "#ffffff",
+		"figma": "white_inverted/100",
+		"web": "--color-dark-white-100-inverted",
+		"alias": "whiteColor100Inverted"
+	},
+	"dark_white_12": {
+		"rgba": "rgba(0, 0, 0, 0.12)",
+		"hex": "#1f000000",
+		"figma": "white/12",
+		"web": "--color-dark-white-12",
+		"alias": "whiteColor12"
+	},
+	"dark_white_12_inverted": {
+		"rgba": "rgba(255, 255, 255, 0.12)",
+		"hex": "#1fffffff",
+		"figma": "white_inverted/12",
+		"web": "--color-dark-white-12-inverted",
+		"alias": "whiteColor12Inverted"
+	},
+	"dark_white_16": {
+		"rgba": "rgba(0, 0, 0, 0.16)",
+		"hex": "#29000000",
+		"figma": "white/16",
+		"web": "--color-dark-white-16",
+		"alias": "whiteColor16"
+	},
+	"dark_white_16_inverted": {
+		"rgba": "rgba(255, 255, 255, 0.16)",
+		"hex": "#29ffffff",
+		"figma": "white_inverted/16",
+		"web": "--color-dark-white-16-inverted",
+		"alias": "whiteColor16Inverted"
+	},
+	"dark_white_2": {
+		"rgba": "rgba(0, 0, 0, 0.02)",
+		"hex": "#05000000",
+		"figma": "white/2",
+		"web": "--color-dark-white-2",
+		"alias": "whiteColor2"
+	},
+	"dark_white_2_inverted": {
+		"rgba": "rgba(255, 255, 255, 0.02)",
+		"hex": "#05ffffff",
+		"figma": "white_inverted/2",
+		"web": "--color-dark-white-2-inverted",
+		"alias": "whiteColor2Inverted"
+	},
+	"dark_white_20": {
+		"rgba": "rgba(0, 0, 0, 0.2)",
+		"hex": "#33000000",
+		"figma": "white/20",
+		"web": "--color-dark-white-20",
+		"alias": "whiteColor20"
+	},
+	"dark_white_20_inverted": {
+		"rgba": "rgba(255, 255, 255, 0.2)",
+		"hex": "#33ffffff",
+		"figma": "white_inverted/20",
+		"web": "--color-dark-white-20-inverted",
+		"alias": "whiteColor20Inverted"
+	},
+	"dark_white_24": {
+		"rgba": "rgba(0, 0, 0, 0.24)",
+		"hex": "#3d000000",
+		"figma": "white/24",
+		"web": "--color-dark-white-24",
+		"alias": "whiteColor24"
+	},
+	"dark_white_24_inverted": {
+		"rgba": "rgba(255, 255, 255, 0.24)",
+		"hex": "#3dffffff",
+		"figma": "white_inverted/24",
+		"web": "--color-dark-white-24-inverted",
+		"alias": "whiteColor24Inverted"
+	},
+	"dark_white_32": {
+		"rgba": "rgba(0, 0, 0, 0.32)",
+		"hex": "#52000000",
+		"figma": "white/32",
+		"web": "--color-dark-white-32",
+		"alias": "whiteColor32"
+	},
+	"dark_white_32_inverted": {
+		"rgba": "rgba(255, 255, 255, 0.32)",
+		"hex": "#52ffffff",
+		"figma": "white_inverted/32",
+		"web": "--color-dark-white-32-inverted",
+		"alias": "whiteColor32Inverted"
+	},
+	"dark_white_4": {
+		"rgba": "rgba(0, 0, 0, 0.04)",
+		"hex": "#0a000000",
+		"figma": "white/4",
+		"web": "--color-dark-white-4",
+		"alias": "whiteColor4"
+	},
+	"dark_white_4_inverted": {
+		"rgba": "rgba(255, 255, 255, 0.04)",
+		"hex": "#0affffff",
+		"figma": "white_inverted/4",
+		"web": "--color-dark-white-4-inverted",
+		"alias": "whiteColor4Inverted"
+	},
+	"dark_white_40": {
+		"rgba": "rgba(0, 0, 0, 0.4)",
+		"hex": "#66000000",
+		"figma": "white/40",
+		"web": "--color-dark-white-40",
+		"alias": "whiteColor40"
+	},
+	"dark_white_40_inverted": {
+		"rgba": "rgba(255, 255, 255, 0.4)",
+		"hex": "#66ffffff",
+		"figma": "white_inverted/40",
+		"web": "--color-dark-white-40-inverted",
+		"alias": "whiteColor40Inverted"
+	},
+	"dark_white_44": {
+		"rgba": "rgba(0, 0, 0, 0.44)",
+		"hex": "#70000000",
+		"figma": "white/44",
+		"web": "--color-dark-white-44",
+		"alias": "whiteColor44"
+	},
+	"dark_white_44_inverted": {
+		"rgba": "rgba(255, 255, 255, 0.44)",
+		"hex": "#70ffffff",
+		"figma": "white_inverted/44",
+		"web": "--color-dark-white-44-inverted",
+		"alias": "whiteColor44Inverted"
+	},
+	"dark_white_48": {
+		"rgba": "rgba(0, 0, 0, 0.48)",
+		"hex": "#7a000000",
+		"figma": "white/48",
+		"web": "--color-dark-white-48",
+		"alias": "whiteColor48"
+	},
+	"dark_white_48_inverted": {
+		"rgba": "rgba(255, 255, 255, 0.48)",
+		"hex": "#7affffff",
+		"figma": "white_inverted/48",
+		"web": "--color-dark-white-48-inverted",
+		"alias": "whiteColor48Inverted"
+	},
+	"dark_white_56": {
+		"rgba": "rgba(0, 0, 0, 0.56)",
+		"hex": "#8f000000",
+		"figma": "white/56",
+		"web": "--color-dark-white-56",
+		"alias": "whiteColor56"
+	},
+	"dark_white_56_inverted": {
+		"rgba": "rgba(255, 255, 255, 0.56)",
+		"hex": "#8fffffff",
+		"figma": "white_inverted/56",
+		"web": "--color-dark-white-56-inverted",
+		"alias": "whiteColor56Inverted"
+	},
+	"dark_white_6": {
+		"rgba": "rgba(0, 0, 0, 0.06)",
+		"hex": "#0f000000",
+		"figma": "white/6",
+		"web": "--color-dark-white-6",
+		"alias": "whiteColor6"
+	},
+	"dark_white_6_inverted": {
+		"rgba": "rgba(255, 255, 255, 0.06)",
+		"hex": "#0fffffff",
+		"figma": "white_inverted/6",
+		"web": "--color-dark-white-6-inverted",
+		"alias": "whiteColor6Inverted"
+	},
+	"dark_white_64": {
+		"rgba": "rgba(0, 0, 0, 0.64)",
+		"hex": "#a3000000",
+		"figma": "white/64",
+		"web": "--color-dark-white-64",
+		"alias": "whiteColor64"
+	},
+	"dark_white_64_inverted": {
+		"rgba": "rgba(255, 255, 255, 0.64)",
+		"hex": "#a3ffffff",
+		"figma": "white_inverted/64",
+		"web": "--color-dark-white-64-inverted",
+		"alias": "whiteColor64Inverted"
+	},
+	"dark_white_72": {
+		"rgba": "rgba(0, 0, 0, 0.72)",
+		"hex": "#b8000000",
+		"figma": "white/72",
+		"web": "--color-dark-white-72",
+		"alias": "whiteColor72"
+	},
+	"dark_white_72_inverted": {
+		"rgba": "rgba(255, 255, 255, 0.72)",
+		"hex": "#b8ffffff",
+		"figma": "white_inverted/72",
+		"web": "--color-dark-white-72-inverted",
+		"alias": "whiteColor72Inverted"
+	},
+	"dark_white_8": {
+		"rgba": "rgba(0, 0, 0, 0.08)",
+		"hex": "#14000000",
+		"figma": "white/8",
+		"web": "--color-dark-white-8",
+		"alias": "whiteColor8"
+	},
+	"dark_white_8_inverted": {
+		"rgba": "rgba(255, 255, 255, 0.08)",
+		"hex": "#14ffffff",
+		"figma": "white_inverted/8",
+		"web": "--color-dark-white-8-inverted",
+		"alias": "whiteColor8Inverted"
+	},
+	"dark_white_80": {
+		"rgba": "rgba(0, 0, 0, 0.8)",
+		"hex": "#cc000000",
+		"figma": "white/80",
+		"web": "--color-dark-white-80",
+		"alias": "whiteColor80"
+	},
+	"dark_white_80_inverted": {
+		"rgba": "rgba(255, 255, 255, 0.8)",
+		"hex": "#ccffffff",
+		"figma": "white_inverted/80",
+		"web": "--color-dark-white-80-inverted",
+		"alias": "whiteColor80Inverted"
+	},
+	"dark_white_88": {
+		"rgba": "rgba(0, 0, 0, 0.88)",
+		"hex": "#e0000000",
+		"figma": "white/88",
+		"web": "--color-dark-white-88",
+		"alias": "whiteColor88"
+	},
+	"dark_white_88_inverted": {
+		"rgba": "rgba(255, 255, 255, 0.88)",
+		"hex": "#e0ffffff",
+		"figma": "white_inverted/88",
+		"web": "--color-dark-white-88-inverted",
+		"alias": "whiteColor88Inverted"
+	},
+	"light_black_10": {
+		"rgba": "rgba(0, 0, 0, 0.1)",
+		"hex": "#1a000000",
+		"figma": "black/10",
+		"web": "--color-light-black-10",
+		"alias": "blackColor10"
+	},
+	"light_black_10_inverted": {
+		"rgba": "rgba(255, 255, 255, 0.1)",
+		"hex": "#1affffff",
+		"figma": "black_inverted/10",
+		"web": "--color-light-black-10-inverted",
+		"alias": "blackColor10Inverted"
+	},
+	"light_black_100": {
+		"rgba": "rgba(0, 0, 0, 1)",
+		"hex": "#000000",
+		"figma": "black/100",
+		"web": "--color-light-black-100",
+		"alias": "blackColor100"
+	},
+	"light_black_100_inverted": {
+		"rgba": "rgba(255, 255, 255, 1)",
+		"hex": "#ffffff",
+		"figma": "black_inverted/100",
+		"web": "--color-light-black-100-inverted",
+		"alias": "blackColor100Inverted"
+	},
+	"light_black_12": {
+		"rgba": "rgba(0, 0, 0, 0.12)",
+		"hex": "#1f000000",
+		"figma": "black/12",
+		"web": "--color-light-black-12",
+		"alias": "blackColor12"
+	},
+	"light_black_12_inverted": {
+		"rgba": "rgba(255, 255, 255, 0.12)",
+		"hex": "#1fffffff",
+		"figma": "black_inverted/12",
+		"web": "--color-light-black-12-inverted",
+		"alias": "blackColor12Inverted"
+	},
+	"light_black_16": {
+		"rgba": "rgba(0, 0, 0, 0.16)",
+		"hex": "#29000000",
+		"figma": "black/16",
+		"web": "--color-light-black-16",
+		"alias": "blackColor16"
+	},
+	"light_black_16_inverted": {
+		"rgba": "rgba(255, 255, 255, 0.16)",
+		"hex": "#29ffffff",
+		"figma": "black_inverted/16",
+		"web": "--color-light-black-16-inverted",
+		"alias": "blackColor16Inverted"
+	},
+	"light_black_2": {
+		"rgba": "rgba(0, 0, 0, 0.02)",
+		"hex": "#05000000",
+		"figma": "black/2",
+		"web": "--color-light-black-2",
+		"alias": "blackColor2"
+	},
+	"light_black_2_inverted": {
+		"rgba": "rgba(255, 255, 255, 0.02)",
+		"hex": "#05ffffff",
+		"figma": "black_inverted/2",
+		"web": "--color-light-black-2-inverted",
+		"alias": "blackColor2Inverted"
+	},
+	"light_black_20": {
+		"rgba": "rgba(0, 0, 0, 0.2)",
+		"hex": "#33000000",
+		"figma": "black/20",
+		"web": "--color-light-black-20",
+		"alias": "blackColor20"
+	},
+	"light_black_20_inverted": {
+		"rgba": "rgba(255, 255, 255, 0.2)",
+		"hex": "#33ffffff",
+		"figma": "black_inverted/20",
+		"web": "--color-light-black-20-inverted",
+		"alias": "blackColor20Inverted"
+	},
+	"light_black_24": {
+		"rgba": "rgba(0, 0, 0, 0.24)",
+		"hex": "#3d000000",
+		"figma": "black/24",
+		"web": "--color-light-black-24",
+		"alias": "blackColor24"
+	},
+	"light_black_24_inverted": {
+		"rgba": "rgba(255, 255, 255, 0.24)",
+		"hex": "#3dffffff",
+		"figma": "black_inverted/24",
+		"web": "--color-light-black-24-inverted",
+		"alias": "blackColor24Inverted"
+	},
+	"light_black_32": {
+		"rgba": "rgba(0, 0, 0, 0.32)",
+		"hex": "#52000000",
+		"figma": "black/32",
+		"web": "--color-light-black-32",
+		"alias": "blackColor32"
+	},
+	"light_black_32_inverted": {
+		"rgba": "rgba(255, 255, 255, 0.32)",
+		"hex": "#52ffffff",
+		"figma": "black_inverted/32",
+		"web": "--color-light-black-32-inverted",
+		"alias": "blackColor32Inverted"
+	},
+	"light_black_4": {
+		"rgba": "rgba(0, 0, 0, 0.04)",
+		"hex": "#0a000000",
+		"figma": "black/4",
+		"web": "--color-light-black-4",
+		"alias": "blackColor4"
+	},
+	"light_black_4_inverted": {
+		"rgba": "rgba(255, 255, 255, 0.04)",
+		"hex": "#0affffff",
+		"figma": "black_inverted/4",
+		"web": "--color-light-black-4-inverted",
+		"alias": "blackColor4Inverted"
+	},
+	"light_black_40": {
+		"rgba": "rgba(0, 0, 0, 0.4)",
+		"hex": "#66000000",
+		"figma": "black/40",
+		"web": "--color-light-black-40",
+		"alias": "blackColor40"
+	},
+	"light_black_40_inverted": {
+		"rgba": "rgba(255, 255, 255, 0.4)",
+		"hex": "#66ffffff",
+		"figma": "black_inverted/40",
+		"web": "--color-light-black-40-inverted",
+		"alias": "blackColor40Inverted"
+	},
+	"light_black_44": {
+		"rgba": "rgba(0, 0, 0, 0.44)",
+		"hex": "#70000000",
+		"figma": "black/44",
+		"web": "--color-light-black-44",
+		"alias": "blackColor44"
+	},
+	"light_black_44_inverted": {
+		"rgba": "rgba(255, 255, 255, 0.44)",
+		"hex": "#70ffffff",
+		"figma": "black_inverted/44",
+		"web": "--color-light-black-44-inverted",
+		"alias": "blackColor44Inverted"
+	},
+	"light_black_48": {
+		"rgba": "rgba(0, 0, 0, 0.48)",
+		"hex": "#7a000000",
+		"figma": "black/48",
+		"web": "--color-light-black-48",
+		"alias": "blackColor48"
+	},
+	"light_black_48_inverted": {
+		"rgba": "rgba(255, 255, 255, 0.48)",
+		"hex": "#7affffff",
+		"figma": "black_inverted/48",
+		"web": "--color-light-black-48-inverted",
+		"alias": "blackColor48Inverted"
+	},
+	"light_black_56": {
+		"rgba": "rgba(0, 0, 0, 0.56)",
+		"hex": "#8f000000",
+		"figma": "black/56",
+		"web": "--color-light-black-56",
+		"alias": "blackColor56"
+	},
+	"light_black_56_inverted": {
+		"rgba": "rgba(255, 255, 255, 0.56)",
+		"hex": "#8fffffff",
+		"figma": "black_inverted/56",
+		"web": "--color-light-black-56-inverted",
+		"alias": "blackColor56Inverted"
+	},
+	"light_black_6": {
+		"rgba": "rgba(0, 0, 0, 0.06)",
+		"hex": "#0f000000",
+		"figma": "black/6",
+		"web": "--color-light-black-6",
+		"alias": "blackColor6"
+	},
+	"light_black_6_inverted": {
+		"rgba": "rgba(255, 255, 255, 0.06)",
+		"hex": "#0fffffff",
+		"figma": "black_inverted/6",
+		"web": "--color-light-black-6-inverted",
+		"alias": "blackColor6Inverted"
+	},
+	"light_black_64": {
+		"rgba": "rgba(0, 0, 0, 0.64)",
+		"hex": "#a3000000",
+		"figma": "black/64",
+		"web": "--color-light-black-64",
+		"alias": "blackColor64"
+	},
+	"light_black_64_inverted": {
+		"rgba": "rgba(255, 255, 255, 0.64)",
+		"hex": "#a3ffffff",
+		"figma": "black_inverted/64",
+		"web": "--color-light-black-64-inverted",
+		"alias": "blackColor64Inverted"
+	},
+	"light_black_72": {
+		"rgba": "rgba(0, 0, 0, 0.72)",
+		"hex": "#b8000000",
+		"figma": "black/72",
+		"web": "--color-light-black-72",
+		"alias": "blackColor72"
+	},
+	"light_black_72_inverted": {
+		"rgba": "rgba(255, 255, 255, 0.72)",
+		"hex": "#b8ffffff",
+		"figma": "black_inverted/72",
+		"web": "--color-light-black-72-inverted",
+		"alias": "blackColor72Inverted"
+	},
+	"light_black_8": {
+		"rgba": "rgba(0, 0, 0, 0.08)",
+		"hex": "#14000000",
+		"figma": "black/8",
+		"web": "--color-light-black-8",
+		"alias": "blackColor8"
+	},
+	"light_black_8_inverted": {
+		"rgba": "rgba(255, 255, 255, 0.08)",
+		"hex": "#14ffffff",
+		"figma": "black_inverted/8",
+		"web": "--color-light-black-8-inverted",
+		"alias": "blackColor8Inverted"
+	},
+	"light_black_80": {
+		"rgba": "rgba(0, 0, 0, 0.8)",
+		"hex": "#cc000000",
+		"figma": "black/80",
+		"web": "--color-light-black-80",
+		"alias": "blackColor80"
+	},
+	"light_black_80_inverted": {
+		"rgba": "rgba(255, 255, 255, 0.8)",
+		"hex": "#ccffffff",
+		"figma": "black_inverted/80",
+		"web": "--color-light-black-80-inverted",
+		"alias": "blackColor80Inverted"
+	},
+	"light_black_88": {
+		"rgba": "rgba(0, 0, 0, 0.88)",
+		"hex": "#e0000000",
+		"figma": "black/88",
+		"web": "--color-light-black-88",
+		"alias": "blackColor88"
+	},
+	"light_black_88_inverted": {
+		"rgba": "rgba(255, 255, 255, 0.88)",
+		"hex": "#e0ffffff",
+		"figma": "black_inverted/88",
+		"web": "--color-light-black-88-inverted",
+		"alias": "blackColor88Inverted"
+	},
+	"light_white_10": {
+		"rgba": "rgba(255, 255, 255, 0.1)",
+		"hex": "#1affffff",
+		"figma": "white/10",
+		"web": "--color-light-white-10",
+		"alias": "whiteColor10"
+	},
+	"light_white_10_inverted": {
+		"rgba": "rgba(0, 0, 0, 0.1)",
+		"hex": "#1a000000",
+		"figma": "white_inverted/10",
+		"web": "--color-light-white-10-inverted",
+		"alias": "whiteColor10Inverted"
+	},
+	"light_white_100": {
+		"rgba": "rgba(255, 255, 255, 1)",
+		"hex": "#ffffff",
+		"figma": "white/100",
+		"web": "--color-light-white-100",
+		"alias": "whiteColor100"
+	},
+	"light_white_100_inverted": {
+		"rgba": "rgba(0, 0, 0, 1)",
+		"hex": "#000000",
+		"figma": "white_inverted/100",
+		"web": "--color-light-white-100-inverted",
+		"alias": "whiteColor100Inverted"
+	},
+	"light_white_12": {
+		"rgba": "rgba(255, 255, 255, 0.12)",
+		"hex": "#1fffffff",
+		"figma": "white/12",
+		"web": "--color-light-white-12",
+		"alias": "whiteColor12"
+	},
+	"light_white_12_inverted": {
+		"rgba": "rgba(0, 0, 0, 0.12)",
+		"hex": "#1f000000",
+		"figma": "white_inverted/12",
+		"web": "--color-light-white-12-inverted",
+		"alias": "whiteColor12Inverted"
+	},
+	"light_white_16": {
+		"rgba": "rgba(255, 255, 255, 0.16)",
+		"hex": "#29ffffff",
+		"figma": "white/16",
+		"web": "--color-light-white-16",
+		"alias": "whiteColor16"
+	},
+	"light_white_16_inverted": {
+		"rgba": "rgba(0, 0, 0, 0.16)",
+		"hex": "#29000000",
+		"figma": "white_inverted/16",
+		"web": "--color-light-white-16-inverted",
+		"alias": "whiteColor16Inverted"
+	},
+	"light_white_2": {
+		"rgba": "rgba(255, 255, 255, 0.02)",
+		"hex": "#05ffffff",
+		"figma": "white/2",
+		"web": "--color-light-white-2",
+		"alias": "whiteColor2"
+	},
+	"light_white_2_inverted": {
+		"rgba": "rgba(0, 0, 0, 0.02)",
+		"hex": "#05000000",
+		"figma": "white_inverted/2",
+		"web": "--color-light-white-2-inverted",
+		"alias": "whiteColor2Inverted"
+	},
+	"light_white_20": {
+		"rgba": "rgba(255, 255, 255, 0.2)",
+		"hex": "#33ffffff",
+		"figma": "white/20",
+		"web": "--color-light-white-20",
+		"alias": "whiteColor20"
+	},
+	"light_white_20_inverted": {
+		"rgba": "rgba(0, 0, 0, 0.2)",
+		"hex": "#33000000",
+		"figma": "white_inverted/20",
+		"web": "--color-light-white-20-inverted",
+		"alias": "whiteColor20Inverted"
+	},
+	"light_white_24": {
+		"rgba": "rgba(255, 255, 255, 0.24)",
+		"hex": "#3dffffff",
+		"figma": "white/24",
+		"web": "--color-light-white-24",
+		"alias": "whiteColor24"
+	},
+	"light_white_24_inverted": {
+		"rgba": "rgba(0, 0, 0, 0.24)",
+		"hex": "#3d000000",
+		"figma": "white_inverted/24",
+		"web": "--color-light-white-24-inverted",
+		"alias": "whiteColor24Inverted"
+	},
+	"light_white_32": {
+		"rgba": "rgba(255, 255, 255, 0.32)",
+		"hex": "#52ffffff",
+		"figma": "white/32",
+		"web": "--color-light-white-32",
+		"alias": "whiteColor32"
+	},
+	"light_white_32_inverted": {
+		"rgba": "rgba(0, 0, 0, 0.32)",
+		"hex": "#52000000",
+		"figma": "white_inverted/32",
+		"web": "--color-light-white-32-inverted",
+		"alias": "whiteColor32Inverted"
+	},
+	"light_white_4": {
+		"rgba": "rgba(255, 255, 255, 0.04)",
+		"hex": "#0affffff",
+		"figma": "white/4",
+		"web": "--color-light-white-4",
+		"alias": "whiteColor4"
+	},
+	"light_white_4_inverted": {
+		"rgba": "rgba(0, 0, 0, 0.04)",
+		"hex": "#0a000000",
+		"figma": "white_inverted/4",
+		"web": "--color-light-white-4-inverted",
+		"alias": "whiteColor4Inverted"
+	},
+	"light_white_40": {
+		"rgba": "rgba(255, 255, 255, 0.4)",
+		"hex": "#66ffffff",
+		"figma": "white/40",
+		"web": "--color-light-white-40",
+		"alias": "whiteColor40"
+	},
+	"light_white_40_inverted": {
+		"rgba": "rgba(0, 0, 0, 0.4)",
+		"hex": "#66000000",
+		"figma": "white_inverted/40",
+		"web": "--color-light-white-40-inverted",
+		"alias": "whiteColor40Inverted"
+	},
+	"light_white_44": {
+		"rgba": "rgba(255, 255, 255, 0.44)",
+		"hex": "#70ffffff",
+		"figma": "white/44",
+		"web": "--color-light-white-44",
+		"alias": "whiteColor44"
+	},
+	"light_white_44_inverted": {
+		"rgba": "rgba(0, 0, 0, 0.44)",
+		"hex": "#70000000",
+		"figma": "white_inverted/44",
+		"web": "--color-light-white-44-inverted",
+		"alias": "whiteColor44Inverted"
+	},
+	"light_white_48": {
+		"rgba": "rgba(255, 255, 255, 0.48)",
+		"hex": "#7affffff",
+		"figma": "white/48",
+		"web": "--color-light-white-48",
+		"alias": "whiteColor48"
+	},
+	"light_white_48_inverted": {
+		"rgba": "rgba(0, 0, 0, 0.48)",
+		"hex": "#7a000000",
+		"figma": "white_inverted/48",
+		"web": "--color-light-white-48-inverted",
+		"alias": "whiteColor48Inverted"
+	},
+	"light_white_56": {
+		"rgba": "rgba(255, 255, 255, 0.56)",
+		"hex": "#8fffffff",
+		"figma": "white/56",
+		"web": "--color-light-white-56",
+		"alias": "whiteColor56"
+	},
+	"light_white_56_inverted": {
+		"rgba": "rgba(0, 0, 0, 0.56)",
+		"hex": "#8f000000",
+		"figma": "white_inverted/56",
+		"web": "--color-light-white-56-inverted",
+		"alias": "whiteColor56Inverted"
+	},
+	"light_white_6": {
+		"rgba": "rgba(255, 255, 255, 0.06)",
+		"hex": "#0fffffff",
+		"figma": "white/6",
+		"web": "--color-light-white-6",
+		"alias": "whiteColor6"
+	},
+	"light_white_6_inverted": {
+		"rgba": "rgba(0, 0, 0, 0.06)",
+		"hex": "#0f000000",
+		"figma": "white_inverted/6",
+		"web": "--color-light-white-6-inverted",
+		"alias": "whiteColor6Inverted"
+	},
+	"light_white_64": {
+		"rgba": "rgba(255, 255, 255, 0.64)",
+		"hex": "#a3ffffff",
+		"figma": "white/64",
+		"web": "--color-light-white-64",
+		"alias": "whiteColor64"
+	},
+	"light_white_64_inverted": {
+		"rgba": "rgba(0, 0, 0, 0.64)",
+		"hex": "#a3000000",
+		"figma": "white_inverted/64",
+		"web": "--color-light-white-64-inverted",
+		"alias": "whiteColor64Inverted"
+	},
+	"light_white_72": {
+		"rgba": "rgba(255, 255, 255, 0.72)",
+		"hex": "#b8ffffff",
+		"figma": "white/72",
+		"web": "--color-light-white-72",
+		"alias": "whiteColor72"
+	},
+	"light_white_72_inverted": {
+		"rgba": "rgba(0, 0, 0, 0.72)",
+		"hex": "#b8000000",
+		"figma": "white_inverted/72",
+		"web": "--color-light-white-72-inverted",
+		"alias": "whiteColor72Inverted"
+	},
+	"light_white_8": {
+		"rgba": "rgba(255, 255, 255, 0.08)",
+		"hex": "#14ffffff",
+		"figma": "white/8",
+		"web": "--color-light-white-8",
+		"alias": "whiteColor8"
+	},
+	"light_white_8_inverted": {
+		"rgba": "rgba(0, 0, 0, 0.08)",
+		"hex": "#14000000",
+		"figma": "white_inverted/8",
+		"web": "--color-light-white-8-inverted",
+		"alias": "whiteColor8Inverted"
+	},
+	"light_white_80": {
+		"rgba": "rgba(255, 255, 255, 0.8)",
+		"hex": "#ccffffff",
+		"figma": "white/80",
+		"web": "--color-light-white-80",
+		"alias": "whiteColor80"
+	},
+	"light_white_80_inverted": {
+		"rgba": "rgba(0, 0, 0, 0.8)",
+		"hex": "#cc000000",
+		"figma": "white_inverted/80",
+		"web": "--color-light-white-80-inverted",
+		"alias": "whiteColor80Inverted"
+	},
+	"light_white_88": {
+		"rgba": "rgba(255, 255, 255, 0.88)",
+		"hex": "#e0ffffff",
+		"figma": "white/88",
+		"web": "--color-light-white-88",
+		"alias": "whiteColor88"
+	},
+	"light_white_88_inverted": {
+		"rgba": "rgba(0, 0, 0, 0.88)",
+		"hex": "#e0000000",
+		"figma": "white_inverted/88",
+		"web": "--color-light-white-88-inverted",
+		"alias": "whiteColor88Inverted"
+	},
+	"static_black_10": {
+		"rgba": "rgba(0, 0, 0, 0.1)",
+		"hex": "#1a000000",
+		"figma": "black/10",
+		"web": "--color-static-black-10",
+		"alias": "staticBlackColor10"
+	},
+	"static_black_100": {
+		"rgba": "rgba(0, 0, 0, 1)",
+		"hex": "#000000",
+		"figma": "black/100",
+		"web": "--color-static-black-100",
+		"alias": "staticBlackColor100"
+	},
+	"static_black_12": {
+		"rgba": "rgba(0, 0, 0, 0.12)",
+		"hex": "#1f000000",
+		"figma": "black/12",
+		"web": "--color-static-black-12",
+		"alias": "staticBlackColor12"
+	},
+	"static_black_16": {
+		"rgba": "rgba(0, 0, 0, 0.16)",
+		"hex": "#29000000",
+		"figma": "black/16",
+		"web": "--color-static-black-16",
+		"alias": "staticBlackColor16"
+	},
+	"static_black_2": {
+		"rgba": "rgba(0, 0, 0, 0.02)",
+		"hex": "#05000000",
+		"figma": "black/2",
+		"web": "--color-static-black-2",
+		"alias": "staticBlackColor2"
+	},
+	"static_black_20": {
+		"rgba": "rgba(0, 0, 0, 0.2)",
+		"hex": "#33000000",
+		"figma": "black/20",
+		"web": "--color-static-black-20",
+		"alias": "staticBlackColor20"
+	},
+	"static_black_24": {
+		"rgba": "rgba(0, 0, 0, 0.24)",
+		"hex": "#3d000000",
+		"figma": "black/24",
+		"web": "--color-static-black-24",
+		"alias": "staticBlackColor24"
+	},
+	"static_black_32": {
+		"rgba": "rgba(0, 0, 0, 0.32)",
+		"hex": "#52000000",
+		"figma": "black/32",
+		"web": "--color-static-black-32",
+		"alias": "staticBlackColor32"
+	},
+	"static_black_4": {
+		"rgba": "rgba(0, 0, 0, 0.04)",
+		"hex": "#0a000000",
+		"figma": "black/4",
+		"web": "--color-static-black-4",
+		"alias": "staticBlackColor4"
+	},
+	"static_black_40": {
+		"rgba": "rgba(0, 0, 0, 0.4)",
+		"hex": "#66000000",
+		"figma": "black/40",
+		"web": "--color-static-black-40",
+		"alias": "staticBlackColor40"
+	},
+	"static_black_44": {
+		"rgba": "rgba(0, 0, 0, 0.44)",
+		"hex": "#70000000",
+		"figma": "black/44",
+		"web": "--color-static-black-44",
+		"alias": "staticBlackColor44"
+	},
+	"static_black_48": {
+		"rgba": "rgba(0, 0, 0, 0.48)",
+		"hex": "#7a000000",
+		"figma": "black/48",
+		"web": "--color-static-black-48",
+		"alias": "staticBlackColor48"
+	},
+	"static_black_56": {
+		"rgba": "rgba(0, 0, 0, 0.56)",
+		"hex": "#8f000000",
+		"figma": "black/56",
+		"web": "--color-static-black-56",
+		"alias": "staticBlackColor56"
+	},
+	"static_black_6": {
+		"rgba": "rgba(0, 0, 0, 0.06)",
+		"hex": "#0f000000",
+		"figma": "black/6",
+		"web": "--color-static-black-6",
+		"alias": "staticBlackColor6"
+	},
+	"static_black_64": {
+		"rgba": "rgba(0, 0, 0, 0.64)",
+		"hex": "#a3000000",
+		"figma": "black/64",
+		"web": "--color-static-black-64",
+		"alias": "staticBlackColor64"
+	},
+	"static_black_72": {
+		"rgba": "rgba(0, 0, 0, 0.72)",
+		"hex": "#b8000000",
+		"figma": "black/72",
+		"web": "--color-static-black-72",
+		"alias": "staticBlackColor72"
+	},
+	"static_black_8": {
+		"rgba": "rgba(0, 0, 0, 0.08)",
+		"hex": "#14000000",
+		"figma": "black/8",
+		"web": "--color-static-black-8",
+		"alias": "staticBlackColor8"
+	},
+	"static_black_80": {
+		"rgba": "rgba(0, 0, 0, 0.8)",
+		"hex": "#cc000000",
+		"figma": "black/80",
+		"web": "--color-static-black-80",
+		"alias": "staticBlackColor80"
+	},
+	"static_black_88": {
+		"rgba": "rgba(0, 0, 0, 0.88)",
+		"hex": "#e0000000",
+		"figma": "black/88",
+		"web": "--color-static-black-88",
+		"alias": "staticBlackColor88"
+	},
+	"static_white_10": {
+		"rgba": "rgba(255, 255, 255, 0.1)",
+		"hex": "#1affffff",
+		"figma": "white/10",
+		"web": "--color-static-white-10",
+		"alias": "staticWhiteColor10"
+	},
+	"static_white_100": {
+		"rgba": "rgba(255, 255, 255, 1)",
+		"hex": "#ffffff",
+		"figma": "white/100",
+		"web": "--color-static-white-100",
+		"alias": "staticWhiteColor100"
+	},
+	"static_white_12": {
+		"rgba": "rgba(255, 255, 255, 0.12)",
+		"hex": "#1fffffff",
+		"figma": "white/12",
+		"web": "--color-static-white-12",
+		"alias": "staticWhiteColor12"
+	},
+	"static_white_16": {
+		"rgba": "rgba(255, 255, 255, 0.16)",
+		"hex": "#29ffffff",
+		"figma": "white/16",
+		"web": "--color-static-white-16",
+		"alias": "staticWhiteColor16"
+	},
+	"static_white_2": {
+		"rgba": "rgba(255, 255, 255, 0.02)",
+		"hex": "#05ffffff",
+		"figma": "white/2",
+		"web": "--color-static-white-2",
+		"alias": "staticWhiteColor2"
+	},
+	"static_white_20": {
+		"rgba": "rgba(255, 255, 255, 0.2)",
+		"hex": "#33ffffff",
+		"figma": "white/20",
+		"web": "--color-static-white-20",
+		"alias": "staticWhiteColor20"
+	},
+	"static_white_24": {
+		"rgba": "rgba(255, 255, 255, 0.24)",
+		"hex": "#3dffffff",
+		"figma": "white/24",
+		"web": "--color-static-white-24",
+		"alias": "staticWhiteColor24"
+	},
+	"static_white_32": {
+		"rgba": "rgba(255, 255, 255, 0.32)",
+		"hex": "#52ffffff",
+		"figma": "white/32",
+		"web": "--color-static-white-32",
+		"alias": "staticWhiteColor32"
+	},
+	"static_white_4": {
+		"rgba": "rgba(255, 255, 255, 0.04)",
+		"hex": "#0affffff",
+		"figma": "white/4",
+		"web": "--color-static-white-4",
+		"alias": "staticWhiteColor4"
+	},
+	"static_white_40": {
+		"rgba": "rgba(255, 255, 255, 0.4)",
+		"hex": "#66ffffff",
+		"figma": "white/40",
+		"web": "--color-static-white-40",
+		"alias": "staticWhiteColor40"
+	},
+	"static_white_44": {
+		"rgba": "rgba(255, 255, 255, 0.44)",
+		"hex": "#70ffffff",
+		"figma": "white/44",
+		"web": "--color-static-white-44",
+		"alias": "staticWhiteColor44"
+	},
+	"static_white_48": {
+		"rgba": "rgba(255, 255, 255, 0.48)",
+		"hex": "#7affffff",
+		"figma": "white/48",
+		"web": "--color-static-white-48",
+		"alias": "staticWhiteColor48"
+	},
+	"static_white_56": {
+		"rgba": "rgba(255, 255, 255, 0.56)",
+		"hex": "#8fffffff",
+		"figma": "white/56",
+		"web": "--color-static-white-56",
+		"alias": "staticWhiteColor56"
+	},
+	"static_white_6": {
+		"rgba": "rgba(255, 255, 255, 0.06)",
+		"hex": "#0fffffff",
+		"figma": "white/6",
+		"web": "--color-static-white-6",
+		"alias": "staticWhiteColor6"
+	},
+	"static_white_64": {
+		"rgba": "rgba(255, 255, 255, 0.64)",
+		"hex": "#a3ffffff",
+		"figma": "white/64",
+		"web": "--color-static-white-64",
+		"alias": "staticWhiteColor64"
+	},
+	"static_white_72": {
+		"rgba": "rgba(255, 255, 255, 0.72)",
+		"hex": "#b8ffffff",
+		"figma": "white/72",
+		"web": "--color-static-white-72",
+		"alias": "staticWhiteColor72"
+	},
+	"static_white_8": {
+		"rgba": "rgba(255, 255, 255, 0.08)",
+		"hex": "#14ffffff",
+		"figma": "white/8",
+		"web": "--color-static-white-8",
+		"alias": "staticWhiteColor8"
+	},
+	"static_white_80": {
+		"rgba": "rgba(255, 255, 255, 0.8)",
+		"hex": "#ccffffff",
+		"figma": "white/80",
+		"web": "--color-static-white-80",
+		"alias": "staticWhiteColor80"
+	},
+	"static_white_88": {
+		"rgba": "rgba(255, 255, 255, 0.88)",
+		"hex": "#e0ffffff",
+		"figma": "white/88",
+		"web": "--color-static-white-88",
+		"alias": "staticWhiteColor88"
+	}
+}
