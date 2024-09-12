@@ -1,13 +1,15 @@
 {
 	"static_brand_primary": {
-		"rgba": "rgba(95, 175, 45, 1)",
-		"hex": "#5faf2d",
+		"rgba": "rgba(247, 97, 0, 1)",
+		"hex": "#f76100",
+		"figma": "static/brand/primary",
 		"alias": "staticBrandColorPrimary",
 		"web": "--color-static-brand-primary"
 	},
 	"static_brand_secondary": {
 		"rgba": "rgba(0, 175, 255, 1)",
 		"hex": "#00afff",
+		"figma": "static/brand/secondary",
 		"alias": "staticBrandColorSecondary",
 		"web": "--color-static-brand-secondary"
 	}
