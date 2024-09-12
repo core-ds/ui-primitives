@@ -1,7 +1,7 @@
 {
 	"static_brand_primary": {
-		"rgba": "rgba(95, 175, 45, 1)",
-		"hex": "#5faf2d",
+		"rgba": "rgba(247, 97, 0, 1)",
+		"hex": "#f76100",
 		"alias": "staticBrandColorPrimary",
 		"web": "--color-static-brand-primary"
 	},
