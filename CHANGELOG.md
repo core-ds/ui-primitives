@@ -1,3 +1,13 @@
+<a name="20.35.0"></a>
+# [20.35.0](https://github.com/core-ds/ui-primitives/compare/v20.34.0...v20.35.0) (2024-10-07)
+
+
+### Features
+
+* add monochrome colors ([#691](https://github.com/core-ds/ui-primitives/issues/691)) ([d4796fd](https://github.com/core-ds/ui-primitives/commit/d4796fd))
+
+
+
 <a name="20.34.0"></a>
 # [20.34.0](https://github.com/core-ds/ui-primitives/compare/v20.33.0...v20.34.0) (2024-10-04)
 
