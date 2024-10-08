@@ -1,3 +1,8 @@
+<a name="20.36.0"></a>
+# [20.36.0](https://github.com/core-ds/ui-primitives/compare/v20.35.0...v20.36.0) (2024-10-08)
+
+
+
 <a name="20.35.0"></a>
 # [20.35.0](https://github.com/core-ds/ui-primitives/compare/v20.34.0...v20.35.0) (2024-10-07)
 
