@@ -1,3 +1,13 @@
+<a name="20.44.0"></a>
+# [20.44.0](https://github.com/core-ds/ui-primitives/compare/v20.43.0...v20.44.0) (2024-10-22)
+
+
+### Features
+
+* **icons:** add 6 icons ([#714](https://github.com/core-ds/ui-primitives/issues/714)) ([c762c41](https://github.com/core-ds/ui-primitives/commit/c762c41))
+
+
+
 <a name="20.43.0"></a>
 # [20.43.0](https://github.com/core-ds/ui-primitives/compare/v20.42.0...v20.43.0) (2024-10-15)
 
