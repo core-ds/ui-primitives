@@ -10,7 +10,7 @@
 		"hex": "#00afff",
 		"alias": "staticBrandColorSecondary",
 		"web": "--color-static-brand-secondary"
-	}
+	},
 	"static_brand_orange": {
 		"rgba": "rgba(247, 97, 0, 1)",
 		"hex": "#f76100",
