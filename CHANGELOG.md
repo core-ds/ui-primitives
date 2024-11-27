@@ -1,3 +1,13 @@
+<a name="23.0.0"></a>
+# [23.0.0](https://github.com/core-ds/ui-primitives/compare/v22.10.0...v23.0.0) (2024-11-27)
+
+
+### Features
+
+* remove glyph_apelsin_m, glyph_apelsin_s ([#736](https://github.com/core-ds/ui-primitives/issues/736)) ([b6d1cf2](https://github.com/core-ds/ui-primitives/commit/b6d1cf2))
+
+
+
 <a name="22.10.0"></a>
 # [22.10.0](https://github.com/core-ds/ui-primitives/compare/v22.9.0...v22.10.0) (2024-11-26)
 
