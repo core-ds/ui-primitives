@@ -1,3 +1,19 @@
+<a name="25.0.0"></a>
+# [25.0.0](https://github.com/core-ds/ui-primitives/compare/v23.5.0...v25.0.0) (2025-01-31)
+
+
+### Bug Fixes
+
+* fix package ([97951dc](https://github.com/core-ds/ui-primitives/commit/97951dc))
+
+
+### Features
+
+* **icons:** add 1 icon ([#745](https://github.com/core-ds/ui-primitives/issues/745)) ([7b8add7](https://github.com/core-ds/ui-primitives/commit/7b8add7))
+* **icons:** add 2 icons ([#746](https://github.com/core-ds/ui-primitives/issues/746)) ([56cf538](https://github.com/core-ds/ui-primitives/commit/56cf538))
+
+
+
 <a name="23.5.0"></a>
 # [23.5.0](https://github.com/core-ds/ui-primitives/compare/v23.4.0...v23.5.0) (2025-01-27)
 
