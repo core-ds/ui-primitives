@@ -1,3 +1,13 @@
+<a name="25.3.0"></a>
+# [25.3.0](https://github.com/core-ds/ui-primitives/compare/v25.2.0...v25.3.0) (2025-02-14)
+
+
+### Features
+
+* **icons:** add 2 icons ([#749](https://github.com/core-ds/ui-primitives/issues/749)) ([a4fed55](https://github.com/core-ds/ui-primitives/commit/a4fed55))
+
+
+
 <a name="25.2.0"></a>
 # [25.2.0](https://github.com/core-ds/ui-primitives/compare/v25.1.0...v25.2.0) (2025-02-05)
 
