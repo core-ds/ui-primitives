@@ -5,7 +5,8 @@ import colorsPfm from "ui-primitives/styles/colors_pfm.json";
 import colorsQualitative from "ui-primitives/styles/colors_qualitative.json";
 import colorsSequential from "ui-primitives/styles/colors_sequential.json";
 import colorsTransparent from "ui-primitives/styles/colors_transparent.json";
-import colorsMonochrome from "ui-primitives/styles/colors_monochrome.json"
+import colorsMonochrome from "ui-primitives/styles/colors_monochrome.json";
+import colorsBrand from "ui-primitives/styles/colors_brand.json";
 
 import typographyAndroid from "ui-primitives/styles/typography_android.json";
 import typographyIos from "ui-primitives/styles/typography_ios.json";
@@ -20,6 +21,7 @@ export const colors = {
     ...colorsSequential,
     ...colorsTransparent,
     ...colorsMonochrome,
+    ...colorsBrand,
 } as unknown as Record<
     string,
     {
