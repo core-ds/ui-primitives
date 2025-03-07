@@ -69,6 +69,13 @@
 		"web": "--color-static-promo-conclave",
 		"alias": "staticPromoColorConclave"
 	},
+	"static_promo_gravel": {
+		"rgba": "rgba(42, 44, 47, 1)",
+		"hex": "#2a2c2f",
+		"figma": "promo/gravel",
+		"web": "--color-static-promo-gravel",
+		"alias": "staticPromoColorGravel"
+	},
 	"static_promo_lagoon": {
 		"rgba": "rgba(157, 242, 245, 1)",
 		"hex": "#9df2f5",
