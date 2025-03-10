@@ -1,3 +1,13 @@
+<a name="26.3.0"></a>
+# [26.3.0](https://github.com/core-ds/ui-primitives/compare/v26.2.0...v26.3.0) (2025-03-10)
+
+
+### Features
+
+* update colors ([#777](https://github.com/core-ds/ui-primitives/issues/777)) ([9f782a9](https://github.com/core-ds/ui-primitives/commit/9f782a9))
+
+
+
 <a name="26.2.0"></a>
 # [26.2.0](https://github.com/core-ds/ui-primitives/compare/v26.1.0...v26.2.0) (2025-03-07)
 
