@@ -1,3 +1,13 @@
+<a name="27.2.0"></a>
+# [27.2.0](https://github.com/core-ds/ui-primitives/compare/v27.1.0...v27.2.0) (2025-04-24)
+
+
+### Features
+
+* **icons:** add 10 icons ([#796](https://github.com/core-ds/ui-primitives/issues/796)) ([250753d](https://github.com/core-ds/ui-primitives/commit/250753d))
+
+
+
 <a name="27.1.0"></a>
 # [27.1.0](https://github.com/core-ds/ui-primitives/compare/v27.0.0...v27.1.0) (2025-04-23)
 
