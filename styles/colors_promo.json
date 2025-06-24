@@ -1,4 +1,11 @@
 {
+	"dark_promo_muted_gravel": {
+		"rgba": "rgba(53, 53, 57, 1)",
+		"hex": "#353539",
+		"figma": "promo-muted/gravel",
+		"web": "--color-dark-promo-muted-gravel",
+		"alias": "promoMutedColorGravel"
+	},
 	"dark_promo_muted_menthol": {
 		"rgba": "rgba(27, 40, 22, 1)",
 		"hex": "#1b2816",
@@ -47,6 +54,13 @@
 		"figma": "promo/chardonnay",
 		"web": "--color-static-promo-chardonnay",
 		"alias": "staticPromoColorChardonnay"
+	},
+	"static_promo_classic": {
+		"rgba": "rgba(0, 0, 0, 1)",
+		"hex": "#000000",
+		"figma": "promo/classic",
+		"web": "--color-static-promo-classic",
+		"alias": "staticPromoColorClassic"
 	},
 	"static_promo_conclave": {
 		"rgba": "rgba(179, 204, 255, 1)",
