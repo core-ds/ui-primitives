@@ -1,4 +1,18 @@
 {
+	"dark_promo_classic": {
+		"rgba": "rgba(42, 44, 47, 1)",
+		"hex": "#2a2c2f",
+		"figma": "promo/classic",
+		"web": "--color-dark-promo-classic",
+		"alias": "promoColorClassic"
+	},
+	"dark_promo_muted_gravel": {
+		"rgba": "rgba(53, 53, 57, 1)",
+		"hex": "#353539",
+		"figma": "promo-muted/gravel",
+		"web": "--color-dark-promo-muted-gravel",
+		"alias": "promoMutedColorGravel"
+	},
 	"dark_promo_muted_menthol": {
 		"rgba": "rgba(27, 40, 22, 1)",
 		"hex": "#1b2816",
@@ -19,6 +33,20 @@
 		"figma": "promo-muted/tomato",
 		"web": "--color-dark-promo-muted-tomato",
 		"alias": "promoMutedColorTomato"
+	},
+	"light_promo_classic": {
+		"rgba": "rgba(0, 0, 0, 1)",
+		"hex": "#000000",
+		"figma": "promo/classic",
+		"web": "--color-light-promo-classic",
+		"alias": "promoColorClassic"
+	},
+	"light_promo_muted_gravel": {
+		"rgba": "rgba(42, 44, 47, 1)",
+		"hex": "#2a2c2f",
+		"figma": "promo-muted/gravel",
+		"web": "--color-light-promo-muted-gravel",
+		"alias": "promoMutedColorGravel"
 	},
 	"light_promo_muted_menthol": {
 		"rgba": "rgba(234, 250, 226, 1)",
@@ -47,6 +75,13 @@
 		"figma": "promo/chardonnay",
 		"web": "--color-static-promo-chardonnay",
 		"alias": "staticPromoColorChardonnay"
+	},
+	"static_promo_classic": {
+		"rgba": "rgba(0, 0, 0, 1)",
+		"hex": "#000000",
+		"figma": "promo/classic",
+		"web": "--color-static-promo-classic",
+		"alias": "staticPromoColorClassic"
 	},
 	"static_promo_conclave": {
 		"rgba": "rgba(179, 204, 255, 1)",
