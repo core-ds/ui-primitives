@@ -1,3 +1,13 @@
+<a name="28.7.0"></a>
+# [28.7.0](https://github.com/core-ds/ui-primitives/compare/v28.6.0...v28.7.0) (2025-07-03)
+
+
+### Features
+
+* update colors ([#844](https://github.com/core-ds/ui-primitives/issues/844)) ([c23e9a4](https://github.com/core-ds/ui-primitives/commit/c23e9a4))
+
+
+
 <a name="28.6.0"></a>
 # [28.6.0](https://github.com/core-ds/ui-primitives/compare/v28.5.0...v28.6.0) (2025-07-03)
 
