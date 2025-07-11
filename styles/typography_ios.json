@@ -386,7 +386,7 @@
     "font_family": "AlfaSans",
     "font_weight": "medium",
     "text_all_caps": true,
-    "letter_spacing": -0.08,
+    "letter_spacing": 1.25,
     "monospace": false
   },
   "ActionCaps": {
