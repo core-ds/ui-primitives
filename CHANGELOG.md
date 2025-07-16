@@ -1,3 +1,18 @@
+<a name="30.0.0"></a>
+# [30.0.0](https://github.com/core-ds/ui-primitives/compare/v28.9.0...v30.0.0) (2025-07-16)
+
+
+### Bug Fixes
+
+* update package.json ([#851](https://github.com/core-ds/ui-primitives/issues/851)) ([56b7a8d](https://github.com/core-ds/ui-primitives/commit/56b7a8d))
+
+
+### Features
+
+* **icons:** add 1 icon ([#850](https://github.com/core-ds/ui-primitives/issues/850)) ([e7c88da](https://github.com/core-ds/ui-primitives/commit/e7c88da))
+
+
+
 <a name="28.9.0"></a>
 # [28.9.0](https://github.com/core-ds/ui-primitives/compare/v28.8.0...v28.9.0) (2025-07-14)
 
