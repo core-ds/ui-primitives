@@ -1,3 +1,8 @@
+<a name="30.6.0"></a>
+# [30.6.0](https://github.com/core-ds/ui-primitives/compare/v30.5.0...v30.6.0) (2025-07-31)
+
+
+
 <a name="30.5.0"></a>
 # [30.5.0](https://github.com/core-ds/ui-primitives/compare/v30.4.0...v30.5.0) (2025-07-31)
 
