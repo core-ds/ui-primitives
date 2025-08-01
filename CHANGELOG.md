@@ -1,3 +1,13 @@
+<a name="30.9.0"></a>
+# [30.9.0](https://github.com/core-ds/ui-primitives/compare/v30.8.0...v30.9.0) (2025-08-01)
+
+
+### Features
+
+* **icons:** add 102 icons ([#900](https://github.com/core-ds/ui-primitives/issues/900)) ([0e9aaa3](https://github.com/core-ds/ui-primitives/commit/0e9aaa3))
+
+
+
 <a name="30.8.0"></a>
 # [30.8.0](https://github.com/core-ds/ui-primitives/compare/v30.7.0...v30.8.0) (2025-08-01)
 
