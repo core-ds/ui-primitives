@@ -1,10 +1,45 @@
 {
+	"dark_promo_chardonnay": {
+		"rgba": "rgba(255, 207, 153, 1)",
+		"hex": "#ffcf99",
+		"figma": "promo/chardonnay",
+		"web": "--color-dark-promo-chardonnay",
+		"alias": "promoColorChardonnay"
+	},
 	"dark_promo_classic": {
 		"rgba": "rgba(42, 44, 47, 1)",
 		"hex": "#2a2c2f",
 		"figma": "promo/classic",
 		"web": "--color-dark-promo-classic",
 		"alias": "promoColorClassic"
+	},
+	"dark_promo_conclave": {
+		"rgba": "rgba(179, 204, 255, 1)",
+		"hex": "#b3ccff",
+		"figma": "promo/conclave",
+		"web": "--color-dark-promo-conclave",
+		"alias": "promoColorConclave"
+	},
+	"dark_promo_gravel": {
+		"rgba": "rgba(42, 44, 47, 1)",
+		"hex": "#2a2c2f",
+		"figma": "promo/gravel",
+		"web": "--color-dark-promo-gravel",
+		"alias": "promoColorGravel"
+	},
+	"dark_promo_lagoon": {
+		"rgba": "rgba(157, 242, 245, 1)",
+		"hex": "#9df2f5",
+		"figma": "promo/lagoon",
+		"web": "--color-dark-promo-lagoon",
+		"alias": "promoColorLagoon"
+	},
+	"dark_promo_menthol": {
+		"rgba": "rgba(191, 240, 168, 1)",
+		"hex": "#bff0a8",
+		"figma": "promo/menthol",
+		"web": "--color-dark-promo-menthol",
+		"alias": "promoColorMenthol"
 	},
 	"dark_promo_muted_gravel": {
 		"rgba": "rgba(53, 53, 57, 1)",
@@ -34,12 +69,236 @@
 		"web": "--color-dark-promo-muted-tomato",
 		"alias": "promoMutedColorTomato"
 	},
+	"dark_promo_oasis": {
+		"rgba": "rgba(223, 191, 255, 1)",
+		"hex": "#dfbfff",
+		"figma": "promo/oasis",
+		"web": "--color-dark-promo-oasis",
+		"alias": "promoColorOasis"
+	},
+	"dark_promo_pale_chardonnay": {
+		"rgba": "rgba(255, 229, 199, 1)",
+		"hex": "#ffe5c7",
+		"figma": "promo-pale/chardonnay",
+		"web": "--color-dark-promo-pale-chardonnay",
+		"alias": "promoPaleColorChardonnay"
+	},
+	"dark_promo_pale_conclave": {
+		"rgba": "rgba(214, 230, 255, 1)",
+		"hex": "#d6e6ff",
+		"figma": "promo-pale/conclave",
+		"web": "--color-dark-promo-pale-conclave",
+		"alias": "promoPaleColorConclave"
+	},
+	"dark_promo_pale_lagoon": {
+		"rgba": "rgba(197, 248, 250, 1)",
+		"hex": "#c5f8fa",
+		"figma": "promo-pale/lagoon",
+		"web": "--color-dark-promo-pale-lagoon",
+		"alias": "promoPaleColorLagoon"
+	},
+	"dark_promo_pale_oasis": {
+		"rgba": "rgba(235, 214, 255, 1)",
+		"hex": "#ebd6ff",
+		"figma": "promo-pale/oasis",
+		"web": "--color-dark-promo-pale-oasis",
+		"alias": "promoPaleColorOasis"
+	},
+	"dark_promo_pale_pearl": {
+		"rgba": "rgba(241, 244, 244, 1)",
+		"hex": "#f1f4f4",
+		"figma": "promo-pale/pearl",
+		"web": "--color-dark-promo-pale-pearl",
+		"alias": "promoPaleColorPearl"
+	},
+	"dark_promo_pale_primrose": {
+		"rgba": "rgba(234, 255, 179, 1)",
+		"hex": "#eaffb3",
+		"figma": "promo-pale/primrose",
+		"web": "--color-dark-promo-pale-primrose",
+		"alias": "promoPaleColorPrimrose"
+	},
+	"dark_promo_pale_seafoam": {
+		"rgba": "rgba(214, 255, 231, 1)",
+		"hex": "#d6ffe7",
+		"figma": "promo-pale/seafoam",
+		"web": "--color-dark-promo-pale-seafoam",
+		"alias": "promoPaleColorSeafoam"
+	},
+	"dark_promo_pale_tomato": {
+		"rgba": "rgba(255, 219, 216, 1)",
+		"hex": "#ffdbd8",
+		"figma": "promo-pale/tomato",
+		"web": "--color-dark-promo-pale-tomato",
+		"alias": "promoPaleColorTomato"
+	},
+	"dark_promo_peach": {
+		"rgba": "rgba(255, 203, 179, 1)",
+		"hex": "#ffcbb3",
+		"figma": "promo/peach",
+		"web": "--color-dark-promo-peach",
+		"alias": "promoColorPeach"
+	},
+	"dark_promo_pearl": {
+		"rgba": "rgba(234, 238, 238, 1)",
+		"hex": "#eaeeee",
+		"figma": "promo/pearl",
+		"web": "--color-dark-promo-pearl",
+		"alias": "promoColorPearl"
+	},
+	"dark_promo_prelude": {
+		"rgba": "rgba(199, 191, 255, 1)",
+		"hex": "#c7bfff",
+		"figma": "promo/prelude",
+		"web": "--color-dark-promo-prelude",
+		"alias": "promoColorPrelude"
+	},
+	"dark_promo_primrose": {
+		"rgba": "rgba(214, 240, 154, 1)",
+		"hex": "#d6f09a",
+		"figma": "promo/primrose",
+		"web": "--color-dark-promo-primrose",
+		"alias": "promoColorPrimrose"
+	},
+	"dark_promo_seafoam": {
+		"rgba": "rgba(160, 250, 198, 1)",
+		"hex": "#a0fac6",
+		"figma": "promo/seafoam",
+		"web": "--color-dark-promo-seafoam",
+		"alias": "promoColorSeafoam"
+	},
+	"dark_promo_sonata": {
+		"rgba": "rgba(158, 223, 255, 1)",
+		"hex": "#9edfff",
+		"figma": "promo/sonata",
+		"web": "--color-dark-promo-sonata",
+		"alias": "promoColorSonata"
+	},
+	"dark_promo_tomato": {
+		"rgba": "rgba(255, 202, 199, 1)",
+		"hex": "#ffcac7",
+		"figma": "promo/tomato",
+		"web": "--color-dark-promo-tomato",
+		"alias": "promoColorTomato"
+	},
+	"dark_promo_vibrant_chardonnay": {
+		"rgba": "rgba(250, 147, 25, 1)",
+		"hex": "#fa9319",
+		"figma": "promo-vibrant/chardonnay",
+		"web": "--color-dark-promo-vibrant-chardonnay",
+		"alias": "promoVibrantColorChardonnay"
+	},
+	"dark_promo_vibrant_conclave": {
+		"rgba": "rgba(38, 111, 255, 1)",
+		"hex": "#266fff",
+		"figma": "promo-vibrant/conclave",
+		"web": "--color-dark-promo-vibrant-conclave",
+		"alias": "promoVibrantColorConclave"
+	},
+	"dark_promo_vibrant_lagoon": {
+		"rgba": "rgba(0, 232, 240, 1)",
+		"hex": "#00e8f0",
+		"figma": "promo-vibrant/lagoon",
+		"web": "--color-dark-promo-vibrant-lagoon",
+		"alias": "promoVibrantColorLagoon"
+	},
+	"dark_promo_vibrant_menthol": {
+		"rgba": "rgba(49, 227, 0, 1)",
+		"hex": "#31e300",
+		"figma": "promo-vibrant/menthol",
+		"web": "--color-dark-promo-vibrant-menthol",
+		"alias": "promoVibrantColorMenthol"
+	},
+	"dark_promo_vibrant_oasis": {
+		"rgba": "rgba(153, 51, 255, 1)",
+		"hex": "#9933ff",
+		"figma": "promo-vibrant/oasis",
+		"web": "--color-dark-promo-vibrant-oasis",
+		"alias": "promoVibrantColorOasis"
+	},
+	"dark_promo_vibrant_peach": {
+		"rgba": "rgba(255, 104, 28, 1)",
+		"hex": "#ff681c",
+		"figma": "promo-vibrant/peach",
+		"web": "--color-dark-promo-vibrant-peach",
+		"alias": "promoVibrantColorPeach"
+	},
+	"dark_promo_vibrant_prelude": {
+		"rgba": "rgba(106, 77, 255, 1)",
+		"hex": "#6a4dff",
+		"figma": "promo-vibrant/prelude",
+		"web": "--color-dark-promo-vibrant-prelude",
+		"alias": "promoVibrantColorPrelude"
+	},
+	"dark_promo_vibrant_primrose": {
+		"rgba": "rgba(168, 240, 0, 1)",
+		"hex": "#a8f000",
+		"figma": "promo-vibrant/primrose",
+		"web": "--color-dark-promo-vibrant-primrose",
+		"alias": "promoVibrantColorPrimrose"
+	},
+	"dark_promo_vibrant_seafoam": {
+		"rgba": "rgba(0, 240, 100, 1)",
+		"hex": "#00f064",
+		"figma": "promo-vibrant/seafoam",
+		"web": "--color-dark-promo-vibrant-seafoam",
+		"alias": "promoVibrantColorSeafoam"
+	},
+	"dark_promo_vibrant_sonata": {
+		"rgba": "rgba(23, 160, 229, 1)",
+		"hex": "#17a0e5",
+		"figma": "promo-vibrant/sonata",
+		"web": "--color-dark-promo-vibrant-sonata",
+		"alias": "promoVibrantColorSonata"
+	},
+	"dark_promo_vibrant_tomato": {
+		"rgba": "rgba(239, 49, 36, 1)",
+		"hex": "#ef3124",
+		"figma": "promo-vibrant/tomato",
+		"web": "--color-dark-promo-vibrant-tomato",
+		"alias": "promoVibrantColorTomato"
+	},
+	"light_promo_chardonnay": {
+		"rgba": "rgba(255, 207, 153, 1)",
+		"hex": "#ffcf99",
+		"figma": "promo/chardonnay",
+		"web": "--color-light-promo-chardonnay",
+		"alias": "promoColorChardonnay"
+	},
 	"light_promo_classic": {
 		"rgba": "rgba(0, 0, 0, 1)",
 		"hex": "#000000",
 		"figma": "promo/classic",
 		"web": "--color-light-promo-classic",
 		"alias": "promoColorClassic"
+	},
+	"light_promo_conclave": {
+		"rgba": "rgba(179, 204, 255, 1)",
+		"hex": "#b3ccff",
+		"figma": "promo/conclave",
+		"web": "--color-light-promo-conclave",
+		"alias": "promoColorConclave"
+	},
+	"light_promo_gravel": {
+		"rgba": "rgba(42, 44, 47, 1)",
+		"hex": "#2a2c2f",
+		"figma": "promo/gravel",
+		"web": "--color-light-promo-gravel",
+		"alias": "promoColorGravel"
+	},
+	"light_promo_lagoon": {
+		"rgba": "rgba(157, 242, 245, 1)",
+		"hex": "#9df2f5",
+		"figma": "promo/lagoon",
+		"web": "--color-light-promo-lagoon",
+		"alias": "promoColorLagoon"
+	},
+	"light_promo_menthol": {
+		"rgba": "rgba(191, 240, 168, 1)",
+		"hex": "#bff0a8",
+		"figma": "promo/menthol",
+		"web": "--color-light-promo-menthol",
+		"alias": "promoColorMenthol"
 	},
 	"light_promo_muted_gravel": {
 		"rgba": "rgba(42, 44, 47, 1)",
@@ -68,6 +327,195 @@
 		"figma": "promo-muted/tomato",
 		"web": "--color-light-promo-muted-tomato",
 		"alias": "promoMutedColorTomato"
+	},
+	"light_promo_oasis": {
+		"rgba": "rgba(223, 191, 255, 1)",
+		"hex": "#dfbfff",
+		"figma": "promo/oasis",
+		"web": "--color-light-promo-oasis",
+		"alias": "promoColorOasis"
+	},
+	"light_promo_pale_chardonnay": {
+		"rgba": "rgba(255, 229, 199, 1)",
+		"hex": "#ffe5c7",
+		"figma": "promo-pale/chardonnay",
+		"web": "--color-light-promo-pale-chardonnay",
+		"alias": "promoPaleColorChardonnay"
+	},
+	"light_promo_pale_conclave": {
+		"rgba": "rgba(214, 230, 255, 1)",
+		"hex": "#d6e6ff",
+		"figma": "promo-pale/conclave",
+		"web": "--color-light-promo-pale-conclave",
+		"alias": "promoPaleColorConclave"
+	},
+	"light_promo_pale_lagoon": {
+		"rgba": "rgba(197, 248, 250, 1)",
+		"hex": "#c5f8fa",
+		"figma": "promo-pale/lagoon",
+		"web": "--color-light-promo-pale-lagoon",
+		"alias": "promoPaleColorLagoon"
+	},
+	"light_promo_pale_oasis": {
+		"rgba": "rgba(235, 214, 255, 1)",
+		"hex": "#ebd6ff",
+		"figma": "promo-pale/oasis",
+		"web": "--color-light-promo-pale-oasis",
+		"alias": "promoPaleColorOasis"
+	},
+	"light_promo_pale_pearl": {
+		"rgba": "rgba(241, 244, 244, 1)",
+		"hex": "#f1f4f4",
+		"figma": "promo-pale/pearl",
+		"web": "--color-light-promo-pale-pearl",
+		"alias": "promoPaleColorPearl"
+	},
+	"light_promo_pale_primrose": {
+		"rgba": "rgba(234, 255, 179, 1)",
+		"hex": "#eaffb3",
+		"figma": "promo-pale/primrose",
+		"web": "--color-light-promo-pale-primrose",
+		"alias": "promoPaleColorPrimrose"
+	},
+	"light_promo_pale_seafoam": {
+		"rgba": "rgba(214, 255, 231, 1)",
+		"hex": "#d6ffe7",
+		"figma": "promo-pale/seafoam",
+		"web": "--color-light-promo-pale-seafoam",
+		"alias": "promoPaleColorSeafoam"
+	},
+	"light_promo_pale_tomato": {
+		"rgba": "rgba(255, 219, 216, 1)",
+		"hex": "#ffdbd8",
+		"figma": "promo-pale/tomato",
+		"web": "--color-light-promo-pale-tomato",
+		"alias": "promoPaleColorTomato"
+	},
+	"light_promo_peach": {
+		"rgba": "rgba(255, 203, 179, 1)",
+		"hex": "#ffcbb3",
+		"figma": "promo/peach",
+		"web": "--color-light-promo-peach",
+		"alias": "promoColorPeach"
+	},
+	"light_promo_pearl": {
+		"rgba": "rgba(234, 238, 238, 1)",
+		"hex": "#eaeeee",
+		"figma": "promo/pearl",
+		"web": "--color-light-promo-pearl",
+		"alias": "promoColorPearl"
+	},
+	"light_promo_prelude": {
+		"rgba": "rgba(199, 191, 255, 1)",
+		"hex": "#c7bfff",
+		"figma": "promo/prelude",
+		"web": "--color-light-promo-prelude",
+		"alias": "promoColorPrelude"
+	},
+	"light_promo_primrose": {
+		"rgba": "rgba(214, 240, 154, 1)",
+		"hex": "#d6f09a",
+		"figma": "promo/primrose",
+		"web": "--color-light-promo-primrose",
+		"alias": "promoColorPrimrose"
+	},
+	"light_promo_seafoam": {
+		"rgba": "rgba(160, 250, 198, 1)",
+		"hex": "#a0fac6",
+		"figma": "promo/seafoam",
+		"web": "--color-light-promo-seafoam",
+		"alias": "promoColorSeafoam"
+	},
+	"light_promo_sonata": {
+		"rgba": "rgba(158, 223, 255, 1)",
+		"hex": "#9edfff",
+		"figma": "promo/sonata",
+		"web": "--color-light-promo-sonata",
+		"alias": "promoColorSonata"
+	},
+	"light_promo_tomato": {
+		"rgba": "rgba(255, 202, 199, 1)",
+		"hex": "#ffcac7",
+		"figma": "promo/tomato",
+		"web": "--color-light-promo-tomato",
+		"alias": "promoColorTomato"
+	},
+	"light_promo_vibrant_chardonnay": {
+		"rgba": "rgba(250, 147, 25, 1)",
+		"hex": "#fa9319",
+		"figma": "promo-vibrant/chardonnay",
+		"web": "--color-light-promo-vibrant-chardonnay",
+		"alias": "promoVibrantColorChardonnay"
+	},
+	"light_promo_vibrant_conclave": {
+		"rgba": "rgba(38, 111, 255, 1)",
+		"hex": "#266fff",
+		"figma": "promo-vibrant/conclave",
+		"web": "--color-light-promo-vibrant-conclave",
+		"alias": "promoVibrantColorConclave"
+	},
+	"light_promo_vibrant_lagoon": {
+		"rgba": "rgba(0, 232, 240, 1)",
+		"hex": "#00e8f0",
+		"figma": "promo-vibrant/lagoon",
+		"web": "--color-light-promo-vibrant-lagoon",
+		"alias": "promoVibrantColorLagoon"
+	},
+	"light_promo_vibrant_menthol": {
+		"rgba": "rgba(49, 227, 0, 1)",
+		"hex": "#31e300",
+		"figma": "promo-vibrant/menthol",
+		"web": "--color-light-promo-vibrant-menthol",
+		"alias": "promoVibrantColorMenthol"
+	},
+	"light_promo_vibrant_oasis": {
+		"rgba": "rgba(153, 51, 255, 1)",
+		"hex": "#9933ff",
+		"figma": "promo-vibrant/oasis",
+		"web": "--color-light-promo-vibrant-oasis",
+		"alias": "promoVibrantColorOasis"
+	},
+	"light_promo_vibrant_peach": {
+		"rgba": "rgba(255, 104, 28, 1)",
+		"hex": "#ff681c",
+		"figma": "promo-vibrant/peach",
+		"web": "--color-light-promo-vibrant-peach",
+		"alias": "promoVibrantColorPeach"
+	},
+	"light_promo_vibrant_prelude": {
+		"rgba": "rgba(106, 77, 255, 1)",
+		"hex": "#6a4dff",
+		"figma": "promo-vibrant/prelude",
+		"web": "--color-light-promo-vibrant-prelude",
+		"alias": "promoVibrantColorPrelude"
+	},
+	"light_promo_vibrant_primrose": {
+		"rgba": "rgba(168, 240, 0, 1)",
+		"hex": "#a8f000",
+		"figma": "promo-vibrant/primrose",
+		"web": "--color-light-promo-vibrant-primrose",
+		"alias": "promoVibrantColorPrimrose"
+	},
+	"light_promo_vibrant_seafoam": {
+		"rgba": "rgba(0, 240, 100, 1)",
+		"hex": "#00f064",
+		"figma": "promo-vibrant/seafoam",
+		"web": "--color-light-promo-vibrant-seafoam",
+		"alias": "promoVibrantColorSeafoam"
+	},
+	"light_promo_vibrant_sonata": {
+		"rgba": "rgba(23, 160, 229, 1)",
+		"hex": "#17a0e5",
+		"figma": "promo-vibrant/sonata",
+		"web": "--color-light-promo-vibrant-sonata",
+		"alias": "promoVibrantColorSonata"
+	},
+	"light_promo_vibrant_tomato": {
+		"rgba": "rgba(239, 49, 36, 1)",
+		"hex": "#ef3124",
+		"figma": "promo-vibrant/tomato",
+		"web": "--color-light-promo-vibrant-tomato",
+		"alias": "promoVibrantColorTomato"
 	},
 	"static_promo_chardonnay": {
 		"rgba": "rgba(255, 207, 153, 1)",
