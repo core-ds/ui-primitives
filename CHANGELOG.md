@@ -1,3 +1,13 @@
+<a name="30.20.0"></a>
+# [30.20.0](https://github.com/core-ds/ui-primitives/compare/v30.19.0...v30.20.0) (2025-09-10)
+
+
+### Features
+
+* update colors ([#940](https://github.com/core-ds/ui-primitives/issues/940)) ([9a0eb9a](https://github.com/core-ds/ui-primitives/commit/9a0eb9a))
+
+
+
 <a name="30.19.0"></a>
 # [30.19.0](https://github.com/core-ds/ui-primitives/compare/v30.18.0...v30.19.0) (2025-09-05)
 
