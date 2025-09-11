@@ -1,3 +1,13 @@
+<a name="31.0.0"></a>
+# [31.0.0](https://github.com/core-ds/ui-primitives/compare/v30.23.0...v31.0.0) (2025-09-11)
+
+
+### Features
+
+* remove icons ([#943](https://github.com/core-ds/ui-primitives/issues/943)) ([dee94e2](https://github.com/core-ds/ui-primitives/commit/dee94e2))
+
+
+
 <a name="30.23.0"></a>
 # [30.23.0](https://github.com/core-ds/ui-primitives/compare/v30.22.0...v30.23.0) (2025-09-11)
 
