@@ -10,6 +10,7 @@ Design tokens for UI libraries. Web, iOS, Android.
 -   `colors.json`
 -   `styles/colors.json`
 -   `styles/mobile-colors.json`
+-   `styles/colors_transparent.json`
 
 ## Добавление новой палитры
 Для того чтобы добавить новую палитру, необходимо переключиться в ветку `gh-pages` и добавить импорт JSON-файла палитры в `src/vars.ts`.
