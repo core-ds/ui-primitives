@@ -1,0 +1,398 @@
+{
+	"accent_caps": {
+		"font_family": "var(--font-family-alfasans)",
+		"font_size": 12,
+		"line_height": 16,
+		"font_weight": 700,
+		"letter_spacing": 1.25,
+		"text_transform": "uppercase"
+	},
+	"accent_component_primary": {
+		"font_family": "var(--font-family-alfasans)",
+		"font_size": 16,
+		"line_height": 20,
+		"font_weight": 700,
+		"letter_spacing": 0.43
+	},
+	"accent_component_secondary": {
+		"font_family": "var(--font-family-alfasans)",
+		"font_size": 14,
+		"line_height": 18,
+		"font_weight": 700,
+		"letter_spacing": 0.47
+	},
+	"accent_primary_large": {
+		"font_family": "var(--font-family-alfasans)",
+		"font_size": 18,
+		"line_height": 24,
+		"font_weight": 700,
+		"letter_spacing": 0.38
+	},
+	"accent_primary_medium": {
+		"font_family": "var(--font-family-alfasans)",
+		"font_size": 16,
+		"line_height": 24,
+		"font_weight": 700,
+		"letter_spacing": 0.43
+	},
+	"accent_primary_small": {
+		"font_family": "var(--font-family-alfasans)",
+		"font_size": 14,
+		"line_height": 20,
+		"font_weight": 700,
+		"letter_spacing": 0.47
+	},
+	"accent_secondary_large": {
+		"font_family": "var(--font-family-alfasans)",
+		"font_size": 13,
+		"line_height": 16,
+		"font_weight": 700,
+		"letter_spacing": 0.54
+	},
+	"accent_secondary_medium": {
+		"font_family": "var(--font-family-alfasans)",
+		"font_size": 12,
+		"line_height": 16,
+		"font_weight": 700,
+		"letter_spacing": 0.57
+	},
+	"accent_secondary_small": {
+		"font_family": "var(--font-family-alfasans)",
+		"font_size": 11,
+		"line_height": 16,
+		"font_weight": 700,
+		"letter_spacing": 0.54
+	},
+	"accent_tagline": {
+		"font_family": "var(--font-family-alfasans)",
+		"font_size": 12,
+		"line_height": 16,
+		"font_weight": 700,
+		"letter_spacing": 1.25,
+		"text_transform": "uppercase"
+	},
+	"action_caps": {
+		"font_family": "var(--font-family-alfasans)",
+		"font_size": 12,
+		"line_height": 16,
+		"font_weight": 500,
+		"letter_spacing": 1.25,
+		"text_transform": "uppercase"
+	},
+	"action_component_primary": {
+		"font_family": "var(--font-family-alfasans)",
+		"font_size": 16,
+		"line_height": 20,
+		"font_weight": 500,
+		"letter_spacing": -0.05
+	},
+	"action_component_secondary": {
+		"font_family": "var(--font-family-alfasans)",
+		"font_size": 14,
+		"line_height": 18,
+		"font_weight": 500,
+		"letter_spacing": 0.07
+	},
+	"action_primary_large": {
+		"font_family": "var(--font-family-alfasans)",
+		"font_size": 18,
+		"line_height": 24,
+		"font_weight": 500,
+		"letter_spacing": -0.17
+	},
+	"action_primary_medium": {
+		"font_family": "var(--font-family-alfasans)",
+		"font_size": 16,
+		"line_height": 24,
+		"font_weight": 500,
+		"letter_spacing": -0.05
+	},
+	"action_primary_small": {
+		"font_family": "var(--font-family-alfasans)",
+		"font_size": 14,
+		"line_height": 20,
+		"font_weight": 500,
+		"letter_spacing": 0.07
+	},
+	"action_secondary_large": {
+		"font_family": "var(--font-family-alfasans)",
+		"font_size": 13,
+		"line_height": 16,
+		"font_weight": 500,
+		"letter_spacing": 0.13
+	},
+	"action_secondary_medium": {
+		"font_family": "var(--font-family-alfasans)",
+		"font_size": 12,
+		"line_height": 16,
+		"font_weight": 500,
+		"letter_spacing": 0.19
+	},
+	"action_secondary_small": {
+		"font_family": "var(--font-family-alfasans)",
+		"font_size": 11,
+		"line_height": 16,
+		"font_weight": 500,
+		"letter_spacing": 0.24
+	},
+	"action_tagline": {
+		"font_family": "var(--font-family-alfasans)",
+		"font_size": 12,
+		"line_height": 16,
+		"font_weight": 500,
+		"letter_spacing": 1.25,
+		"text_transform": "uppercase"
+	},
+	"headline-system_large": {
+		"font_family": "var(--font-family-alfasans)",
+		"font_size": 40,
+		"line_height": 48,
+		"font_weight": 700,
+		"letter_spacing": 0.1
+	},
+	"headline-system_medium": {
+		"font_family": "var(--font-family-alfasans)",
+		"font_size": 30,
+		"line_height": 36,
+		"font_weight": 700,
+		"letter_spacing": 0.1
+	},
+	"headline-system_small": {
+		"font_family": "var(--font-family-alfasans)",
+		"font_size": 22,
+		"line_height": 26,
+		"font_weight": 700,
+		"letter_spacing": 0.2
+	},
+	"headline-system_xlarge": {
+		"font_family": "var(--font-family-alfasans)",
+		"font_size": 48,
+		"line_height": 52,
+		"font_weight": 700,
+		"letter_spacing": 0.1
+	},
+	"headline-system_xsmall": {
+		"font_family": "var(--font-family-alfasans)",
+		"font_size": 18,
+		"line_height": 22,
+		"font_weight": 700,
+		"letter_spacing": 0.38
+	},
+	"headline-system-mobile_large": {
+		"font_family": "var(--font-family-alfasans)",
+		"font_size": 30,
+		"line_height": 36,
+		"font_weight": 600,
+		"letter_spacing": -0.25
+	},
+	"headline-system-mobile_medium": {
+		"font_family": "var(--font-family-alfasans)",
+		"font_size": 26,
+		"line_height": 32,
+		"font_weight": 600,
+		"letter_spacing": -0.25
+	},
+	"headline-system-mobile_small": {
+		"font_family": "var(--font-family-alfasans)",
+		"font_size": 20,
+		"line_height": 28,
+		"font_weight": 600,
+		"letter_spacing": -0.15
+	},
+	"headline-system-mobile_xlarge": {
+		"font_family": "var(--font-family-alfasans)",
+		"font_size": 34,
+		"line_height": 40,
+		"font_weight": 600,
+		"letter_spacing": -0.32
+	},
+	"headline-system-mobile_xsmall": {
+		"font_family": "var(--font-family-alfasans)",
+		"font_size": 16,
+		"line_height": 20,
+		"font_weight": 600,
+		"letter_spacing": 0.17
+	},
+	"mono_primary_large": {
+		"font_family": "var(--font-family-alfasans)",
+		"font_size": 18,
+		"line_height": 24,
+		"font_weight": 400,
+		"letter_spacing": -0.36
+	},
+	"mono_primary_medium": {
+		"font_family": "var(--font-family-alfasans)",
+		"font_size": 16,
+		"line_height": 24,
+		"font_weight": 400,
+		"letter_spacing": -0.24
+	},
+	"mono_primary_small": {
+		"font_family": "var(--font-family-alfasans)",
+		"font_size": 14,
+		"line_height": 20,
+		"font_weight": 400,
+		"letter_spacing": -0.08
+	},
+	"mono_secondary_large": {
+		"font_family": "var(--font-family-alfasans)",
+		"font_size": 13,
+		"line_height": 16,
+		"font_weight": 400
+	},
+	"mono_secondary_medium": {
+		"font_family": "var(--font-family-alfasans)",
+		"font_size": 12,
+		"line_height": 16,
+		"font_weight": 400,
+		"letter_spacing": 0.06
+	},
+	"mono_secondary_small": {
+		"font_family": "var(--font-family-alfasans)",
+		"font_size": 11,
+		"line_height": 16,
+		"font_weight": 400,
+		"letter_spacing": 0.15
+	},
+	"paragraph_caps": {
+		"font_family": "var(--font-family-alfasans)",
+		"font_size": 12,
+		"line_height": 16,
+		"font_weight": 400,
+		"letter_spacing": 1.25,
+		"text_transform": "uppercase"
+	},
+	"paragraph_component_primary": {
+		"font_family": "var(--font-family-alfasans)",
+		"font_size": 16,
+		"line_height": 20,
+		"font_weight": 400,
+		"letter_spacing": -0.24
+	},
+	"paragraph_component_secondary": {
+		"font_family": "var(--font-family-alfasans)",
+		"font_size": 14,
+		"line_height": 18,
+		"font_weight": 400,
+		"letter_spacing": -0.08
+	},
+	"paragraph_primary_large": {
+		"font_family": "var(--font-family-alfasans)",
+		"font_size": 18,
+		"line_height": 24,
+		"font_weight": 400,
+		"letter_spacing": -0.36
+	},
+	"paragraph_primary_medium": {
+		"font_family": "var(--font-family-alfasans)",
+		"font_size": 16,
+		"line_height": 24,
+		"font_weight": 400,
+		"letter_spacing": -0.24
+	},
+	"paragraph_primary_small": {
+		"font_family": "var(--font-family-alfasans)",
+		"font_size": 14,
+		"line_height": 20,
+		"font_weight": 400,
+		"letter_spacing": -0.08
+	},
+	"paragraph_secondary_large": {
+		"font_family": "var(--font-family-alfasans)",
+		"font_size": 13,
+		"line_height": 16,
+		"font_weight": 400
+	},
+	"paragraph_secondary_medium": {
+		"font_family": "var(--font-family-alfasans)",
+		"font_size": 12,
+		"line_height": 16,
+		"font_weight": 400,
+		"letter_spacing": 0.06
+	},
+	"paragraph_secondary_small": {
+		"font_family": "var(--font-family-alfasans)",
+		"font_size": 11,
+		"line_height": 16,
+		"font_weight": 400,
+		"letter_spacing": 0.15
+	},
+	"paragraph_tagline": {
+		"font_family": "var(--font-family-alfasans)",
+		"font_size": 12,
+		"line_height": 16,
+		"font_weight": 400,
+		"letter_spacing": 1.25,
+		"text_transform": "uppercase"
+	},
+	"promo-system_large": {
+		"font_family": "var(--font-family-alfasans)",
+		"font_size": 40,
+		"line_height": 48,
+		"font_weight": 400,
+		"letter_spacing": -1.7
+	},
+	"promo-system_medium": {
+		"font_family": "var(--font-family-alfasans)",
+		"font_size": 30,
+		"line_height": 36,
+		"font_weight": 400,
+		"letter_spacing": -1.25
+	},
+	"promo-system_small": {
+		"font_family": "var(--font-family-alfasans)",
+		"font_size": 22,
+		"line_height": 26,
+		"font_weight": 400,
+		"letter_spacing": -0.8
+	},
+	"promo-system_xlarge": {
+		"font_family": "var(--font-family-alfasans)",
+		"font_size": 48,
+		"line_height": 52,
+		"font_weight": 400,
+		"letter_spacing": -2.1
+	},
+	"promo-system_xsmall": {
+		"font_family": "var(--font-family-alfasans)",
+		"font_size": 18,
+		"line_height": 22,
+		"font_weight": 400,
+		"letter_spacing": -0.36
+	},
+	"promo-system-mobile_large": {
+		"font_family": "var(--font-family-alfasans)",
+		"font_size": 30,
+		"line_height": 36,
+		"font_weight": 400,
+		"letter_spacing": -1.25
+	},
+	"promo-system-mobile_medium": {
+		"font_family": "var(--font-family-alfasans)",
+		"font_size": 26,
+		"line_height": 32,
+		"font_weight": 400,
+		"letter_spacing": -1
+	},
+	"promo-system-mobile_small": {
+		"font_family": "var(--font-family-alfasans)",
+		"font_size": 20,
+		"line_height": 28,
+		"font_weight": 400,
+		"letter_spacing": -0.68
+	},
+	"promo-system-mobile_xlarge": {
+		"font_family": "var(--font-family-alfasans)",
+		"font_size": 34,
+		"line_height": 40,
+		"font_weight": 400,
+		"letter_spacing": -1.36
+	},
+	"promo-system-mobile_xsmall": {
+		"font_family": "var(--font-family-alfasans)",
+		"font_size": 16,
+		"line_height": 20,
+		"font_weight": 400,
+		"letter_spacing": -0.24
+	}
+}
