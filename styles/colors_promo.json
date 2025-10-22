@@ -4,1350 +4,1541 @@
 		"hex": "#ffcf99",
 		"figma": "promo/chardonnay",
 		"web": "--color-dark-promo-chardonnay",
-		"alias": "promoColorChardonnay"
+		"alias": "promoColorChardonnay",
+		"deprecated": true
 	},
 	"dark_promo_chardonnay_hover": {
 		"rgba": "rgba(255, 216, 172, 1)",
 		"hex": "#ffd8ac",
 		"figma": "promo/chardonnay/hover",
 		"web": "--color-dark-promo-chardonnay-hover",
-		"alias": "promoColorChardonnayHover"
+		"alias": "promoColorChardonnayHover",
+		"deprecated": true
 	},
 	"dark_promo_chardonnay_press": {
 		"rgba": "rgba(255, 224, 190, 1)",
 		"hex": "#ffe0be",
 		"figma": "promo/chardonnay/press",
 		"web": "--color-dark-promo-chardonnay-press",
-		"alias": "promoColorChardonnayPress"
+		"alias": "promoColorChardonnayPress",
+		"deprecated": true
 	},
 	"dark_promo_classic": {
 		"rgba": "rgba(42, 44, 47, 1)",
 		"hex": "#2a2c2f",
 		"figma": "promo/classic",
 		"web": "--color-dark-promo-classic",
-		"alias": "promoColorClassic"
+		"alias": "promoColorClassic",
+		"deprecated": true
 	},
 	"dark_promo_classic_hover": {
 		"rgba": "rgba(49, 51, 55, 1)",
 		"hex": "#313337",
 		"figma": "promo/classic/hover",
 		"web": "--color-dark-promo-classic-hover",
-		"alias": "promoColorClassicHover"
+		"alias": "promoColorClassicHover",
+		"deprecated": true
 	},
 	"dark_promo_classic_press": {
 		"rgba": "rgba(54, 57, 61, 1)",
 		"hex": "#36393d",
 		"figma": "promo/classic/press",
 		"web": "--color-dark-promo-classic-press",
-		"alias": "promoColorClassicPress"
+		"alias": "promoColorClassicPress",
+		"deprecated": true
 	},
 	"dark_promo_conclave": {
 		"rgba": "rgba(179, 204, 255, 1)",
 		"hex": "#b3ccff",
 		"figma": "promo/conclave",
 		"web": "--color-dark-promo-conclave",
-		"alias": "promoColorConclave"
+		"alias": "promoColorConclave",
+		"deprecated": true
 	},
 	"dark_promo_conclave_hover": {
 		"rgba": "rgba(189, 211, 255, 1)",
 		"hex": "#bdd3ff",
 		"figma": "promo/conclave/hover",
 		"web": "--color-dark-promo-conclave-hover",
-		"alias": "promoColorConclaveHover"
+		"alias": "promoColorConclaveHover",
+		"deprecated": true
 	},
 	"dark_promo_conclave_press": {
 		"rgba": "rgba(198, 217, 255, 1)",
 		"hex": "#c6d9ff",
 		"figma": "promo/conclave/press",
 		"web": "--color-dark-promo-conclave-press",
-		"alias": "promoColorConclavePress"
+		"alias": "promoColorConclavePress",
+		"deprecated": true
 	},
 	"dark_promo_gravel": {
 		"rgba": "rgba(42, 44, 47, 1)",
 		"hex": "#2a2c2f",
 		"figma": "promo/gravel",
 		"web": "--color-dark-promo-gravel",
-		"alias": "promoColorGravel"
+		"alias": "promoColorGravel",
+		"deprecated": true
 	},
 	"dark_promo_gravel_hover": {
 		"rgba": "rgba(49, 51, 55, 1)",
 		"hex": "#313337",
 		"figma": "promo/gravel/hover",
 		"web": "--color-dark-promo-gravel-hover",
-		"alias": "promoColorGravelHover"
+		"alias": "promoColorGravelHover",
+		"deprecated": true
 	},
 	"dark_promo_gravel_press": {
 		"rgba": "rgba(54, 57, 61, 1)",
 		"hex": "#36393d",
 		"figma": "promo/gravel/press",
 		"web": "--color-dark-promo-gravel-press",
-		"alias": "promoColorGravelPress"
+		"alias": "promoColorGravelPress",
+		"deprecated": true
 	},
 	"dark_promo_lagoon": {
 		"rgba": "rgba(157, 242, 245, 1)",
 		"hex": "#9df2f5",
 		"figma": "promo/lagoon",
 		"web": "--color-dark-promo-lagoon",
-		"alias": "promoColorLagoon"
+		"alias": "promoColorLagoon",
+		"deprecated": true
 	},
 	"dark_promo_lagoon_hover": {
 		"rgba": "rgba(181, 245, 247, 1)",
 		"hex": "#b5f5f7",
 		"figma": "promo/lagoon/hover",
 		"web": "--color-dark-promo-lagoon-hover",
-		"alias": "promoColorLagoonHover"
+		"alias": "promoColorLagoonHover",
+		"deprecated": true
 	},
 	"dark_promo_lagoon_press": {
 		"rgba": "rgba(203, 248, 249, 1)",
 		"hex": "#cbf8f9",
 		"figma": "promo/lagoon/press",
 		"web": "--color-dark-promo-lagoon-press",
-		"alias": "promoColorLagoonPress"
+		"alias": "promoColorLagoonPress",
+		"deprecated": true
 	},
 	"dark_promo_menthol": {
 		"rgba": "rgba(191, 240, 168, 1)",
 		"hex": "#bff0a8",
 		"figma": "promo/menthol",
 		"web": "--color-dark-promo-menthol",
-		"alias": "promoColorMenthol"
+		"alias": "promoColorMenthol",
+		"deprecated": true
 	},
 	"dark_promo_menthol_hover": {
 		"rgba": "rgba(206, 243, 189, 1)",
 		"hex": "#cef3bd",
 		"figma": "promo/menthol/hover",
 		"web": "--color-dark-promo-menthol-hover",
-		"alias": "promoColorMentholHover"
+		"alias": "promoColorMentholHover",
+		"deprecated": true
 	},
 	"dark_promo_menthol_press": {
 		"rgba": "rgba(219, 246, 208, 1)",
 		"hex": "#dbf6d0",
 		"figma": "promo/menthol/press",
 		"web": "--color-dark-promo-menthol-press",
-		"alias": "promoColorMentholPress"
+		"alias": "promoColorMentholPress",
+		"deprecated": true
 	},
 	"dark_promo_muted_gravel": {
 		"rgba": "rgba(53, 53, 57, 1)",
 		"hex": "#353539",
 		"figma": "promo-muted/gravel",
 		"web": "--color-dark-promo-muted-gravel",
-		"alias": "promoMutedColorGravel"
+		"alias": "promoMutedColorGravel",
+		"deprecated": true
 	},
 	"dark_promo_muted_gravel_hover": {
 		"rgba": "rgba(58, 58, 63, 1)",
 		"hex": "#3a3a3f",
 		"figma": "promo-muted/gravel/hover",
 		"web": "--color-dark-promo-muted-gravel-hover",
-		"alias": "promoMutedColorGravelHover"
+		"alias": "promoMutedColorGravelHover",
+		"deprecated": true
 	},
 	"dark_promo_muted_gravel_press": {
 		"rgba": "rgba(63, 63, 68, 1)",
 		"hex": "#3f3f44",
 		"figma": "promo-muted/gravel/press",
 		"web": "--color-dark-promo-muted-gravel-press",
-		"alias": "promoMutedColorGravelPress"
+		"alias": "promoMutedColorGravelPress",
+		"deprecated": true
 	},
 	"dark_promo_muted_menthol": {
 		"rgba": "rgba(27, 40, 22, 1)",
 		"hex": "#1b2816",
 		"figma": "promo-muted/menthol",
 		"web": "--color-dark-promo-muted-menthol",
-		"alias": "promoMutedColorMenthol"
+		"alias": "promoMutedColorMenthol",
+		"deprecated": true
 	},
 	"dark_promo_muted_menthol_hover": {
 		"rgba": "rgba(31, 45, 26, 1)",
 		"hex": "#1f2d1a",
 		"figma": "promo-muted/menthol/hover",
 		"web": "--color-dark-promo-muted-menthol-hover",
-		"alias": "promoMutedColorMentholHover"
+		"alias": "promoMutedColorMentholHover",
+		"deprecated": true
 	},
 	"dark_promo_muted_menthol_press": {
 		"rgba": "rgba(35, 51, 29, 1)",
 		"hex": "#23331d",
 		"figma": "promo-muted/menthol/press",
 		"web": "--color-dark-promo-muted-menthol-press",
-		"alias": "promoMutedColorMentholPress"
+		"alias": "promoMutedColorMentholPress",
+		"deprecated": true
 	},
 	"dark_promo_muted_sonata": {
 		"rgba": "rgba(34, 42, 62, 1)",
 		"hex": "#222a3e",
 		"figma": "promo-muted/sonata",
 		"web": "--color-dark-promo-muted-sonata",
-		"alias": "promoMutedColorSonata"
+		"alias": "promoMutedColorSonata",
+		"deprecated": true
 	},
 	"dark_promo_muted_sonata_hover": {
 		"rgba": "rgba(38, 47, 69, 1)",
 		"hex": "#262f45",
 		"figma": "promo-muted/sonata/hover",
 		"web": "--color-dark-promo-muted-sonata-hover",
-		"alias": "promoMutedColorSonataHover"
+		"alias": "promoMutedColorSonataHover",
+		"deprecated": true
 	},
 	"dark_promo_muted_sonata_press": {
 		"rgba": "rgba(42, 52, 75, 1)",
 		"hex": "#2a344b",
 		"figma": "promo-muted/sonata/press",
 		"web": "--color-dark-promo-muted-sonata-press",
-		"alias": "promoMutedColorSonataPress"
+		"alias": "promoMutedColorSonataPress",
+		"deprecated": true
 	},
 	"dark_promo_muted_tomato": {
 		"rgba": "rgba(62, 35, 33, 1)",
 		"hex": "#3e2321",
 		"figma": "promo-muted/tomato",
 		"web": "--color-dark-promo-muted-tomato",
-		"alias": "promoMutedColorTomato"
+		"alias": "promoMutedColorTomato",
+		"deprecated": true
 	},
 	"dark_promo_muted_tomato_hover": {
 		"rgba": "rgba(69, 39, 37, 1)",
 		"hex": "#452725",
 		"figma": "promo-muted/tomato/hover",
 		"web": "--color-dark-promo-muted-tomato-hover",
-		"alias": "promoMutedColorTomatoHover"
+		"alias": "promoMutedColorTomatoHover",
+		"deprecated": true
 	},
 	"dark_promo_muted_tomato_press": {
 		"rgba": "rgba(76, 44, 41, 1)",
 		"hex": "#4c2c29",
 		"figma": "promo-muted/tomato/press",
 		"web": "--color-dark-promo-muted-tomato-press",
-		"alias": "promoMutedColorTomatoPress"
+		"alias": "promoMutedColorTomatoPress",
+		"deprecated": true
 	},
 	"dark_promo_oasis": {
 		"rgba": "rgba(223, 191, 255, 1)",
 		"hex": "#dfbfff",
 		"figma": "promo/oasis",
 		"web": "--color-dark-promo-oasis",
-		"alias": "promoColorOasis"
+		"alias": "promoColorOasis",
+		"deprecated": true
 	},
 	"dark_promo_oasis_hover": {
 		"rgba": "rgba(227, 200, 255, 1)",
 		"hex": "#e3c8ff",
 		"figma": "promo/oasis/hover",
 		"web": "--color-dark-promo-oasis-hover",
-		"alias": "promoColorOasisHover"
+		"alias": "promoColorOasisHover",
+		"deprecated": true
 	},
 	"dark_promo_oasis_press": {
 		"rgba": "rgba(231, 209, 255, 1)",
 		"hex": "#e7d1ff",
 		"figma": "promo/oasis/press",
 		"web": "--color-dark-promo-oasis-press",
-		"alias": "promoColorOasisPress"
+		"alias": "promoColorOasisPress",
+		"deprecated": true
 	},
 	"dark_promo_pale_chardonnay": {
 		"rgba": "rgba(255, 229, 199, 1)",
 		"hex": "#ffe5c7",
 		"figma": "promo-pale/chardonnay",
 		"web": "--color-dark-promo-pale-chardonnay",
-		"alias": "promoPaleColorChardonnay"
+		"alias": "promoPaleColorChardonnay",
+		"deprecated": true
 	},
 	"dark_promo_pale_conclave": {
 		"rgba": "rgba(214, 230, 255, 1)",
 		"hex": "#d6e6ff",
 		"figma": "promo-pale/conclave",
 		"web": "--color-dark-promo-pale-conclave",
-		"alias": "promoPaleColorConclave"
+		"alias": "promoPaleColorConclave",
+		"deprecated": true
 	},
 	"dark_promo_pale_lagoon": {
 		"rgba": "rgba(197, 248, 250, 1)",
 		"hex": "#c5f8fa",
 		"figma": "promo-pale/lagoon",
 		"web": "--color-dark-promo-pale-lagoon",
-		"alias": "promoPaleColorLagoon"
+		"alias": "promoPaleColorLagoon",
+		"deprecated": true
 	},
 	"dark_promo_pale_oasis": {
 		"rgba": "rgba(235, 214, 255, 1)",
 		"hex": "#ebd6ff",
 		"figma": "promo-pale/oasis",
 		"web": "--color-dark-promo-pale-oasis",
-		"alias": "promoPaleColorOasis"
+		"alias": "promoPaleColorOasis",
+		"deprecated": true
 	},
 	"dark_promo_pale_pearl": {
 		"rgba": "rgba(241, 244, 244, 1)",
 		"hex": "#f1f4f4",
 		"figma": "promo-pale/pearl",
 		"web": "--color-dark-promo-pale-pearl",
-		"alias": "promoPaleColorPearl"
+		"alias": "promoPaleColorPearl",
+		"deprecated": true
 	},
 	"dark_promo_pale_primrose": {
 		"rgba": "rgba(234, 255, 179, 1)",
 		"hex": "#eaffb3",
 		"figma": "promo-pale/primrose",
 		"web": "--color-dark-promo-pale-primrose",
-		"alias": "promoPaleColorPrimrose"
+		"alias": "promoPaleColorPrimrose",
+		"deprecated": true
 	},
 	"dark_promo_pale_seafoam": {
 		"rgba": "rgba(214, 255, 231, 1)",
 		"hex": "#d6ffe7",
 		"figma": "promo-pale/seafoam",
 		"web": "--color-dark-promo-pale-seafoam",
-		"alias": "promoPaleColorSeafoam"
+		"alias": "promoPaleColorSeafoam",
+		"deprecated": true
 	},
 	"dark_promo_pale_tomato": {
 		"rgba": "rgba(255, 219, 216, 1)",
 		"hex": "#ffdbd8",
 		"figma": "promo-pale/tomato",
 		"web": "--color-dark-promo-pale-tomato",
-		"alias": "promoPaleColorTomato"
+		"alias": "promoPaleColorTomato",
+		"deprecated": true
 	},
 	"dark_promo_peach": {
 		"rgba": "rgba(255, 203, 179, 1)",
 		"hex": "#ffcbb3",
 		"figma": "promo/peach",
 		"web": "--color-dark-promo-peach",
-		"alias": "promoColorPeach"
+		"alias": "promoColorPeach",
+		"deprecated": true
 	},
 	"dark_promo_peach_hover": {
 		"rgba": "rgba(255, 212, 193, 1)",
 		"hex": "#ffd4c1",
 		"figma": "promo/peach/hover",
 		"web": "--color-dark-promo-peach-hover",
-		"alias": "promoColorPeachHover"
+		"alias": "promoColorPeachHover",
+		"deprecated": true
 	},
 	"dark_promo_peach_press": {
 		"rgba": "rgba(255, 221, 206, 1)",
 		"hex": "#ffddce",
 		"figma": "promo/peach/press",
 		"web": "--color-dark-promo-peach-press",
-		"alias": "promoColorPeachPress"
+		"alias": "promoColorPeachPress",
+		"deprecated": true
 	},
 	"dark_promo_pearl": {
 		"rgba": "rgba(234, 238, 238, 1)",
 		"hex": "#eaeeee",
 		"figma": "promo/pearl",
 		"web": "--color-dark-promo-pearl",
-		"alias": "promoColorPearl"
+		"alias": "promoColorPearl",
+		"deprecated": true
 	},
 	"dark_promo_pearl_hover": {
 		"rgba": "rgba(242, 244, 244, 1)",
 		"hex": "#f2f4f4",
 		"figma": "promo/pearl/hover",
 		"web": "--color-dark-promo-pearl-hover",
-		"alias": "promoColorPearlHover"
+		"alias": "promoColorPearlHover",
+		"deprecated": true
 	},
 	"dark_promo_pearl_press": {
 		"rgba": "rgba(246, 247, 247, 1)",
 		"hex": "#f6f7f7",
 		"figma": "promo/pearl/press",
 		"web": "--color-dark-promo-pearl-press",
-		"alias": "promoColorPearlPress"
+		"alias": "promoColorPearlPress",
+		"deprecated": true
 	},
 	"dark_promo_prelude": {
 		"rgba": "rgba(199, 191, 255, 1)",
 		"hex": "#c7bfff",
 		"figma": "promo/prelude",
 		"web": "--color-dark-promo-prelude",
-		"alias": "promoColorPrelude"
+		"alias": "promoColorPrelude",
+		"deprecated": true
 	},
 	"dark_promo_prelude_hover": {
 		"rgba": "rgba(205, 199, 255, 1)",
 		"hex": "#cdc7ff",
 		"figma": "promo/prelude/hover",
 		"web": "--color-dark-promo-prelude-hover",
-		"alias": "promoColorPreludeHover"
+		"alias": "promoColorPreludeHover",
+		"deprecated": true
 	},
 	"dark_promo_prelude_press": {
 		"rgba": "rgba(212, 206, 255, 1)",
 		"hex": "#d4ceff",
 		"figma": "promo/prelude/press",
 		"web": "--color-dark-promo-prelude-press",
-		"alias": "promoColorPreludePress"
+		"alias": "promoColorPreludePress",
+		"deprecated": true
 	},
 	"dark_promo_primrose": {
 		"rgba": "rgba(214, 240, 154, 1)",
 		"hex": "#d6f09a",
 		"figma": "promo/primrose",
 		"web": "--color-dark-promo-primrose",
-		"alias": "promoColorPrimrose"
+		"alias": "promoColorPrimrose",
+		"deprecated": true
 	},
 	"dark_promo_primrose_hover": {
 		"rgba": "rgba(221, 246, 164, 1)",
 		"hex": "#ddf6a4",
 		"figma": "promo/primrose/hover",
 		"web": "--color-dark-promo-primrose-hover",
-		"alias": "promoColorPrimroseHover"
+		"alias": "promoColorPrimroseHover",
+		"deprecated": true
 	},
 	"dark_promo_primrose_press": {
 		"rgba": "rgba(232, 248, 199, 1)",
 		"hex": "#e8f8c7",
 		"figma": "promo/primrose/press",
 		"web": "--color-dark-promo-primrose-press",
-		"alias": "promoColorPrimrosePress"
+		"alias": "promoColorPrimrosePress",
+		"deprecated": true
 	},
 	"dark_promo_seafoam": {
 		"rgba": "rgba(160, 250, 198, 1)",
 		"hex": "#a0fac6",
 		"figma": "promo/seafoam",
 		"web": "--color-dark-promo-seafoam",
-		"alias": "promoColorSeafoam"
+		"alias": "promoColorSeafoam",
+		"deprecated": true
 	},
 	"dark_promo_seafoam_hover": {
 		"rgba": "rgba(186, 251, 212, 1)",
 		"hex": "#bafbd4",
 		"figma": "promo/seafoam/hover",
 		"web": "--color-dark-promo-seafoam-hover",
-		"alias": "promoColorSeafoamHover"
+		"alias": "promoColorSeafoamHover",
+		"deprecated": true
 	},
 	"dark_promo_seafoam_press": {
 		"rgba": "rgba(209, 252, 225, 1)",
 		"hex": "#d1fce1",
 		"figma": "promo/seafoam/press",
 		"web": "--color-dark-promo-seafoam-press",
-		"alias": "promoColorSeafoamPress"
+		"alias": "promoColorSeafoamPress",
+		"deprecated": true
 	},
 	"dark_promo_sonata": {
 		"rgba": "rgba(158, 223, 255, 1)",
 		"hex": "#9edfff",
 		"figma": "promo/sonata",
 		"web": "--color-dark-promo-sonata",
-		"alias": "promoColorSonata"
+		"alias": "promoColorSonata",
+		"deprecated": true
 	},
 	"dark_promo_sonata_hover": {
 		"rgba": "rgba(174, 228, 255, 1)",
 		"hex": "#aee4ff",
 		"figma": "promo/sonata/hover",
 		"web": "--color-dark-promo-sonata-hover",
-		"alias": "promoColorSonataHover"
+		"alias": "promoColorSonataHover",
+		"deprecated": true
 	},
 	"dark_promo_sonata_press": {
 		"rgba": "rgba(190, 233, 255, 1)",
 		"hex": "#bee9ff",
 		"figma": "promo/sonata/press",
 		"web": "--color-dark-promo-sonata-press",
-		"alias": "promoColorSonataPress"
+		"alias": "promoColorSonataPress",
+		"deprecated": true
 	},
 	"dark_promo_tomato": {
 		"rgba": "rgba(255, 202, 199, 1)",
 		"hex": "#ffcac7",
 		"figma": "promo/tomato",
 		"web": "--color-dark-promo-tomato",
-		"alias": "promoColorTomato"
+		"alias": "promoColorTomato",
+		"deprecated": true
 	},
 	"dark_promo_tomato_hover": {
 		"rgba": "rgba(255, 212, 209, 1)",
 		"hex": "#ffd4d1",
 		"figma": "promo/tomato/hover",
 		"web": "--color-dark-promo-tomato-hover",
-		"alias": "promoColorTomatoHover"
+		"alias": "promoColorTomatoHover",
+		"deprecated": true
 	},
 	"dark_promo_tomato_press": {
 		"rgba": "rgba(255, 221, 219, 1)",
 		"hex": "#ffdddb",
 		"figma": "promo/tomato/press",
 		"web": "--color-dark-promo-tomato-press",
-		"alias": "promoColorTomatoPress"
+		"alias": "promoColorTomatoPress",
+		"deprecated": true
 	},
 	"dark_promo_vibrant_chardonnay": {
 		"rgba": "rgba(250, 147, 25, 1)",
 		"hex": "#fa9319",
 		"figma": "promo-vibrant/chardonnay",
 		"web": "--color-dark-promo-vibrant-chardonnay",
-		"alias": "promoVibrantColorChardonnay"
+		"alias": "promoVibrantColorChardonnay",
+		"deprecated": true
 	},
 	"dark_promo_vibrant_chardonnay_hover": {
 		"rgba": "rgba(253, 161, 70, 1)",
 		"hex": "#fda146",
 		"figma": "promo-vibrant/chardonnay/hover",
 		"web": "--color-dark-promo-vibrant-chardonnay-hover",
-		"alias": "promoVibrantColorChardonnayHover"
+		"alias": "promoVibrantColorChardonnayHover",
+		"deprecated": true
 	},
 	"dark_promo_vibrant_chardonnay_press": {
 		"rgba": "rgba(253, 180, 115, 1)",
 		"hex": "#fdb473",
 		"figma": "promo-vibrant/chardonnay/press",
 		"web": "--color-dark-promo-vibrant-chardonnay-press",
-		"alias": "promoVibrantColorChardonnayPress"
+		"alias": "promoVibrantColorChardonnayPress",
+		"deprecated": true
 	},
 	"dark_promo_vibrant_conclave": {
 		"rgba": "rgba(38, 111, 255, 1)",
 		"hex": "#266fff",
 		"figma": "promo-vibrant/conclave",
 		"web": "--color-dark-promo-vibrant-conclave",
-		"alias": "promoVibrantColorConclave"
+		"alias": "promoVibrantColorConclave",
+		"deprecated": true
 	},
 	"dark_promo_vibrant_conclave_hover": {
 		"rgba": "rgba(57, 124, 255, 1)",
 		"hex": "#397cff",
 		"figma": "promo-vibrant/conclave/hover",
 		"web": "--color-dark-promo-vibrant-conclave-hover",
-		"alias": "promoVibrantColorConclaveHover"
+		"alias": "promoVibrantColorConclaveHover",
+		"deprecated": true
 	},
 	"dark_promo_vibrant_conclave_press": {
 		"rgba": "rgba(74, 136, 255, 1)",
 		"hex": "#4a88ff",
 		"figma": "promo-vibrant/conclave/press",
 		"web": "--color-dark-promo-vibrant-conclave-press",
-		"alias": "promoVibrantColorConclavePress"
+		"alias": "promoVibrantColorConclavePress",
+		"deprecated": true
 	},
 	"dark_promo_vibrant_lagoon": {
 		"rgba": "rgba(0, 232, 240, 1)",
 		"hex": "#00e8f0",
 		"figma": "promo-vibrant/lagoon",
 		"web": "--color-dark-promo-vibrant-lagoon",
-		"alias": "promoVibrantColorLagoon"
+		"alias": "promoVibrantColorLagoon",
+		"deprecated": true
 	},
 	"dark_promo_vibrant_lagoon_hover": {
 		"rgba": "rgba(0, 243, 251, 1)",
 		"hex": "#00f3fb",
 		"figma": "promo-vibrant/lagoon/hover",
 		"web": "--color-dark-promo-vibrant-lagoon-hover",
-		"alias": "promoVibrantColorLagoonHover"
+		"alias": "promoVibrantColorLagoonHover",
+		"deprecated": true
 	},
 	"dark_promo_vibrant_lagoon_press": {
 		"rgba": "rgba(105, 249, 255, 1)",
 		"hex": "#69f9ff",
 		"figma": "promo-vibrant/lagoon/press",
 		"web": "--color-dark-promo-vibrant-lagoon-press",
-		"alias": "promoVibrantColorLagoonPress"
+		"alias": "promoVibrantColorLagoonPress",
+		"deprecated": true
 	},
 	"dark_promo_vibrant_menthol": {
 		"rgba": "rgba(49, 227, 0, 1)",
 		"hex": "#31e300",
 		"figma": "promo-vibrant/menthol",
 		"web": "--color-dark-promo-vibrant-menthol",
-		"alias": "promoVibrantColorMenthol"
+		"alias": "promoVibrantColorMenthol",
+		"deprecated": true
 	},
 	"dark_promo_vibrant_menthol_hover": {
 		"rgba": "rgba(52, 238, 0, 1)",
 		"hex": "#34ee00",
 		"figma": "promo-vibrant/menthol/hover",
 		"web": "--color-dark-promo-vibrant-menthol-hover",
-		"alias": "promoVibrantColorMentholHover"
+		"alias": "promoVibrantColorMentholHover",
+		"deprecated": true
 	},
 	"dark_promo_vibrant_menthol_press": {
 		"rgba": "rgba(55, 250, 0, 1)",
 		"hex": "#37fa00",
 		"figma": "promo-vibrant/menthol/press",
 		"web": "--color-dark-promo-vibrant-menthol-press",
-		"alias": "promoVibrantColorMentholPress"
+		"alias": "promoVibrantColorMentholPress",
+		"deprecated": true
 	},
 	"dark_promo_vibrant_oasis": {
 		"rgba": "rgba(153, 51, 255, 1)",
 		"hex": "#9933ff",
 		"figma": "promo-vibrant/oasis",
 		"web": "--color-dark-promo-vibrant-oasis",
-		"alias": "promoVibrantColorOasis"
+		"alias": "promoVibrantColorOasis",
+		"deprecated": true
 	},
 	"dark_promo_vibrant_oasis_hover": {
 		"rgba": "rgba(159, 76, 255, 1)",
 		"hex": "#9f4cff",
 		"figma": "promo-vibrant/oasis/hover",
 		"web": "--color-dark-promo-vibrant-oasis-hover",
-		"alias": "promoVibrantColorOasisHover"
+		"alias": "promoVibrantColorOasisHover",
+		"deprecated": true
 	},
 	"dark_promo_vibrant_oasis_press": {
 		"rgba": "rgba(165, 95, 255, 1)",
 		"hex": "#a55fff",
 		"figma": "promo-vibrant/oasis/press",
 		"web": "--color-dark-promo-vibrant-oasis-press",
-		"alias": "promoVibrantColorOasisPress"
+		"alias": "promoVibrantColorOasisPress",
+		"deprecated": true
 	},
 	"dark_promo_vibrant_peach": {
 		"rgba": "rgba(255, 104, 28, 1)",
 		"hex": "#ff681c",
 		"figma": "promo-vibrant/peach",
 		"web": "--color-dark-promo-vibrant-peach",
-		"alias": "promoVibrantColorPeach"
+		"alias": "promoVibrantColorPeach",
+		"deprecated": true
 	},
 	"dark_promo_vibrant_peach_hover": {
 		"rgba": "rgba(255, 124, 68, 1)",
 		"hex": "#ff7c44",
 		"figma": "promo-vibrant/peach/hover",
 		"web": "--color-dark-promo-vibrant-peach-hover",
-		"alias": "promoVibrantColorPeachHover"
+		"alias": "promoVibrantColorPeachHover",
+		"deprecated": true
 	},
 	"dark_promo_vibrant_peach_press": {
 		"rgba": "rgba(255, 141, 95, 1)",
 		"hex": "#ff8d5f",
 		"figma": "promo-vibrant/peach/press",
 		"web": "--color-dark-promo-vibrant-peach-press",
-		"alias": "promoVibrantColorPeachPress"
+		"alias": "promoVibrantColorPeachPress",
+		"deprecated": true
 	},
 	"dark_promo_vibrant_prelude": {
 		"rgba": "rgba(106, 77, 255, 1)",
 		"hex": "#6a4dff",
 		"figma": "promo-vibrant/prelude",
 		"web": "--color-dark-promo-vibrant-prelude",
-		"alias": "promoVibrantColorPrelude"
+		"alias": "promoVibrantColorPrelude",
+		"deprecated": true
 	},
 	"dark_promo_vibrant_prelude_hover": {
 		"rgba": "rgba(113, 94, 255, 1)",
 		"hex": "#715eff",
 		"figma": "promo-vibrant/prelude/hover",
 		"web": "--color-dark-promo-vibrant-prelude-hover",
-		"alias": "promoVibrantColorPreludeHover"
+		"alias": "promoVibrantColorPreludeHover",
+		"deprecated": true
 	},
 	"dark_promo_vibrant_prelude_press": {
 		"rgba": "rgba(121, 109, 255, 1)",
 		"hex": "#796dff",
 		"figma": "promo-vibrant/prelude/press",
 		"web": "--color-dark-promo-vibrant-prelude-press",
-		"alias": "promoVibrantColorPreludePress"
+		"alias": "promoVibrantColorPreludePress",
+		"deprecated": true
 	},
 	"dark_promo_vibrant_primrose": {
 		"rgba": "rgba(168, 240, 0, 1)",
 		"hex": "#a8f000",
 		"figma": "promo-vibrant/primrose",
 		"web": "--color-dark-promo-vibrant-primrose",
-		"alias": "promoVibrantColorPrimrose"
+		"alias": "promoVibrantColorPrimrose",
+		"deprecated": true
 	},
 	"dark_promo_vibrant_primrose_hover": {
 		"rgba": "rgba(173, 247, 0, 1)",
 		"hex": "#adf700",
 		"figma": "promo-vibrant/primrose/hover",
 		"web": "--color-dark-promo-vibrant-primrose-hover",
-		"alias": "promoVibrantColorPrimroseHover"
+		"alias": "promoVibrantColorPrimroseHover",
+		"deprecated": true
 	},
 	"dark_promo_vibrant_primrose_press": {
 		"rgba": "rgba(178, 255, 0, 1)",
 		"hex": "#b2ff00",
 		"figma": "promo-vibrant/primrose/press",
 		"web": "--color-dark-promo-vibrant-primrose-press",
-		"alias": "promoVibrantColorPrimrosePress"
+		"alias": "promoVibrantColorPrimrosePress",
+		"deprecated": true
 	},
 	"dark_promo_vibrant_seafoam": {
 		"rgba": "rgba(0, 240, 100, 1)",
 		"hex": "#00f064",
 		"figma": "promo-vibrant/seafoam",
 		"web": "--color-dark-promo-vibrant-seafoam",
-		"alias": "promoVibrantColorSeafoam"
+		"alias": "promoVibrantColorSeafoam",
+		"deprecated": true
 	},
 	"dark_promo_vibrant_seafoam_hover": {
 		"rgba": "rgba(0, 251, 105, 1)",
 		"hex": "#00fb69",
 		"figma": "promo-vibrant/seafoam/hover",
 		"web": "--color-dark-promo-vibrant-seafoam-hover",
-		"alias": "promoVibrantColorSeafoamHover"
+		"alias": "promoVibrantColorSeafoamHover",
+		"deprecated": true
 	},
 	"dark_promo_vibrant_seafoam_press": {
 		"rgba": "rgba(107, 255, 139, 1)",
 		"hex": "#6bff8b",
 		"figma": "promo-vibrant/seafoam/press",
 		"web": "--color-dark-promo-vibrant-seafoam-press",
-		"alias": "promoVibrantColorSeafoamPress"
+		"alias": "promoVibrantColorSeafoamPress",
+		"deprecated": true
 	},
 	"dark_promo_vibrant_sonata": {
 		"rgba": "rgba(23, 160, 229, 1)",
 		"hex": "#17a0e5",
 		"figma": "promo-vibrant/sonata",
 		"web": "--color-dark-promo-vibrant-sonata",
-		"alias": "promoVibrantColorSonata"
+		"alias": "promoVibrantColorSonata",
+		"deprecated": true
 	},
 	"dark_promo_vibrant_sonata_hover": {
 		"rgba": "rgba(24, 170, 243, 1)",
 		"hex": "#18aaf3",
 		"figma": "promo-vibrant/sonata/hover",
 		"web": "--color-dark-promo-vibrant-sonata-hover",
-		"alias": "promoVibrantColorSonataHover"
+		"alias": "promoVibrantColorSonataHover",
+		"deprecated": true
 	},
 	"dark_promo_vibrant_sonata_press": {
 		"rgba": "rgba(45, 180, 252, 1)",
 		"hex": "#2db4fc",
 		"figma": "promo-vibrant/sonata/press",
 		"web": "--color-dark-promo-vibrant-sonata-press",
-		"alias": "promoVibrantColorSonataPress"
+		"alias": "promoVibrantColorSonataPress",
+		"deprecated": true
 	},
 	"dark_promo_vibrant_tomato": {
 		"rgba": "rgba(239, 49, 36, 1)",
 		"hex": "#ef3124",
 		"figma": "promo-vibrant/tomato",
 		"web": "--color-dark-promo-vibrant-tomato",
-		"alias": "promoVibrantColorTomato"
+		"alias": "promoVibrantColorTomato",
+		"deprecated": true
 	},
 	"dark_promo_vibrant_tomato_hover": {
 		"rgba": "rgba(245, 72, 56, 1)",
 		"hex": "#f54838",
 		"figma": "promo-vibrant/tomato/hover",
 		"web": "--color-dark-promo-vibrant-tomato-hover",
-		"alias": "promoVibrantColorTomatoHover"
+		"alias": "promoVibrantColorTomatoHover",
+		"deprecated": true
 	},
 	"dark_promo_vibrant_tomato_press": {
 		"rgba": "rgba(245, 95, 78, 1)",
 		"hex": "#f55f4e",
 		"figma": "promo-vibrant/tomato/press",
 		"web": "--color-dark-promo-vibrant-tomato-press",
-		"alias": "promoVibrantColorTomatoPress"
+		"alias": "promoVibrantColorTomatoPress",
+		"deprecated": true
 	},
 	"light_promo_chardonnay": {
 		"rgba": "rgba(255, 207, 153, 1)",
 		"hex": "#ffcf99",
 		"figma": "promo/chardonnay",
 		"web": "--color-light-promo-chardonnay",
-		"alias": "promoColorChardonnay"
+		"alias": "promoColorChardonnay",
+		"deprecated": true
 	},
 	"light_promo_chardonnay_hover": {
 		"rgba": "rgba(255, 198, 133, 1)",
 		"hex": "#ffc685",
 		"figma": "promo/chardonnay/hover",
 		"web": "--color-light-promo-chardonnay-hover",
-		"alias": "promoColorChardonnayHover"
+		"alias": "promoColorChardonnayHover",
+		"deprecated": true
 	},
 	"light_promo_chardonnay_press": {
 		"rgba": "rgba(255, 189, 111, 1)",
 		"hex": "#ffbd6f",
 		"figma": "promo/chardonnay/press",
 		"web": "--color-light-promo-chardonnay-press",
-		"alias": "promoColorChardonnayPress"
+		"alias": "promoColorChardonnayPress",
+		"deprecated": true
 	},
 	"light_promo_classic": {
 		"rgba": "rgba(0, 0, 0, 1)",
 		"hex": "#000000",
 		"figma": "promo/classic",
 		"web": "--color-light-promo-classic",
-		"alias": "promoColorClassic"
+		"alias": "promoColorClassic",
+		"deprecated": true
 	},
 	"light_promo_classic_hover": {
 		"rgba": "rgba(22, 22, 22, 1)",
 		"hex": "#161616",
 		"figma": "promo/classic/hover",
 		"web": "--color-light-promo-classic-hover",
-		"alias": "promoColorClassicHover"
+		"alias": "promoColorClassicHover",
+		"deprecated": true
 	},
 	"light_promo_classic_press": {
 		"rgba": "rgba(27, 27, 27, 1)",
 		"hex": "#1b1b1b",
 		"figma": "promo/classic/press",
 		"web": "--color-light-promo-classic-press",
-		"alias": "promoColorClassicPress"
+		"alias": "promoColorClassicPress",
+		"deprecated": true
 	},
 	"light_promo_conclave": {
 		"rgba": "rgba(179, 204, 255, 1)",
 		"hex": "#b3ccff",
 		"figma": "promo/conclave",
 		"web": "--color-light-promo-conclave",
-		"alias": "promoColorConclave"
+		"alias": "promoColorConclave",
+		"deprecated": true
 	},
 	"light_promo_conclave_hover": {
 		"rgba": "rgba(169, 197, 255, 1)",
 		"hex": "#a9c5ff",
 		"figma": "promo/conclave/hover",
 		"web": "--color-light-promo-conclave-hover",
-		"alias": "promoColorConclaveHover"
+		"alias": "promoColorConclaveHover",
+		"deprecated": true
 	},
 	"light_promo_conclave_press": {
 		"rgba": "rgba(159, 191, 255, 1)",
 		"hex": "#9fbfff",
 		"figma": "promo/conclave/press",
 		"web": "--color-light-promo-conclave-press",
-		"alias": "promoColorConclavePress"
+		"alias": "promoColorConclavePress",
+		"deprecated": true
 	},
 	"light_promo_gravel": {
 		"rgba": "rgba(42, 44, 47, 1)",
 		"hex": "#2a2c2f",
 		"figma": "promo/gravel",
 		"web": "--color-light-promo-gravel",
-		"alias": "promoColorGravel"
+		"alias": "promoColorGravel",
+		"deprecated": true
 	},
 	"light_promo_gravel_hover": {
 		"rgba": "rgba(37, 39, 42, 1)",
 		"hex": "#25272a",
 		"figma": "promo/gravel/hover",
 		"web": "--color-light-promo-gravel-hover",
-		"alias": "promoColorGravelHover"
+		"alias": "promoColorGravelHover",
+		"deprecated": true
 	},
 	"light_promo_gravel_press": {
 		"rgba": "rgba(32, 34, 37, 1)",
 		"hex": "#202225",
 		"figma": "promo/gravel/press",
 		"web": "--color-light-promo-gravel-press",
-		"alias": "promoColorGravelPress"
+		"alias": "promoColorGravelPress",
+		"deprecated": true
 	},
 	"light_promo_lagoon": {
 		"rgba": "rgba(157, 242, 245, 1)",
 		"hex": "#9df2f5",
 		"figma": "promo/lagoon",
 		"web": "--color-light-promo-lagoon",
-		"alias": "promoColorLagoon"
+		"alias": "promoColorLagoon",
+		"deprecated": true
 	},
 	"light_promo_lagoon_hover": {
 		"rgba": "rgba(124, 240, 244, 1)",
 		"hex": "#7cf0f4",
 		"figma": "promo/lagoon/hover",
 		"web": "--color-light-promo-lagoon-hover",
-		"alias": "promoColorLagoonHover"
+		"alias": "promoColorLagoonHover",
+		"deprecated": true
 	},
 	"light_promo_lagoon_press": {
 		"rgba": "rgba(95, 236, 241, 1)",
 		"hex": "#5fecf1",
 		"figma": "promo/lagoon/press",
 		"web": "--color-light-promo-lagoon-press",
-		"alias": "promoColorLagoonPress"
+		"alias": "promoColorLagoonPress",
+		"deprecated": true
 	},
 	"light_promo_menthol": {
 		"rgba": "rgba(191, 240, 168, 1)",
 		"hex": "#bff0a8",
 		"figma": "promo/menthol",
 		"web": "--color-light-promo-menthol",
-		"alias": "promoColorMenthol"
+		"alias": "promoColorMenthol",
+		"deprecated": true
 	},
 	"light_promo_menthol_hover": {
 		"rgba": "rgba(174, 238, 143, 1)",
 		"hex": "#aeee8f",
 		"figma": "promo/menthol/hover",
 		"web": "--color-light-promo-menthol-hover",
-		"alias": "promoColorMentholHover"
+		"alias": "promoColorMentholHover",
+		"deprecated": true
 	},
 	"light_promo_menthol_press": {
 		"rgba": "rgba(168, 231, 136, 1)",
 		"hex": "#a8e788",
 		"figma": "promo/menthol/press",
 		"web": "--color-light-promo-menthol-press",
-		"alias": "promoColorMentholPress"
+		"alias": "promoColorMentholPress",
+		"deprecated": true
 	},
 	"light_promo_muted_gravel": {
 		"rgba": "rgba(42, 44, 47, 1)",
 		"hex": "#2a2c2f",
 		"figma": "promo-muted/gravel",
 		"web": "--color-light-promo-muted-gravel",
-		"alias": "promoMutedColorGravel"
+		"alias": "promoMutedColorGravel",
+		"deprecated": true
 	},
 	"light_promo_muted_gravel_hover": {
 		"rgba": "rgba(37, 39, 42, 1)",
 		"hex": "#25272a",
 		"figma": "promo-muted/gravel/hover",
 		"web": "--color-light-promo-muted-gravel-hover",
-		"alias": "promoMutedColorGravelHover"
+		"alias": "promoMutedColorGravelHover",
+		"deprecated": true
 	},
 	"light_promo_muted_gravel_press": {
 		"rgba": "rgba(32, 34, 37, 1)",
 		"hex": "#202225",
 		"figma": "promo-muted/gravel/press",
 		"web": "--color-light-promo-muted-gravel-press",
-		"alias": "promoMutedColorGravelPress"
+		"alias": "promoMutedColorGravelPress",
+		"deprecated": true
 	},
 	"light_promo_muted_menthol": {
 		"rgba": "rgba(234, 250, 226, 1)",
 		"hex": "#eafae2",
 		"figma": "promo-muted/menthol",
 		"web": "--color-light-promo-muted-menthol",
-		"alias": "promoMutedColorMenthol"
+		"alias": "promoMutedColorMenthol",
+		"deprecated": true
 	},
 	"light_promo_muted_menthol_hover": {
 		"rgba": "rgba(222, 247, 209, 1)",
 		"hex": "#def7d1",
 		"figma": "promo-muted/menthol/hover",
 		"web": "--color-light-promo-muted-menthol-hover",
-		"alias": "promoMutedColorMentholHover"
+		"alias": "promoMutedColorMentholHover",
+		"deprecated": true
 	},
 	"light_promo_muted_menthol_press": {
 		"rgba": "rgba(211, 242, 195, 1)",
 		"hex": "#d3f2c3",
 		"figma": "promo-muted/menthol/press",
 		"web": "--color-light-promo-muted-menthol-press",
-		"alias": "promoMutedColorMentholPress"
+		"alias": "promoMutedColorMentholPress",
+		"deprecated": true
 	},
 	"light_promo_muted_sonata": {
 		"rgba": "rgba(233, 246, 253, 1)",
 		"hex": "#e9f6fd",
 		"figma": "promo-muted/sonata",
 		"web": "--color-light-promo-muted-sonata",
-		"alias": "promoMutedColorSonata"
+		"alias": "promoMutedColorSonata",
+		"deprecated": true
 	},
 	"light_promo_muted_sonata_hover": {
 		"rgba": "rgba(220, 241, 252, 1)",
 		"hex": "#dcf1fc",
 		"figma": "promo-muted/sonata/hover",
 		"web": "--color-light-promo-muted-sonata-hover",
-		"alias": "promoMutedColorSonataHover"
+		"alias": "promoMutedColorSonataHover",
+		"deprecated": true
 	},
 	"light_promo_muted_sonata_press": {
 		"rgba": "rgba(207, 236, 251, 1)",
 		"hex": "#cfecfb",
 		"figma": "promo-muted/sonata/press",
 		"web": "--color-light-promo-muted-sonata-press",
-		"alias": "promoMutedColorSonataPress"
+		"alias": "promoMutedColorSonataPress",
+		"deprecated": true
 	},
 	"light_promo_muted_tomato": {
 		"rgba": "rgba(253, 241, 241, 1)",
 		"hex": "#fdf1f1",
 		"figma": "promo-muted/tomato",
 		"web": "--color-light-promo-muted-tomato",
-		"alias": "promoMutedColorTomato"
+		"alias": "promoMutedColorTomato",
+		"deprecated": true
 	},
 	"light_promo_muted_tomato_hover": {
 		"rgba": "rgba(255, 231, 231, 1)",
 		"hex": "#ffe7e7",
 		"figma": "promo-muted/tomato/hover",
 		"web": "--color-light-promo-muted-tomato-hover",
-		"alias": "promoMutedColorTomatoHover"
+		"alias": "promoMutedColorTomatoHover",
+		"deprecated": true
 	},
 	"light_promo_muted_tomato_press": {
 		"rgba": "rgba(255, 222, 222, 1)",
 		"hex": "#ffdede",
 		"figma": "promo-muted/tomato/press",
 		"web": "--color-light-promo-muted-tomato-press",
-		"alias": "promoMutedColorTomatoPress"
+		"alias": "promoMutedColorTomatoPress",
+		"deprecated": true
 	},
 	"light_promo_oasis": {
 		"rgba": "rgba(223, 191, 255, 1)",
 		"hex": "#dfbfff",
 		"figma": "promo/oasis",
 		"web": "--color-light-promo-oasis",
-		"alias": "promoColorOasis"
+		"alias": "promoColorOasis",
+		"deprecated": true
 	},
 	"light_promo_oasis_hover": {
 		"rgba": "rgba(219, 182, 255, 1)",
 		"hex": "#dbb6ff",
 		"figma": "promo/oasis/hover",
 		"web": "--color-light-promo-oasis-hover",
-		"alias": "promoColorOasisHover"
+		"alias": "promoColorOasisHover",
+		"deprecated": true
 	},
 	"light_promo_oasis_press": {
 		"rgba": "rgba(215, 173, 255, 1)",
 		"hex": "#d7adff",
 		"figma": "promo/oasis/press",
 		"web": "--color-light-promo-oasis-press",
-		"alias": "promoColorOasisPress"
+		"alias": "promoColorOasisPress",
+		"deprecated": true
 	},
 	"light_promo_pale_chardonnay": {
 		"rgba": "rgba(255, 229, 199, 1)",
 		"hex": "#ffe5c7",
 		"figma": "promo-pale/chardonnay",
 		"web": "--color-light-promo-pale-chardonnay",
-		"alias": "promoPaleColorChardonnay"
+		"alias": "promoPaleColorChardonnay",
+		"deprecated": true
 	},
 	"light_promo_pale_conclave": {
 		"rgba": "rgba(214, 230, 255, 1)",
 		"hex": "#d6e6ff",
 		"figma": "promo-pale/conclave",
 		"web": "--color-light-promo-pale-conclave",
-		"alias": "promoPaleColorConclave"
+		"alias": "promoPaleColorConclave",
+		"deprecated": true
 	},
 	"light_promo_pale_lagoon": {
 		"rgba": "rgba(197, 248, 250, 1)",
 		"hex": "#c5f8fa",
 		"figma": "promo-pale/lagoon",
 		"web": "--color-light-promo-pale-lagoon",
-		"alias": "promoPaleColorLagoon"
+		"alias": "promoPaleColorLagoon",
+		"deprecated": true
 	},
 	"light_promo_pale_oasis": {
 		"rgba": "rgba(235, 214, 255, 1)",
 		"hex": "#ebd6ff",
 		"figma": "promo-pale/oasis",
 		"web": "--color-light-promo-pale-oasis",
-		"alias": "promoPaleColorOasis"
+		"alias": "promoPaleColorOasis",
+		"deprecated": true
 	},
 	"light_promo_pale_pearl": {
 		"rgba": "rgba(241, 244, 244, 1)",
 		"hex": "#f1f4f4",
 		"figma": "promo-pale/pearl",
 		"web": "--color-light-promo-pale-pearl",
-		"alias": "promoPaleColorPearl"
+		"alias": "promoPaleColorPearl",
+		"deprecated": true
 	},
 	"light_promo_pale_primrose": {
 		"rgba": "rgba(234, 255, 179, 1)",
 		"hex": "#eaffb3",
 		"figma": "promo-pale/primrose",
 		"web": "--color-light-promo-pale-primrose",
-		"alias": "promoPaleColorPrimrose"
+		"alias": "promoPaleColorPrimrose",
+		"deprecated": true
 	},
 	"light_promo_pale_seafoam": {
 		"rgba": "rgba(214, 255, 231, 1)",
 		"hex": "#d6ffe7",
 		"figma": "promo-pale/seafoam",
 		"web": "--color-light-promo-pale-seafoam",
-		"alias": "promoPaleColorSeafoam"
+		"alias": "promoPaleColorSeafoam",
+		"deprecated": true
 	},
 	"light_promo_pale_tomato": {
 		"rgba": "rgba(255, 219, 216, 1)",
 		"hex": "#ffdbd8",
 		"figma": "promo-pale/tomato",
 		"web": "--color-light-promo-pale-tomato",
-		"alias": "promoPaleColorTomato"
+		"alias": "promoPaleColorTomato",
+		"deprecated": true
 	},
 	"light_promo_peach": {
 		"rgba": "rgba(255, 203, 179, 1)",
 		"hex": "#ffcbb3",
 		"figma": "promo/peach",
 		"web": "--color-light-promo-peach",
-		"alias": "promoColorPeach"
+		"alias": "promoColorPeach",
+		"deprecated": true
 	},
 	"light_promo_peach_hover": {
 		"rgba": "rgba(255, 194, 166, 1)",
 		"hex": "#ffc2a6",
 		"figma": "promo/peach/hover",
 		"web": "--color-light-promo-peach-hover",
-		"alias": "promoColorPeachHover"
+		"alias": "promoColorPeachHover",
+		"deprecated": true
 	},
 	"light_promo_peach_press": {
 		"rgba": "rgba(255, 184, 152, 1)",
 		"hex": "#ffb898",
 		"figma": "promo/peach/press",
 		"web": "--color-light-promo-peach-press",
-		"alias": "promoColorPeachPress"
+		"alias": "promoColorPeachPress",
+		"deprecated": true
 	},
 	"light_promo_pearl": {
 		"rgba": "rgba(234, 238, 238, 1)",
 		"hex": "#eaeeee",
 		"figma": "promo/pearl",
 		"web": "--color-light-promo-pearl",
-		"alias": "promoColorPearl"
+		"alias": "promoColorPearl",
+		"deprecated": true
 	},
 	"light_promo_pearl_hover": {
 		"rgba": "rgba(226, 232, 232, 1)",
 		"hex": "#e2e8e8",
 		"figma": "promo/pearl/hover",
 		"web": "--color-light-promo-pearl-hover",
-		"alias": "promoColorPearlHover"
+		"alias": "promoColorPearlHover",
+		"deprecated": true
 	},
 	"light_promo_pearl_press": {
 		"rgba": "rgba(218, 226, 226, 1)",
 		"hex": "#dae2e2",
 		"figma": "promo/pearl/press",
 		"web": "--color-light-promo-pearl-press",
-		"alias": "promoColorPearlPress"
+		"alias": "promoColorPearlPress",
+		"deprecated": true
 	},
 	"light_promo_prelude": {
 		"rgba": "rgba(199, 191, 255, 1)",
 		"hex": "#c7bfff",
 		"figma": "promo/prelude",
 		"web": "--color-light-promo-prelude",
-		"alias": "promoColorPrelude"
+		"alias": "promoColorPrelude",
+		"deprecated": true
 	},
 	"light_promo_prelude_hover": {
 		"rgba": "rgba(193, 183, 255, 1)",
 		"hex": "#c1b7ff",
 		"figma": "promo/prelude/hover",
 		"web": "--color-light-promo-prelude-hover",
-		"alias": "promoColorPreludeHover"
+		"alias": "promoColorPreludeHover",
+		"deprecated": true
 	},
 	"light_promo_prelude_press": {
 		"rgba": "rgba(186, 175, 255, 1)",
 		"hex": "#baafff",
 		"figma": "promo/prelude/press",
 		"web": "--color-light-promo-prelude-press",
-		"alias": "promoColorPreludePress"
+		"alias": "promoColorPreludePress",
+		"deprecated": true
 	},
 	"light_promo_primrose": {
 		"rgba": "rgba(214, 240, 154, 1)",
 		"hex": "#d6f09a",
 		"figma": "promo/primrose",
 		"web": "--color-light-promo-primrose",
-		"alias": "promoColorPrimrose"
+		"alias": "promoColorPrimrose",
+		"deprecated": true
 	},
 	"light_promo_primrose_hover": {
 		"rgba": "rgba(205, 236, 127, 1)",
 		"hex": "#cdec7f",
 		"figma": "promo/primrose/hover",
 		"web": "--color-light-promo-primrose-hover",
-		"alias": "promoColorPrimroseHover"
+		"alias": "promoColorPrimroseHover",
+		"deprecated": true
 	},
 	"light_promo_primrose_press": {
 		"rgba": "rgba(198, 229, 120, 1)",
 		"hex": "#c6e578",
 		"figma": "promo/primrose/press",
 		"web": "--color-light-promo-primrose-press",
-		"alias": "promoColorPrimrosePress"
+		"alias": "promoColorPrimrosePress",
+		"deprecated": true
 	},
 	"light_promo_seafoam": {
 		"rgba": "rgba(160, 250, 198, 1)",
 		"hex": "#a0fac6",
 		"figma": "promo/seafoam",
 		"web": "--color-light-promo-seafoam",
-		"alias": "promoColorSeafoam"
+		"alias": "promoColorSeafoam",
+		"deprecated": true
 	},
 	"light_promo_seafoam_hover": {
 		"rgba": "rgba(128, 249, 183, 1)",
 		"hex": "#80f9b7",
 		"figma": "promo/seafoam/hover",
 		"web": "--color-light-promo-seafoam-hover",
-		"alias": "promoColorSeafoamHover"
+		"alias": "promoColorSeafoamHover",
+		"deprecated": true
 	},
 	"light_promo_seafoam_press": {
 		"rgba": "rgba(100, 246, 171, 1)",
 		"hex": "#64f6ab",
 		"figma": "promo/seafoam/press",
 		"web": "--color-light-promo-seafoam-press",
-		"alias": "promoColorSeafoamPress"
+		"alias": "promoColorSeafoamPress",
+		"deprecated": true
 	},
 	"light_promo_sonata": {
 		"rgba": "rgba(158, 223, 255, 1)",
 		"hex": "#9edfff",
 		"figma": "promo/sonata",
 		"web": "--color-light-promo-sonata",
-		"alias": "promoColorSonata"
+		"alias": "promoColorSonata",
+		"deprecated": true
 	},
 	"light_promo_sonata_hover": {
 		"rgba": "rgba(141, 218, 255, 1)",
 		"hex": "#8ddaff",
 		"figma": "promo/sonata/hover",
 		"web": "--color-light-promo-sonata-hover",
-		"alias": "promoColorSonataHover"
+		"alias": "promoColorSonataHover",
+		"deprecated": true
 	},
 	"light_promo_sonata_press": {
 		"rgba": "rgba(122, 213, 255, 1)",
 		"hex": "#7ad5ff",
 		"figma": "promo/sonata/press",
 		"web": "--color-light-promo-sonata-press",
-		"alias": "promoColorSonataPress"
+		"alias": "promoColorSonataPress",
+		"deprecated": true
 	},
 	"light_promo_tomato": {
 		"rgba": "rgba(255, 202, 199, 1)",
 		"hex": "#ffcac7",
 		"figma": "promo/tomato",
 		"web": "--color-light-promo-tomato",
-		"alias": "promoColorTomato"
+		"alias": "promoColorTomato",
+		"deprecated": true
 	},
 	"light_promo_tomato_hover": {
 		"rgba": "rgba(255, 193, 189, 1)",
 		"hex": "#ffc1bd",
 		"figma": "promo/tomato/hover",
 		"web": "--color-light-promo-tomato-hover",
-		"alias": "promoColorTomatoHover"
+		"alias": "promoColorTomatoHover",
+		"deprecated": true
 	},
 	"light_promo_tomato_press": {
 		"rgba": "rgba(255, 183, 179, 1)",
 		"hex": "#ffb7b3",
 		"figma": "promo/tomato/press",
 		"web": "--color-light-promo-tomato-press",
-		"alias": "promoColorTomatoPress"
+		"alias": "promoColorTomatoPress",
+		"deprecated": true
 	},
 	"light_promo_vibrant_chardonnay": {
 		"rgba": "rgba(250, 147, 25, 1)",
 		"hex": "#fa9319",
 		"figma": "promo-vibrant/chardonnay",
 		"web": "--color-light-promo-vibrant-chardonnay",
-		"alias": "promoVibrantColorChardonnay"
+		"alias": "promoVibrantColorChardonnay",
+		"deprecated": true
 	},
 	"light_promo_vibrant_chardonnay_hover": {
 		"rgba": "rgba(241, 142, 23, 1)",
 		"hex": "#f18e17",
 		"figma": "promo-vibrant/chardonnay/hover",
 		"web": "--color-light-promo-vibrant-chardonnay-hover",
-		"alias": "promoVibrantColorChardonnayHover"
+		"alias": "promoVibrantColorChardonnayHover",
+		"deprecated": true
 	},
 	"light_promo_vibrant_chardonnay_press": {
 		"rgba": "rgba(228, 134, 21, 1)",
 		"hex": "#e48615",
 		"figma": "promo-vibrant/chardonnay/press",
 		"web": "--color-light-promo-vibrant-chardonnay-press",
-		"alias": "promoVibrantColorChardonnayPress"
+		"alias": "promoVibrantColorChardonnayPress",
+		"deprecated": true
 	},
 	"light_promo_vibrant_conclave": {
 		"rgba": "rgba(38, 111, 255, 1)",
 		"hex": "#266fff",
 		"figma": "promo-vibrant/conclave",
 		"web": "--color-light-promo-vibrant-conclave",
-		"alias": "promoVibrantColorConclave"
+		"alias": "promoVibrantColorConclave",
+		"deprecated": true
 	},
 	"light_promo_vibrant_conclave_hover": {
 		"rgba": "rgba(13, 97, 255, 1)",
 		"hex": "#0d61ff",
 		"figma": "promo-vibrant/conclave/hover",
 		"web": "--color-light-promo-vibrant-conclave-hover",
-		"alias": "promoVibrantColorConclaveHover"
+		"alias": "promoVibrantColorConclaveHover",
+		"deprecated": true
 	},
 	"light_promo_vibrant_conclave_press": {
 		"rgba": "rgba(0, 87, 243, 1)",
 		"hex": "#0057f3",
 		"figma": "promo-vibrant/conclave/press",
 		"web": "--color-light-promo-vibrant-conclave-press",
-		"alias": "promoVibrantColorConclavePress"
+		"alias": "promoVibrantColorConclavePress",
+		"deprecated": true
 	},
 	"light_promo_vibrant_lagoon": {
 		"rgba": "rgba(0, 232, 240, 1)",
 		"hex": "#00e8f0",
 		"figma": "promo-vibrant/lagoon",
 		"web": "--color-light-promo-vibrant-lagoon",
-		"alias": "promoVibrantColorLagoon"
+		"alias": "promoVibrantColorLagoon",
+		"deprecated": true
 	},
 	"light_promo_vibrant_lagoon_hover": {
 		"rgba": "rgba(0, 218, 225, 1)",
 		"hex": "#00dae1",
 		"figma": "promo-vibrant/lagoon/hover",
 		"web": "--color-light-promo-vibrant-lagoon-hover",
-		"alias": "promoVibrantColorLagoonHover"
+		"alias": "promoVibrantColorLagoonHover",
+		"deprecated": true
 	},
 	"light_promo_vibrant_lagoon_press": {
 		"rgba": "rgba(0, 207, 214, 1)",
 		"hex": "#00cfd6",
 		"figma": "promo-vibrant/lagoon/press",
 		"web": "--color-light-promo-vibrant-lagoon-press",
-		"alias": "promoVibrantColorLagoonPress"
+		"alias": "promoVibrantColorLagoonPress",
+		"deprecated": true
 	},
 	"light_promo_vibrant_menthol": {
 		"rgba": "rgba(49, 227, 0, 1)",
 		"hex": "#31e300",
 		"figma": "promo-vibrant/menthol",
 		"web": "--color-light-promo-vibrant-menthol",
-		"alias": "promoVibrantColorMenthol"
+		"alias": "promoVibrantColorMenthol",
+		"deprecated": true
 	},
 	"light_promo_vibrant_menthol_hover": {
 		"rgba": "rgba(46, 216, 0, 1)",
 		"hex": "#2ed800",
 		"figma": "promo-vibrant/menthol/hover",
 		"web": "--color-light-promo-vibrant-menthol-hover",
-		"alias": "promoVibrantColorMentholHover"
+		"alias": "promoVibrantColorMentholHover",
+		"deprecated": true
 	},
 	"light_promo_vibrant_menthol_press": {
 		"rgba": "rgba(43, 205, 0, 1)",
 		"hex": "#2bcd00",
 		"figma": "promo-vibrant/menthol/press",
 		"web": "--color-light-promo-vibrant-menthol-press",
-		"alias": "promoVibrantColorMentholPress"
+		"alias": "promoVibrantColorMentholPress",
+		"deprecated": true
 	},
 	"light_promo_vibrant_oasis": {
 		"rgba": "rgba(153, 51, 255, 1)",
 		"hex": "#9933ff",
 		"figma": "promo-vibrant/oasis",
 		"web": "--color-light-promo-vibrant-oasis",
-		"alias": "promoVibrantColorOasis"
+		"alias": "promoVibrantColorOasis",
+		"deprecated": true
 	},
 	"light_promo_vibrant_oasis_hover": {
 		"rgba": "rgba(149, 26, 255, 1)",
 		"hex": "#951aff",
 		"figma": "promo-vibrant/oasis/hover",
 		"web": "--color-light-promo-vibrant-oasis-hover",
-		"alias": "promoVibrantColorOasisHover"
+		"alias": "promoVibrantColorOasisHover",
+		"deprecated": true
 	},
 	"light_promo_vibrant_oasis_press": {
 		"rgba": "rgba(140, 0, 242, 1)",
 		"hex": "#8c00f2",
 		"figma": "promo-vibrant/oasis/press",
 		"web": "--color-light-promo-vibrant-oasis-press",
-		"alias": "promoVibrantColorOasisPress"
+		"alias": "promoVibrantColorOasisPress",
+		"deprecated": true
 	},
 	"light_promo_vibrant_peach": {
 		"rgba": "rgba(255, 104, 28, 1)",
 		"hex": "#ff681c",
 		"figma": "promo-vibrant/peach",
 		"web": "--color-light-promo-vibrant-peach",
-		"alias": "promoVibrantColorPeach"
+		"alias": "promoVibrantColorPeach",
+		"deprecated": true
 	},
 	"light_promo_vibrant_peach_hover": {
 		"rgba": "rgba(245, 93, 0, 1)",
 		"hex": "#f55d00",
 		"figma": "promo-vibrant/peach/hover",
 		"web": "--color-light-promo-vibrant-peach-hover",
-		"alias": "promoVibrantColorPeachHover"
+		"alias": "promoVibrantColorPeachHover",
+		"deprecated": true
 	},
 	"light_promo_vibrant_peach_press": {
 		"rgba": "rgba(235, 89, 0, 1)",
 		"hex": "#eb5900",
 		"figma": "promo-vibrant/peach/press",
 		"web": "--color-light-promo-vibrant-peach-press",
-		"alias": "promoVibrantColorPeachPress"
+		"alias": "promoVibrantColorPeachPress",
+		"deprecated": true
 	},
 	"light_promo_vibrant_prelude": {
 		"rgba": "rgba(106, 77, 255, 1)",
 		"hex": "#6a4dff",
 		"figma": "promo-vibrant/prelude",
 		"web": "--color-light-promo-vibrant-prelude",
-		"alias": "promoVibrantColorPrelude"
+		"alias": "promoVibrantColorPrelude",
+		"deprecated": true
 	},
 	"light_promo_vibrant_prelude_hover": {
 		"rgba": "rgba(100, 56, 255, 1)",
 		"hex": "#6438ff",
 		"figma": "promo-vibrant/prelude/hover",
 		"web": "--color-light-promo-vibrant-prelude-hover",
-		"alias": "promoVibrantColorPreludeHover"
+		"alias": "promoVibrantColorPreludeHover",
+		"deprecated": true
 	},
 	"light_promo_vibrant_prelude_press": {
 		"rgba": "rgba(96, 36, 255, 1)",
 		"hex": "#6024ff",
 		"figma": "promo-vibrant/prelude/press",
 		"web": "--color-light-promo-vibrant-prelude-press",
-		"alias": "promoVibrantColorPreludePress"
+		"alias": "promoVibrantColorPreludePress",
+		"deprecated": true
 	},
 	"light_promo_vibrant_primrose": {
 		"rgba": "rgba(168, 240, 0, 1)",
 		"hex": "#a8f000",
 		"figma": "promo-vibrant/primrose",
 		"web": "--color-light-promo-vibrant-primrose",
-		"alias": "promoVibrantColorPrimrose"
+		"alias": "promoVibrantColorPrimrose",
+		"deprecated": true
 	},
 	"light_promo_vibrant_primrose_hover": {
 		"rgba": "rgba(160, 229, 0, 1)",
 		"hex": "#a0e500",
 		"figma": "promo-vibrant/primrose/hover",
 		"web": "--color-light-promo-vibrant-primrose-hover",
-		"alias": "promoVibrantColorPrimroseHover"
+		"alias": "promoVibrantColorPrimroseHover",
+		"deprecated": true
 	},
 	"light_promo_vibrant_primrose_press": {
 		"rgba": "rgba(152, 218, 0, 1)",
 		"hex": "#98da00",
 		"figma": "promo-vibrant/primrose/press",
 		"web": "--color-light-promo-vibrant-primrose-press",
-		"alias": "promoVibrantColorPrimrosePress"
+		"alias": "promoVibrantColorPrimrosePress",
+		"deprecated": true
 	},
 	"light_promo_vibrant_seafoam": {
 		"rgba": "rgba(0, 240, 100, 1)",
 		"hex": "#00f064",
 		"figma": "promo-vibrant/seafoam",
 		"web": "--color-light-promo-vibrant-seafoam",
-		"alias": "promoVibrantColorSeafoam"
+		"alias": "promoVibrantColorSeafoam",
+		"deprecated": true
 	},
 	"light_promo_vibrant_seafoam_hover": {
 		"rgba": "rgba(0, 229, 95, 1)",
 		"hex": "#00e55f",
 		"figma": "promo-vibrant/seafoam/hover",
 		"web": "--color-light-promo-vibrant-seafoam-hover",
-		"alias": "promoVibrantColorSeafoamHover"
+		"alias": "promoVibrantColorSeafoamHover",
+		"deprecated": true
 	},
 	"light_promo_vibrant_seafoam_press": {
 		"rgba": "rgba(0, 217, 90, 1)",
 		"hex": "#00d95a",
 		"figma": "promo-vibrant/seafoam/press",
 		"web": "--color-light-promo-vibrant-seafoam-press",
-		"alias": "promoVibrantColorSeafoamPress"
+		"alias": "promoVibrantColorSeafoamPress",
+		"deprecated": true
 	},
 	"light_promo_vibrant_sonata": {
 		"rgba": "rgba(23, 160, 229, 1)",
 		"hex": "#17a0e5",
 		"figma": "promo-vibrant/sonata",
 		"web": "--color-light-promo-vibrant-sonata",
-		"alias": "promoVibrantColorSonata"
+		"alias": "promoVibrantColorSonata",
+		"deprecated": true
 	},
 	"light_promo_vibrant_sonata_hover": {
 		"rgba": "rgba(20, 150, 216, 1)",
 		"hex": "#1496d8",
 		"figma": "promo-vibrant/sonata/hover",
 		"web": "--color-light-promo-vibrant-sonata-hover",
-		"alias": "promoVibrantColorSonataHover"
+		"alias": "promoVibrantColorSonataHover",
+		"deprecated": true
 	},
 	"light_promo_vibrant_sonata_press": {
 		"rgba": "rgba(18, 141, 202, 1)",
 		"hex": "#128dca",
 		"figma": "promo-vibrant/sonata/press",
 		"web": "--color-light-promo-vibrant-sonata-press",
-		"alias": "promoVibrantColorSonataPress"
+		"alias": "promoVibrantColorSonataPress",
+		"deprecated": true
 	},
 	"light_promo_vibrant_tomato": {
 		"rgba": "rgba(239, 49, 36, 1)",
 		"hex": "#ef3124",
 		"figma": "promo-vibrant/tomato",
 		"web": "--color-light-promo-vibrant-tomato",
-		"alias": "promoVibrantColorTomato"
+		"alias": "promoVibrantColorTomato",
+		"deprecated": true
 	},
 	"light_promo_vibrant_tomato_hover": {
 		"rgba": "rgba(224, 45, 33, 1)",
 		"hex": "#e02d21",
 		"figma": "promo-vibrant/tomato/hover",
 		"web": "--color-light-promo-vibrant-tomato-hover",
-		"alias": "promoVibrantColorTomatoHover"
+		"alias": "promoVibrantColorTomatoHover",
+		"deprecated": true
 	},
 	"light_promo_vibrant_tomato_press": {
 		"rgba": "rgba(208, 42, 30, 1)",
 		"hex": "#d02a1e",
 		"figma": "promo-vibrant/tomato/press",
 		"web": "--color-light-promo-vibrant-tomato-press",
-		"alias": "promoVibrantColorTomatoPress"
-	},
-	"static_promo_classic": {
-		"rgba": "rgba(0, 0, 0, 1)",
-		"hex": "#000000",
-		"figma": "promo/classic",
-		"web": "--color-static-promo-classic",
-		"alias": "staticPromoColorClassic"
+		"alias": "promoVibrantColorTomatoPress",
+		"deprecated": true
 	},
 	"static_promo_chardonnay": {
 		"rgba": "rgba(255, 207, 153, 1)",
 		"hex": "#ffcf99",
-		"figma": "promo/chardonnay",
+		"figma": "static_promo/chardonnay",
 		"web": "--color-static-promo-chardonnay",
 		"alias": "staticPromoColorChardonnay",
+		"deprecated": true
+	},
+	"static_promo_classic": {
+		"rgba": "rgba(0, 0, 0, 1)",
+		"hex": "#000000",
+		"figma": "static_promo/classic",
+		"web": "--color-static-promo-classic",
+		"alias": "staticPromoColorClassic",
 		"deprecated": true
 	},
 	"static_promo_conclave": {
 		"rgba": "rgba(179, 204, 255, 1)",
 		"hex": "#b3ccff",
-		"figma": "promo/conclave",
+		"figma": "static_promo/conclave",
 		"web": "--color-static-promo-conclave",
 		"alias": "staticPromoColorConclave",
 		"deprecated": true
@@ -1355,7 +1546,7 @@
 	"static_promo_gravel": {
 		"rgba": "rgba(42, 44, 47, 1)",
 		"hex": "#2a2c2f",
-		"figma": "promo/gravel",
+		"figma": "static_promo/gravel",
 		"web": "--color-static-promo-gravel",
 		"alias": "staticPromoColorGravel",
 		"deprecated": true
@@ -1363,7 +1554,7 @@
 	"static_promo_lagoon": {
 		"rgba": "rgba(157, 242, 245, 1)",
 		"hex": "#9df2f5",
-		"figma": "promo/lagoon",
+		"figma": "static_promo/lagoon",
 		"web": "--color-static-promo-lagoon",
 		"alias": "staticPromoColorLagoon",
 		"deprecated": true
@@ -1371,7 +1562,7 @@
 	"static_promo_menthol": {
 		"rgba": "rgba(191, 240, 168, 1)",
 		"hex": "#bff0a8",
-		"figma": "promo/menthol",
+		"figma": "static_promo/menthol",
 		"web": "--color-static-promo-menthol",
 		"alias": "staticPromoColorMenthol",
 		"deprecated": true
@@ -1379,7 +1570,7 @@
 	"static_promo_oasis": {
 		"rgba": "rgba(223, 191, 255, 1)",
 		"hex": "#dfbfff",
-		"figma": "promo/oasis",
+		"figma": "static_promo/oasis",
 		"web": "--color-static-promo-oasis",
 		"alias": "staticPromoColorOasis",
 		"deprecated": true
@@ -1387,7 +1578,7 @@
 	"static_promo_pale_chardonnay": {
 		"rgba": "rgba(255, 229, 199, 1)",
 		"hex": "#ffe5c7",
-		"figma": "promo-pale/chardonnay",
+		"figma": "static_promo-pale/chardonnay",
 		"web": "--color-static-promo-pale-chardonnay",
 		"alias": "staticPromoPaleColorChardonnay",
 		"deprecated": true
@@ -1395,7 +1586,7 @@
 	"static_promo_pale_conclave": {
 		"rgba": "rgba(214, 230, 255, 1)",
 		"hex": "#d6e6ff",
-		"figma": "promo-pale/conclave",
+		"figma": "static_promo-pale/conclave",
 		"web": "--color-static-promo-pale-conclave",
 		"alias": "staticPromoPaleColorConclave",
 		"deprecated": true
@@ -1403,7 +1594,7 @@
 	"static_promo_pale_lagoon": {
 		"rgba": "rgba(197, 248, 250, 1)",
 		"hex": "#c5f8fa",
-		"figma": "promo-pale/lagoon",
+		"figma": "static_promo-pale/lagoon",
 		"web": "--color-static-promo-pale-lagoon",
 		"alias": "staticPromoPaleColorLagoon",
 		"deprecated": true
@@ -1411,7 +1602,7 @@
 	"static_promo_pale_oasis": {
 		"rgba": "rgba(235, 214, 255, 1)",
 		"hex": "#ebd6ff",
-		"figma": "promo-pale/oasis",
+		"figma": "static_promo-pale/oasis",
 		"web": "--color-static-promo-pale-oasis",
 		"alias": "staticPromoPaleColorOasis",
 		"deprecated": true
@@ -1419,7 +1610,7 @@
 	"static_promo_pale_pearl": {
 		"rgba": "rgba(241, 244, 244, 1)",
 		"hex": "#f1f4f4",
-		"figma": "promo-pale/pearl",
+		"figma": "static_promo-pale/pearl",
 		"web": "--color-static-promo-pale-pearl",
 		"alias": "staticPromoPaleColorPearl",
 		"deprecated": true
@@ -1427,7 +1618,7 @@
 	"static_promo_pale_primrose": {
 		"rgba": "rgba(234, 255, 179, 1)",
 		"hex": "#eaffb3",
-		"figma": "promo-pale/primrose",
+		"figma": "static_promo-pale/primrose",
 		"web": "--color-static-promo-pale-primrose",
 		"alias": "staticPromoPaleColorPrimrose",
 		"deprecated": true
@@ -1435,7 +1626,7 @@
 	"static_promo_pale_seafoam": {
 		"rgba": "rgba(214, 255, 231, 1)",
 		"hex": "#d6ffe7",
-		"figma": "promo-pale/seafoam",
+		"figma": "static_promo-pale/seafoam",
 		"web": "--color-static-promo-pale-seafoam",
 		"alias": "staticPromoPaleColorSeafoam",
 		"deprecated": true
@@ -1443,7 +1634,7 @@
 	"static_promo_pale_tomato": {
 		"rgba": "rgba(255, 219, 216, 1)",
 		"hex": "#ffdbd8",
-		"figma": "promo-pale/tomato",
+		"figma": "static_promo-pale/tomato",
 		"web": "--color-static-promo-pale-tomato",
 		"alias": "staticPromoPaleColorTomato",
 		"deprecated": true
@@ -1451,7 +1642,7 @@
 	"static_promo_peach": {
 		"rgba": "rgba(255, 203, 179, 1)",
 		"hex": "#ffcbb3",
-		"figma": "promo/peach",
+		"figma": "static_promo/peach",
 		"web": "--color-static-promo-peach",
 		"alias": "staticPromoColorPeach",
 		"deprecated": true
@@ -1459,7 +1650,7 @@
 	"static_promo_pearl": {
 		"rgba": "rgba(234, 238, 238, 1)",
 		"hex": "#eaeeee",
-		"figma": "promo/pearl",
+		"figma": "static_promo/pearl",
 		"web": "--color-static-promo-pearl",
 		"alias": "staticPromoColorPearl",
 		"deprecated": true
@@ -1467,7 +1658,7 @@
 	"static_promo_prelude": {
 		"rgba": "rgba(199, 191, 255, 1)",
 		"hex": "#c7bfff",
-		"figma": "promo/prelude",
+		"figma": "static_promo/prelude",
 		"web": "--color-static-promo-prelude",
 		"alias": "staticPromoColorPrelude",
 		"deprecated": true
@@ -1475,7 +1666,7 @@
 	"static_promo_primrose": {
 		"rgba": "rgba(214, 240, 154, 1)",
 		"hex": "#d6f09a",
-		"figma": "promo/primrose",
+		"figma": "static_promo/primrose",
 		"web": "--color-static-promo-primrose",
 		"alias": "staticPromoColorPrimrose",
 		"deprecated": true
@@ -1483,7 +1674,7 @@
 	"static_promo_seafoam": {
 		"rgba": "rgba(160, 250, 198, 1)",
 		"hex": "#a0fac6",
-		"figma": "promo/seafoam",
+		"figma": "static_promo/seafoam",
 		"web": "--color-static-promo-seafoam",
 		"alias": "staticPromoColorSeafoam",
 		"deprecated": true
@@ -1491,7 +1682,7 @@
 	"static_promo_sonata": {
 		"rgba": "rgba(158, 223, 255, 1)",
 		"hex": "#9edfff",
-		"figma": "promo/sonata",
+		"figma": "static_promo/sonata",
 		"web": "--color-static-promo-sonata",
 		"alias": "staticPromoColorSonata",
 		"deprecated": true
@@ -1499,7 +1690,7 @@
 	"static_promo_tomato": {
 		"rgba": "rgba(255, 202, 199, 1)",
 		"hex": "#ffcac7",
-		"figma": "promo/tomato",
+		"figma": "static_promo/tomato",
 		"web": "--color-static-promo-tomato",
 		"alias": "staticPromoColorTomato",
 		"deprecated": true
@@ -1507,7 +1698,7 @@
 	"static_promo_vibrant_chardonnay": {
 		"rgba": "rgba(250, 147, 25, 1)",
 		"hex": "#fa9319",
-		"figma": "promo-vibrant/chardonnay",
+		"figma": "static_promo-vibrant/chardonnay",
 		"web": "--color-static-promo-vibrant-chardonnay",
 		"alias": "staticPromoVibrantColorChardonnay",
 		"deprecated": true
@@ -1515,7 +1706,7 @@
 	"static_promo_vibrant_conclave": {
 		"rgba": "rgba(38, 111, 255, 1)",
 		"hex": "#266fff",
-		"figma": "promo-vibrant/conclave",
+		"figma": "static_promo-vibrant/conclave",
 		"web": "--color-static-promo-vibrant-conclave",
 		"alias": "staticPromoVibrantColorConclave",
 		"deprecated": true
@@ -1523,7 +1714,7 @@
 	"static_promo_vibrant_lagoon": {
 		"rgba": "rgba(0, 232, 240, 1)",
 		"hex": "#00e8f0",
-		"figma": "promo-vibrant/lagoon",
+		"figma": "static_promo-vibrant/lagoon",
 		"web": "--color-static-promo-vibrant-lagoon",
 		"alias": "staticPromoVibrantColorLagoon",
 		"deprecated": true
@@ -1531,7 +1722,7 @@
 	"static_promo_vibrant_menthol": {
 		"rgba": "rgba(49, 227, 0, 1)",
 		"hex": "#31e300",
-		"figma": "promo-vibrant/menthol",
+		"figma": "static_promo-vibrant/menthol",
 		"web": "--color-static-promo-vibrant-menthol",
 		"alias": "staticPromoVibrantColorMenthol",
 		"deprecated": true
@@ -1539,7 +1730,7 @@
 	"static_promo_vibrant_oasis": {
 		"rgba": "rgba(153, 51, 255, 1)",
 		"hex": "#9933ff",
-		"figma": "promo-vibrant/oasis",
+		"figma": "static_promo-vibrant/oasis",
 		"web": "--color-static-promo-vibrant-oasis",
 		"alias": "staticPromoVibrantColorOasis",
 		"deprecated": true
@@ -1547,7 +1738,7 @@
 	"static_promo_vibrant_peach": {
 		"rgba": "rgba(255, 104, 28, 1)",
 		"hex": "#ff681c",
-		"figma": "promo-vibrant/peach",
+		"figma": "static_promo-vibrant/peach",
 		"web": "--color-static-promo-vibrant-peach",
 		"alias": "staticPromoVibrantColorPeach",
 		"deprecated": true
@@ -1555,7 +1746,7 @@
 	"static_promo_vibrant_prelude": {
 		"rgba": "rgba(106, 77, 255, 1)",
 		"hex": "#6a4dff",
-		"figma": "promo-vibrant/prelude",
+		"figma": "static_promo-vibrant/prelude",
 		"web": "--color-static-promo-vibrant-prelude",
 		"alias": "staticPromoVibrantColorPrelude",
 		"deprecated": true
@@ -1563,7 +1754,7 @@
 	"static_promo_vibrant_primrose": {
 		"rgba": "rgba(168, 240, 0, 1)",
 		"hex": "#a8f000",
-		"figma": "promo-vibrant/primrose",
+		"figma": "static_promo-vibrant/primrose",
 		"web": "--color-static-promo-vibrant-primrose",
 		"alias": "staticPromoVibrantColorPrimrose",
 		"deprecated": true
@@ -1571,7 +1762,7 @@
 	"static_promo_vibrant_seafoam": {
 		"rgba": "rgba(0, 240, 100, 1)",
 		"hex": "#00f064",
-		"figma": "promo-vibrant/seafoam",
+		"figma": "static_promo-vibrant/seafoam",
 		"web": "--color-static-promo-vibrant-seafoam",
 		"alias": "staticPromoVibrantColorSeafoam",
 		"deprecated": true
@@ -1579,7 +1770,7 @@
 	"static_promo_vibrant_sonata": {
 		"rgba": "rgba(23, 160, 229, 1)",
 		"hex": "#17a0e5",
-		"figma": "promo-vibrant/sonata",
+		"figma": "static_promo-vibrant/sonata",
 		"web": "--color-static-promo-vibrant-sonata",
 		"alias": "staticPromoVibrantColorSonata",
 		"deprecated": true
@@ -1587,7 +1778,7 @@
 	"static_promo_vibrant_tomato": {
 		"rgba": "rgba(239, 49, 36, 1)",
 		"hex": "#ef3124",
-		"figma": "promo-vibrant/tomato",
+		"figma": "static_promo-vibrant/tomato",
 		"web": "--color-static-promo-vibrant-tomato",
 		"alias": "staticPromoVibrantColorTomato",
 		"deprecated": true
