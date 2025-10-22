@@ -1332,7 +1332,7 @@
 	"static_promo_classic": {
 		"rgba": "rgba(0, 0, 0, 1)",
 		"hex": "#000000",
-		"figma": "promo/classic",
+		"figma": "static_promo/classic",
 		"web": "--color-static-promo-classic",
 		"alias": "staticPromoColorClassic"
 	},
