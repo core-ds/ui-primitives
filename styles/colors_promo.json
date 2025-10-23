@@ -1332,14 +1332,14 @@
 	"static_promo_classic": {
 		"rgba": "rgba(0, 0, 0, 1)",
 		"hex": "#000000",
-		"figma": "promo/classic",
+		"figma": "static_promo/classic",
 		"web": "--color-static-promo-classic",
 		"alias": "staticPromoColorClassic"
 	},
 	"static_promo_chardonnay": {
 		"rgba": "rgba(255, 207, 153, 1)",
 		"hex": "#ffcf99",
-		"figma": "promo/chardonnay",
+		"figma": "static_promo/chardonnay",
 		"web": "--color-static-promo-chardonnay",
 		"alias": "staticPromoColorChardonnay",
 		"deprecated": true
@@ -1347,7 +1347,7 @@
 	"static_promo_conclave": {
 		"rgba": "rgba(179, 204, 255, 1)",
 		"hex": "#b3ccff",
-		"figma": "promo/conclave",
+		"figma": "static_promo/conclave",
 		"web": "--color-static-promo-conclave",
 		"alias": "staticPromoColorConclave",
 		"deprecated": true
@@ -1355,7 +1355,7 @@
 	"static_promo_gravel": {
 		"rgba": "rgba(42, 44, 47, 1)",
 		"hex": "#2a2c2f",
-		"figma": "promo/gravel",
+		"figma": "static_promo/gravel",
 		"web": "--color-static-promo-gravel",
 		"alias": "staticPromoColorGravel",
 		"deprecated": true
@@ -1363,7 +1363,7 @@
 	"static_promo_lagoon": {
 		"rgba": "rgba(157, 242, 245, 1)",
 		"hex": "#9df2f5",
-		"figma": "promo/lagoon",
+		"figma": "static_promo/lagoon",
 		"web": "--color-static-promo-lagoon",
 		"alias": "staticPromoColorLagoon",
 		"deprecated": true
@@ -1371,7 +1371,7 @@
 	"static_promo_menthol": {
 		"rgba": "rgba(191, 240, 168, 1)",
 		"hex": "#bff0a8",
-		"figma": "promo/menthol",
+		"figma": "static_promo/menthol",
 		"web": "--color-static-promo-menthol",
 		"alias": "staticPromoColorMenthol",
 		"deprecated": true
@@ -1379,7 +1379,7 @@
 	"static_promo_oasis": {
 		"rgba": "rgba(223, 191, 255, 1)",
 		"hex": "#dfbfff",
-		"figma": "promo/oasis",
+		"figma": "static_promo/oasis",
 		"web": "--color-static-promo-oasis",
 		"alias": "staticPromoColorOasis",
 		"deprecated": true
@@ -1387,7 +1387,7 @@
 	"static_promo_pale_chardonnay": {
 		"rgba": "rgba(255, 229, 199, 1)",
 		"hex": "#ffe5c7",
-		"figma": "promo-pale/chardonnay",
+		"figma": "static_promo-pale/chardonnay",
 		"web": "--color-static-promo-pale-chardonnay",
 		"alias": "staticPromoPaleColorChardonnay",
 		"deprecated": true
@@ -1395,7 +1395,7 @@
 	"static_promo_pale_conclave": {
 		"rgba": "rgba(214, 230, 255, 1)",
 		"hex": "#d6e6ff",
-		"figma": "promo-pale/conclave",
+		"figma": "static_promo-pale/conclave",
 		"web": "--color-static-promo-pale-conclave",
 		"alias": "staticPromoPaleColorConclave",
 		"deprecated": true
@@ -1403,7 +1403,7 @@
 	"static_promo_pale_lagoon": {
 		"rgba": "rgba(197, 248, 250, 1)",
 		"hex": "#c5f8fa",
-		"figma": "promo-pale/lagoon",
+		"figma": "static_promo-pale/lagoon",
 		"web": "--color-static-promo-pale-lagoon",
 		"alias": "staticPromoPaleColorLagoon",
 		"deprecated": true
@@ -1411,7 +1411,7 @@
 	"static_promo_pale_oasis": {
 		"rgba": "rgba(235, 214, 255, 1)",
 		"hex": "#ebd6ff",
-		"figma": "promo-pale/oasis",
+		"figma": "static_promo-pale/oasis",
 		"web": "--color-static-promo-pale-oasis",
 		"alias": "staticPromoPaleColorOasis",
 		"deprecated": true
@@ -1419,7 +1419,7 @@
 	"static_promo_pale_pearl": {
 		"rgba": "rgba(241, 244, 244, 1)",
 		"hex": "#f1f4f4",
-		"figma": "promo-pale/pearl",
+		"figma": "static_promo-pale/pearl",
 		"web": "--color-static-promo-pale-pearl",
 		"alias": "staticPromoPaleColorPearl",
 		"deprecated": true
@@ -1427,7 +1427,7 @@
 	"static_promo_pale_primrose": {
 		"rgba": "rgba(234, 255, 179, 1)",
 		"hex": "#eaffb3",
-		"figma": "promo-pale/primrose",
+		"figma": "static_promo-pale/primrose",
 		"web": "--color-static-promo-pale-primrose",
 		"alias": "staticPromoPaleColorPrimrose",
 		"deprecated": true
@@ -1435,7 +1435,7 @@
 	"static_promo_pale_seafoam": {
 		"rgba": "rgba(214, 255, 231, 1)",
 		"hex": "#d6ffe7",
-		"figma": "promo-pale/seafoam",
+		"figma": "static_promo-pale/seafoam",
 		"web": "--color-static-promo-pale-seafoam",
 		"alias": "staticPromoPaleColorSeafoam",
 		"deprecated": true
@@ -1443,7 +1443,7 @@
 	"static_promo_pale_tomato": {
 		"rgba": "rgba(255, 219, 216, 1)",
 		"hex": "#ffdbd8",
-		"figma": "promo-pale/tomato",
+		"figma": "static_promo-pale/tomato",
 		"web": "--color-static-promo-pale-tomato",
 		"alias": "staticPromoPaleColorTomato",
 		"deprecated": true
@@ -1451,7 +1451,7 @@
 	"static_promo_peach": {
 		"rgba": "rgba(255, 203, 179, 1)",
 		"hex": "#ffcbb3",
-		"figma": "promo/peach",
+		"figma": "static_promo/peach",
 		"web": "--color-static-promo-peach",
 		"alias": "staticPromoColorPeach",
 		"deprecated": true
@@ -1459,7 +1459,7 @@
 	"static_promo_pearl": {
 		"rgba": "rgba(234, 238, 238, 1)",
 		"hex": "#eaeeee",
-		"figma": "promo/pearl",
+		"figma": "static_promo/pearl",
 		"web": "--color-static-promo-pearl",
 		"alias": "staticPromoColorPearl",
 		"deprecated": true
@@ -1467,7 +1467,7 @@
 	"static_promo_prelude": {
 		"rgba": "rgba(199, 191, 255, 1)",
 		"hex": "#c7bfff",
-		"figma": "promo/prelude",
+		"figma": "static_promo/prelude",
 		"web": "--color-static-promo-prelude",
 		"alias": "staticPromoColorPrelude",
 		"deprecated": true
@@ -1475,7 +1475,7 @@
 	"static_promo_primrose": {
 		"rgba": "rgba(214, 240, 154, 1)",
 		"hex": "#d6f09a",
-		"figma": "promo/primrose",
+		"figma": "static_promo/primrose",
 		"web": "--color-static-promo-primrose",
 		"alias": "staticPromoColorPrimrose",
 		"deprecated": true
@@ -1483,7 +1483,7 @@
 	"static_promo_seafoam": {
 		"rgba": "rgba(160, 250, 198, 1)",
 		"hex": "#a0fac6",
-		"figma": "promo/seafoam",
+		"figma": "static_promo/seafoam",
 		"web": "--color-static-promo-seafoam",
 		"alias": "staticPromoColorSeafoam",
 		"deprecated": true
@@ -1491,7 +1491,7 @@
 	"static_promo_sonata": {
 		"rgba": "rgba(158, 223, 255, 1)",
 		"hex": "#9edfff",
-		"figma": "promo/sonata",
+		"figma": "static_promo/sonata",
 		"web": "--color-static-promo-sonata",
 		"alias": "staticPromoColorSonata",
 		"deprecated": true
@@ -1499,7 +1499,7 @@
 	"static_promo_tomato": {
 		"rgba": "rgba(255, 202, 199, 1)",
 		"hex": "#ffcac7",
-		"figma": "promo/tomato",
+		"figma": "static_promo/tomato",
 		"web": "--color-static-promo-tomato",
 		"alias": "staticPromoColorTomato",
 		"deprecated": true
@@ -1507,7 +1507,7 @@
 	"static_promo_vibrant_chardonnay": {
 		"rgba": "rgba(250, 147, 25, 1)",
 		"hex": "#fa9319",
-		"figma": "promo-vibrant/chardonnay",
+		"figma": "static_promo-vibrant/chardonnay",
 		"web": "--color-static-promo-vibrant-chardonnay",
 		"alias": "staticPromoVibrantColorChardonnay",
 		"deprecated": true
@@ -1515,7 +1515,7 @@
 	"static_promo_vibrant_conclave": {
 		"rgba": "rgba(38, 111, 255, 1)",
 		"hex": "#266fff",
-		"figma": "promo-vibrant/conclave",
+		"figma": "static_promo-vibrant/conclave",
 		"web": "--color-static-promo-vibrant-conclave",
 		"alias": "staticPromoVibrantColorConclave",
 		"deprecated": true
@@ -1523,7 +1523,7 @@
 	"static_promo_vibrant_lagoon": {
 		"rgba": "rgba(0, 232, 240, 1)",
 		"hex": "#00e8f0",
-		"figma": "promo-vibrant/lagoon",
+		"figma": "static_promo-vibrant/lagoon",
 		"web": "--color-static-promo-vibrant-lagoon",
 		"alias": "staticPromoVibrantColorLagoon",
 		"deprecated": true
@@ -1531,7 +1531,7 @@
 	"static_promo_vibrant_menthol": {
 		"rgba": "rgba(49, 227, 0, 1)",
 		"hex": "#31e300",
-		"figma": "promo-vibrant/menthol",
+		"figma": "static_promo-vibrant/menthol",
 		"web": "--color-static-promo-vibrant-menthol",
 		"alias": "staticPromoVibrantColorMenthol",
 		"deprecated": true
@@ -1539,7 +1539,7 @@
 	"static_promo_vibrant_oasis": {
 		"rgba": "rgba(153, 51, 255, 1)",
 		"hex": "#9933ff",
-		"figma": "promo-vibrant/oasis",
+		"figma": "static_promo-vibrant/oasis",
 		"web": "--color-static-promo-vibrant-oasis",
 		"alias": "staticPromoVibrantColorOasis",
 		"deprecated": true
@@ -1547,7 +1547,7 @@
 	"static_promo_vibrant_peach": {
 		"rgba": "rgba(255, 104, 28, 1)",
 		"hex": "#ff681c",
-		"figma": "promo-vibrant/peach",
+		"figma": "static_promo-vibrant/peach",
 		"web": "--color-static-promo-vibrant-peach",
 		"alias": "staticPromoVibrantColorPeach",
 		"deprecated": true
@@ -1555,7 +1555,7 @@
 	"static_promo_vibrant_prelude": {
 		"rgba": "rgba(106, 77, 255, 1)",
 		"hex": "#6a4dff",
-		"figma": "promo-vibrant/prelude",
+		"figma": "static_promo-vibrant/prelude",
 		"web": "--color-static-promo-vibrant-prelude",
 		"alias": "staticPromoVibrantColorPrelude",
 		"deprecated": true
@@ -1563,7 +1563,7 @@
 	"static_promo_vibrant_primrose": {
 		"rgba": "rgba(168, 240, 0, 1)",
 		"hex": "#a8f000",
-		"figma": "promo-vibrant/primrose",
+		"figma": "static_promo-vibrant/primrose",
 		"web": "--color-static-promo-vibrant-primrose",
 		"alias": "staticPromoVibrantColorPrimrose",
 		"deprecated": true
@@ -1571,7 +1571,7 @@
 	"static_promo_vibrant_seafoam": {
 		"rgba": "rgba(0, 240, 100, 1)",
 		"hex": "#00f064",
-		"figma": "promo-vibrant/seafoam",
+		"figma": "static_promo-vibrant/seafoam",
 		"web": "--color-static-promo-vibrant-seafoam",
 		"alias": "staticPromoVibrantColorSeafoam",
 		"deprecated": true
@@ -1579,7 +1579,7 @@
 	"static_promo_vibrant_sonata": {
 		"rgba": "rgba(23, 160, 229, 1)",
 		"hex": "#17a0e5",
-		"figma": "promo-vibrant/sonata",
+		"figma": "static_promo-vibrant/sonata",
 		"web": "--color-static-promo-vibrant-sonata",
 		"alias": "staticPromoVibrantColorSonata",
 		"deprecated": true
@@ -1587,7 +1587,7 @@
 	"static_promo_vibrant_tomato": {
 		"rgba": "rgba(239, 49, 36, 1)",
 		"hex": "#ef3124",
-		"figma": "promo-vibrant/tomato",
+		"figma": "static_promo-vibrant/tomato",
 		"web": "--color-static-promo-vibrant-tomato",
 		"alias": "staticPromoVibrantColorTomato",
 		"deprecated": true
