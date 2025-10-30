@@ -23,7 +23,7 @@ jobs:
             - name: install dependencies
               shell: bash
               run: |
-                  npm install
+                  npm ci
 
             - name: build scripts
               shell: bash
