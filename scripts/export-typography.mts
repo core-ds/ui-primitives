@@ -134,7 +134,7 @@ export async function exportTypography() {
                         name,
                         { ...value, font_family: mapFontFamily(value.font_family) },
                     ])
-                    .concat(deprecated)
+                    .concat(deprecated.sort(([aName], [bName]) => aName.localeCompare(bName)))
             );
 
             await fse.writeJson(file, json, { encoding: "utf8", spaces: 4 });
