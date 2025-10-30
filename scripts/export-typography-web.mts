@@ -1,43 +1,75 @@
-import { FontFamily, FontHandler, WebTypographyParams } from "./types.mjs";
+import { Entry, FontFamily, Handler, WebTypographyParams } from "./types.mjs";
+import { fetchFile, handleLetterSpacing, walkNodes } from "./utils.js";
 
-const webFontHandler: FontHandler<WebTypographyParams> = {
-    mapToParams({ characters, style }) {
-        const name = characters.toLowerCase();
-        const textTransform = style.textCase === "UPPER" ? "uppercase" : undefined;
-        const { fontFamily, fontSize, lineHeightPx: lineHeight } = style;
-        let { letterSpacing } = style;
+function mapFontFamily(fontFamily: string | undefined) {
+    switch (fontFamily) {
+        case FontFamily.ALFASANS:
+            return "var(--font-family-alfasans)";
+        case FontFamily.STYRENE:
+            return "var(--font-family-styrene)";
+        default:
+            return "var(--font-family-system)";
+    }
+}
 
-        if (
-            letterSpacing &&
-            (fontFamily === FontFamily.ALFASANS || name.includes("caps") || name.includes("tagline"))
-        ) {
-            letterSpacing = parseFloat(letterSpacing.toFixed(2));
-        } else {
-            letterSpacing = undefined;
-        }
+type TypographyEntry = Entry<WebTypographyParams>;
 
-        return [
-            name,
-            {
-                font_size: fontSize,
-                line_height: lineHeight,
-                font_weight: style.fontWeight,
-                letter_spacing: letterSpacing,
-                text_transform: textTransform,
-                font_family: fontFamily,
-            },
-        ];
-    },
-    mapFontFamily(fontFamily) {
-        switch (fontFamily) {
-            case FontFamily.ALFASANS:
-                return "var(--font-family-alfasans)";
-            case FontFamily.STYRENE:
-                return "var(--font-family-styrene)";
-            default:
-                return "var(--font-family-system)";
-        }
-    },
+const handler: Handler = async (fileKeys: string[]) => {
+    const alfasansTypography: TypographyEntry[] = [];
+    const systemTypography: TypographyEntry[] = [];
+
+    for (const fileKey of fileKeys) {
+        const file = await fetchFile(fileKey);
+
+        walkNodes([file.document], (node) => {
+            if (node.type === "SECTION" && node.name.startsWith("TextStylesExport")) {
+                const target = node.name.endsWith("AlfaSans") ? alfasansTypography : systemTypography;
+
+                target.push(
+                    ...node.children
+                        .filter((childNode) => childNode.type === "TEXT")
+                        .map<TypographyEntry>(({ characters, style }) => {
+                            const name = characters.toLowerCase();
+                            const textTransform = style.textCase === "UPPER" ? "uppercase" : undefined;
+                            const { fontSize, lineHeightPx: lineHeight } = style;
+                            const fontFamily = mapFontFamily(style.fontFamily);
+                            let letterSpacing: number | undefined;
+
+                            if (
+                                style.fontFamily === FontFamily.ALFASANS ||
+                                name.includes("caps") ||
+                                name.includes("tagline")
+                            ) {
+                                letterSpacing = handleLetterSpacing(style.letterSpacing);
+                            }
+
+                            return [
+                                name,
+                                {
+                                    font_size: fontSize,
+                                    line_height: lineHeight,
+                                    font_weight: style.fontWeight,
+                                    letter_spacing: letterSpacing,
+                                    text_transform: textTransform,
+                                    font_family: fontFamily,
+                                },
+                            ];
+                        })
+                );
+            }
+        });
+    }
+
+    return [
+        {
+            file: "styles/typography_web.json",
+            entries: systemTypography,
+        },
+        {
+            file: "styles/typography_alfasans_web.json",
+            entries: alfasansTypography,
+        },
+    ];
 };
 
-export default webFontHandler;
+export default handler;

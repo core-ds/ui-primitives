@@ -1,5 +1,3 @@
-import { DocumentNode, TextNode } from "@figma/rest-api-spec";
-
 export enum FontFamily {
     ALFASANS = "Alfa Interface Sans",
     STYRENE = "Styrene UI",
@@ -11,7 +9,7 @@ export enum Platform {
     ANDROID = "ANDROID",
 }
 
-interface Deprecatable {
+export interface Deprecatable {
     deprecated?: boolean | undefined;
 }
 
@@ -47,11 +45,6 @@ export interface IOSTypographyParams extends Deprecatable {
     monospace: boolean;
 }
 
-export type TypographyParams = WebTypographyParams | AndroidTypographyParams;
+export type Entry<T> = [name: string, T];
 
-export type TypographyDescription<T extends TypographyParams = TypographyParams> = readonly [name: string, value: T];
-
-export interface FontHandler<T extends TypographyParams = TypographyParams> {
-    mapToParams(node: TextNode, documentNode: DocumentNode): TypographyDescription<T>;
-    mapFontFamily(fontFamily: string | undefined): string | undefined;
-}
+export type Handler = (fileKeys: string[]) => Promise<{ file: string; entries: Entry<Deprecatable>[] }[]>;
