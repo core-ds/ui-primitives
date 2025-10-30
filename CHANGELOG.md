@@ -1,3 +1,13 @@
+<a name="31.19.0"></a>
+# [31.19.0](https://github.com/core-ds/ui-primitives/compare/v31.18.0...v31.19.0) (2025-10-30)
+
+
+### Features
+
+* **icons:** add 5 icons ([#997](https://github.com/core-ds/ui-primitives/issues/997)) ([b0ffa36](https://github.com/core-ds/ui-primitives/commit/b0ffa36))
+
+
+
 <a name="31.18.0"></a>
 # [31.18.0](https://github.com/core-ds/ui-primitives/compare/v31.17.0...v31.18.0) (2025-10-30)
 
