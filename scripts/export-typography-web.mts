@@ -1,6 +1,6 @@
-import { FontFamily, FontHandler, TypographyWebParams } from "./types.mjs";
+import { FontFamily, FontHandler, WebTypographyParams } from "./types.mjs";
 
-const webFontHandler: FontHandler<TypographyWebParams> = {
+const webFontHandler: FontHandler<WebTypographyParams> = {
     mapToParams({ characters, style }) {
         const name = characters.toLowerCase();
         const textTransform = style.textCase === "UPPER" ? "uppercase" : undefined;

@@ -1,30 +1,13 @@
-import { GetFileResponse, Node, SectionNode } from "@figma/rest-api-spec";
+import { GetFileResponse, SectionNode } from "@figma/rest-api-spec";
 import { toPlatformPath } from "@actions/core";
 import fse from "fs-extra";
 import { FontFamily, FontHandler, Platform, TypographyDescription, TypographyParams } from "./types.mjs";
-
-function findFrame(nodes: Node[], name: string): SectionNode | undefined {
-    for (let i = 0; i < nodes.length; i++) {
-        const node = nodes[i]!;
-
-        if (node.type === "SECTION" && node.name === name) {
-            return node;
-        }
-
-        if ("children" in node) {
-            const child = findFrame(node.children, name);
-
-            if (child) {
-                return child;
-            }
-        }
-    }
-}
+import { findNode } from "./utils.js";
 
 export async function exportTypography() {
     const { FIGMA_TOKEN } = process.env;
 
-    for (const platform of [Platform.WEB]) {
+    for (const platform of [Platform.WEB, Platform.ANDROID]) {
         const { default: handler } = (await import(`./export-typography-${platform.toLowerCase()}.mjs`)) as {
             default: FontHandler;
         };
@@ -36,11 +19,14 @@ export async function exportTypography() {
                 headers: { "X-FIGMA-TOKEN": FIGMA_TOKEN },
             });
             const file: GetFileResponse = await response.json();
-            const typographyFrame = findFrame([file.document], "TextStylesExport");
+            const typographyNode = findNode(
+                [file.document],
+                (node): node is SectionNode => node.type === "SECTION" && node.name === "TextStylesExport"
+            );
 
-            if (typographyFrame) {
+            if (typographyNode) {
                 results.push(
-                    ...typographyFrame.children
+                    ...typographyNode.children
                         .filter((node) => node.type === "TEXT")
                         .map((node) => handler.mapToParams(node, file.document))
                 );
