@@ -7,7 +7,7 @@ import { findNode } from "./utils.js";
 export async function exportTypography() {
     const { FIGMA_TOKEN } = process.env;
 
-    for (const platform of [Platform.WEB, Platform.ANDROID]) {
+    for (const platform of [Platform.WEB, Platform.ANDROID, Platform.IOS]) {
         const { default: handler } = (await import(`./export-typography-${platform.toLowerCase()}.mjs`)) as {
             default: FontHandler;
         };

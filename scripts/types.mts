@@ -36,6 +36,17 @@ export interface AndroidTypographyParams extends Deprecatable {
     last_baseline_to_bottom_height?: number | undefined;
 }
 
+export interface IOSTypographyParams extends Deprecatable {
+    font_size?: number | undefined;
+    line_height?: number | undefined;
+    line_spacing?: number | undefined;
+    font_family?: string | undefined;
+    font_weight?: string | undefined;
+    text_all_caps: boolean;
+    letter_spacing?: number | undefined;
+    monospace: boolean;
+}
+
 export type TypographyParams = WebTypographyParams | AndroidTypographyParams;
 
 export type TypographyDescription<T extends TypographyParams = TypographyParams> = readonly [name: string, value: T];

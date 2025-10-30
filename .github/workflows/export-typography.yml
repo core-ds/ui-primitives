@@ -35,6 +35,7 @@ jobs:
                   FIGMA_TOKEN: ${{ secrets.FIGMA_TOKEN }}
                   WEB_TYPOGRAPHY_FILE_KEYS: ${{ secrets.WEB_TYPOGRAPHY_FILE_KEYS }}
                   ANDROID_TYPOGRAPHY_FILE_KEYS: ${{ secrets.ANDROID_TYPOGRAPHY_FILE_KEYS }}
+                  IOS_TYPOGRAPHY_FILE_KEYS: ${{ secrets.IOS_TYPOGRAPHY_FILE_KEYS }}
               with:
                   github-token: ${{ secrets.GITHUB_TOKEN }}
                   script: |
