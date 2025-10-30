@@ -1,3 +1,13 @@
+<a name="31.20.0"></a>
+# [31.20.0](https://github.com/core-ds/ui-primitives/compare/v31.19.0...v31.20.0) (2025-10-30)
+
+
+### Features
+
+* update colors ([#993](https://github.com/core-ds/ui-primitives/issues/993)) ([2bbc877](https://github.com/core-ds/ui-primitives/commit/2bbc877))
+
+
+
 <a name="31.19.0"></a>
 # [31.19.0](https://github.com/core-ds/ui-primitives/compare/v31.18.0...v31.19.0) (2025-10-30)
 
