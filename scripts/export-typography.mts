@@ -1,29 +1,7 @@
 import { GetFileResponse, Node, SectionNode } from "@figma/rest-api-spec";
 import { toPlatformPath } from "@actions/core";
 import fse from "fs-extra";
-
-interface TypographyParams {
-    font_size?: number | undefined;
-    line_height?: number | undefined;
-    font_weight?: number | undefined;
-    font_family?: string | undefined;
-    letter_spacing?: number | undefined;
-    text_transform?: string | undefined;
-    deprecated?: boolean | undefined;
-}
-
-type TypographyDescription = readonly [name: string, value: TypographyParams];
-
-enum FontFamily {
-    ALFASANS = "Alfa Interface Sans",
-    STYRENE = "Styrene UI",
-}
-
-enum Platform {
-    WEB = "WEB",
-    IOS = "IOS",
-    ANDROID = "ANDROID",
-}
+import { FontFamily, FontHandler, Platform, TypographyDescription, TypographyParams } from "./types.mjs";
 
 function findFrame(nodes: Node[], name: string): SectionNode | undefined {
     for (let i = 0; i < nodes.length; i++) {
@@ -43,21 +21,14 @@ function findFrame(nodes: Node[], name: string): SectionNode | undefined {
     }
 }
 
-function mapFontFamily(fontFamily: string | undefined): string | undefined {
-    switch (fontFamily) {
-        case FontFamily.ALFASANS:
-            return "var(--font-family-alfasans)";
-        case FontFamily.STYRENE:
-            return "var(--font-family-styrene)";
-        default:
-            return "var(--font-family-system)";
-    }
-}
-
 export async function exportTypography() {
     const { FIGMA_TOKEN } = process.env;
 
     for (const platform of [Platform.WEB]) {
+        const { default: handler } = (await import(`./export-typography-${platform.toLowerCase()}.mjs`)) as {
+            default: FontHandler;
+        };
+
         const fileKeys = JSON.parse(process.env[`${platform}_TYPOGRAPHY_FILE_KEYS`]);
         const results: TypographyDescription[] = [];
         for (const fileKey of fileKeys) {
@@ -71,35 +42,7 @@ export async function exportTypography() {
                 results.push(
                     ...typographyFrame.children
                         .filter((node) => node.type === "TEXT")
-                        .map<TypographyDescription>(({ characters, style }) => {
-                            const name = characters.toLowerCase();
-                            const textTransform = style.textCase === "UPPER" ? "uppercase" : undefined;
-                            const { fontFamily } = style;
-                            let { letterSpacing } = style;
-
-                            if (
-                                letterSpacing &&
-                                (fontFamily === FontFamily.ALFASANS ||
-                                    name.includes("caps") ||
-                                    name.includes("tagline"))
-                            ) {
-                                letterSpacing = parseFloat(letterSpacing.toFixed(2));
-                            } else {
-                                letterSpacing = undefined;
-                            }
-
-                            return [
-                                name,
-                                {
-                                    font_size: style.fontSize,
-                                    line_height: style.lineHeightPx,
-                                    font_weight: style.fontWeight,
-                                    letter_spacing: letterSpacing,
-                                    text_transform: textTransform,
-                                    font_family: fontFamily,
-                                },
-                            ];
-                        })
+                        .map((node) => handler.mapToParams(node, file.document))
                 );
             }
         }
@@ -125,6 +68,7 @@ export async function exportTypography() {
                     ...Object.entries(oldJson)
                         .filter(([name]) => entries.every((entry) => !entry.includes(name)))
                         .map<TypographyDescription>(([name, value]) => [name, { ...value, deprecated: true }])
+                        .sort(([aName], [bName]) => aName.localeCompare(bName))
                 );
             } catch {}
 
@@ -132,9 +76,9 @@ export async function exportTypography() {
                 entries
                     .map<TypographyDescription>(([name, value]) => [
                         name,
-                        { ...value, font_family: mapFontFamily(value.font_family) },
+                        { ...value, font_family: handler.mapFontFamily(value.font_family) },
                     ])
-                    .concat(deprecated.sort(([aName], [bName]) => aName.localeCompare(bName)))
+                    .concat(deprecated)
             );
 
             await fse.writeJson(file, json, { encoding: "utf8", spaces: 4 });
