@@ -1,362 +1,422 @@
 {
 	"static_pfm_custom_blue": {
-		"rgba": "rgba(97, 165, 253, 1)",
-		"hex": "#61a5fd",
-		"alias": "staticPfmCustomColorBlue",
-		"web": "--color-static-pfm-custom-blue"
+		"rgba": "rgba(113, 165, 242, 1)",
+		"hex": "#71a5f2",
+		"figma": "static_pfm-custom/blue",
+		"web": "--color-static-pfm-custom-blue",
+		"alias": "staticPfmCustomColorBlue"
 	},
 	"static_pfm_custom_cyan": {
-		"rgba": "rgba(25, 175, 222, 1)",
-		"hex": "#19afde",
-		"alias": "staticPfmCustomColorCyan",
-		"web": "--color-static-pfm-custom-cyan"
+		"rgba": "rgba(81, 177, 215, 1)",
+		"hex": "#51b1d7",
+		"figma": "static_pfm-custom/cyan",
+		"web": "--color-static-pfm-custom-cyan",
+		"alias": "staticPfmCustomColorCyan"
 	},
 	"static_pfm_custom_indigo": {
-		"rgba": "rgba(155, 150, 249, 1)",
-		"hex": "#9b96f9",
-		"alias": "staticPfmCustomColorIndigo",
-		"web": "--color-static-pfm-custom-indigo"
+		"rgba": "rgba(155, 149, 242, 1)",
+		"hex": "#9b95f2",
+		"figma": "static_pfm-custom/indigo",
+		"web": "--color-static-pfm-custom-indigo",
+		"alias": "staticPfmCustomColorIndigo"
 	},
 	"static_pfm_custom_jungle": {
-		"rgba": "rgba(20, 184, 140, 1)",
-		"hex": "#14b88c",
-		"alias": "staticPfmCustomColorJungle",
-		"web": "--color-static-pfm-custom-jungle"
+		"rgba": "rgba(64, 186, 147, 1)",
+		"hex": "#40ba93",
+		"figma": "static_pfm-custom/jungle",
+		"web": "--color-static-pfm-custom-jungle",
+		"alias": "staticPfmCustomColorJungle"
 	},
 	"static_pfm_custom_magenta": {
-		"rgba": "rgba(251, 115, 156, 1)",
-		"hex": "#fb739c",
-		"alias": "staticPfmCustomColorMagenta",
-		"web": "--color-static-pfm-custom-magenta"
+		"rgba": "rgba(248, 120, 158, 1)",
+		"hex": "#f8789e",
+		"figma": "static_pfm-custom/magenta",
+		"web": "--color-static-pfm-custom-magenta",
+		"alias": "staticPfmCustomColorMagenta"
 	},
 	"static_pfm_custom_orange": {
-		"rgba": "rgba(245, 147, 34, 1)",
-		"hex": "#f59322",
-		"alias": "staticPfmCustomColorOrange",
-		"web": "--color-static-pfm-custom-orange"
+		"rgba": "rgba(242, 155, 62, 1)",
+		"hex": "#f29b3e",
+		"figma": "static_pfm-custom/orange",
+		"web": "--color-static-pfm-custom-orange",
+		"alias": "staticPfmCustomColorOrange"
 	},
 	"static_pfm_custom_pistachio": {
-		"rgba": "rgba(132, 178, 25, 1)",
-		"hex": "#84b219",
-		"alias": "staticPfmCustomColorPistachio",
-		"web": "--color-static-pfm-custom-pistachio"
+		"rgba": "rgba(142, 180, 60, 1)",
+		"hex": "#8eb43c",
+		"figma": "static_pfm-custom/pistachio",
+		"web": "--color-static-pfm-custom-pistachio",
+		"alias": "staticPfmCustomColorPistachio"
 	},
 	"static_pfm_custom_purple": {
-		"rgba": "rgba(206, 131, 234, 1)",
-		"hex": "#ce83ea",
-		"alias": "staticPfmCustomColorPurple",
-		"web": "--color-static-pfm-custom-purple"
+		"rgba": "rgba(208, 134, 236, 1)",
+		"hex": "#d086ec",
+		"figma": "static_pfm-custom/purple",
+		"web": "--color-static-pfm-custom-purple",
+		"alias": "staticPfmCustomColorPurple"
 	},
 	"static_pfm_custom_red": {
-		"rgba": "rgba(247, 85, 59, 1)",
-		"hex": "#f7553b",
-		"alias": "staticPfmCustomColorRed",
-		"web": "--color-static-pfm-custom-red"
+		"rgba": "rgba(236, 87, 66, 1)",
+		"hex": "#ec5742",
+		"figma": "static_pfm-custom/red",
+		"web": "--color-static-pfm-custom-red",
+		"alias": "staticPfmCustomColorRed"
 	},
 	"static_pfm_custom_yellow": {
-		"rgba": "rgba(246, 212, 17, 1)",
-		"hex": "#f6d411",
-		"alias": "staticPfmCustomColorYellow",
-		"web": "--color-static-pfm-custom-yellow"
+		"rgba": "rgba(246, 213, 61, 1)",
+		"hex": "#f6d53d",
+		"figma": "static_pfm-custom/yellow",
+		"web": "--color-static-pfm-custom-yellow",
+		"alias": "staticPfmCustomColorYellow"
 	},
 	"static_pfm_system_acrux": {
 		"rgba": "rgba(9, 170, 175, 1)",
 		"hex": "#09aaaf",
-		"alias": "staticPfmSystemColorAcrux",
-		"web": "--color-static-pfm-system-acrux"
+		"figma": "static_pfm-system/acrux",
+		"web": "--color-static-pfm-system-acrux",
+		"alias": "staticPfmSystemColorAcrux"
 	},
 	"static_pfm_system_alcor": {
 		"rgba": "rgba(216, 132, 254, 1)",
 		"hex": "#d884fe",
-		"alias": "staticPfmSystemColorAlcor",
-		"web": "--color-static-pfm-system-alcor"
+		"figma": "static_pfm-system/alcor",
+		"web": "--color-static-pfm-system-alcor",
+		"alias": "staticPfmSystemColorAlcor"
 	},
 	"static_pfm_system_aldebaran": {
-		"rgba": "rgba(255, 141, 115, 1)",
-		"hex": "#ff8d73",
-		"alias": "staticPfmSystemColorAldebaran",
-		"web": "--color-static-pfm-system-aldebaran"
+		"rgba": "rgba(255, 141, 121, 1)",
+		"hex": "#ff8d79",
+		"figma": "static_pfm-system/aldebaran",
+		"web": "--color-static-pfm-system-aldebaran",
+		"alias": "staticPfmSystemColorAldebaran"
 	},
 	"static_pfm_system_andromeda": {
 		"rgba": "rgba(255, 161, 188, 1)",
 		"hex": "#ffa1bc",
-		"alias": "staticPfmSystemColorAndromeda",
-		"web": "--color-static-pfm-system-andromeda"
+		"figma": "static_pfm-system/andromeda",
+		"web": "--color-static-pfm-system-andromeda",
+		"alias": "staticPfmSystemColorAndromeda"
 	},
 	"static_pfm_system_apollo": {
 		"rgba": "rgba(225, 33, 105, 1)",
 		"hex": "#e12169",
-		"alias": "staticPfmSystemColorApollo",
-		"web": "--color-static-pfm-system-apollo"
+		"figma": "static_pfm-system/apollo",
+		"web": "--color-static-pfm-system-apollo",
+		"alias": "staticPfmSystemColorApollo"
 	},
 	"static_pfm_system_atlas": {
 		"rgba": "rgba(206, 89, 250, 1)",
 		"hex": "#ce59fa",
-		"alias": "staticPfmSystemColorAtlas",
-		"web": "--color-static-pfm-system-atlas"
+		"figma": "static_pfm-system/atlas",
+		"web": "--color-static-pfm-system-atlas",
+		"alias": "staticPfmSystemColorAtlas"
 	},
 	"static_pfm_system_betelgeuse": {
 		"rgba": "rgba(127, 113, 253, 1)",
 		"hex": "#7f71fd",
-		"alias": "staticPfmSystemColorBetelgeuse",
-		"web": "--color-static-pfm-system-betelgeuse"
+		"figma": "static_pfm-system/betelgeuse",
+		"web": "--color-static-pfm-system-betelgeuse",
+		"alias": "staticPfmSystemColorBetelgeuse"
 	},
 	"static_pfm_system_capella": {
 		"rgba": "rgba(204, 165, 4, 1)",
 		"hex": "#cca504",
-		"alias": "staticPfmSystemColorCapella",
-		"web": "--color-static-pfm-system-capella"
+		"figma": "static_pfm-system/capella",
+		"web": "--color-static-pfm-system-capella",
+		"alias": "staticPfmSystemColorCapella"
 	},
 	"static_pfm_system_carmenta": {
 		"rgba": "rgba(13, 160, 127, 1)",
 		"hex": "#0da07f",
-		"alias": "staticPfmSystemColorCarmenta",
-		"web": "--color-static-pfm-system-carmenta"
+		"figma": "static_pfm-system/carmenta",
+		"web": "--color-static-pfm-system-carmenta",
+		"alias": "staticPfmSystemColorCarmenta"
 	},
 	"static_pfm_system_concordia": {
 		"rgba": "rgba(11, 177, 231, 1)",
 		"hex": "#0bb1e7",
-		"alias": "staticPfmSystemColorConcordia",
-		"web": "--color-static-pfm-system-concordia"
+		"figma": "static_pfm-system/concordia",
+		"web": "--color-static-pfm-system-concordia",
+		"alias": "staticPfmSystemColorConcordia"
 	},
 	"static_pfm_system_cupid": {
-		"rgba": "rgba(254, 80, 200, 1)",
-		"hex": "#fe50c8",
-		"alias": "staticPfmSystemColorCupid",
-		"web": "--color-static-pfm-system-cupid"
+		"rgba": "rgba(248, 89, 197, 1)",
+		"hex": "#f859c5",
+		"figma": "static_pfm-system/cupid",
+		"web": "--color-static-pfm-system-cupid",
+		"alias": "staticPfmSystemColorCupid"
 	},
 	"static_pfm_system_electra": {
 		"rgba": "rgba(226, 169, 251, 1)",
 		"hex": "#e2a9fb",
-		"alias": "staticPfmSystemColorElectra",
-		"web": "--color-static-pfm-system-electra"
+		"figma": "static_pfm-system/electra",
+		"web": "--color-static-pfm-system-electra",
+		"alias": "staticPfmSystemColorElectra"
 	},
 	"static_pfm_system_enif": {
 		"rgba": "rgba(128, 192, 2, 1)",
 		"hex": "#80c002",
-		"alias": "staticPfmSystemColorEnif",
-		"web": "--color-static-pfm-system-enif"
+		"figma": "static_pfm-system/enif",
+		"web": "--color-static-pfm-system-enif",
+		"alias": "staticPfmSystemColorEnif"
 	},
 	"static_pfm_system_fides": {
 		"rgba": "rgba(63, 205, 254, 1)",
 		"hex": "#3fcdfe",
-		"alias": "staticPfmSystemColorFides",
-		"web": "--color-static-pfm-system-fides"
+		"figma": "static_pfm-system/fides",
+		"web": "--color-static-pfm-system-fides",
+		"alias": "staticPfmSystemColorFides"
 	},
 	"static_pfm_system_galaxy": {
 		"rgba": "rgba(42, 119, 239, 1)",
 		"hex": "#2a77ef",
-		"alias": "staticPfmSystemColorGalaxy",
-		"web": "--color-static-pfm-system-galaxy"
+		"figma": "static_pfm-system/galaxy",
+		"web": "--color-static-pfm-system-galaxy",
+		"alias": "staticPfmSystemColorGalaxy"
 	},
 	"static_pfm_system_helix": {
 		"rgba": "rgba(4, 181, 69, 1)",
 		"hex": "#04b545",
-		"alias": "staticPfmSystemColorHelix",
-		"web": "--color-static-pfm-system-helix"
+		"figma": "static_pfm-system/helix",
+		"web": "--color-static-pfm-system-helix",
+		"alias": "staticPfmSystemColorHelix"
 	},
 	"static_pfm_system_hubble": {
 		"rgba": "rgba(117, 117, 125, 1)",
 		"hex": "#75757d",
-		"alias": "staticPfmSystemColorHubble",
-		"web": "--color-static-pfm-system-hubble"
+		"figma": "static_pfm-system/hubble",
+		"web": "--color-static-pfm-system-hubble",
+		"alias": "staticPfmSystemColorHubble"
 	},
 	"static_pfm_system_jupiter": {
 		"rgba": "rgba(253, 178, 77, 1)",
 		"hex": "#fdb24d",
-		"alias": "staticPfmSystemColorJupiter",
-		"web": "--color-static-pfm-system-jupiter"
+		"figma": "static_pfm-system/jupiter",
+		"web": "--color-static-pfm-system-jupiter",
+		"alias": "staticPfmSystemColorJupiter"
 	},
 	"static_pfm_system_kaus": {
 		"rgba": "rgba(106, 158, 2, 1)",
 		"hex": "#6a9e02",
-		"alias": "staticPfmSystemColorKaus",
-		"web": "--color-static-pfm-system-kaus"
+		"figma": "static_pfm-system/kaus",
+		"web": "--color-static-pfm-system-kaus",
+		"alias": "staticPfmSystemColorKaus"
 	},
 	"static_pfm_system_kepler": {
 		"rgba": "rgba(250, 147, 19, 1)",
 		"hex": "#fa9313",
-		"alias": "staticPfmSystemColorKepler",
-		"web": "--color-static-pfm-system-kepler"
+		"figma": "static_pfm-system/kepler",
+		"web": "--color-static-pfm-system-kepler",
+		"alias": "staticPfmSystemColorKepler"
 	},
 	"static_pfm_system_maia": {
 		"rgba": "rgba(255, 114, 162, 1)",
 		"hex": "#ff72a2",
-		"alias": "staticPfmSystemColorMaia",
-		"web": "--color-static-pfm-system-maia"
+		"figma": "static_pfm-system/maia",
+		"web": "--color-static-pfm-system-maia",
+		"alias": "staticPfmSystemColorMaia"
 	},
 	"static_pfm_system_mars": {
-		"rgba": "rgba(253, 101, 68, 1)",
-		"hex": "#fd6544",
-		"alias": "staticPfmSystemColorMars",
-		"web": "--color-static-pfm-system-mars"
+		"rgba": "rgba(254, 94, 72, 1)",
+		"hex": "#fe5e48",
+		"figma": "static_pfm-system/mars",
+		"web": "--color-static-pfm-system-mars",
+		"alias": "staticPfmSystemColorMars"
 	},
 	"static_pfm_system_meissa": {
 		"rgba": "rgba(4, 150, 198, 1)",
 		"hex": "#0496c6",
-		"alias": "staticPfmSystemColorMeissa",
-		"web": "--color-static-pfm-system-meissa"
+		"figma": "static_pfm-system/meissa",
+		"web": "--color-static-pfm-system-meissa",
+		"alias": "staticPfmSystemColorMeissa"
 	},
 	"static_pfm_system_mercury": {
 		"rgba": "rgba(234, 131, 19, 1)",
 		"hex": "#ea8313",
-		"alias": "staticPfmSystemColorMercury",
-		"web": "--color-static-pfm-system-mercury"
+		"figma": "static_pfm-system/mercury",
+		"web": "--color-static-pfm-system-mercury",
+		"alias": "staticPfmSystemColorMercury"
 	},
 	"static_pfm_system_mira": {
 		"rgba": "rgba(21, 217, 172, 1)",
 		"hex": "#15d9ac",
-		"alias": "staticPfmSystemColorMira",
-		"web": "--color-static-pfm-system-mira"
+		"figma": "static_pfm-system/mira",
+		"web": "--color-static-pfm-system-mira",
+		"alias": "staticPfmSystemColorMira"
 	},
 	"static_pfm_system_mizar": {
 		"rgba": "rgba(186, 61, 216, 1)",
 		"hex": "#ba3dd8",
-		"alias": "staticPfmSystemColorMizar",
-		"web": "--color-static-pfm-system-mizar"
+		"figma": "static_pfm-system/mizar",
+		"web": "--color-static-pfm-system-mizar",
+		"alias": "staticPfmSystemColorMizar"
 	},
 	"static_pfm_system_nebula": {
 		"rgba": "rgba(74, 231, 119, 1)",
 		"hex": "#4ae777",
-		"alias": "staticPfmSystemColorNebula",
-		"web": "--color-static-pfm-system-nebula"
+		"figma": "static_pfm-system/nebula",
+		"web": "--color-static-pfm-system-nebula",
+		"alias": "staticPfmSystemColorNebula"
 	},
 	"static_pfm_system_numa": {
 		"rgba": "rgba(10, 190, 148, 1)",
 		"hex": "#0abe94",
-		"alias": "staticPfmSystemColorNuma",
-		"web": "--color-static-pfm-system-numa"
+		"figma": "static_pfm-system/numa",
+		"web": "--color-static-pfm-system-numa",
+		"alias": "staticPfmSystemColorNuma"
 	},
 	"static_pfm_system_orcus": {
 		"rgba": "rgba(153, 139, 255, 1)",
 		"hex": "#998bff",
-		"alias": "staticPfmSystemColorOrcus",
-		"web": "--color-static-pfm-system-orcus"
+		"figma": "static_pfm-system/orcus",
+		"web": "--color-static-pfm-system-orcus",
+		"alias": "staticPfmSystemColorOrcus"
 	},
 	"static_pfm_system_orion": {
 		"rgba": "rgba(232, 195, 5, 1)",
 		"hex": "#e8c305",
-		"alias": "staticPfmSystemColorOrion",
-		"web": "--color-static-pfm-system-orion"
+		"figma": "static_pfm-system/orion",
+		"web": "--color-static-pfm-system-orion",
+		"alias": "staticPfmSystemColorOrion"
 	},
 	"static_pfm_system_pluto": {
 		"rgba": "rgba(179, 170, 255, 1)",
 		"hex": "#b3aaff",
-		"alias": "staticPfmSystemColorPluto",
-		"web": "--color-static-pfm-system-pluto"
+		"figma": "static_pfm-system/pluto",
+		"web": "--color-static-pfm-system-pluto",
+		"alias": "staticPfmSystemColorPluto"
 	},
 	"static_pfm_system_proserpina": {
 		"rgba": "rgba(13, 147, 54, 1)",
 		"hex": "#0d9336",
-		"alias": "staticPfmSystemColorProserpina",
-		"web": "--color-static-pfm-system-proserpina"
+		"figma": "static_pfm-system/proserpina",
+		"web": "--color-static-pfm-system-proserpina",
+		"alias": "staticPfmSystemColorProserpina"
 	},
 	"static_pfm_system_proxima": {
-		"rgba": "rgba(254, 136, 227, 1)",
-		"hex": "#fe88e3",
-		"alias": "staticPfmSystemColorProxima",
-		"web": "--color-static-pfm-system-proxima"
+		"rgba": "rgba(253, 137, 226, 1)",
+		"hex": "#fd89e2",
+		"figma": "static_pfm-system/proxima",
+		"web": "--color-static-pfm-system-proxima",
+		"alias": "staticPfmSystemColorProxima"
 	},
 	"static_pfm_system_regulus": {
 		"rgba": "rgba(49, 147, 252, 1)",
 		"hex": "#3193fc",
-		"alias": "staticPfmSystemColorRegulus",
-		"web": "--color-static-pfm-system-regulus"
+		"figma": "static_pfm-system/regulus",
+		"web": "--color-static-pfm-system-regulus",
+		"alias": "staticPfmSystemColorRegulus"
 	},
 	"static_pfm_system_rigel": {
 		"rgba": "rgba(99, 170, 253, 1)",
 		"hex": "#63aafd",
-		"alias": "staticPfmSystemColorRigel",
-		"web": "--color-static-pfm-system-rigel"
+		"figma": "static_pfm-system/rigel",
+		"web": "--color-static-pfm-system-rigel",
+		"alias": "staticPfmSystemColorRigel"
 	},
 	"static_pfm_system_saturn": {
 		"rgba": "rgba(220, 179, 11, 1)",
 		"hex": "#dcb30b",
-		"alias": "staticPfmSystemColorSaturn",
-		"web": "--color-static-pfm-system-saturn"
+		"figma": "static_pfm-system/saturn",
+		"web": "--color-static-pfm-system-saturn",
+		"alias": "staticPfmSystemColorSaturn"
 	},
 	"static_pfm_system_sirius": {
-		"rgba": "rgba(255, 159, 147, 1)",
-		"hex": "#ff9f93",
-		"alias": "staticPfmSystemColorSirius",
-		"web": "--color-static-pfm-system-sirius"
+		"rgba": "rgba(254, 160, 143, 1)",
+		"hex": "#fea08f",
+		"figma": "static_pfm-system/sirius",
+		"web": "--color-static-pfm-system-sirius",
+		"alias": "staticPfmSystemColorSirius"
 	},
 	"static_pfm_system_spica": {
 		"rgba": "rgba(149, 195, 253, 1)",
 		"hex": "#95c3fd",
-		"alias": "staticPfmSystemColorSpica",
-		"web": "--color-static-pfm-system-spica"
+		"figma": "static_pfm-system/spica",
+		"web": "--color-static-pfm-system-spica",
+		"alias": "staticPfmSystemColorSpica"
 	},
 	"static_pfm_system_sun": {
 		"rgba": "rgba(251, 215, 0, 1)",
 		"hex": "#fbd700",
-		"alias": "staticPfmSystemColorSun",
-		"web": "--color-static-pfm-system-sun"
+		"figma": "static_pfm-system/sun",
+		"web": "--color-static-pfm-system-sun",
+		"alias": "staticPfmSystemColorSun"
 	},
 	"static_pfm_system_tars": {
 		"rgba": "rgba(160, 161, 169, 1)",
 		"hex": "#a0a1a9",
-		"alias": "staticPfmSystemColorTars",
-		"web": "--color-static-pfm-system-tars"
+		"figma": "static_pfm-system/tars",
+		"web": "--color-static-pfm-system-tars",
+		"alias": "staticPfmSystemColorTars"
 	},
 	"static_pfm_system_terra": {
 		"rgba": "rgba(23, 208, 85, 1)",
 		"hex": "#17d055",
-		"alias": "staticPfmSystemColorTerra",
-		"web": "--color-static-pfm-system-terra"
+		"figma": "static_pfm-system/terra",
+		"web": "--color-static-pfm-system-terra",
+		"alias": "staticPfmSystemColorTerra"
 	},
 	"static_pfm_system_triton": {
 		"rgba": "rgba(5, 138, 143, 1)",
 		"hex": "#058a8f",
-		"alias": "staticPfmSystemColorTriton",
-		"web": "--color-static-pfm-system-triton"
+		"figma": "static_pfm-system/triton",
+		"web": "--color-static-pfm-system-triton",
+		"alias": "staticPfmSystemColorTriton"
 	},
 	"static_pfm_system_uranus": {
 		"rgba": "rgba(73, 223, 231, 1)",
 		"hex": "#49dfe7",
-		"alias": "staticPfmSystemColorUranus",
-		"web": "--color-static-pfm-system-uranus"
+		"figma": "static_pfm-system/uranus",
+		"web": "--color-static-pfm-system-uranus",
+		"alias": "staticPfmSystemColorUranus"
 	},
 	"static_pfm_system_vega": {
 		"rgba": "rgba(9, 200, 208, 1)",
 		"hex": "#09c8d0",
-		"alias": "staticPfmSystemColorVega",
-		"web": "--color-static-pfm-system-vega"
+		"figma": "static_pfm-system/vega",
+		"web": "--color-static-pfm-system-vega",
+		"alias": "staticPfmSystemColorVega"
 	},
 	"static_pfm_system_venus": {
-		"rgba": "rgba(239, 37, 169, 1)",
-		"hex": "#ef25a9",
-		"alias": "staticPfmSystemColorVenus",
-		"web": "--color-static-pfm-system-venus"
+		"rgba": "rgba(232, 54, 166, 1)",
+		"hex": "#e836a6",
+		"figma": "static_pfm-system/venus",
+		"web": "--color-static-pfm-system-venus",
+		"alias": "staticPfmSystemColorVenus"
 	},
 	"static_pfm_system_voyager": {
 		"rgba": "rgba(95, 95, 102, 1)",
 		"hex": "#5f5f66",
-		"alias": "staticPfmSystemColorVoyager",
-		"web": "--color-static-pfm-system-voyager"
+		"figma": "static_pfm-system/voyager",
+		"web": "--color-static-pfm-system-voyager",
+		"alias": "staticPfmSystemColorVoyager"
 	},
 	"static_pfm_system_vulcan": {
-		"rgba": "rgba(236, 46, 20, 1)",
-		"hex": "#ec2e14",
-		"alias": "staticPfmSystemColorVulcan",
-		"web": "--color-static-pfm-system-vulcan"
+		"rgba": "rgba(236, 45, 32, 1)",
+		"hex": "#ec2d20",
+		"figma": "static_pfm-system/vulcan",
+		"web": "--color-static-pfm-system-vulcan",
+		"alias": "staticPfmSystemColorVulcan"
 	},
 	"static_pfm_system_webb": {
 		"rgba": "rgba(186, 187, 194, 1)",
 		"hex": "#babbc2",
-		"alias": "staticPfmSystemColorWebb",
-		"web": "--color-static-pfm-system-webb"
+		"figma": "static_pfm-system/webb",
+		"web": "--color-static-pfm-system-webb",
+		"alias": "staticPfmSystemColorWebb"
 	},
 	"static_pfm_system_wezen": {
-		"rgba": "rgba(251, 62, 139, 1)",
-		"hex": "#fb3e8b",
-		"alias": "staticPfmSystemColorWezen",
-		"web": "--color-static-pfm-system-wezen"
+		"rgba": "rgba(252, 60, 139, 1)",
+		"hex": "#fc3c8b",
+		"figma": "static_pfm-system/wezen",
+		"web": "--color-static-pfm-system-wezen",
+		"alias": "staticPfmSystemColorWezen"
 	},
 	"static_pfm_system_zwicky": {
 		"rgba": "rgba(153, 216, 39, 1)",
 		"hex": "#99d827",
-		"alias": "staticPfmSystemColorZwicky",
-		"web": "--color-static-pfm-system-zwicky"
+		"figma": "static_pfm-system/zwicky",
+		"web": "--color-static-pfm-system-zwicky",
+		"alias": "staticPfmSystemColorZwicky"
 	}
 }
