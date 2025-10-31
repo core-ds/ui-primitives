@@ -1,6 +1,6 @@
 import { AndroidTypographyParams, Entry, Handler } from "./types.mjs";
 import { pascalCase, snakeCase } from "change-case";
-import { fetchFile, findNode, handleLetterSpacing, walkNodes } from "./utils.js";
+import { fetchFile, findNode, handleLetterSpacing, forEachNode } from "./utils.js";
 import { SectionNode, TextNode } from "@figma/rest-api-spec";
 
 type TypographyEntry = Entry<AndroidTypographyParams>;
@@ -14,7 +14,12 @@ const handler: Handler = async (fileKeys: string[]) => {
     for (const fileKey of fileKeys) {
         const file = await fetchFile(fileKey);
 
-        walkNodes([file.document], (node) => {
+        const baselineNode = findNode(
+            [file.document],
+            (node): node is SectionNode => node.type === "SECTION" && node.name === "BaselineExport"
+        );
+
+        forEachNode([file.document], (node) => {
             if (node.type === "SECTION" && node.name.startsWith("TextStylesExport")) {
                 const target = node.name.endsWith("AlfaSans")
                     ? alfasansTypography
@@ -48,12 +53,6 @@ const handler: Handler = async (fileKeys: string[]) => {
                                 const NATURAL_LINE_HEIGHT = 1.17;
                                 lineSpacing = Math.floor(lineHeight - fontSize * NATURAL_LINE_HEIGHT);
                                 lineSpacingExtra = Math.round(lineHeight - fontSize * NATURAL_LINE_HEIGHT);
-
-                                const baselineNode = findNode(
-                                    [file.document],
-                                    (node): node is SectionNode =>
-                                        node.type === "SECTION" && node.name === "BaselineExport"
-                                );
 
                                 if (baselineNode) {
                                     const node = baselineNode.children.find(

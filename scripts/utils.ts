@@ -1,36 +1,31 @@
 import { GetFileResponse, Node } from "@figma/rest-api-spec";
+import { Entry } from "./types.mjs";
+
+function* walkNodes(nodes: Node[]): Generator<Node> {
+    yield* nodes;
+
+    for (const node of nodes) {
+        if ("children" in node) {
+            yield* walkNodes(node.children);
+        }
+    }
+}
 
 export function findNode<T extends Node>(nodes: Node[], predicate: (n: Node) => n is T): T | undefined {
-    for (let i = 0; i < nodes.length; i++) {
-        const node = nodes[i]!;
-
+    for (const node of walkNodes(nodes)) {
         if (predicate(node)) {
             return node;
         }
-
-        if ("children" in node) {
-            const child = findNode(node.children, predicate);
-
-            if (child) {
-                return child;
-            }
-        }
     }
 }
 
-export function walkNodes(nodes: Node[], callback: (n: Node) => void): void {
-    for (let i = 0; i < nodes.length; i++) {
-        const node = nodes[i]!;
-
+export function forEachNode(nodes: Node[], callback: (n: Node) => void): void {
+    for (const node of walkNodes(nodes)) {
         callback(node);
-
-        if ("children" in node) {
-            walkNodes(node.children, callback);
-        }
     }
 }
 
-export function sortEntries<T extends [name: string, value: unknown]>(entries: T[]): T[] {
+export function sortEntries<T extends Entry<unknown>>(entries: T[]): T[] {
     return Array.from(entries).sort(([aName], [bName]) => aName.localeCompare(bName));
 }
 

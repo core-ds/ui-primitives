@@ -1,5 +1,5 @@
 import { Entry, FontFamily, Handler, WebTypographyParams } from "./types.mjs";
-import { fetchFile, handleLetterSpacing, walkNodes } from "./utils.js";
+import { fetchFile, handleLetterSpacing, forEachNode } from "./utils.js";
 
 function mapFontFamily(fontFamily: string | undefined) {
     switch (fontFamily) {
@@ -21,7 +21,7 @@ const handler: Handler = async (fileKeys: string[]) => {
     for (const fileKey of fileKeys) {
         const file = await fetchFile(fileKey);
 
-        walkNodes([file.document], (node) => {
+        forEachNode([file.document], (node) => {
             if (node.type === "SECTION" && node.name.startsWith("TextStylesExport")) {
                 const target = node.name.endsWith("AlfaSans") ? alfasansTypography : systemTypography;
 

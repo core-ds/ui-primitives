@@ -1,6 +1,6 @@
 import { pascalCase } from "change-case";
 import { FontFamily, IOSTypographyParams, Handler, Entry } from "./types.mjs";
-import { fetchFile, handleLetterSpacing, walkNodes } from "./utils.js";
+import { fetchFile, handleLetterSpacing, forEachNode } from "./utils.js";
 
 type TypographyEntry = Entry<IOSTypographyParams>;
 
@@ -11,7 +11,7 @@ const handler: Handler = async (fileKeys: string[]) => {
     for (const fileKey of fileKeys) {
         const file = await fetchFile(fileKey);
 
-        walkNodes([file.document], (node) => {
+        forEachNode([file.document], (node) => {
             if (node.type === "SECTION" && node.name.startsWith("TextStylesExport")) {
                 const target = node.name.endsWith("AlfaSans") ? alfasansTypography : systemTypography;
 
