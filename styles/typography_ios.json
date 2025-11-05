@@ -16,7 +16,7 @@
         "font_family": "System",
         "font_weight": "bold",
         "text_all_caps": false,
-        "letter_spacing": -0.41,
+        "letter_spacing": -0.44,
         "monospace": false
     },
     "AccentComponentSecondary": {
@@ -116,7 +116,7 @@
         "font_family": "System",
         "font_weight": "semibold",
         "text_all_caps": false,
-        "letter_spacing": -0.41,
+        "letter_spacing": -0.44,
         "monospace": false
     },
     "ActionComponentSecondary": {
@@ -326,7 +326,7 @@
         "font_family": "System",
         "font_weight": "regular",
         "text_all_caps": false,
-        "letter_spacing": -0.41,
+        "letter_spacing": -0.44,
         "monospace": false
     },
     "ParagraphComponentSecondary": {
