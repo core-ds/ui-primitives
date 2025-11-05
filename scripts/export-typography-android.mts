@@ -40,31 +40,37 @@ const handler: Handler = async (fileKeys: string[]) => {
                                 typeof style.fontFamily === "string"
                                     ? `${snakeCase(style.fontFamily)}${fontStyle ? `_${fontStyle.toLowerCase()}` : ""}`
                                     : style.fontFamily;
-                            const letterSpacing = handleLetterSpacing(style.letterSpacing);
+                            let letterSpacing: number | undefined;
                             let lineSpacing: number | undefined;
                             let lineSpacingExtra: number | undefined;
                             let firstBaselineToTopHeight: number | undefined;
                             let lastBaselineToBottomHeight: number | undefined;
 
-                            if (typeof fontSize === "number" && typeof lineHeight === "number") {
-                                /**
-                                 * Magic number
-                                 */
-                                const NATURAL_LINE_HEIGHT = 1.17;
-                                lineSpacing = Math.floor(lineHeight - fontSize * NATURAL_LINE_HEIGHT);
-                                lineSpacingExtra = Math.round(lineHeight - fontSize * NATURAL_LINE_HEIGHT);
+                            if (typeof fontSize === "number") {
+                                if (typeof style.letterSpacing === "number") {
+                                    letterSpacing = handleLetterSpacing(style.letterSpacing / fontSize);
+                                }
 
-                                if (baselineNode) {
-                                    const node = baselineNode.children.find(
-                                        (child): child is TextNode =>
-                                            child.type === "TEXT" &&
-                                            child.characters.startsWith(`${fontSize}-${lineHeight}`)
-                                    );
+                                if (typeof lineHeight === "number") {
+                                    /**
+                                     * Magic number
+                                     */
+                                    const NATURAL_LINE_HEIGHT = 1.17;
+                                    lineSpacing = Math.floor(lineHeight - fontSize * NATURAL_LINE_HEIGHT);
+                                    lineSpacingExtra = Math.round(lineHeight - fontSize * NATURAL_LINE_HEIGHT);
 
-                                    if (node) {
-                                        [, , firstBaselineToTopHeight, lastBaselineToBottomHeight] = node.characters
-                                            .split("-")
-                                            .map((val) => parseInt(val, 10));
+                                    if (baselineNode) {
+                                        const node = baselineNode.children.find(
+                                            (child): child is TextNode =>
+                                                child.type === "TEXT" &&
+                                                child.characters.startsWith(`${fontSize}-${lineHeight}`)
+                                        );
+
+                                        if (node) {
+                                            [, , firstBaselineToTopHeight, lastBaselineToBottomHeight] = node.characters
+                                                .split("-")
+                                                .map((val) => parseInt(val, 10));
+                                        }
                                     }
                                 }
                             }
