@@ -61,7 +61,7 @@ const handler: Handler = async (fileKeys: string[]) => {
             entries: systemTypography,
         },
         {
-            file: "styles/typography_alfasans_ios.json",
+            file: "styles/typography_ios_alfasans.json",
             entries: alfasansTypography,
         },
     ];

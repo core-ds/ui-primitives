@@ -97,11 +97,11 @@ const handler: Handler = async (fileKeys: string[]) => {
 
     return [
         {
-            file: "styles/typography_alfasans_android.json",
+            file: "styles/typography_android_alfasans.json",
             entries: alfasansTypography,
         },
         {
-            file: "styles/typography_alfasans_fixed_android.json",
+            file: "styles/typography_android_alfasans_fixed.json",
             entries: alfasansFixedTypography,
         },
         {
@@ -109,7 +109,7 @@ const handler: Handler = async (fileKeys: string[]) => {
             entries: systemTypography,
         },
         {
-            file: "styles/typography_fixed_android.json",
+            file: "styles/typography_android_fixed.json",
             entries: systemFixedTypography,
         },
     ];
