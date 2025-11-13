@@ -43,8 +43,8 @@ export default async ({ exec, context, github }: AsyncFunctionArguments) => {
 
         if (existingPullRequests.data.length === 0) {
             await github.rest.pulls.create({
-                owner: owner,
-                repo: repo,
+                owner,
+                repo,
                 base: branch,
                 head: targetBranch,
                 title: "feat: updated typography",
