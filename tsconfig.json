@@ -1,0 +1,11 @@
+{
+    "include": ["scripts"],
+    "compilerOptions": {
+        "strict": true,
+        "allowJs": true,
+        "checkJs": true,
+        "module": "nodenext",
+        "noUncheckedIndexedAccess": true,
+        "outDir": "dist"
+    }
+}
