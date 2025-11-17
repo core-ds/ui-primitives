@@ -1,3 +1,8 @@
+<a name="33.0.0"></a>
+# [33.0.0](https://github.com/core-ds/ui-primitives/compare/v32.1.0...v33.0.0) (2025-11-17)
+
+
+
 <a name="32.1.0"></a>
 # [32.1.0](https://github.com/core-ds/ui-primitives/compare/v32.0.0...v32.1.0) (2025-11-17)
 
