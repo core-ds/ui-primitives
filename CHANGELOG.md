@@ -1,3 +1,13 @@
+<a name="32.1.0"></a>
+# [32.1.0](https://github.com/core-ds/ui-primitives/compare/v32.0.0...v32.1.0) (2025-11-17)
+
+
+### Bug Fixes
+
+* build test ([#1006](https://github.com/core-ds/ui-primitives/issues/1006)) ([2724223](https://github.com/core-ds/ui-primitives/commit/2724223))
+
+
+
 <a name="32.0.0"></a>
 # [32.0.0](https://github.com/core-ds/ui-primitives/compare/v31.22.0...v32.0.0) (2025-11-17)
 
