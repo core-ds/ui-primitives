@@ -1,3 +1,13 @@
+<a name="32.0.0"></a>
+# [32.0.0](https://github.com/core-ds/ui-primitives/compare/v31.22.0...v32.0.0) (2025-11-17)
+
+
+### Features
+
+* remove incorrect icons ([530ad3d](https://github.com/core-ds/ui-primitives/commit/530ad3d))
+
+
+
 <a name="31.22.0"></a>
 # [31.22.0](https://github.com/core-ds/ui-primitives/compare/v31.21.0...v31.22.0) (2025-11-14)
 
