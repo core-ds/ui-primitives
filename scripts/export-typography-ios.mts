@@ -23,7 +23,7 @@ const handler: Handler = async (fileKeys: string[]) => {
                             const monospace = characters.toLowerCase().includes("mono");
                             const textAllCaps = style.textCase === "UPPER";
                             const { fontSize, lineHeightPx: lineHeight, fontStyle } = style;
-                            const fontFamily = style.fontFamily === FontFamily.ALFASANS ? style.fontFamily : "System";
+                            const fontFamily = style.fontFamily === FontFamily.ALFASANS ? "SpareRed" : "System";
                             const fontWeight = fontStyle?.toLowerCase();
                             const letterSpacing = handleLetterSpacing(style.letterSpacing);
                             let lineSpacing: number | undefined;
