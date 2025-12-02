@@ -1,0 +1,51 @@
+{
+  "dark_go_lilac": {
+    "rgba": "rgba(43, 33, 58, 1)",
+    "hex": "#2b213a",
+    "figma": "go/lilac",
+    "web": "--color-dark-go-lilac",
+    "alias": "goColorLilac"
+  },
+  "dark_go_violet": {
+    "rgba": "rgba(123, 84, 235, 1)",
+    "hex": "#7b54eb",
+    "figma": "go/violet",
+    "web": "--color-dark-go-violet",
+    "alias": "goColorViolet"
+  },
+  "light_go_lilac": {
+    "rgba": "rgba(246, 235, 255, 1)",
+    "hex": "#f6ebff",
+    "figma": "go/lilac",
+    "web": "--color-light-go-lilac",
+    "alias": "goColorLilac"
+  },
+  "light_go_violet": {
+    "rgba": "rgba(122, 56, 224, 1)",
+    "hex": "#7a38e0",
+    "figma": "go/violet",
+    "web": "--color-light-go-violet",
+    "alias": "goColorViolet"
+  },
+  "static_go_lime": {
+    "rgba": "rgba(144, 233, 120, 1)",
+    "hex": "#90e978",
+    "figma": "static_go/lime",
+    "web": "--color-static-go-lime",
+    "alias": "staticGoColorLime"
+  },
+  "static_go_toxic": {
+    "rgba": "rgba(100, 227, 75, 1)",
+    "hex": "#64e34b",
+    "figma": "static_go/toxic",
+    "web": "--color-static-go-toxic",
+    "alias": "staticGoColorToxic"
+  },
+  "static_go_violet": {
+    "rgba": "rgba(122, 56, 224, 1)",
+    "hex": "#7a38e0",
+    "figma": "static_go/violet",
+    "web": "--color-static-go-violet",
+    "alias": "staticGoColorViolet"
+  }
+}
