@@ -1,3 +1,14 @@
+<a name="33.14.0"></a>
+# [33.14.0](https://github.com/core-ds/ui-primitives/compare/v33.12.0...v33.14.0) (2026-01-13)
+
+
+### Features
+
+* **icons:** add 1 icon ([#1021](https://github.com/core-ds/ui-primitives/issues/1021)) ([a02afb0](https://github.com/core-ds/ui-primitives/commit/a02afb0))
+* **icons:** add 4 icons ([#1022](https://github.com/core-ds/ui-primitives/issues/1022)) ([4a33ddf](https://github.com/core-ds/ui-primitives/commit/4a33ddf))
+
+
+
 <a name="33.13.0"></a>
 # [33.13.0](https://github.com/core-ds/ui-primitives/compare/v33.12.0...v33.13.0) (2026-01-12)
 
