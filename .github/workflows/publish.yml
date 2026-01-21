@@ -3,7 +3,11 @@ on:
   push:
     branches:
       - master
-      
+
+permissions:
+  id-token: write
+  contents: write
+
 concurrency:
   group: "publish"
   cancel-in-progress: true
@@ -16,12 +20,10 @@ jobs:
         with:
           token: ${{ secrets.PAT_TOKEN }}
 
-      - run: npm set registry https://registry.npmjs.org
-
-      - name: Set NPM Token Action
-        uses: filipstefansson/set-npm-token-action@v1
+      - uses: actions/setup-node@v4
         with:
-          token: ${{ secrets.NPM_TOKEN }}
+          node-version: 18
+          registry-url: https://registry.npmjs.org
 
       - name: Publish
         run: npm run ci
