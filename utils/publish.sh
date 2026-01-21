@@ -9,3 +9,6 @@ cd .publish
 npm publish --access public
 
 echo "Publishing package to registry..."
+
+git push origin master
+git push --tags
