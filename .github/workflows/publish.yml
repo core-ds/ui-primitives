@@ -25,6 +25,8 @@ jobs:
           node-version: 20
           registry-url: https://registry.npmjs.org
 
+      # Ensure npm 11.5.1 or later for trusted publishing
+      # https://github.com/orgs/community/discussions/173102
       - run: npm install -g npm@latest
 
       - name: Publish
@@ -32,6 +34,3 @@ jobs:
 
       - name: Dispatch build icons
         run: curl -X POST -u '${{secrets.PAT_USERNAME}}:${{secrets.PAT_TOKEN}}' -H 'Accept:\ application/vnd.github.everest-preview+json' -H 'Content-Type:\ application/json' https://api.github.com/repos/core-ds/icons/dispatches --data '{"event_type":"build_application"}'
-
-      - name: Push version & tags
-        run: git push --follow-tags origin master
