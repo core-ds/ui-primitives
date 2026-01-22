@@ -1,4 +1,4 @@
-import { AndroidTypographyParams, Entry, Handler } from "./types.mjs";
+import { AndroidTypographyParams, Entry, FontFamily, Handler } from "./types.mjs";
 import { pascalCase, snakeCase } from "change-case";
 import { fetchFile, findNode, handleLetterSpacing, forEachNode } from "./utils.js";
 import { SectionNode, TextNode } from "@figma/rest-api-spec";
@@ -7,27 +7,19 @@ type TypographyEntry = Entry<AndroidTypographyParams>;
 
 const handler: Handler = async (fileKeys: string[]) => {
     const alfasansTypography: TypographyEntry[] = [];
-    const alfasansFixedTypography: TypographyEntry[] = [];
     const systemTypography: TypographyEntry[] = [];
-    const systemFixedTypography: TypographyEntry[] = [];
 
     for (const fileKey of fileKeys) {
         const file = await fetchFile(fileKey);
 
         const baselineNode = findNode(
             [file.document],
-            (node): node is SectionNode => node.type === "SECTION" && node.name === "BaselineExport"
+            (node): node is SectionNode => node.type === "SECTION" && node.name === "BaselineExport",
         );
 
         forEachNode([file.document], (node) => {
             if (node.type === "SECTION" && node.name.startsWith("TextStylesExport")) {
-                const target = node.name.endsWith("AlfaSans")
-                    ? alfasansTypography
-                    : node.name.endsWith("AlfaSansFixed")
-                    ? alfasansFixedTypography
-                    : node.name.endsWith("Fixed")
-                    ? systemFixedTypography
-                    : systemTypography;
+                const target = node.name.endsWith("AlfaSans") ? alfasansTypography : systemTypography;
 
                 target.push(
                     ...node.children
@@ -38,7 +30,7 @@ const handler: Handler = async (fileKeys: string[]) => {
                             const { fontSize, fontStyle, lineHeightPx: lineHeight } = style;
                             const fontFamily =
                                 typeof style.fontFamily === "string"
-                                    ? `${snakeCase(style.fontFamily)}${fontStyle ? `_${fontStyle.toLowerCase()}` : ""}`
+                                    ? `${snakeCase(style.fontFamily === FontFamily.ALFASANS ? "spare_red" : style.fontFamily)}${fontStyle ? `_${fontStyle.toLowerCase()}` : ""}`
                                     : style.fontFamily;
                             let letterSpacing: number | undefined;
                             let lineSpacing: number | undefined;
@@ -63,7 +55,7 @@ const handler: Handler = async (fileKeys: string[]) => {
                                         const node = baselineNode.children.find(
                                             (child): child is TextNode =>
                                                 child.type === "TEXT" &&
-                                                child.characters.startsWith(`${fontSize}-${lineHeight}`)
+                                                child.characters.startsWith(`${fontSize}-${lineHeight}`),
                                         );
 
                                         if (node) {
@@ -89,7 +81,7 @@ const handler: Handler = async (fileKeys: string[]) => {
                                     last_baseline_to_bottom_height: lastBaselineToBottomHeight,
                                 },
                             ];
-                        })
+                        }),
                 );
             }
         });
@@ -97,20 +89,12 @@ const handler: Handler = async (fileKeys: string[]) => {
 
     return [
         {
-            file: "styles/typography_android_alfasans.json",
-            entries: alfasansTypography,
-        },
-        {
-            file: "styles/typography_android_alfasans_fixed.json",
-            entries: alfasansFixedTypography,
-        },
-        {
             file: "styles/typography_android.json",
             entries: systemTypography,
         },
         {
-            file: "styles/typography_android_fixed.json",
-            entries: systemFixedTypography,
+            file: "styles/typography_android_alfasans.json",
+            entries: alfasansTypography,
         },
     ];
 };

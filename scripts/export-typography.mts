@@ -8,7 +8,7 @@ export async function exportTypography() {
         const { default: handler } = (await import(`./export-typography-${platform.toLowerCase()}.mjs`)) as {
             default: Handler;
         };
-        const fileKeys = JSON.parse(process.env[`${platform}_TYPOGRAPHY_FILE_KEYS`]);
+        const fileKeys: string[] = JSON.parse(process.env[`${platform}_TYPOGRAPHY_FILE_KEYS`]);
 
         for (const { file, entries } of await handler(fileKeys)) {
             const platformPath = toPlatformPath(file);
@@ -22,8 +22,8 @@ export async function exportTypography() {
                     ...sortEntries(
                         Object.entries(oldJson)
                             .filter(([name]) => sortedEntries.every((entry) => !entry.includes(name)))
-                            .map(([name, value]) => [name, { ...value, deprecated: true }])
-                    )
+                            .map(([name, value]) => [name, { ...value, deprecated: true }]),
+                    ),
                 );
             } catch {}
 
