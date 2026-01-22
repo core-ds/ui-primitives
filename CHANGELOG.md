@@ -1,3 +1,13 @@
+<a name="34.2.0"></a>
+# [34.2.0](https://github.com/core-ds/ui-primitives/compare/v34.1.0...v34.2.0) (2026-01-22)
+
+
+### Features
+
+* **icons:** add 1 icon ([#1032](https://github.com/core-ds/ui-primitives/issues/1032)) ([411fac2](https://github.com/core-ds/ui-primitives/commit/411fac2))
+
+
+
 <a name="34.1.0"></a>
 # [34.1.0](https://github.com/core-ds/ui-primitives/compare/v34.0.0...v34.1.0) (2026-01-21)
 
