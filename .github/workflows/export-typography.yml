@@ -1,10 +1,6 @@
-name: export-typography
+name: export typography
 
-on:
-    workflow_dispatch:
-    push:
-        branches:
-            - chore/figma-typography
+on: workflow_dispatch
 
 jobs:
     export:
