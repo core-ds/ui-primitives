@@ -1,7 +1,7 @@
 import { toPlatformPath } from "@actions/core";
 import fse from "fs-extra";
 import { Platform, Handler, Deprecatable, Entry } from "./types.mjs";
-import { sortEntries } from "./utils.js";
+import { sortEntries } from "./utils.mjs";
 
 export async function exportTypography() {
     for (const platform of [Platform.WEB, Platform.ANDROID, Platform.IOS]) {

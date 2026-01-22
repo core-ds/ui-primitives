@@ -1,5 +1,5 @@
 import { Entry, FontFamily, Handler, WebTypographyParams } from "./types.mjs";
-import { fetchFile, handleLetterSpacing, forEachNode } from "./utils.js";
+import { fetchFile, handleLetterSpacing, forEachNode } from "./utils.mjs";
 
 function mapFontFamily(fontFamily: string | undefined) {
     switch (fontFamily) {

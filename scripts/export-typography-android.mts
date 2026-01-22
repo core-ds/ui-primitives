@@ -1,6 +1,6 @@
 import { AndroidTypographyParams, Entry, FontFamily, Handler } from "./types.mjs";
 import { pascalCase, snakeCase } from "change-case";
-import { fetchFile, findNode, handleLetterSpacing, forEachNode } from "./utils.js";
+import { fetchFile, findNode, handleLetterSpacing, forEachNode } from "./utils.mjs";
 import { SectionNode, TextNode } from "@figma/rest-api-spec";
 
 type TypographyEntry = Entry<AndroidTypographyParams>;

@@ -1,6 +1,6 @@
 import { pascalCase } from "change-case";
 import { FontFamily, IOSTypographyParams, Handler, Entry } from "./types.mjs";
-import { fetchFile, handleLetterSpacing, forEachNode } from "./utils.js";
+import { fetchFile, handleLetterSpacing, forEachNode } from "./utils.mjs";
 
 type TypographyEntry = Entry<IOSTypographyParams>;
 
