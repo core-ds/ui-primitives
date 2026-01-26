@@ -40,7 +40,7 @@ const handler: Handler = async (fileKeys: string[]) => {
 
                             if (typeof fontSize === "number") {
                                 if (typeof style.letterSpacing === "number") {
-                                    letterSpacing = handleLetterSpacing(style.letterSpacing / fontSize);
+                                    letterSpacing = handleLetterSpacing(style.letterSpacing / fontSize) ?? 0;
                                 }
 
                                 if (typeof lineHeight === "number") {

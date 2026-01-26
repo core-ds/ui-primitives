@@ -25,7 +25,7 @@ const handler: Handler = async (fileKeys: string[]) => {
                             const { fontSize, lineHeightPx: lineHeight, fontStyle } = style;
                             const fontFamily = style.fontFamily === FontFamily.ALFASANS ? "SpareRed" : "System";
                             const fontWeight = fontStyle?.toLowerCase();
-                            const letterSpacing = handleLetterSpacing(style.letterSpacing);
+                            const letterSpacing = handleLetterSpacing(style.letterSpacing) ?? 0;
                             let lineSpacing: number | undefined;
 
                             if (typeof fontSize === "number" && typeof lineHeight === "number") {
@@ -49,7 +49,7 @@ const handler: Handler = async (fileKeys: string[]) => {
                                     monospace,
                                 },
                             ];
-                        })
+                        }),
                 );
             }
         });
