@@ -54,7 +54,7 @@ const handler: Handler = async (fileKeys: string[]) => {
                                     font_family: fontFamily,
                                 },
                             ];
-                        })
+                        }),
                 );
             }
         });
