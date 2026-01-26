@@ -1,3 +1,8 @@
+<a name="35.1.0"></a>
+# [35.1.0](https://github.com/core-ds/ui-primitives/compare/v35.0.0...v35.1.0) (2026-01-26)
+
+
+
 <a name="35.0.0"></a>
 # [35.0.0](https://github.com/core-ds/ui-primitives/compare/v34.3.0...v35.0.0) (2026-01-23)
 
