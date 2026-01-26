@@ -1,3 +1,18 @@
+<a name="35.3.0"></a>
+# [35.3.0](https://github.com/core-ds/ui-primitives/compare/v35.2.0...v35.3.0) (2026-01-26)
+
+
+### Bug Fixes
+
+* ios/android letter spacing ([#1035](https://github.com/core-ds/ui-primitives/issues/1035)) ([795f21e](https://github.com/core-ds/ui-primitives/commit/795f21e))
+
+
+### Features
+
+* updated typography ([#1036](https://github.com/core-ds/ui-primitives/issues/1036)) ([f2f6c27](https://github.com/core-ds/ui-primitives/commit/f2f6c27))
+
+
+
 <a name="35.2.0"></a>
 # [35.2.0](https://github.com/core-ds/ui-primitives/compare/v35.1.0...v35.2.0) (2026-01-26)
 
