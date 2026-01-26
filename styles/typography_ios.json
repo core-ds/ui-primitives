@@ -76,6 +76,7 @@
         "font_family": "System",
         "font_weight": "bold",
         "text_all_caps": false,
+        "letter_spacing": 0,
         "monospace": false
     },
     "AccentSecondarySmall": {
@@ -175,6 +176,7 @@
         "font_family": "System",
         "font_weight": "semibold",
         "text_all_caps": false,
+        "letter_spacing": 0,
         "monospace": false
     },
     "ActionSecondarySmall": {
@@ -294,6 +296,7 @@
         "font_family": "System",
         "font_weight": "regular",
         "text_all_caps": false,
+        "letter_spacing": 0,
         "monospace": true
     },
     "MonoSecondarySmall": {
@@ -383,6 +386,7 @@
         "font_family": "System",
         "font_weight": "regular",
         "text_all_caps": false,
+        "letter_spacing": 0,
         "monospace": false
     },
     "ParagraphSecondarySmall": {
