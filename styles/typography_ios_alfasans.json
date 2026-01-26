@@ -286,6 +286,7 @@
         "font_family": "SpareRed",
         "font_weight": "regular",
         "text_all_caps": false,
+        "letter_spacing": 0,
         "monospace": true
     },
     "MonoSecondaryMedium": {
@@ -375,6 +376,7 @@
         "font_family": "SpareRed",
         "font_weight": "regular",
         "text_all_caps": false,
+        "letter_spacing": 0,
         "monospace": false
     },
     "ParagraphSecondaryMedium": {
