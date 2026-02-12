@@ -1000,6 +1000,13 @@
 		"web": "--color-dark-overlay-default",
 		"alias": "overlayColorDefault"
 	},
+	"dark_overlay_lighten_strong": {
+		"rgba": "rgba(18, 18, 19, 0.88)",
+		"hex": "#e0121213",
+		"figma": "overlay/lighten-strong",
+		"web": "--color-dark-overlay-lighten-strong",
+		"alias": "overlayColorLightenStrong"
+	},
 	"dark_status_attention": {
 		"rgba": "rgba(253, 161, 54, 1)",
 		"hex": "#fda136",
@@ -2847,6 +2854,13 @@
 		"figma": "overlay/default",
 		"web": "--color-light-overlay-default",
 		"alias": "overlayColorDefault"
+	},
+	"light_overlay_lighten_strong": {
+		"rgba": "rgba(255, 255, 255, 0.88)",
+		"hex": "#e0ffffff",
+		"figma": "overlay/lighten-strong",
+		"web": "--color-light-overlay-lighten-strong",
+		"alias": "overlayColorLightenStrong"
 	},
 	"light_status_attention": {
 		"rgba": "rgba(250, 147, 19, 1)",
