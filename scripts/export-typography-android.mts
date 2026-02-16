@@ -40,7 +40,11 @@ const handler: Handler = async (fileKeys: string[]) => {
 
                             if (typeof fontSize === "number") {
                                 if (typeof style.letterSpacing === "number") {
-                                    letterSpacing = handleLetterSpacing(style.letterSpacing / fontSize) ?? 0;
+                                    if (style.fontFamily === FontFamily.ALFASANS) {
+                                        letterSpacing = parseFloat((style.letterSpacing / fontSize).toFixed(4));
+                                    } else {
+                                        letterSpacing = handleLetterSpacing(style.letterSpacing / fontSize) ?? 0;
+                                    }
                                 }
 
                                 if (typeof lineHeight === "number") {
