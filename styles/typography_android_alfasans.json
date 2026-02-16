@@ -6,7 +6,7 @@
         "line_spacing_extra": 2,
         "font_family": "spare_red_bold",
         "text_all_caps": true,
-        "letter_spacing": 0.1,
+        "letter_spacing": 0.1042,
         "first_baseline_to_top_height": 12,
         "last_baseline_to_bottom_height": 4
     },
@@ -17,7 +17,7 @@
         "line_spacing_extra": 1,
         "font_family": "spare_red_bold",
         "text_all_caps": false,
-        "letter_spacing": 0,
+        "letter_spacing": -0.0025,
         "first_baseline_to_top_height": 15,
         "last_baseline_to_bottom_height": 5
     },
@@ -28,7 +28,7 @@
         "line_spacing_extra": 2,
         "font_family": "spare_red_bold",
         "text_all_caps": false,
-        "letter_spacing": -0.01,
+        "letter_spacing": -0.005,
         "first_baseline_to_top_height": 14,
         "last_baseline_to_bottom_height": 4
     },
@@ -39,7 +39,7 @@
         "line_spacing_extra": 3,
         "font_family": "spare_red_bold",
         "text_all_caps": false,
-        "letter_spacing": 0,
+        "letter_spacing": -0.0044,
         "first_baseline_to_top_height": 18,
         "last_baseline_to_bottom_height": 6
     },
@@ -50,7 +50,7 @@
         "line_spacing_extra": 5,
         "font_family": "spare_red_bold",
         "text_all_caps": false,
-        "letter_spacing": 0,
+        "letter_spacing": -0.0025,
         "first_baseline_to_top_height": 17,
         "last_baseline_to_bottom_height": 7
     },
@@ -61,7 +61,7 @@
         "line_spacing_extra": 4,
         "font_family": "spare_red_bold",
         "text_all_caps": false,
-        "letter_spacing": -0.01,
+        "letter_spacing": -0.005,
         "first_baseline_to_top_height": 15,
         "last_baseline_to_bottom_height": 5
     },
@@ -72,7 +72,7 @@
         "line_spacing_extra": 5,
         "font_family": "spare_red_bold",
         "text_all_caps": false,
-        "letter_spacing": 0.01,
+        "letter_spacing": 0.0077,
         "first_baseline_to_top_height": 14,
         "last_baseline_to_bottom_height": 6
     },
@@ -83,7 +83,7 @@
         "line_spacing_extra": 2,
         "font_family": "spare_red_bold",
         "text_all_caps": false,
-        "letter_spacing": 0.03,
+        "letter_spacing": 0.0292,
         "first_baseline_to_top_height": 12,
         "last_baseline_to_bottom_height": 4
     },
@@ -94,7 +94,7 @@
         "line_spacing_extra": 3,
         "font_family": "spare_red_bold",
         "text_all_caps": false,
-        "letter_spacing": 0.03,
+        "letter_spacing": 0.0327,
         "first_baseline_to_top_height": 12,
         "last_baseline_to_bottom_height": 4
     },
@@ -105,7 +105,7 @@
         "line_spacing_extra": 2,
         "font_family": "spare_red_bold",
         "text_all_caps": true,
-        "letter_spacing": 0.1,
+        "letter_spacing": 0.1042,
         "first_baseline_to_top_height": 12,
         "last_baseline_to_bottom_height": 4
     },
@@ -116,7 +116,7 @@
         "line_spacing_extra": 2,
         "font_family": "spare_red_medium",
         "text_all_caps": true,
-        "letter_spacing": 0.1,
+        "letter_spacing": 0.1042,
         "first_baseline_to_top_height": 12,
         "last_baseline_to_bottom_height": 4
     },
@@ -127,7 +127,7 @@
         "line_spacing_extra": 1,
         "font_family": "spare_red_medium",
         "text_all_caps": false,
-        "letter_spacing": 0,
+        "letter_spacing": -0.005,
         "first_baseline_to_top_height": 15,
         "last_baseline_to_bottom_height": 5
     },
@@ -138,7 +138,7 @@
         "line_spacing_extra": 2,
         "font_family": "spare_red_medium",
         "text_all_caps": false,
-        "letter_spacing": 0,
+        "letter_spacing": 0.0029,
         "first_baseline_to_top_height": 14,
         "last_baseline_to_bottom_height": 4
     },
@@ -149,7 +149,7 @@
         "line_spacing_extra": 3,
         "font_family": "spare_red_medium",
         "text_all_caps": false,
-        "letter_spacing": -0.01,
+        "letter_spacing": -0.0067,
         "first_baseline_to_top_height": 18,
         "last_baseline_to_bottom_height": 6
     },
@@ -160,7 +160,7 @@
         "line_spacing_extra": 5,
         "font_family": "spare_red_medium",
         "text_all_caps": false,
-        "letter_spacing": 0,
+        "letter_spacing": -0.005,
         "first_baseline_to_top_height": 17,
         "last_baseline_to_bottom_height": 7
     },
@@ -171,7 +171,7 @@
         "line_spacing_extra": 4,
         "font_family": "spare_red_medium",
         "text_all_caps": false,
-        "letter_spacing": 0,
+        "letter_spacing": 0.0029,
         "first_baseline_to_top_height": 15,
         "last_baseline_to_bottom_height": 5
     },
@@ -182,7 +182,7 @@
         "line_spacing_extra": 5,
         "font_family": "spare_red_medium",
         "text_all_caps": false,
-        "letter_spacing": 0,
+        "letter_spacing": 0.0046,
         "first_baseline_to_top_height": 14,
         "last_baseline_to_bottom_height": 6
     },
@@ -193,7 +193,7 @@
         "line_spacing_extra": 2,
         "font_family": "spare_red_medium",
         "text_all_caps": false,
-        "letter_spacing": 0.02,
+        "letter_spacing": 0.0183,
         "first_baseline_to_top_height": 12,
         "last_baseline_to_bottom_height": 4
     },
@@ -204,7 +204,7 @@
         "line_spacing_extra": 3,
         "font_family": "spare_red_medium",
         "text_all_caps": false,
-        "letter_spacing": 0.03,
+        "letter_spacing": 0.0309,
         "first_baseline_to_top_height": 12,
         "last_baseline_to_bottom_height": 4
     },
@@ -215,7 +215,7 @@
         "line_spacing_extra": 2,
         "font_family": "spare_red_medium",
         "text_all_caps": true,
-        "letter_spacing": 0.1,
+        "letter_spacing": 0.1042,
         "first_baseline_to_top_height": 12,
         "last_baseline_to_bottom_height": 4
     },
@@ -226,7 +226,7 @@
         "line_spacing_extra": 1,
         "font_family": "spare_red_medium",
         "text_all_caps": false,
-        "letter_spacing": -0.02,
+        "letter_spacing": -0.0153,
         "first_baseline_to_top_height": 28,
         "last_baseline_to_bottom_height": 8
     },
@@ -237,7 +237,7 @@
         "line_spacing_extra": 2,
         "font_family": "spare_red_medium",
         "text_all_caps": false,
-        "letter_spacing": -0.01,
+        "letter_spacing": -0.0146,
         "first_baseline_to_top_height": 25,
         "last_baseline_to_bottom_height": 7
     },
@@ -248,7 +248,7 @@
         "line_spacing_extra": 5,
         "font_family": "spare_red_medium",
         "text_all_caps": false,
-        "letter_spacing": -0.01,
+        "letter_spacing": -0.0075,
         "first_baseline_to_top_height": 21,
         "last_baseline_to_bottom_height": 7
     },
@@ -259,7 +259,7 @@
         "line_spacing_extra": 1,
         "font_family": "spare_red_medium",
         "text_all_caps": false,
-        "letter_spacing": -0.02,
+        "letter_spacing": -0.015,
         "first_baseline_to_top_height": 38,
         "last_baseline_to_bottom_height": 10
     },
@@ -270,7 +270,7 @@
         "line_spacing_extra": 1,
         "font_family": "spare_red_medium",
         "text_all_caps": false,
-        "letter_spacing": 0,
+        "letter_spacing": -0.005,
         "first_baseline_to_top_height": 15,
         "last_baseline_to_bottom_height": 5
     },
@@ -281,7 +281,7 @@
         "line_spacing_extra": 2,
         "font_family": "spare_red_regular",
         "text_all_caps": true,
-        "letter_spacing": 0.1,
+        "letter_spacing": 0.1042,
         "first_baseline_to_top_height": 12,
         "last_baseline_to_bottom_height": 4
     },
@@ -292,7 +292,7 @@
         "line_spacing_extra": 1,
         "font_family": "spare_red_regular",
         "text_all_caps": false,
-        "letter_spacing": 0.02,
+        "letter_spacing": 0.0156,
         "first_baseline_to_top_height": 15,
         "last_baseline_to_bottom_height": 5
     },
@@ -314,7 +314,7 @@
         "line_spacing_extra": 3,
         "font_family": "spare_red_regular",
         "text_all_caps": false,
-        "letter_spacing": -0.01,
+        "letter_spacing": -0.0078,
         "first_baseline_to_top_height": 18,
         "last_baseline_to_bottom_height": 6
     },
@@ -325,7 +325,7 @@
         "line_spacing_extra": 5,
         "font_family": "spare_red_regular",
         "text_all_caps": false,
-        "letter_spacing": 0.02,
+        "letter_spacing": 0.0156,
         "first_baseline_to_top_height": 17,
         "last_baseline_to_bottom_height": 7
     },
@@ -347,7 +347,7 @@
         "line_spacing_extra": 5,
         "font_family": "spare_red_regular",
         "text_all_caps": false,
-        "letter_spacing": 0,
+        "letter_spacing": 0.0031,
         "first_baseline_to_top_height": 14,
         "last_baseline_to_bottom_height": 6
     },
@@ -358,7 +358,7 @@
         "line_spacing_extra": 2,
         "font_family": "spare_red_regular",
         "text_all_caps": false,
-        "letter_spacing": 0.02,
+        "letter_spacing": 0.0167,
         "first_baseline_to_top_height": 12,
         "last_baseline_to_bottom_height": 4
     },
@@ -380,7 +380,7 @@
         "line_spacing_extra": 2,
         "font_family": "spare_red_regular",
         "text_all_caps": true,
-        "letter_spacing": 0.1,
+        "letter_spacing": 0.1042,
         "first_baseline_to_top_height": 12,
         "last_baseline_to_bottom_height": 4
     },
@@ -391,7 +391,7 @@
         "line_spacing_extra": 1,
         "font_family": "spare_red_regular",
         "text_all_caps": false,
-        "letter_spacing": -0.01,
+        "letter_spacing": -0.015,
         "first_baseline_to_top_height": 28,
         "last_baseline_to_bottom_height": 8
     },
@@ -402,7 +402,7 @@
         "line_spacing_extra": 2,
         "font_family": "spare_red_regular",
         "text_all_caps": false,
-        "letter_spacing": -0.01,
+        "letter_spacing": -0.0146,
         "first_baseline_to_top_height": 25,
         "last_baseline_to_bottom_height": 7
     },
@@ -413,7 +413,7 @@
         "line_spacing_extra": 5,
         "font_family": "spare_red_regular",
         "text_all_caps": false,
-        "letter_spacing": -0.01,
+        "letter_spacing": -0.0085,
         "first_baseline_to_top_height": 21,
         "last_baseline_to_bottom_height": 7
     },
@@ -424,7 +424,7 @@
         "line_spacing_extra": 1,
         "font_family": "spare_red_regular",
         "text_all_caps": false,
-        "letter_spacing": -0.02,
+        "letter_spacing": -0.016,
         "first_baseline_to_top_height": 38,
         "last_baseline_to_bottom_height": 10
     },
@@ -435,7 +435,7 @@
         "line_spacing_extra": 1,
         "font_family": "spare_red_regular",
         "text_all_caps": false,
-        "letter_spacing": 0.02,
+        "letter_spacing": 0.0156,
         "first_baseline_to_top_height": 15,
         "last_baseline_to_bottom_height": 5
     },
