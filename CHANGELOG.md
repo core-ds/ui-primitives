@@ -1,3 +1,13 @@
+<a name="35.13.0"></a>
+# [35.13.0](https://github.com/core-ds/ui-primitives/compare/v35.12.0...v35.13.0) (2026-02-17)
+
+
+### Features
+
+* update colors ([#1062](https://github.com/core-ds/ui-primitives/issues/1062)) ([d90f19d](https://github.com/core-ds/ui-primitives/commit/d90f19d))
+
+
+
 <a name="35.12.0"></a>
 # [35.12.0](https://github.com/core-ds/ui-primitives/compare/v35.11.0...v35.12.0) (2026-02-16)
 
