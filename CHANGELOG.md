@@ -1,3 +1,13 @@
+<a name="35.16.0"></a>
+# [35.16.0](https://github.com/core-ds/ui-primitives/compare/v35.15.0...v35.16.0) (2026-02-24)
+
+
+### Features
+
+* updated typography ([#1070](https://github.com/core-ds/ui-primitives/issues/1070)) ([46b3f5f](https://github.com/core-ds/ui-primitives/commit/46b3f5f))
+
+
+
 <a name="35.15.0"></a>
 # [35.15.0](https://github.com/core-ds/ui-primitives/compare/v35.14.0...v35.15.0) (2026-02-19)
 
