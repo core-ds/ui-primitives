@@ -33,6 +33,7 @@ const handler: Handler = async (fileKeys: string[]) => {
                                     ? `${snakeCase(style.fontFamily === FontFamily.ALFASANS ? "spare_red" : style.fontFamily)}${fontStyle ? `_${fontStyle.toLowerCase()}` : ""}`
                                     : style.fontFamily;
                             let letterSpacing: number | undefined;
+                            let letterSpacingSp: number | undefined;
                             let lineSpacing: number | undefined;
                             let lineSpacingExtra: number | undefined;
                             let firstBaselineToTopHeight: number | undefined;
@@ -42,8 +43,10 @@ const handler: Handler = async (fileKeys: string[]) => {
                                 if (typeof style.letterSpacing === "number") {
                                     if (style.fontFamily === FontFamily.ALFASANS) {
                                         letterSpacing = parseFloat((style.letterSpacing / fontSize).toFixed(4));
+                                        letterSpacingSp = parseFloat(style.letterSpacing.toFixed(4));
                                     } else {
                                         letterSpacing = handleLetterSpacing(style.letterSpacing / fontSize) ?? 0;
+                                        letterSpacingSp = handleLetterSpacing(style.letterSpacing) ?? 0;
                                     }
                                 }
 
@@ -81,6 +84,7 @@ const handler: Handler = async (fileKeys: string[]) => {
                                     font_family: fontFamily,
                                     text_all_caps: textAllCaps,
                                     letter_spacing: letterSpacing,
+                                    letter_spacing_sp: letterSpacingSp,
                                     first_baseline_to_top_height: firstBaselineToTopHeight,
                                     last_baseline_to_bottom_height: lastBaselineToBottomHeight,
                                 },

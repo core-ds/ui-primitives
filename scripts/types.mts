@@ -30,6 +30,7 @@ export interface AndroidTypographyParams extends Deprecatable {
     font_family?: string | undefined;
     text_all_caps: boolean;
     letter_spacing?: number | undefined;
+    letter_spacing_sp?: number | undefined;
     first_baseline_to_top_height?: number | undefined;
     last_baseline_to_bottom_height?: number | undefined;
 }
