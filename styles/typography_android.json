@@ -7,7 +7,7 @@
         "font_family": "roboto_bold",
         "text_all_caps": true,
         "letter_spacing": 0.1,
-        "letter_spacing_sp": 1.2,
+        "letter_spacing_sp": 1.25,
         "first_baseline_to_top_height": 12,
         "last_baseline_to_bottom_height": 4
     },
@@ -19,7 +19,7 @@
         "font_family": "roboto_bold",
         "text_all_caps": false,
         "letter_spacing": 0.01,
-        "letter_spacing_sp": 0.16,
+        "letter_spacing_sp": 0.15,
         "first_baseline_to_top_height": 15,
         "last_baseline_to_bottom_height": 5
     },
@@ -31,7 +31,7 @@
         "font_family": "roboto_bold",
         "text_all_caps": false,
         "letter_spacing": 0.02,
-        "letter_spacing_sp": 0.28,
+        "letter_spacing_sp": 0.25,
         "first_baseline_to_top_height": 14,
         "last_baseline_to_bottom_height": 4
     },
@@ -43,7 +43,7 @@
         "font_family": "roboto_bold",
         "text_all_caps": false,
         "letter_spacing": 0.01,
-        "letter_spacing_sp": 0.18,
+        "letter_spacing_sp": 0.15,
         "first_baseline_to_top_height": 18,
         "last_baseline_to_bottom_height": 6
     },
@@ -55,7 +55,7 @@
         "font_family": "roboto_bold",
         "text_all_caps": false,
         "letter_spacing": 0.01,
-        "letter_spacing_sp": 0.16,
+        "letter_spacing_sp": 0.15,
         "first_baseline_to_top_height": 17,
         "last_baseline_to_bottom_height": 7
     },
@@ -67,7 +67,7 @@
         "font_family": "roboto_bold",
         "text_all_caps": false,
         "letter_spacing": 0.02,
-        "letter_spacing_sp": 0.28,
+        "letter_spacing_sp": 0.25,
         "first_baseline_to_top_height": 15,
         "last_baseline_to_bottom_height": 5
     },
@@ -79,7 +79,7 @@
         "font_family": "roboto_bold",
         "text_all_caps": false,
         "letter_spacing": 0.02,
-        "letter_spacing_sp": 0.26,
+        "letter_spacing_sp": 0.25,
         "first_baseline_to_top_height": 14,
         "last_baseline_to_bottom_height": 6
     },
@@ -91,7 +91,7 @@
         "font_family": "roboto_bold",
         "text_all_caps": false,
         "letter_spacing": 0.03,
-        "letter_spacing_sp": 0.36,
+        "letter_spacing_sp": 0.4,
         "first_baseline_to_top_height": 12,
         "last_baseline_to_bottom_height": 4
     },
@@ -103,7 +103,7 @@
         "font_family": "roboto_bold",
         "text_all_caps": false,
         "letter_spacing": 0.04,
-        "letter_spacing_sp": 0.44,
+        "letter_spacing_sp": 0.4,
         "first_baseline_to_top_height": 12,
         "last_baseline_to_bottom_height": 4
     },
@@ -115,7 +115,7 @@
         "font_family": "roboto_bold",
         "text_all_caps": true,
         "letter_spacing": 0.1,
-        "letter_spacing_sp": 1.2,
+        "letter_spacing_sp": 1.25,
         "first_baseline_to_top_height": 12,
         "last_baseline_to_bottom_height": 4
     },
@@ -127,7 +127,7 @@
         "font_family": "roboto_medium",
         "text_all_caps": true,
         "letter_spacing": 0.1,
-        "letter_spacing_sp": 1.2,
+        "letter_spacing_sp": 1.25,
         "first_baseline_to_top_height": 12,
         "last_baseline_to_bottom_height": 4
     },
@@ -139,7 +139,7 @@
         "font_family": "roboto_medium",
         "text_all_caps": false,
         "letter_spacing": 0.01,
-        "letter_spacing_sp": 0.16,
+        "letter_spacing_sp": 0.15,
         "first_baseline_to_top_height": 15,
         "last_baseline_to_bottom_height": 5
     },
@@ -163,7 +163,7 @@
         "font_family": "roboto_medium",
         "text_all_caps": false,
         "letter_spacing": 0.01,
-        "letter_spacing_sp": 0.18,
+        "letter_spacing_sp": 0.15,
         "first_baseline_to_top_height": 18,
         "last_baseline_to_bottom_height": 6
     },
@@ -175,7 +175,7 @@
         "font_family": "roboto_medium",
         "text_all_caps": false,
         "letter_spacing": 0.01,
-        "letter_spacing_sp": 0.16,
+        "letter_spacing_sp": 0.15,
         "first_baseline_to_top_height": 17,
         "last_baseline_to_bottom_height": 7
     },
@@ -199,7 +199,7 @@
         "font_family": "roboto_medium",
         "text_all_caps": false,
         "letter_spacing": 0.02,
-        "letter_spacing_sp": 0.26,
+        "letter_spacing_sp": 0.25,
         "first_baseline_to_top_height": 14,
         "last_baseline_to_bottom_height": 6
     },
@@ -211,7 +211,7 @@
         "font_family": "roboto_medium",
         "text_all_caps": false,
         "letter_spacing": 0.03,
-        "letter_spacing_sp": 0.36,
+        "letter_spacing_sp": 0.4,
         "first_baseline_to_top_height": 12,
         "last_baseline_to_bottom_height": 4
     },
@@ -223,7 +223,7 @@
         "font_family": "roboto_medium",
         "text_all_caps": false,
         "letter_spacing": 0.04,
-        "letter_spacing_sp": 0.44,
+        "letter_spacing_sp": 0.4,
         "first_baseline_to_top_height": 12,
         "last_baseline_to_bottom_height": 4
     },
@@ -235,7 +235,7 @@
         "font_family": "roboto_medium",
         "text_all_caps": true,
         "letter_spacing": 0.1,
-        "letter_spacing_sp": 1.2,
+        "letter_spacing_sp": 1.25,
         "first_baseline_to_top_height": 12,
         "last_baseline_to_bottom_height": 4
     },
@@ -271,7 +271,7 @@
         "font_family": "roboto_medium",
         "text_all_caps": false,
         "letter_spacing": 0.01,
-        "letter_spacing_sp": 0.2,
+        "letter_spacing_sp": 0.15,
         "first_baseline_to_top_height": 21,
         "last_baseline_to_bottom_height": 7
     },
@@ -295,7 +295,7 @@
         "font_family": "roboto_medium",
         "text_all_caps": false,
         "letter_spacing": 0.01,
-        "letter_spacing_sp": 0.16,
+        "letter_spacing_sp": 0.15,
         "first_baseline_to_top_height": 15,
         "last_baseline_to_bottom_height": 5
     },
@@ -307,7 +307,7 @@
         "font_family": "roboto_regular",
         "text_all_caps": true,
         "letter_spacing": 0.1,
-        "letter_spacing_sp": 1.2,
+        "letter_spacing_sp": 1.25,
         "first_baseline_to_top_height": 12,
         "last_baseline_to_bottom_height": 4
     },
@@ -319,7 +319,7 @@
         "font_family": "roboto_regular",
         "text_all_caps": false,
         "letter_spacing": 0.01,
-        "letter_spacing_sp": 0.16,
+        "letter_spacing_sp": 0.15,
         "first_baseline_to_top_height": 15,
         "last_baseline_to_bottom_height": 5
     },
@@ -331,7 +331,7 @@
         "font_family": "roboto_regular",
         "text_all_caps": false,
         "letter_spacing": 0.02,
-        "letter_spacing_sp": 0.28,
+        "letter_spacing_sp": 0.25,
         "first_baseline_to_top_height": 14,
         "last_baseline_to_bottom_height": 4
     },
@@ -343,7 +343,7 @@
         "font_family": "roboto_regular",
         "text_all_caps": false,
         "letter_spacing": 0.01,
-        "letter_spacing_sp": 0.18,
+        "letter_spacing_sp": 0.15,
         "first_baseline_to_top_height": 18,
         "last_baseline_to_bottom_height": 6
     },
@@ -355,7 +355,7 @@
         "font_family": "roboto_regular",
         "text_all_caps": false,
         "letter_spacing": 0.01,
-        "letter_spacing_sp": 0.16,
+        "letter_spacing_sp": 0.15,
         "first_baseline_to_top_height": 17,
         "last_baseline_to_bottom_height": 7
     },
@@ -367,7 +367,7 @@
         "font_family": "roboto_regular",
         "text_all_caps": false,
         "letter_spacing": 0.02,
-        "letter_spacing_sp": 0.28,
+        "letter_spacing_sp": 0.25,
         "first_baseline_to_top_height": 15,
         "last_baseline_to_bottom_height": 5
     },
@@ -379,7 +379,7 @@
         "font_family": "roboto_regular",
         "text_all_caps": false,
         "letter_spacing": 0.02,
-        "letter_spacing_sp": 0.26,
+        "letter_spacing_sp": 0.25,
         "first_baseline_to_top_height": 14,
         "last_baseline_to_bottom_height": 6
     },
@@ -391,7 +391,7 @@
         "font_family": "roboto_regular",
         "text_all_caps": false,
         "letter_spacing": 0.03,
-        "letter_spacing_sp": 0.36,
+        "letter_spacing_sp": 0.4,
         "first_baseline_to_top_height": 12,
         "last_baseline_to_bottom_height": 4
     },
@@ -403,7 +403,7 @@
         "font_family": "roboto_regular",
         "text_all_caps": false,
         "letter_spacing": 0.04,
-        "letter_spacing_sp": 0.44,
+        "letter_spacing_sp": 0.4,
         "first_baseline_to_top_height": 12,
         "last_baseline_to_bottom_height": 4
     },
@@ -415,7 +415,7 @@
         "font_family": "roboto_regular",
         "text_all_caps": true,
         "letter_spacing": 0.1,
-        "letter_spacing_sp": 1.2,
+        "letter_spacing_sp": 1.25,
         "first_baseline_to_top_height": 12,
         "last_baseline_to_bottom_height": 4
     },
@@ -451,7 +451,7 @@
         "font_family": "roboto_regular",
         "text_all_caps": false,
         "letter_spacing": 0.01,
-        "letter_spacing_sp": 0.2,
+        "letter_spacing_sp": 0.15,
         "first_baseline_to_top_height": 21,
         "last_baseline_to_bottom_height": 7
     },
@@ -475,7 +475,7 @@
         "font_family": "roboto_regular",
         "text_all_caps": false,
         "letter_spacing": 0.01,
-        "letter_spacing_sp": 0.16,
+        "letter_spacing_sp": 0.15,
         "first_baseline_to_top_height": 15,
         "last_baseline_to_bottom_height": 5
     },
