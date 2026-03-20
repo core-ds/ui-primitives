@@ -17,6 +17,11 @@ const handler: Handler = async (fileKeys: string[]) => {
             (node): node is SectionNode => node.type === "SECTION" && node.name === "BaselineExport",
         );
 
+        const spTrackingExportNode = findNode(
+            [file.document],
+            (node): node is SectionNode => node.type === "SECTION" && node.name === "AlfaSansSpTrackingExport",
+        );
+
         forEachNode([file.document], (node) => {
             if (node.type === "SECTION" && node.name.startsWith("TextStylesExport")) {
                 const target = node.name.endsWith("AlfaSans") ? alfasansTypography : systemTypography;
@@ -43,7 +48,24 @@ const handler: Handler = async (fileKeys: string[]) => {
                                 if (typeof style.letterSpacing === "number") {
                                     if (style.fontFamily === FontFamily.ALFASANS) {
                                         letterSpacing = parseFloat((style.letterSpacing / fontSize).toFixed(4));
-                                        letterSpacingSp = parseFloat(style.letterSpacing.toFixed(4));
+
+                                        if (spTrackingExportNode) {
+                                            for (const child of spTrackingExportNode.children) {
+                                                if (child.type === "TEXT") {
+                                                    const [maybeName, valueAsString = ""] = child.characters
+                                                        .trim()
+                                                        .split(/\s*=\s*/);
+
+                                                    if (pascalCase(maybeName!) === name) {
+                                                        letterSpacingSp = parseFloat(valueAsString);
+
+                                                        break;
+                                                    }
+                                                }
+                                            }
+                                        }
+
+                                        letterSpacingSp ??= 0;
                                     } else {
                                         letterSpacing = handleLetterSpacing(style.letterSpacing / fontSize) ?? 0;
                                         letterSpacingSp = handleLetterSpacing(style.letterSpacing) ?? 0;
