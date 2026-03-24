@@ -1,36 +1,37 @@
 name: PUBLISH
+
+# Ensure npm 11.5.1 or later for trusted publishing
+# https://github.com/orgs/community/discussions/173102
+
 on:
-  push:
-    branches:
-      - master
+    push:
+        branches:
+            - master
 
 permissions:
-  id-token: write
-  contents: write
+    id-token: write
+    contents: write
 
 concurrency:
-  group: "publish"
-  cancel-in-progress: true
+    group: ${{ github.workflow }}
+    cancel-in-progress: true
 
 jobs:
-  build:
-    runs-on: ubuntu-latest
-    steps:
-      - uses: actions/checkout@v2
-        with:
-          token: ${{ secrets.PAT_TOKEN }}
+    build:
+        runs-on: ubuntu-latest
+        steps:
+            - name: Checkout
+              uses: actions/checkout@v6
+              with:
+                  token: ${{ secrets.GITHUB_TOKEN }}
 
-      - uses: actions/setup-node@v4
-        with:
-          node-version: 20
-          registry-url: https://registry.npmjs.org
+            - name: Setup node
+              uses: actions/setup-node@v6
+              with:
+                  node-version: ".node-version"
 
-      # Ensure npm 11.5.1 or later for trusted publishing
-      # https://github.com/orgs/community/discussions/173102
-      - run: npm install -g npm@latest
+            - name: Publish
+              run: npm run ci
 
-      - name: Publish
-        run: npm run ci
-
-      - name: Dispatch build icons
-        run: curl -X POST -u '${{secrets.PAT_USERNAME}}:${{secrets.PAT_TOKEN}}' -H 'Accept:\ application/vnd.github.everest-preview+json' -H 'Content-Type:\ application/json' https://api.github.com/repos/core-ds/icons/dispatches --data '{"event_type":"build_application"}'
+            - name: Dispatch build icons
+              run: curl -X POST -u '${{secrets.PAT_USERNAME}}:${{secrets.PAT_TOKEN}}' -H 'Accept:\ application/vnd.github.everest-preview+json' -H 'Content-Type:\ application/json' https://api.github.com/repos/core-ds/icons/dispatches --data '{"event_type":"build_application"}'
