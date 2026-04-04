@@ -1820,8 +1820,8 @@
 		"alias": "textColorTertiaryPress"
 	},
 	"dark_transparent_default": {
-		"rgba": "rgba(255, 255, 255, 0)",
-		"hex": "#00ffffff",
+		"rgba": "rgba(0, 0, 0, 0)",
+		"hex": "#00000000",
 		"figma": "transparent/default",
 		"web": "--color-dark-transparent-default",
 		"alias": "transparentColorDefault"
