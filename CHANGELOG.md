@@ -1,3 +1,13 @@
+<a name="35.33.0"></a>
+# [35.33.0](https://github.com/core-ds/ui-primitives/compare/v35.32.0...v35.33.0) (2026-05-22)
+
+
+### Features
+
+* **icons:** add glyph ext icons ([#1100](https://github.com/core-ds/ui-primitives/issues/1100)) ([63d9fa8](https://github.com/core-ds/ui-primitives/commit/63d9fa8))
+
+
+
 <a name="35.32.0"></a>
 # [35.32.0](https://github.com/core-ds/ui-primitives/compare/v35.31.0...v35.32.0) (2026-05-19)
 
