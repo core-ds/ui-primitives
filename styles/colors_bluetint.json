@@ -5060,6 +5060,48 @@
 		"web": "--color-static-text-tertiary-press",
 		"alias": "staticTextColorTertiaryPress"
 	},
+	"static_transparent_default": {
+		"rgba": "rgba(255, 255, 255, 0)",
+		"hex": "#00ffffff",
+		"figma": "static_transparent/default",
+		"web": "--color-static-transparent-default",
+		"alias": "staticTransparentColorDefault"
+	},
+	"static_transparent_default_hover": {
+		"rgba": "rgba(38, 55, 88, 0.06)",
+		"hex": "#0f263758",
+		"figma": "static_transparent/default/hover",
+		"web": "--color-static-transparent-default-hover",
+		"alias": "staticTransparentColorDefaultHover"
+	},
+	"static_transparent_default_inverted": {
+		"rgba": "rgba(0, 0, 0, 0)",
+		"hex": "#00000000",
+		"figma": "static_transparent_inverted/default",
+		"web": "--color-static-transparent-default-inverted",
+		"alias": "staticTransparentColorDefaultInverted"
+	},
+	"static_transparent_default_inverted_hover": {
+		"rgba": "rgba(214, 214, 229, 0.07)",
+		"hex": "#12d6d6e5",
+		"figma": "static_transparent_inverted/default/hover",
+		"web": "--color-static-transparent-default-inverted-hover",
+		"alias": "staticTransparentColorDefaultInvertedHover"
+	},
+	"static_transparent_default_inverted_press": {
+		"rgba": "rgba(225, 225, 248, 0.09)",
+		"hex": "#17e1e1f8",
+		"figma": "static_transparent_inverted/default/press",
+		"web": "--color-static-transparent-default-inverted-press",
+		"alias": "staticTransparentColorDefaultInvertedPress"
+	},
+	"static_transparent_default_press": {
+		"rgba": "rgba(30, 43, 68, 0.08)",
+		"hex": "#141e2b44",
+		"figma": "static_transparent/default/press",
+		"web": "--color-static-transparent-default-press",
+		"alias": "staticTransparentColorDefaultPress"
+	},
 	"dark_bg_accent": {
 		"deprecated": true,
 		"rgba": "rgba(239, 49, 36, 1)",
