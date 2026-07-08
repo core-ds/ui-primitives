@@ -1,3 +1,8 @@
+<a name="35.48.0"></a>
+# [35.48.0](https://github.com/core-ds/ui-primitives/compare/v35.47.0...v35.48.0) (2026-07-08)
+
+
+
 <a name="35.47.0"></a>
 # [35.47.0](https://github.com/core-ds/ui-primitives/compare/v35.46.0...v35.47.0) (2026-07-03)
 
