@@ -2,20 +2,22 @@
 	"static_brand_primary": {
 		"rgba": "rgba(95, 175, 45, 1)",
 		"hex": "#5faf2d",
-		"alias": "staticBrandColorPrimary",
-		"web": "--color-static-brand-primary"
+		"figma": "static/brand/primary",
+		"web": "--color-static-brand-primary",
+		"alias": "staticBrandColorPrimary"
 	},
 	"static_brand_secondary": {
 		"rgba": "rgba(0, 175, 255, 1)",
 		"hex": "#00afff",
-		"alias": "staticBrandColorSecondary",
-		"web": "--color-static-brand-secondary"
+		"figma": "static/brand/secondary",
+		"web": "--color-static-brand-secondary",
+		"alias": "staticBrandColorSecondary"
 	},
 	"static_brand_orange": {
 		"rgba": "rgba(247, 97, 0, 1)",
 		"hex": "#f76100",
 		"figma": "static/brand/orange",
-		"alias": "staticBrandColorOrange",
-		"web": "--color-static-brand-orange"
+		"web": "--color-static-brand-orange",
+		"alias": "staticBrandColorOrange"
 	}
 }
