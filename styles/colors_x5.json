@@ -1,4 +1,11 @@
 {
+	"static_brand_orange": {
+		"rgba": "rgba(247, 97, 0, 1)",
+		"hex": "#f76100",
+		"figma": "static/brand/orange",
+		"web": "--color-static-brand-orange",
+		"alias": "staticBrandColorOrange"
+	},
 	"static_brand_primary": {
 		"rgba": "rgba(95, 175, 45, 1)",
 		"hex": "#5faf2d",
@@ -12,12 +19,5 @@
 		"figma": "static/brand/secondary",
 		"web": "--color-static-brand-secondary",
 		"alias": "staticBrandColorSecondary"
-	},
-	"static_brand_orange": {
-		"rgba": "rgba(247, 97, 0, 1)",
-		"hex": "#f76100",
-		"figma": "static/brand/orange",
-		"web": "--color-static-brand-orange",
-		"alias": "staticBrandColorOrange"
 	}
 }
