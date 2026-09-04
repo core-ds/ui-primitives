@@ -1,3 +1,15 @@
+<a name="35.70.0"></a>
+# [35.70.0](https://github.com/core-ds/ui-primitives/compare/v35.68.0...v35.70.0) (2026-09-04)
+
+
+### Features
+
+* **icons:** add 1 icon ([#1143](https://github.com/core-ds/ui-primitives/issues/1143)) ([9587916](https://github.com/core-ds/ui-primitives/commit/9587916))
+* **icons:** add 27 icons ([#1145](https://github.com/core-ds/ui-primitives/issues/1145)) ([a3d824e](https://github.com/core-ds/ui-primitives/commit/a3d824e))
+* **icons:** revert ([#1147](https://github.com/core-ds/ui-primitives/issues/1147)) ([6289171](https://github.com/core-ds/ui-primitives/commit/6289171))
+
+
+
 <a name="35.68.0"></a>
 # [35.68.0](https://github.com/core-ds/ui-primitives/compare/v35.67.0...v35.68.0) (2026-08-26)
 
