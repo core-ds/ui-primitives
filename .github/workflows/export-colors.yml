@@ -1,0 +1,64 @@
+name: экспорт цветов
+
+on: workflow_dispatch
+
+permissions:
+    contents: write
+    pull-requests: write
+
+concurrency:
+    group: color-exporter-${{ github.repository }}
+    cancel-in-progress: false
+
+jobs:
+    export:
+        runs-on: ubuntu-latest
+        timeout-minutes: 15
+        if: >-
+            ${{
+                github.repository == 'core-ds/ui-primitives'
+                && github.ref == format('refs/heads/{0}', github.event.repository.default_branch)
+            }}
+        steps:
+            - name: Получить код
+              uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # проверенный выпуск v7.0.1
+              with:
+                  token: ${{ secrets.GITHUB_TOKEN }}
+                  fetch-depth: 0
+
+            - name: Подготовить Node.js
+              uses: actions/setup-node@820762786026740c76f36085b0efc47a31fe5020 # проверенный выпуск v7.0.0
+              with:
+                  node-version: 24
+                  package-manager-cache: false
+
+            - name: Установить зависимости
+              shell: bash
+              run: npm ci
+
+            - name: Собрать TypeScript
+              shell: bash
+              run: npm run build
+
+            - name: Проверить алгоритмы
+              shell: bash
+              env:
+                  COLOR_EXPORTER_SOURCE_ROOT: scripts/color-exporter
+              run: >-
+                  node --test
+                  --experimental-test-coverage
+                  --test-coverage-include='dist/color-exporter/src/**/*.mjs'
+                  --test-coverage-lines=100
+                  --test-coverage-branches=95
+                  --test-coverage-functions=98
+                  dist/color-exporter/tests/*.test.mjs
+
+            - name: Синхронизировать цвета и создать реквест
+              uses: actions/github-script@3a2844b7e9c422d3c10d287c895573f7108da1b3 # проверенный выпуск v9.0.0
+              env:
+                  FIGMA_TOKEN: ${{ secrets.FIGMA_TOKEN }}
+              with:
+                  github-token: ${{ secrets.GITHUB_TOKEN }}
+                  script: |
+                      const { default: run } = await import('${{ github.workspace }}/dist/color-exporter/src/action/run-github-action.mjs');
+                      await run({ github, context, exec, report: (message) => core.info(message) });

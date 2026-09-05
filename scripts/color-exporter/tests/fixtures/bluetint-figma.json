@@ -1,0 +1,102 @@
+{
+    "document": {
+        "children": [
+            {
+                "type": "CANVAS",
+                "name": "colors_bluetint.json",
+                "children": [
+                    {
+                        "type": "SECTION",
+                        "name": "light/accent",
+                        "children": [
+                            {
+                                "type": "FRAME",
+                                "name": "primary",
+                                "children": [
+                                    {
+                                        "type": "RECTANGLE",
+                                        "name": "default",
+                                        "styles": { "fill": "S:light-accent-primary-default" },
+                                        "opacity": 1,
+                                        "fills": [
+                                            {
+                                                "type": "SOLID",
+                                                "color": { "r": 0.9372549019607843, "g": 0.19215686274509805, "b": 0.1411764705882353, "a": 1 }
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "type": "RECTANGLE",
+                                        "name": "hover",
+                                        "boundVariables": {
+                                            "fills": [{ "type": "VARIABLE_ALIAS", "id": "VariableID:light-accent-primary-hover" }]
+                                        },
+                                        "opacity": 1,
+                                        "fills": [
+                                            {
+                                                "type": "SOLID",
+                                                "color": { "r": 1, "g": 0.3137254901960784, "b": 0.24313725490196078, "a": 1 }
+                                            }
+                                        ]
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "type": "SECTION",
+                        "name": "light/transparent_inverted",
+                        "children": [
+                            {
+                                "type": "FRAME",
+                                "name": "default",
+                                "children": [
+                                    {
+                                        "type": "RECTANGLE",
+                                        "name": "empty",
+                                        "absoluteBoundingBox": {
+                                            "x": 0,
+                                            "y": 0,
+                                            "width": 100,
+                                            "height": 100
+                                        },
+                                        "fills": [],
+                                        "strokes": []
+                                    },
+                                    {
+                                        "type": "RECTANGLE",
+                                        "name": "hover",
+                                        "styles": { "fill": "S:light-transparent-inverted-default-hover" },
+                                        "opacity": 1,
+                                        "fills": [
+                                            {
+                                                "type": "SOLID",
+                                                "opacity": 0.07,
+                                                "color": { "r": 0.8392156862745098, "g": 0.8392156862745098, "b": 0.8980392156862745, "a": 1 }
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "type": "RECTANGLE",
+                                        "name": "press",
+                                        "opacity": 1,
+                                        "fills": [
+                                            {
+                                                "type": "SOLID",
+                                                "boundVariables": {
+                                                    "color": { "type": "VARIABLE_ALIAS", "id": "VariableID:light-transparent-inverted-default-press" }
+                                                },
+                                                "opacity": 0.09,
+                                                "color": { "r": 0.8823529411764706, "g": 0.8823529411764706, "b": 0.9725490196078431, "a": 1 }
+                                            }
+                                        ]
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    }
+}
