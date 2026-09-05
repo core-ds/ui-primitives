@@ -1,0 +1,70 @@
+{
+	"schemaVersion": 1,
+	"source": "normalized-json",
+	"palettes": [
+		{
+			"id": "bluetint",
+			"targetJson": "styles/colors_bluetint.json",
+			"active": 692,
+			"deprecated": 200
+		},
+		{
+			"id": "brand",
+			"targetJson": "styles/colors_brand.json",
+			"active": 8,
+			"deprecated": 0
+		},
+		{
+			"id": "decorative",
+			"targetJson": "styles/colors_decorative.json",
+			"active": 612,
+			"deprecated": 0
+		},
+		{
+			"id": "go",
+			"targetJson": "styles/colors_go.json",
+			"active": 7,
+			"deprecated": 0
+		},
+		{
+			"id": "monochrome",
+			"targetJson": "styles/colors_monochrome.json",
+			"active": 190,
+			"deprecated": 0
+		},
+		{
+			"id": "promo",
+			"targetJson": "styles/colors_promo.json",
+			"active": 223,
+			"deprecated": 32
+		},
+		{
+			"id": "qualitative",
+			"targetJson": "styles/colors_qualitative.json",
+			"active": 128,
+			"deprecated": 0
+		},
+		{
+			"id": "sequential",
+			"targetJson": "styles/colors_sequential.json",
+			"active": 192,
+			"deprecated": 0
+		},
+		{
+			"id": "students",
+			"targetJson": "styles/colors_students.json",
+			"active": 2,
+			"deprecated": 0
+		},
+		{
+			"id": "x5",
+			"targetJson": "styles/colors_x5.json",
+			"active": 3,
+			"deprecated": 0
+		}
+	],
+	"totals": {
+		"active": 2057,
+		"deprecated": 232
+	}
+}

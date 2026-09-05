@@ -1,0 +1,22 @@
+{
+    "z_historical": {
+        "deprecated": true,
+        "rgba": "rgba(1, 1, 1, 1)",
+        "hex": "#010101",
+        "web": "--color-z-historical",
+        "alias": "zHistorical"
+    },
+    "light_old_token": {
+        "rgba": "rgba(2, 2, 2, 1)",
+        "hex": "#020202",
+        "web": "--color-light-old-token",
+        "alias": "oldColorToken"
+    },
+    "light_accent_primary": {
+        "alias": "неверноеЗначение",
+        "web": "--неверное-значение",
+        "figma": "неверный/путь",
+        "hex": "#000000",
+        "rgba": "rgba(0, 0, 0, 1)"
+    }
+}
