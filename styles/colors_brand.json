@@ -7,8 +7,8 @@
 		"alias": "staticBrandColorBlack"
 	},
 	"static_brand_blue": {
-		"rgba": "rgba(0, 86, 255, 1)",
-		"hex": "#0056ff",
+		"rgba": "rgba(0, 87, 255, 1)",
+		"hex": "#0057ff",
 		"figma": "static_brand/blue",
 		"web": "--color-static-brand-blue",
 		"alias": "staticBrandColorBlue"
