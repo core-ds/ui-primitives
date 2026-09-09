@@ -1,0 +1,22 @@
+{
+    "SuperappHeadline_24_32Bold": {
+        "font_size": 24,
+        "line_height": 32,
+        "line_spacing": 3,
+        "font_family": "SpareRed",
+        "font_weight": "bold",
+        "text_all_caps": false,
+        "letter_spacing": 0,
+        "monospace": false
+    },
+    "SuperappHeadline_44_52Bold": {
+        "font_size": 44,
+        "line_height": 52,
+        "line_spacing": -1,
+        "font_family": "SpareRed",
+        "font_weight": "bold",
+        "text_all_caps": false,
+        "letter_spacing": -0.32,
+        "monospace": false
+    }
+}

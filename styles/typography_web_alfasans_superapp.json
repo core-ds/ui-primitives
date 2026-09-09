@@ -1,0 +1,15 @@
+{
+    "superapp_headline_24_32_bold": {
+        "font_size": 24,
+        "line_height": 32,
+        "font_weight": 700,
+        "font_family": "var(--font-family-alfasans)"
+    },
+    "superapp_headline_44_52_bold": {
+        "font_size": 44,
+        "line_height": 52,
+        "font_weight": 700,
+        "letter_spacing": -0.32,
+        "font_family": "var(--font-family-alfasans)"
+    }
+}
