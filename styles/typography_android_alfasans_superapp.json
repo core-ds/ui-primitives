@@ -7,7 +7,9 @@
         "font_family": "spare_red_bold",
         "text_all_caps": false,
         "letter_spacing": 0,
-        "letter_spacing_sp": 0
+        "letter_spacing_sp": 0,
+        "first_baseline_to_top_height": 25,
+        "last_baseline_to_bottom_height": 7
     },
     "SuperappHeadline_44_52Bold": {
         "font_size": 44,
@@ -17,6 +19,8 @@
         "font_family": "spare_red_bold",
         "text_all_caps": false,
         "letter_spacing": -0.0073,
-        "letter_spacing_sp": 0
+        "letter_spacing_sp": 0,
+        "first_baseline_to_top_height": 42,
+        "last_baseline_to_bottom_height": 10
     }
 }
