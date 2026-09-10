@@ -1,0 +1,30 @@
+{
+	"shadow_1": [
+		{
+			"offset_x": 0,
+			"offset_y": 2,
+			"blur_radius": 8,
+			"spread_radius": 0,
+			"rgba": "rgba(0, 0, 0, 0.04)",
+			"hex": "#0a000000"
+		},
+		{
+			"offset_x": 0,
+			"offset_y": 4,
+			"blur_radius": 40,
+			"spread_radius": 8,
+			"rgba": "rgba(0, 0, 0, 0.024)",
+			"hex": "#06000000"
+		}
+	],
+	"shadow_2": [
+		{
+			"offset_x": 0,
+			"offset_y": 4,
+			"blur_radius": 16,
+			"spread_radius": 0,
+			"rgba": "rgba(3, 3, 6, 0.08)",
+			"hex": "#14030306"
+		}
+	]
+}
