@@ -21,8 +21,8 @@
 		"alias": "superappTabColorBgSelected"
 	},
 	"dark_superapp_tab_bg_selected_press": {
-		"rgba": "rgba(59, 59, 64, 1)",
-		"hex": "#3b3b40",
+		"rgba": "rgba(63, 63, 69, 1)",
+		"hex": "#3f3f45",
 		"figma": "superapp-tab/bg-selected/press",
 		"web": "--color-dark-superapp-tab-bg-selected-press",
 		"alias": "superappTabColorBgSelectedPress"
