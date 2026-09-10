@@ -14,11 +14,18 @@
 		"alias": "superappBaseBgColorSecondary"
 	},
 	"dark_superapp_tab_bg_selected": {
-		"rgba": "rgba(33, 33, 36, 1)",
-		"hex": "#212124",
+		"rgba": "rgba(59, 59, 64, 1)",
+		"hex": "#3b3b40",
 		"figma": "superapp-tab/bg-selected",
 		"web": "--color-dark-superapp-tab-bg-selected",
 		"alias": "superappTabColorBgSelected"
+	},
+	"dark_superapp_tab_bg_selected_press": {
+		"rgba": "rgba(59, 59, 64, 1)",
+		"hex": "#3b3b40",
+		"figma": "superapp-tab/bg-selected/press",
+		"web": "--color-dark-superapp-tab-bg-selected-press",
+		"alias": "superappTabColorBgSelectedPress"
 	},
 	"light_superapp_base_bg_primary": {
 		"rgba": "rgba(252, 252, 252, 1)",
@@ -35,10 +42,17 @@
 		"alias": "superappBaseBgColorSecondary"
 	},
 	"light_superapp_tab_bg_selected": {
-		"rgba": "rgba(252, 252, 252, 1)",
-		"hex": "#fcfcfc",
+		"rgba": "rgba(248, 248, 248, 1)",
+		"hex": "#f8f8f8",
 		"figma": "superapp-tab/bg-selected",
 		"web": "--color-light-superapp-tab-bg-selected",
 		"alias": "superappTabColorBgSelected"
+	},
+	"light_superapp_tab_bg_selected_press": {
+		"rgba": "rgba(242, 242, 242, 1)",
+		"hex": "#f2f2f2",
+		"figma": "superapp-tab/bg-selected/press",
+		"web": "--color-light-superapp-tab-bg-selected-press",
+		"alias": "superappTabColorBgSelectedPress"
 	}
 }
