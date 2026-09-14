@@ -1,0 +1,100 @@
+{
+	"static_corporate_grape_soda": {
+		"rgba": "rgba(122, 99, 241, 1)",
+		"hex": "#7a63f1",
+		"figma": "static_corporate/grape-soda",
+		"web": "--color-static-corporate-grape-soda",
+		"alias": "staticCorporateColorGrapeSoda"
+	},
+	"static_corporate_grape_soda_transparent": {
+		"rgba": "rgba(122, 99, 241, 0)",
+		"hex": "#007a63f1",
+		"figma": "static_corporate/grape-soda-transparent",
+		"web": "--color-static-corporate-grape-soda-transparent",
+		"alias": "staticCorporateColorGrapeSodaTransparent"
+	},
+	"static_corporate_grenadine": {
+		"rgba": "rgba(255, 20, 24, 1)",
+		"hex": "#ff1418",
+		"figma": "static_corporate/grenadine",
+		"web": "--color-static-corporate-grenadine",
+		"alias": "staticCorporateColorGrenadine"
+	},
+	"static_corporate_grenadine_transparent": {
+		"rgba": "rgba(255, 20, 24, 0)",
+		"hex": "#00ff1418",
+		"figma": "static_corporate/grenadine-transparent",
+		"web": "--color-static-corporate-grenadine-transparent",
+		"alias": "staticCorporateColorGrenadineTransparent"
+	},
+	"static_corporate_hibiscus_tea": {
+		"rgba": "rgba(238, 0, 75, 1)",
+		"hex": "#ee004b",
+		"figma": "static_corporate/hibiscus-tea",
+		"web": "--color-static-corporate-hibiscus-tea",
+		"alias": "staticCorporateColorHibiscusTea"
+	},
+	"static_corporate_hibiscus_tea_transparent": {
+		"rgba": "rgba(238, 0, 75, 0)",
+		"hex": "#00ee004b",
+		"figma": "static_corporate/hibiscus-tea-transparent",
+		"web": "--color-static-corporate-hibiscus-tea-transparent",
+		"alias": "staticCorporateColorHibiscusTeaTransparent"
+	},
+	"static_corporate_ruby_wine": {
+		"rgba": "rgba(196, 20, 0, 1)",
+		"hex": "#c41400",
+		"figma": "static_corporate/ruby-wine",
+		"web": "--color-static-corporate-ruby-wine",
+		"alias": "staticCorporateColorRubyWine"
+	},
+	"static_corporate_ruby_wine_transparent": {
+		"rgba": "rgba(196, 20, 0, 0)",
+		"hex": "#00c41400",
+		"figma": "static_corporate/ruby-wine-transparent",
+		"web": "--color-static-corporate-ruby-wine-transparent",
+		"alias": "staticCorporateColorRubyWineTransparent"
+	},
+	"static_corporate_squid_ink": {
+		"rgba": "rgba(0, 0, 0, 1)",
+		"hex": "#000000",
+		"figma": "static_corporate/squid-ink",
+		"web": "--color-static-corporate-squid-ink",
+		"alias": "staticCorporateColorSquidInk"
+	},
+	"static_corporate_squid_ink_transparent": {
+		"rgba": "rgba(0, 0, 0, 0)",
+		"hex": "#00000000",
+		"figma": "static_corporate/squid-ink-transparent",
+		"web": "--color-static-corporate-squid-ink-transparent",
+		"alias": "staticCorporateColorSquidInkTransparent"
+	},
+	"static_corporate_ube_juice": {
+		"rgba": "rgba(140, 0, 242, 1)",
+		"hex": "#8c00f2",
+		"figma": "static_corporate/ube-juice",
+		"web": "--color-static-corporate-ube-juice",
+		"alias": "staticCorporateColorUbeJuice"
+	},
+	"static_corporate_ube_juice_transparent": {
+		"rgba": "rgba(140, 0, 242, 0)",
+		"hex": "#008c00f2",
+		"figma": "static_corporate/ube-juice-transparent",
+		"web": "--color-static-corporate-ube-juice-transparent",
+		"alias": "staticCorporateColorUbeJuiceTransparent"
+	},
+	"static_corporate_wisteria_ouzu": {
+		"rgba": "rgba(167, 167, 247, 1)",
+		"hex": "#a7a7f7",
+		"figma": "static_corporate/wisteria-ouzu",
+		"web": "--color-static-corporate-wisteria-ouzu",
+		"alias": "staticCorporateColorWisteriaOuzu"
+	},
+	"static_corporate_wisteria_ouzu_transparent": {
+		"rgba": "rgba(167, 167, 247, 0)",
+		"hex": "#00a7a7f7",
+		"figma": "static_corporate/wisteria-ouzu-transparent",
+		"web": "--color-static-corporate-wisteria-ouzu-transparent",
+		"alias": "staticCorporateColorWisteriaOuzuTransparent"
+	}
+}
