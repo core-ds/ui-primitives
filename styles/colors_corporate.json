@@ -83,18 +83,18 @@
 		"web": "--color-static-corporate-ube-juice-transparent",
 		"alias": "staticCorporateColorUbeJuiceTransparent"
 	},
-	"static_corporate_wisteria_ouzu": {
+	"static_corporate_wisteria_ouzo": {
 		"rgba": "rgba(167, 167, 247, 1)",
 		"hex": "#a7a7f7",
-		"figma": "static_corporate/wisteria-ouzu",
-		"web": "--color-static-corporate-wisteria-ouzu",
-		"alias": "staticCorporateColorWisteriaOuzu"
+		"figma": "static_corporate/wisteria-ouzo",
+		"web": "--color-static-corporate-wisteria-ouzo",
+		"alias": "staticCorporateColorWisteriaOuzo"
 	},
-	"static_corporate_wisteria_ouzu_transparent": {
+	"static_corporate_wisteria_ouzo_transparent": {
 		"rgba": "rgba(167, 167, 247, 0)",
 		"hex": "#00a7a7f7",
-		"figma": "static_corporate/wisteria-ouzu-transparent",
-		"web": "--color-static-corporate-wisteria-ouzu-transparent",
-		"alias": "staticCorporateColorWisteriaOuzuTransparent"
+		"figma": "static_corporate/wisteria-ouzo-transparent",
+		"web": "--color-static-corporate-wisteria-ouzo-transparent",
+		"alias": "staticCorporateColorWisteriaOuzoTransparent"
 	}
 }
