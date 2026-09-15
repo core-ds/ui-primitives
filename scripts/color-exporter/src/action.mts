@@ -74,7 +74,17 @@ export default async function run({ github, context, repoRoot = process.env.GITH
     const remote = `refs/remotes/origin/${TARGET_BRANCH}`;
     if (remoteBranchExisted) git('fetch', 'origin', `refs/heads/${TARGET_BRANCH}:${remote}`);
     git('checkout', '-B', TARGET_BRANCH, remoteBranchExisted ? remote : context.sha);
-    if (remoteBranchExisted) git('merge', context.sha, '-m', 'chore: обновить основу ветки синхронизации');
+    if (remoteBranchExisted) {
+        try { git('merge', context.sha, '-m', 'chore: обновить основу ветки синхронизации'); }
+        catch (error) {
+            const conflicts = fields(git('diff', '--name-only', '--diff-filter=U', '-z'));
+            if (!conflicts.length) throw error;
+            git('merge', '--abort');
+            throw new Error(`Конфликт при обновлении ${TARGET_BRANCH}: ${conflicts.join(', ')}. `
+                + `Сохраните нужные правки, закройте PR и удалите только служебную ветку ${TARGET_BRANCH}, затем повторите запуск из ${base}. `
+                + 'Порядок восстановления: scripts/color-exporter/docs/GITHUB_ACTIONS.md#конфликт-слияния.', { cause: error });
+        }
+    }
     const branchAdvanced = remoteBranchExisted && git('rev-parse', 'HEAD') !== git('rev-parse', remote);
     const plans = await prepare(await source(token), async path =>
         baseMode(path) ? git('show', `${context.sha}:${path}`) : undefined);

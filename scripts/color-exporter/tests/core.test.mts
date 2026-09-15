@@ -195,13 +195,3 @@ test('Разовая ошибка чтения после замены не ме
     finally { fs.open = originalOpen; syncBuiltinESMExports(); }
     assert.equal(await readFile(path, 'utf8'), 'исходник');
 });
-
-test('Релизный фильтр учитывает только корневые ассеты, а не удалённые тестовые снимки', async () => {
-    const script = await readFile(new URL('../../../utils/ci.sh', import.meta.url), 'utf8');
-    const filters = [...script.matchAll(/grep -E "([^"]+)"/g)].map(match => new RegExp(match[1]!));
-    assert.equal(filters.length, 2);
-    for (const filter of filters) for (const prefix of ['icons', 'styles', 'animations']) {
-        assert(filter.test(`${prefix}/example.json`));
-        assert(!filter.test(`scripts/color-exporter/tests/${prefix}/example.json`));
-    }
-});

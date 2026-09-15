@@ -93,6 +93,44 @@ test('новая основа отправляется обычным слиян
     assert.equal(git('ls-tree', '--format=%(objectmode)', 'HEAD', '--', target).trim(), '100755');
     assert.equal(state.calls.at(-1), 'update');
 });
+test('конфликт не меняет удалённую ветку; после её удаления повтор восстанавливает экспорт', async t => {
+    const { git, save, state, options, remoteSha } = await repository(t);
+    await run(options);
+    const exported = await readFile(path.join(options.repoRoot, target), 'utf8');
+    const before = remoteSha();
+    git('checkout', 'master');
+    await save({ [target]: exported.replace('#ef3124', '#ef3125') });
+    options.context.sha = git('rev-parse', 'HEAD').trim();
+    state.open = [{ number: 17 }];
+    const calls = [...state.calls];
+    const source = async () => { throw Error('Figma не должна читаться до разрешения конфликта'); };
+    for (let attempt = 0; attempt < 2; attempt++) {
+        await assert.rejects(run({ ...options, source }), /Конфликт.*colors_example\.json.*GITHUB_ACTIONS\.md/);
+        assert.equal(remoteSha(), before);
+        assert.equal(git('rev-parse', 'HEAD').trim(), before);
+        assert.equal(git('status', '--porcelain'), '');
+        assert.deepEqual(state.calls, calls);
+    }
+    // Пользователь сохранил нужные правки и закрыл PR перед удалением служебной ветки.
+    state.open = [];
+    git('push', 'origin', '--delete', TARGET_BRANCH);
+    const result = await run(options);
+    assert.equal(result.remoteBranchExisted, false);
+    assert.equal(result.pushed, true);
+    assert.equal(result.changed, true);
+    assert.equal(await readFile(path.join(options.repoRoot, target), 'utf8'), exported);
+    git('merge-base', '--is-ancestor', options.context.sha, 'HEAD');
+    assert.deepEqual(state.calls.slice(calls.length), ['list', 'create']);
+});
+test('ошибка Git без конфликта сохраняет исходную причину и не меняет удалённую ветку', async t => {
+    const { state, options, remoteSha } = await repository(t);
+    await run(options);
+    const before = remoteSha();
+    const calls = [...state.calls];
+    await assert.rejects(run({ ...options, context: { ...options.context, sha: '0'.repeat(40) } }), /Command failed: git merge/);
+    assert.equal(remoteSha(), before);
+    assert.deepEqual(state.calls, calls);
+});
 test('изменённое хуком дерево коммита не отправляется', async t => {
     const { state, options, remoteSha } = await repository(t);
     await writeFile(path.join(options.repoRoot, '.git/hooks/pre-commit'),
