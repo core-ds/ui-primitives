@@ -1,3 +1,14 @@
+<a name="35.78.0"></a>
+# [35.78.0](https://github.com/core-ds/ui-primitives/compare/v35.77.0...v35.78.0) (2026-09-16)
+
+
+### Features
+
+* **styles:** добавить цвета SuperApp ([#1155](https://github.com/core-ds/ui-primitives/issues/1155)) ([ee01f7e](https://github.com/core-ds/ui-primitives/commit/ee01f7e))
+* add SuperApp typography tokens ([#1154](https://github.com/core-ds/ui-primitives/issues/1154)) ([be3bb1b](https://github.com/core-ds/ui-primitives/commit/be3bb1b))
+
+
+
 <a name="35.77.0"></a>
 # [35.77.0](https://github.com/core-ds/ui-primitives/compare/v35.76.0...v35.77.0) (2026-09-16)
 
