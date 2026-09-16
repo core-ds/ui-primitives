@@ -1,3 +1,13 @@
+<a name="35.80.0"></a>
+# [35.80.0](https://github.com/core-ds/ui-primitives/compare/v35.79.0...v35.80.0) (2026-09-16)
+
+
+### Bug Fixes
+
+* **styles:** update superapp shadow names ([#1171](https://github.com/core-ds/ui-primitives/issues/1171)) ([8dd9abb](https://github.com/core-ds/ui-primitives/commit/8dd9abb))
+
+
+
 <a name="35.79.0"></a>
 # [35.79.0](https://github.com/core-ds/ui-primitives/compare/v35.78.0...v35.79.0) (2026-09-16)
 
