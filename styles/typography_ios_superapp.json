@@ -6,7 +6,7 @@
         "font_family": "System",
         "font_weight": "bold",
         "text_all_caps": false,
-        "letter_spacing": 0,
+        "letter_spacing": 0.07,
         "monospace": false
     },
     "SuperappHeadline_44_52Bold": {
@@ -16,7 +16,7 @@
         "font_family": "System",
         "font_weight": "bold",
         "text_all_caps": false,
-        "letter_spacing": -0.32,
+        "letter_spacing": 0.37,
         "monospace": false
     }
 }
