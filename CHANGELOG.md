@@ -1,3 +1,13 @@
+<a name="35.81.0"></a>
+# [35.81.0](https://github.com/core-ds/ui-primitives/compare/v35.80.0...v35.81.0) (2026-09-16)
+
+
+### Bug Fixes
+
+* **styles:** обновить пути Figma для цветов SuperApp ([#1172](https://github.com/core-ds/ui-primitives/issues/1172)) ([011675d](https://github.com/core-ds/ui-primitives/commit/011675d))
+
+
+
 <a name="35.80.0"></a>
 # [35.80.0](https://github.com/core-ds/ui-primitives/compare/v35.79.0...v35.80.0) (2026-09-16)
 
