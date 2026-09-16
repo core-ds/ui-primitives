@@ -1,3 +1,13 @@
+<a name="35.79.0"></a>
+# [35.79.0](https://github.com/core-ds/ui-primitives/compare/v35.78.0...v35.79.0) (2026-09-16)
+
+
+### Bug Fixes
+
+* **icons:** update action-qr-scan graphics ([#1170](https://github.com/core-ds/ui-primitives/issues/1170)) ([55cd7c3](https://github.com/core-ds/ui-primitives/commit/55cd7c3))
+
+
+
 <a name="35.78.0"></a>
 # [35.78.0](https://github.com/core-ds/ui-primitives/compare/v35.77.0...v35.78.0) (2026-09-16)
 
