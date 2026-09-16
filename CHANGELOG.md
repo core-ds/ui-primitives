@@ -1,3 +1,13 @@
+<a name="35.77.0"></a>
+# [35.77.0](https://github.com/core-ds/ui-primitives/compare/v35.76.0...v35.77.0) (2026-09-16)
+
+
+### Features
+
+* **styles:** add superapp shadows ([#1153](https://github.com/core-ds/ui-primitives/issues/1153)) ([39f2977](https://github.com/core-ds/ui-primitives/commit/39f2977))
+
+
+
 <a name="35.76.0"></a>
 # [35.76.0](https://github.com/core-ds/ui-primitives/compare/v35.75.0...v35.76.0) (2026-09-14)
 
