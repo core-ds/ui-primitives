@@ -1,3 +1,16 @@
+<a name="35.83.0"></a>
+# [35.83.0](https://github.com/core-ds/ui-primitives/compare/v35.81.0...v35.83.0) (2026-09-17)
+
+
+### Features
+
+* revert ([#1176](https://github.com/core-ds/ui-primitives/issues/1176)) ([45b242a](https://github.com/core-ds/ui-primitives/commit/45b242a))
+* **icons:** add 3 icons ([#1174](https://github.com/core-ds/ui-primitives/issues/1174)) ([4c8ce8b](https://github.com/core-ds/ui-primitives/commit/4c8ce8b))
+* **styles:** добавить корпоративные цвета ([#1157](https://github.com/core-ds/ui-primitives/issues/1157)) ([dd2f172](https://github.com/core-ds/ui-primitives/commit/dd2f172))
+* обновить цвета ([#1142](https://github.com/core-ds/ui-primitives/issues/1142)) ([fdf5da1](https://github.com/core-ds/ui-primitives/commit/fdf5da1))
+
+
+
 <a name="35.81.0"></a>
 # [35.81.0](https://github.com/core-ds/ui-primitives/compare/v35.80.0...v35.81.0) (2026-09-16)
 
