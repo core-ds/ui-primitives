@@ -10,11 +10,73 @@ import { prepare, writePlans, fetchFigma } from '../src/sync.mjs';
 import { readLocal } from '../src/files.mjs';
 import { main } from '../src/cli.mjs';
 import { paint, rectangle, frame, section, page, document, temporary } from './fixtures.mjs';
+import { superappBaseline, superappExpected, superappSource } from './superapp.fixture.mjs';
 
 const run = (children = [section()], old?: string, name = 'colors_example.json') => prepare(document(page(name, children)), async () => old);
 const values = async (children = [section()], old?: string, name?: string) => JSON.parse((await run(children, old, name))[0]!.text);
 
-test('Каждое поле: режим, inverted, вложенное семейство и особенности десяти наборов', async () => {
+test('SuperApp: обновляется только figma, повторный экспорт не меняет байты', async t => {
+    const root = await temporary(t);
+    const path = join(root, 'styles/colors_superapp.json');
+    await writeFile(path, superappBaseline);
+    for (const baseline of [undefined, superappBaseline]) {
+        const [plan] = await prepare(superappSource(), async () => baseline, 'superapp');
+        assert.equal(plan!.text, superappExpected);
+        assert.deepEqual(plan!.deprecated, []);
+    }
+    await writePlans(root, await prepare(superappSource(), path => readLocal(root, path), 'superapp'), true);
+    const before = await stat(path);
+    for (let i = 0; i < 2; i++) {
+        const plans = await prepare(superappSource(), path => readLocal(root, path), 'superapp');
+        await writePlans(root, plans, true);
+        assert.equal(await readFile(path, 'utf8'), superappExpected);
+        assert.equal((await stat(path)).mtimeMs, before.mtimeMs);
+    }
+});
+
+test('SuperApp: исключение сохраняет только alias, новые цвета и токены экспортируются', async () => {
+    const result = await values([section('light/superapp-component', [
+        frame('bg-secondary', [rectangle('default'), rectangle('empty', { fills: [] }), rectangle('press')]),
+        frame('bg-tertiary', [rectangle('hover')]),
+    ])], superappBaseline, 'colors_superapp.json');
+    assert.deepEqual(result.light_superapp_component_bg_secondary_press, {
+        rgba: 'rgba(239, 49, 36, 1)', hex: '#ef3124',
+        figma: 'superapp-component/bg-secondary/press',
+        web: '--color-light-superapp-component-bg-secondary-press',
+        alias: 'superappComponentBgColorSecondaryPress',
+    });
+    assert.equal(result.light_superapp_component_bg_tertiary_hover.alias, 'superappComponentBgColorTertiaryHover');
+    assert.equal(result.dark_superapp_surface_bg_primary.deprecated, true);
+    const regular = await values([section('light/superapp-component', [frame('bg-secondary')])]);
+    assert.equal(regular.light_superapp_component_bg_secondary.figma, 'superapp-component/bg-secondary');
+    assert.equal(regular.light_superapp_component_bg_secondary.alias, 'superappComponentColorBgSecondary');
+});
+
+test('SuperApp: инверсия сохраняет совместимость alias, остальные имена следуют общим правилам', async () => {
+    const cases = [
+        ['dark/superapp-component_inverted', 'bg-secondary', 'dark_superapp_component_bg_secondary_inverted_hover', 'superapp-component_inverted/bg-secondary/hover', 'superappComponentBgColorSecondaryInvertedHover'],
+        ['light/superapp-surface_inverted', 'bg-new', 'light_superapp_surface_bg_new_inverted_hover', 'superapp-surface_inverted/bg-new/hover', 'superappSurfaceBgColorNewInvertedHover'],
+        ['light/superapp-component', 'text-primary', 'light_superapp_component_text_primary_hover', 'superapp-component/text-primary/hover', 'superappComponentColorTextPrimaryHover'],
+        ['light/superapp-text', 'bg-primary', 'light_superapp_text_bg_primary_hover', 'superapp-text/bg-primary/hover', 'superappTextColorBgPrimaryHover'],
+        ['static_superapp-surface', 'bg-primary', 'static_superapp_surface_bg_primary_hover', 'static_superapp-surface/bg-primary/hover', 'staticSuperappSurfaceColorBgPrimaryHover'],
+        ['light/superapp-component/nested', 'bg-primary', 'light_superapp_component_nested_bg_primary_hover', 'superapp-component/nested/bg-primary/hover', 'superappComponentNestedColorBgPrimaryHover'],
+        ['light/superapp-surface', 'bg-', 'light_superapp_surface_bg__hover', 'superapp-surface/bg-/hover', 'superappSurfaceColorBgHover'],
+    ];
+    for (const [family, name, key, figma, alias] of cases) {
+        assert.deepEqual(await values([section(family, [frame(name, [rectangle('hover')])])], undefined, 'colors_superapp.json'), {
+            [key!]: { rgba: 'rgba(239, 49, 36, 1)', hex: '#ef3124', figma, web: `--color-${key!.replaceAll('_', '-')}`, alias },
+        });
+    }
+    await assert.rejects(run([
+        section('light/superapp-component', [frame('bg-secondary')]),
+        section('light/superapp-component-bg', [frame('secondary')]),
+    ], undefined, 'colors_superapp.json'), /Два источника для key/);
+    await assert.rejects(run([section('dark/superapp-component', [frame('bg-secondary', [
+        rectangle('press'), rectangle('hover'),
+    ])])], undefined, 'colors_superapp.json'), /colors_superapp.json\/dark\/superapp-component\/bg-secondary\/hover/);
+});
+
+test('Существующие имена: режим, inverted, вложенное семейство и X5', async () => {
     const cases = [
         ['example', 'dark/accent_inverted', 'primary', 'hover', 'dark_accent_primary_inverted_hover', 'accent_inverted/primary/hover', 'accentColorPrimaryInvertedHover'],
         ['bluetint', 'light/accent', 'primary', 'default', 'light_accent_primary', 'accent/primary', 'accentColorPrimary'],
@@ -74,11 +136,43 @@ test('Ошибки внешних данных не маскируются и н
     await assert.rejects(prepare(document(page()), async () => undefined, 'missing'));
 });
 
-test('Правила наборов ограничивают состояния и имена', async () => {
+test('Нынешний состав набора не ограничивает новые состояния и имена', async () => {
     for (const [palette, family, name] of [['brand', 'static_brand', 'red'], ['decorative', 'light/decorative', 'red'], ['decorative', 'dark/decorative-text', 'blue'], ['promo', 'static_promo', 'a'], ['monochrome', 'light/monochrome-black', '10'], ['go', 'static_go', 'a'], ['x5', 'static/brand', 'a'], ['students', 'static_students', 'a'], ['sequential', 'light/sequential-red', '1'], ['qualitative', 'light/qualitative-flexible', '1']]) {
-        await assert.rejects(run([section(family, [frame(name, [rectangle('press')])])], undefined, `colors_${palette}.json`));
+        const result = await values([section(family, [frame(name, [rectangle('press')])])], undefined, `colors_${palette}.json`);
+        assert.equal(Object.keys(result).length, 1);
+        assert.match((Object.values(result)[0] as { alias: string }).alias, /Press$/);
     }
-    await assert.rejects(run([section('static_monochrome-black', [frame('word')])], undefined, 'colors_monochrome.json'));
+    const result = await values([section('static_monochrome-black', [frame('word')])], undefined, 'colors_monochrome.json');
+    assert.equal(result.static_monochrome_black_word.alias, 'staticMonochromeBlackColorWord');
+});
+
+test('Все наборы автоматически принимают новые семейства, инверсию и подмножества состояний', async () => {
+    const palettes = ['bluetint', 'brand', 'corp', 'decorative', 'go', 'monochrome', 'promo', 'qualitative', 'sequential', 'students', 'superapp', 'x5', 'new_palette'];
+    const subsets = [['default'], ['hover'], ['press'], ['default', 'hover'], ['default', 'press'], ['hover', 'press'], ['default', 'hover', 'press']];
+    for (const family of ['light/new-family/set-a_inverted', 'dark/new-family/set-a_inverted', 'static_new-family/set-a_inverted']) {
+        for (const states of subsets) {
+            const tree = [section(family, [frame('new-token', states.map(state => rectangle(state)))])];
+            const expected = await values(tree);
+            assert.equal(Object.keys(expected).length, states.length);
+            for (const palette of palettes) {
+                assert.deepEqual(await values(tree, undefined, `colors_${palette}.json`), expected, `${palette}: ${family}, ${states}`);
+            }
+        }
+    }
+});
+
+test('X5: static/ поддерживает любые семейства, инверсию и состояния только в этом наборе', async () => {
+    const tree = [section('static/new-family/set-a_inverted', [frame('new-token', [rectangle('default'), rectangle('hover'), rectangle('press')])])];
+    const result = await values(tree, undefined, 'colors_x5.json');
+    const expected: Record<string, unknown> = {};
+    for (const [state, suffix, aliasSuffix] of [['default', '', ''], ['hover', '_hover', 'Hover'], ['press', '_press', 'Press']]) {
+        const key = `static_new_family_set_a_new_token_inverted${suffix}`;
+        expected[key] = { rgba: 'rgba(239, 49, 36, 1)', hex: '#ef3124',
+            figma: `static/new-family/set-a_inverted/new-token${state === 'default' ? '' : `/${state}`}`,
+            web: `--color-${key.replaceAll('_', '-')}`, alias: `staticNewFamilySetAColorNewTokenInverted${aliasSuffix}` };
+    }
+    assert.deepEqual(result, expected);
+    for (const palette of ['example', 'superapp']) await assert.rejects(run(tree, undefined, `colors_${palette}.json`), /Недопустимая секция/);
 });
 
 test('Два источника одного значения в коде запрещены; совпавшие цвета допустимы', async () => {

@@ -25,11 +25,11 @@ async function repository(t: TestContext, pending?: Record<string, string>) {
     await save({ [target]: '{}\n' });
     const context: Context = { sha: git('rev-parse', 'HEAD').trim(), ref: 'refs/heads/master',
         repo: { owner: 'core-ds', repo: 'ui-primitives' }, payload: { repository: { default_branch: 'master' } } };
-    const state = { calls: [] as string[], open: [] as { number: number }[], fail: false };
+    const state = { calls: [] as string[], open: [] as { number: number }[], fail: false, bodies: [] as string[] };
     const github = { rest: { pulls: {
         async list() { state.calls.push('list'); return { data: state.open }; },
-        async create() { state.calls.push('create'); if (state.fail) throw new Error('сбой создания реквеста'); },
-        async update() { state.calls.push('update'); },
+        async create(parameters: Record<string, string | number>) { state.calls.push('create'); state.bodies.push(String(parameters.body)); if (state.fail) throw new Error('сбой создания реквеста'); },
+        async update(parameters: Record<string, string | number>) { state.calls.push('update'); state.bodies.push(String(parameters.body)); },
     } } };
     const options = { github, context, repoRoot, token: 'тест', source: async () => document(page()) };
     const remoteSha = () => git('ls-remote', '--heads', 'origin', `refs/heads/${TARGET_BRANCH}`).split(/\s/)[0];
@@ -54,6 +54,11 @@ test('после сбоя создания реквеста повтор соз�
     state.open = [{ number: 17 }];
     await run(options);
     assert.deepEqual(state.calls, ['list', 'create', 'list', 'create', 'list', 'update']);
+    for (const body of state.bodies) {
+        assert.match(body, /blob\/master\/scripts\/color-exporter\/README\.md/);
+        assert.match(body, /blob\/master\/scripts\/color-exporter\/docs\/FIGMA_FORMAT\.md/);
+        assert.doesNotMatch(body, /blob\/feat\/update-colors/);
+    }
 });
 test('исчезновение страниц возвращает старый JSON, удаляет новый и отправляет согласование без реквеста', async t => {
     const added = 'styles/colors_new.json';
@@ -104,8 +109,9 @@ test('конфликт не меняет удалённую ветку; посл
     state.open = [{ number: 17 }];
     const calls = [...state.calls];
     const source = async () => { throw Error('Figma не должна читаться до разрешения конфликта'); };
-    for (let attempt = 0; attempt < 2; attempt++) {
-        await assert.rejects(run({ ...options, source }), /Конфликт.*colors_example\.json.*GITHUB_ACTIONS\.md/);
+    for (const open of [[{ number: 17 }], []]) {
+        state.open = open;
+        await assert.rejects(run({ ...options, source }), /Конфликт.*colors_example\.json.*закройте PR, если он открыт.*GITHUB_ACTIONS\.md/);
         assert.equal(remoteSha(), before);
         assert.equal(git('rev-parse', 'HEAD').trim(), before);
         assert.equal(git('status', '--porcelain'), '');

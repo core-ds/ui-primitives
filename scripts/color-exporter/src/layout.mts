@@ -2,7 +2,8 @@ import { color } from './color.mjs';
 import { object, PAGE, requireValue, type Rule, type Token } from './contract.mjs';
 
 type Node = Record<string, unknown> & { name: string };
-const standard: Rule = { section: /^(?:(?:light|dark)\/[a-z0-9_-]+(?:\/[a-z0-9_-]+)*|static_[a-z0-9_-]+(?:\/[a-z0-9_-]+)*)$/ };
+const standardSection = /^(?:(?:light|dark)\/[a-z0-9_-]+(?:\/[a-z0-9_-]+)*|static_[a-z0-9_-]+(?:\/[a-z0-9_-]+)*)$/;
+const slashStaticSection = /^static\/[a-z0-9_-]+(?:\/[a-z0-9_-]+)*$/;
 
 function node(value: unknown, type: string): Node {
     const item = object(value);
@@ -36,7 +37,7 @@ export async function rules(pageName: string): Promise<Rule> {
     const url = new URL(`./palettes/${pageName.slice(7, -5)}.mjs`, import.meta.url);
     const { access } = await import('node:fs/promises');
     try { await access(url); } catch (error) {
-        if ((error as NodeJS.ErrnoException).code === 'ENOENT') return standard;
+        if ((error as NodeJS.ErrnoException).code === 'ENOENT') return {};
         throw error;
     }
     return (await import(url.href)).default as Rule;
@@ -45,10 +46,10 @@ export async function rules(pageName: string): Promise<Rule> {
 const pascal = (value: string) => value.split(/[-_]+/).filter(Boolean).map((word) => word[0]!.toUpperCase() + word.slice(1)).join('');
 
 /** Общая часть имени рассчитывается один раз на секцию, а не для каждого состояния. */
-function naming(section: string, literal = false) {
+function naming(section: string) {
     const dynamic = /^(light|dark)\/(.+)$/.exec(section);
-    const mode = dynamic && !literal ? dynamic[1]! : 'static';
-    const family = dynamic && !literal ? dynamic[2]! : section;
+    const mode = dynamic ? dynamic[1]! : 'static';
+    const family = dynamic ? dynamic[2]! : section;
     const inverted = section.endsWith('_inverted');
     const keyFamily = inverted ? section.slice(0, -9) : section;
     const parts = family.split('/');
@@ -57,7 +58,7 @@ function naming(section: string, literal = false) {
     const [word = '', ...words] = first.split(/[-_]+/).filter(Boolean);
     const prefix = word + words.map(pascal).join('') + rest.map(pascal).join('') + 'Color';
     return (frame: string, state: string) => {
-        requireValue(literal || (dynamic ? !/^(static_|light_|dark_)/.test(family) : section.startsWith('static_')), `Несогласованный режим ${section}`);
+        requireValue(!dynamic || !/^(static_|light_|dark_)/.test(family), `Несогласованный режим ${section}`);
         requireValue(invertedParts.length <= 1, `${section}: inverted указан несколько раз`);
         const suffix = state === 'default' ? '' : `_${state}`;
         const key = `${keyFamily}_${frame}${inverted ? '_inverted' : ''}${suffix}`.replace(/[/-]/g, '_');
@@ -72,20 +73,22 @@ export function parse(page: Node, rule: Rule): Map<string, Token> {
     const tokens = new Map<string, Token>();
     const sources = new Map<string, string>();
     for (const section of children(page, 'SECTION')) {
-        requireValue(rule.section.test(section.name), `Недопустимая секция ${section.name}`);
-        const identify = naming(section.name, rule.literal);
+        requireValue(standardSection.test(section.name) || (rule.staticSlash && slashStaticSection.test(section.name)), `Недопустимая секция ${section.name}`);
+        const identify = naming(section.name);
         for (const frame of children(section, 'FRAME')) {
-            requireValue((rule.frame ?? /^[a-z0-9-]+$/).test(frame.name), `Недопустимый фрейм ${frame.name}`);
-            const defaultOnly = typeof rule.defaultOnly === 'function' ? rule.defaultOnly(section.name, frame.name) : rule.defaultOnly;
+            requireValue(/^[a-z0-9-]+$/.test(frame.name), `Недопустимый фрейм ${frame.name}`);
+            const aliasNames = rule.aliasNames?.(section.name, frame.name);
+            const identifyAlias = aliasNames ? naming(aliasNames.section) : undefined;
             let previous = -1;
             for (const rectangle of children(frame, 'RECTANGLE')) {
                 if (rectangle.name === 'empty') continue;
                 const source = `${page.name}/${section.name}/${frame.name}/${rectangle.name} (${rectangle.id ?? 'без id'})`;
                 try {
                     const rank = ['default', 'hover', 'press'].indexOf(rectangle.name);
-                    requireValue(rank > previous && (!defaultOnly || rank === 0), 'Недопустимое, повторное или неупорядоченное состояние');
+                    requireValue(rank > previous, 'Недопустимое, повторное или неупорядоченное состояние');
                     previous = rank;
                     const token = identify(frame.name, rectangle.name);
+                    if (identifyAlias && aliasNames) token.alias = identifyAlias(aliasNames.frame, rectangle.name).alias;
                     for (const field of ['key', 'web', 'figma', 'alias'] as const) {
                         const scope = field === 'figma' || field === 'alias' ? token.mode : '';
                         const claim = `${field}:${scope}:${token[field]}`;

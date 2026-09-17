@@ -13,10 +13,10 @@ export const TARGET = /^styles\/colors_[a-z0-9_]+\.json$/;
 export const FILE_KEY = 'JGR9GpDXUneyYHfDdb7BDT';
 export type Token = { rgba: string; hex: string; figma: string; web: string; alias: string };
 export type Rule = {
-    section: RegExp;
-    frame?: RegExp;
-    literal?: boolean;
-    defaultOnly?: boolean | ((section: string, frame: string) => boolean);
+    /** X5 сохраняет static/ вместо общего static_. */
+    staticSlash?: boolean;
+    /** Имена только для совместимости alias; остальные поля используют исходную раскладку. */
+    aliasNames?: (section: string, frame: string) => { section: string; frame: string } | undefined;
 };
 
 /** `_` раньше цифр и букв: порядок не зависит от языка операционной системы. */

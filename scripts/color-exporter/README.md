@@ -36,9 +36,12 @@ npm run sync:colors -- --repo-root /path/to/repository --figma-json /path/to/fig
 
 | Что нужно | Где читать |
 |---|---|
+| Общие правила и глоссарий | [Инструкция](docs/instructions/01-general-rules.md) |
+| Исключения с конкретными примерами | [X5 и SuperApp](docs/instructions/02-bundle-exceptions.md) |
+| Создать раскладку по данным Figma | [Инструкция для ИИ](docs/instructions/03-ai-layout-guide.md) |
 | Полный алгоритм, дерево Figma и формулы полей | [FIGMA_FORMAT.md](docs/FIGMA_FORMAT.md) |
 | Добавить или отключить набор | [ADD_OR_REMOVE_PALETTE.md](docs/ADD_OR_REMOVE_PALETTE.md) |
-| Особенности десяти наборов | [Карточки наборов](docs/palettes/README.md) |
+| Особенности наборов, включая совместимость SuperApp | [Карточки наборов](docs/palettes/README.md) |
 | Распределение ответственности в коде | [ARCHITECTURE.md](docs/ARCHITECTURE.md) |
 | Ветка, запрос на слияние и повторные запуски | [GITHUB_ACTIONS.md](docs/GITHUB_ACTIONS.md) |
 | Запись и откат | [FILE_WRITES.md](docs/FILE_WRITES.md) |

@@ -34,8 +34,8 @@ function body(plans: Plan[]): string {
             ...plan.deprecated.map(key => `  - Помечен устаревшим: \`${key}\``),
         ]), '',
         'Отсутствующие токены сохраняются с `deprecated: true`. Автоматическое слияние не выполняется.', '',
-        '[Алгоритм](https://github.com/core-ds/ui-primitives/blob/feat/update-colors/scripts/color-exporter/README.md) · '
-            + '[Формат Figma](https://github.com/core-ds/ui-primitives/blob/feat/update-colors/scripts/color-exporter/docs/FIGMA_FORMAT.md)',
+        '[Алгоритм](https://github.com/core-ds/ui-primitives/blob/master/scripts/color-exporter/README.md) · '
+            + '[Формат Figma](https://github.com/core-ds/ui-primitives/blob/master/scripts/color-exporter/docs/FIGMA_FORMAT.md)',
     ].join('\n');
 }
 
@@ -81,7 +81,7 @@ export default async function run({ github, context, repoRoot = process.env.GITH
             if (!conflicts.length) throw error;
             git('merge', '--abort');
             throw new Error(`Конфликт при обновлении ${TARGET_BRANCH}: ${conflicts.join(', ')}. `
-                + `Сохраните нужные правки, закройте PR и удалите только служебную ветку ${TARGET_BRANCH}, затем повторите запуск из ${base}. `
+                + `Сохраните нужные правки, закройте PR, если он открыт, и удалите только служебную ветку ${TARGET_BRANCH}, затем повторите запуск из ${base}. `
                 + 'Порядок восстановления: scripts/color-exporter/docs/GITHUB_ACTIONS.md#конфликт-слияния.', { cause: error });
         }
     }
