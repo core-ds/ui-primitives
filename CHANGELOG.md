@@ -1,3 +1,13 @@
+<a name="35.85.0"></a>
+# [35.85.0](https://github.com/core-ds/ui-primitives/compare/v35.84.0...v35.85.0) (2026-09-18)
+
+
+### Bug Fixes
+
+* ***): revert "feat(icons:** add 411 icons ([#1159](https://github.com/core-ds/ui-primitives/issues/1159))" ([#1177](https://github.com/core-ds/ui-primitives/issues/1177)) ([7fc1c4c](https://github.com/core-ds/ui-primitives/commit/7fc1c4c))
+
+
+
 <a name="35.84.0"></a>
 # [35.84.0](https://github.com/core-ds/ui-primitives/compare/v35.83.0...v35.84.0) (2026-09-18)
 
