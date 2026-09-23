@@ -1,3 +1,13 @@
+<a name="36.0.0"></a>
+# [36.0.0](https://github.com/core-ds/ui-primitives/compare/v35.86.0...v36.0.0) (2026-09-23)
+
+
+### Bug Fixes
+
+* **icons:** удалить дубли logo-corp_Interest-balance-sign-box в верхнем регистре ([#1180](https://github.com/core-ds/ui-primitives/issues/1180)) ([e81f108](https://github.com/core-ds/ui-primitives/commit/e81f108)), closes [#902](https://github.com/core-ds/ui-primitives/issues/902) [#1174](https://github.com/core-ds/ui-primitives/issues/1174)
+
+
+
 <a name="35.86.0"></a>
 # [35.86.0](https://github.com/core-ds/ui-primitives/compare/v35.85.0...v35.86.0) (2026-09-21)
 
