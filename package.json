@@ -1,59 +1,32 @@
 {
-    "name": "ui-primitives",
-    "version": "36.13.0",
-    "description": "UI primitives for sharing between platforms in Design System Team projects",
-    "keywords": [
-        "design",
-        "ui",
-        "icons",
-        "svg"
-    ],
+    "name": "@alfalab/ui-primitives-repository",
+    "version": "0.0.0",
+    "private": true,
     "repository": {
         "type": "git",
         "url": "git+https://github.com/core-ds/ui-primitives.git"
     },
     "license": "MIT",
-    "author": "Design System Team",
+    "workspaces": [
+        "packages/*",
+        "scripts/*"
+    ],
     "scripts": {
-        "build": "tsc",
-        "changelog": "conventional-changelog -p angular -i CHANGELOG.md -s",
-        "ci": "./utils/ci.sh",
-        "commitmsg": "commitlint -e",
-        "coverage": "nyc report --reporter=text-lcov | coveralls",
-        "github-release": "conventional-github-releaser -p angular",
-        "pub": "./utils/publish.sh",
-        "release-major": "npm version major -m 'chore(*): major version[skip ci]'",
-        "release-minor": "npm version minor -m 'chore(*): minor version[skip ci]'",
-        "release-patch": "npm version patch -m 'chore(*): patch version[skip ci]'",
-        "test": "NODE_ENV=test nyc --reporter=lcov --reporter=text mocha ./utils/**/*.spec.js",
-        "update-bb-mirror": "git push -f https://{userName}@git.moscow.alfaintra.net/scm/ef/ui-primitives.git",
-        "version": "git fetch --tags && npm run changelog && git add CHANGELOG.md",
-        "postversion": "npm run pub"
-    },
-    "nyc": {
-        "exclude": [
-            "**/*.spec.js"
-        ]
+        "bootstrap": "yarn workspaces foreach --all --parallel --topological-dev run bootstrap",
+        "build": "yarn workspaces foreach --all --parallel --topological-dev run build",
+        "format": "prettier --write --list-different \"./**/*.{ts,tsx,js,jsx,mjs,mts,cjs,cts,css,json,yml,md}\"",
+        "generate-icons": "yarn workspaces foreach --all --topological-dev --include '@alfalab/icons-*' run generate && yarn format",
+        "release": "yarn build && yarn changeset publish",
+        "version-packages": "yarn generate-icons && yarn changeset version"
     },
     "devDependencies": {
-        "@actions/core": "^1.11.1",
-        "@actions/github-script": "github:actions/github-script",
-        "@commitlint/cli": "5.2.0",
-        "@commitlint/config-conventional": "5.1.3",
-        "@figma/rest-api-spec": "^0.34.0",
-        "@types/fs-extra": "^11.0.4",
-        "@types/node": "^24.9.2",
-        "change-case": "^5.4.4",
-        "conventional-changelog-cli": "1.3.5",
-        "conventional-github-releaser": "2.0.0",
-        "coveralls": "3.0.0",
-        "fs-extra": "^11.3.2",
-        "git-diff-tags": "1.0.0",
-        "mocha": "5.0.0",
-        "nyc": "11.4.1",
-        "posthtml": "0.11.2",
-        "svgo": "1.0.3",
-        "typescript": "^5.9.3"
+        "@changesets/changelog-github": "^1.0.1",
+        "@changesets/cli": "^3.0.3",
+        "export-typography": "workspace:*",
+        "lint-staged": "^17.6.0",
+        "prettier": "^3.9.9",
+        "simple-git-hooks": "^2.14.0",
+        "sort-package-json": "4.0.0"
     },
-    "packageManager": "npm@11.6.2"
+    "packageManager": "yarn@4.18.0"
 }

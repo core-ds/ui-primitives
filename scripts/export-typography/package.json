@@ -1,0 +1,22 @@
+{
+    "name": "export-typography",
+    "version": "0.0.0",
+    "private": true,
+    "type": "module",
+    "bin": "./dist/bin-export-typography.mjs",
+    "scripts": {
+        "bootstrap": "tsc"
+    },
+    "dependencies": {
+        "@actions/core": "^1.11.1",
+        "change-case": "^5.4.4",
+        "fs-extra": "^11.3.2"
+    },
+    "devDependencies": {
+        "@actions/github-script": "github:actions/github-script",
+        "@figma/rest-api-spec": "^0.34.0",
+        "@types/fs-extra": "^11.0.4",
+        "@types/node": "^24.9.2",
+        "typescript": "^6.0.3"
+    }
+}

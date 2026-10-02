@@ -1,0 +1,29 @@
+{
+    "name": "ui-primitives",
+    "version": "36.13.0",
+    "description": "UI primitives for sharing between platforms in Design System Team projects",
+    "keywords": [
+        "design",
+        "ui",
+        "icons",
+        "svg"
+    ],
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/core-ds/ui-primitives.git",
+        "directory": "packages/ui-primitives"
+    },
+    "license": "MIT",
+    "sideEffects": false,
+    "scripts": {
+        "build": "cpy \"../../{animations,icons,styles}\" dist && prepare-package-json-for-publish --out dist/package.json"
+    },
+    "devDependencies": {
+        "cpy-cli": "^7.0.0",
+        "prepare-package-json-for-publish": "workspace:*"
+    },
+    "publishConfig": {
+        "access": "public",
+        "directory": "dist"
+    }
+}

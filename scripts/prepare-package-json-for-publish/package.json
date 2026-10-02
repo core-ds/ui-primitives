@@ -1,0 +1,19 @@
+{
+    "name": "prepare-package-json-for-publish",
+    "version": "0.0.0",
+    "private": true,
+    "type": "module",
+    "bin": "./dist/index.mjs",
+    "scripts": {
+        "bootstrap": "tsc"
+    },
+    "dependencies": {
+        "fs-extra": "^11.4.1",
+        "yargs": "^18.2.0"
+    },
+    "devDependencies": {
+        "@types/fs-extra": "^11.0.4",
+        "@types/node": "^24.9.2",
+        "typescript": "^6.0.3"
+    }
+}
