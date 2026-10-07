@@ -14,15 +14,15 @@
 		"alias": "superappComponentBgColorSecondaryPress"
 	},
 	"dark_superapp_surface_bg_primary": {
-		"rgba": "rgba(28, 28, 30, 1)",
-		"hex": "#1c1c1e",
+		"rgba": "rgba(21, 21, 23, 1)",
+		"hex": "#151517",
 		"figma": "superapp-surface/bg-primary",
 		"web": "--color-dark-superapp-surface-bg-primary",
 		"alias": "superappSurfaceBgColorPrimary"
 	},
 	"dark_superapp_surface_bg_secondary": {
-		"rgba": "rgba(40, 40, 43, 1)",
-		"hex": "#28282b",
+		"rgba": "rgba(33, 33, 36, 1)",
+		"hex": "#212124",
 		"figma": "superapp-surface/bg-secondary",
 		"web": "--color-dark-superapp-surface-bg-secondary",
 		"alias": "superappSurfaceBgColorSecondary"
