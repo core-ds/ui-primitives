@@ -1,3 +1,13 @@
+<a name="36.8.0"></a>
+# [36.8.0](https://github.com/core-ds/ui-primitives/compare/v36.7.0...v36.8.0) (2026-10-07)
+
+
+### Bug Fixes
+
+* **styles:** обновить тёмные фоны поверхностей SuperApp ([#1189](https://github.com/core-ds/ui-primitives/issues/1189)) ([911b6c5](https://github.com/core-ds/ui-primitives/commit/911b6c5))
+
+
+
 <a name="36.7.0"></a>
 # [36.7.0](https://github.com/core-ds/ui-primitives/compare/v36.6.0...v36.7.0) (2026-10-05)
 
