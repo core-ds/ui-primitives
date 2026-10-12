@@ -5,7 +5,7 @@
     "license": "MIT",
     "type": "module",
     "scripts": {
-        "build": "yarn clean && NODE_ENV=production webpack",
+        "build": "NODE_ENV=production webpack",
         "clean": "rimraf dist",
         "generate": "node export-icons-meta.mjs",
         "start": "NODE_ENV=development webpack-dev-server"
