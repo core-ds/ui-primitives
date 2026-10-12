@@ -1,15 +1,8 @@
-#!/usr/bin/env node
-
 import fs from 'node:fs/promises';
 import path from 'node:path';
-import { camelCase, pascalCase } from 'change-case';
+import camelCase from 'camelcase';
 import Svgo from 'svgo';
 import styleToObject from 'style-to-js';
-import yargs from 'yargs';
-import { hideBin } from 'yargs/helpers';
-import { pipeline } from 'node:stream/promises';
-import { globbyStream } from 'globby';
-import fsExtra from 'fs-extra/esm';
 
 export const iconTemplate = `
 /**
@@ -102,15 +95,15 @@ const transformSvg = (svg: string): string =>
         .replace(/<rect\/>/g, '')
         .replace(/style="(.+?)"/g, (_, m) => `style={${JSON.stringify(styleToObject(m))}}`);
 
-const generateComponentName = (file: string) => {
+export function generateComponentName(file: string) {
     const basename = path.parse(file).name;
     const dirname = path.basename(path.dirname(file));
     const iconParams = basename.split('_');
     const [name, size, color] = ['android', 'ios'].includes(dirname) ? iconParams : iconParams.slice(1);
-    const componentName = pascalCase([name, size, color, 'icon'].filter(Boolean).join('-'));
+    const componentName = camelCase([name, size, color, 'icon'].filter(Boolean).join('-'), { pascalCase: true });
 
     return { componentName, color };
-};
+}
 
 export async function createComponent(src: string, out: string): Promise<void> {
     const content = await fs.readFile(src, { encoding: 'utf8' });
@@ -135,34 +128,3 @@ export async function createComponent(src: string, out: string): Promise<void> {
 
     await fs.writeFile(dest, code, { encoding: 'utf8' });
 }
-
-await yargs(hideBin(process.argv))
-    .command(
-        '$0 [input]',
-        'Generate react component from svg',
-        (builder) =>
-            builder
-                .positional('input', {
-                    type: 'string',
-                    array: true,
-                    description: 'Path or pattern to the source of svg',
-                    default: [],
-                })
-                .option('out', {
-                    type: 'string',
-                    description: 'Output directory',
-                    demandOption: true,
-                }),
-        async (argv) => {
-            const out = path.resolve(process.cwd(), argv.out);
-
-            await fsExtra.ensureDir(out);
-
-            await pipeline(globbyStream(argv.input, { absolute: true }), async (files) => {
-                for await (const file of files) {
-                    await createComponent(file, out);
-                }
-            });
-        }
-    )
-    .parse();

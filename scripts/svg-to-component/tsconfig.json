@@ -5,6 +5,7 @@
         "types": ["node", "yargs"],
         "strict": true,
         "outDir": "${configDir}/dist",
-        "rootDir": "${configDir}/src"
+        "rootDir": "${configDir}/src",
+        "declaration": true
     }
 }

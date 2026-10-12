@@ -1,0 +1,26 @@
+{
+    "logo_alfa-bank-sing-square_m_color": {
+        "replacement": "logo_alfa-bank-sign-square_m_color",
+        "date": "04.25"
+    },
+    "logo_alfa-bank-sing-square_m_white": {
+        "replacement": "logo_alfa-bank-sign-square_m_white",
+        "date": "04.25"
+    },
+    "logo_telegram-sign-box_s": {
+        "replacement": "logo_telegram-sign-circle_s",
+        "date": "07.26"
+    },
+    "logo-corp_Interest-balance-sign-box-line_20": {
+        "replacement": "logo-corp_interest-balance-sign-box-line_20",
+        "date": "09.26"
+    },
+    "logo-corp_Interest-balance-sign-box-line_24": {
+        "replacement": "logo-corp_interest-balance-sign-box-line_24",
+        "date": "09.26"
+    },
+    "logo-corp_Interest-balance-sign-box-thinline_20": {
+        "replacement": "logo-corp_interest-balance-sign-box-thinline_20",
+        "date": "09.26"
+    }
+}

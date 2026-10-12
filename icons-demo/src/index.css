@@ -1,0 +1,26 @@
+* {
+    box-sizing: border-box;
+    -webkit-appearance: none;
+}
+
+html {
+    height: 100%;
+}
+
+body {
+    height: 100%;
+    margin: 0;
+    font-family: var(--font-family-system);
+    overflow: hidden;
+}
+
+#root {
+    height: 100%;
+}
+
+.fallback-spinner {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}

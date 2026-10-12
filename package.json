@@ -8,6 +8,7 @@
     },
     "license": "MIT",
     "workspaces": [
+        "icons-demo",
         "packages/*",
         "scripts/*"
     ],
@@ -15,18 +16,18 @@
         "bootstrap": "yarn workspaces foreach --all --parallel --topological-dev run bootstrap",
         "build": "yarn workspaces foreach --all --parallel --topological-dev run build",
         "format": "prettier --write --list-different \"./**/*.{ts,tsx,js,jsx,mjs,mts,cjs,cts,css,json,yml,md}\"",
-        "generate-icons": "yarn workspaces foreach --all --topological-dev --include '@alfalab/icons-*' run generate && yarn format",
+        "generate-data": "yarn workspaces foreach --all --topological-dev run generate && yarn format",
         "release": "yarn build && yarn changeset publish",
         "version-packages": "yarn generate-icons && yarn changeset version"
     },
     "devDependencies": {
         "@changesets/changelog-github": "^1.0.1",
         "@changesets/cli": "^3.0.3",
+        "export-icon-meta": "workspace:*",
         "export-typography": "workspace:*",
         "lint-staged": "^17.6.0",
         "prettier": "^3.9.9",
         "simple-git-hooks": "^2.14.0",
         "sort-package-json": "4.0.0"
-    },
-    "packageManager": "yarn@4.18.0"
+    }
 }

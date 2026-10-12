@@ -1,0 +1,24 @@
+{
+    "$schema": "https://json.schemastore.org/tsconfig",
+    "include": ["src"],
+    "compilerOptions": {
+        "target": "es2015",
+        "lib": ["dom", "dom.iterable", "esnext"],
+        "allowJs": true,
+        "skipLibCheck": true,
+        "esModuleInterop": true,
+        "allowSyntheticDefaultImports": true,
+        "strict": true,
+        "forceConsistentCasingInFileNames": true,
+        "module": "esnext",
+        "moduleResolution": "bundler",
+        "resolveJsonModule": true,
+        "jsx": "react",
+        "isolatedModules": true,
+        "types": ["node", "webpack-env"],
+        "paths": {
+            "@alfalab/icons-glyph": ["../packages/glyph/dist"],
+            "@alfalab/icons-glyph/*": ["../packages/glyph/dist/*"]
+        }
+    }
+}
