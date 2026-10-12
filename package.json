@@ -15,6 +15,7 @@
     "scripts": {
         "bootstrap": "yarn workspaces foreach --all --parallel --topological-dev run bootstrap",
         "build": "yarn workspaces foreach --all --parallel --topological-dev run build",
+        "clean": "yarn workspaces foreach --all --parallel --topological-dev run clean",
         "format": "prettier --write --list-different \"./**/*.{ts,tsx,js,jsx,mjs,mts,cjs,cts,css,json,yml,md}\"",
         "generate-data": "yarn workspaces foreach --all --topological-dev run generate && yarn format",
         "release": "yarn build && yarn changeset publish",

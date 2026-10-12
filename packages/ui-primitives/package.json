@@ -16,11 +16,13 @@
     "license": "MIT",
     "sideEffects": false,
     "scripts": {
-        "build": "cpy \"../../{animations,icons,styles}\" dist && prepare-package-json-for-publish --out dist/package.json"
+        "build": "cpy \"../../{animations,icons,styles}\" dist && prepare-package-json-for-publish --out dist/package.json",
+        "clean": "rimraf dist"
     },
     "devDependencies": {
         "cpy-cli": "^7.0.0",
-        "prepare-package-json-for-publish": "workspace:*"
+        "prepare-package-json-for-publish": "workspace:*",
+        "rimraf": "^6.1.3"
     },
     "publishConfig": {
         "access": "public",
