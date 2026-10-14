@@ -2664,6 +2664,12 @@ __metadata:
   languageName: unknown
   linkType: soft
 
+"@alfalab/icons-tsconfig@workspace:packages/tsconfig":
+  version: 0.0.0-use.local
+  resolution: "@alfalab/icons-tsconfig@workspace:packages/tsconfig"
+  languageName: unknown
+  linkType: soft
+
 "@alfalab/react-canvas-pattern-lock@npm:^2.0.7":
   version: 2.0.8
   resolution: "@alfalab/react-canvas-pattern-lock@npm:2.0.8"

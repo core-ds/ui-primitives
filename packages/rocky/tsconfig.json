@@ -1,14 +1,4 @@
 {
     "$schema": "https://json.schemastore.org/tsconfig",
-    "include": ["src"],
-    "compilerOptions": {
-        "moduleResolution": "bundler",
-        "strict": true,
-        "rootDir": "${configDir}/src",
-        "importHelpers": true,
-        "declaration": true,
-        "jsx": "react",
-        "allowSyntheticDefaultImports": true,
-        "esModuleInterop": true
-    }
+    "extends": "@alfalab/icons-tsconfig/tsconfig.json"
 }
