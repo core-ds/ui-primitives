@@ -1,0 +1,1632 @@
+{
+    "AScoresCircleMIcon": {
+        "description": "альфа баллы, кешбэк, сантики, cashback, a score",
+        "web": "AScoresCircleMIcon",
+        "webComponent": "import { AScoresCircleMIcon } from '@alfalab/icons-rocky/AScoresCircleMIcon';",
+        "android": "rocky_a_scores_circle_m",
+        "ios": "rocky_aScoresCircle_m",
+        "middle": "rocky_a-scores-circle_m",
+        "cdn": "rocky_a-scores-circle_m",
+        "url": "https://alfabank.servicecdn.ru/icons/rocky_a-scores-circle_m.svg"
+    },
+    "AirdropMIcon": {
+        "description": "эйрдроп, парашют",
+        "web": "AirdropMIcon",
+        "webComponent": "import { AirdropMIcon } from '@alfalab/icons-rocky/AirdropMIcon';",
+        "android": "rocky_airdrop_m",
+        "ios": "rocky_airdrop_m",
+        "middle": "rocky_airdrop_m",
+        "cdn": "rocky_airdrop_m",
+        "url": "https://alfabank.servicecdn.ru/icons/rocky_airdrop_m.svg"
+    },
+    "AirplaneCompactMIcon": {
+        "description": "самолёт",
+        "web": "AirplaneCompactMIcon",
+        "webComponent": "import { AirplaneCompactMIcon } from '@alfalab/icons-rocky/AirplaneCompactMIcon';",
+        "android": "rocky_airplane_compact_m",
+        "ios": "rocky_airplaneCompact_m",
+        "middle": "rocky_airplane-compact_m",
+        "cdn": "rocky_airplane-compact_m",
+        "url": "https://alfabank.servicecdn.ru/icons/rocky_airplane-compact_m.svg"
+    },
+    "AirplaneMIcon": {
+        "description": "самолёт",
+        "web": "AirplaneMIcon",
+        "webComponent": "import { AirplaneMIcon } from '@alfalab/icons-rocky/AirplaneMIcon';",
+        "android": "rocky_airplane_m",
+        "ios": "rocky_airplane_m",
+        "middle": "rocky_airplane_m",
+        "cdn": "rocky_airplane_m",
+        "url": "https://alfabank.servicecdn.ru/icons/rocky_airplane_m.svg"
+    },
+    "ArrowDownMIcon": {
+        "description": "большая стрелка, стрелка вниз, стрелочка вниз",
+        "web": "ArrowDownMIcon",
+        "webComponent": "import { ArrowDownMIcon } from '@alfalab/icons-rocky/ArrowDownMIcon';",
+        "android": "rocky_arrow_down_m",
+        "ios": "rocky_arrowDown_m",
+        "middle": "rocky_arrow-down_m",
+        "cdn": "rocky_arrow-down_m",
+        "url": "https://alfabank.servicecdn.ru/icons/rocky_arrow-down_m.svg"
+    },
+    "ArrowLeftMIcon": {
+        "description": "большая стрелка, стрелка влево, стрелочка влево",
+        "web": "ArrowLeftMIcon",
+        "webComponent": "import { ArrowLeftMIcon } from '@alfalab/icons-rocky/ArrowLeftMIcon';",
+        "android": "rocky_arrow_left_m",
+        "ios": "rocky_arrowLeft_m",
+        "middle": "rocky_arrow-left_m",
+        "cdn": "rocky_arrow-left_m",
+        "url": "https://alfabank.servicecdn.ru/icons/rocky_arrow-left_m.svg"
+    },
+    "ArrowUpMIcon": {
+        "description": "большая стрелка, стрелка вверх, стрелочка вверх",
+        "web": "ArrowUpMIcon",
+        "webComponent": "import { ArrowUpMIcon } from '@alfalab/icons-rocky/ArrowUpMIcon';",
+        "android": "rocky_arrow_up_m",
+        "ios": "rocky_arrowUp_m",
+        "middle": "rocky_arrow-up_m",
+        "cdn": "rocky_arrow-up_m",
+        "url": "https://alfabank.servicecdn.ru/icons/rocky_arrow-up_m.svg"
+    },
+    "ArrowsLeftRightMIcon": {
+        "description": "большие стрелки, горизонтальные, влево вправо",
+        "web": "ArrowsLeftRightMIcon",
+        "webComponent": "import { ArrowsLeftRightMIcon } from '@alfalab/icons-rocky/ArrowsLeftRightMIcon';",
+        "android": "rocky_arrows_left_right_m",
+        "ios": "rocky_arrowsLeftRight_m",
+        "middle": "rocky_arrows-left-right_m",
+        "cdn": "rocky_arrows-left-right_m",
+        "url": "https://alfabank.servicecdn.ru/icons/rocky_arrows-left-right_m.svg"
+    },
+    "ArrowsUpDownMIcon": {
+        "description": "большие стрелки, вертикальные, вверх вниз",
+        "web": "ArrowsUpDownMIcon",
+        "webComponent": "import { ArrowsUpDownMIcon } from '@alfalab/icons-rocky/ArrowsUpDownMIcon';",
+        "android": "rocky_arrows_up_down_m",
+        "ios": "rocky_arrowsUpDown_m",
+        "middle": "rocky_arrows-up-down_m",
+        "cdn": "rocky_arrows-up-down_m",
+        "url": "https://alfabank.servicecdn.ru/icons/rocky_arrows-up-down_m.svg"
+    },
+    "BankMIcon": {
+        "description": "банк",
+        "web": "BankMIcon",
+        "webComponent": "import { BankMIcon } from '@alfalab/icons-rocky/BankMIcon';",
+        "android": "rocky_bank_m",
+        "ios": "rocky_bank_m",
+        "middle": "rocky_bank_m",
+        "cdn": "rocky_bank_m",
+        "url": "https://alfabank.servicecdn.ru/icons/rocky_bank_m.svg"
+    },
+    "BanknoteArrowDownLineUpMIcon": {
+        "description": "наличка, банкнота, деньги, money, купюра",
+        "web": "BanknoteArrowDownLineUpMIcon",
+        "webComponent": "import { BanknoteArrowDownLineUpMIcon } from '@alfalab/icons-rocky/BanknoteArrowDownLineUpMIcon';",
+        "android": "rocky_banknote_arrow_down_line_up_m",
+        "ios": "rocky_banknoteArrowDownLineUp_m",
+        "middle": "rocky_banknote-arrow-down-line-up_m",
+        "cdn": "rocky_banknote-arrow-down-line-up_m",
+        "url": "https://alfabank.servicecdn.ru/icons/rocky_banknote-arrow-down-line-up_m.svg"
+    },
+    "BanknoteArrowUpLineUpMIcon": {
+        "description": "наличка, банкнота, деньги, money, купюра",
+        "web": "BanknoteArrowUpLineUpMIcon",
+        "webComponent": "import { BanknoteArrowUpLineUpMIcon } from '@alfalab/icons-rocky/BanknoteArrowUpLineUpMIcon';",
+        "android": "rocky_banknote_arrow_up_line_up_m",
+        "ios": "rocky_banknoteArrowUpLineUp_m",
+        "middle": "rocky_banknote-arrow-up-line-up_m",
+        "cdn": "rocky_banknote-arrow-up-line-up_m",
+        "url": "https://alfabank.servicecdn.ru/icons/rocky_banknote-arrow-up-line-up_m.svg"
+    },
+    "BanknoteInMIcon": {
+        "description": "",
+        "web": "BanknoteInMIcon",
+        "webComponent": "import { BanknoteInMIcon } from '@alfalab/icons-rocky/BanknoteInMIcon';",
+        "android": "rocky_banknote_in_m",
+        "ios": "rocky_banknoteIn_m",
+        "middle": "rocky_banknote-in_m",
+        "cdn": "rocky_banknote-in_m",
+        "url": "https://alfabank.servicecdn.ru/icons/rocky_banknote-in_m.svg"
+    },
+    "BanknoteOutMIcon": {
+        "description": "",
+        "web": "BanknoteOutMIcon",
+        "webComponent": "import { BanknoteOutMIcon } from '@alfalab/icons-rocky/BanknoteOutMIcon';",
+        "android": "rocky_banknote_out_m",
+        "ios": "rocky_banknoteOut_m",
+        "middle": "rocky_banknote-out_m",
+        "cdn": "rocky_banknote-out_m",
+        "url": "https://alfabank.servicecdn.ru/icons/rocky_banknote-out_m.svg"
+    },
+    "BanknoteMIcon": {
+        "description": "наличка, банкнота, деньги, money, купюра",
+        "web": "BanknoteMIcon",
+        "webComponent": "import { BanknoteMIcon } from '@alfalab/icons-rocky/BanknoteMIcon';",
+        "android": "rocky_banknote_m",
+        "ios": "rocky_banknote_m",
+        "middle": "rocky_banknote_m",
+        "cdn": "rocky_banknote_m",
+        "url": "https://alfabank.servicecdn.ru/icons/rocky_banknote_m.svg"
+    },
+    "BanknotesCompactMIcon": {
+        "description": "деньги, купюры, банкноты, наличка, money",
+        "web": "BanknotesCompactMIcon",
+        "webComponent": "import { BanknotesCompactMIcon } from '@alfalab/icons-rocky/BanknotesCompactMIcon';",
+        "android": "rocky_banknotes_compact_m",
+        "ios": "rocky_banknotesCompact_m",
+        "middle": "rocky_banknotes-compact_m",
+        "cdn": "rocky_banknotes-compact_m",
+        "url": "https://alfabank.servicecdn.ru/icons/rocky_banknotes-compact_m.svg"
+    },
+    "BanknotesMIcon": {
+        "description": "деньги, купюры, банкноты, наличка, money",
+        "web": "BanknotesMIcon",
+        "webComponent": "import { BanknotesMIcon } from '@alfalab/icons-rocky/BanknotesMIcon';",
+        "android": "rocky_banknotes_m",
+        "ios": "rocky_banknotes_m",
+        "middle": "rocky_banknotes_m",
+        "cdn": "rocky_banknotes_m",
+        "url": "https://alfabank.servicecdn.ru/icons/rocky_banknotes_m.svg"
+    },
+    "BasketMIcon": {
+        "description": "корзина",
+        "web": "BasketMIcon",
+        "webComponent": "import { BasketMIcon } from '@alfalab/icons-rocky/BasketMIcon';",
+        "android": "rocky_basket_m",
+        "ios": "rocky_basket_m",
+        "middle": "rocky_basket_m",
+        "cdn": "rocky_basket_m",
+        "url": "https://alfabank.servicecdn.ru/icons/rocky_basket_m.svg"
+    },
+    "BellMIcon": {
+        "description": "уведомление, notification, колокольчик, звонок",
+        "web": "BellMIcon",
+        "webComponent": "import { BellMIcon } from '@alfalab/icons-rocky/BellMIcon';",
+        "android": "rocky_bell_m",
+        "ios": "rocky_bell_m",
+        "middle": "rocky_bell_m",
+        "cdn": "rocky_bell_m",
+        "url": "https://alfabank.servicecdn.ru/icons/rocky_bell_m.svg"
+    },
+    "BookOpenMIcon": {
+        "description": "открытая книга",
+        "web": "BookOpenMIcon",
+        "webComponent": "import { BookOpenMIcon } from '@alfalab/icons-rocky/BookOpenMIcon';",
+        "android": "rocky_book_open_m",
+        "ios": "rocky_bookOpen_m",
+        "middle": "rocky_book-open_m",
+        "cdn": "rocky_book-open_m",
+        "url": "https://alfabank.servicecdn.ru/icons/rocky_book-open_m.svg"
+    },
+    "BookmarkMIcon": {
+        "description": "закладка",
+        "web": "BookmarkMIcon",
+        "webComponent": "import { BookmarkMIcon } from '@alfalab/icons-rocky/BookmarkMIcon';",
+        "android": "rocky_bookmark_m",
+        "ios": "rocky_bookmark_m",
+        "middle": "rocky_bookmark_m",
+        "cdn": "rocky_bookmark_m",
+        "url": "https://alfabank.servicecdn.ru/icons/rocky_bookmark_m.svg"
+    },
+    "BriefcaseCompactMIcon": {
+        "description": "чемодан с ручкой, портфель, сумка, кейс, bag, portfolio",
+        "web": "BriefcaseCompactMIcon",
+        "webComponent": "import { BriefcaseCompactMIcon } from '@alfalab/icons-rocky/BriefcaseCompactMIcon';",
+        "android": "rocky_briefcase_compact_m",
+        "ios": "rocky_briefcaseCompact_m",
+        "middle": "rocky_briefcase-compact_m",
+        "cdn": "rocky_briefcase-compact_m",
+        "url": "https://alfabank.servicecdn.ru/icons/rocky_briefcase-compact_m.svg"
+    },
+    "BriefcaseMIcon": {
+        "description": "чемодан с ручкой, портфель, сумка, кейс, bag, portfolio",
+        "web": "BriefcaseMIcon",
+        "webComponent": "import { BriefcaseMIcon } from '@alfalab/icons-rocky/BriefcaseMIcon';",
+        "android": "rocky_briefcase_m",
+        "ios": "rocky_briefcase_m",
+        "middle": "rocky_briefcase_m",
+        "cdn": "rocky_briefcase_m",
+        "url": "https://alfabank.servicecdn.ru/icons/rocky_briefcase_m.svg"
+    },
+    "BrushMIcon": {
+        "description": "кисточка, оформление, тема оформления",
+        "web": "BrushMIcon",
+        "webComponent": "import { BrushMIcon } from '@alfalab/icons-rocky/BrushMIcon';",
+        "android": "rocky_brush_m",
+        "ios": "rocky_brush_m",
+        "middle": "rocky_brush_m",
+        "cdn": "rocky_brush_m",
+        "url": "https://alfabank.servicecdn.ru/icons/rocky_brush_m.svg"
+    },
+    "BubbleInfoMIcon": {
+        "description": "бабл, баббл, чат, информация",
+        "web": "BubbleInfoMIcon",
+        "webComponent": "import { BubbleInfoMIcon } from '@alfalab/icons-rocky/BubbleInfoMIcon';",
+        "android": "rocky_bubble_info_m",
+        "ios": "rocky_bubbleInfo_m",
+        "middle": "rocky_bubble-info_m",
+        "cdn": "rocky_bubble-info_m",
+        "url": "https://alfabank.servicecdn.ru/icons/rocky_bubble-info_m.svg"
+    },
+    "BurgerMIcon": {
+        "description": "бургер, еда",
+        "web": "BurgerMIcon",
+        "webComponent": "import { BurgerMIcon } from '@alfalab/icons-rocky/BurgerMIcon';",
+        "android": "rocky_burger_m",
+        "ios": "rocky_burger_m",
+        "middle": "rocky_burger_m",
+        "cdn": "rocky_burger_m",
+        "url": "https://alfabank.servicecdn.ru/icons/rocky_burger_m.svg"
+    },
+    "BusMIcon": {
+        "description": "автобус, остановка",
+        "web": "BusMIcon",
+        "webComponent": "import { BusMIcon } from '@alfalab/icons-rocky/BusMIcon';",
+        "android": "rocky_bus_m",
+        "ios": "rocky_bus_m",
+        "middle": "rocky_bus_m",
+        "cdn": "rocky_bus_m",
+        "url": "https://alfabank.servicecdn.ru/icons/rocky_bus_m.svg"
+    },
+    "CalculatorMIcon": {
+        "description": "калькулятор, скрыть клавиатуру, keyboard hide",
+        "web": "CalculatorMIcon",
+        "webComponent": "import { CalculatorMIcon } from '@alfalab/icons-rocky/CalculatorMIcon';",
+        "android": "rocky_calculator_m",
+        "ios": "rocky_calculator_m",
+        "middle": "rocky_calculator_m",
+        "cdn": "rocky_calculator_m",
+        "url": "https://alfabank.servicecdn.ru/icons/rocky_calculator_m.svg"
+    },
+    "CalendarMIcon": {
+        "description": "календарь, выбор даты",
+        "web": "CalendarMIcon",
+        "webComponent": "import { CalendarMIcon } from '@alfalab/icons-rocky/CalendarMIcon';",
+        "android": "rocky_calendar_m",
+        "ios": "rocky_calendar_m",
+        "middle": "rocky_calendar_m",
+        "cdn": "rocky_calendar_m",
+        "url": "https://alfabank.servicecdn.ru/icons/rocky_calendar_m.svg"
+    },
+    "CanisterMIcon": {
+        "description": "канистра",
+        "web": "CanisterMIcon",
+        "webComponent": "import { CanisterMIcon } from '@alfalab/icons-rocky/CanisterMIcon';",
+        "android": "rocky_canister_m",
+        "ios": "rocky_canister_m",
+        "middle": "rocky_canister_m",
+        "cdn": "rocky_canister_m",
+        "url": "https://alfabank.servicecdn.ru/icons/rocky_canister_m.svg"
+    },
+    "CapAcademicMIcon": {
+        "description": "академическая кепка, головной убор",
+        "web": "CapAcademicMIcon",
+        "webComponent": "import { CapAcademicMIcon } from '@alfalab/icons-rocky/CapAcademicMIcon';",
+        "android": "rocky_cap_academic_m",
+        "ios": "rocky_capAcademic_m",
+        "middle": "rocky_cap-academic_m",
+        "cdn": "rocky_cap-academic_m",
+        "url": "https://alfabank.servicecdn.ru/icons/rocky_cap-academic_m.svg"
+    },
+    "CapMIcon": {
+        "description": "кепка, головной убор",
+        "web": "CapMIcon",
+        "webComponent": "import { CapMIcon } from '@alfalab/icons-rocky/CapMIcon';",
+        "android": "rocky_cap_m",
+        "ios": "rocky_cap_m",
+        "middle": "rocky_cap_m",
+        "cdn": "rocky_cap_m",
+        "url": "https://alfabank.servicecdn.ru/icons/rocky_cap_m.svg"
+    },
+    "CarKeyMIcon": {
+        "description": "ключи от машины",
+        "web": "CarKeyMIcon",
+        "webComponent": "import { CarKeyMIcon } from '@alfalab/icons-rocky/CarKeyMIcon';",
+        "android": "rocky_car_key_m",
+        "ios": "rocky_carKey_m",
+        "middle": "rocky_car-key_m",
+        "cdn": "rocky_car-key_m",
+        "url": "https://alfabank.servicecdn.ru/icons/rocky_car-key_m.svg"
+    },
+    "CarMIcon": {
+        "description": "машина, автомобиль",
+        "web": "CarMIcon",
+        "webComponent": "import { CarMIcon } from '@alfalab/icons-rocky/CarMIcon';",
+        "android": "rocky_car_m",
+        "ios": "rocky_car_m",
+        "middle": "rocky_car_m",
+        "cdn": "rocky_car_m",
+        "url": "https://alfabank.servicecdn.ru/icons/rocky_car_m.svg"
+    },
+    "CardCompactMIcon": {
+        "description": "карта, карточка, продукт, credit card, кредитная карта, пластиковая карта, пластик",
+        "web": "CardCompactMIcon",
+        "webComponent": "import { CardCompactMIcon } from '@alfalab/icons-rocky/CardCompactMIcon';",
+        "android": "rocky_card_compact_m",
+        "ios": "rocky_cardCompact_m",
+        "middle": "rocky_card-compact_m",
+        "cdn": "rocky_card-compact_m",
+        "url": "https://alfabank.servicecdn.ru/icons/rocky_card-compact_m.svg"
+    },
+    "CardOffMIcon": {
+        "description": "карта",
+        "web": "CardOffMIcon",
+        "webComponent": "import { CardOffMIcon } from '@alfalab/icons-rocky/CardOffMIcon';",
+        "android": "rocky_card_off_m",
+        "ios": "rocky_cardOff_m",
+        "middle": "rocky_card-off_m",
+        "cdn": "rocky_card-off_m",
+        "url": "https://alfabank.servicecdn.ru/icons/rocky_card-off_m.svg"
+    },
+    "CardPlusMIcon": {
+        "description": "добавить карту, add card",
+        "web": "CardPlusMIcon",
+        "webComponent": "import { CardPlusMIcon } from '@alfalab/icons-rocky/CardPlusMIcon';",
+        "android": "rocky_card_plus_m",
+        "ios": "rocky_cardPlus_m",
+        "middle": "rocky_card-plus_m",
+        "cdn": "rocky_card-plus_m",
+        "url": "https://alfabank.servicecdn.ru/icons/rocky_card-plus_m.svg"
+    },
+    "CardMIcon": {
+        "description": "карта, карточка, продукт, credit card, кредитная карта, пластиковая карта, пластик",
+        "web": "CardMIcon",
+        "webComponent": "import { CardMIcon } from '@alfalab/icons-rocky/CardMIcon';",
+        "android": "rocky_card_m",
+        "ios": "rocky_card_m",
+        "middle": "rocky_card_m",
+        "cdn": "rocky_card_m",
+        "url": "https://alfabank.servicecdn.ru/icons/rocky_card_m.svg"
+    },
+    "CardsMIcon": {
+        "description": "карты, карточки",
+        "web": "CardsMIcon",
+        "webComponent": "import { CardsMIcon } from '@alfalab/icons-rocky/CardsMIcon';",
+        "android": "rocky_cards_m",
+        "ios": "rocky_cards_m",
+        "middle": "rocky_cards_m",
+        "cdn": "rocky_cards_m",
+        "url": "https://alfabank.servicecdn.ru/icons/rocky_cards_m.svg"
+    },
+    "CarouselMIcon": {
+        "description": "карусель",
+        "web": "CarouselMIcon",
+        "webComponent": "import { CarouselMIcon } from '@alfalab/icons-rocky/CarouselMIcon';",
+        "android": "rocky_carousel_m",
+        "ios": "rocky_carousel_m",
+        "middle": "rocky_carousel_m",
+        "cdn": "rocky_carousel_m",
+        "url": "https://alfabank.servicecdn.ru/icons/rocky_carousel_m.svg"
+    },
+    "ChamomileMIcon": {
+        "description": "flower, ромашка, цветы",
+        "web": "ChamomileMIcon",
+        "webComponent": "import { ChamomileMIcon } from '@alfalab/icons-rocky/ChamomileMIcon';",
+        "android": "rocky_chamomile_m",
+        "ios": "rocky_chamomile_m",
+        "middle": "rocky_chamomile_m",
+        "cdn": "rocky_chamomile_m",
+        "url": "https://alfabank.servicecdn.ru/icons/rocky_chamomile_m.svg"
+    },
+    "ChartAreaAscArrowMIcon": {
+        "description": "график, чарт, диаграмма, diagram, рост, доход, прибыль",
+        "web": "ChartAreaAscArrowMIcon",
+        "webComponent": "import { ChartAreaAscArrowMIcon } from '@alfalab/icons-rocky/ChartAreaAscArrowMIcon';",
+        "android": "rocky_chart_area_asc_arrow_m",
+        "ios": "rocky_chartAreaAscArrow_m",
+        "middle": "rocky_chart-area-asc-arrow_m",
+        "cdn": "rocky_chart-area-asc-arrow_m",
+        "url": "https://alfabank.servicecdn.ru/icons/rocky_chart-area-asc-arrow_m.svg"
+    },
+    "ChartAreaMIcon": {
+        "description": "график, чарт, диаграмма, diagram",
+        "web": "ChartAreaMIcon",
+        "webComponent": "import { ChartAreaMIcon } from '@alfalab/icons-rocky/ChartAreaMIcon';",
+        "android": "rocky_chart_area_m",
+        "ios": "rocky_chartArea_m",
+        "middle": "rocky_chart-area_m",
+        "cdn": "rocky_chart-area_m",
+        "url": "https://alfabank.servicecdn.ru/icons/rocky_chart-area_m.svg"
+    },
+    "ChartColumnThreeAscMIcon": {
+        "description": "график, чарт, диаграмма, diagram, рост",
+        "web": "ChartColumnThreeAscMIcon",
+        "webComponent": "import { ChartColumnThreeAscMIcon } from '@alfalab/icons-rocky/ChartColumnThreeAscMIcon';",
+        "android": "rocky_chart_column_three_asc_m",
+        "ios": "rocky_chartColumnThreeAsc_m",
+        "middle": "rocky_chart-column-three-asc_m",
+        "cdn": "rocky_chart-column-three-asc_m",
+        "url": "https://alfabank.servicecdn.ru/icons/rocky_chart-column-three-asc_m.svg"
+    },
+    "ChartColumnThreeMIcon": {
+        "description": "график, чарт, диаграмма, diagram",
+        "web": "ChartColumnThreeMIcon",
+        "webComponent": "import { ChartColumnThreeMIcon } from '@alfalab/icons-rocky/ChartColumnThreeMIcon';",
+        "android": "rocky_chart_column_three_m",
+        "ios": "rocky_chartColumnThree_m",
+        "middle": "rocky_chart-column-three_m",
+        "cdn": "rocky_chart-column-three_m",
+        "url": "https://alfabank.servicecdn.ru/icons/rocky_chart-column-three_m.svg"
+    },
+    "ChartColumnTwoAscMIcon": {
+        "description": "график, чарт, диаграмма, diagram, рост",
+        "web": "ChartColumnTwoAscMIcon",
+        "webComponent": "import { ChartColumnTwoAscMIcon } from '@alfalab/icons-rocky/ChartColumnTwoAscMIcon';",
+        "android": "rocky_chart_column_two_asc_m",
+        "ios": "rocky_chartColumnTwoAsc_m",
+        "middle": "rocky_chart-column-two-asc_m",
+        "cdn": "rocky_chart-column-two-asc_m",
+        "url": "https://alfabank.servicecdn.ru/icons/rocky_chart-column-two-asc_m.svg"
+    },
+    "ChartPieCompactMIcon": {
+        "description": "график, чарт, круговая диаграмма, diagram",
+        "web": "ChartPieCompactMIcon",
+        "webComponent": "import { ChartPieCompactMIcon } from '@alfalab/icons-rocky/ChartPieCompactMIcon';",
+        "android": "rocky_chart_pie_compact_m",
+        "ios": "rocky_chartPieCompact_m",
+        "middle": "rocky_chart-pie-compact_m",
+        "cdn": "rocky_chart-pie-compact_m",
+        "url": "https://alfabank.servicecdn.ru/icons/rocky_chart-pie-compact_m.svg"
+    },
+    "ChartPieMIcon": {
+        "description": "график, чарт, круговая диаграмма, diagram",
+        "web": "ChartPieMIcon",
+        "webComponent": "import { ChartPieMIcon } from '@alfalab/icons-rocky/ChartPieMIcon';",
+        "android": "rocky_chart_pie_m",
+        "ios": "rocky_chartPie_m",
+        "middle": "rocky_chart-pie_m",
+        "cdn": "rocky_chart-pie_m",
+        "url": "https://alfabank.servicecdn.ru/icons/rocky_chart-pie_m.svg"
+    },
+    "ClockCoinMIcon": {
+        "description": "часы, время, time, рассрочка",
+        "web": "ClockCoinMIcon",
+        "webComponent": "import { ClockCoinMIcon } from '@alfalab/icons-rocky/ClockCoinMIcon';",
+        "android": "rocky_clock_coin_m",
+        "ios": "rocky_clockCoin_m",
+        "middle": "rocky_clock-coin_m",
+        "cdn": "rocky_clock-coin_m",
+        "url": "https://alfabank.servicecdn.ru/icons/rocky_clock-coin_m.svg"
+    },
+    "ClockMIcon": {
+        "description": "часы, время, time",
+        "web": "ClockMIcon",
+        "webComponent": "import { ClockMIcon } from '@alfalab/icons-rocky/ClockMIcon';",
+        "android": "rocky_clock_m",
+        "ios": "rocky_clock_m",
+        "middle": "rocky_clock_m",
+        "cdn": "rocky_clock_m",
+        "url": "https://alfabank.servicecdn.ru/icons/rocky_clock_m.svg"
+    },
+    "ClockSIcon": {
+        "description": "часы, время, time",
+        "web": "ClockSIcon",
+        "webComponent": "import { ClockSIcon } from '@alfalab/icons-rocky/ClockSIcon';",
+        "android": "rocky_clock_s",
+        "ios": "rocky_clock_s",
+        "middle": "rocky_clock_s",
+        "cdn": "rocky_clock_s",
+        "url": "https://alfabank.servicecdn.ru/icons/rocky_clock_s.svg"
+    },
+    "CnyMIcon": {
+        "description": "китайские йены, валюта",
+        "web": "CnyMIcon",
+        "webComponent": "import { CnyMIcon } from '@alfalab/icons-rocky/CnyMIcon';",
+        "android": "rocky_cny_m",
+        "ios": "rocky_cny_m",
+        "middle": "rocky_cny_m",
+        "cdn": "rocky_cny_m",
+        "url": "https://alfabank.servicecdn.ru/icons/rocky_cny_m.svg"
+    },
+    "CopyMIcon": {
+        "description": "копировать, скопировать",
+        "web": "CopyMIcon",
+        "webComponent": "import { CopyMIcon } from '@alfalab/icons-rocky/CopyMIcon';",
+        "android": "rocky_copy_m",
+        "ios": "rocky_copy_m",
+        "middle": "rocky_copy_m",
+        "cdn": "rocky_copy_m",
+        "url": "https://alfabank.servicecdn.ru/icons/rocky_copy_m.svg"
+    },
+    "CupSportMIcon": {
+        "description": "award, place, victory, first, кубок, награда, место, победа, первое",
+        "web": "CupSportMIcon",
+        "webComponent": "import { CupSportMIcon } from '@alfalab/icons-rocky/CupSportMIcon';",
+        "android": "rocky_cup_sport_m",
+        "ios": "rocky_cupSport_m",
+        "middle": "rocky_cup-sport_m",
+        "cdn": "rocky_cup-sport_m",
+        "url": "https://alfabank.servicecdn.ru/icons/rocky_cup-sport_m.svg"
+    },
+    "CupSportSIcon": {
+        "description": "award, place, victory, first, кубок, награда, место, победа, первое",
+        "web": "CupSportSIcon",
+        "webComponent": "import { CupSportSIcon } from '@alfalab/icons-rocky/CupSportSIcon';",
+        "android": "rocky_cup_sport_s",
+        "ios": "rocky_cupSport_s",
+        "middle": "rocky_cup-sport_s",
+        "cdn": "rocky_cup-sport_s",
+        "url": "https://alfabank.servicecdn.ru/icons/rocky_cup-sport_s.svg"
+    },
+    "CupSportXxlIcon": {
+        "description": "award, place, victory, first, кубок, награда, место, победа, первое",
+        "web": "CupSportXxlIcon",
+        "webComponent": "import { CupSportXxlIcon } from '@alfalab/icons-rocky/CupSportXxlIcon';",
+        "android": "rocky_cup_sport_xxl",
+        "ios": "rocky_cupSport_xxl",
+        "middle": "rocky_cup-sport_xxl",
+        "cdn": "rocky_cup-sport_xxl",
+        "url": "https://alfabank.servicecdn.ru/icons/rocky_cup-sport_xxl.svg"
+    },
+    "CupMIcon": {
+        "description": "чашка",
+        "web": "CupMIcon",
+        "webComponent": "import { CupMIcon } from '@alfalab/icons-rocky/CupMIcon';",
+        "android": "rocky_cup_m",
+        "ios": "rocky_cup_m",
+        "middle": "rocky_cup_m",
+        "cdn": "rocky_cup_m",
+        "url": "https://alfabank.servicecdn.ru/icons/rocky_cup_m.svg"
+    },
+    "DiamondMIcon": {
+        "description": "бриллиант, ювелирка",
+        "web": "DiamondMIcon",
+        "webComponent": "import { DiamondMIcon } from '@alfalab/icons-rocky/DiamondMIcon';",
+        "android": "rocky_diamond_m",
+        "ios": "rocky_diamond_m",
+        "middle": "rocky_diamond_m",
+        "cdn": "rocky_diamond_m",
+        "url": "https://alfabank.servicecdn.ru/icons/rocky_diamond_m.svg"
+    },
+    "DisplayMIcon": {
+        "description": "настольный компьютер, desktop",
+        "web": "DisplayMIcon",
+        "webComponent": "import { DisplayMIcon } from '@alfalab/icons-rocky/DisplayMIcon';",
+        "android": "rocky_display_m",
+        "ios": "rocky_display_m",
+        "middle": "rocky_display_m",
+        "cdn": "rocky_display_m",
+        "url": "https://alfabank.servicecdn.ru/icons/rocky_display_m.svg"
+    },
+    "DocumentExclamationMIcon": {
+        "description": "документ, файл, вложение, attachment, аттач, алерт, восклицательный знак, внимание, alert",
+        "web": "DocumentExclamationMIcon",
+        "webComponent": "import { DocumentExclamationMIcon } from '@alfalab/icons-rocky/DocumentExclamationMIcon';",
+        "android": "rocky_document_exclamation_m",
+        "ios": "rocky_documentExclamation_m",
+        "middle": "rocky_document-exclamation_m",
+        "cdn": "rocky_document-exclamation_m",
+        "url": "https://alfabank.servicecdn.ru/icons/rocky_document-exclamation_m.svg"
+    },
+    "DocumentInfoMIcon": {
+        "description": "документ, файл, вложение, attachment, информация, справка",
+        "web": "DocumentInfoMIcon",
+        "webComponent": "import { DocumentInfoMIcon } from '@alfalab/icons-rocky/DocumentInfoMIcon';",
+        "android": "rocky_document_info_m",
+        "ios": "rocky_documentInfo_m",
+        "middle": "rocky_document-info_m",
+        "cdn": "rocky_document-info_m",
+        "url": "https://alfabank.servicecdn.ru/icons/rocky_document-info_m.svg"
+    },
+    "DocumentLinesHorizontalMIcon": {
+        "description": "документ, файл, вложение, attachment, справка, бланк, blank, горизонтальный",
+        "web": "DocumentLinesHorizontalMIcon",
+        "webComponent": "import { DocumentLinesHorizontalMIcon } from '@alfalab/icons-rocky/DocumentLinesHorizontalMIcon';",
+        "android": "rocky_document_lines_horizontal_m",
+        "ios": "rocky_documentLinesHorizontal_m",
+        "middle": "rocky_document-lines-horizontal_m",
+        "cdn": "rocky_document-lines-horizontal_m",
+        "url": "https://alfabank.servicecdn.ru/icons/rocky_document-lines-horizontal_m.svg"
+    },
+    "DocumentStampMIcon": {
+        "description": "документ, файл, вложение, attachment, штамп, печать, документ со штампом, справка, document stamp",
+        "web": "DocumentStampMIcon",
+        "webComponent": "import { DocumentStampMIcon } from '@alfalab/icons-rocky/DocumentStampMIcon';",
+        "android": "rocky_document_stamp_m",
+        "ios": "rocky_documentStamp_m",
+        "middle": "rocky_document-stamp_m",
+        "cdn": "rocky_document-stamp_m",
+        "url": "https://alfabank.servicecdn.ru/icons/rocky_document-stamp_m.svg"
+    },
+    "DocumentMIcon": {
+        "description": "документ, файл, вложение, attachment, аттач",
+        "web": "DocumentMIcon",
+        "webComponent": "import { DocumentMIcon } from '@alfalab/icons-rocky/DocumentMIcon';",
+        "android": "rocky_document_m",
+        "ios": "rocky_document_m",
+        "middle": "rocky_document_m",
+        "cdn": "rocky_document_m",
+        "url": "https://alfabank.servicecdn.ru/icons/rocky_document_m.svg"
+    },
+    "DocumentsStampMIcon": {
+        "description": "документы, файлы, вложения, attachments, штампы, печати, документы со штампом, справки, document stamps",
+        "web": "DocumentsStampMIcon",
+        "webComponent": "import { DocumentsStampMIcon } from '@alfalab/icons-rocky/DocumentsStampMIcon';",
+        "android": "rocky_documents_stamp_m",
+        "ios": "rocky_documentsStamp_m",
+        "middle": "rocky_documents-stamp_m",
+        "cdn": "rocky_documents-stamp_m",
+        "url": "https://alfabank.servicecdn.ru/icons/rocky_documents-stamp_m.svg"
+    },
+    "DocumentsMIcon": {
+        "description": "документы",
+        "web": "DocumentsMIcon",
+        "webComponent": "import { DocumentsMIcon } from '@alfalab/icons-rocky/DocumentsMIcon';",
+        "android": "rocky_documents_m",
+        "ios": "rocky_documents_m",
+        "middle": "rocky_documents_m",
+        "cdn": "rocky_documents_m",
+        "url": "https://alfabank.servicecdn.ru/icons/rocky_documents_m.svg"
+    },
+    "DoorOpenMIcon": {
+        "description": "выйти, логаут, door, logout",
+        "web": "DoorOpenMIcon",
+        "webComponent": "import { DoorOpenMIcon } from '@alfalab/icons-rocky/DoorOpenMIcon';",
+        "android": "rocky_door_open_m",
+        "ios": "rocky_doorOpen_m",
+        "middle": "rocky_door-open_m",
+        "cdn": "rocky_door-open_m",
+        "url": "https://alfabank.servicecdn.ru/icons/rocky_door-open_m.svg"
+    },
+    "DotsHorizontalMIcon": {
+        "description": "ещё, многоточие, точки, additional, dots, meatball, more, больше, меню, dots",
+        "web": "DotsHorizontalMIcon",
+        "webComponent": "import { DotsHorizontalMIcon } from '@alfalab/icons-rocky/DotsHorizontalMIcon';",
+        "android": "rocky_dots_horizontal_m",
+        "ios": "rocky_dotsHorizontal_m",
+        "middle": "rocky_dots-horizontal_m",
+        "cdn": "rocky_dots-horizontal_m",
+        "url": "https://alfabank.servicecdn.ru/icons/rocky_dots-horizontal_m.svg"
+    },
+    "DropMIcon": {
+        "description": "капля",
+        "web": "DropMIcon",
+        "webComponent": "import { DropMIcon } from '@alfalab/icons-rocky/DropMIcon';",
+        "android": "rocky_drop_m",
+        "ios": "rocky_drop_m",
+        "middle": "rocky_drop_m",
+        "cdn": "rocky_drop_m",
+        "url": "https://alfabank.servicecdn.ru/icons/rocky_drop_m.svg"
+    },
+    "EagleMIcon": {
+        "description": "герб россии, орёл, eagle, russia",
+        "web": "EagleMIcon",
+        "webComponent": "import { EagleMIcon } from '@alfalab/icons-rocky/EagleMIcon';",
+        "android": "rocky_eagle_m",
+        "ios": "rocky_eagle_m",
+        "middle": "rocky_eagle_m",
+        "cdn": "rocky_eagle_m",
+        "url": "https://alfabank.servicecdn.ru/icons/rocky_eagle_m.svg"
+    },
+    "EurMIcon": {
+        "description": "евро, euro, валюта",
+        "web": "EurMIcon",
+        "webComponent": "import { EurMIcon } from '@alfalab/icons-rocky/EurMIcon';",
+        "android": "rocky_eur_m",
+        "ios": "rocky_eur_m",
+        "middle": "rocky_eur_m",
+        "cdn": "rocky_eur_m",
+        "url": "https://alfabank.servicecdn.ru/icons/rocky_eur_m.svg"
+    },
+    "ExclamationCircleMIcon": {
+        "description": "алерт, восклицательный знак, внимание, alert, attention",
+        "web": "ExclamationCircleMIcon",
+        "webComponent": "import { ExclamationCircleMIcon } from '@alfalab/icons-rocky/ExclamationCircleMIcon';",
+        "android": "rocky_exclamation_circle_m",
+        "ios": "rocky_exclamationCircle_m",
+        "middle": "rocky_exclamation-circle_m",
+        "cdn": "rocky_exclamation-circle_m",
+        "url": "https://alfabank.servicecdn.ru/icons/rocky_exclamation-circle_m.svg"
+    },
+    "EyeOffMIcon": {
+        "description": "глаз, скрыть, hide",
+        "web": "EyeOffMIcon",
+        "webComponent": "import { EyeOffMIcon } from '@alfalab/icons-rocky/EyeOffMIcon';",
+        "android": "rocky_eye_off_m",
+        "ios": "rocky_eyeOff_m",
+        "middle": "rocky_eye-off_m",
+        "cdn": "rocky_eye-off_m",
+        "url": "https://alfabank.servicecdn.ru/icons/rocky_eye-off_m.svg"
+    },
+    "EyeMIcon": {
+        "description": "глаз, показать, show",
+        "web": "EyeMIcon",
+        "webComponent": "import { EyeMIcon } from '@alfalab/icons-rocky/EyeMIcon';",
+        "android": "rocky_eye_m",
+        "ios": "rocky_eye_m",
+        "middle": "rocky_eye_m",
+        "cdn": "rocky_eye_m",
+        "url": "https://alfabank.servicecdn.ru/icons/rocky_eye_m.svg"
+    },
+    "FlagMIcon": {
+        "description": "флаг",
+        "web": "FlagMIcon",
+        "webComponent": "import { FlagMIcon } from '@alfalab/icons-rocky/FlagMIcon';",
+        "android": "rocky_flag_m",
+        "ios": "rocky_flag_m",
+        "middle": "rocky_flag_m",
+        "cdn": "rocky_flag_m",
+        "url": "https://alfabank.servicecdn.ru/icons/rocky_flag_m.svg"
+    },
+    "FlameMIcon": {
+        "description": "fier, fuel, gas, огонь",
+        "web": "FlameMIcon",
+        "webComponent": "import { FlameMIcon } from '@alfalab/icons-rocky/FlameMIcon';",
+        "android": "rocky_flame_m",
+        "ios": "rocky_flame_m",
+        "middle": "rocky_flame_m",
+        "cdn": "rocky_flame_m",
+        "url": "https://alfabank.servicecdn.ru/icons/rocky_flame_m.svg"
+    },
+    "FlameSIcon": {
+        "description": "fier, fuel, gas, огонь",
+        "web": "FlameSIcon",
+        "webComponent": "import { FlameSIcon } from '@alfalab/icons-rocky/FlameSIcon';",
+        "android": "rocky_flame_s",
+        "ios": "rocky_flame_s",
+        "middle": "rocky_flame_s",
+        "cdn": "rocky_flame_s",
+        "url": "https://alfabank.servicecdn.ru/icons/rocky_flame_s.svg"
+    },
+    "FlameXxlIcon": {
+        "description": "fier, fuel, gas, огонь",
+        "web": "FlameXxlIcon",
+        "webComponent": "import { FlameXxlIcon } from '@alfalab/icons-rocky/FlameXxlIcon';",
+        "android": "rocky_flame_xxl",
+        "ios": "rocky_flame_xxl",
+        "middle": "rocky_flame_xxl",
+        "cdn": "rocky_flame_xxl",
+        "url": "https://alfabank.servicecdn.ru/icons/rocky_flame_xxl.svg"
+    },
+    "FlashMIcon": {
+        "description": "молния, lightning",
+        "web": "FlashMIcon",
+        "webComponent": "import { FlashMIcon } from '@alfalab/icons-rocky/FlashMIcon';",
+        "android": "rocky_flash_m",
+        "ios": "rocky_flash_m",
+        "middle": "rocky_flash_m",
+        "cdn": "rocky_flash_m",
+        "url": "https://alfabank.servicecdn.ru/icons/rocky_flash_m.svg"
+    },
+    "FlashSIcon": {
+        "description": "молния, lightning",
+        "web": "FlashSIcon",
+        "webComponent": "import { FlashSIcon } from '@alfalab/icons-rocky/FlashSIcon';",
+        "android": "rocky_flash_s",
+        "ios": "rocky_flash_s",
+        "middle": "rocky_flash_s",
+        "cdn": "rocky_flash_s",
+        "url": "https://alfabank.servicecdn.ru/icons/rocky_flash_s.svg"
+    },
+    "GamepadMIcon": {
+        "description": "геймпад, игры, game",
+        "web": "GamepadMIcon",
+        "webComponent": "import { GamepadMIcon } from '@alfalab/icons-rocky/GamepadMIcon';",
+        "android": "rocky_gamepad_m",
+        "ios": "rocky_gamepad_m",
+        "middle": "rocky_gamepad_m",
+        "cdn": "rocky_gamepad_m",
+        "url": "https://alfabank.servicecdn.ru/icons/rocky_gamepad_m.svg"
+    },
+    "GlassMIcon": {
+        "description": "стекло, стакан",
+        "web": "GlassMIcon",
+        "webComponent": "import { GlassMIcon } from '@alfalab/icons-rocky/GlassMIcon';",
+        "android": "rocky_glass_m",
+        "ios": "rocky_glass_m",
+        "middle": "rocky_glass_m",
+        "cdn": "rocky_glass_m",
+        "url": "https://alfabank.servicecdn.ru/icons/rocky_glass_m.svg"
+    },
+    "GlassesMIcon": {
+        "description": "очки",
+        "web": "GlassesMIcon",
+        "webComponent": "import { GlassesMIcon } from '@alfalab/icons-rocky/GlassesMIcon';",
+        "android": "rocky_glasses_m",
+        "ios": "rocky_glasses_m",
+        "middle": "rocky_glasses_m",
+        "cdn": "rocky_glasses_m",
+        "url": "https://alfabank.servicecdn.ru/icons/rocky_glasses_m.svg"
+    },
+    "HandlebarMIcon": {
+        "description": "wheel, staring wheel, руль, авто, ву, водительское удостоверения, автомобиль, машина",
+        "web": "HandlebarMIcon",
+        "webComponent": "import { HandlebarMIcon } from '@alfalab/icons-rocky/HandlebarMIcon';",
+        "android": "rocky_handlebar_m",
+        "ios": "rocky_handlebar_m",
+        "middle": "rocky_handlebar_m",
+        "cdn": "rocky_handlebar_m",
+        "url": "https://alfabank.servicecdn.ru/icons/rocky_handlebar_m.svg"
+    },
+    "HeartMIcon": {
+        "description": "сердце, сердечко, любовь, love",
+        "web": "HeartMIcon",
+        "webComponent": "import { HeartMIcon } from '@alfalab/icons-rocky/HeartMIcon';",
+        "android": "rocky_heart_m",
+        "ios": "rocky_heart_m",
+        "middle": "rocky_heart_m",
+        "cdn": "rocky_heart_m",
+        "url": "https://alfabank.servicecdn.ru/icons/rocky_heart_m.svg"
+    },
+    "HorseMIcon": {
+        "description": "лошадь",
+        "web": "HorseMIcon",
+        "webComponent": "import { HorseMIcon } from '@alfalab/icons-rocky/HorseMIcon';",
+        "android": "rocky_horse_m",
+        "ios": "rocky_horse_m",
+        "middle": "rocky_horse_m",
+        "cdn": "rocky_horse_m",
+        "url": "https://alfabank.servicecdn.ru/icons/rocky_horse_m.svg"
+    },
+    "HouseBackMIcon": {
+        "description": "",
+        "web": "HouseBackMIcon",
+        "webComponent": "import { HouseBackMIcon } from '@alfalab/icons-rocky/HouseBackMIcon';",
+        "android": "rocky_house_back_m",
+        "ios": "rocky_houseBack_m",
+        "middle": "rocky_house-back_m",
+        "cdn": "rocky_house-back_m",
+        "url": "https://alfabank.servicecdn.ru/icons/rocky_house-back_m.svg"
+    },
+    "HouseCompactMIcon": {
+        "description": "обычный дом, usual house, жильё",
+        "web": "HouseCompactMIcon",
+        "webComponent": "import { HouseCompactMIcon } from '@alfalab/icons-rocky/HouseCompactMIcon';",
+        "android": "rocky_house_compact_m",
+        "ios": "rocky_houseCompact_m",
+        "middle": "rocky_house-compact_m",
+        "cdn": "rocky_house-compact_m",
+        "url": "https://alfabank.servicecdn.ru/icons/rocky_house-compact_m.svg"
+    },
+    "HouseMIcon": {
+        "description": "обычный дом, usual house, жильё",
+        "web": "HouseMIcon",
+        "webComponent": "import { HouseMIcon } from '@alfalab/icons-rocky/HouseMIcon';",
+        "android": "rocky_house_m",
+        "ios": "rocky_house_m",
+        "middle": "rocky_house_m",
+        "cdn": "rocky_house_m",
+        "url": "https://alfabank.servicecdn.ru/icons/rocky_house_m.svg"
+    },
+    "HousesMIcon": {
+        "description": "дома, квартиры",
+        "web": "HousesMIcon",
+        "webComponent": "import { HousesMIcon } from '@alfalab/icons-rocky/HousesMIcon';",
+        "android": "rocky_houses_m",
+        "ios": "rocky_houses_m",
+        "middle": "rocky_houses_m",
+        "cdn": "rocky_houses_m",
+        "url": "https://alfabank.servicecdn.ru/icons/rocky_houses_m.svg"
+    },
+    "IngotsMIcon": {
+        "description": "кешбэк, золото, танки, cashback, gold, tanks",
+        "web": "IngotsMIcon",
+        "webComponent": "import { IngotsMIcon } from '@alfalab/icons-rocky/IngotsMIcon';",
+        "android": "rocky_ingots_m",
+        "ios": "rocky_ingots_m",
+        "middle": "rocky_ingots_m",
+        "cdn": "rocky_ingots_m",
+        "url": "https://alfabank.servicecdn.ru/icons/rocky_ingots_m.svg"
+    },
+    "InternetMIcon": {
+        "description": "интернет, сигнал",
+        "web": "InternetMIcon",
+        "webComponent": "import { InternetMIcon } from '@alfalab/icons-rocky/InternetMIcon';",
+        "android": "rocky_internet_m",
+        "ios": "rocky_internet_m",
+        "middle": "rocky_internet_m",
+        "cdn": "rocky_internet_m",
+        "url": "https://alfabank.servicecdn.ru/icons/rocky_internet_m.svg"
+    },
+    "JudgeHammerMIcon": {
+        "description": "молоток, суд, арест, debt, trial",
+        "web": "JudgeHammerMIcon",
+        "webComponent": "import { JudgeHammerMIcon } from '@alfalab/icons-rocky/JudgeHammerMIcon';",
+        "android": "rocky_judge_hammer_m",
+        "ios": "rocky_judgeHammer_m",
+        "middle": "rocky_judge-hammer_m",
+        "cdn": "rocky_judge-hammer_m",
+        "url": "https://alfabank.servicecdn.ru/icons/rocky_judge-hammer_m.svg"
+    },
+    "KremlinMIcon": {
+        "description": "москва, высотка, кремль",
+        "web": "KremlinMIcon",
+        "webComponent": "import { KremlinMIcon } from '@alfalab/icons-rocky/KremlinMIcon';",
+        "android": "rocky_kremlin_m",
+        "ios": "rocky_kremlin_m",
+        "middle": "rocky_kremlin_m",
+        "cdn": "rocky_kremlin_m",
+        "url": "https://alfabank.servicecdn.ru/icons/rocky_kremlin_m.svg"
+    },
+    "LampMIcon": {
+        "description": "лампа, лампочка, свет",
+        "web": "LampMIcon",
+        "webComponent": "import { LampMIcon } from '@alfalab/icons-rocky/LampMIcon';",
+        "android": "rocky_lamp_m",
+        "ios": "rocky_lamp_m",
+        "middle": "rocky_lamp_m",
+        "cdn": "rocky_lamp_m",
+        "url": "https://alfabank.servicecdn.ru/icons/rocky_lamp_m.svg"
+    },
+    "LightningMIcon": {
+        "description": "",
+        "web": "LightningMIcon",
+        "webComponent": "import { LightningMIcon } from '@alfalab/icons-rocky/LightningMIcon';",
+        "android": "rocky_lightning_m",
+        "ios": "rocky_lightning_m",
+        "middle": "rocky_lightning_m",
+        "cdn": "rocky_lightning_m",
+        "url": "https://alfabank.servicecdn.ru/icons/rocky_lightning_m.svg"
+    },
+    "LightningSIcon": {
+        "description": "",
+        "web": "LightningSIcon",
+        "webComponent": "import { LightningSIcon } from '@alfalab/icons-rocky/LightningSIcon';",
+        "android": "rocky_lightning_s",
+        "ios": "rocky_lightning_s",
+        "middle": "rocky_lightning_s",
+        "cdn": "rocky_lightning_s",
+        "url": "https://alfabank.servicecdn.ru/icons/rocky_lightning_s.svg"
+    },
+    "LinesTwoHexagonMIcon": {
+        "description": "шестиугольник с двумя линиями, госуслуги",
+        "web": "LinesTwoHexagonMIcon",
+        "webComponent": "import { LinesTwoHexagonMIcon } from '@alfalab/icons-rocky/LinesTwoHexagonMIcon';",
+        "android": "rocky_lines_two_hexagon_m",
+        "ios": "rocky_linesTwoHexagon_m",
+        "middle": "rocky_lines-two-hexagon_m",
+        "cdn": "rocky_lines-two-hexagon_m",
+        "url": "https://alfabank.servicecdn.ru/icons/rocky_lines-two-hexagon_m.svg"
+    },
+    "LipstickMIcon": {
+        "description": "помада, макияж",
+        "web": "LipstickMIcon",
+        "webComponent": "import { LipstickMIcon } from '@alfalab/icons-rocky/LipstickMIcon';",
+        "android": "rocky_lipstick_m",
+        "ios": "rocky_lipstick_m",
+        "middle": "rocky_lipstick_m",
+        "cdn": "rocky_lipstick_m",
+        "url": "https://alfabank.servicecdn.ru/icons/rocky_lipstick_m.svg"
+    },
+    "LockClosedMIcon": {
+        "description": "закрытый замок, заблокировано, замок закрыт",
+        "web": "LockClosedMIcon",
+        "webComponent": "import { LockClosedMIcon } from '@alfalab/icons-rocky/LockClosedMIcon';",
+        "android": "rocky_lock_closed_m",
+        "ios": "rocky_lockClosed_m",
+        "middle": "rocky_lock-closed_m",
+        "cdn": "rocky_lock-closed_m",
+        "url": "https://alfabank.servicecdn.ru/icons/rocky_lock-closed_m.svg"
+    },
+    "LockClosedSIcon": {
+        "description": "закрытый замок, заблокировано, замок закрыт",
+        "web": "LockClosedSIcon",
+        "webComponent": "import { LockClosedSIcon } from '@alfalab/icons-rocky/LockClosedSIcon';",
+        "android": "rocky_lock_closed_s",
+        "ios": "rocky_lockClosed_s",
+        "middle": "rocky_lock-closed_s",
+        "cdn": "rocky_lock-closed_s",
+        "url": "https://alfabank.servicecdn.ru/icons/rocky_lock-closed_s.svg"
+    },
+    "LockClosedXxlIcon": {
+        "description": "закрытый замок, заблокировано, замок закрыт",
+        "web": "LockClosedXxlIcon",
+        "webComponent": "import { LockClosedXxlIcon } from '@alfalab/icons-rocky/LockClosedXxlIcon';",
+        "android": "rocky_lock_closed_xxl",
+        "ios": "rocky_lockClosed_xxl",
+        "middle": "rocky_lock-closed_xxl",
+        "cdn": "rocky_lock-closed_xxl",
+        "url": "https://alfabank.servicecdn.ru/icons/rocky_lock-closed_xxl.svg"
+    },
+    "LockOpenMIcon": {
+        "description": "открытый замок, замок открыт, разблокировано",
+        "web": "LockOpenMIcon",
+        "webComponent": "import { LockOpenMIcon } from '@alfalab/icons-rocky/LockOpenMIcon';",
+        "android": "rocky_lock_open_m",
+        "ios": "rocky_lockOpen_m",
+        "middle": "rocky_lock-open_m",
+        "cdn": "rocky_lock-open_m",
+        "url": "https://alfabank.servicecdn.ru/icons/rocky_lock-open_m.svg"
+    },
+    "LockOpenSIcon": {
+        "description": "открытый замок, замок открыт, разблокировано",
+        "web": "LockOpenSIcon",
+        "webComponent": "import { LockOpenSIcon } from '@alfalab/icons-rocky/LockOpenSIcon';",
+        "android": "rocky_lock_open_s",
+        "ios": "rocky_lockOpen_s",
+        "middle": "rocky_lock-open_s",
+        "cdn": "rocky_lock-open_s",
+        "url": "https://alfabank.servicecdn.ru/icons/rocky_lock-open_s.svg"
+    },
+    "LockOpenXxlIcon": {
+        "description": "открытый замок, замок открыт, разблокировано",
+        "web": "LockOpenXxlIcon",
+        "webComponent": "import { LockOpenXxlIcon } from '@alfalab/icons-rocky/LockOpenXxlIcon';",
+        "android": "rocky_lock_open_xxl",
+        "ios": "rocky_lockOpen_xxl",
+        "middle": "rocky_lock-open_xxl",
+        "cdn": "rocky_lock-open_xxl",
+        "url": "https://alfabank.servicecdn.ru/icons/rocky_lock-open_xxl.svg"
+    },
+    "MailMIcon": {
+        "description": "почта, конверт",
+        "web": "MailMIcon",
+        "webComponent": "import { MailMIcon } from '@alfalab/icons-rocky/MailMIcon';",
+        "android": "rocky_mail_m",
+        "ios": "rocky_mail_m",
+        "middle": "rocky_mail_m",
+        "cdn": "rocky_mail_m",
+        "url": "https://alfabank.servicecdn.ru/icons/rocky_mail_m.svg"
+    },
+    "MicrochipMIcon": {
+        "description": "микрочип, чип",
+        "web": "MicrochipMIcon",
+        "webComponent": "import { MicrochipMIcon } from '@alfalab/icons-rocky/MicrochipMIcon';",
+        "android": "rocky_microchip_m",
+        "ios": "rocky_microchip_m",
+        "middle": "rocky_microchip_m",
+        "cdn": "rocky_microchip_m",
+        "url": "https://alfabank.servicecdn.ru/icons/rocky_microchip_m.svg"
+    },
+    "MinusMIcon": {
+        "description": "удалить, убрать",
+        "web": "MinusMIcon",
+        "webComponent": "import { MinusMIcon } from '@alfalab/icons-rocky/MinusMIcon';",
+        "android": "rocky_minus_m",
+        "ios": "rocky_minus_m",
+        "middle": "rocky_minus_m",
+        "cdn": "rocky_minus_m",
+        "url": "https://alfabank.servicecdn.ru/icons/rocky_minus_m.svg"
+    },
+    "MobilePhoneMIcon": {
+        "description": "мобильный телефон, смартфон",
+        "web": "MobilePhoneMIcon",
+        "webComponent": "import { MobilePhoneMIcon } from '@alfalab/icons-rocky/MobilePhoneMIcon';",
+        "android": "rocky_mobile_phone_m",
+        "ios": "rocky_mobilePhone_m",
+        "middle": "rocky_mobile-phone_m",
+        "cdn": "rocky_mobile-phone_m",
+        "url": "https://alfabank.servicecdn.ru/icons/rocky_mobile-phone_m.svg"
+    },
+    "MoleculeMIcon": {
+        "description": "молекула",
+        "web": "MoleculeMIcon",
+        "webComponent": "import { MoleculeMIcon } from '@alfalab/icons-rocky/MoleculeMIcon';",
+        "android": "rocky_molecule_m",
+        "ios": "rocky_molecule_m",
+        "middle": "rocky_molecule_m",
+        "cdn": "rocky_molecule_m",
+        "url": "https://alfabank.servicecdn.ru/icons/rocky_molecule_m.svg"
+    },
+    "MusicMIcon": {
+        "description": "музыка",
+        "web": "MusicMIcon",
+        "webComponent": "import { MusicMIcon } from '@alfalab/icons-rocky/MusicMIcon';",
+        "android": "rocky_music_m",
+        "ios": "rocky_music_m",
+        "middle": "rocky_music_m",
+        "cdn": "rocky_music_m",
+        "url": "https://alfabank.servicecdn.ru/icons/rocky_music_m.svg"
+    },
+    "NfcMIcon": {
+        "description": "нфс",
+        "web": "NfcMIcon",
+        "webComponent": "import { NfcMIcon } from '@alfalab/icons-rocky/NfcMIcon';",
+        "android": "rocky_nfc_m",
+        "ios": "rocky_nfc_m",
+        "middle": "rocky_nfc_m",
+        "cdn": "rocky_nfc_m",
+        "url": "https://alfabank.servicecdn.ru/icons/rocky_nfc_m.svg"
+    },
+    "PalmMIcon": {
+        "description": "пальма",
+        "web": "PalmMIcon",
+        "webComponent": "import { PalmMIcon } from '@alfalab/icons-rocky/PalmMIcon';",
+        "android": "rocky_palm_m",
+        "ios": "rocky_palm_m",
+        "middle": "rocky_palm_m",
+        "cdn": "rocky_palm_m",
+        "url": "https://alfabank.servicecdn.ru/icons/rocky_palm_m.svg"
+    },
+    "PawMIcon": {
+        "description": "лапа, лапка",
+        "web": "PawMIcon",
+        "webComponent": "import { PawMIcon } from '@alfalab/icons-rocky/PawMIcon';",
+        "android": "rocky_paw_m",
+        "ios": "rocky_paw_m",
+        "middle": "rocky_paw_m",
+        "cdn": "rocky_paw_m",
+        "url": "https://alfabank.servicecdn.ru/icons/rocky_paw_m.svg"
+    },
+    "PencilMIcon": {
+        "description": "карандаш, редактировать, edit",
+        "web": "PencilMIcon",
+        "webComponent": "import { PencilMIcon } from '@alfalab/icons-rocky/PencilMIcon';",
+        "android": "rocky_pencil_m",
+        "ios": "rocky_pencil_m",
+        "middle": "rocky_pencil_m",
+        "cdn": "rocky_pencil_m",
+        "url": "https://alfabank.servicecdn.ru/icons/rocky_pencil_m.svg"
+    },
+    "PercentMIcon": {
+        "description": "процент",
+        "web": "PercentMIcon",
+        "webComponent": "import { PercentMIcon } from '@alfalab/icons-rocky/PercentMIcon';",
+        "android": "rocky_percent_m",
+        "ios": "rocky_percent_m",
+        "middle": "rocky_percent_m",
+        "cdn": "rocky_percent_m",
+        "url": "https://alfabank.servicecdn.ru/icons/rocky_percent_m.svg"
+    },
+    "PerekrestokMIcon": {
+        "description": "",
+        "web": "PerekrestokMIcon",
+        "webComponent": "import { PerekrestokMIcon } from '@alfalab/icons-rocky/PerekrestokMIcon';",
+        "android": "rocky_perekrestok_m",
+        "ios": "rocky_perekrestok_m",
+        "middle": "rocky_perekrestok_m",
+        "cdn": "rocky_perekrestok_m",
+        "url": "https://alfabank.servicecdn.ru/icons/rocky_perekrestok_m.svg"
+    },
+    "PhoneMIcon": {
+        "description": "телефонная трубка, позвонить, звонок",
+        "web": "PhoneMIcon",
+        "webComponent": "import { PhoneMIcon } from '@alfalab/icons-rocky/PhoneMIcon';",
+        "android": "rocky_phone_m",
+        "ios": "rocky_phone_m",
+        "middle": "rocky_phone_m",
+        "cdn": "rocky_phone_m",
+        "url": "https://alfabank.servicecdn.ru/icons/rocky_phone_m.svg"
+    },
+    "PlayMIcon": {
+        "description": "video, возобновить, играть, включить, продолжить",
+        "web": "PlayMIcon",
+        "webComponent": "import { PlayMIcon } from '@alfalab/icons-rocky/PlayMIcon';",
+        "android": "rocky_play_m",
+        "ios": "rocky_play_m",
+        "middle": "rocky_play_m",
+        "cdn": "rocky_play_m",
+        "url": "https://alfabank.servicecdn.ru/icons/rocky_play_m.svg"
+    },
+    "PlusMedicineMIcon": {
+        "description": "аптека, медицина",
+        "web": "PlusMedicineMIcon",
+        "webComponent": "import { PlusMedicineMIcon } from '@alfalab/icons-rocky/PlusMedicineMIcon';",
+        "android": "rocky_plus_medicine_m",
+        "ios": "rocky_plusMedicine_m",
+        "middle": "rocky_plus-medicine_m",
+        "cdn": "rocky_plus-medicine_m",
+        "url": "https://alfabank.servicecdn.ru/icons/rocky_plus-medicine_m.svg"
+    },
+    "PlusMIcon": {
+        "description": "добавить, плюс, add, прибавить, сложить, сложение",
+        "web": "PlusMIcon",
+        "webComponent": "import { PlusMIcon } from '@alfalab/icons-rocky/PlusMIcon';",
+        "android": "rocky_plus_m",
+        "ios": "rocky_plus_m",
+        "middle": "rocky_plus_m",
+        "cdn": "rocky_plus_m",
+        "url": "https://alfabank.servicecdn.ru/icons/rocky_plus_m.svg"
+    },
+    "PocketMIcon": {
+        "description": "карман, кармашек",
+        "web": "PocketMIcon",
+        "webComponent": "import { PocketMIcon } from '@alfalab/icons-rocky/PocketMIcon';",
+        "android": "rocky_pocket_m",
+        "ios": "rocky_pocket_m",
+        "middle": "rocky_pocket_m",
+        "cdn": "rocky_pocket_m",
+        "url": "https://alfabank.servicecdn.ru/icons/rocky_pocket_m.svg"
+    },
+    "PrivilegesMIcon": {
+        "description": "привелегии, преимущества",
+        "web": "PrivilegesMIcon",
+        "webComponent": "import { PrivilegesMIcon } from '@alfalab/icons-rocky/PrivilegesMIcon';",
+        "android": "rocky_privileges_m",
+        "ios": "rocky_privileges_m",
+        "middle": "rocky_privileges_m",
+        "cdn": "rocky_privileges_m",
+        "url": "https://alfabank.servicecdn.ru/icons/rocky_privileges_m.svg"
+    },
+    "PuzzleMIcon": {
+        "description": "пазл",
+        "web": "PuzzleMIcon",
+        "webComponent": "import { PuzzleMIcon } from '@alfalab/icons-rocky/PuzzleMIcon';",
+        "android": "rocky_puzzle_m",
+        "ios": "rocky_puzzle_m",
+        "middle": "rocky_puzzle_m",
+        "cdn": "rocky_puzzle_m",
+        "url": "https://alfabank.servicecdn.ru/icons/rocky_puzzle_m.svg"
+    },
+    "QrCodeMIcon": {
+        "description": "qr-код, куар код",
+        "web": "QrCodeMIcon",
+        "webComponent": "import { QrCodeMIcon } from '@alfalab/icons-rocky/QrCodeMIcon';",
+        "android": "rocky_qr_code_m",
+        "ios": "rocky_qrCode_m",
+        "middle": "rocky_qr-code_m",
+        "cdn": "rocky_qr-code_m",
+        "url": "https://alfabank.servicecdn.ru/icons/rocky_qr-code_m.svg"
+    },
+    "QuestionMIcon": {
+        "description": "вопрос",
+        "web": "QuestionMIcon",
+        "webComponent": "import { QuestionMIcon } from '@alfalab/icons-rocky/QuestionMIcon';",
+        "android": "rocky_question_m",
+        "ios": "rocky_question_m",
+        "middle": "rocky_question_m",
+        "cdn": "rocky_question_m",
+        "url": "https://alfabank.servicecdn.ru/icons/rocky_question_m.svg"
+    },
+    "ReceiptCheckmarkMIcon": {
+        "description": "чек с галкой, квитанция",
+        "web": "ReceiptCheckmarkMIcon",
+        "webComponent": "import { ReceiptCheckmarkMIcon } from '@alfalab/icons-rocky/ReceiptCheckmarkMIcon';",
+        "android": "rocky_receipt_checkmark_m",
+        "ios": "rocky_receiptCheckmark_m",
+        "middle": "rocky_receipt-checkmark_m",
+        "cdn": "rocky_receipt-checkmark_m",
+        "url": "https://alfabank.servicecdn.ru/icons/rocky_receipt-checkmark_m.svg"
+    },
+    "ReceiptMIcon": {
+        "description": "цифровой талон, чек, квитанция",
+        "web": "ReceiptMIcon",
+        "webComponent": "import { ReceiptMIcon } from '@alfalab/icons-rocky/ReceiptMIcon';",
+        "android": "rocky_receipt_m",
+        "ios": "rocky_receipt_m",
+        "middle": "rocky_receipt_m",
+        "cdn": "rocky_receipt_m",
+        "url": "https://alfabank.servicecdn.ru/icons/rocky_receipt_m.svg"
+    },
+    "RectanglesStackMIcon": {
+        "description": "прямоугольники, стэк, карточки, cards",
+        "web": "RectanglesStackMIcon",
+        "webComponent": "import { RectanglesStackMIcon } from '@alfalab/icons-rocky/RectanglesStackMIcon';",
+        "android": "rocky_rectangles_stack_m",
+        "ios": "rocky_rectanglesStack_m",
+        "middle": "rocky_rectangles-stack_m",
+        "cdn": "rocky_rectangles-stack_m",
+        "url": "https://alfabank.servicecdn.ru/icons/rocky_rectangles-stack_m.svg"
+    },
+    "RobotMIcon": {
+        "description": "робот, андроид, ассистент, альф, android, assist, alf",
+        "web": "RobotMIcon",
+        "webComponent": "import { RobotMIcon } from '@alfalab/icons-rocky/RobotMIcon';",
+        "android": "rocky_robot_m",
+        "ios": "rocky_robot_m",
+        "middle": "rocky_robot_m",
+        "cdn": "rocky_robot_m",
+        "url": "https://alfabank.servicecdn.ru/icons/rocky_robot_m.svg"
+    },
+    "RocketMIcon": {
+        "description": "ракета",
+        "web": "RocketMIcon",
+        "webComponent": "import { RocketMIcon } from '@alfalab/icons-rocky/RocketMIcon';",
+        "android": "rocky_rocket_m",
+        "ios": "rocky_rocket_m",
+        "middle": "rocky_rocket_m",
+        "cdn": "rocky_rocket_m",
+        "url": "https://alfabank.servicecdn.ru/icons/rocky_rocket_m.svg"
+    },
+    "RubMIcon": {
+        "description": "рубль, валюта",
+        "web": "RubMIcon",
+        "webComponent": "import { RubMIcon } from '@alfalab/icons-rocky/RubMIcon';",
+        "android": "rocky_rub_m",
+        "ios": "rocky_rub_m",
+        "middle": "rocky_rub_m",
+        "cdn": "rocky_rub_m",
+        "url": "https://alfabank.servicecdn.ru/icons/rocky_rub_m.svg"
+    },
+    "SafeBoxCompactMIcon": {
+        "description": "сейф, сберегательный счёт, safe, box, хранение, защита",
+        "web": "SafeBoxCompactMIcon",
+        "webComponent": "import { SafeBoxCompactMIcon } from '@alfalab/icons-rocky/SafeBoxCompactMIcon';",
+        "android": "rocky_safe_box_compact_m",
+        "ios": "rocky_safeBoxCompact_m",
+        "middle": "rocky_safe-box-compact_m",
+        "cdn": "rocky_safe-box-compact_m",
+        "url": "https://alfabank.servicecdn.ru/icons/rocky_safe-box-compact_m.svg"
+    },
+    "SafeBoxMIcon": {
+        "description": "сейф, сберегательный счёт, safe, box, хранение, защита",
+        "web": "SafeBoxMIcon",
+        "webComponent": "import { SafeBoxMIcon } from '@alfalab/icons-rocky/SafeBoxMIcon';",
+        "android": "rocky_safe_box_m",
+        "ios": "rocky_safeBox_m",
+        "middle": "rocky_safe-box_m",
+        "cdn": "rocky_safe-box_m",
+        "url": "https://alfabank.servicecdn.ru/icons/rocky_safe-box_m.svg"
+    },
+    "ScalesMIcon": {
+        "description": "весы, взвесить",
+        "web": "ScalesMIcon",
+        "webComponent": "import { ScalesMIcon } from '@alfalab/icons-rocky/ScalesMIcon';",
+        "android": "rocky_scales_m",
+        "ios": "rocky_scales_m",
+        "middle": "rocky_scales_m",
+        "cdn": "rocky_scales_m",
+        "url": "https://alfabank.servicecdn.ru/icons/rocky_scales_m.svg"
+    },
+    "ScanMIcon": {
+        "description": "сканировать, отсканировать, сканер, куар",
+        "web": "ScanMIcon",
+        "webComponent": "import { ScanMIcon } from '@alfalab/icons-rocky/ScanMIcon';",
+        "android": "rocky_scan_m",
+        "ios": "rocky_scan_m",
+        "middle": "rocky_scan_m",
+        "cdn": "rocky_scan_m",
+        "url": "https://alfabank.servicecdn.ru/icons/rocky_scan_m.svg"
+    },
+    "ShieldCompactMIcon": {
+        "description": "щит, страховка, защита",
+        "web": "ShieldCompactMIcon",
+        "webComponent": "import { ShieldCompactMIcon } from '@alfalab/icons-rocky/ShieldCompactMIcon';",
+        "android": "rocky_shield_compact_m",
+        "ios": "rocky_shieldCompact_m",
+        "middle": "rocky_shield-compact_m",
+        "cdn": "rocky_shield-compact_m",
+        "url": "https://alfabank.servicecdn.ru/icons/rocky_shield-compact_m.svg"
+    },
+    "ShieldMIcon": {
+        "description": "щит, страховка, защита",
+        "web": "ShieldMIcon",
+        "webComponent": "import { ShieldMIcon } from '@alfalab/icons-rocky/ShieldMIcon';",
+        "android": "rocky_shield_m",
+        "ios": "rocky_shield_m",
+        "middle": "rocky_shield_m",
+        "cdn": "rocky_shield_m",
+        "url": "https://alfabank.servicecdn.ru/icons/rocky_shield_m.svg"
+    },
+    "SocketPlugMIcon": {
+        "description": "розетка, вилка, зарядка",
+        "web": "SocketPlugMIcon",
+        "webComponent": "import { SocketPlugMIcon } from '@alfalab/icons-rocky/SocketPlugMIcon';",
+        "android": "rocky_socket_plug_m",
+        "ios": "rocky_socketPlug_m",
+        "middle": "rocky_socket-plug_m",
+        "cdn": "rocky_socket-plug_m",
+        "url": "https://alfabank.servicecdn.ru/icons/rocky_socket-plug_m.svg"
+    },
+    "StarMIcon": {
+        "description": "избранное, звезда, saved, favorite",
+        "web": "StarMIcon",
+        "webComponent": "import { StarMIcon } from '@alfalab/icons-rocky/StarMIcon';",
+        "android": "rocky_star_m",
+        "ios": "rocky_star_m",
+        "middle": "rocky_star_m",
+        "cdn": "rocky_star_m",
+        "url": "https://alfabank.servicecdn.ru/icons/rocky_star_m.svg"
+    },
+    "SuitcaseMIcon": {
+        "description": "чемодан, багаж, проход в бизнес-залы, priority pass",
+        "web": "SuitcaseMIcon",
+        "webComponent": "import { SuitcaseMIcon } from '@alfalab/icons-rocky/SuitcaseMIcon';",
+        "android": "rocky_suitcase_m",
+        "ios": "rocky_suitcase_m",
+        "middle": "rocky_suitcase_m",
+        "cdn": "rocky_suitcase_m",
+        "url": "https://alfabank.servicecdn.ru/icons/rocky_suitcase_m.svg"
+    },
+    "SumMIcon": {
+        "description": "сумма",
+        "web": "SumMIcon",
+        "webComponent": "import { SumMIcon } from '@alfalab/icons-rocky/SumMIcon';",
+        "android": "rocky_sum_m",
+        "ios": "rocky_sum_m",
+        "middle": "rocky_sum_m",
+        "cdn": "rocky_sum_m",
+        "url": "https://alfabank.servicecdn.ru/icons/rocky_sum_m.svg"
+    },
+    "SwiftMIcon": {
+        "description": "",
+        "web": "SwiftMIcon",
+        "webComponent": "import { SwiftMIcon } from '@alfalab/icons-rocky/SwiftMIcon';",
+        "android": "rocky_swift_m",
+        "ios": "rocky_swift_m",
+        "middle": "rocky_swift_m",
+        "cdn": "rocky_swift_m",
+        "url": "https://alfabank.servicecdn.ru/icons/rocky_swift_m.svg"
+    },
+    "SwitchMIcon": {
+        "description": "подписка, свитч",
+        "web": "SwitchMIcon",
+        "webComponent": "import { SwitchMIcon } from '@alfalab/icons-rocky/SwitchMIcon';",
+        "android": "rocky_switch_m",
+        "ios": "rocky_switch_m",
+        "middle": "rocky_switch_m",
+        "cdn": "rocky_switch_m",
+        "url": "https://alfabank.servicecdn.ru/icons/rocky_switch_m.svg"
+    },
+    "TShirtMIcon": {
+        "description": "футболка, майка",
+        "web": "TShirtMIcon",
+        "webComponent": "import { TShirtMIcon } from '@alfalab/icons-rocky/TShirtMIcon';",
+        "android": "rocky_t_shirt_m",
+        "ios": "rocky_tShirt_m",
+        "middle": "rocky_t-shirt_m",
+        "cdn": "rocky_t-shirt_m",
+        "url": "https://alfabank.servicecdn.ru/icons/rocky_t-shirt_m.svg"
+    },
+    "TaxiMIcon": {
+        "description": "такси",
+        "web": "TaxiMIcon",
+        "webComponent": "import { TaxiMIcon } from '@alfalab/icons-rocky/TaxiMIcon';",
+        "android": "rocky_taxi_m",
+        "ios": "rocky_taxi_m",
+        "middle": "rocky_taxi_m",
+        "cdn": "rocky_taxi_m",
+        "url": "https://alfabank.servicecdn.ru/icons/rocky_taxi_m.svg"
+    },
+    "TennisRacketMIcon": {
+        "description": "ракетка для тенниса",
+        "web": "TennisRacketMIcon",
+        "webComponent": "import { TennisRacketMIcon } from '@alfalab/icons-rocky/TennisRacketMIcon';",
+        "android": "rocky_tennis_racket_m",
+        "ios": "rocky_tennisRacket_m",
+        "middle": "rocky_tennis-racket_m",
+        "cdn": "rocky_tennis-racket_m",
+        "url": "https://alfabank.servicecdn.ru/icons/rocky_tennis-racket_m.svg"
+    },
+    "ThumbDownMIcon": {
+        "description": "палец вниз, дизлайк, dislike",
+        "web": "ThumbDownMIcon",
+        "webComponent": "import { ThumbDownMIcon } from '@alfalab/icons-rocky/ThumbDownMIcon';",
+        "android": "rocky_thumb_down_m",
+        "ios": "rocky_thumbDown_m",
+        "middle": "rocky_thumb-down_m",
+        "cdn": "rocky_thumb-down_m",
+        "url": "https://alfabank.servicecdn.ru/icons/rocky_thumb-down_m.svg"
+    },
+    "ThumbUpMIcon": {
+        "description": "палец вверх, лайк, like",
+        "web": "ThumbUpMIcon",
+        "webComponent": "import { ThumbUpMIcon } from '@alfalab/icons-rocky/ThumbUpMIcon';",
+        "android": "rocky_thumb_up_m",
+        "ios": "rocky_thumbUp_m",
+        "middle": "rocky_thumb-up_m",
+        "cdn": "rocky_thumb-up_m",
+        "url": "https://alfabank.servicecdn.ru/icons/rocky_thumb-up_m.svg"
+    },
+    "TicketMIcon": {
+        "description": "билет",
+        "web": "TicketMIcon",
+        "webComponent": "import { TicketMIcon } from '@alfalab/icons-rocky/TicketMIcon';",
+        "android": "rocky_ticket_m",
+        "ios": "rocky_ticket_m",
+        "middle": "rocky_ticket_m",
+        "cdn": "rocky_ticket_m",
+        "url": "https://alfabank.servicecdn.ru/icons/rocky_ticket_m.svg"
+    },
+    "TileMIcon": {
+        "description": "плитка",
+        "web": "TileMIcon",
+        "webComponent": "import { TileMIcon } from '@alfalab/icons-rocky/TileMIcon';",
+        "android": "rocky_tile_m",
+        "ios": "rocky_tile_m",
+        "middle": "rocky_tile_m",
+        "cdn": "rocky_tile_m",
+        "url": "https://alfabank.servicecdn.ru/icons/rocky_tile_m.svg"
+    },
+    "TrainMIcon": {
+        "description": "поезд, электричка",
+        "web": "TrainMIcon",
+        "webComponent": "import { TrainMIcon } from '@alfalab/icons-rocky/TrainMIcon';",
+        "android": "rocky_train_m",
+        "ios": "rocky_train_m",
+        "middle": "rocky_train_m",
+        "cdn": "rocky_train_m",
+        "url": "https://alfabank.servicecdn.ru/icons/rocky_train_m.svg"
+    },
+    "TrashCanMIcon": {
+        "description": "корзина, мусорка, урна, удалить",
+        "web": "TrashCanMIcon",
+        "webComponent": "import { TrashCanMIcon } from '@alfalab/icons-rocky/TrashCanMIcon';",
+        "android": "rocky_trash_can_m",
+        "ios": "rocky_trashCan_m",
+        "middle": "rocky_trash-can_m",
+        "cdn": "rocky_trash-can_m",
+        "url": "https://alfabank.servicecdn.ru/icons/rocky_trash-can_m.svg"
+    },
+    "TshirtMIcon": {
+        "description": "",
+        "web": "TshirtMIcon",
+        "webComponent": "import { TshirtMIcon } from '@alfalab/icons-rocky/TshirtMIcon';",
+        "android": "rocky_tshirt_m",
+        "ios": "rocky_tshirt_m",
+        "middle": "rocky_tshirt_m",
+        "cdn": "rocky_tshirt_m",
+        "url": "https://alfabank.servicecdn.ru/icons/rocky_tshirt_m.svg"
+    },
+    "TulipMIcon": {
+        "description": "flower, тюльпан, цветы",
+        "web": "TulipMIcon",
+        "webComponent": "import { TulipMIcon } from '@alfalab/icons-rocky/TulipMIcon';",
+        "android": "rocky_tulip_m",
+        "ios": "rocky_tulip_m",
+        "middle": "rocky_tulip_m",
+        "cdn": "rocky_tulip_m",
+        "url": "https://alfabank.servicecdn.ru/icons/rocky_tulip_m.svg"
+    },
+    "UsdMIcon": {
+        "description": "доллар, dollar, валюта",
+        "web": "UsdMIcon",
+        "webComponent": "import { UsdMIcon } from '@alfalab/icons-rocky/UsdMIcon';",
+        "android": "rocky_usd_m",
+        "ios": "rocky_usd_m",
+        "middle": "rocky_usd_m",
+        "cdn": "rocky_usd_m",
+        "url": "https://alfabank.servicecdn.ru/icons/rocky_usd_m.svg"
+    },
+    "UserTieMIcon": {
+        "description": "персональный менеджер, personal manager, vip",
+        "web": "UserTieMIcon",
+        "webComponent": "import { UserTieMIcon } from '@alfalab/icons-rocky/UserTieMIcon';",
+        "android": "rocky_user_tie_m",
+        "ios": "rocky_userTie_m",
+        "middle": "rocky_user-tie_m",
+        "cdn": "rocky_user-tie_m",
+        "url": "https://alfabank.servicecdn.ru/icons/rocky_user-tie_m.svg"
+    },
+    "UserMIcon": {
+        "description": "пользователь, аккаунт",
+        "web": "UserMIcon",
+        "webComponent": "import { UserMIcon } from '@alfalab/icons-rocky/UserMIcon';",
+        "android": "rocky_user_m",
+        "ios": "rocky_user_m",
+        "middle": "rocky_user_m",
+        "cdn": "rocky_user_m",
+        "url": "https://alfabank.servicecdn.ru/icons/rocky_user_m.svg"
+    },
+    "VialMIcon": {
+        "description": "флакон, bottle",
+        "web": "VialMIcon",
+        "webComponent": "import { VialMIcon } from '@alfalab/icons-rocky/VialMIcon';",
+        "android": "rocky_vial_m",
+        "ios": "rocky_vial_m",
+        "middle": "rocky_vial_m",
+        "cdn": "rocky_vial_m",
+        "url": "https://alfabank.servicecdn.ru/icons/rocky_vial_m.svg"
+    },
+    "WalletCompactMIcon": {
+        "description": "электронные деньги, кошелёк, e-money, бумажник, портмоне",
+        "web": "WalletCompactMIcon",
+        "webComponent": "import { WalletCompactMIcon } from '@alfalab/icons-rocky/WalletCompactMIcon';",
+        "android": "rocky_wallet_compact_m",
+        "ios": "rocky_walletCompact_m",
+        "middle": "rocky_wallet-compact_m",
+        "cdn": "rocky_wallet-compact_m",
+        "url": "https://alfabank.servicecdn.ru/icons/rocky_wallet-compact_m.svg"
+    },
+    "WalletMIcon": {
+        "description": "электронные деньги, кошелёк, e-money, бумажник, портмоне",
+        "web": "WalletMIcon",
+        "webComponent": "import { WalletMIcon } from '@alfalab/icons-rocky/WalletMIcon';",
+        "android": "rocky_wallet_m",
+        "ios": "rocky_wallet_m",
+        "middle": "rocky_wallet_m",
+        "cdn": "rocky_wallet_m",
+        "url": "https://alfabank.servicecdn.ru/icons/rocky_wallet_m.svg"
+    },
+    "WheatMIcon": {
+        "description": "пшеница",
+        "web": "WheatMIcon",
+        "webComponent": "import { WheatMIcon } from '@alfalab/icons-rocky/WheatMIcon';",
+        "android": "rocky_wheat_m",
+        "ios": "rocky_wheat_m",
+        "middle": "rocky_wheat_m",
+        "cdn": "rocky_wheat_m",
+        "url": "https://alfabank.servicecdn.ru/icons/rocky_wheat_m.svg"
+    },
+    "WorldMIcon": {
+        "description": "мир, земля, планета, earth, world, global",
+        "web": "WorldMIcon",
+        "webComponent": "import { WorldMIcon } from '@alfalab/icons-rocky/WorldMIcon';",
+        "android": "rocky_world_m",
+        "ios": "rocky_world_m",
+        "middle": "rocky_world_m",
+        "cdn": "rocky_world_m",
+        "url": "https://alfabank.servicecdn.ru/icons/rocky_world_m.svg"
+    }
+}
