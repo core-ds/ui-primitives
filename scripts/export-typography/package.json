@@ -6,7 +6,7 @@
     "bin": "./dist/bin-export-typography.mjs",
     "scripts": {
         "bootstrap": "tsc",
-        "clean": "rimraf dist"
+        "clean": "rimraf dist *.tsbuildinfo"
     },
     "dependencies": {
         "@actions/core": "^1.11.1",
@@ -19,6 +19,7 @@
         "@types/fs-extra": "^11.0.4",
         "@types/node": "^24.9.2",
         "rimraf": "^6.1.3",
+        "scripts-tsconfig": "workspace:*",
         "typescript": "^6.0.3"
     }
 }

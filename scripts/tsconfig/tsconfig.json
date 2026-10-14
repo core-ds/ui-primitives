@@ -1,0 +1,11 @@
+{
+    "$schema": "https://json.schemastore.org/tsconfig",
+    "include": ["${configDir}/src"],
+    "compilerOptions": {
+        "strict": true,
+        "outDir": "${configDir}/dist",
+        "rootDir": "${configDir}/src",
+        "declaration": true,
+        "incremental": true
+    }
+}

@@ -13,7 +13,7 @@
     "bin": "./dist/bin.mjs",
     "scripts": {
         "bootstrap": "tsc",
-        "clean": "rimraf dist"
+        "clean": "rimraf dist *.tsbuildinfo"
     },
     "dependencies": {
         "cosmiconfig": "^10.0.1",
@@ -23,6 +23,7 @@
     },
     "devDependencies": {
         "rimraf": "^6.1.3",
+        "scripts-tsconfig": "workspace:*",
         "typescript": "^6.0.3"
     }
 }
