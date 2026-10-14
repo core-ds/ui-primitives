@@ -18,6 +18,7 @@
         "clean": "yarn workspaces foreach --all --parallel --topological-dev run clean",
         "format": "prettier --write --list-different \"./**/*.{ts,tsx,js,jsx,mjs,mts,cjs,cts,css,json,yml,md}\"",
         "generate-data": "yarn workspaces foreach --all --topological-dev run generate && yarn format",
+        "lint": "lint-svg \"./icons/**/*.svg\"",
         "release": "yarn build && yarn changeset publish",
         "version-packages": "yarn generate-icons && yarn changeset version"
     },
@@ -27,6 +28,7 @@
         "export-icon-meta": "workspace:*",
         "export-typography": "workspace:*",
         "lint-staged": "^17.6.0",
+        "lint-svg": "workspace:*",
         "prettier": "^3.9.9",
         "simple-git-hooks": "^2.14.0",
         "sort-package-json": "4.0.0"
