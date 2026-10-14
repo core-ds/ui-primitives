@@ -1,3 +1,13 @@
+<a name="36.12.0"></a>
+# [36.12.0](https://github.com/core-ds/ui-primitives/compare/v36.11.0...v36.12.0) (2026-10-14)
+
+
+### Features
+
+* **icons:** add 1 icon ([#1193](https://github.com/core-ds/ui-primitives/issues/1193)) ([ae19397](https://github.com/core-ds/ui-primitives/commit/ae19397))
+
+
+
 <a name="36.11.0"></a>
 # [36.11.0](https://github.com/core-ds/ui-primitives/compare/v36.10.0...v36.11.0) (2026-10-13)
 
