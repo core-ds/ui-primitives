@@ -16,6 +16,11 @@
     "author": "Design System Team",
     "scripts": {
         "build": "tsc",
+        "typecheck": "tsc --noEmit",
+        "build:colors": "node scripts/color-exporter/build.mjs",
+        "test:colors": "npm run build:colors --silent && node --test dist/color-exporter/tests/core.test.mjs dist/color-exporter/tests/action.test.mjs",
+        "test:colors:coverage": "npm run build:colors --silent && node --test --experimental-test-coverage '--test-coverage-include=dist/color-exporter/src/**/*.mjs' dist/color-exporter/tests/core.test.mjs dist/color-exporter/tests/action.test.mjs",
+        "sync:colors": "npm run build:colors --silent && node dist/color-exporter/src/cli.mjs",
         "changelog": "conventional-changelog -p angular -i CHANGELOG.md -s",
         "ci": "./utils/ci.sh",
         "commitmsg": "commitlint -e",
