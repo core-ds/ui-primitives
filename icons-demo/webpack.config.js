@@ -2,20 +2,24 @@ import path from 'node:path';
 import HtmlWebpackPlugin from 'html-webpack-plugin';
 import webpack from 'webpack';
 import { fileURLToPath } from 'node:url';
+import TerserWebpackPlugin from 'terser-webpack-plugin';
 
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
+
+const isProduction = process.env.NODE_ENV === 'production';
+const isDevelopment = process.env.NODE_ENV === 'development';
 
 /**
  * @type {import('webpack').Configuration}
  */
 const config = {
+    entry: './src/index.tsx',
     experiments: {
         css: true,
     },
-    entry: './src/index.tsx',
     mode: process.env.NODE_ENV,
-    devtool: 'source-map',
+    devtool: isDevelopment ? 'source-map' : false,
     module: {
         parser: {
             'css/auto': {
@@ -61,10 +65,22 @@ const config = {
         extensions: ['.tsx', '.ts', '.js', '.jsx'],
     },
     output: {
-        filename: '[name].[fullhash].js',
+        filename: 'build/[name].[fullhash].js',
+        cssFilename: 'build/[name].[fullhash].css',
         path: path.resolve(__dirname, 'dist'),
     },
     optimization: {
+        minimize: isProduction,
+        minimizer: isProduction
+            ? [
+                  new TerserWebpackPlugin({
+                      extractComments: false,
+                      terserOptions: {
+                          format: { comments: false },
+                      },
+                  }),
+              ]
+            : [],
         splitChunks: {
             cacheGroups: {
                 icons: {

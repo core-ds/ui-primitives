@@ -62,12 +62,12 @@ jobs:
               run: |
                   yarn lint
 
-    deploy-demo:
+    icons-demo:
         if: ${{ github.repository == 'core-ds/ui-primitives' }}
         needs: build
         runs-on: ubuntu-latest
         concurrency:
-            group: deploy-demo
+            group: deploy-icons-demo
             cancel-in-progress: false
             queue: max
         steps:
@@ -96,6 +96,7 @@ jobs:
 
             - name: Filesystem
               run: |
+                  rm -rf ${{ case(github.event_name == 'pull_request', github.event.pull_request.number, 'index.html build' ) }}
                   cp -r ${{ runner.temp }}/dist/icons-demo/dist ${{ case(github.event_name == 'pull_request', github.event.pull_request.number, '.' ) }}
 
             - name: Commit and push
@@ -109,7 +110,7 @@ jobs:
         needs:
             - lint
             - build
-            - 'deploy-demo'
+            - 'icons-demo'
         env:
             RETURN_CODE: ${{ case(contains(needs.*.result, 'failure') || contains(needs.*.result, 'cancelled'), 1, 0) }}
         steps:
