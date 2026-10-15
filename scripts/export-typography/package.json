@@ -3,7 +3,13 @@
     "version": "0.0.0",
     "private": true,
     "type": "module",
-    "bin": "./dist/bin-export-typography.mjs",
+    "exports": {
+        "./package.json": "./package.json",
+        ".": {
+            "import": "./dist/index.mjs",
+            "types": "./dist/index.d.mts"
+        }
+    },
     "scripts": {
         "bootstrap": "tsc",
         "clean": "rimraf dist *.tsbuildinfo"

@@ -16,12 +16,17 @@ await yargs(hideBin(process.argv))
         '$0 [input..]',
         'Lint svg',
         (builder) =>
-            builder.positional('input', {
-                type: 'string',
-                array: true,
-                description: 'Path(s) or pattern(s) to SVG source(s)',
-                demandOption: true,
-            }),
+            builder
+                .positional('input', {
+                    type: 'string',
+                    array: true,
+                    description: 'Path(s) or pattern(s) to SVG source(s)',
+                    demandOption: true,
+                })
+                .option('exitCode', {
+                    type: 'number',
+                    description: 'Exit code if any error is found',
+                }),
         async (argv) => {
             const result = await cosmiconfig('lint-svg').search();
             const config = result?.config as Config | undefined;
@@ -39,7 +44,7 @@ await yargs(hideBin(process.argv))
 
                         if (/\s+id="/.test(content)) {
                             if (exitCode === null) {
-                                exitCode = 1;
+                                exitCode = argv.exitCode ?? 1;
                             }
 
                             yield `${slash(path.relative(process.cwd(), p))}${EOL}`;

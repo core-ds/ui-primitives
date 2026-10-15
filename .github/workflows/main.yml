@@ -1,0 +1,66 @@
+name: main
+
+on:
+    pull_request:
+    merge_group:
+        branches:
+            - master
+
+permissions:
+    contents: read
+
+concurrency:
+    group: ${{ github.workflow }}-${{ github.sha }}
+    cancel-in-progress: true
+
+jobs:
+    build:
+        runs-on: ubuntu-latest
+        steps:
+            - name: Checkout
+              uses: actions/checkout@v7
+
+            - name: Setup CI
+              uses: $/.github/actions/ci-setup
+
+            - name: Bootstrap
+              run: |
+                  yarn bootstrap
+
+            - name: Build
+              run: |
+                  yarn build
+
+    lint:
+        runs-on: ubuntu-latest
+        steps:
+            - name: Checkout
+              uses: actions/checkout@v7
+
+            - name: Setup CI
+              uses: $/.github/actions/ci-setup
+
+            - name: Bootstrap
+              run: |
+                  yarn bootstrap
+
+            - name: Format
+              run: |
+                  yarn format
+
+            - name: Lint
+              run: |
+                  yarn lint
+
+    ok:
+        runs-on: ubuntu-latest
+        if: always()
+        needs:
+            - lint
+            - build
+        env:
+            RETURN_CODE: ${{ case(contains(needs.*.result, 'failure') || contains(needs.*.result, 'cancelled'), 1, 0) }}
+        steps:
+            - name: Check for failure
+              run: |
+                  exit $RETURN_CODE

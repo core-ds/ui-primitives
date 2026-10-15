@@ -2,6 +2,7 @@ import { toPlatformPath } from '@actions/core';
 import fsExtra from 'fs-extra/esm';
 import { Platform, Handler, Deprecatable, Entry } from './types.mjs';
 import { sortEntries } from './utils.mjs';
+import path from 'node:path';
 
 export async function exportTypography() {
     for (const platform of [Platform.WEB, Platform.ANDROID, Platform.IOS]) {
@@ -11,7 +12,7 @@ export async function exportTypography() {
         const fileKeys: string[] = JSON.parse(process.env[`${platform}_TYPOGRAPHY_FILE_KEYS`]);
 
         for (const { file, entries } of await handler(fileKeys)) {
-            const platformPath = toPlatformPath(file);
+            const platformPath = path.resolve(process.cwd(), toPlatformPath(file));
             const sortedEntries = sortEntries(entries);
             const deprecated: Entry<Deprecatable>[] = [];
 

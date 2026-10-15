@@ -6,7 +6,7 @@
     "scripts": {
         "build": "build-icon-package && prepare-package-json-for-publish --out dist/package.json",
         "clean": "rimraf dist",
-        "generate": "svg-to-component '../../icons/logo-corp/*.svg' --out src"
+        "codegen": "svg-to-component '../../icons/logo-corp/*.svg' --out src"
     },
     "dependencies": {
         "tslib": "^2.8.1"

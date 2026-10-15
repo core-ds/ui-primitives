@@ -7,7 +7,7 @@
     "scripts": {
         "build": "NODE_ENV=production webpack",
         "clean": "rimraf dist",
-        "generate": "node export-icons-meta.mjs",
+        "codegen": "node export-icons-meta.mjs",
         "start": "NODE_ENV=development webpack-dev-server"
     },
     "dependencies": {

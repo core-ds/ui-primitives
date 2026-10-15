@@ -1,5 +1,3 @@
-#!/usr/bin/env node
-
 import { exportTypography } from './export-typography.mjs';
 import { AsyncFunctionArguments } from '@actions/github-script';
 

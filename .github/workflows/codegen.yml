@@ -1,0 +1,75 @@
+name: codegen
+
+on:
+    workflow_dispatch:
+        inputs:
+            pull-request:
+                description: Pull request number
+                type: number
+                required: true
+
+permissions: {} # each job should define its own permission explicitly
+
+jobs:
+    codegen:
+        runs-on: ubuntu-latest
+        if: ${{ github.repository == 'core-ds/ui-primitives' }}
+        steps:
+            - name: Create app token
+              uses: actions/create-github-app-token@v3
+              id: app-token
+              with:
+                  client-id: ${{ vars.APP_ID }}
+                  private-key: ${{ secrets.APP_PRIVATE_KEY }}
+                  permission-contents: write
+
+            - name: Fetch SHA
+              id: sha
+              uses: actions/github-script@v9
+              with:
+                  github-token: ${{ steps.app-token.outputs.token }}
+                  result-encoding: string
+                  script: |
+                      const { data } = await octokit.rest.pulls.get({
+                          owner: context.repo.owner,
+                          repo: context.repo.repo,
+                          pull_number: ${{ inputs.pull-request }},
+                      });
+
+                      return data.head.sha;
+
+            - name: Checkout
+              uses: actions/checkout@v7
+              with:
+                  ref: ${{ steps.sha.outputs.result }}
+                  token: ${{ steps.app-token.outputs.token }}
+
+            - name: Setup CI
+              uses: $/.github/actions/ci-setup
+
+            - name: Bootstrap
+              run: |
+                  yarn bootstrap
+
+            - name: Codegen
+              env:
+                  FIGMA_TOKEN: ${{ secrets.FIGMA_TOKEN }}
+              run: |
+                  yarn codegen
+
+            - name: Check if should update
+              id: should-update
+              uses: actions/github-script@v9
+              with:
+                  github-token: ${{ steps.app-token.outputs.token }}
+                  script: |
+                      const { stdout } = await exec.getExecOutput('git', ['status', '--porcelain']);
+
+                      return stdout.trim().length > 0;
+
+            - name: Commit and push
+              run: |
+                  git config user.name "github-actions[bot]"
+                  git add .
+                  git commit -m "Codegen"
+                  git push
