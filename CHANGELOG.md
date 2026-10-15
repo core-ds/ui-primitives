@@ -1,3 +1,13 @@
+<a name="36.13.0"></a>
+# [36.13.0](https://github.com/core-ds/ui-primitives/compare/v36.12.0...v36.13.0) (2026-10-15)
+
+
+### Bug Fixes
+
+* **styles:** update SuperApp dark component colors ([#1195](https://github.com/core-ds/ui-primitives/issues/1195)) ([b167bf0](https://github.com/core-ds/ui-primitives/commit/b167bf0))
+
+
+
 <a name="36.12.0"></a>
 # [36.12.0](https://github.com/core-ds/ui-primitives/compare/v36.11.0...v36.12.0) (2026-10-14)
 
