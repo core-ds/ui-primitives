@@ -13,7 +13,7 @@
     "bin": "./dist/bin.mjs",
     "scripts": {
         "bootstrap": "tsc",
-        "clean": "rimraf dist *.tsbuildinfo"
+        "clean": "rimraf dist tsconfig.tsbuildinfo"
     },
     "dependencies": {
         "camelcase": "^9.0.0",

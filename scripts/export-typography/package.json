@@ -12,7 +12,7 @@
     },
     "scripts": {
         "bootstrap": "tsc",
-        "clean": "rimraf dist *.tsbuildinfo"
+        "clean": "rimraf dist tsconfig.tsbuildinfo"
     },
     "dependencies": {
         "@actions/core": "^1.11.1",

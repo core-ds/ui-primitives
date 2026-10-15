@@ -6,7 +6,7 @@
     "bin": "./dist/index.mjs",
     "scripts": {
         "bootstrap": "tsc",
-        "clean": "rimraf dist *.tsbuildinfo"
+        "clean": "rimraf dist tsconfig.tsbuildinfo"
     },
     "dependencies": {
         "fs-extra": "^11.3.2",

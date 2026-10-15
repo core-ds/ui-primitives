@@ -6,7 +6,7 @@
     "bin": "./dist/index.mjs",
     "scripts": {
         "bootstrap": "tsc",
-        "clean": "rimraf dist *.tsbuildinfo"
+        "clean": "rimraf dist tsconfig.tsbuildinfo"
     },
     "dependencies": {
         "@rollup/plugin-terser": "^1.0.0",
