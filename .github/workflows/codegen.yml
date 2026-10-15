@@ -57,19 +57,7 @@ jobs:
               run: |
                   yarn codegen
 
-            - name: Check if should update
-              id: should-update
-              uses: actions/github-script@v9
-              with:
-                  github-token: ${{ steps.app-token.outputs.token }}
-                  script: |
-                      const { stdout } = await exec.getExecOutput('git', ['status', '--porcelain']);
-
-                      return stdout.trim().length > 0;
-
             - name: Commit and push
-              run: |
-                  git config user.name "github-actions[bot]"
-                  git add .
-                  git commit -m "Codegen"
-                  git push
+              uses: $/.github/actions/commit-and-push
+              with:
+                  message: Codegen

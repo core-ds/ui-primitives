@@ -31,6 +31,16 @@ jobs:
               run: |
                   yarn build
 
+            - name: Upload dist
+              uses: actions/upload-artifact@v7
+              with:
+                  retention-days: 1
+                  name: dist
+                  path: |
+                      icons-demo/dist
+                      packages/*/dist
+                      scripts/*/dist
+
     lint:
         runs-on: ubuntu-latest
         steps:
@@ -52,12 +62,54 @@ jobs:
               run: |
                   yarn lint
 
+    deploy-demo:
+        if: ${{ github.repository == 'core-ds/ui-primitives' }}
+        needs: build
+        runs-on: ubuntu-latest
+        concurrency:
+            group: deploy-demo
+            cancel-in-progress: false
+            queue: max
+        steps:
+            - name: Create app token
+              uses: actions/create-github-app-token@v3
+              id: app-token
+              with:
+                  client-id: ${{ vars.APP_ID }}
+                  private-key: ${{ secrets.APP_PRIVATE_KEY }}
+                  owner: ${{ github.repository_owner }}
+                  repositories: icons-demo
+                  permission-contents: write
+
+            - name: Checkout
+              uses: actions/checkout@v7
+              with:
+                  token: ${{ steps.app-token.outputs.token }}
+                  repository: ${{ github.repository_owner }}/icons-demo
+                  ref: gh-pages
+
+            - name: Download dist
+              uses: actions/download-artifact@v8
+              with:
+                  name: dist
+                  path: ${{ runner.temp }}/dist
+
+            - name: Filesystem
+              run: |
+                  cp -r ${{ runner.temp }}/dist/icons-demo/dist ${{ case(github.event_name == 'pull_request', github.event.pull_request.number, '.' ) }}
+
+            - name: Commit and push
+              uses: core-ds/ui-primitives/.github/actions/commit-and-push@monorepo
+              with:
+                  message: Deploy demo
+
     ok:
         runs-on: ubuntu-latest
         if: always()
         needs:
             - lint
             - build
+            - 'deploy-demo'
         env:
             RETURN_CODE: ${{ case(contains(needs.*.result, 'failure') || contains(needs.*.result, 'cancelled'), 1, 0) }}
         steps:
