@@ -16,7 +16,7 @@
     "license": "MIT",
     "sideEffects": false,
     "scripts": {
-        "build": "cpy \"../../{animations,icons,styles}\" dist && prepare-package-json-for-publish --out dist/package.json",
+        "build": "cpy \"../../{animations,icons,styles}\" dist && cpy README.md dist && prepare-package-json-for-publish --out dist/package.json",
         "clean": "rimraf dist"
     },
     "devDependencies": {
