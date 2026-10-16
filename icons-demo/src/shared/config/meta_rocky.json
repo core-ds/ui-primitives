@@ -1529,16 +1529,6 @@
         "cdn": "rocky_trash-can_m",
         "url": "https://alfabank.servicecdn.ru/icons/rocky_trash-can_m.svg"
     },
-    "TshirtMIcon": {
-        "description": "",
-        "web": "TshirtMIcon",
-        "webComponent": "import { TshirtMIcon } from '@alfalab/icons-rocky/TshirtMIcon';",
-        "android": "rocky_tshirt_m",
-        "ios": "rocky_tshirt_m",
-        "middle": "rocky_tshirt_m",
-        "cdn": "rocky_tshirt_m",
-        "url": "https://alfabank.servicecdn.ru/icons/rocky_tshirt_m.svg"
-    },
     "TulipMIcon": {
         "description": "flower, тюльпан, цветы",
         "web": "TulipMIcon",
