@@ -1,0 +1,9 @@
+@import '@alfalab/core-components/vars/index.css';
+
+:root {
+    --content-width: 880px;
+    --search-wrapper-padding: var(--gap-m) 0 var(--gap-m);
+    --asset-select-width: 200px;
+    --asset-select-margin: 0;
+    --bundle-padding-bottom: var(--gap-xs);
+}

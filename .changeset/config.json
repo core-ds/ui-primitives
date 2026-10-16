@@ -1,0 +1,13 @@
+{
+    "$schema": "https://unpkg.com/@changesets/config@4.0.1/schema.json",
+    "baseBranch": "master",
+    "access": "public",
+    "format": false,
+    "changelog": ["@changesets/changelog-github", { "repo": "core-ds/ui-primitives" }],
+    "commit": false,
+    "ignore": [],
+    "fixed": [],
+    "linked": [],
+    "updateInternalDependencies": "patch",
+    "privatePackages": false
+}

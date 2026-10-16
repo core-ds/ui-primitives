@@ -1,17 +1,17 @@
 addReviewers: true
 
 reviewers:
-  - slavastrizh
-  - andylovesyou
-  - DenisLipin
-  - gridnoir
-  - OlegMeo
-  - MariaGalukha
-  - shalaeva-liza
-  - TashaRTV
-  - sataevru
+    - slavastrizh
+    - andylovesyou
+    - DenisLipin
+    - gridnoir
+    - OlegMeo
+    - MariaGalukha
+    - shalaeva-liza
+    - TashaRTV
+    - sataevru
 
 skipKeywords:
-  - wip
+    - wip
 
 numberOfReviewers: 0

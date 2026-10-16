@@ -1,0 +1,14 @@
+/**
+ * This is auto-generated file by scripts/svg-to-component package
+ * Do not edit it manually
+ */
+import React, { SVGProps } from 'react';
+
+export const ChevronDownCircleLine20Icon: React.FC<SVGProps<SVGSVGElement>> = (props) => (
+    <svg role="img" focusable="false" fill="currentColor" width="20" height="20" viewBox="0 0 20 20" {...props}>
+        <path d="M10 10.586l2.793-2.793 1.414 1.414L10 13.413 5.793 9.207l1.414-1.415L10 10.586z" />
+        <path d="M10 2a8 8 0 110 16 8 8 0 010-16zm0 2a6 6 0 100 12 6 6 0 000-12z" />
+    </svg>
+);
+
+export default ChevronDownCircleLine20Icon;

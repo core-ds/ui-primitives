@@ -1,0 +1,1221 @@
+{
+    "glyph_add_m": {
+        "replacement": "glyph_plus_m",
+        "date": "01.24"
+    },
+    "glyph_add-circle_m": {
+        "replacement": "glyph_plus-circle_m",
+        "date": "01.24"
+    },
+    "glyph_add-compact_m": {
+        "replacement": "glyph_plus-compact_m",
+        "date": "01.24"
+    },
+    "glyph_add-large_m": {
+        "replacement": "glyph_plus-medium_m",
+        "date": "01.24"
+    },
+    "glyph_alert-circle_m": {
+        "replacement": "glyph_exclamation-circle_m",
+        "date": "01.24"
+    },
+    "glyph_alfa-scores-ios_m": {
+        "replacement": "ios_alfa-scores_m",
+        "date": "01.24"
+    },
+    "glyph_alfa-subscription_m": {
+        "replacement": "glyph_switch_m",
+        "date": "01.24"
+    },
+    "glyph_armored-car_m": {
+        "replacement": "glyph_car-armored_m",
+        "date": "01.24"
+    },
+    "glyph_arrow-back_m": {
+        "replacement": "glyph_arrow-left_m",
+        "date": "01.24"
+    },
+    "glyph_arrow-back-circle_m": {
+        "replacement": "glyph_arrow-left-curved-circle_m",
+        "date": "01.24"
+    },
+    "glyph_arrow-back-heavy_m": {
+        "replacement": "glyph_arrow-left-medium_m",
+        "date": "01.24"
+    },
+    "glyph_arrow-down-compact_xs": {
+        "replacement": "glyph_arrow-down-triangle_s",
+        "date": "01.24"
+    },
+    "glyph_arrow-down-up_m": {
+        "replacement": "glyph_arrows-down-up-triangle_m",
+        "date": "01.24"
+    },
+    "glyph_arrow-forward_m": {
+        "replacement": "glyph_arrow-right_m",
+        "date": "01.24"
+    },
+    "glyph_arrow-forward-big_m": {
+        "replacement": "glyph_arrow-right-curved-bold_m",
+        "date": "01.24"
+    },
+    "glyph_arrow-forward-circle_m": {
+        "replacement": "glyph_arrow-right-curved-circle_m",
+        "date": "01.24"
+    },
+    "glyph_arrow-rise_m": {
+        "replacement": "glyph_chart-column-three-asc-arrow_m",
+        "date": "01.24"
+    },
+    "glyph_arrow-up-compact_xs": {
+        "replacement": "glyph_arrow-up-triangle_s",
+        "date": "01.24"
+    },
+    "glyph_arrow-up-down_m": {
+        "replacement": "glyph_arrows-up-down-triangle_m",
+        "date": "01.24"
+    },
+    "glyph_arrow-up-down-heavy_m": {
+        "replacement": "glyph_arrows-up-down-triangle-medium_m",
+        "date": "01.24"
+    },
+    "glyph_arrows-forward-back-heavy_m": {
+        "replacement": "glyph_arrows-right-left-bold_m",
+        "date": "01.24"
+    },
+    "glyph_arrows-inward_m": {
+        "replacement": "glyph_arrows-in_m",
+        "date": "01.24"
+    },
+    "glyph_arrows-left-right-thin_m": {
+        "replacement": "glyph_arrows-right-left_m",
+        "date": "01.24"
+    },
+    "glyph_arrows-outward_m": {
+        "replacement": "glyph_arrows-out_m",
+        "date": "01.24"
+    },
+    "glyph_arrows-outward-rounded_m": {
+        "replacement": "glyph_arrows-out-square_m",
+        "date": "01.24"
+    },
+    "glyph_badge_s": {
+        "replacement": "glyph_dot-medium-shift-left_s",
+        "date": "01.24"
+    },
+    "glyph_badge-backward_s": {
+        "replacement": "glyph_dot-medium-shift-left_s",
+        "date": "01.24"
+    },
+    "glyph_badge-center_s": {
+        "replacement": "glyph_dot-medium_s",
+        "date": "01.24"
+    },
+    "glyph_banknote-on_m": {
+        "replacement": "glyph_banknote_m",
+        "date": "01.24"
+    },
+    "glyph_bar-chart_m": {
+        "replacement": "glyph_chart-column-three-asc_m",
+        "date": "01.24"
+    },
+    "glyph_bell-add_m": {
+        "replacement": "glyph_bell-plus_m",
+        "date": "01.24"
+    },
+    "glyph_bell-plus_m_m": {
+        "replacement": "glyph_bell-plus_m",
+        "date": "01.24"
+    },
+    "glyph_big-arrow-left-line_m": {
+        "replacement": "glyph_arrow-left-curved_m",
+        "date": "01.24"
+    },
+    "glyph_biometrics-face_m": {
+        "replacement": "glyph_user-face_m",
+        "date": "01.24"
+    },
+
+    "glyph_biometrics-user_m": {
+        "replacement": "glyph_user-scan_m",
+        "date": "01.24"
+    },
+    "glyph_blank-line_m": {
+        "replacement": "glyph_document-lines-line_m",
+        "date": "01.24"
+    },
+    "glyph_book-check_m": {
+        "replacement": "glyph_book-open-checkmark_m",
+        "date": "01.24"
+    },
+    "glyph_book-open-check_m": {
+        "replacement": "glyph_book-open-checkmark_m",
+        "date": "01.24"
+    },
+    "glyph_bookmark_s": {
+        "replacement": "glyph_bookmark-compact_s",
+        "date": "01.24"
+    },
+    "glyph_bookmark-off_s": {
+        "replacement": "glyph_bookmark-off-compact_s",
+        "date": "01.24"
+    },
+    "glyph_bowl_m": {
+        "replacement": "glyph_bowling_m",
+        "date": "01.24"
+    },
+    "glyph_bubble-remark_m": {
+        "replacement": "glyph_bubble-asterisk_m",
+        "date": "01.24"
+    },
+    "glyph_build-moscow_m": {
+        "replacement": "glyph_kremlin_m",
+        "date": "01.24"
+    },
+    "glyph_bulb-flash_m_m": {
+        "replacement": "glyph_bulb-flash_m",
+        "date": "01.24"
+    },
+    "glyph_burger_m": {
+        "replacement": "glyph_list_m",
+        "date": "01.24"
+    },
+    "glyph_call_m": {
+        "replacement": "glyph_phone_m",
+        "date": "01.24"
+    },
+    "glyph_card-double-check_m": {
+        "replacement": "glyph_card-checkmark-double_m",
+        "date": "01.24"
+    },
+    "glyph_card-transfer_m": {
+        "replacement": "glyph_card-card_m",
+        "date": "01.24"
+    },
+    "glyph_cash_m": {
+        "replacement": "glyph_banknote-stack_m",
+        "date": "01.24"
+    },
+
+    "glyph_cash-money_m": {
+        "replacement": "glyph_banknotes_m",
+        "date": "01.24"
+    },
+    "glyph_cash-money-line_m": {
+        "replacement": "glyph_banknotes-line_m",
+        "date": "01.24"
+    },
+    "glyph_category-bank_m": {
+        "replacement": "glyph_bank_m",
+        "date": "01.24"
+    },
+    "glyph_chain-circle_m_m": {
+        "replacement": "glyph_chain-circle_m",
+        "date": "01.24"
+    },
+
+    "glyph_checkmark-heavy_m": {
+        "replacement": "glyph_checkmark-medium_m",
+        "date": "01.24"
+    },
+    "glyph_checkmark-on-circle_m": {
+        "replacement": "glyph_checkmark-circle_m",
+        "date": "01.24"
+    },
+    "glyph_checkmark-on-circle_s": {
+        "replacement": "glyph_checkmark-circle_s",
+        "date": "01.24"
+    },
+    "glyph_checkmark-receipt_m": {
+        "replacement": "glyph_receipt-checkmark_m",
+        "date": "01.24"
+    },
+    "glyph_chest-on-legs_m": {
+        "replacement": "glyph_chest-legs_m",
+        "date": "01.24"
+    },
+    "glyph_chevron-back_m": {
+        "replacement": "glyph_chevron-left_m",
+        "date": "01.24"
+    },
+    "glyph_chevron-back-circle_m": {
+        "replacement": "glyph_chevron-left-circle_m",
+        "date": "01.24"
+    },
+    "glyph_chevron-back-compact_s": {
+        "replacement": "glyph_chevron-left-compact_s",
+        "date": "01.24"
+    },
+    "glyph_chevron-back-heavy_m": {
+        "replacement": "glyph_chevron-left-medium_m",
+        "date": "01.24"
+    },
+    "glyph_chevron-forward_m": {
+        "replacement": "glyph_chevron-right_m",
+        "date": "01.24"
+    },
+    "glyph_chevron-forward-circle_m": {
+        "replacement": "glyph_chevron-right-circle_m",
+        "date": "01.24"
+    },
+    "glyph_chevron-forward-compact_m": {
+        "replacement": "glyph_chevron-right-compact_m",
+        "date": "01.24"
+    },
+    "glyph_chevron-forward-compact_s": {
+        "replacement": "glyph_chevron-right-compact_s",
+        "date": "01.24"
+    },
+    "glyph_chevron-forward-extra_m": {
+        "replacement": "glyph_chevron-right-shift-right_m",
+        "date": "01.24"
+    },
+    "glyph_chevron-forward-heavy_m": {
+        "replacement": "glyph_chevron-right-medium_m",
+        "date": "01.24"
+    },
+    "glyph_chf-android_m": {
+        "replacement": "android_chf_m",
+        "date": "01.24"
+    },
+    "glyph_chf-ios_m": {
+        "replacement": "ios_chf_m",
+        "date": "01.24"
+    },
+    "glyph_clock-repeat_m": {
+        "replacement": "glyph_clock-repeat-cw-line_m",
+        "date": "01.24"
+    },
+    "glyph_clock-repeat-line_m": {
+        "replacement": "glyph_clock-repeat-cw-line_m",
+        "date": "01.24"
+    },
+    "glyph_comment-checkmark_m": {
+        "replacement": "glyph_bubble-checkmark-line_m",
+        "date": "01.24"
+    },
+    "glyph_comment-minus_m": {
+        "replacement": "glyph_bubble-minus_m",
+        "date": "01.24"
+    },
+    "glyph_comment-minus_s": {
+        "replacement": "glyph_bubble-minus_s",
+        "date": "01.24"
+    },
+    "glyph_comment-plus_m": {
+        "replacement": "glyph_bubble-plus-line_m",
+        "date": "01.24"
+    },
+    "glyph_comment-remark_m": {
+        "replacement": "glyph_bubble-asterisk_m",
+        "date": "01.24"
+    },
+    "glyph_comment-with-text_m": {
+        "replacement": "glyph_bubble-lines_m",
+        "date": "01.24"
+    },
+    "glyph_comment-with-text-line_m": {
+        "replacement": "glyph_bubble-lines-line_m",
+        "date": "01.24"
+    },
+    "glyph_credit-card_m": {
+        "replacement": "glyph_card_m",
+        "date": "01.24"
+    },
+    "glyph_credit-card-logo_m": {
+        "replacement": "glyph_card-alfa_m",
+        "date": "01.24"
+    },
+    "glyph_cross-heavy_m": {
+        "replacement": "glyph_cross-medium_m",
+        "date": "01.24"
+    },
+    "glyph_debt_m": {
+        "replacement": "glyph_documents-lines_m",
+        "date": "01.24"
+    },
+    "glyph_desktop_m": {
+        "replacement": "glyph_display_m",
+        "date": "01.24"
+    },
+    "glyph_diagram_m": {
+        "replacement": "glyph_chart-pie_m",
+        "date": "01.24"
+    },
+    "glyph_diagram-coins_m": {
+        "replacement": "glyph_chart-pie-coins_m",
+        "date": "01.24"
+    },
+    "glyph_diagram-line_m": {
+        "replacement": "glyph_chart-pie-line_m",
+        "date": "01.24"
+    },
+    "glyph_diagram-ring_m": {
+        "replacement": "glyph_chart-ring_m",
+        "date": "01.24"
+    },
+    "glyph_document-add_m": {
+        "replacement": "glyph_document-plus_m",
+        "date": "01.24"
+    },
+    "glyph_document-line_m": {
+        "replacement": "glyph_document-lines-line_m",
+        "date": "01.24"
+    },
+    "glyph_document-unknown_m": {
+        "replacement": "glyph_document_m",
+        "date": "01.24"
+    },
+    "glyph_dollar-line_m": {
+        "replacement": "glyph_usd_m",
+        "date": "01.24"
+    },
+    "glyph_dollar-rounded_m": {
+        "replacement": "glyph_usd-square_m",
+        "date": "01.24"
+    },
+    "glyph_dot_m": {
+        "replacement": "glyph_dot-medium_m",
+        "date": "01.24"
+    },
+    "glyph_download_m": {
+        "replacement": "glyph_arrow-down-line-down_m",
+        "date": "01.24"
+    },
+    "glyph_drag-and-drop_m": {
+        "replacement": "glyph_drag_m",
+        "date": "01.24"
+    },
+    "glyph_e-money_m": {
+        "replacement": "glyph_wallet_m",
+        "date": "01.24"
+    },
+    "glyph_ellipsis-horizontal_m": {
+        "replacement": "glyph_dots-horizontal_m",
+        "date": "01.24"
+    },
+    "glyph_envelop-open-text_m": {
+        "replacement": "glyph_mail-open-lines_m",
+        "date": "01.24"
+    },
+    "glyph_eur-android_m": {
+        "replacement": "android_eur_m",
+        "date": "01.24"
+    },
+    "glyph_eur-ios_m": {
+        "replacement": "ios_eur_m",
+        "date": "01.24"
+    },
+    "glyph_euro_m": {
+        "replacement": "glyph_eur_m",
+        "date": "01.24"
+    },
+    "glyph_filter_m": {
+        "replacement": "glyph_sliders_m",
+        "date": "01.24"
+    },
+    "glyph_gbp-android_m": {
+        "replacement": "android_gbp_m",
+        "date": "01.24"
+    },
+    "glyph_gbp-ios_m": {
+        "replacement": "ios_gbp_m",
+        "date": "01.24"
+    },
+    "glyph_gift_s": {
+        "replacement": "glyph_gift-box_s",
+        "date": "01.24"
+    },
+    "glyph_gold_m": {
+        "replacement": "glyph_ingots_m",
+        "date": "01.24"
+    },
+    "glyph_gold_s": {
+        "replacement": "glyph_ingots_s",
+        "date": "01.24"
+    },
+    "glyph_h-letter_m": {
+        "replacement": "glyph_letter-h_m",
+        "date": "01.24"
+    },
+    "glyph_hand-round-percent_m": {
+        "replacement": "glyph_hand-round-percent_m",
+        "date": "01.24"
+    },
+    "glyph_headset_m": {
+        "replacement": "glyph_headset-mic_m",
+        "date": "01.24"
+    },
+    "glyph_hexagon-link_m": {
+        "replacement": "glyph_chain-hexagon_m",
+        "date": "01.24"
+    },
+    "glyph_hexagon-two-lines_m": {
+        "replacement": "glyph_lines-hexagon_m",
+        "date": "01.24"
+    },
+    "glyph_installment_m": {
+        "replacement": "glyph_clock-coin_m",
+        "date": "01.24"
+    },
+    "glyph_installment-line_m": {
+        "replacement": "glyph_clock-coin-line_m",
+        "date": "01.24"
+    },
+    "glyph_ios-back_m": {
+        "replacement": "ios_chevron-left_m",
+        "date": "01.24"
+    },
+    "glyph_joystick_m": {
+        "replacement": "glyph_gamepad_m",
+        "date": "01.24"
+    },
+    "glyph_jpn_m": {
+        "replacement": "glyph_jpy_m",
+        "date": "01.24"
+    },
+    "glyph_keyboard-hide_m": {
+        "replacement": "glyph_keyboard-arrow-down_m",
+        "date": "01.24"
+    },
+    "glyph_knifespoon_m": {
+        "replacement": "glyph_fork-knife_m",
+        "date": "01.24"
+    },
+    "glyph_lamp_m": {
+        "replacement": "glyph_bulb_m",
+        "date": "01.24"
+    },
+    "glyph_life-saver_m": {
+        "replacement": "glyph_lifeline_m",
+        "date": "01.24"
+    },
+    "glyph_link_m": {
+        "replacement": "glyph_chain_m",
+        "date": "01.24"
+    },
+    "glyph_link-circle_m": {
+        "replacement": "glyph_chain-circle_m",
+        "date": "01.24"
+    },
+    "glyph_list_m": {
+        "replacement": "glyph_list-dec_m",
+        "date": "01.24"
+    },
+    "glyph_list-inv_m": {
+        "replacement": "glyph_list-asc_m",
+        "date": "01.24"
+    },
+    "glyph_log-out_m": {
+        "replacement": "glyph_door-open_m",
+        "date": "01.24"
+    },
+    "glyph_lotus_m": {
+        "replacement": "glyph_flower_m",
+        "date": "01.24"
+    },
+    "glyph_magnifier-fill_m": {
+        "replacement": "glyph_magnifier-filled_m",
+        "date": "01.24"
+    },
+    "glyph_mask_m": {
+        "replacement": "glyph_masquerade-masks_m",
+        "date": "01.24"
+    },
+    "glyph_material-arrow-back_m": {
+        "replacement": "android_arrow-left_m",
+        "date": "01.24"
+    },
+    "glyph_material-cross_m": {
+        "replacement": "android_cross_m",
+        "date": "01.24"
+    },
+    "glyph_material-lines_m": {
+        "replacement": "android_lines-two_m",
+        "date": "01.24"
+    },
+    "glyph_material-more-compact_m": {
+        "replacement": "android_dots-vertical-compact_m",
+        "date": "01.24"
+    },
+    "glyph_material-share_m": {
+        "replacement": "android_share_m",
+        "date": "01.24"
+    },
+    "glyph_medicine-cross_m": {
+        "replacement": "glyph_cross-medicine_m",
+        "date": "01.24"
+    },
+    "glyph_money-box_m": {
+        "replacement": "glyph_piggy_m",
+        "date": "01.24"
+    },
+    "glyph_more_m": {
+        "replacement": "glyph_dots-three-vertical_m",
+        "date": "01.24"
+    },
+    "glyph_more_s": {
+        "replacement": "glyph_dots-three-vertical_s",
+        "date": "01.24"
+    },
+    "glyph_no-image_m": {
+        "replacement": "glyph_document-image-off_m",
+        "date": "01.24"
+    },
+    "glyph_number-scan_m": {
+        "replacement": "glyph_phone-number-scan_m",
+        "date": "01.24"
+    },
+    "glyph_obligation_m": {
+        "replacement": "glyph_document-horizontal-mark_m",
+        "date": "01.24"
+    },
+    "glyph_other_m": {
+        "replacement": "glyph_box_m",
+        "date": "01.24"
+    },
+    "glyph_parking-rounded_m": {
+        "replacement": "glyph_parking-sign_m",
+        "date": "01.24"
+    },
+    "glyph_pencil-heavy_m": {
+        "replacement": "glyph_pencil-light_m",
+        "date": "01.24"
+    },
+    "glyph_percent-heavy_m": {
+        "replacement": "glyph_percent-medium_m",
+        "date": "01.24"
+    },
+    "glyph_perekrestok_s": {
+        "replacement": "logotype_perekrestok_s",
+        "date": "01.24"
+    },
+    "glyph_personal-manager_m": {
+        "replacement": "glyph_user-tie_m",
+        "date": "01.24"
+    },
+    "glyph_pfm-academic-cap_m": {
+        "replacement": "rocky_cap-academic_m",
+        "date": "01.24"
+    },
+    "glyph_pfm-airplane_m": {
+        "replacement": "rocky_airplane_m",
+        "date": "01.24"
+    },
+    "glyph_pfm-arrow-back_m": {
+        "replacement": "rocky_arrow-left_m",
+        "date": "01.24"
+    },
+    "glyph_pfm-banknote_m": {
+        "replacement": "rocky_banknote_m",
+        "date": "01.24"
+    },
+    "glyph_pfm-banknote-in_m": {
+        "replacement": "rocky_banknote-arrow-up-line-up_m",
+        "date": "01.24"
+    },
+    "glyph_pfm-banknote-out_m": {
+        "replacement": "rocky_banknote-arrow-down-line-up_m",
+        "date": "01.24"
+    },
+    "glyph_pfm-basket_m": {
+        "replacement": "rocky_basket_m",
+        "date": "01.24"
+    },
+    "glyph_pfm-book_m": {
+        "replacement": "rocky_book-open_m",
+        "date": "01.24"
+    },
+    "glyph_pfm-brush_m": {
+        "replacement": "rocky_brush_m",
+        "date": "01.24"
+    },
+    "glyph_pfm-bus_m": {
+        "replacement": "rocky_bus_m",
+        "date": "01.24"
+    },
+    "glyph_pfm-cap_m": {
+        "replacement": "rocky_cap_m",
+        "date": "01.24"
+    },
+    "glyph_pfm-car_m": {
+        "replacement": "rocky_car_m",
+        "date": "01.24"
+    },
+    "glyph_pfm-category-dog_m": {
+        "replacement": "rocky_paw_m",
+        "date": "01.24"
+    },
+    "glyph_pfm-chamomile_m": {
+        "replacement": "rocky_chamomile_m",
+        "date": "01.24"
+    },
+    "glyph_pfm-chart_m": {
+        "replacement": "rocky_chart-area_m",
+        "date": "01.24"
+    },
+    "glyph_pfm-coffe-cup_m": {
+        "replacement": "rocky_cup_m",
+        "date": "01.24"
+    },
+    "glyph_pfm-cup_m": {
+        "replacement": "rocky_glass_m",
+        "date": "01.24"
+    },
+    "glyph_pfm-diamond_m": {
+        "replacement": "rocky_diamond_m",
+        "date": "01.24"
+    },
+    "glyph_pfm-drop_m": {
+        "replacement": "rocky_drop_m",
+        "date": "01.24"
+    },
+    "glyph_pfm-e-money_m": {
+        "replacement": "rocky_wallet_m",
+        "date": "01.24"
+    },
+    "glyph_pfm-else_m": {
+        "replacement": "rocky_dots-horizontal_m",
+        "date": "01.24"
+    },
+    "glyph_pfm-entertaiments_m": {
+        "replacement": "rocky_ticket_m",
+        "date": "01.24"
+    },
+    "glyph_pfm-fuel_m": {
+        "replacement": "rocky_flame_m",
+        "date": "01.24"
+    },
+    "glyph_pfm-gamepad_m": {
+        "replacement": "rocky_gamepad_m",
+        "date": "01.24"
+    },
+    "glyph_pfm-glasses_m": {
+        "replacement": "rocky_glasses_m",
+        "date": "01.24"
+    },
+    "glyph_pfm-guard_m": {
+        "replacement": "rocky_shield_m",
+        "date": "01.24"
+    },
+    "glyph_pfm-heart_m": {
+        "replacement": "rocky_heart_m",
+        "date": "01.24"
+    },
+    "glyph_pfm-help_m": {
+        "replacement": "rocky_airdrop_m",
+        "date": "01.24"
+    },
+    "glyph_pfm-horse_m": {
+        "replacement": "rocky_horse_m",
+        "date": "01.24"
+    },
+    "glyph_pfm-house_m": {
+        "replacement": "rocky_house_m",
+        "date": "01.24"
+    },
+    "glyph_pfm-internet_m": {
+        "replacement": "rocky_internet_m",
+        "date": "01.24"
+    },
+    "glyph_pfm-lamp_m": {
+        "replacement": "rocky_lamp_m",
+        "date": "01.24"
+    },
+    "glyph_pfm-medicine_m": {
+        "replacement": "rocky_plus-medicine_m",
+        "date": "01.24"
+    },
+    "glyph_pfm-mobile-phone_m": {
+        "replacement": "rocky_mobile-phone_m",
+        "date": "01.24"
+    },
+    "glyph_pfm-music_m": {
+        "replacement": "rocky_music_m",
+        "date": "01.24"
+    },
+    "glyph_pfm-palm_m": {
+        "replacement": "rocky_palm_m",
+        "date": "01.24"
+    },
+    "glyph_pfm-percent_m": {
+        "replacement": "rocky_percent_m",
+        "date": "01.24"
+    },
+    "glyph_pfm-play_m": {
+        "replacement": "rocky_play_m",
+        "date": "01.24"
+    },
+    "glyph_pfm-poket_m": {
+        "replacement": "rocky_pocket_m",
+        "date": "01.24"
+    },
+    "glyph_pfm-prm_m": {
+        "replacement": "rocky_briefcase_m",
+        "date": "01.24"
+    },
+    "glyph_pfm-qr-code_m": {
+        "replacement": "rocky_qr-code_m",
+        "date": "01.24"
+    },
+    "glyph_pfm-question_m": {
+        "replacement": "rocky_question_m",
+        "date": "01.24"
+    },
+    "glyph_pfm-rubble_m": {
+        "replacement": "rocky_rub_m",
+        "date": "01.24"
+    },
+    "glyph_pfm-safe-box_m": {
+        "replacement": "rocky_safe-box_m",
+        "date": "01.24"
+    },
+    "glyph_pfm-socket-plug_m": {
+        "replacement": "rocky_socket-plug_m",
+        "date": "01.24"
+    },
+    "glyph_pfm-star_m": {
+        "replacement": "rocky_star_m",
+        "date": "01.24"
+    },
+    "glyph_pfm-subscribe_m": {
+        "replacement": "rocky_rectangles-stack_m",
+        "date": "01.24"
+    },
+    "glyph_pfm-taxi_m": {
+        "replacement": "rocky_taxi_m",
+        "date": "01.24"
+    },
+    "glyph_pfm-tennis-racket_m": {
+        "replacement": "rocky_tennis-racket_m",
+        "date": "01.24"
+    },
+    "glyph_pfm-ticket_m": {
+        "replacement": "rocky_ticket_m",
+        "date": "01.24"
+    },
+    "glyph_pfm-train_m": {
+        "replacement": "rocky_train_m",
+        "date": "01.24"
+    },
+    "glyph_pfm-transfer_m": {
+        "replacement": "glyph_pfm-transfer_m",
+        "date": "01.24"
+    },
+    "glyph_pfm-transport_m": {
+        "replacement": "rocky_bus_m",
+        "date": "01.24"
+    },
+    "glyph_pfm-tshirt_m": {
+        "replacement": "glyph_pfm-tshirt_m",
+        "date": "01.24"
+    },
+    "glyph_pfm-tv_m": {
+        "replacement": "rocky_display_m",
+        "date": "01.24"
+    },
+    "glyph_pfm-usual-house_m": {
+        "replacement": "rocky_house-back_m",
+        "date": "01.24"
+    },
+    "glyph_pfm-vial_m": {
+        "replacement": "rocky_vial_m",
+        "date": "01.24"
+    },
+    "glyph_phone-card_m": {
+        "replacement": "glyph_phone-card_m",
+        "date": "01.24"
+    },
+    "glyph_phone-number-scanner_m": {
+        "replacement": "glyph_phone-number-scan_m",
+        "date": "01.24"
+    },
+    "glyph_phone-sms-line_m": {
+        "replacement": "glyph_mobile-phone-bubble-line_m",
+        "date": "01.24"
+    },
+    "glyph_pin_m": {
+        "replacement": "glyph_pin-location_m",
+        "date": "01.24"
+    },
+    "glyph_play_m": {
+        "replacement": "glyph_play-compact_m",
+        "date": "01.24"
+    },
+    "glyph_play-big_m": {
+        "replacement": "glyph_play_m",
+        "date": "01.24"
+    },
+    "glyph_pointer-down_m": {
+        "replacement": "glyph_arrow-down-line-down_m",
+        "date": "01.24"
+    },
+    "glyph_pointer-down_s": {
+        "replacement": "glyph_arrow-down-line-down_s",
+        "date": "01.24"
+    },
+    "glyph_pointer-up_m": {
+        "replacement": "glyph_arrow-up-line-down_m",
+        "date": "01.24"
+    },
+    "glyph_print_m": {
+        "replacement": "glyph_printer_m",
+        "date": "01.24"
+    },
+    "glyph_question_m": {
+        "replacement": "glyph_question-circle_m",
+        "date": "01.24"
+    },
+    "glyph_remark-circle_m": {
+        "replacement": "glyph_asterisk-circle_m",
+        "date": "01.24"
+    },
+    "glyph_remark-heavy_m": {
+        "replacement": "glyph_asterisk-heavy_m",
+        "date": "01.24"
+    },
+    "glyph_remarks_m": {
+        "replacement": "glyph_asterisks_m",
+        "date": "01.24"
+    },
+    "glyph_repair-tool_m": {
+        "replacement": "glyph_screwdriver-paint-brush_m",
+        "date": "01.24"
+    },
+    "glyph_repear-tool_m": {
+        "replacement": "glyph_screwdriver-paint-brush_m",
+        "date": "01.24"
+    },
+    "glyph_repeat_m": {
+        "replacement": "glyph_clock-repeat-line_m",
+        "date": "01.24"
+    },
+    "glyph_repeat-circle_m": {
+        "replacement": "glyph_arrows-cw-circle_m",
+        "date": "01.24"
+    },
+    "glyph_repeat-off_m": {
+        "replacement": "glyph_arrows-cw-off_m",
+        "date": "01.24"
+    },
+    "glyph_replacement_m": {
+        "replacement": "glyph_arrows-right-left-curved-medium_m",
+        "date": "01.24"
+    },
+    "glyph_rouble_s": {
+        "replacement": "glyph_rub_s",
+        "date": "01.24"
+    },
+    "glyph_round-percent_m": {
+        "replacement": "glyph_percent-circle_m",
+        "date": "01.24"
+    },
+    "glyph_rub-android_m": {
+        "replacement": "android_rub_m",
+        "date": "01.24"
+    },
+    "glyph_rub-ios_m": {
+        "replacement": "ios_rub_m",
+        "date": "01.24"
+    },
+    "glyph_ruble-square_m": {
+        "replacement": "glyph_rub-square_m",
+        "date": "01.24"
+    },
+    "glyph_schedule_m": {
+        "replacement": "glyph_list-bulleted_m",
+        "date": "01.24"
+    },
+    "glyph_send_m": {
+        "replacement": "glyph_paper-airplane_m",
+        "date": "01.24"
+    },
+    "glyph_settings_m": {
+        "replacement": "glyph_gear_m",
+        "date": "01.24"
+    },
+    "glyph_settings-compact_s": {
+        "replacement": "glyph_gear_s",
+        "date": "01.24"
+    },
+    "glyph_settings-line_m": {
+        "replacement": "glyph_gear-line_m",
+        "date": "01.24"
+    },
+    "glyph_sf-bubble_xxl": {
+        "replacement": "ios_bubble_xxl",
+        "date": "01.24"
+    },
+    "glyph_sf-circle-grid_xxl": {
+        "replacement": "ios_dots-grid_m",
+        "date": "01.24"
+    },
+    "glyph_sf-cross_m": {
+        "replacement": "ios_cross-light_m",
+        "date": "01.24"
+    },
+    "glyph_sf-cross-circle_m": {
+        "replacement": "ios_cross-circle_m",
+        "date": "01.24"
+    },
+    "glyph_sf-ellipsis-circle-fill_m": {
+        "replacement": "ios_dots-horizontal-circle_m",
+        "date": "01.24"
+    },
+    "glyph_sf-face-id_m": {
+        "replacement": "ios_face-id_m",
+        "date": "01.24"
+    },
+    "glyph_sf-face-id_xxl": {
+        "replacement": "ios_face-id_xxl",
+        "date": "01.24"
+    },
+    "glyph_sf-lines_m": {
+        "replacement": "ios_lines-three_m",
+        "date": "01.24"
+    },
+    "glyph_sf-mic-slash_xxl": {
+        "replacement": "ios_mic-off_xxl",
+        "date": "01.24"
+    },
+    "glyph_sf-phone_xxl": {
+        "replacement": "ios_phone_xxl",
+        "date": "01.24"
+    },
+    "glyph_sf-phone-down_xxl": {
+        "replacement": "ios_phone-down_xxl",
+        "date": "01.24"
+    },
+    "glyph_sf-speaker_xxl": {
+        "replacement": "ios_sf-sound_xxl",
+        "date": "01.24"
+    },
+    "glyph_sf-touch-id_xxl": {
+        "replacement": "ios_touch-id_xxl",
+        "date": "01.24"
+    },
+    "glyph_showcase_m": {
+        "replacement": "glyph_tile-bento_m",
+        "date": "01.24"
+    },
+    "glyph_sign_m": {
+        "replacement": "glyph_pen-nib_m",
+        "date": "01.24"
+    },
+    "glyph_smartphone_m": {
+        "replacement": "glyph_mobile-phone_m",
+        "date": "01.24"
+    },
+    "glyph_sound-off_m": {
+        "replacement": "glyph_sound-cross_m",
+        "date": "01.24"
+    },
+    "glyph_speed_m": {
+        "replacement": "glyph_meter-up-left_m",
+        "date": "01.24"
+    },
+    "glyph_star_s": {
+        "replacement": "glyph_star-compact_s",
+        "date": "01.24"
+    },
+    "glyph_stats-chart_m": {
+        "replacement": "glyph_chart-column-three_m",
+        "date": "01.24"
+    },
+    "glyph_stop-circle_m": {
+        "replacement": "glyph_stop-sign_m",
+        "date": "01.24"
+    },
+    "glyph_subway_m": {
+        "replacement": "logotype_subway-moscow_m",
+        "date": "01.24"
+    },
+    "glyph_swap-horizontal_m": {
+        "replacement": "glyph_arrows-right-left-curved_m",
+        "date": "01.24"
+    },
+    "glyph_swap-horizontal-heavy_m": {
+        "replacement": "glyph_arrows-right-left-curved-bold_m",
+        "date": "01.24"
+    },
+    "glyph_terminal-stationary_m": {
+        "replacement": "glyph_terminal-pos-stationary_m",
+        "date": "01.24"
+    },
+    "glyph_terminal-wireless_m": {
+        "replacement": "glyph_terminal-pos-wireless_m",
+        "date": "01.24"
+    },
+    "glyph_tile_m": {
+        "replacement": "glyph_tile-line_m",
+        "date": "01.24"
+    },
+    "glyph_tools_m": {
+        "replacement": "glyph_screwdriver-wrench_m",
+        "date": "01.24"
+    },
+    "glyph_tools-bold_m": {
+        "replacement": "glyph_screwdriver-wrench-bold_m",
+        "date": "01.24"
+    },
+    "glyph_total_m": {
+        "replacement": "glyph_sum_m",
+        "date": "01.24"
+    },
+    "glyph_transfer_m": {
+        "replacement": "glyph_arrow-left-shift-up-arrow-right-shift-down_m",
+        "date": "01.24"
+    },
+    "glyph_transfer-of-debt_m": {
+        "replacement": "glyph_card-card-arrow-right_m",
+        "date": "01.24"
+    },
+    "glyph_two-users_m": {
+        "replacement": "glyph_users_m",
+        "date": "01.24"
+    },
+    "glyph_two-users_s": {
+        "replacement": "glyph_users_s",
+        "date": "01.24"
+    },
+    "glyph_usd-android_m": {
+        "replacement": "android_usd_m",
+        "date": "01.24"
+    },
+    "glyph_usd-ios_m": {
+        "replacement": "ios_usd_m",
+        "date": "01.24"
+    },
+    "glyph_usd-line_m": {
+        "replacement": "glyph_usd_m",
+        "date": "01.24"
+    },
+    "glyph_usd-square_m": {
+        "replacement": "glyph_usd-square-medium_m",
+        "date": "01.24"
+    },
+    "glyph_user-phone_m": {
+        "replacement": "glyph_phone-book_m",
+        "date": "01.24"
+    },
+    "glyph_usual-house_m": {
+        "replacement": "glyph_house_m",
+        "date": "01.24"
+    },
+    "glyph_world-cash_m": {
+        "replacement": "glyph_world-banknote_m",
+        "date": "01.24"
+    },
+    "glyph_world-transfers_m": {
+        "replacement": "glyph_world-segmented-cash_m",
+        "date": "01.24"
+    },
+    "glyph_world-transfers_s": {
+        "replacement": "glyph_world-segmented-cash_s",
+        "date": "01.24"
+    },
+    "glyph_ync_m": {
+        "replacement": "glyph_cny_m",
+        "date": "01.24"
+    },
+    "glyph_ync-off_m": {
+        "replacement": "glyph_cny-off_m",
+        "date": "01.24"
+    },
+    "corp_bank-with-shield_m": {
+        "replacement": "corp_bank-shield_m",
+        "date": "01.24"
+    },
+    "corp_arrow-rise_m": {
+        "replacement": "corp_arrow-asc-bold_m",
+        "date": "01.24"
+    },
+    "corp_bell-add_m": {
+        "replacement": "corp_bell-plus_m",
+        "date": "01.24"
+    },
+    "corp_bubble-phone_m": {
+        "replacement": "corp_phone-bubble_m",
+        "date": "01.24"
+    },
+    "corp_calendar-cash_m": {
+        "replacement": "corp_calendar-banknote_m",
+        "date": "01.24"
+    },
+    "corp_cash-money_m": {
+        "replacement": "corp_banknotes_m",
+        "date": "01.24"
+    },
+    "corp_document-a-logo_m": {
+        "replacement": "corp_documents-alfa_m",
+        "date": "01.24"
+    },
+    "corp_documents-dollar_m": {
+        "replacement": "corp_documents-usd_m",
+        "date": "01.24"
+    },
+    "corp_dollar-euro_m": {
+        "replacement": "corp_eur-usd-coins_m",
+        "date": "01.24"
+    },
+    "corp_gavel_m": {
+        "replacement": "corp_judge-hammer_m",
+        "date": "01.24"
+    },
+    "corp_hand-with-money-bag_m": {
+        "replacement": "corp_hand-money-bag_m",
+        "date": "01.24"
+    },
+    "corp_log-out_m": {
+        "replacement": "glyph_door-open_m",
+        "date": "01.24"
+    },
+    "corp_shield-document_m": {
+        "replacement": "corp_document-shield_m",
+        "date": "01.24"
+    },
+    "corp_square-lines-rounded_m": {
+        "replacement": "corp_square-lines-square-medium_m",
+        "date": "01.24"
+    },
+    "corp_swap-horizontal_m": {
+        "replacement": "corp_arrows-right-left-curved-bold_m",
+        "date": "01.24"
+    },
+    "corp_two-persons_m": {
+        "replacement": "corp_two-users-tie_m",
+        "date": "01.24"
+    },
+    "rocky_banknote-in_m": {
+        "replacement": "rocky_banknote-arrow-up-line-up_m",
+        "date": "01.24"
+    },
+    "rocky_banknote-out_m": {
+        "replacement": "rocky_banknote-arrow-down-line-up_m",
+        "date": "01.24"
+    },
+    "rocky_perekrestok_m": {
+        "replacement": "logotype_perekrestok_m",
+        "date": "01.24"
+    },
+    "logotype_perekrestok_m": {
+        "replacement": "logotype_swift_m",
+        "date": "01.24"
+    },
+    "glyph__card_im": {
+        "replacement": "glyph_card-info_m",
+        "date": "05.24"
+    },
+    "glyph_tram_m": {
+        "replacement": "glyph_trolleybus_m",
+        "date": "10.24"
+    },
+    "glyph_category-feedback_m": {
+        "replacement": "glyph_star-pointer_m",
+        "date": "02.25"
+    },
+    "corp_stack-of-coins_m": {
+        "replacement": "corp_stack-coins_m",
+        "date": "11.25"
+    }
+}
