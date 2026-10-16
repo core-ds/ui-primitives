@@ -24,7 +24,7 @@ runs:
           uses: actions/github-script@v9
           with:
               script: |
-                  core.warning("No changes - do nothing");
+                  core.warning("No changes to commit");
 
         - name: Commit and push
           if: ${{ fromJson(steps.should-update.outputs.result) }}
