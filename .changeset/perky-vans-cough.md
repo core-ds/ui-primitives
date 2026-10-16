@@ -14,7 +14,6 @@
 '@alfalab/icons-rocky': patch
 '@alfalab/icons-shape': patch
 '@alfalab/icons-site': patch
-'ui-primitives': patch
 ---
 
 Внутренние улучшения
