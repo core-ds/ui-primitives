@@ -1,1 +1,1 @@
-# ui-primitives
+# @alfalab/ui-primitives-repository
