@@ -17,7 +17,8 @@
         "build": "yarn workspaces foreach --all --parallel --topological-dev run build",
         "clean": "yarn workspaces foreach --all --parallel --topological-dev run clean",
         "codegen": "yarn workspaces foreach --all --topological-dev run codegen && yarn format",
-        "format": "prettier --write \"./**/*.{ts,tsx,js,jsx,mjs,mts,cjs,cts,css,json,yml,md}\"",
+        "format": "prettier --log-level silent --write \"./**/*.{ts,tsx,js,jsx,mjs,mts,cjs,cts,css,json,yml,md}\"",
+        "format-check": "prettier --check \"./**/*.{ts,tsx,js,jsx,mjs,mts,cjs,cts,css,json,yml,md}\"",
         "lint": "lint-svg \"./icons/**/*.svg\" --exit-code 0",
         "version-packages": "yarn changeset version"
     },

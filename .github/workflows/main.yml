@@ -93,7 +93,7 @@ jobs:
 
             - name: Format
               run: |
-                  yarn format
+                  yarn format-check
 
             - name: Lint
               run: |
