@@ -1,6 +1,11 @@
 {
     "name": "@alfalab/icons-logo",
     "version": "1.63.0",
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/core-ds/ui-primitives.git",
+        "directory": "packages/logo"
+    },
     "license": "MIT",
     "sideEffects": false,
     "scripts": {

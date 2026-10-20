@@ -1,6 +1,11 @@
 {
     "name": "@alfalab/icons-classic",
     "version": "2.9.0",
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/core-ds/ui-primitives.git",
+        "directory": "packages/classic"
+    },
     "license": "MIT",
     "sideEffects": false,
     "scripts": {

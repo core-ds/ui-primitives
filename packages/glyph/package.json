@@ -1,6 +1,11 @@
 {
     "name": "@alfalab/icons-glyph",
     "version": "2.293.0",
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/core-ds/ui-primitives.git",
+        "directory": "packages/glyph"
+    },
     "license": "MIT",
     "sideEffects": false,
     "scripts": {

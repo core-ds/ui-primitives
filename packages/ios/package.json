@@ -1,6 +1,11 @@
 {
     "name": "@alfalab/icons-ios",
     "version": "1.14.0",
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/core-ds/ui-primitives.git",
+        "directory": "packages/ios"
+    },
     "license": "MIT",
     "sideEffects": false,
     "scripts": {

@@ -1,6 +1,11 @@
 {
     "name": "@alfalab/icons-flag",
     "version": "2.10.0",
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/core-ds/ui-primitives.git",
+        "directory": "packages/flag"
+    },
     "license": "MIT",
     "sideEffects": false,
     "scripts": {

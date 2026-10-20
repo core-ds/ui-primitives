@@ -1,6 +1,11 @@
 {
     "name": "@alfalab/icons-shape",
     "version": "1.5.0",
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/core-ds/ui-primitives.git",
+        "directory": "packages/shape"
+    },
     "license": "MIT",
     "sideEffects": false,
     "scripts": {

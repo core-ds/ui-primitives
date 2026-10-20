@@ -1,6 +1,11 @@
 {
     "name": "@alfalab/icons-corp",
     "version": "1.40.0",
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/core-ds/ui-primitives.git",
+        "directory": "packages/corp"
+    },
     "license": "MIT",
     "sideEffects": false,
     "scripts": {
