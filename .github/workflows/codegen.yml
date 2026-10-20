@@ -53,6 +53,9 @@ jobs:
 
             - name: Codegen
               env:
+                  FIGMA_FLAG_FILE_KEY: ${{ secrets.FIGMA_FLAG_FILE_KEY }}
+                  FIGMA_ICON_FILE_KEY: ${{ secrets.FIGMA_ICON_FILE_KEY }}
+                  FIGMA_LOGO_FILE_KEY: ${{ secrets.FIGMA_LOGO_FILE_KEY }}
                   FIGMA_TOKEN: ${{ secrets.FIGMA_TOKEN }}
               run: |
                   yarn codegen

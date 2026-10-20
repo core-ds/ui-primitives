@@ -35,7 +35,7 @@ async function getData(dirname: string) {
         case 'site': {
             const {
                 meta: { component_sets },
-            } = await getFileComponentSets('ZcdUPebEhHfSZ91zgmv2cK');
+            } = await getFileComponentSets(process.env.FIGMA_ICON_FILE_KEY);
 
             return component_sets;
         }
@@ -44,21 +44,21 @@ async function getData(dirname: string) {
         case 'logotype': {
             const {
                 meta: { components },
-            } = await getFileComponents('yZBSrRbQbdxac3VVcscJ45');
+            } = await getFileComponents(process.env.FIGMA_LOGO_FILE_KEY);
 
             return components;
         }
         case 'logo-corp': {
             const {
                 meta: { component_sets },
-            } = await getFileComponentSets('yZBSrRbQbdxac3VVcscJ45');
+            } = await getFileComponentSets(process.env.FIGMA_LOGO_FILE_KEY);
 
             return component_sets;
         }
         case 'flag': {
             const {
                 meta: { components },
-            } = await getFileComponents('RHkvF3gsacdtwxSCgOCWV0');
+            } = await getFileComponents(process.env.FIGMA_FLAG_FILE_KEY);
 
             return components;
         }
