@@ -80,6 +80,11 @@ await yargs(hideBin(process.argv))
                     type: 'string',
                     description: 'Output file',
                     demandOption: true,
+                })
+                .option('ignore', {
+                    type: 'string',
+                    array: true,
+                    description: 'Path(s) or pattern(s) to ignore',
                 }),
         async (argv) => {
             const input = path.resolve(process.cwd(), argv.input);
@@ -92,7 +97,7 @@ await yargs(hideBin(process.argv))
             );
             const transformer = getTransformer(dirname);
             const meta = Object.fromEntries(
-                (await globby('*.svg', { cwd: input, absolute: true })).map((file) => {
+                (await globby('*.svg', { cwd: input, ignore: argv.ignore, absolute: true })).map((file) => {
                     const basename = path.parse(file).name;
                     const figmaName = createFigmaName(basename, dirname);
                     const { componentName } = generateComponentName(file);

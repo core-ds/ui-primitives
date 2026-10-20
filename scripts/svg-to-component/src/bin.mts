@@ -10,27 +10,32 @@ import { createComponent } from './index.mjs';
 
 await yargs(hideBin(process.argv))
     .command(
-        '$0 [input]',
+        '$0 [input..]',
         'Generate react component from svg',
         (builder) =>
             builder
                 .positional('input', {
                     type: 'string',
                     array: true,
-                    description: 'Path or pattern to the source of svg',
-                    default: [],
+                    description: 'Path(s) or pattern(s) to the source of svg',
+                    demandOption: true,
                 })
                 .option('out', {
                     type: 'string',
                     description: 'Output directory',
                     demandOption: true,
+                })
+                .option('ignore', {
+                    type: 'string',
+                    array: true,
+                    description: 'Path(s) or pattern(s) to ignore',
                 }),
         async (argv) => {
             const out = path.resolve(process.cwd(), argv.out);
 
             await fsExtra.ensureDir(out);
 
-            await pipeline(globbyStream(argv.input, { absolute: true }), async (files) => {
+            await pipeline(globbyStream(argv.input, { absolute: true, ignore: argv.ignore }), async (files) => {
                 for await (const file of files) {
                     await createComponent(file, out);
                 }
