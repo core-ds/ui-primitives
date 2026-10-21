@@ -103,7 +103,7 @@ jobs:
                   yarn lint
 
     icons-demo:
-        if: ${{ github.repository == 'core-ds/ui-primitives' }}
+        if: ${{ always() && needs.build.result == 'success' && github.repository == 'core-ds/ui-primitives' }}
         needs: build
         runs-on: ubuntu-latest
         outputs:
