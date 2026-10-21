@@ -1,0 +1,1 @@
+# @alfalab/icons-logotype

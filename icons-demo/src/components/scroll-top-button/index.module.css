@@ -1,0 +1,13 @@
+.button.button {
+    position: fixed;
+    right: var(--side-gap);
+    bottom: var(--gap-3xl);
+    background-color: var(--color-light-bg-primary-inverted);
+    border-radius: var(--border-radius-circle);
+    opacity: 0;
+    transition: opacity 0.3s ease;
+}
+
+.appear.appear {
+    opacity: 1;
+}

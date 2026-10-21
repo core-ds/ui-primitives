@@ -2,39 +2,43 @@ name: export typography
 
 on: workflow_dispatch
 
+permissions: {} # each job should define its own permission explicitly
+
 jobs:
     export:
         runs-on: ubuntu-latest
         if: ${{ github.repository == 'core-ds/ui-primitives' }}
         steps:
-            - uses: actions/checkout@v5
+            - name: Create app token
+              uses: actions/create-github-app-token@v3
+              id: app-token
               with:
-                  token: ${{ secrets.GITHUB_TOKEN }}
+                  client-id: ${{ vars.APP_ID }}
+                  private-key: ${{ secrets.APP_PRIVATE_KEY }}
+                  permission-contents: write # to create version commits (changesets/action)
+                  permission-pull-requests: write # to create pull request (changesets/action)
 
-            - uses: actions/setup-node@v6
+            - name: Checkout
+              uses: actions/checkout@v7
               with:
-                  node-version: 24
-                  cache: npm
+                  token: ${{ steps.app-token.outputs.token }}
 
-            - name: install dependencies
-              shell: bash
+            - name: Setup CI
+              uses: $/.github/actions/ci-setup
+
+            - name: Bootstrap
               run: |
-                  npm ci
+                  yarn bootstrap
 
-            - name: build scripts
-              shell: bash
-              run: |
-                  npm run build
-
-            - uses: actions/github-script@v8
+            - uses: actions/github-script@v9
               env:
                   FIGMA_TOKEN: ${{ secrets.FIGMA_TOKEN }}
                   WEB_TYPOGRAPHY_FILE_KEYS: ${{ secrets.WEB_TYPOGRAPHY_FILE_KEYS }}
                   ANDROID_TYPOGRAPHY_FILE_KEYS: ${{ secrets.ANDROID_TYPOGRAPHY_FILE_KEYS }}
                   IOS_TYPOGRAPHY_FILE_KEYS: ${{ secrets.IOS_TYPOGRAPHY_FILE_KEYS }}
               with:
-                  github-token: ${{ secrets.GITHUB_TOKEN }}
+                  github-token: ${{ steps.app-token.outputs.token }}
                   script: |
-                      const { default: main } = await import('${{ github.workspace }}/dist/bin-export-typography.mjs');
+                      const { default: main } = await import('${{ github.workspace }}/scripts/export-typography/dist/index.mjs');
 
                       await main({ github, context, core, glob, io, exec });

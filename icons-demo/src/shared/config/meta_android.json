@@ -1,0 +1,172 @@
+{
+    "AlfaScoresMIcon": {
+        "description": "альфа-баллы",
+        "android": "alfa_scores_m",
+        "middle": "alfa-scores_m"
+    },
+    "ArrowLeftCurvedBoldMIcon": {
+        "description": "большая стрелка влево, big arrow left",
+        "android": "arrow_left_curved_bold_m",
+        "middle": "arrow-left-curved-bold_m"
+    },
+    "ArrowLeftMIcon": {
+        "description": "стрелка влево, стрелка назад, back",
+        "android": "arrow_left_m",
+        "middle": "arrow-left_m"
+    },
+    "BackspaceMIcon": {
+        "description": "удалить, очистить",
+        "android": "backspace_m",
+        "middle": "backspace_m"
+    },
+    "BynSquareMediumMIcon": {
+        "description": "белорусские рубли, зайчики, валюта, rounded",
+        "android": "byn_square_medium_m",
+        "middle": "byn-square-medium_m"
+    },
+    "ChevronDownMIcon": {
+        "description": "шеврон вниз, шеврон, стрелка вниз, arrow, стрелка",
+        "android": "chevron_down_m",
+        "middle": "chevron-down_m"
+    },
+    "ChfSquareMediumMIcon": {
+        "description": "швейцарский франк, валюта, rounded",
+        "android": "chf_square_medium_m",
+        "middle": "chf-square-medium_m"
+    },
+    "ChfMIcon": {
+        "description": "швейцарский франк, валюта",
+        "android": "chf_m",
+        "middle": "chf_m"
+    },
+    "CnySquareMediumMIcon": {
+        "description": "китайские йены, валюта, rounded",
+        "android": "cny_square_medium_m",
+        "middle": "cny-square-medium_m"
+    },
+    "CopyLineMIcon": {
+        "description": "копировать, скопировать, обводка",
+        "android": "copy_line_m",
+        "middle": "copy-line_m"
+    },
+    "CopyMIcon": {
+        "description": "копировать, скопировать",
+        "android": "copy_m",
+        "middle": "copy_m"
+    },
+    "CrossMIcon": {
+        "description": "закрыть, крестик, cross, remove",
+        "android": "cross_m",
+        "middle": "cross_m"
+    },
+    "DevicesMIcon": {
+        "description": "устройства, девайсы, ноутбук, телефон",
+        "android": "devices_m",
+        "middle": "devices_m"
+    },
+    "DotsVerticalCompactMIcon": {
+        "description": "more, ещё, действия, kebab",
+        "android": "dots_vertical_compact_m",
+        "middle": "dots-vertical-compact_m"
+    },
+    "EurSquareMediumMIcon": {
+        "description": "евро, euro, валюта, rounded",
+        "android": "eur_square_medium_m",
+        "middle": "eur-square-medium_m"
+    },
+    "EurMIcon": {
+        "description": "евро, euro, валюта",
+        "android": "eur_m",
+        "middle": "eur_m"
+    },
+    "GbpSquareMediumMIcon": {
+        "description": "фунт стерлингов, funt, валюта, rounded",
+        "android": "gbp_square_medium_m",
+        "middle": "gbp-square-medium_m"
+    },
+    "GbpMIcon": {
+        "description": "фунт стерлингов, funt, валюта, rounded",
+        "android": "gbp_m",
+        "middle": "gbp_m"
+    },
+    "GelSquareMediumMIcon": {
+        "description": "лари, валюта, rounded",
+        "android": "gel_square_medium_m",
+        "middle": "gel-square-medium_m"
+    },
+    "JpySquareMediumMIcon": {
+        "description": "иена, японская иена, валюта, rounded",
+        "android": "jpy_square_medium_m",
+        "middle": "jpy-square-medium_m"
+    },
+    "KztSquareMediumMIcon": {
+        "description": "казахстанский тенге, валюта, rounded",
+        "android": "kzt_square_medium_m",
+        "middle": "kzt-square-medium_m"
+    },
+    "LinesTwoMIcon": {
+        "description": "bars, список, меню, бургер, menu, burger",
+        "android": "lines_two_m",
+        "middle": "lines-two_m"
+    },
+    "PauseMIcon": {
+        "description": "выключить, остановить, пауза, поставить на паузу",
+        "android": "pause_m",
+        "middle": "pause_m"
+    },
+    "PipEnterMIcon": {
+        "description": "картинка в картинке, picture in picture",
+        "android": "pip_enter_m",
+        "middle": "pip-enter_m"
+    },
+    "PipExitMIcon": {
+        "description": "выйти из режиме картинка в картинке, exit picture in picture",
+        "android": "pip_exit_m",
+        "middle": "pip-exit_m"
+    },
+    "PlayMIcon": {
+        "description": "video, возобновить, играть, включить, продолжить",
+        "android": "play_m",
+        "middle": "play_m"
+    },
+    "RefreshMIcon": {
+        "description": "повторить, обновить, repeat, перезагрузить, повернуть, перевернуть, refresh, стрелки, круг, компактная",
+        "android": "refresh_m",
+        "middle": "refresh_m"
+    },
+    "RubDigitalSquareMediumMIcon": {
+        "description": "рубль, диджитал, валюта",
+        "android": "rub_digital_square_medium_m",
+        "middle": "rub-digital-square-medium_m"
+    },
+    "RubSquareMediumMIcon": {
+        "description": "рубль, валюта, rounded",
+        "android": "rub_square_medium_m",
+        "middle": "rub-square-medium_m"
+    },
+    "RubMIcon": {
+        "description": "рубль, валюта",
+        "android": "rub_m",
+        "middle": "rub_m"
+    },
+    "ShareMIcon": {
+        "description": "поделиться",
+        "android": "share_m",
+        "middle": "share_m"
+    },
+    "TrySquareMediumMIcon": {
+        "description": "лира, валюта, rounded",
+        "android": "try_square_medium_m",
+        "middle": "try-square-medium_m"
+    },
+    "UsdSquareMediumMIcon": {
+        "description": "usd, доллар, dollar, валюта, rounded",
+        "android": "usd_square_medium_m",
+        "middle": "usd-square-medium_m"
+    },
+    "UsdMIcon": {
+        "description": "usd, доллар, dollar, валюта",
+        "android": "usd_m",
+        "middle": "usd_m"
+    }
+}

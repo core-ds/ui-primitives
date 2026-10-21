@@ -1,0 +1,502 @@
+{
+    "ArcLineMIcon": {
+        "description": "арка, дуги",
+        "web": "ArcLineMIcon",
+        "webComponent": "import { ArcLineMIcon } from '@alfalab/icons-invest/ArcLineMIcon';",
+        "android": "invest_arc_line_m",
+        "ios": "invest_arcLine_m",
+        "middle": "invest_arc-line_m",
+        "cdn": "invest_arc-line_m",
+        "url": "https://alfabank.servicecdn.ru/icons/invest_arc-line_m.svg"
+    },
+    "ArcLineSIcon": {
+        "description": "арка, дуги",
+        "web": "ArcLineSIcon",
+        "webComponent": "import { ArcLineSIcon } from '@alfalab/icons-invest/ArcLineSIcon';",
+        "android": "invest_arc_line_s",
+        "ios": "invest_arcLine_s",
+        "middle": "invest_arc-line_s",
+        "cdn": "invest_arc-line_s",
+        "url": "https://alfabank.servicecdn.ru/icons/invest_arc-line_s.svg"
+    },
+    "ArcMIcon": {
+        "description": "арка фибоначчи, fib arc, дуги",
+        "web": "ArcMIcon",
+        "webComponent": "import { ArcMIcon } from '@alfalab/icons-invest/ArcMIcon';",
+        "android": "invest_arc_m",
+        "ios": "invest_arc_m",
+        "middle": "invest_arc_m",
+        "cdn": "invest_arc_m",
+        "url": "https://alfabank.servicecdn.ru/icons/invest_arc_m.svg"
+    },
+    "ArcSIcon": {
+        "description": "арка фибоначчи, fib arc, дуги",
+        "web": "ArcSIcon",
+        "webComponent": "import { ArcSIcon } from '@alfalab/icons-invest/ArcSIcon';",
+        "android": "invest_arc_s",
+        "ios": "invest_arc_s",
+        "middle": "invest_arc_s",
+        "cdn": "invest_arc_s",
+        "url": "https://alfabank.servicecdn.ru/icons/invest_arc_s.svg"
+    },
+    "CrossSquareMIcon": {
+        "description": "перекрестье, крест, прицел",
+        "web": "CrossSquareMIcon",
+        "webComponent": "import { CrossSquareMIcon } from '@alfalab/icons-invest/CrossSquareMIcon';",
+        "android": "invest_cross_square_m",
+        "ios": "invest_crossSquare_m",
+        "middle": "invest_cross-square_m",
+        "cdn": "invest_cross-square_m",
+        "url": "https://alfabank.servicecdn.ru/icons/invest_cross-square_m.svg"
+    },
+    "CrossSquareSIcon": {
+        "description": "перекрестье, крест, прицел",
+        "web": "CrossSquareSIcon",
+        "webComponent": "import { CrossSquareSIcon } from '@alfalab/icons-invest/CrossSquareSIcon';",
+        "android": "invest_cross_square_s",
+        "ios": "invest_crossSquare_s",
+        "middle": "invest_cross-square_s",
+        "cdn": "invest_cross-square_s",
+        "url": "https://alfabank.servicecdn.ru/icons/invest_cross-square_s.svg"
+    },
+    "EllipseMIcon": {
+        "description": "овал, элипс, эллипс, oval",
+        "web": "EllipseMIcon",
+        "webComponent": "import { EllipseMIcon } from '@alfalab/icons-invest/EllipseMIcon';",
+        "android": "invest_ellipse_m",
+        "ios": "invest_ellipse_m",
+        "middle": "invest_ellipse_m",
+        "cdn": "invest_ellipse_m",
+        "url": "https://alfabank.servicecdn.ru/icons/invest_ellipse_m.svg"
+    },
+    "EllipseSIcon": {
+        "description": "овал, элипс, эллипс, oval",
+        "web": "EllipseSIcon",
+        "webComponent": "import { EllipseSIcon } from '@alfalab/icons-invest/EllipseSIcon';",
+        "android": "invest_ellipse_s",
+        "ios": "invest_ellipse_s",
+        "middle": "invest_ellipse_s",
+        "cdn": "invest_ellipse_s",
+        "url": "https://alfabank.servicecdn.ru/icons/invest_ellipse_s.svg"
+    },
+    "FanDownMIcon": {
+        "description": "веер вниз",
+        "web": "FanDownMIcon",
+        "webComponent": "import { FanDownMIcon } from '@alfalab/icons-invest/FanDownMIcon';",
+        "android": "invest_fan_down_m",
+        "ios": "invest_fanDown_m",
+        "middle": "invest_fan-down_m",
+        "cdn": "invest_fan-down_m",
+        "url": "https://alfabank.servicecdn.ru/icons/invest_fan-down_m.svg"
+    },
+    "FanDownSIcon": {
+        "description": "веер вниз",
+        "web": "FanDownSIcon",
+        "webComponent": "import { FanDownSIcon } from '@alfalab/icons-invest/FanDownSIcon';",
+        "android": "invest_fan_down_s",
+        "ios": "invest_fanDown_s",
+        "middle": "invest_fan-down_s",
+        "cdn": "invest_fan-down_s",
+        "url": "https://alfabank.servicecdn.ru/icons/invest_fan-down_s.svg"
+    },
+    "FanUpMIcon": {
+        "description": "веер вверх",
+        "web": "FanUpMIcon",
+        "webComponent": "import { FanUpMIcon } from '@alfalab/icons-invest/FanUpMIcon';",
+        "android": "invest_fan_up_m",
+        "ios": "invest_fanUp_m",
+        "middle": "invest_fan-up_m",
+        "cdn": "invest_fan-up_m",
+        "url": "https://alfabank.servicecdn.ru/icons/invest_fan-up_m.svg"
+    },
+    "FanUpSIcon": {
+        "description": "веер вверх",
+        "web": "FanUpSIcon",
+        "webComponent": "import { FanUpSIcon } from '@alfalab/icons-invest/FanUpSIcon';",
+        "android": "invest_fan_up_s",
+        "ios": "invest_fanUp_s",
+        "middle": "invest_fan-up_s",
+        "cdn": "invest_fan-up_s",
+        "url": "https://alfabank.servicecdn.ru/icons/invest_fan-up_s.svg"
+    },
+    "LineBubbleMIcon": {
+        "description": "линия, подпись, подсказка",
+        "web": "LineBubbleMIcon",
+        "webComponent": "import { LineBubbleMIcon } from '@alfalab/icons-invest/LineBubbleMIcon';",
+        "android": "invest_line_bubble_m",
+        "ios": "invest_lineBubble_m",
+        "middle": "invest_line-bubble_m",
+        "cdn": "invest_line-bubble_m",
+        "url": "https://alfabank.servicecdn.ru/icons/invest_line-bubble_m.svg"
+    },
+    "LineBubbleSIcon": {
+        "description": "линия, подпись, подсказка",
+        "web": "LineBubbleSIcon",
+        "webComponent": "import { LineBubbleSIcon } from '@alfalab/icons-invest/LineBubbleSIcon';",
+        "android": "invest_line_bubble_s",
+        "ios": "invest_lineBubble_s",
+        "middle": "invest_line-bubble_s",
+        "cdn": "invest_line-bubble_s",
+        "url": "https://alfabank.servicecdn.ru/icons/invest_line-bubble_s.svg"
+    },
+    "LineDateRangeMIcon": {
+        "description": "линия, диапазон цены и времени",
+        "web": "LineDateRangeMIcon",
+        "webComponent": "import { LineDateRangeMIcon } from '@alfalab/icons-invest/LineDateRangeMIcon';",
+        "android": "invest_line_date_range_m",
+        "ios": "invest_lineDateRange_m",
+        "middle": "invest_line-date-range_m",
+        "cdn": "invest_line-date-range_m",
+        "url": "https://alfabank.servicecdn.ru/icons/invest_line-date-range_m.svg"
+    },
+    "LineDateRangeSIcon": {
+        "description": "линия, диапазон цены и времени",
+        "web": "LineDateRangeSIcon",
+        "webComponent": "import { LineDateRangeSIcon } from '@alfalab/icons-invest/LineDateRangeSIcon';",
+        "android": "invest_line_date_range_s",
+        "ios": "invest_lineDateRange_s",
+        "middle": "invest_line-date-range_s",
+        "cdn": "invest_line-date-range_s",
+        "url": "https://alfabank.servicecdn.ru/icons/invest_line-date-range_s.svg"
+    },
+    "LineDoodleMIcon": {
+        "description": "линия, произвольная",
+        "web": "LineDoodleMIcon",
+        "webComponent": "import { LineDoodleMIcon } from '@alfalab/icons-invest/LineDoodleMIcon';",
+        "android": "invest_line_doodle_m",
+        "ios": "invest_lineDoodle_m",
+        "middle": "invest_line-doodle_m",
+        "cdn": "invest_line-doodle_m",
+        "url": "https://alfabank.servicecdn.ru/icons/invest_line-doodle_m.svg"
+    },
+    "LineDoodleSIcon": {
+        "description": "линия, произвольная",
+        "web": "LineDoodleSIcon",
+        "webComponent": "import { LineDoodleSIcon } from '@alfalab/icons-invest/LineDoodleSIcon';",
+        "android": "invest_line_doodle_s",
+        "ios": "invest_lineDoodle_s",
+        "middle": "invest_line-doodle_s",
+        "cdn": "invest_line-doodle_s",
+        "url": "https://alfabank.servicecdn.ru/icons/invest_line-doodle_s.svg"
+    },
+    "LineDownMIcon": {
+        "description": "линия вниз",
+        "web": "LineDownMIcon",
+        "webComponent": "import { LineDownMIcon } from '@alfalab/icons-invest/LineDownMIcon';",
+        "android": "invest_line_down_m",
+        "ios": "invest_lineDown_m",
+        "middle": "invest_line-down_m",
+        "cdn": "invest_line-down_m",
+        "url": "https://alfabank.servicecdn.ru/icons/invest_line-down_m.svg"
+    },
+    "LineDownSIcon": {
+        "description": "линия вниз",
+        "web": "LineDownSIcon",
+        "webComponent": "import { LineDownSIcon } from '@alfalab/icons-invest/LineDownSIcon';",
+        "android": "invest_line_down_s",
+        "ios": "invest_lineDown_s",
+        "middle": "invest_line-down_s",
+        "cdn": "invest_line-down_s",
+        "url": "https://alfabank.servicecdn.ru/icons/invest_line-down_s.svg"
+    },
+    "LineExtendedMIcon": {
+        "description": "прямая, удлиненная линия",
+        "web": "LineExtendedMIcon",
+        "webComponent": "import { LineExtendedMIcon } from '@alfalab/icons-invest/LineExtendedMIcon';",
+        "android": "invest_line_extended_m",
+        "ios": "invest_lineExtended_m",
+        "middle": "invest_line-extended_m",
+        "cdn": "invest_line-extended_m",
+        "url": "https://alfabank.servicecdn.ru/icons/invest_line-extended_m.svg"
+    },
+    "LineExtendedSIcon": {
+        "description": "прямая, удлиненная линия",
+        "web": "LineExtendedSIcon",
+        "webComponent": "import { LineExtendedSIcon } from '@alfalab/icons-invest/LineExtendedSIcon';",
+        "android": "invest_line_extended_s",
+        "ios": "invest_lineExtended_s",
+        "middle": "invest_line-extended_s",
+        "cdn": "invest_line-extended_s",
+        "url": "https://alfabank.servicecdn.ru/icons/invest_line-extended_s.svg"
+    },
+    "LineRangeInclinedMIcon": {
+        "description": "линия, отрезок, диапазон",
+        "web": "LineRangeInclinedMIcon",
+        "webComponent": "import { LineRangeInclinedMIcon } from '@alfalab/icons-invest/LineRangeInclinedMIcon';",
+        "android": "invest_line_range_inclined_m",
+        "ios": "invest_lineRangeInclined_m",
+        "middle": "invest_line-range-inclined_m",
+        "cdn": "invest_line-range-inclined_m",
+        "url": "https://alfabank.servicecdn.ru/icons/invest_line-range-inclined_m.svg"
+    },
+    "LineRangeInclinedSIcon": {
+        "description": "линия, отрезок, диапазон",
+        "web": "LineRangeInclinedSIcon",
+        "webComponent": "import { LineRangeInclinedSIcon } from '@alfalab/icons-invest/LineRangeInclinedSIcon';",
+        "android": "invest_line_range_inclined_s",
+        "ios": "invest_lineRangeInclined_s",
+        "middle": "invest_line-range-inclined_s",
+        "cdn": "invest_line-range-inclined_s",
+        "url": "https://alfabank.servicecdn.ru/icons/invest_line-range-inclined_s.svg"
+    },
+    "LineRayMIcon": {
+        "description": "линия, луч",
+        "web": "LineRayMIcon",
+        "webComponent": "import { LineRayMIcon } from '@alfalab/icons-invest/LineRayMIcon';",
+        "android": "invest_line_ray_m",
+        "ios": "invest_lineRay_m",
+        "middle": "invest_line-ray_m",
+        "cdn": "invest_line-ray_m",
+        "url": "https://alfabank.servicecdn.ru/icons/invest_line-ray_m.svg"
+    },
+    "LineRaySIcon": {
+        "description": "линия, луч",
+        "web": "LineRaySIcon",
+        "webComponent": "import { LineRaySIcon } from '@alfalab/icons-invest/LineRaySIcon';",
+        "android": "invest_line_ray_s",
+        "ios": "invest_lineRay_s",
+        "middle": "invest_line-ray_s",
+        "cdn": "invest_line-ray_s",
+        "url": "https://alfabank.servicecdn.ru/icons/invest_line-ray_s.svg"
+    },
+    "LineSegmentRangeMIcon": {
+        "description": "линия, отрезок, диапазон",
+        "web": "LineSegmentRangeMIcon",
+        "webComponent": "import { LineSegmentRangeMIcon } from '@alfalab/icons-invest/LineSegmentRangeMIcon';",
+        "android": "invest_line_segment_range_m",
+        "ios": "invest_lineSegmentRange_m",
+        "middle": "invest_line-segment-range_m",
+        "cdn": "invest_line-segment-range_m",
+        "url": "https://alfabank.servicecdn.ru/icons/invest_line-segment-range_m.svg"
+    },
+    "LineSegmentRangeSIcon": {
+        "description": "линия, отрезок, диапазон",
+        "web": "LineSegmentRangeSIcon",
+        "webComponent": "import { LineSegmentRangeSIcon } from '@alfalab/icons-invest/LineSegmentRangeSIcon';",
+        "android": "invest_line_segment_range_s",
+        "ios": "invest_lineSegmentRange_s",
+        "middle": "invest_line-segment-range_s",
+        "cdn": "invest_line-segment-range_s",
+        "url": "https://alfabank.servicecdn.ru/icons/invest_line-segment-range_s.svg"
+    },
+    "LineSegmentMIcon": {
+        "description": "линия, отрезок, линия тренда",
+        "web": "LineSegmentMIcon",
+        "webComponent": "import { LineSegmentMIcon } from '@alfalab/icons-invest/LineSegmentMIcon';",
+        "android": "invest_line_segment_m",
+        "ios": "invest_lineSegment_m",
+        "middle": "invest_line-segment_m",
+        "cdn": "invest_line-segment_m",
+        "url": "https://alfabank.servicecdn.ru/icons/invest_line-segment_m.svg"
+    },
+    "LineSegmentSIcon": {
+        "description": "линия, отрезок, линия тренда",
+        "web": "LineSegmentSIcon",
+        "webComponent": "import { LineSegmentSIcon } from '@alfalab/icons-invest/LineSegmentSIcon';",
+        "android": "invest_line_segment_s",
+        "ios": "invest_lineSegment_s",
+        "middle": "invest_line-segment_s",
+        "cdn": "invest_line-segment_s",
+        "url": "https://alfabank.servicecdn.ru/icons/invest_line-segment_s.svg"
+    },
+    "LineUpSIcon": {
+        "description": "ломаная линия, линия вверх",
+        "web": "LineUpSIcon",
+        "webComponent": "import { LineUpSIcon } from '@alfalab/icons-invest/LineUpSIcon';",
+        "android": "invest_line_up_s",
+        "ios": "invest_lineUp_s",
+        "middle": "invest_line-up_s",
+        "cdn": "invest_line-up_s",
+        "url": "https://alfabank.servicecdn.ru/icons/invest_line-up_s.svg"
+    },
+    "LinesChannelMIcon": {
+        "description": "линии, канал, тренд",
+        "web": "LinesChannelMIcon",
+        "webComponent": "import { LinesChannelMIcon } from '@alfalab/icons-invest/LinesChannelMIcon';",
+        "android": "invest_lines_channel_m",
+        "ios": "invest_linesChannel_m",
+        "middle": "invest_lines-channel_m",
+        "cdn": "invest_lines-channel_m",
+        "url": "https://alfabank.servicecdn.ru/icons/invest_lines-channel_m.svg"
+    },
+    "LinesChannelSIcon": {
+        "description": "линии, канал, тренд",
+        "web": "LinesChannelSIcon",
+        "webComponent": "import { LinesChannelSIcon } from '@alfalab/icons-invest/LinesChannelSIcon';",
+        "android": "invest_lines_channel_s",
+        "ios": "invest_linesChannel_s",
+        "middle": "invest_lines-channel_s",
+        "cdn": "invest_lines-channel_s",
+        "url": "https://alfabank.servicecdn.ru/icons/invest_lines-channel_s.svg"
+    },
+    "LinesCrossMIcon": {
+        "description": "крест, пересеченные линии",
+        "web": "LinesCrossMIcon",
+        "webComponent": "import { LinesCrossMIcon } from '@alfalab/icons-invest/LinesCrossMIcon';",
+        "android": "invest_lines_cross_m",
+        "ios": "invest_linesCross_m",
+        "middle": "invest_lines-cross_m",
+        "cdn": "invest_lines-cross_m",
+        "url": "https://alfabank.servicecdn.ru/icons/invest_lines-cross_m.svg"
+    },
+    "LinesCrossSIcon": {
+        "description": "крест, пересеченные линии",
+        "web": "LinesCrossSIcon",
+        "webComponent": "import { LinesCrossSIcon } from '@alfalab/icons-invest/LinesCrossSIcon';",
+        "android": "invest_lines_cross_s",
+        "ios": "invest_linesCross_s",
+        "middle": "invest_lines-cross_s",
+        "cdn": "invest_lines-cross_s",
+        "url": "https://alfabank.servicecdn.ru/icons/invest_lines-cross_s.svg"
+    },
+    "LinesPitchforkMIcon": {
+        "description": "линии, вилы",
+        "web": "LinesPitchforkMIcon",
+        "webComponent": "import { LinesPitchforkMIcon } from '@alfalab/icons-invest/LinesPitchforkMIcon';",
+        "android": "invest_lines_pitchfork_m",
+        "ios": "invest_linesPitchfork_m",
+        "middle": "invest_lines-pitchfork_m",
+        "cdn": "invest_lines-pitchfork_m",
+        "url": "https://alfabank.servicecdn.ru/icons/invest_lines-pitchfork_m.svg"
+    },
+    "LinesPitchforkSIcon": {
+        "description": "линии, вилы",
+        "web": "LinesPitchforkSIcon",
+        "webComponent": "import { LinesPitchforkSIcon } from '@alfalab/icons-invest/LinesPitchforkSIcon';",
+        "android": "invest_lines_pitchfork_s",
+        "ios": "invest_linesPitchfork_s",
+        "middle": "invest_lines-pitchfork_s",
+        "cdn": "invest_lines-pitchfork_s",
+        "url": "https://alfabank.servicecdn.ru/icons/invest_lines-pitchfork_s.svg"
+    },
+    "LinesTimecycleMIcon": {
+        "description": "линии, время цикл",
+        "web": "LinesTimecycleMIcon",
+        "webComponent": "import { LinesTimecycleMIcon } from '@alfalab/icons-invest/LinesTimecycleMIcon';",
+        "android": "invest_lines_timecycle_m",
+        "ios": "invest_linesTimecycle_m",
+        "middle": "invest_lines-timecycle_m",
+        "cdn": "invest_lines-timecycle_m",
+        "url": "https://alfabank.servicecdn.ru/icons/invest_lines-timecycle_m.svg"
+    },
+    "LinesTimecycleSIcon": {
+        "description": "линии, время цикл",
+        "web": "LinesTimecycleSIcon",
+        "webComponent": "import { LinesTimecycleSIcon } from '@alfalab/icons-invest/LinesTimecycleSIcon';",
+        "android": "invest_lines_timecycle_s",
+        "ios": "invest_linesTimecycle_s",
+        "middle": "invest_lines-timecycle_s",
+        "cdn": "invest_lines-timecycle_s",
+        "url": "https://alfabank.servicecdn.ru/icons/invest_lines-timecycle_s.svg"
+    },
+    "LinesTrendSIcon": {
+        "description": "линии, тренд, тенденция",
+        "web": "LinesTrendSIcon",
+        "webComponent": "import { LinesTrendSIcon } from '@alfalab/icons-invest/LinesTrendSIcon';",
+        "android": "invest_lines_trend_s",
+        "ios": "invest_linesTrend_s",
+        "middle": "invest_lines-trend_s",
+        "cdn": "invest_lines-trend_s",
+        "url": "https://alfabank.servicecdn.ru/icons/invest_lines-trend_s.svg"
+    },
+    "ListAscRightMIcon": {
+        "description": "линии, сортировка",
+        "web": "ListAscRightMIcon",
+        "webComponent": "import { ListAscRightMIcon } from '@alfalab/icons-invest/ListAscRightMIcon';",
+        "android": "invest_list_asc_right_m",
+        "ios": "invest_listAscRight_m",
+        "middle": "invest_list-asc-right_m",
+        "cdn": "invest_list-asc-right_m",
+        "url": "https://alfabank.servicecdn.ru/icons/invest_list-asc-right_m.svg"
+    },
+    "ListAscRightSIcon": {
+        "description": "линии, сортировка",
+        "web": "ListAscRightSIcon",
+        "webComponent": "import { ListAscRightSIcon } from '@alfalab/icons-invest/ListAscRightSIcon';",
+        "android": "invest_list_asc_right_s",
+        "ios": "invest_listAscRight_s",
+        "middle": "invest_list-asc-right_s",
+        "cdn": "invest_list-asc-right_s",
+        "url": "https://alfabank.servicecdn.ru/icons/invest_list-asc-right_s.svg"
+    },
+    "RectangleMIcon": {
+        "description": "прямоугольник, фигура, figure",
+        "web": "RectangleMIcon",
+        "webComponent": "import { RectangleMIcon } from '@alfalab/icons-invest/RectangleMIcon';",
+        "android": "invest_rectangle_m",
+        "ios": "invest_rectangle_m",
+        "middle": "invest_rectangle_m",
+        "cdn": "invest_rectangle_m",
+        "url": "https://alfabank.servicecdn.ru/icons/invest_rectangle_m.svg"
+    },
+    "RectangleSIcon": {
+        "description": "прямоугольник, фигура, figure",
+        "web": "RectangleSIcon",
+        "webComponent": "import { RectangleSIcon } from '@alfalab/icons-invest/RectangleSIcon';",
+        "android": "invest_rectangle_s",
+        "ios": "invest_rectangle_s",
+        "middle": "invest_rectangle_s",
+        "cdn": "invest_rectangle_s",
+        "url": "https://alfabank.servicecdn.ru/icons/invest_rectangle_s.svg"
+    },
+    "RulerSIcon": {
+        "description": "линейка",
+        "web": "RulerSIcon",
+        "webComponent": "import { RulerSIcon } from '@alfalab/icons-invest/RulerSIcon';",
+        "android": "invest_ruler_s",
+        "ios": "invest_ruler_s",
+        "middle": "invest_ruler_s",
+        "cdn": "invest_ruler_s",
+        "url": "https://alfabank.servicecdn.ru/icons/invest_ruler_s.svg"
+    },
+    "SquareDividedFourMIcon": {
+        "description": "квадрат, разделённый на четыре",
+        "web": "SquareDividedFourMIcon",
+        "webComponent": "import { SquareDividedFourMIcon } from '@alfalab/icons-invest/SquareDividedFourMIcon';",
+        "android": "invest_square_divided_four_m",
+        "ios": "invest_squareDividedFour_m",
+        "middle": "invest_square-divided-four_m",
+        "cdn": "invest_square-divided-four_m",
+        "url": "https://alfabank.servicecdn.ru/icons/invest_square-divided-four_m.svg"
+    },
+    "SquareDividedFourSIcon": {
+        "description": "квадрат, разделённый на четыре",
+        "web": "SquareDividedFourSIcon",
+        "webComponent": "import { SquareDividedFourSIcon } from '@alfalab/icons-invest/SquareDividedFourSIcon';",
+        "android": "invest_square_divided_four_s",
+        "ios": "invest_squareDividedFour_s",
+        "middle": "invest_square-divided-four_s",
+        "cdn": "invest_square-divided-four_s",
+        "url": "https://alfabank.servicecdn.ru/icons/invest_square-divided-four_s.svg"
+    },
+    "SquareDividedThreeMIcon": {
+        "description": "квадрат, разделённый на три",
+        "web": "SquareDividedThreeMIcon",
+        "webComponent": "import { SquareDividedThreeMIcon } from '@alfalab/icons-invest/SquareDividedThreeMIcon';",
+        "android": "invest_square_divided_three_m",
+        "ios": "invest_squareDividedThree_m",
+        "middle": "invest_square-divided-three_m",
+        "cdn": "invest_square-divided-three_m",
+        "url": "https://alfabank.servicecdn.ru/icons/invest_square-divided-three_m.svg"
+    },
+    "SquareDividedThreeSIcon": {
+        "description": "квадрат, разделённый на три",
+        "web": "SquareDividedThreeSIcon",
+        "webComponent": "import { SquareDividedThreeSIcon } from '@alfalab/icons-invest/SquareDividedThreeSIcon';",
+        "android": "invest_square_divided_three_s",
+        "ios": "invest_squareDividedThree_s",
+        "middle": "invest_square-divided-three_s",
+        "cdn": "invest_square-divided-three_s",
+        "url": "https://alfabank.servicecdn.ru/icons/invest_square-divided-three_s.svg"
+    },
+    "TextSIcon": {
+        "description": "текст",
+        "web": "TextSIcon",
+        "webComponent": "import { TextSIcon } from '@alfalab/icons-invest/TextSIcon';",
+        "android": "invest_text_s",
+        "ios": "invest_text_s",
+        "middle": "invest_text_s",
+        "cdn": "invest_text_s",
+        "url": "https://alfabank.servicecdn.ru/icons/invest_text_s.svg"
+    }
+}
