@@ -23,8 +23,8 @@ jobs:
                   private-key: ${{ secrets.APP_PRIVATE_KEY }}
                   permission-contents: write
 
-            - name: Fetch SHA
-              id: sha
+            - name: Fetch ref
+              id: ref
               uses: actions/github-script@v9
               with:
                   github-token: ${{ steps.app-token.outputs.token }}
@@ -36,12 +36,12 @@ jobs:
                           pull_number: ${{ inputs.pull-request }},
                       });
 
-                      return data.head.sha;
+                      return data.head.ref;
 
             - name: Checkout
               uses: actions/checkout@v7
               with:
-                  ref: ${{ steps.sha.outputs.result }}
+                  ref: ${{ steps.ref.outputs.result }}
                   token: ${{ steps.app-token.outputs.token }}
 
             - name: Setup CI
