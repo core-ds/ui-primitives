@@ -137,10 +137,18 @@ jobs:
                   name: dist
                   path: ${{ runner.temp }}/dist
 
-            - name: Filesystem
+            - name: Clean
               run: |
                   rm -rf ${{ case(github.event_name == 'pull_request', github.event.pull_request.number, 'index.html build') }}
-                  cp -r ${{ runner.temp }}/dist/icons-demo/dist ${{ case(github.event_name == 'pull_request', github.event.pull_request.number, '.' ) }}
+
+            - name: Make directory
+              if: ${{ github.event_name == 'pull_request' }}
+              run: |
+                  mkdir ${{ github.event.pull_request.number }}
+
+            - name: Copy files
+              run: |
+                  cp -r ${{ runner.temp }}/dist/icons-demo/dist/* ${{ case(github.event_name == 'pull_request', github.event.pull_request.number, '.' ) }}
 
             - name: Commit and push
               uses: core-ds/ui-primitives/.github/actions/commit-and-push@master
