@@ -6149,6 +6149,36 @@
         "cdn": "glyph-26_chart-column-asc-line_24",
         "url": "https://alfabank.servicecdn.ru/icons/glyph-26_chart-column-asc-line_24.svg"
     },
+    "ChartColumnAscOutlineLine24Icon": {
+        "description": "",
+        "web": "ChartColumnAscOutlineLine24Icon",
+        "webComponent": "import { ChartColumnAscOutlineLine24Icon } from '@alfalab/icons-glyph-26/ChartColumnAscOutlineLine24Icon';",
+        "android": "glyph_26_chart_column_asc_outline_line_24",
+        "ios": "glyph26_chartColumnAscOutlineLine_24",
+        "middle": "glyph-26_chart-column-asc-outline-line_24",
+        "cdn": "glyph-26_chart-column-asc-outline-line_24",
+        "url": "https://alfabank.servicecdn.ru/icons/glyph-26_chart-column-asc-outline-line_24.svg"
+    },
+    "ChartColumnAscOutlineThinline20Icon": {
+        "description": "",
+        "web": "ChartColumnAscOutlineThinline20Icon",
+        "webComponent": "import { ChartColumnAscOutlineThinline20Icon } from '@alfalab/icons-glyph-26/ChartColumnAscOutlineThinline20Icon';",
+        "android": "glyph_26_chart_column_asc_outline_thinline_20",
+        "ios": "glyph26_chartColumnAscOutlineThinline_20",
+        "middle": "glyph-26_chart-column-asc-outline-thinline_20",
+        "cdn": "glyph-26_chart-column-asc-outline-thinline_20",
+        "url": "https://alfabank.servicecdn.ru/icons/glyph-26_chart-column-asc-outline-thinline_20.svg"
+    },
+    "ChartColumnAscOutline20Icon": {
+        "description": "",
+        "web": "ChartColumnAscOutline20Icon",
+        "webComponent": "import { ChartColumnAscOutline20Icon } from '@alfalab/icons-glyph-26/ChartColumnAscOutline20Icon';",
+        "android": "glyph_26_chart_column_asc_outline_20",
+        "ios": "glyph26_chartColumnAscOutline_20",
+        "middle": "glyph-26_chart-column-asc-outline_20",
+        "cdn": "glyph-26_chart-column-asc-outline_20",
+        "url": "https://alfabank.servicecdn.ru/icons/glyph-26_chart-column-asc-outline_20.svg"
+    },
     "ChartColumnAscThinline20Icon": {
         "description": "",
         "web": "ChartColumnAscThinline20Icon",
@@ -6178,6 +6208,66 @@
         "middle": "glyph-26_chart-column-line_24",
         "cdn": "glyph-26_chart-column-line_24",
         "url": "https://alfabank.servicecdn.ru/icons/glyph-26_chart-column-line_24.svg"
+    },
+    "ChartColumnOutlineLine24Icon": {
+        "description": "",
+        "web": "ChartColumnOutlineLine24Icon",
+        "webComponent": "import { ChartColumnOutlineLine24Icon } from '@alfalab/icons-glyph-26/ChartColumnOutlineLine24Icon';",
+        "android": "glyph_26_chart_column_outline_line_24",
+        "ios": "glyph26_chartColumnOutlineLine_24",
+        "middle": "glyph-26_chart-column-outline-line_24",
+        "cdn": "glyph-26_chart-column-outline-line_24",
+        "url": "https://alfabank.servicecdn.ru/icons/glyph-26_chart-column-outline-line_24.svg"
+    },
+    "ChartColumnOutlineThinline20Icon": {
+        "description": "",
+        "web": "ChartColumnOutlineThinline20Icon",
+        "webComponent": "import { ChartColumnOutlineThinline20Icon } from '@alfalab/icons-glyph-26/ChartColumnOutlineThinline20Icon';",
+        "android": "glyph_26_chart_column_outline_thinline_20",
+        "ios": "glyph26_chartColumnOutlineThinline_20",
+        "middle": "glyph-26_chart-column-outline-thinline_20",
+        "cdn": "glyph-26_chart-column-outline-thinline_20",
+        "url": "https://alfabank.servicecdn.ru/icons/glyph-26_chart-column-outline-thinline_20.svg"
+    },
+    "ChartColumnOutline20Icon": {
+        "description": "",
+        "web": "ChartColumnOutline20Icon",
+        "webComponent": "import { ChartColumnOutline20Icon } from '@alfalab/icons-glyph-26/ChartColumnOutline20Icon';",
+        "android": "glyph_26_chart_column_outline_20",
+        "ios": "glyph26_chartColumnOutline_20",
+        "middle": "glyph-26_chart-column-outline_20",
+        "cdn": "glyph-26_chart-column-outline_20",
+        "url": "https://alfabank.servicecdn.ru/icons/glyph-26_chart-column-outline_20.svg"
+    },
+    "ChartColumnStackedAscOutlineLine24Icon": {
+        "description": "",
+        "web": "ChartColumnStackedAscOutlineLine24Icon",
+        "webComponent": "import { ChartColumnStackedAscOutlineLine24Icon } from '@alfalab/icons-glyph-26/ChartColumnStackedAscOutlineLine24Icon';",
+        "android": "glyph_26_chart_column_stacked_asc_outline_line_24",
+        "ios": "glyph26_chartColumnStackedAscOutlineLine_24",
+        "middle": "glyph-26_chart-column-stacked-asc-outline-line_24",
+        "cdn": "glyph-26_chart-column-stacked-asc-outline-line_24",
+        "url": "https://alfabank.servicecdn.ru/icons/glyph-26_chart-column-stacked-asc-outline-line_24.svg"
+    },
+    "ChartColumnStackedAscOutlineThinline20Icon": {
+        "description": "",
+        "web": "ChartColumnStackedAscOutlineThinline20Icon",
+        "webComponent": "import { ChartColumnStackedAscOutlineThinline20Icon } from '@alfalab/icons-glyph-26/ChartColumnStackedAscOutlineThinline20Icon';",
+        "android": "glyph_26_chart_column_stacked_asc_outline_thinline_20",
+        "ios": "glyph26_chartColumnStackedAscOutlineThinline_20",
+        "middle": "glyph-26_chart-column-stacked-asc-outline-thinline_20",
+        "cdn": "glyph-26_chart-column-stacked-asc-outline-thinline_20",
+        "url": "https://alfabank.servicecdn.ru/icons/glyph-26_chart-column-stacked-asc-outline-thinline_20.svg"
+    },
+    "ChartColumnStackedAscOutline20Icon": {
+        "description": "",
+        "web": "ChartColumnStackedAscOutline20Icon",
+        "webComponent": "import { ChartColumnStackedAscOutline20Icon } from '@alfalab/icons-glyph-26/ChartColumnStackedAscOutline20Icon';",
+        "android": "glyph_26_chart_column_stacked_asc_outline_20",
+        "ios": "glyph26_chartColumnStackedAscOutline_20",
+        "middle": "glyph-26_chart-column-stacked-asc-outline_20",
+        "cdn": "glyph-26_chart-column-stacked-asc-outline_20",
+        "url": "https://alfabank.servicecdn.ru/icons/glyph-26_chart-column-stacked-asc-outline_20.svg"
     },
     "ChartColumnThinline20Icon": {
         "description": "",
@@ -21268,6 +21358,26 @@
         "middle": "glyph-26_usb-flash-drive-thinline_20",
         "cdn": "glyph-26_usb-flash-drive-thinline_20",
         "url": "https://alfabank.servicecdn.ru/icons/glyph-26_usb-flash-drive-thinline_20.svg"
+    },
+    "UsbFlashDrive20Icon": {
+        "description": "",
+        "web": "UsbFlashDrive20Icon",
+        "webComponent": "import { UsbFlashDrive20Icon } from '@alfalab/icons-glyph-26/UsbFlashDrive20Icon';",
+        "android": "glyph_26_usb_flash_drive_20",
+        "ios": "glyph26_usbFlashDrive_20",
+        "middle": "glyph-26_usb-flash-drive_20",
+        "cdn": "glyph-26_usb-flash-drive_20",
+        "url": "https://alfabank.servicecdn.ru/icons/glyph-26_usb-flash-drive_20.svg"
+    },
+    "UsbFlashDrive24Icon": {
+        "description": "",
+        "web": "UsbFlashDrive24Icon",
+        "webComponent": "import { UsbFlashDrive24Icon } from '@alfalab/icons-glyph-26/UsbFlashDrive24Icon';",
+        "android": "glyph_26_usb_flash_drive_24",
+        "ios": "glyph26_usbFlashDrive_24",
+        "middle": "glyph-26_usb-flash-drive_24",
+        "cdn": "glyph-26_usb-flash-drive_24",
+        "url": "https://alfabank.servicecdn.ru/icons/glyph-26_usb-flash-drive_24.svg"
     },
     "UsdBracketRoundedLine20Icon": {
         "description": "",
