@@ -32,5 +32,6 @@
         "prettier": "^3.9.9",
         "simple-git-hooks": "^2.14.0",
         "sort-package-json": "4.0.0"
-    }
+    },
+    "packageManager": "yarn@4.18.0"
 }
