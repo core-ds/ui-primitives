@@ -4,7 +4,7 @@
  */
 import React, { SVGProps } from 'react';
 
-export const Format1cMBlackIcon: React.FC<SVGProps<SVGSVGElement>> = (props) => (
+export const Format1CMBlackIcon: React.FC<SVGProps<SVGSVGElement>> = (props) => (
     <svg role="img" focusable="false" width="24" height="24" version="1" viewBox="0 0 24 24" {...props}>
         <path
             fill="#0B1F35"
@@ -21,4 +21,4 @@ export const Format1cMBlackIcon: React.FC<SVGProps<SVGSVGElement>> = (props) => 
     </svg>
 );
 
-export default Format1cMBlackIcon;
+export default Format1CMBlackIcon;

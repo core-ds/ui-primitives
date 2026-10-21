@@ -1084,8 +1084,8 @@ importers:
     scripts/svg-to-component:
         dependencies:
             camelcase:
-                specifier: ^9.0.0
-                version: 9.0.0
+                specifier: ^5.3.1
+                version: 5.3.1
             fs-extra:
                 specifier: ^11.4.1
                 version: 11.4.1
@@ -4384,12 +4384,12 @@ packages:
             }
         engines: { node: '>= 6' }
 
-    camelcase@9.0.0:
+    camelcase@5.3.1:
         resolution:
             {
-                integrity: sha512-TO9xmyXTZ9HUHI8M1OnvExxYB0eYVS/1e5s7IDMTAoIcwUd+aNcFODs6Xk83mobk0velyHFQgA1yIrvYc6wclw==,
+                integrity: sha512-L28STB170nwWS63UjtlEOE3dldQApaJXZkOI1uMFfzf3rRuPegHaHesyee+YxQ+W6SvRDQV6UrdOdRiR153wJg==,
             }
-        engines: { node: '>=20' }
+        engines: { node: '>=6' }
 
     can-use-dom@0.1.0:
         resolution:
@@ -12167,7 +12167,7 @@ snapshots:
 
     camelcase-css@2.0.1: {}
 
-    camelcase@9.0.0: {}
+    camelcase@5.3.1: {}
 
     can-use-dom@0.1.0: {}
 
