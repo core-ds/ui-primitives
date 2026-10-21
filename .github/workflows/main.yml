@@ -5,6 +5,9 @@ on:
     merge_group:
         branches:
             - master
+    push:
+        branches:
+            - master
 
 permissions:
     contents: read
