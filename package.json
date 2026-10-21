@@ -13,7 +13,7 @@
         "scripts/*"
     ],
     "scripts": {
-        "bootstrap": "pnpm -r run bootstrap",
+        "bootstrap": "pnpm -r run bootstrap && pnpm rebuild",
         "build": "pnpm -r --sequential run build",
         "clean": "pnpm -r run clean",
         "codegen": "pnpm -r run codegen && pnpm format",
