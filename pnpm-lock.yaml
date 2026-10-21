@@ -380,6 +380,9 @@ importers:
                 specifier: ^2.8.1
                 version: 2.8.1
         devDependencies:
+            '@alfalab/icons-tsconfig':
+                specifier: workspace:*
+                version: link:../tsconfig
             '@types/react':
                 specifier: ^19.3.0
                 version: 19.3.0
@@ -412,6 +415,9 @@ importers:
                 specifier: ^2.8.1
                 version: 2.8.1
         devDependencies:
+            '@alfalab/icons-tsconfig':
+                specifier: workspace:*
+                version: link:../tsconfig
             '@types/react':
                 specifier: ^19.3.0
                 version: 19.3.0
@@ -444,6 +450,9 @@ importers:
                 specifier: ^2.8.1
                 version: 2.8.1
         devDependencies:
+            '@alfalab/icons-tsconfig':
+                specifier: workspace:*
+                version: link:../tsconfig
             '@types/react':
                 specifier: ^19.3.0
                 version: 19.3.0
@@ -476,6 +485,9 @@ importers:
                 specifier: ^2.8.1
                 version: 2.8.1
         devDependencies:
+            '@alfalab/icons-tsconfig':
+                specifier: workspace:*
+                version: link:../tsconfig
             '@types/react':
                 specifier: ^19.3.0
                 version: 19.3.0
@@ -508,6 +520,9 @@ importers:
                 specifier: ^2.8.1
                 version: 2.8.1
         devDependencies:
+            '@alfalab/icons-tsconfig':
+                specifier: workspace:*
+                version: link:../tsconfig
             '@types/react':
                 specifier: ^19.3.0
                 version: 19.3.0
@@ -540,6 +555,9 @@ importers:
                 specifier: ^2.8.1
                 version: 2.8.1
         devDependencies:
+            '@alfalab/icons-tsconfig':
+                specifier: workspace:*
+                version: link:../tsconfig
             '@types/react':
                 specifier: ^19.3.0
                 version: 19.3.0
@@ -572,6 +590,9 @@ importers:
                 specifier: ^2.8.1
                 version: 2.8.1
         devDependencies:
+            '@alfalab/icons-tsconfig':
+                specifier: workspace:*
+                version: link:../tsconfig
             '@types/react':
                 specifier: ^19.3.0
                 version: 19.3.0
@@ -604,6 +625,9 @@ importers:
                 specifier: ^2.8.1
                 version: 2.8.1
         devDependencies:
+            '@alfalab/icons-tsconfig':
+                specifier: workspace:*
+                version: link:../tsconfig
             '@types/react':
                 specifier: ^19.3.0
                 version: 19.3.0
@@ -636,6 +660,9 @@ importers:
                 specifier: ^2.8.1
                 version: 2.8.1
         devDependencies:
+            '@alfalab/icons-tsconfig':
+                specifier: workspace:*
+                version: link:../tsconfig
             '@types/react':
                 specifier: ^19.3.0
                 version: 19.3.0
@@ -668,6 +695,9 @@ importers:
                 specifier: ^2.8.1
                 version: 2.8.1
         devDependencies:
+            '@alfalab/icons-tsconfig':
+                specifier: workspace:*
+                version: link:../tsconfig
             '@types/react':
                 specifier: ^19.3.0
                 version: 19.3.0
@@ -700,6 +730,9 @@ importers:
                 specifier: ^2.8.1
                 version: 2.8.1
         devDependencies:
+            '@alfalab/icons-tsconfig':
+                specifier: workspace:*
+                version: link:../tsconfig
             '@types/react':
                 specifier: ^19.3.0
                 version: 19.3.0
@@ -732,6 +765,9 @@ importers:
                 specifier: ^2.8.1
                 version: 2.8.1
         devDependencies:
+            '@alfalab/icons-tsconfig':
+                specifier: workspace:*
+                version: link:../tsconfig
             '@types/react':
                 specifier: ^19.3.0
                 version: 19.3.0
@@ -764,6 +800,9 @@ importers:
                 specifier: ^2.8.1
                 version: 2.8.1
         devDependencies:
+            '@alfalab/icons-tsconfig':
+                specifier: workspace:*
+                version: link:../tsconfig
             '@types/react':
                 specifier: ^19.3.0
                 version: 19.3.0
@@ -796,6 +835,9 @@ importers:
                 specifier: ^2.8.1
                 version: 2.8.1
         devDependencies:
+            '@alfalab/icons-tsconfig':
+                specifier: workspace:*
+                version: link:../tsconfig
             '@types/react':
                 specifier: ^19.3.0
                 version: 19.3.0
@@ -828,6 +870,9 @@ importers:
                 specifier: ^2.8.1
                 version: 2.8.1
         devDependencies:
+            '@alfalab/icons-tsconfig':
+                specifier: workspace:*
+                version: link:../tsconfig
             '@types/react':
                 specifier: ^19.3.0
                 version: 19.3.0
