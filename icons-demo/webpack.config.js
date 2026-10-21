@@ -1,6 +1,5 @@
 import path from 'node:path';
 import HtmlWebpackPlugin from 'html-webpack-plugin';
-import webpack from 'webpack';
 import { fileURLToPath } from 'node:url';
 import TerserWebpackPlugin from 'terser-webpack-plugin';
 
@@ -105,12 +104,6 @@ const config = {
         new HtmlWebpackPlugin({
             template: 'public/index.html',
             filename: 'index.html',
-        }),
-        new webpack.NormalModuleReplacementPlugin(/^@alfalab\/icons-*/, (resoveData) => {
-            resoveData.request = resoveData.request.replace(
-                /^@alfalab\/icons-([^/]+)\/(.*)/,
-                '@alfalab/icons-$1/dist/$2'
-            );
         }),
     ],
 };

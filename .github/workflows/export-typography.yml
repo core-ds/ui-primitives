@@ -28,7 +28,7 @@ jobs:
 
             - name: Bootstrap
               run: |
-                  yarn bootstrap
+                  pnpm bootstrap
 
             - uses: actions/github-script@v9
               env:

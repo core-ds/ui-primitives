@@ -13,14 +13,14 @@
         "scripts/*"
     ],
     "scripts": {
-        "bootstrap": "yarn workspaces foreach --all --parallel --topological-dev run bootstrap",
-        "build": "yarn workspaces foreach --all --parallel --topological-dev run build",
-        "clean": "yarn workspaces foreach --all --parallel --topological-dev run clean",
-        "codegen": "yarn workspaces foreach --all --topological-dev run codegen && yarn format",
+        "bootstrap": "pnpm -r run bootstrap",
+        "build": "pnpm -r --sequential run build",
+        "clean": "pnpm -r run clean",
+        "codegen": "pnpm -r run codegen && pnpm format",
         "format": "prettier --log-level silent --write \"./**/*.{ts,tsx,js,jsx,mjs,mts,cjs,cts,css,json,yml,md}\"",
-        "format-check": "prettier --check \"./**/*.{ts,tsx,js,jsx,mjs,mts,cjs,cts,css,json,yml,md}\"",
+        "format-check": "prettier --check \"./**/*.{ts,tsx,js,jsx,mjs,mts,cjs,cts,css,json,yml,yaml,md}\"",
         "lint": "lint-svg \"./icons/**/*.svg\" --exit-code 0",
-        "version-packages": "yarn changeset version && yarn format"
+        "version-packages": "changeset version && pnpm format"
     },
     "devDependencies": {
         "@changesets/changelog-github": "^1.0.1",
@@ -33,5 +33,5 @@
         "simple-git-hooks": "^2.14.0",
         "sort-package-json": "4.0.0"
     },
-    "packageManager": "yarn@4.18.0"
+    "packageManager": "pnpm@12.15.0"
 }
