@@ -319,6 +319,9 @@ importers:
             '@types/webpack-env':
                 specifier: ^1.18.8
                 version: 1.18.8
+            cross-env:
+                specifier: ^10.1.0
+                version: 10.1.0
             execa:
                 specifier: ^10.0.1
                 version: 10.2.0
@@ -2804,6 +2807,12 @@ packages:
         peerDependencies:
             react: '>=16.8.0'
 
+    '@epic-web/invariant@1.0.0':
+        resolution:
+            {
+                integrity: sha512-lrTPqgvfFQtR/eY/qkIzp98OGdNJu0m5ji3q/nJI8v3SXkRKEnWiOxMmbvcSoAIzv/cGiuvRy57k4suKQSAdwA==,
+            }
+
     '@fastify/busboy@2.1.1':
         resolution:
             {
@@ -4628,6 +4637,14 @@ packages:
                 integrity: sha512-N+jPR8ODTJIzAKmCtUglRSCQzMuDkB/saH1ZJfY1MDfXYMZbfsuih3GhpUEYeuTCDQLBr4GvKyHDwV0Y2Sd0gQ==,
             }
         engines: { node: '>=20' }
+
+    cross-env@10.1.0:
+        resolution:
+            {
+                integrity: sha512-GsYosgnACZTADcmEyJctkJIoqAhHjttw7RsFrVoJNXbsWWqaq6Ym+7kZjq6mS45O0jij6vtiReppKQEtqWy6Dw==,
+            }
+        engines: { node: '>=20' }
+        hasBin: true
 
     cross-spawn@7.0.6:
         resolution:
@@ -11184,6 +11201,8 @@ snapshots:
             react: 19.3.1
             tslib: 2.8.1
 
+    '@epic-web/invariant@1.0.0': {}
+
     '@fastify/busboy@2.1.1': {}
 
     '@figma/rest-api-spec@0.34.0': {}
@@ -12247,6 +12266,11 @@ snapshots:
             micromatch: 4.0.8
             p-filter: 4.1.0
             p-map: 7.1.1
+
+    cross-env@10.1.0:
+        dependencies:
+            '@epic-web/invariant': 1.0.0
+            cross-spawn: 7.0.6
 
     cross-spawn@7.0.6:
         dependencies:

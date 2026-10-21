@@ -5,10 +5,10 @@
     "license": "MIT",
     "type": "module",
     "scripts": {
-        "build": "NODE_ENV=production webpack",
+        "build": "cross-env NODE_ENV=production webpack",
         "clean": "rimraf dist",
         "codegen": "node export-icons-meta.mjs",
-        "start": "NODE_ENV=development webpack-dev-server"
+        "start": "cross-env NODE_ENV=development webpack-dev-server"
     },
     "dependencies": {
         "@alfalab/core-components": "50.35.1-alfasans",
@@ -40,6 +40,7 @@
         "@types/react": "^19.3.0",
         "@types/react-dom": "^19.3.0",
         "@types/webpack-env": "^1.18.8",
+        "cross-env": "^10.1.0",
         "execa": "^10.0.1",
         "export-icon-meta": "workspace:*",
         "html-webpack-plugin": "^5.6.8",
