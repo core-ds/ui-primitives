@@ -148,7 +148,8 @@ jobs:
 
             - name: Copy files
               run: |
-                  cp -r ${{ runner.temp }}/dist/icons-demo/dist/* ${{ case(github.event_name == 'pull_request', github.event.pull_request.number, '.' ) }}
+                  cp    ${{ runner.temp }}/dist/icons-demo/dist/index.html ${{ case(github.event_name == 'pull_request', github.event.pull_request.number, '.' ) }}
+                  cp -r ${{ runner.temp }}/dist/icons-demo/dist/build      ${{ case(github.event_name == 'pull_request', github.event.pull_request.number, '.' ) }}
 
             - name: Commit and push
               uses: core-ds/ui-primitives/.github/actions/commit-and-push@master
