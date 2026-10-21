@@ -6,6 +6,7 @@ import { execa } from 'execa';
 const config = path.resolve(import.meta.dirname, 'config.mjs');
 const { exitCode } = await execa('rollup', ['--config', config], {
     preferLocal: true,
+    localDir: import.meta.dirname, // https://github.com/sindresorhus/execa/issues/1204
     stdio: 'inherit',
     reject: false,
 });

@@ -3,7 +3,7 @@ packages:
     - packages/*
     - scripts/*
 
-nodeLinker: hoisted
+nodeLinker: isolated
 
 allowBuilds:
     '@actions/github-script': false
