@@ -37,6 +37,6 @@ jobs:
                   rm -rf ${{ github.event.pull_request.number }}
 
             - name: Commit and push
-              uses: core-ds/ui-primitives/.github/actions/commit-and-push@monorepo
+              uses: core-ds/ui-primitives/.github/actions/commit-and-push@master
               with:
                   message: Remove demo
