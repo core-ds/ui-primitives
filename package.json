@@ -20,7 +20,7 @@
         "format": "prettier --log-level silent --write \"./**/*.{ts,tsx,js,jsx,mjs,mts,cjs,cts,css,json,yml,md}\"",
         "format-check": "prettier --check \"./**/*.{ts,tsx,js,jsx,mjs,mts,cjs,cts,css,json,yml,md}\"",
         "lint": "lint-svg \"./icons/**/*.svg\" --exit-code 0",
-        "version-packages": "yarn changeset version"
+        "version-packages": "yarn changeset version && yarn format"
     },
     "devDependencies": {
         "@changesets/changelog-github": "^1.0.1",
