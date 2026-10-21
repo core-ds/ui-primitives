@@ -15,19 +15,19 @@ const IconsLogo: AnyIcon = {};
 const IconsLogoAm: AnyIcon = {};
 const IconsLogoCorp: AnyIcon = {};
 
-importAllIcons(require.context('@alfalab/icons-glyph/dist', false, /Icon\.js$/), IconsGlyph);
-importAllIcons(require.context('@alfalab/icons-glyph-26/dist', false, /Icon\.js$/), IconsGlyph26);
-importAllIcons(require.context('@alfalab/icons-rocky/dist', false, /Icon\.js$/), IconsRocky);
-importAllIcons(require.context('@alfalab/icons-ios/dist', false, /Icon\.js$/), IconsIos);
-importAllIcons(require.context('@alfalab/icons-android/dist', false, /Icon\.js$/), IconsAndroid);
-importAllIcons(require.context('@alfalab/icons-corp/dist', false, /Icon\.js$/), IconsCorp);
-importAllIcons(require.context('@alfalab/icons-logotype/dist', false, /Icon\.js$/), IconsLogotype);
-importAllIcons(require.context('@alfalab/icons-flag/dist', false, /Icon\.js$/), IconsFlag);
-importAllIcons(require.context('@alfalab/icons-invest/dist', false, /Icon\.js$/), IconsInvest);
-importAllIcons(require.context('@alfalab/icons-site/dist', false, /Icon\.js$/), IconsSite);
-importAllIcons(require.context('@alfalab/icons-logo/dist', false, /Icon\.js$/), IconsLogo);
-importAllIcons(require.context('@alfalab/icons-logo-am/dist', false, /Icon\.js$/), IconsLogoAm);
-importAllIcons(require.context('@alfalab/icons-logo-corp/dist', false, /Icon\.js$/), IconsLogoCorp);
+importAllIcons(require.context('@alfalab/icons-glyph', false, /Icon\.js$/), IconsGlyph);
+importAllIcons(require.context('@alfalab/icons-glyph-26', false, /Icon\.js$/), IconsGlyph26);
+importAllIcons(require.context('@alfalab/icons-rocky', false, /Icon\.js$/), IconsRocky);
+importAllIcons(require.context('@alfalab/icons-ios', false, /Icon\.js$/), IconsIos);
+importAllIcons(require.context('@alfalab/icons-android', false, /Icon\.js$/), IconsAndroid);
+importAllIcons(require.context('@alfalab/icons-corp', false, /Icon\.js$/), IconsCorp);
+importAllIcons(require.context('@alfalab/icons-logotype', false, /Icon\.js$/), IconsLogotype);
+importAllIcons(require.context('@alfalab/icons-flag', false, /Icon\.js$/), IconsFlag);
+importAllIcons(require.context('@alfalab/icons-invest', false, /Icon\.js$/), IconsInvest);
+importAllIcons(require.context('@alfalab/icons-site', false, /Icon\.js$/), IconsSite);
+importAllIcons(require.context('@alfalab/icons-logo', false, /Icon\.js$/), IconsLogo);
+importAllIcons(require.context('@alfalab/icons-logo-am', false, /Icon\.js$/), IconsLogoAm);
+importAllIcons(require.context('@alfalab/icons-logo-corp', false, /Icon\.js$/), IconsLogoCorp);
 
 export const ICONS = {
     [IconPackageName.GLYPH]: IconsGlyph,

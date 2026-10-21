@@ -29,7 +29,7 @@ jobs:
 
             - name: Bootstrap
               run: |
-                  yarn bootstrap
+                  pnpm bootstrap
 
             - name: Codegen
               env:
@@ -38,7 +38,7 @@ jobs:
                   FIGMA_LOGO_FILE_KEY: ${{ secrets.FIGMA_LOGO_FILE_KEY }}
                   FIGMA_TOKEN: ${{ secrets.FIGMA_TOKEN }}
               run: |
-                  yarn codegen
+                  pnpm codegen
 
             - name: Check if should update branch
               uses: actions/github-script@v9
@@ -63,11 +63,11 @@ jobs:
 
             - name: Bootstrap
               run: |
-                  yarn bootstrap
+                  pnpm bootstrap
 
             - name: Build
               run: |
-                  yarn build
+                  pnpm build
 
             - name: Upload dist
               uses: actions/upload-artifact@v7
@@ -92,15 +92,15 @@ jobs:
 
             - name: Bootstrap
               run: |
-                  yarn bootstrap
+                  pnpm bootstrap
 
             - name: Format
               run: |
-                  yarn format-check
+                  pnpm format-check
 
             - name: Lint
               run: |
-                  yarn lint
+                  pnpm lint
 
     icons-demo:
         if: ${{ always() && needs.build.result == 'success' && github.repository == 'core-ds/ui-primitives' }}

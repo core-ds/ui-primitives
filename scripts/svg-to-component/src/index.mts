@@ -100,7 +100,7 @@ export function generateComponentName(file: string) {
     const dirname = path.basename(path.dirname(file));
     const iconParams = basename.split('_');
     const [name, size, color] = ['android', 'ios'].includes(dirname) ? iconParams : iconParams.slice(1);
-    const componentName = camelCase([name, size, color, 'icon'].filter(Boolean).join('-'), { pascalCase: true });
+    const componentName = camelCase([name, size, color, 'icon'].filter(Boolean).join('_'), { pascalCase: true });
 
     return { componentName, color };
 }

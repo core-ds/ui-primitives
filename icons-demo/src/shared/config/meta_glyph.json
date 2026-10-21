@@ -4459,10 +4459,10 @@
         "cdn": "glyph_divide_s",
         "url": "https://alfabank.servicecdn.ru/icons/glyph_divide_s.svg"
     },
-    "Document1cMIcon": {
+    "Document1CMIcon": {
         "description": "документ, файл, 1с, 1ц, вложение, attachment, аттач, 1С, импорт, 1C, 1S",
-        "web": "Document1cMIcon",
-        "webComponent": "import { Document1cMIcon } from '@alfalab/icons-glyph/Document1cMIcon';",
+        "web": "Document1CMIcon",
+        "webComponent": "import { Document1CMIcon } from '@alfalab/icons-glyph/Document1CMIcon';",
         "android": "glyph_document_1c_m",
         "ios": "glyph_document1c_m",
         "middle": "glyph_document-1c_m",

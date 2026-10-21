@@ -20,7 +20,7 @@
         "url": "https://alfabank.servicecdn.ru/icons/flag_afghanistan_m_color.svg"
     },
     "AlandIslandsMColorIcon": {
-        "description": "[flag_aland_islands_m_color]",
+        "description": "[flag_aland-islands_m_color]",
         "web": "AlandIslandsMColorIcon",
         "webComponent": "import { AlandIslandsMColorIcon } from '@alfalab/icons-flag/AlandIslandsMColorIcon';",
         "android": "flag_aland_islands_m_color",
@@ -50,7 +50,7 @@
         "url": "https://alfabank.servicecdn.ru/icons/flag_algeria_m_color.svg"
     },
     "AmericanSamoaMColorIcon": {
-        "description": "[flag_american_samoa_m_color]",
+        "description": "[flag_american-samoa_m_color]",
         "web": "AmericanSamoaMColorIcon",
         "webComponent": "import { AmericanSamoaMColorIcon } from '@alfalab/icons-flag/AmericanSamoaMColorIcon';",
         "android": "flag_american_samoa_m_color",
@@ -100,7 +100,7 @@
         "url": "https://alfabank.servicecdn.ru/icons/flag_antarctica_m_color.svg"
     },
     "AntiguaAndBarbudaMColorIcon": {
-        "description": "[flag_antigua_and_barbuda_m_color]",
+        "description": "[flag_antigua-and-barbuda_m_color]",
         "web": "AntiguaAndBarbudaMColorIcon",
         "webComponent": "import { AntiguaAndBarbudaMColorIcon } from '@alfalab/icons-flag/AntiguaAndBarbudaMColorIcon';",
         "android": "flag_antigua_and_barbuda_m_color",
@@ -180,7 +180,7 @@
         "url": "https://alfabank.servicecdn.ru/icons/flag_azerbaijan_m_color.svg"
     },
     "AzoresIslandsMColorIcon": {
-        "description": "[flag_azores_islands_m_color]",
+        "description": "[flag_azores-islands_m_color]",
         "web": "AzoresIslandsMColorIcon",
         "webComponent": "import { AzoresIslandsMColorIcon } from '@alfalab/icons-flag/AzoresIslandsMColorIcon';",
         "android": "flag_azores_islands_m_color",
@@ -210,7 +210,7 @@
         "url": "https://alfabank.servicecdn.ru/icons/flag_bahrain_m_color.svg"
     },
     "BalearicIslandsMColorIcon": {
-        "description": "[flag_balearic_islands_m_color]",
+        "description": "[flag_balearic-islands_m_color]",
         "web": "BalearicIslandsMColorIcon",
         "webComponent": "import { BalearicIslandsMColorIcon } from '@alfalab/icons-flag/BalearicIslandsMColorIcon';",
         "android": "flag_balearic_islands_m_color",
@@ -240,7 +240,7 @@
         "url": "https://alfabank.servicecdn.ru/icons/flag_barbados_m_color.svg"
     },
     "BasqueCountryMColorIcon": {
-        "description": "[flag_basque_country_m_color]",
+        "description": "[flag_basque-country_m_color]",
         "web": "BasqueCountryMColorIcon",
         "webComponent": "import { BasqueCountryMColorIcon } from '@alfalab/icons-flag/BasqueCountryMColorIcon';",
         "android": "flag_basque_country_m_color",
@@ -330,7 +330,7 @@
         "url": "https://alfabank.servicecdn.ru/icons/flag_bonaire_m_color.svg"
     },
     "BosniaAndHerzegovinaMColorIcon": {
-        "description": "[flag_bosnia_and_herzegovina_m_color]",
+        "description": "[flag_bosnia-and-herzegovina_m_color]",
         "web": "BosniaAndHerzegovinaMColorIcon",
         "webComponent": "import { BosniaAndHerzegovinaMColorIcon } from '@alfalab/icons-flag/BosniaAndHerzegovinaMColorIcon';",
         "android": "flag_bosnia_and_herzegovina_m_color",
@@ -360,7 +360,7 @@
         "url": "https://alfabank.servicecdn.ru/icons/flag_brazil_m_color.svg"
     },
     "BritishColumbiaMColorIcon": {
-        "description": "[flag_british_columbia_m_color]",
+        "description": "[flag_british-columbia_m_color]",
         "web": "BritishColumbiaMColorIcon",
         "webComponent": "import { BritishColumbiaMColorIcon } from '@alfalab/icons-flag/BritishColumbiaMColorIcon';",
         "android": "flag_british_columbia_m_color",
@@ -370,7 +370,7 @@
         "url": "https://alfabank.servicecdn.ru/icons/flag_british-columbia_m_color.svg"
     },
     "BritishIndianOceanTerritoryMColorIcon": {
-        "description": "[flag_british_indian_ocean_territory_m_color]",
+        "description": "[flag_british-indian-ocean-territory_m_color]",
         "web": "BritishIndianOceanTerritoryMColorIcon",
         "webComponent": "import { BritishIndianOceanTerritoryMColorIcon } from '@alfalab/icons-flag/BritishIndianOceanTerritoryMColorIcon';",
         "android": "flag_british_indian_ocean_territory_m_color",
@@ -380,7 +380,7 @@
         "url": "https://alfabank.servicecdn.ru/icons/flag_british-indian-ocean-territory_m_color.svg"
     },
     "BritishVirginIslandsMColorIcon": {
-        "description": "[flag_british_virgin_islands_m_color]",
+        "description": "[flag_british-virgin-islands_m_color]",
         "web": "BritishVirginIslandsMColorIcon",
         "webComponent": "import { BritishVirginIslandsMColorIcon } from '@alfalab/icons-flag/BritishVirginIslandsMColorIcon';",
         "android": "flag_british_virgin_islands_m_color",
@@ -410,7 +410,7 @@
         "url": "https://alfabank.servicecdn.ru/icons/flag_bulgaria_m_color.svg"
     },
     "BurkinaFasoMColorIcon": {
-        "description": "[flag_burkina_faso_m_color]",
+        "description": "[flag_burkina-faso_m_color]",
         "web": "BurkinaFasoMColorIcon",
         "webComponent": "import { BurkinaFasoMColorIcon } from '@alfalab/icons-flag/BurkinaFasoMColorIcon';",
         "android": "flag_burkina_faso_m_color",
@@ -460,7 +460,7 @@
         "url": "https://alfabank.servicecdn.ru/icons/flag_canada_m_color.svg"
     },
     "CanaryIslandsMColorIcon": {
-        "description": "[flag_canary_islands_m_color]",
+        "description": "[flag_canary-islands_m_color]",
         "web": "CanaryIslandsMColorIcon",
         "webComponent": "import { CanaryIslandsMColorIcon } from '@alfalab/icons-flag/CanaryIslandsMColorIcon';",
         "android": "flag_canary_islands_m_color",
@@ -470,7 +470,7 @@
         "url": "https://alfabank.servicecdn.ru/icons/flag_canary-islands_m_color.svg"
     },
     "CapeVerdeMColorIcon": {
-        "description": "[flag_cape_verde_m_color]",
+        "description": "[flag_cape-verde_m_color]",
         "web": "CapeVerdeMColorIcon",
         "webComponent": "import { CapeVerdeMColorIcon } from '@alfalab/icons-flag/CapeVerdeMColorIcon';",
         "android": "flag_cape_verde_m_color",
@@ -480,7 +480,7 @@
         "url": "https://alfabank.servicecdn.ru/icons/flag_cape-verde_m_color.svg"
     },
     "CaymanIslandsMColorIcon": {
-        "description": "[flag_cayman_islands_m_color]",
+        "description": "[flag_cayman-islands_m_color]",
         "web": "CaymanIslandsMColorIcon",
         "webComponent": "import { CaymanIslandsMColorIcon } from '@alfalab/icons-flag/CaymanIslandsMColorIcon';",
         "android": "flag_cayman_islands_m_color",
@@ -490,7 +490,7 @@
         "url": "https://alfabank.servicecdn.ru/icons/flag_cayman-islands_m_color.svg"
     },
     "CentralAfricanRepublicMColorIcon": {
-        "description": "[flag_central_african_republic_m_color]",
+        "description": "[flag_central-african-republic_m_color]",
         "web": "CentralAfricanRepublicMColorIcon",
         "webComponent": "import { CentralAfricanRepublicMColorIcon } from '@alfalab/icons-flag/CentralAfricanRepublicMColorIcon';",
         "android": "flag_central_african_republic_m_color",
@@ -540,7 +540,7 @@
         "url": "https://alfabank.servicecdn.ru/icons/flag_china_m_color.svg"
     },
     "ChristmasIslandMColorIcon": {
-        "description": "[flag_christmas_island_m_color]",
+        "description": "[flag_christmas-island_m_color]",
         "web": "ChristmasIslandMColorIcon",
         "webComponent": "import { ChristmasIslandMColorIcon } from '@alfalab/icons-flag/ChristmasIslandMColorIcon';",
         "android": "flag_christmas_island_m_color",
@@ -550,7 +550,7 @@
         "url": "https://alfabank.servicecdn.ru/icons/flag_christmas-island_m_color.svg"
     },
     "CocosIslandMColorIcon": {
-        "description": "[flag_cocos_island_m_color]",
+        "description": "[flag_cocos-island_m_color]",
         "web": "CocosIslandMColorIcon",
         "webComponent": "import { CocosIslandMColorIcon } from '@alfalab/icons-flag/CocosIslandMColorIcon';",
         "android": "flag_cocos_island_m_color",
@@ -580,7 +580,7 @@
         "url": "https://alfabank.servicecdn.ru/icons/flag_comoros_m_color.svg"
     },
     "CookIslandsMColorIcon": {
-        "description": "[flag_cook_islands_m_color]",
+        "description": "[flag_cook-islands_m_color]",
         "web": "CookIslandsMColorIcon",
         "webComponent": "import { CookIslandsMColorIcon } from '@alfalab/icons-flag/CookIslandsMColorIcon';",
         "android": "flag_cook_islands_m_color",
@@ -600,7 +600,7 @@
         "url": "https://alfabank.servicecdn.ru/icons/flag_corsica_m_color.svg"
     },
     "CostaRicaMColorIcon": {
-        "description": "[flag_costa_rica_m_color]",
+        "description": "[flag_costa-rica_m_color]",
         "web": "CostaRicaMColorIcon",
         "webComponent": "import { CostaRicaMColorIcon } from '@alfalab/icons-flag/CostaRicaMColorIcon';",
         "android": "flag_costa_rica_m_color",
@@ -650,7 +650,7 @@
         "url": "https://alfabank.servicecdn.ru/icons/flag_cyprus_m_color.svg"
     },
     "CzechRepublicMColorIcon": {
-        "description": "[flag_czech_republic_m_color]",
+        "description": "[flag_czech-republic_m_color]",
         "web": "CzechRepublicMColorIcon",
         "webComponent": "import { CzechRepublicMColorIcon } from '@alfalab/icons-flag/CzechRepublicMColorIcon';",
         "android": "flag_czech_republic_m_color",
@@ -660,7 +660,7 @@
         "url": "https://alfabank.servicecdn.ru/icons/flag_czech-republic_m_color.svg"
     },
     "DemocraticRepublicOfCongoMColorIcon": {
-        "description": "[flag_democratic_republic_of_congo_m_color]",
+        "description": "[flag_democratic-republic-of-congo_m_color]",
         "web": "DemocraticRepublicOfCongoMColorIcon",
         "webComponent": "import { DemocraticRepublicOfCongoMColorIcon } from '@alfalab/icons-flag/DemocraticRepublicOfCongoMColorIcon';",
         "android": "flag_democratic_republic_of_congo_m_color",
@@ -700,7 +700,7 @@
         "url": "https://alfabank.servicecdn.ru/icons/flag_dominica_m_color.svg"
     },
     "DominicanRepublicMColorIcon": {
-        "description": "[flag_dominican_republic_m_color]",
+        "description": "[flag_dominican-republic_m_color]",
         "web": "DominicanRepublicMColorIcon",
         "webComponent": "import { DominicanRepublicMColorIcon } from '@alfalab/icons-flag/DominicanRepublicMColorIcon';",
         "android": "flag_dominican_republic_m_color",
@@ -710,7 +710,7 @@
         "url": "https://alfabank.servicecdn.ru/icons/flag_dominican-republic_m_color.svg"
     },
     "EastTimorMColorIcon": {
-        "description": "[flag_east_timor_m_color]",
+        "description": "[flag_east-timor_m_color]",
         "web": "EastTimorMColorIcon",
         "webComponent": "import { EastTimorMColorIcon } from '@alfalab/icons-flag/EastTimorMColorIcon';",
         "android": "flag_east_timor_m_color",
@@ -740,7 +740,7 @@
         "url": "https://alfabank.servicecdn.ru/icons/flag_egypt_m_color.svg"
     },
     "ElSalvadorMColorIcon": {
-        "description": "[flag_el_salvador_m_color]",
+        "description": "[flag_el-salvador_m_color]",
         "web": "ElSalvadorMColorIcon",
         "webComponent": "import { ElSalvadorMColorIcon } from '@alfalab/icons-flag/ElSalvadorMColorIcon';",
         "android": "flag_el_salvador_m_color",
@@ -760,7 +760,7 @@
         "url": "https://alfabank.servicecdn.ru/icons/flag_england_m_color.svg"
     },
     "EquatorialGuineaMColorIcon": {
-        "description": "[flag_equatorial_guinea_m_color]",
+        "description": "[flag_equatorial-guinea_m_color]",
         "web": "EquatorialGuineaMColorIcon",
         "webComponent": "import { EquatorialGuineaMColorIcon } from '@alfalab/icons-flag/EquatorialGuineaMColorIcon';",
         "android": "flag_equatorial_guinea_m_color",
@@ -800,7 +800,7 @@
         "url": "https://alfabank.servicecdn.ru/icons/flag_ethiopia_m_color.svg"
     },
     "EuropeanUnionMColorIcon": {
-        "description": "[flag_european_union_m_color]",
+        "description": "[flag_european-union_m_color]",
         "web": "EuropeanUnionMColorIcon",
         "webComponent": "import { EuropeanUnionMColorIcon } from '@alfalab/icons-flag/EuropeanUnionMColorIcon';",
         "android": "flag_european_union_m_color",
@@ -810,7 +810,7 @@
         "url": "https://alfabank.servicecdn.ru/icons/flag_european-union_m_color.svg"
     },
     "FalklandIslandsMColorIcon": {
-        "description": "[flag_falkland_islands_m_color]",
+        "description": "[flag_falkland-islands_m_color]",
         "web": "FalklandIslandsMColorIcon",
         "webComponent": "import { FalklandIslandsMColorIcon } from '@alfalab/icons-flag/FalklandIslandsMColorIcon';",
         "android": "flag_falkland_islands_m_color",
@@ -820,7 +820,7 @@
         "url": "https://alfabank.servicecdn.ru/icons/flag_falkland-islands_m_color.svg"
     },
     "FaroeIslandsMColorIcon": {
-        "description": "[flag_faroe_islands_m_color]",
+        "description": "[flag_faroe-islands_m_color]",
         "web": "FaroeIslandsMColorIcon",
         "webComponent": "import { FaroeIslandsMColorIcon } from '@alfalab/icons-flag/FaroeIslandsMColorIcon';",
         "android": "flag_faroe_islands_m_color",
@@ -860,7 +860,7 @@
         "url": "https://alfabank.servicecdn.ru/icons/flag_france_m_color.svg"
     },
     "FrenchPolynesiaMColorIcon": {
-        "description": "[flag_french_polynesia_m_color]",
+        "description": "[flag_french-polynesia_m_color]",
         "web": "FrenchPolynesiaMColorIcon",
         "webComponent": "import { FrenchPolynesiaMColorIcon } from '@alfalab/icons-flag/FrenchPolynesiaMColorIcon';",
         "android": "flag_french_polynesia_m_color",
@@ -880,7 +880,7 @@
         "url": "https://alfabank.servicecdn.ru/icons/flag_gabon_m_color.svg"
     },
     "GalapagosIslandsMColorIcon": {
-        "description": "[flag_galapagos_islands_m_color]",
+        "description": "[flag_galapagos-islands_m_color]",
         "web": "GalapagosIslandsMColorIcon",
         "webComponent": "import { GalapagosIslandsMColorIcon } from '@alfalab/icons-flag/GalapagosIslandsMColorIcon';",
         "android": "flag_galapagos_islands_m_color",
@@ -1000,7 +1000,7 @@
         "url": "https://alfabank.servicecdn.ru/icons/flag_guernsey_m_color.svg"
     },
     "GuineaBissauMColorIcon": {
-        "description": "[flag_guinea_bissau_m_color]",
+        "description": "[flag_guinea-bissau_m_color]",
         "web": "GuineaBissauMColorIcon",
         "webComponent": "import { GuineaBissauMColorIcon } from '@alfalab/icons-flag/GuineaBissauMColorIcon';",
         "android": "flag_guinea_bissau_m_color",
@@ -1060,7 +1060,7 @@
         "url": "https://alfabank.servicecdn.ru/icons/flag_honduras_m_color.svg"
     },
     "HongKongMColorIcon": {
-        "description": "[flag_hong_kong_m_color]",
+        "description": "[flag_hong-kong_m_color]",
         "web": "HongKongMColorIcon",
         "webComponent": "import { HongKongMColorIcon } from '@alfalab/icons-flag/HongKongMColorIcon';",
         "android": "flag_hong_kong_m_color",
@@ -1140,7 +1140,7 @@
         "url": "https://alfabank.servicecdn.ru/icons/flag_ireland_m_color.svg"
     },
     "IsleOfManMColorIcon": {
-        "description": "[flag_isle_of_man_m_color]",
+        "description": "[flag_isle-of-man_m_color]",
         "web": "IsleOfManMColorIcon",
         "webComponent": "import { IsleOfManMColorIcon } from '@alfalab/icons-flag/IsleOfManMColorIcon';",
         "android": "flag_isle_of_man_m_color",
@@ -1170,7 +1170,7 @@
         "url": "https://alfabank.servicecdn.ru/icons/flag_italy_m_color.svg"
     },
     "IvoryCoastMColorIcon": {
-        "description": "[flag_ivory_coast_m_color]",
+        "description": "[flag_ivory-coast_m_color]",
         "web": "IvoryCoastMColorIcon",
         "webComponent": "import { IvoryCoastMColorIcon } from '@alfalab/icons-flag/IvoryCoastMColorIcon';",
         "android": "flag_ivory_coast_m_color",
@@ -1470,7 +1470,7 @@
         "url": "https://alfabank.servicecdn.ru/icons/flag_malta_m_color.svg"
     },
     "MarshallIslandMColorIcon": {
-        "description": "[flag_marshall_island_m_color]",
+        "description": "[flag_marshall-island_m_color]",
         "web": "MarshallIslandMColorIcon",
         "webComponent": "import { MarshallIslandMColorIcon } from '@alfalab/icons-flag/MarshallIslandMColorIcon';",
         "android": "flag_marshall_island_m_color",
@@ -1670,7 +1670,7 @@
         "url": "https://alfabank.servicecdn.ru/icons/flag_netherlands_m_color.svg"
     },
     "NewZealandMColorIcon": {
-        "description": "[flag_new_zealand_m_color]",
+        "description": "[flag_new-zealand_m_color]",
         "web": "NewZealandMColorIcon",
         "webComponent": "import { NewZealandMColorIcon } from '@alfalab/icons-flag/NewZealandMColorIcon';",
         "android": "flag_new_zealand_m_color",
@@ -1720,7 +1720,7 @@
         "url": "https://alfabank.servicecdn.ru/icons/flag_niue_m_color.svg"
     },
     "NorfolkIslandMColorIcon": {
-        "description": "[flag_norfolk_island_m_color]",
+        "description": "[flag_norfolk-island_m_color]",
         "web": "NorfolkIslandMColorIcon",
         "webComponent": "import { NorfolkIslandMColorIcon } from '@alfalab/icons-flag/NorfolkIslandMColorIcon';",
         "android": "flag_norfolk_island_m_color",
@@ -1730,7 +1730,7 @@
         "url": "https://alfabank.servicecdn.ru/icons/flag_norfolk-island_m_color.svg"
     },
     "NorthKoreaMColorIcon": {
-        "description": "[flag_north_korea_m_color]",
+        "description": "[flag_north-korea_m_color]",
         "web": "NorthKoreaMColorIcon",
         "webComponent": "import { NorthKoreaMColorIcon } from '@alfalab/icons-flag/NorthKoreaMColorIcon';",
         "android": "flag_north_korea_m_color",
@@ -1740,7 +1740,7 @@
         "url": "https://alfabank.servicecdn.ru/icons/flag_north-korea_m_color.svg"
     },
     "NorthernCyprusMColorIcon": {
-        "description": "[flag_northern_cyprus_m_color]",
+        "description": "[flag_northern-cyprus_m_color]",
         "web": "NorthernCyprusMColorIcon",
         "webComponent": "import { NorthernCyprusMColorIcon } from '@alfalab/icons-flag/NorthernCyprusMColorIcon';",
         "android": "flag_northern_cyprus_m_color",
@@ -1750,7 +1750,7 @@
         "url": "https://alfabank.servicecdn.ru/icons/flag_northern-cyprus_m_color.svg"
     },
     "NorthernMarianasIslandsMColorIcon": {
-        "description": "[flag_northern_marianas_islands_m_color]",
+        "description": "[flag_northern-marianas-islands_m_color]",
         "web": "NorthernMarianasIslandsMColorIcon",
         "webComponent": "import { NorthernMarianasIslandsMColorIcon } from '@alfalab/icons-flag/NorthernMarianasIslandsMColorIcon';",
         "android": "flag_northern_marianas_islands_m_color",
@@ -1830,7 +1830,7 @@
         "url": "https://alfabank.servicecdn.ru/icons/flag_panama_m_color.svg"
     },
     "PapuaNewGuineaMColorIcon": {
-        "description": "[flag_papua_new_guinea_m_color]",
+        "description": "[flag_papua-new-guinea_m_color]",
         "web": "PapuaNewGuineaMColorIcon",
         "webComponent": "import { PapuaNewGuineaMColorIcon } from '@alfalab/icons-flag/PapuaNewGuineaMColorIcon';",
         "android": "flag_papua_new_guinea_m_color",
@@ -1870,7 +1870,7 @@
         "url": "https://alfabank.servicecdn.ru/icons/flag_philippines_m_color.svg"
     },
     "PitcairnIslandsMColorIcon": {
-        "description": "[flag_pitcairn_islands_m_color]",
+        "description": "[flag_pitcairn-islands_m_color]",
         "web": "PitcairnIslandsMColorIcon",
         "webComponent": "import { PitcairnIslandsMColorIcon } from '@alfalab/icons-flag/PitcairnIslandsMColorIcon';",
         "android": "flag_pitcairn_islands_m_color",
@@ -1900,7 +1900,7 @@
         "url": "https://alfabank.servicecdn.ru/icons/flag_portugal_m_color.svg"
     },
     "PuertoRicoMColorIcon": {
-        "description": "[flag_puerto_rico_m_color]",
+        "description": "[flag_puerto-rico_m_color]",
         "web": "PuertoRicoMColorIcon",
         "webComponent": "import { PuertoRicoMColorIcon } from '@alfalab/icons-flag/PuertoRicoMColorIcon';",
         "android": "flag_puerto_rico_m_color",
@@ -1920,7 +1920,7 @@
         "url": "https://alfabank.servicecdn.ru/icons/flag_qatar_m_color.svg"
     },
     "RapaNuiMColorIcon": {
-        "description": "[flag_rapa_nui_m_color]",
+        "description": "[flag_rapa-nui_m_color]",
         "web": "RapaNuiMColorIcon",
         "webComponent": "import { RapaNuiMColorIcon } from '@alfalab/icons-flag/RapaNuiMColorIcon';",
         "android": "flag_rapa_nui_m_color",
@@ -1930,7 +1930,7 @@
         "url": "https://alfabank.servicecdn.ru/icons/flag_rapa-nui_m_color.svg"
     },
     "RepublicOfMacedoniaMColorIcon": {
-        "description": "[flag_republic_of_macedonia_m_color]",
+        "description": "[flag_republic-of-macedonia_m_color]",
         "web": "RepublicOfMacedoniaMColorIcon",
         "webComponent": "import { RepublicOfMacedoniaMColorIcon } from '@alfalab/icons-flag/RepublicOfMacedoniaMColorIcon';",
         "android": "flag_republic_of_macedonia_m_color",
@@ -1940,7 +1940,7 @@
         "url": "https://alfabank.servicecdn.ru/icons/flag_republic-of-macedonia_m_color.svg"
     },
     "RepublicOfTheCongoMColorIcon": {
-        "description": "[flag_republic_of_the_congo_m_color]",
+        "description": "[flag_republic-of-the-congo_m_color]",
         "web": "RepublicOfTheCongoMColorIcon",
         "webComponent": "import { RepublicOfTheCongoMColorIcon } from '@alfalab/icons-flag/RepublicOfTheCongoMColorIcon';",
         "android": "flag_republic_of_the_congo_m_color",
@@ -1980,7 +1980,7 @@
         "url": "https://alfabank.servicecdn.ru/icons/flag_rwanda_m_color.svg"
     },
     "SabaIslandMColorIcon": {
-        "description": "[flag_saba_island_m_color]",
+        "description": "[flag_saba-island_m_color]",
         "web": "SabaIslandMColorIcon",
         "webComponent": "import { SabaIslandMColorIcon } from '@alfalab/icons-flag/SabaIslandMColorIcon';",
         "android": "flag_saba_island_m_color",
@@ -1990,7 +1990,7 @@
         "url": "https://alfabank.servicecdn.ru/icons/flag_saba-island_m_color.svg"
     },
     "SahrawiArabDemocraticRepublicMColorIcon": {
-        "description": "[flag_sahrawi_arab_democratic_republic_m_color]",
+        "description": "[flag_sahrawi-arab-democratic-republic_m_color]",
         "web": "SahrawiArabDemocraticRepublicMColorIcon",
         "webComponent": "import { SahrawiArabDemocraticRepublicMColorIcon } from '@alfalab/icons-flag/SahrawiArabDemocraticRepublicMColorIcon';",
         "android": "flag_sahrawi_arab_democratic_republic_m_color",
@@ -2000,7 +2000,7 @@
         "url": "https://alfabank.servicecdn.ru/icons/flag_sahrawi-arab-democratic-republic_m_color.svg"
     },
     "SaintKittsAndNevisMColorIcon": {
-        "description": "[flag_saint_kitts_and_nevis_m_color]",
+        "description": "[flag_saint-kitts-and-nevis_m_color]",
         "web": "SaintKittsAndNevisMColorIcon",
         "webComponent": "import { SaintKittsAndNevisMColorIcon } from '@alfalab/icons-flag/SaintKittsAndNevisMColorIcon';",
         "android": "flag_saint_kitts_and_nevis_m_color",
@@ -2020,7 +2020,7 @@
         "url": "https://alfabank.servicecdn.ru/icons/flag_samoa_m_color.svg"
     },
     "SanMarinoMColorIcon": {
-        "description": "[flag_san_marino_m_color]",
+        "description": "[flag_san-marino_m_color]",
         "web": "SanMarinoMColorIcon",
         "webComponent": "import { SanMarinoMColorIcon } from '@alfalab/icons-flag/SanMarinoMColorIcon';",
         "android": "flag_san_marino_m_color",
@@ -2030,7 +2030,7 @@
         "url": "https://alfabank.servicecdn.ru/icons/flag_san-marino_m_color.svg"
     },
     "SaoTomeAndPrinceMColorIcon": {
-        "description": "[flag_sao_tome_and_prince_m_color]",
+        "description": "[flag_sao-tome-and-prince_m_color]",
         "web": "SaoTomeAndPrinceMColorIcon",
         "webComponent": "import { SaoTomeAndPrinceMColorIcon } from '@alfalab/icons-flag/SaoTomeAndPrinceMColorIcon';",
         "android": "flag_sao_tome_and_prince_m_color",
@@ -2040,7 +2040,7 @@
         "url": "https://alfabank.servicecdn.ru/icons/flag_sao-tome-and-prince_m_color.svg"
     },
     "SaoTomeAndPrincipeMColorIcon": {
-        "description": "[flag_sao_tome_and_principe_m_color]",
+        "description": "[flag_sao-tome-and-principe_m_color]",
         "web": "SaoTomeAndPrincipeMColorIcon",
         "webComponent": "import { SaoTomeAndPrincipeMColorIcon } from '@alfalab/icons-flag/SaoTomeAndPrincipeMColorIcon';",
         "android": "flag_sao_tome_and_principe_m_color",
@@ -2060,7 +2060,7 @@
         "url": "https://alfabank.servicecdn.ru/icons/flag_sardinia_m_color.svg"
     },
     "SaudiArabiaMColorIcon": {
-        "description": "[flag_saudi_arabia_m_color]",
+        "description": "[flag_saudi-arabia_m_color]",
         "web": "SaudiArabiaMColorIcon",
         "webComponent": "import { SaudiArabiaMColorIcon } from '@alfalab/icons-flag/SaudiArabiaMColorIcon';",
         "android": "flag_saudi_arabia_m_color",
@@ -2120,7 +2120,7 @@
         "url": "https://alfabank.servicecdn.ru/icons/flag_sicily_m_color.svg"
     },
     "SierraLeoneMColorIcon": {
-        "description": "[flag_sierra_leone_m_color]",
+        "description": "[flag_sierra-leone_m_color]",
         "web": "SierraLeoneMColorIcon",
         "webComponent": "import { SierraLeoneMColorIcon } from '@alfalab/icons-flag/SierraLeoneMColorIcon';",
         "android": "flag_sierra_leone_m_color",
@@ -2140,7 +2140,7 @@
         "url": "https://alfabank.servicecdn.ru/icons/flag_singapore_m_color.svg"
     },
     "SintEustatiusMColorIcon": {
-        "description": "[flag_sint_eustatius_m_color]",
+        "description": "[flag_sint-eustatius_m_color]",
         "web": "SintEustatiusMColorIcon",
         "webComponent": "import { SintEustatiusMColorIcon } from '@alfalab/icons-flag/SintEustatiusMColorIcon';",
         "android": "flag_sint_eustatius_m_color",
@@ -2150,7 +2150,7 @@
         "url": "https://alfabank.servicecdn.ru/icons/flag_sint-eustatius_m_color.svg"
     },
     "SintMaartenMColorIcon": {
-        "description": "[flag_sint_maarten_m_color]",
+        "description": "[flag_sint-maarten_m_color]",
         "web": "SintMaartenMColorIcon",
         "webComponent": "import { SintMaartenMColorIcon } from '@alfalab/icons-flag/SintMaartenMColorIcon';",
         "android": "flag_sint_maarten_m_color",
@@ -2180,7 +2180,7 @@
         "url": "https://alfabank.servicecdn.ru/icons/flag_slovenia_m_color.svg"
     },
     "SolomonIslandsMColorIcon": {
-        "description": "[flag_solomon_islands_m_color]",
+        "description": "[flag_solomon-islands_m_color]",
         "web": "SolomonIslandsMColorIcon",
         "webComponent": "import { SolomonIslandsMColorIcon } from '@alfalab/icons-flag/SolomonIslandsMColorIcon';",
         "android": "flag_solomon_islands_m_color",
@@ -2210,7 +2210,7 @@
         "url": "https://alfabank.servicecdn.ru/icons/flag_somaliland_m_color.svg"
     },
     "SouthAfricaMColorIcon": {
-        "description": "[flag_south_africa_m_color]",
+        "description": "[flag_south-africa_m_color]",
         "web": "SouthAfricaMColorIcon",
         "webComponent": "import { SouthAfricaMColorIcon } from '@alfalab/icons-flag/SouthAfricaMColorIcon';",
         "android": "flag_south_africa_m_color",
@@ -2220,7 +2220,7 @@
         "url": "https://alfabank.servicecdn.ru/icons/flag_south-africa_m_color.svg"
     },
     "SouthKoreaMColorIcon": {
-        "description": "[flag_south_korea_m_color]",
+        "description": "[flag_south-korea_m_color]",
         "web": "SouthKoreaMColorIcon",
         "webComponent": "import { SouthKoreaMColorIcon } from '@alfalab/icons-flag/SouthKoreaMColorIcon';",
         "android": "flag_south_korea_m_color",
@@ -2230,7 +2230,7 @@
         "url": "https://alfabank.servicecdn.ru/icons/flag_south-korea_m_color.svg"
     },
     "SouthSudanMColorIcon": {
-        "description": "[flag_south_sudan_m_color]",
+        "description": "[flag_south-sudan_m_color]",
         "web": "SouthSudanMColorIcon",
         "webComponent": "import { SouthSudanMColorIcon } from '@alfalab/icons-flag/SouthSudanMColorIcon';",
         "android": "flag_south_sudan_m_color",
@@ -2250,7 +2250,7 @@
         "url": "https://alfabank.servicecdn.ru/icons/flag_spain_m_color.svg"
     },
     "SriLankaMColorIcon": {
-        "description": "[flag_sri_lanka_m_color]",
+        "description": "[flag_sri-lanka_m_color]",
         "web": "SriLankaMColorIcon",
         "webComponent": "import { SriLankaMColorIcon } from '@alfalab/icons-flag/SriLankaMColorIcon';",
         "android": "flag_sri_lanka_m_color",
@@ -2260,7 +2260,7 @@
         "url": "https://alfabank.servicecdn.ru/icons/flag_sri-lanka_m_color.svg"
     },
     "StBartsMColorIcon": {
-        "description": "[flag_st_barts_m_color]",
+        "description": "[flag_st-barts_m_color]",
         "web": "StBartsMColorIcon",
         "webComponent": "import { StBartsMColorIcon } from '@alfalab/icons-flag/StBartsMColorIcon';",
         "android": "flag_st_barts_m_color",
@@ -2270,7 +2270,7 @@
         "url": "https://alfabank.servicecdn.ru/icons/flag_st-barts_m_color.svg"
     },
     "StLuciaMColorIcon": {
-        "description": "[flag_st_lucia_m_color]",
+        "description": "[flag_st-lucia_m_color]",
         "web": "StLuciaMColorIcon",
         "webComponent": "import { StLuciaMColorIcon } from '@alfalab/icons-flag/StLuciaMColorIcon';",
         "android": "flag_st_lucia_m_color",
@@ -2280,7 +2280,7 @@
         "url": "https://alfabank.servicecdn.ru/icons/flag_st-lucia_m_color.svg"
     },
     "StVincentAndTheGrenadinesMColorIcon": {
-        "description": "[flag_st_vincent_and_the_grenadines_m_color]",
+        "description": "[flag_st-vincent-and-the-grenadines_m_color]",
         "web": "StVincentAndTheGrenadinesMColorIcon",
         "webComponent": "import { StVincentAndTheGrenadinesMColorIcon } from '@alfalab/icons-flag/StVincentAndTheGrenadinesMColorIcon';",
         "android": "flag_st_vincent_and_the_grenadines_m_color",
@@ -2440,7 +2440,7 @@
         "url": "https://alfabank.servicecdn.ru/icons/flag_transnistria_m_color.svg"
     },
     "TrinidadAndTobagoMColorIcon": {
-        "description": "[flag_trinidad_and_tobago_m_color]",
+        "description": "[flag_trinidad-and-tobago_m_color]",
         "web": "TrinidadAndTobagoMColorIcon",
         "webComponent": "import { TrinidadAndTobagoMColorIcon } from '@alfalab/icons-flag/TrinidadAndTobagoMColorIcon';",
         "android": "flag_trinidad_and_tobago_m_color",
@@ -2480,7 +2480,7 @@
         "url": "https://alfabank.servicecdn.ru/icons/flag_turkmenistan_m_color.svg"
     },
     "TurksAndCaicosMColorIcon": {
-        "description": "[flag_turks_and_caicos_m_color]",
+        "description": "[flag_turks-and-caicos_m_color]",
         "web": "TurksAndCaicosMColorIcon",
         "webComponent": "import { TurksAndCaicosMColorIcon } from '@alfalab/icons-flag/TurksAndCaicosMColorIcon';",
         "android": "flag_turks_and_caicos_m_color",
@@ -2490,7 +2490,7 @@
         "url": "https://alfabank.servicecdn.ru/icons/flag_turks-and-caicos_m_color.svg"
     },
     "Tuvalu1MColorIcon": {
-        "description": "[flag_tuvalu_1_m_color]",
+        "description": "[flag_tuvalu-1_m_color]",
         "web": "Tuvalu1MColorIcon",
         "webComponent": "import { Tuvalu1MColorIcon } from '@alfalab/icons-flag/Tuvalu1MColorIcon';",
         "android": "flag_tuvalu_1_m_color",
@@ -2530,7 +2530,7 @@
         "url": "https://alfabank.servicecdn.ru/icons/flag_ukraine_m_color.svg"
     },
     "UnitedArabEmiratesMColorIcon": {
-        "description": "[flag_united_arab_emirates_m_color]",
+        "description": "[flag_united-arab-emirates_m_color]",
         "web": "UnitedArabEmiratesMColorIcon",
         "webComponent": "import { UnitedArabEmiratesMColorIcon } from '@alfalab/icons-flag/UnitedArabEmiratesMColorIcon';",
         "android": "flag_united_arab_emirates_m_color",
@@ -2540,7 +2540,7 @@
         "url": "https://alfabank.servicecdn.ru/icons/flag_united-arab-emirates_m_color.svg"
     },
     "UnitedKingdomMColorIcon": {
-        "description": "[flag_united_kingdom_m_color]",
+        "description": "[flag_united-kingdom_m_color]",
         "web": "UnitedKingdomMColorIcon",
         "webComponent": "import { UnitedKingdomMColorIcon } from '@alfalab/icons-flag/UnitedKingdomMColorIcon';",
         "android": "flag_united_kingdom_m_color",
@@ -2550,7 +2550,7 @@
         "url": "https://alfabank.servicecdn.ru/icons/flag_united-kingdom_m_color.svg"
     },
     "UnitedNationsMColorIcon": {
-        "description": "[flag_united_nations_m_color]",
+        "description": "[flag_united-nations_m_color]",
         "web": "UnitedNationsMColorIcon",
         "webComponent": "import { UnitedNationsMColorIcon } from '@alfalab/icons-flag/UnitedNationsMColorIcon';",
         "android": "flag_united_nations_m_color",
@@ -2560,7 +2560,7 @@
         "url": "https://alfabank.servicecdn.ru/icons/flag_united-nations_m_color.svg"
     },
     "UnitedStatesMColorIcon": {
-        "description": "[flag_united_states_m_color]",
+        "description": "[flag_united-states_m_color]",
         "web": "UnitedStatesMColorIcon",
         "webComponent": "import { UnitedStatesMColorIcon } from '@alfalab/icons-flag/UnitedStatesMColorIcon';",
         "android": "flag_united_states_m_color",
@@ -2600,7 +2600,7 @@
         "url": "https://alfabank.servicecdn.ru/icons/flag_vanuatu_m_color.svg"
     },
     "VaticanCityMColorIcon": {
-        "description": "[flag_vatican_city_m_color]",
+        "description": "[flag_vatican-city_m_color]",
         "web": "VaticanCityMColorIcon",
         "webComponent": "import { VaticanCityMColorIcon } from '@alfalab/icons-flag/VaticanCityMColorIcon';",
         "android": "flag_vatican_city_m_color",
@@ -2630,7 +2630,7 @@
         "url": "https://alfabank.servicecdn.ru/icons/flag_vietnam_m_color.svg"
     },
     "VirginIslandsMColorIcon": {
-        "description": "[flag_virgin_islands_m_color]",
+        "description": "[flag_virgin-islands_m_color]",
         "web": "VirginIslandsMColorIcon",
         "webComponent": "import { VirginIslandsMColorIcon } from '@alfalab/icons-flag/VirginIslandsMColorIcon';",
         "android": "flag_virgin_islands_m_color",

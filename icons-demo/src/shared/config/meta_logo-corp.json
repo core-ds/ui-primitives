@@ -2299,30 +2299,30 @@
         "cdn": "logo-corp_drafts-sign-box-thinline_20",
         "url": "https://alfabank.servicecdn.ru/icons/logo-corp_drafts-sign-box-thinline_20.svg"
     },
-    "E2cSignBoxLine20Icon": {
+    "E2CSignBoxLine20Icon": {
         "description": "Продукт: Моментальные выплаты",
-        "web": "E2cSignBoxLine20Icon",
-        "webComponent": "import { E2cSignBoxLine20Icon } from '@alfalab/icons-logo-corp/E2cSignBoxLine20Icon';",
+        "web": "E2CSignBoxLine20Icon",
+        "webComponent": "import { E2CSignBoxLine20Icon } from '@alfalab/icons-logo-corp/E2CSignBoxLine20Icon';",
         "android": "logo_corp_e2c_sign_box_line_20",
         "ios": "logoCorp_e2cSignBoxLine_20",
         "middle": "logo-corp_e2c-sign-box-line_20",
         "cdn": "logo-corp_e2c-sign-box-line_20",
         "url": "https://alfabank.servicecdn.ru/icons/logo-corp_e2c-sign-box-line_20.svg"
     },
-    "E2cSignBoxLine24Icon": {
+    "E2CSignBoxLine24Icon": {
         "description": "Продукт: Моментальные выплаты",
-        "web": "E2cSignBoxLine24Icon",
-        "webComponent": "import { E2cSignBoxLine24Icon } from '@alfalab/icons-logo-corp/E2cSignBoxLine24Icon';",
+        "web": "E2CSignBoxLine24Icon",
+        "webComponent": "import { E2CSignBoxLine24Icon } from '@alfalab/icons-logo-corp/E2CSignBoxLine24Icon';",
         "android": "logo_corp_e2c_sign_box_line_24",
         "ios": "logoCorp_e2cSignBoxLine_24",
         "middle": "logo-corp_e2c-sign-box-line_24",
         "cdn": "logo-corp_e2c-sign-box-line_24",
         "url": "https://alfabank.servicecdn.ru/icons/logo-corp_e2c-sign-box-line_24.svg"
     },
-    "E2cSignBoxThinline20Icon": {
+    "E2CSignBoxThinline20Icon": {
         "description": "Продукт: Моментальные выплаты",
-        "web": "E2cSignBoxThinline20Icon",
-        "webComponent": "import { E2cSignBoxThinline20Icon } from '@alfalab/icons-logo-corp/E2cSignBoxThinline20Icon';",
+        "web": "E2CSignBoxThinline20Icon",
+        "webComponent": "import { E2CSignBoxThinline20Icon } from '@alfalab/icons-logo-corp/E2CSignBoxThinline20Icon';",
         "android": "logo_corp_e2c_sign_box_thinline_20",
         "ios": "logoCorp_e2cSignBoxThinline_20",
         "middle": "logo-corp_e2c-sign-box-thinline_20",

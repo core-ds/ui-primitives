@@ -59,7 +59,7 @@ jobs:
               uses: changesets/action/version@v2
               with:
                   github-token: ${{ steps.app-token.outputs.token }}
-                  script: 'yarn version-packages'
+                  script: 'pnpm version-packages'
 
     pack:
         needs: select-mode
@@ -78,11 +78,11 @@ jobs:
 
             - name: Bootstrap
               run: |
-                  yarn bootstrap
+                  pnpm bootstrap
 
             - name: Build artifacts
               run: |
-                  yarn build
+                  pnpm build
 
             - name: Pack
               id: pack

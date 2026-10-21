@@ -1,0 +1,11 @@
+packages:
+    - icons-demo
+    - packages/*
+    - scripts/*
+
+nodeLinker: isolated
+
+allowBuilds:
+    '@actions/github-script': false
+    core-js: false
+    simple-git-hooks: true

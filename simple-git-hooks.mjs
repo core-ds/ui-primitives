@@ -1,5 +1,5 @@
 const config = {
-    'pre-commit': 'yarn lint-staged',
+    'pre-commit': 'pnpm lint-staged',
 };
 
 export default config;

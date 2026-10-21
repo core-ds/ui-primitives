@@ -4,7 +4,7 @@
  */
 import React, { SVGProps } from 'react';
 
-export const Format1cSWhiteIcon: React.FC<SVGProps<SVGSVGElement>> = (props) => (
+export const Format1CSWhiteIcon: React.FC<SVGProps<SVGSVGElement>> = (props) => (
     <svg role="img" focusable="false" width="14" height="16" viewBox="0 0 14 16" {...props}>
         <g fill="#FFF" fillRule="evenodd">
             <path d="M11.5 16h-10C.673 16 0 15.367 0 14.588V4.04L4.293 0h7.148C12.301 0 13 .658 13 1.467v3.239h-1V1.467c0-.29-.251-.526-.559-.526H4.707L1 4.431v10.157c0 .26.224.47.5.47h10c.275 0 .5-.21.5-.47h1c0 .779-.673 1.412-1.5 1.412z" />
@@ -13,4 +13,4 @@ export const Format1cSWhiteIcon: React.FC<SVGProps<SVGSVGElement>> = (props) => 
     </svg>
 );
 
-export default Format1cSWhiteIcon;
+export default Format1CSWhiteIcon;

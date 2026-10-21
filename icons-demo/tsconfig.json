@@ -15,10 +15,6 @@
         "resolveJsonModule": true,
         "jsx": "react",
         "isolatedModules": true,
-        "types": ["node", "webpack-env"],
-        "paths": {
-            "@alfalab/icons-glyph": ["../packages/glyph/dist"],
-            "@alfalab/icons-glyph/*": ["../packages/glyph/dist/*"]
-        }
+        "types": ["node", "webpack-env"]
     }
 }
