@@ -1,7 +1,6 @@
 import { defineConfig } from 'rollup';
 import { globby } from 'globby';
 import typescript from '@rollup/plugin-typescript';
-import terser from '@rollup/plugin-terser';
 import ts from 'typescript';
 import fsExtra from 'fs-extra/esm';
 import path from 'node:path';
@@ -22,9 +21,16 @@ export default defineConfig({
         dynamicImportInCjs: false,
         preserveModules: true,
         preserveModulesRoot: path.resolve(cwd, 'src'),
+        entryFileNames(chunk) {
+            if (chunk.facadeModuleId?.includes('node_modules/')) {
+                const { name } = path.parse(chunk.facadeModuleId);
+
+                return `lib/${name}-[hash].js`;
+            }
+            return '[name].js';
+        },
     },
     plugins: [
-        terser(),
         typescript({
             target: ScriptTarget.ES5,
             outDir: path.resolve(cwd, 'dist'),
@@ -34,7 +40,7 @@ export default defineConfig({
         }),
     ],
     external: Object.keys({
-        ...(pkg.dependencies ?? {}),
+        // ...(pkg.dependencies ?? {}),
         ...(pkg.peerDependencies ?? {}),
     }),
 });
