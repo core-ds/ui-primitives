@@ -9,7 +9,6 @@
         "clean": "rimraf dist tsconfig.tsbuildinfo"
     },
     "dependencies": {
-        "@rollup/plugin-terser": "^1.0.0",
         "@rollup/plugin-typescript": "^12.3.0",
         "execa": "^10.0.1",
         "fs-extra": "^11.4.1",

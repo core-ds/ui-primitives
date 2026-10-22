@@ -9,6 +9,7 @@
         "declaration": true,
         "jsx": "react",
         "allowSyntheticDefaultImports": true,
-        "esModuleInterop": true
+        "esModuleInterop": true,
+        "isolatedModules": true
     }
 }
