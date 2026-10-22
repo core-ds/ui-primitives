@@ -1,5 +1,11 @@
 # @alfalab/icons-logotype
 
+## 2.37.3
+
+### Patch Changes
+
+- [#1215](https://github.com/core-ds/ui-primitives/pull/1215) [`6fef1a8`](https://github.com/core-ds/ui-primitives/commit/6fef1a8f43788e6324b7fe8e76197e52a30ddfda) Thanks [@hextion](https://github.com/hextion)! - Временно удален `tslib` из зависимостей
+
 ## 2.37.2
 
 ### Patch Changes
