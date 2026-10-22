@@ -1,5 +1,13 @@
 # @alfalab/icons-logo
 
+## 1.63.2
+
+### Patch Changes
+
+- [#1208](https://github.com/core-ds/ui-primitives/pull/1208) [`6064ed6`](https://github.com/core-ds/ui-primitives/commit/6064ed6a40c17701db10b50adada36ec008e93ed) Thanks [@hextion](https://github.com/hextion)! - Чистый `package.json`
+
+- [#1208](https://github.com/core-ds/ui-primitives/pull/1208) [`6064ed6`](https://github.com/core-ds/ui-primitives/commit/6064ed6a40c17701db10b50adada36ec008e93ed) Thanks [@hextion](https://github.com/hextion)! - Исключено попадание целой библиотеки `tslib` в поставку иконок
+
 ## 1.63.1
 
 ### Patch Changes
