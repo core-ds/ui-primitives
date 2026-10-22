@@ -376,9 +376,6 @@ importers:
             react-dom:
                 specifier: ^16.9.0 || ^17.0.1 || ^18.0.0 || ^19.0.0
                 version: 19.3.1(react@19.3.1)
-            tslib:
-                specifier: ^2.8.1
-                version: 2.8.1
         devDependencies:
             '@alfalab/icons-tsconfig':
                 specifier: workspace:*
@@ -401,6 +398,9 @@ importers:
             svg-to-component:
                 specifier: workspace:*
                 version: link:../../scripts/svg-to-component
+            tslib:
+                specifier: ^2.8.1
+                version: 2.8.1
             typescript:
                 specifier: ^6.0.3
                 version: 6.0.3
@@ -411,9 +411,6 @@ importers:
             react-dom:
                 specifier: ^16.9.0 || ^17.0.1 || ^18.0.0 || ^19.0.0
                 version: 19.3.1(react@19.3.1)
-            tslib:
-                specifier: ^2.8.1
-                version: 2.8.1
         devDependencies:
             '@alfalab/icons-tsconfig':
                 specifier: workspace:*
@@ -436,6 +433,9 @@ importers:
             svg-to-component:
                 specifier: workspace:*
                 version: link:../../scripts/svg-to-component
+            tslib:
+                specifier: ^2.8.1
+                version: 2.8.1
             typescript:
                 specifier: ^6.0.3
                 version: 6.0.3
@@ -446,9 +446,6 @@ importers:
             react-dom:
                 specifier: ^16.9.0 || ^17.0.1 || ^18.0.0 || ^19.0.0
                 version: 19.3.1(react@19.3.1)
-            tslib:
-                specifier: ^2.8.1
-                version: 2.8.1
         devDependencies:
             '@alfalab/icons-tsconfig':
                 specifier: workspace:*
@@ -471,6 +468,9 @@ importers:
             svg-to-component:
                 specifier: workspace:*
                 version: link:../../scripts/svg-to-component
+            tslib:
+                specifier: ^2.8.1
+                version: 2.8.1
             typescript:
                 specifier: ^6.0.3
                 version: 6.0.3
@@ -481,9 +481,6 @@ importers:
             react-dom:
                 specifier: ^16.9.0 || ^17.0.1 || ^18.0.0 || ^19.0.0
                 version: 19.3.1(react@19.3.1)
-            tslib:
-                specifier: ^2.8.1
-                version: 2.8.1
         devDependencies:
             '@alfalab/icons-tsconfig':
                 specifier: workspace:*
@@ -506,6 +503,9 @@ importers:
             svg-to-component:
                 specifier: workspace:*
                 version: link:../../scripts/svg-to-component
+            tslib:
+                specifier: ^2.8.1
+                version: 2.8.1
             typescript:
                 specifier: ^6.0.3
                 version: 6.0.3
@@ -516,9 +516,6 @@ importers:
             react-dom:
                 specifier: ^16.9.0 || ^17.0.1 || ^18.0.0 || ^19.0.0
                 version: 19.3.1(react@19.3.1)
-            tslib:
-                specifier: ^2.8.1
-                version: 2.8.1
         devDependencies:
             '@alfalab/icons-tsconfig':
                 specifier: workspace:*
@@ -541,6 +538,9 @@ importers:
             svg-to-component:
                 specifier: workspace:*
                 version: link:../../scripts/svg-to-component
+            tslib:
+                specifier: ^2.8.1
+                version: 2.8.1
             typescript:
                 specifier: ^6.0.3
                 version: 6.0.3
@@ -551,9 +551,6 @@ importers:
             react-dom:
                 specifier: ^16.9.0 || ^17.0.1 || ^18.0.0 || ^19.0.0
                 version: 19.3.1(react@19.3.1)
-            tslib:
-                specifier: ^2.8.1
-                version: 2.8.1
         devDependencies:
             '@alfalab/icons-tsconfig':
                 specifier: workspace:*
@@ -576,6 +573,9 @@ importers:
             svg-to-component:
                 specifier: workspace:*
                 version: link:../../scripts/svg-to-component
+            tslib:
+                specifier: ^2.8.1
+                version: 2.8.1
             typescript:
                 specifier: ^6.0.3
                 version: 6.0.3
@@ -586,9 +586,6 @@ importers:
             react-dom:
                 specifier: ^16.9.0 || ^17.0.1 || ^18.0.0 || ^19.0.0
                 version: 19.3.1(react@19.3.1)
-            tslib:
-                specifier: ^2.8.1
-                version: 2.8.1
         devDependencies:
             '@alfalab/icons-tsconfig':
                 specifier: workspace:*
@@ -611,6 +608,9 @@ importers:
             svg-to-component:
                 specifier: workspace:*
                 version: link:../../scripts/svg-to-component
+            tslib:
+                specifier: ^2.8.1
+                version: 2.8.1
             typescript:
                 specifier: ^6.0.3
                 version: 6.0.3
@@ -621,9 +621,6 @@ importers:
             react-dom:
                 specifier: ^16.9.0 || ^17.0.1 || ^18.0.0 || ^19.0.0
                 version: 19.3.1(react@19.3.1)
-            tslib:
-                specifier: ^2.8.1
-                version: 2.8.1
         devDependencies:
             '@alfalab/icons-tsconfig':
                 specifier: workspace:*
@@ -646,6 +643,9 @@ importers:
             svg-to-component:
                 specifier: workspace:*
                 version: link:../../scripts/svg-to-component
+            tslib:
+                specifier: ^2.8.1
+                version: 2.8.1
             typescript:
                 specifier: ^6.0.3
                 version: 6.0.3
@@ -656,9 +656,6 @@ importers:
             react-dom:
                 specifier: ^16.9.0 || ^17.0.1 || ^18.0.0 || ^19.0.0
                 version: 19.3.1(react@19.3.1)
-            tslib:
-                specifier: ^2.8.1
-                version: 2.8.1
         devDependencies:
             '@alfalab/icons-tsconfig':
                 specifier: workspace:*
@@ -681,6 +678,9 @@ importers:
             svg-to-component:
                 specifier: workspace:*
                 version: link:../../scripts/svg-to-component
+            tslib:
+                specifier: ^2.8.1
+                version: 2.8.1
             typescript:
                 specifier: ^6.0.3
                 version: 6.0.3
@@ -691,9 +691,6 @@ importers:
             react-dom:
                 specifier: ^16.9.0 || ^17.0.1 || ^18.0.0 || ^19.0.0
                 version: 19.3.1(react@19.3.1)
-            tslib:
-                specifier: ^2.8.1
-                version: 2.8.1
         devDependencies:
             '@alfalab/icons-tsconfig':
                 specifier: workspace:*
@@ -716,6 +713,9 @@ importers:
             svg-to-component:
                 specifier: workspace:*
                 version: link:../../scripts/svg-to-component
+            tslib:
+                specifier: ^2.8.1
+                version: 2.8.1
             typescript:
                 specifier: ^6.0.3
                 version: 6.0.3
@@ -726,9 +726,6 @@ importers:
             react-dom:
                 specifier: ^16.9.0 || ^17.0.1 || ^18.0.0 || ^19.0.0
                 version: 19.3.1(react@19.3.1)
-            tslib:
-                specifier: ^2.8.1
-                version: 2.8.1
         devDependencies:
             '@alfalab/icons-tsconfig':
                 specifier: workspace:*
@@ -751,6 +748,9 @@ importers:
             svg-to-component:
                 specifier: workspace:*
                 version: link:../../scripts/svg-to-component
+            tslib:
+                specifier: ^2.8.1
+                version: 2.8.1
             typescript:
                 specifier: ^6.0.3
                 version: 6.0.3
@@ -761,9 +761,6 @@ importers:
             react-dom:
                 specifier: ^16.9.0 || ^17.0.1 || ^18.0.0 || ^19.0.0
                 version: 19.3.1(react@19.3.1)
-            tslib:
-                specifier: ^2.8.1
-                version: 2.8.1
         devDependencies:
             '@alfalab/icons-tsconfig':
                 specifier: workspace:*
@@ -786,6 +783,9 @@ importers:
             svg-to-component:
                 specifier: workspace:*
                 version: link:../../scripts/svg-to-component
+            tslib:
+                specifier: ^2.8.1
+                version: 2.8.1
             typescript:
                 specifier: ^6.0.3
                 version: 6.0.3
@@ -796,9 +796,6 @@ importers:
             react-dom:
                 specifier: ^16.9.0 || ^17.0.1 || ^18.0.0 || ^19.0.0
                 version: 19.3.1(react@19.3.1)
-            tslib:
-                specifier: ^2.8.1
-                version: 2.8.1
         devDependencies:
             '@alfalab/icons-tsconfig':
                 specifier: workspace:*
@@ -821,6 +818,9 @@ importers:
             svg-to-component:
                 specifier: workspace:*
                 version: link:../../scripts/svg-to-component
+            tslib:
+                specifier: ^2.8.1
+                version: 2.8.1
             typescript:
                 specifier: ^6.0.3
                 version: 6.0.3
@@ -831,9 +831,6 @@ importers:
             react-dom:
                 specifier: ^16.9.0 || ^17.0.1 || ^18.0.0 || ^19.0.0
                 version: 19.3.1(react@19.3.1)
-            tslib:
-                specifier: ^2.8.1
-                version: 2.8.1
         devDependencies:
             '@alfalab/icons-tsconfig':
                 specifier: workspace:*
@@ -856,6 +853,9 @@ importers:
             svg-to-component:
                 specifier: workspace:*
                 version: link:../../scripts/svg-to-component
+            tslib:
+                specifier: ^2.8.1
+                version: 2.8.1
             typescript:
                 specifier: ^6.0.3
                 version: 6.0.3
@@ -866,9 +866,6 @@ importers:
             react-dom:
                 specifier: ^16.9.0 || ^17.0.1 || ^18.0.0 || ^19.0.0
                 version: 19.3.1(react@19.3.1)
-            tslib:
-                specifier: ^2.8.1
-                version: 2.8.1
         devDependencies:
             '@alfalab/icons-tsconfig':
                 specifier: workspace:*
@@ -891,6 +888,9 @@ importers:
             svg-to-component:
                 specifier: workspace:*
                 version: link:../../scripts/svg-to-component
+            tslib:
+                specifier: ^2.8.1
+                version: 2.8.1
             typescript:
                 specifier: ^6.0.3
                 version: 6.0.3
