@@ -5,7 +5,7 @@ import path from 'node:path';
 import yargs from 'yargs';
 import { hideBin } from 'yargs/helpers';
 
-const FIELDS_TO_REMOVE = ['scripts', 'devDependencies'];
+const FIELDS_TO_REMOVE = ['scripts', 'devDependencies', 'publishConfig'];
 
 async function cleanPackageJson(input: string, out: string) {
     const src = path.resolve(process.cwd(), input);
@@ -23,7 +23,7 @@ async function cleanPackageJson(input: string, out: string) {
 await yargs(hideBin(process.argv))
     .command(
         '$0 [input]',
-        'Remove scripts and devDependencies fields from a package.json',
+        'Remove scripts, devDependencies and publishConfig fields from a package.json',
         (builder) =>
             builder
                 .positional('input', {
