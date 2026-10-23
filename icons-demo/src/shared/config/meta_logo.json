@@ -20,7 +20,7 @@
         "url": "https://alfabank.servicecdn.ru/icons/logo_a-101-sign-circle_m_white.svg"
     },
     "AChatSignBoxMIcon": {
-        "description": "[logo_a_chat_sign_box_m]",
+        "description": "[logo_a-chat-sign-box_m]",
         "web": "AChatSignBoxMIcon",
         "webComponent": "import { AChatSignBoxMIcon } from '@alfalab/icons-logo/AChatSignBoxMIcon';",
         "android": "logo_a_chat_sign_box_m",
@@ -30,7 +30,7 @@
         "url": "https://alfabank.servicecdn.ru/icons/logo_a-chat-sign-box_m.svg"
     },
     "AChatSignBoxSIcon": {
-        "description": "[logo_a_chat_sign_box_s]",
+        "description": "[logo_a-chat-sign-box_s]",
         "web": "AChatSignBoxSIcon",
         "webComponent": "import { AChatSignBoxSIcon } from '@alfalab/icons-logo/AChatSignBoxSIcon';",
         "android": "logo_a_chat_sign_box_s",
@@ -2860,7 +2860,7 @@
         "url": "https://alfabank.servicecdn.ru/icons/logo_it-com-sign-box_m_white.svg"
     },
     "JabberSignBoxMIcon": {
-        "description": "[logo_jabber_sign_box_m]",
+        "description": "[logo_jabber-sign-box_m]",
         "web": "JabberSignBoxMIcon",
         "webComponent": "import { JabberSignBoxMIcon } from '@alfalab/icons-logo/JabberSignBoxMIcon';",
         "android": "logo_jabber_sign_box_m",
@@ -2870,7 +2870,7 @@
         "url": "https://alfabank.servicecdn.ru/icons/logo_jabber-sign-box_m.svg"
     },
     "JabberSignBoxSIcon": {
-        "description": "[logo_jabber_sign_box_s]",
+        "description": "[logo_jabber-sign-box_s]",
         "web": "JabberSignBoxSIcon",
         "webComponent": "import { JabberSignBoxSIcon } from '@alfalab/icons-logo/JabberSignBoxSIcon';",
         "android": "logo_jabber_sign_box_s",
@@ -4030,7 +4030,7 @@
         "url": "https://alfabank.servicecdn.ru/icons/logo_mastercard-sign_m.svg"
     },
     "MaxSignBoxMIcon": {
-        "description": "[logo_max_sign_box_m]",
+        "description": "[logo_max-sign-box_m]",
         "web": "MaxSignBoxMIcon",
         "webComponent": "import { MaxSignBoxMIcon } from '@alfalab/icons-logo/MaxSignBoxMIcon';",
         "android": "logo_max_sign_box_m",
@@ -4040,7 +4040,7 @@
         "url": "https://alfabank.servicecdn.ru/icons/logo_max-sign-box_m.svg"
     },
     "MaxSignBoxSIcon": {
-        "description": "[logo_max_sign_box_s]",
+        "description": "[logo_max-sign-box_s]",
         "web": "MaxSignBoxSIcon",
         "webComponent": "import { MaxSignBoxSIcon } from '@alfalab/icons-logo/MaxSignBoxSIcon';",
         "android": "logo_max_sign_box_s",
@@ -6480,7 +6480,7 @@
         "url": "https://alfabank.servicecdn.ru/icons/logo_tektorg-sign-box_m_color.svg"
     },
     "TelegramSignBoxMIcon": {
-        "description": "[logo_telegram_sign_box_m]",
+        "description": "[logo_telegram-sign-box_m]",
         "web": "TelegramSignBoxMIcon",
         "webComponent": "import { TelegramSignBoxMIcon } from '@alfalab/icons-logo/TelegramSignBoxMIcon';",
         "android": "logo_telegram_sign_box_m",
@@ -6500,7 +6500,7 @@
         "url": "https://alfabank.servicecdn.ru/icons/logo_telegram-sign-box_s.svg"
     },
     "TelegramSignCircleMIcon": {
-        "description": "[logo_telegram_sign_circle_m]",
+        "description": "[logo_telegram-sign-circle_m]",
         "web": "TelegramSignCircleMIcon",
         "webComponent": "import { TelegramSignCircleMIcon } from '@alfalab/icons-logo/TelegramSignCircleMIcon';",
         "android": "logo_telegram_sign_circle_m",
@@ -6510,7 +6510,7 @@
         "url": "https://alfabank.servicecdn.ru/icons/logo_telegram-sign-circle_m.svg"
     },
     "TelegramSignCircleSIcon": {
-        "description": "[logo_telegram_sign_circle_s]",
+        "description": "[logo_telegram-sign-circle_s]",
         "web": "TelegramSignCircleSIcon",
         "webComponent": "import { TelegramSignCircleSIcon } from '@alfalab/icons-logo/TelegramSignCircleSIcon';",
         "android": "logo_telegram_sign_circle_s",
@@ -7000,7 +7000,7 @@
         "url": "https://alfabank.servicecdn.ru/icons/logo_weconn_m_white.svg"
     },
     "WhatsAppSignBoxMIcon": {
-        "description": "[logo_whats_app_sign_box_m]",
+        "description": "[logo_whats-app-sign-box_m]",
         "web": "WhatsAppSignBoxMIcon",
         "webComponent": "import { WhatsAppSignBoxMIcon } from '@alfalab/icons-logo/WhatsAppSignBoxMIcon';",
         "android": "logo_whats_app_sign_box_m",
@@ -7010,7 +7010,7 @@
         "url": "https://alfabank.servicecdn.ru/icons/logo_whats-app-sign-box_m.svg"
     },
     "WhatsAppSignBoxSIcon": {
-        "description": "[logo_whats_app_sign_box_s]",
+        "description": "[logo_whats-app-sign-box_s]",
         "web": "WhatsAppSignBoxSIcon",
         "webComponent": "import { WhatsAppSignBoxSIcon } from '@alfalab/icons-logo/WhatsAppSignBoxSIcon';",
         "android": "logo_whats_app_sign_box_s",
