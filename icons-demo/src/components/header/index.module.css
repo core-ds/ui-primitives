@@ -1,0 +1,28 @@
+@import '../../vars.css';
+
+.header {
+    max-width: var(--content-width);
+    margin: 0 auto;
+    padding: 64px 0 0;
+
+    & .searchWrapper {
+        display: flex;
+        flex-flow: row nowrap;
+        gap: var(--gap-xs);
+        padding: var(--search-wrapper-padding);
+
+        & .searchInput {
+            flex: 1;
+            color: var(--color-light-graphic-secondary);
+        }
+
+        & .assetSelectWrapper {
+            width: var(--asset-select-width);
+            margin: var(--asset-select-margin);
+        }
+    }
+
+    & .bundleGroupWrapper {
+        padding-bottom: var(--bundle-padding-bottom);
+    }
+}

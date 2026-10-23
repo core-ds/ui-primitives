@@ -1,0 +1,26 @@
+{
+    "name": "export-icon-meta",
+    "version": "0.0.0",
+    "private": true,
+    "type": "module",
+    "bin": "./dist/index.mjs",
+    "scripts": {
+        "bootstrap": "tsc",
+        "clean": "rimraf dist tsconfig.tsbuildinfo"
+    },
+    "dependencies": {
+        "fs-extra": "^11.3.2",
+        "globby": "^16.2.4",
+        "svg-to-component": "workspace:*",
+        "yargs": "^18.2.0"
+    },
+    "devDependencies": {
+        "@figma/rest-api-spec": "^0.34.0",
+        "@types/fs-extra": "^11.0.4",
+        "@types/node": "^24.9.2",
+        "@types/yargs": "^17.0.35",
+        "rimraf": "^6.1.3",
+        "scripts-tsconfig": "workspace:*",
+        "typescript": "^6.0.3"
+    }
+}

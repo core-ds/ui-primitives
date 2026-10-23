@@ -1,0 +1,15 @@
+{
+    "$schema": "https://json.schemastore.org/tsconfig",
+    "include": ["${configDir}/src"],
+    "compilerOptions": {
+        "moduleResolution": "bundler",
+        "strict": true,
+        "rootDir": "${configDir}/src",
+        "importHelpers": true,
+        "declaration": true,
+        "jsx": "react",
+        "allowSyntheticDefaultImports": true,
+        "esModuleInterop": true,
+        "isolatedModules": true
+    }
+}

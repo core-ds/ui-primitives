@@ -1,0 +1,36 @@
+name: Commit and push
+
+description: Commit and push. Does nothing if no changes
+
+inputs:
+    message:
+        description: Commit message
+        required: true
+
+runs:
+    using: composite
+    steps:
+        - name: Check if should update
+          id: should-update
+          uses: actions/github-script@v9
+          with:
+              script: |
+                  const { stdout } = await exec.getExecOutput('git', ['status', '--porcelain']);
+
+                  return stdout.trim().length > 0;
+
+        - name: Warning
+          if: ${{ !fromJson(steps.should-update.outputs.result) }}
+          uses: actions/github-script@v9
+          with:
+              script: |
+                  core.warning("No changes to commit");
+
+        - name: Commit and push
+          if: ${{ fromJson(steps.should-update.outputs.result) }}
+          shell: bash
+          run: |
+              git config user.name "github-actions[bot]"
+              git add .
+              git commit -m "${{ inputs.message }}"
+              git push

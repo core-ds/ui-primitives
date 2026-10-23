@@ -1,0 +1,66 @@
+name: codegen
+
+on:
+    workflow_dispatch:
+        inputs:
+            pull-request:
+                description: Pull request number
+                type: number
+                required: true
+
+permissions: {} # each job should define its own permission explicitly
+
+jobs:
+    codegen:
+        runs-on: ubuntu-latest
+        if: ${{ github.repository == 'core-ds/ui-primitives' }}
+        steps:
+            - name: Create app token
+              uses: actions/create-github-app-token@v3
+              id: app-token
+              with:
+                  client-id: ${{ vars.APP_ID }}
+                  private-key: ${{ secrets.APP_PRIVATE_KEY }}
+                  permission-contents: write
+
+            - name: Fetch ref
+              id: ref
+              uses: actions/github-script@v9
+              with:
+                  github-token: ${{ steps.app-token.outputs.token }}
+                  result-encoding: string
+                  script: |
+                      const { data } = await octokit.rest.pulls.get({
+                          owner: context.repo.owner,
+                          repo: context.repo.repo,
+                          pull_number: ${{ inputs.pull-request }},
+                      });
+
+                      return data.head.ref;
+
+            - name: Checkout
+              uses: actions/checkout@v7
+              with:
+                  ref: ${{ steps.ref.outputs.result }}
+                  token: ${{ steps.app-token.outputs.token }}
+
+            - name: Setup CI
+              uses: $/.github/actions/ci-setup
+
+            - name: Bootstrap
+              run: |
+                  pnpm bootstrap
+
+            - name: Codegen
+              env:
+                  FIGMA_FLAG_FILE_KEY: ${{ secrets.FIGMA_FLAG_FILE_KEY }}
+                  FIGMA_ICON_FILE_KEY: ${{ secrets.FIGMA_ICON_FILE_KEY }}
+                  FIGMA_LOGO_FILE_KEY: ${{ secrets.FIGMA_LOGO_FILE_KEY }}
+                  FIGMA_TOKEN: ${{ secrets.FIGMA_TOKEN }}
+              run: |
+                  pnpm codegen
+
+            - name: Commit and push
+              uses: $/.github/actions/commit-and-push
+              with:
+                  message: Codegen

@@ -1,0 +1,498 @@
+{
+    "ArrowDownLineCircleMIcon": {
+        "description": "download, load, save, загрузка, сохранить",
+        "web": "ArrowDownLineCircleMIcon",
+        "webComponent": "import { ArrowDownLineCircleMIcon } from '@alfalab/icons-site/ArrowDownLineCircleMIcon';",
+        "middle": "site_arrow-down-line-circle_m",
+        "cdn": "site_arrow-down-line-circle_m",
+        "url": "https://alfabank.servicecdn.ru/icons/site_arrow-down-line-circle_m.svg"
+    },
+    "BanknoteArrowRightMIcon": {
+        "description": "наличка, банкнота, деньги, money, купюра, стрелка, отправить, money send, arrow",
+        "web": "BanknoteArrowRightMIcon",
+        "webComponent": "import { BanknoteArrowRightMIcon } from '@alfalab/icons-site/BanknoteArrowRightMIcon';",
+        "middle": "site_banknote-arrow-right_m",
+        "cdn": "site_banknote-arrow-right_m",
+        "url": "https://alfabank.servicecdn.ru/icons/site_banknote-arrow-right_m.svg"
+    },
+    "BanknoteStackMIcon": {
+        "description": "наличка, банкноты, деньги, оплата, money, купюры, стопка, деньги, оплатить, дела в работе",
+        "web": "BanknoteStackMIcon",
+        "webComponent": "import { BanknoteStackMIcon } from '@alfalab/icons-site/BanknoteStackMIcon';",
+        "middle": "site_banknote-stack_m",
+        "cdn": "site_banknote-stack_m",
+        "url": "https://alfabank.servicecdn.ru/icons/site_banknote-stack_m.svg"
+    },
+    "BanknoteMIcon": {
+        "description": "наличка, банкнота, деньги, оплата, money, купюра",
+        "web": "BanknoteMIcon",
+        "webComponent": "import { BanknoteMIcon } from '@alfalab/icons-site/BanknoteMIcon';",
+        "middle": "site_banknote_m",
+        "cdn": "site_banknote_m",
+        "url": "https://alfabank.servicecdn.ru/icons/site_banknote_m.svg"
+    },
+    "BanknotesCheckmarkMIcon": {
+        "description": "наличка, банкноты, деньги, оплата, money, купюры, наличные, cash, money, перевод, transfer",
+        "web": "BanknotesCheckmarkMIcon",
+        "webComponent": "import { BanknotesCheckmarkMIcon } from '@alfalab/icons-site/BanknotesCheckmarkMIcon';",
+        "middle": "site_banknotes-checkmark_m",
+        "cdn": "site_banknotes-checkmark_m",
+        "url": "https://alfabank.servicecdn.ru/icons/site_banknotes-checkmark_m.svg"
+    },
+    "BulbCheckmarkMIcon": {
+        "description": "idea, light, лампочка, идея, эврика",
+        "web": "BulbCheckmarkMIcon",
+        "webComponent": "import { BulbCheckmarkMIcon } from '@alfalab/icons-site/BulbCheckmarkMIcon';",
+        "middle": "site_bulb-checkmark_m",
+        "cdn": "site_bulb-checkmark_m",
+        "url": "https://alfabank.servicecdn.ru/icons/site_bulb-checkmark_m.svg"
+    },
+    "CakeLineMIcon": {
+        "description": "торт, пирог, present, gift, подарок",
+        "web": "CakeLineMIcon",
+        "webComponent": "import { CakeLineMIcon } from '@alfalab/icons-site/CakeLineMIcon';",
+        "middle": "site_cake-line_m",
+        "cdn": "site_cake-line_m",
+        "url": "https://alfabank.servicecdn.ru/icons/site_cake-line_m.svg"
+    },
+    "CalendarCheckmarkLineMIcon": {
+        "description": "календарь, выбор даты, дата, date, check",
+        "web": "CalendarCheckmarkLineMIcon",
+        "webComponent": "import { CalendarCheckmarkLineMIcon } from '@alfalab/icons-site/CalendarCheckmarkLineMIcon';",
+        "middle": "site_calendar-checkmark-line_m",
+        "cdn": "site_calendar-checkmark-line_m",
+        "url": "https://alfabank.servicecdn.ru/icons/site_calendar-checkmark-line_m.svg"
+    },
+    "CalendarCheckmarkMIcon": {
+        "description": "календарь, выбор даты, дата, date, check",
+        "web": "CalendarCheckmarkMIcon",
+        "webComponent": "import { CalendarCheckmarkMIcon } from '@alfalab/icons-site/CalendarCheckmarkMIcon';",
+        "middle": "site_calendar-checkmark_m",
+        "cdn": "site_calendar-checkmark_m",
+        "url": "https://alfabank.servicecdn.ru/icons/site_calendar-checkmark_m.svg"
+    },
+    "CalendarCoinDoubleLineMIcon": {
+        "description": "календарь, дата, кэшбэк, начисления, монеты, calendar, date, cashback, coins",
+        "web": "CalendarCoinDoubleLineMIcon",
+        "webComponent": "import { CalendarCoinDoubleLineMIcon } from '@alfalab/icons-site/CalendarCoinDoubleLineMIcon';",
+        "middle": "site_calendar-coin-double-line_m",
+        "cdn": "site_calendar-coin-double-line_m",
+        "url": "https://alfabank.servicecdn.ru/icons/site_calendar-coin-double-line_m.svg"
+    },
+    "CalendarCoinDoubleMIcon": {
+        "description": "календарь, дата, кэшбэк, начисления, монеты, calendar, date, cashback, coins",
+        "web": "CalendarCoinDoubleMIcon",
+        "webComponent": "import { CalendarCoinDoubleMIcon } from '@alfalab/icons-site/CalendarCoinDoubleMIcon';",
+        "middle": "site_calendar-coin-double_m",
+        "cdn": "site_calendar-coin-double_m",
+        "url": "https://alfabank.servicecdn.ru/icons/site_calendar-coin-double_m.svg"
+    },
+    "CalendarLineMIcon": {
+        "description": "календарь, выбор даты, дата, date",
+        "web": "CalendarLineMIcon",
+        "webComponent": "import { CalendarLineMIcon } from '@alfalab/icons-site/CalendarLineMIcon';",
+        "middle": "site_calendar-line_m",
+        "cdn": "site_calendar-line_m",
+        "url": "https://alfabank.servicecdn.ru/icons/site_calendar-line_m.svg"
+    },
+    "CalendarMIcon": {
+        "description": "календарь, выбор даты, дата, date",
+        "web": "CalendarMIcon",
+        "webComponent": "import { CalendarMIcon } from '@alfalab/icons-site/CalendarMIcon';",
+        "middle": "site_calendar_m",
+        "cdn": "site_calendar_m",
+        "url": "https://alfabank.servicecdn.ru/icons/site_calendar_m.svg"
+    },
+    "CardArrowInMIcon": {
+        "description": "карта, перевод, пополнение, деньги, card, money, transfer",
+        "web": "CardArrowInMIcon",
+        "webComponent": "import { CardArrowInMIcon } from '@alfalab/icons-site/CardArrowInMIcon';",
+        "middle": "site_card-arrow-in_m",
+        "cdn": "site_card-arrow-in_m",
+        "url": "https://alfabank.servicecdn.ru/icons/site_card-arrow-in_m.svg"
+    },
+    "CardArrowOutMIcon": {
+        "description": "карта, перевод, вывод, деньги, card, money, transfer",
+        "web": "CardArrowOutMIcon",
+        "webComponent": "import { CardArrowOutMIcon } from '@alfalab/icons-site/CardArrowOutMIcon';",
+        "middle": "site_card-arrow-out_m",
+        "cdn": "site_card-arrow-out_m",
+        "url": "https://alfabank.servicecdn.ru/icons/site_card-arrow-out_m.svg"
+    },
+    "CardCoinDoubleMIcon": {
+        "description": "карта, пополнение, вывод, деньги, монеты, money, transfer, coins, кэшбэк, cashback",
+        "web": "CardCoinDoubleMIcon",
+        "webComponent": "import { CardCoinDoubleMIcon } from '@alfalab/icons-site/CardCoinDoubleMIcon';",
+        "middle": "site_card-coin-double_m",
+        "cdn": "site_card-coin-double_m",
+        "url": "https://alfabank.servicecdn.ru/icons/site_card-coin-double_m.svg"
+    },
+    "CardCursorDashLineMIcon": {
+        "description": "карта, курсор, линия, пунктир, выбор, card, cursor, line, dash, select",
+        "web": "CardCursorDashLineMIcon",
+        "webComponent": "import { CardCursorDashLineMIcon } from '@alfalab/icons-site/CardCursorDashLineMIcon';",
+        "middle": "site_card-cursor-dash-line_m",
+        "cdn": "site_card-cursor-dash-line_m",
+        "url": "https://alfabank.servicecdn.ru/icons/site_card-cursor-dash-line_m.svg"
+    },
+    "CardGiftMIcon": {
+        "description": "карта, подарок",
+        "web": "CardGiftMIcon",
+        "webComponent": "import { CardGiftMIcon } from '@alfalab/icons-site/CardGiftMIcon';",
+        "middle": "site_card-gift_m",
+        "cdn": "site_card-gift_m",
+        "url": "https://alfabank.servicecdn.ru/icons/site_card-gift_m.svg"
+    },
+    "CardMailOpenLineMIcon": {
+        "description": "карта, конверт, доставка, деньги, money, delivery, mail",
+        "web": "CardMailOpenLineMIcon",
+        "webComponent": "import { CardMailOpenLineMIcon } from '@alfalab/icons-site/CardMailOpenLineMIcon';",
+        "middle": "site_card-mail-open-line_m",
+        "cdn": "site_card-mail-open-line_m",
+        "url": "https://alfabank.servicecdn.ru/icons/site_card-mail-open-line_m.svg"
+    },
+    "CheckboxTileHandMIcon": {
+        "description": "галка, галочка, готово, плитка",
+        "web": "CheckboxTileHandMIcon",
+        "webComponent": "import { CheckboxTileHandMIcon } from '@alfalab/icons-site/CheckboxTileHandMIcon';",
+        "middle": "site_checkbox-tile-hand_m",
+        "cdn": "site_checkbox-tile-hand_m",
+        "url": "https://alfabank.servicecdn.ru/icons/site_checkbox-tile-hand_m.svg"
+    },
+    "CheckmarkCircleLineMIcon": {
+        "description": "галка, галочка, готово",
+        "web": "CheckmarkCircleLineMIcon",
+        "webComponent": "import { CheckmarkCircleLineMIcon } from '@alfalab/icons-site/CheckmarkCircleLineMIcon';",
+        "middle": "site_checkmark-circle-line_m",
+        "cdn": "site_checkmark-circle-line_m",
+        "url": "https://alfabank.servicecdn.ru/icons/site_checkmark-circle-line_m.svg"
+    },
+    "CupSportSecondMIcon": {
+        "description": "cup, award, place, victory, second\n\n\nкубок, награда, место, победа, второе",
+        "web": "CupSportSecondMIcon",
+        "webComponent": "import { CupSportSecondMIcon } from '@alfalab/icons-site/CupSportSecondMIcon';",
+        "middle": "site_cup-sport-second_m",
+        "cdn": "site_cup-sport-second_m",
+        "url": "https://alfabank.servicecdn.ru/icons/site_cup-sport-second_m.svg"
+    },
+    "CupSportThirdMIcon": {
+        "description": "cup, award, place, victory, third\n\n\nкубок, награда, место, победа, третье",
+        "web": "CupSportThirdMIcon",
+        "webComponent": "import { CupSportThirdMIcon } from '@alfalab/icons-site/CupSportThirdMIcon';",
+        "middle": "site_cup-sport-third_m",
+        "cdn": "site_cup-sport-third_m",
+        "url": "https://alfabank.servicecdn.ru/icons/site_cup-sport-third_m.svg"
+    },
+    "CupSportMIcon": {
+        "description": "cup, award, place, victory, first\nкубок, награда, место, победа, первое",
+        "web": "CupSportMIcon",
+        "webComponent": "import { CupSportMIcon } from '@alfalab/icons-site/CupSportMIcon';",
+        "middle": "site_cup-sport_m",
+        "cdn": "site_cup-sport_m",
+        "url": "https://alfabank.servicecdn.ru/icons/site_cup-sport_m.svg"
+    },
+    "DisplayChartMIcon": {
+        "description": "настольный компьютер, desktop, график, чарт, graphic",
+        "web": "DisplayChartMIcon",
+        "webComponent": "import { DisplayChartMIcon } from '@alfalab/icons-site/DisplayChartMIcon';",
+        "middle": "site_display-chart_m",
+        "cdn": "site_display-chart_m",
+        "url": "https://alfabank.servicecdn.ru/icons/site_display-chart_m.svg"
+    },
+    "DisplayCursorAlfaMIcon": {
+        "description": "настольный компьютер, desktop, курсор, cursor, logo alfa, лого альфа",
+        "web": "DisplayCursorAlfaMIcon",
+        "webComponent": "import { DisplayCursorAlfaMIcon } from '@alfalab/icons-site/DisplayCursorAlfaMIcon';",
+        "middle": "site_display-cursor-alfa_m",
+        "cdn": "site_display-cursor-alfa_m",
+        "url": "https://alfabank.servicecdn.ru/icons/site_display-cursor-alfa_m.svg"
+    },
+    "DocumentCheckmarkCoinDoubleArrowInLineMIcon": {
+        "description": "account, done, документ, счет, открыть, одобрение, составить акт, монеты, деньги, money, cashback",
+        "web": "DocumentCheckmarkCoinDoubleArrowInLineMIcon",
+        "webComponent": "import { DocumentCheckmarkCoinDoubleArrowInLineMIcon } from '@alfalab/icons-site/DocumentCheckmarkCoinDoubleArrowInLineMIcon';",
+        "middle": "site_document-checkmark-coin-double-arrow-in-line_m",
+        "cdn": "site_document-checkmark-coin-double-arrow-in-line_m",
+        "url": "https://alfabank.servicecdn.ru/icons/site_document-checkmark-coin-double-arrow-in-line_m.svg"
+    },
+    "DocumentCheckmarkCoinDoubleArrowInMIcon": {
+        "description": "account, done, документ, счет, открыть, одобрение, составить акт, монеты, деньги, money, cashback",
+        "web": "DocumentCheckmarkCoinDoubleArrowInMIcon",
+        "webComponent": "import { DocumentCheckmarkCoinDoubleArrowInMIcon } from '@alfalab/icons-site/DocumentCheckmarkCoinDoubleArrowInMIcon';",
+        "middle": "site_document-checkmark-coin-double-arrow-in_m",
+        "cdn": "site_document-checkmark-coin-double-arrow-in_m",
+        "url": "https://alfabank.servicecdn.ru/icons/site_document-checkmark-coin-double-arrow-in_m.svg"
+    },
+    "DocumentCheckmarkCoinDoubleLineMIcon": {
+        "description": "account, done, документ, счет, открыть, одобрение, составить акт, монеты, деньги, money",
+        "web": "DocumentCheckmarkCoinDoubleLineMIcon",
+        "webComponent": "import { DocumentCheckmarkCoinDoubleLineMIcon } from '@alfalab/icons-site/DocumentCheckmarkCoinDoubleLineMIcon';",
+        "middle": "site_document-checkmark-coin-double-line_m",
+        "cdn": "site_document-checkmark-coin-double-line_m",
+        "url": "https://alfabank.servicecdn.ru/icons/site_document-checkmark-coin-double-line_m.svg"
+    },
+    "DocumentCheckmarkCoinDoubleMIcon": {
+        "description": "account, done, документ, счет, открыть, одобрение, составить акт, монеты, деньги, money",
+        "web": "DocumentCheckmarkCoinDoubleMIcon",
+        "webComponent": "import { DocumentCheckmarkCoinDoubleMIcon } from '@alfalab/icons-site/DocumentCheckmarkCoinDoubleMIcon';",
+        "middle": "site_document-checkmark-coin-double_m",
+        "cdn": "site_document-checkmark-coin-double_m",
+        "url": "https://alfabank.servicecdn.ru/icons/site_document-checkmark-coin-double_m.svg"
+    },
+    "DocumentCheckmarkLineMIcon": {
+        "description": "account, done, документ, счет, открыть, одобрение, составить акт, монеты, деньги, money",
+        "web": "DocumentCheckmarkLineMIcon",
+        "webComponent": "import { DocumentCheckmarkLineMIcon } from '@alfalab/icons-site/DocumentCheckmarkLineMIcon';",
+        "middle": "site_document-checkmark-line_m",
+        "cdn": "site_document-checkmark-line_m",
+        "url": "https://alfabank.servicecdn.ru/icons/site_document-checkmark-line_m.svg"
+    },
+    "HousePercentMIcon": {
+        "description": "дом, процент, кредит, ипотека, house",
+        "web": "HousePercentMIcon",
+        "webComponent": "import { HousePercentMIcon } from '@alfalab/icons-site/HousePercentMIcon';",
+        "middle": "site_house-percent_m",
+        "cdn": "site_house-percent_m",
+        "url": "https://alfabank.servicecdn.ru/icons/site_house-percent_m.svg"
+    },
+    "LocatorOffMIcon": {
+        "description": "локация, locator, скрыть, hide, отключить, off, гео",
+        "web": "LocatorOffMIcon",
+        "webComponent": "import { LocatorOffMIcon } from '@alfalab/icons-site/LocatorOffMIcon';",
+        "middle": "site_locator-off_m",
+        "cdn": "site_locator-off_m",
+        "url": "https://alfabank.servicecdn.ru/icons/site_locator-off_m.svg"
+    },
+    "MobilePhoneAlfaLineMIcon": {
+        "description": "мобильный телефон, альфа банк, логотип, смартфон, андроид, айфон, mobile phone, alfa bank, logo, smartphone, android, iphone",
+        "web": "MobilePhoneAlfaLineMIcon",
+        "webComponent": "import { MobilePhoneAlfaLineMIcon } from '@alfalab/icons-site/MobilePhoneAlfaLineMIcon';",
+        "middle": "site_mobile-phone-alfa-line_m",
+        "cdn": "site_mobile-phone-alfa-line_m",
+        "url": "https://alfabank.servicecdn.ru/icons/site_mobile-phone-alfa-line_m.svg"
+    },
+    "MobilePhoneAlfaMIcon": {
+        "description": "мобильный телефон, альфа банк, логотип, смартфон, андроид, айфон, mobile phone, alfa bank, logo, smartphone, android, iphone",
+        "web": "MobilePhoneAlfaMIcon",
+        "webComponent": "import { MobilePhoneAlfaMIcon } from '@alfalab/icons-site/MobilePhoneAlfaMIcon';",
+        "middle": "site_mobile-phone-alfa_m",
+        "cdn": "site_mobile-phone-alfa_m",
+        "url": "https://alfabank.servicecdn.ru/icons/site_mobile-phone-alfa_m.svg"
+    },
+    "MobilePhoneArrowsHorizontalMIcon": {
+        "description": "телефон, горизонтально, развернуть, phone, horizontal, rotate, ориентация",
+        "web": "MobilePhoneArrowsHorizontalMIcon",
+        "webComponent": "import { MobilePhoneArrowsHorizontalMIcon } from '@alfalab/icons-site/MobilePhoneArrowsHorizontalMIcon';",
+        "middle": "site_mobile-phone-arrows-horizontal_m",
+        "cdn": "site_mobile-phone-arrows-horizontal_m",
+        "url": "https://alfabank.servicecdn.ru/icons/site_mobile-phone-arrows-horizontal_m.svg"
+    },
+    "MobilePhoneBubbleMIcon": {
+        "description": "мобильный телефон, смс, чат, поддержка, смартфон, андроид, айфон, mobile phone, sms, chat, support, smartphone, android, iphone, баббл, бабл",
+        "web": "MobilePhoneBubbleMIcon",
+        "webComponent": "import { MobilePhoneBubbleMIcon } from '@alfalab/icons-site/MobilePhoneBubbleMIcon';",
+        "middle": "site_mobile-phone-bubble_m",
+        "cdn": "site_mobile-phone-bubble_m",
+        "url": "https://alfabank.servicecdn.ru/icons/site_mobile-phone-bubble_m.svg"
+    },
+    "MobilePhoneCheckmarkLineMIcon": {
+        "description": "мобильный телефон, перевод, смартфон, андроид, айфон, mobile phone, withdraw, smartphone, android, iphone, галка, галочка, готово",
+        "web": "MobilePhoneCheckmarkLineMIcon",
+        "webComponent": "import { MobilePhoneCheckmarkLineMIcon } from '@alfalab/icons-site/MobilePhoneCheckmarkLineMIcon';",
+        "middle": "site_mobile-phone-checkmark-line_m",
+        "cdn": "site_mobile-phone-checkmark-line_m",
+        "url": "https://alfabank.servicecdn.ru/icons/site_mobile-phone-checkmark-line_m.svg"
+    },
+    "MobilePhoneCheckmarkMIcon": {
+        "description": "мобильный телефон, перевод, смартфон, андроид, айфон, mobile phone, withdraw, smartphone, android, iphone, галка, галочка, готово",
+        "web": "MobilePhoneCheckmarkMIcon",
+        "webComponent": "import { MobilePhoneCheckmarkMIcon } from '@alfalab/icons-site/MobilePhoneCheckmarkMIcon';",
+        "middle": "site_mobile-phone-checkmark_m",
+        "cdn": "site_mobile-phone-checkmark_m",
+        "url": "https://alfabank.servicecdn.ru/icons/site_mobile-phone-checkmark_m.svg"
+    },
+    "PedestalFirstMIcon": {
+        "description": "place, victory, winner, пьедистал, первое, место, победа, победитель",
+        "web": "PedestalFirstMIcon",
+        "webComponent": "import { PedestalFirstMIcon } from '@alfalab/icons-site/PedestalFirstMIcon';",
+        "middle": "site_pedestal-first_m",
+        "cdn": "site_pedestal-first_m",
+        "url": "https://alfabank.servicecdn.ru/icons/site_pedestal-first_m.svg"
+    },
+    "PercentArrowInMIcon": {
+        "description": "процент, percent, начисление, кэшбэк, cashback, возврат",
+        "web": "PercentArrowInMIcon",
+        "webComponent": "import { PercentArrowInMIcon } from '@alfalab/icons-site/PercentArrowInMIcon';",
+        "middle": "site_percent-arrow-in_m",
+        "cdn": "site_percent-arrow-in_m",
+        "url": "https://alfabank.servicecdn.ru/icons/site_percent-arrow-in_m.svg"
+    },
+    "PercentCheckmarkMIcon": {
+        "description": "процент, done, галка, галочка, готово",
+        "web": "PercentCheckmarkMIcon",
+        "webComponent": "import { PercentCheckmarkMIcon } from '@alfalab/icons-site/PercentCheckmarkMIcon';",
+        "middle": "site_percent-checkmark_m",
+        "cdn": "site_percent-checkmark_m",
+        "url": "https://alfabank.servicecdn.ru/icons/site_percent-checkmark_m.svg"
+    },
+    "PercentCircleArrowInMIcon": {
+        "description": "процент, начисление, кэшбэк, cashback, возврат",
+        "web": "PercentCircleArrowInMIcon",
+        "webComponent": "import { PercentCircleArrowInMIcon } from '@alfalab/icons-site/PercentCircleArrowInMIcon';",
+        "middle": "site_percent-circle-arrow-in_m",
+        "cdn": "site_percent-circle-arrow-in_m",
+        "url": "https://alfabank.servicecdn.ru/icons/site_percent-circle-arrow-in_m.svg"
+    },
+    "PercentCircleCheckmarkMIcon": {
+        "description": "процент, галка, галочка, готово, done",
+        "web": "PercentCircleCheckmarkMIcon",
+        "webComponent": "import { PercentCircleCheckmarkMIcon } from '@alfalab/icons-site/PercentCircleCheckmarkMIcon';",
+        "middle": "site_percent-circle-checkmark_m",
+        "cdn": "site_percent-circle-checkmark_m",
+        "url": "https://alfabank.servicecdn.ru/icons/site_percent-circle-checkmark_m.svg"
+    },
+    "ShieldAlfaCheckmarkLineMIcon": {
+        "description": "щит, страховка, альфа-безопасность, безопасность",
+        "web": "ShieldAlfaCheckmarkLineMIcon",
+        "webComponent": "import { ShieldAlfaCheckmarkLineMIcon } from '@alfalab/icons-site/ShieldAlfaCheckmarkLineMIcon';",
+        "middle": "site_shield-alfa-checkmark-line_m",
+        "cdn": "site_shield-alfa-checkmark-line_m",
+        "url": "https://alfabank.servicecdn.ru/icons/site_shield-alfa-checkmark-line_m.svg"
+    },
+    "ShieldAlfaCheckmarkMIcon": {
+        "description": "щит, страховка, альфа-безопасность, безопасность",
+        "web": "ShieldAlfaCheckmarkMIcon",
+        "webComponent": "import { ShieldAlfaCheckmarkMIcon } from '@alfalab/icons-site/ShieldAlfaCheckmarkMIcon';",
+        "middle": "site_shield-alfa-checkmark_m",
+        "cdn": "site_shield-alfa-checkmark_m",
+        "url": "https://alfabank.servicecdn.ru/icons/site_shield-alfa-checkmark_m.svg"
+    },
+    "ShieldAlfaLineMIcon": {
+        "description": "щит, страховка, альфа-безопасность, безопасность",
+        "web": "ShieldAlfaLineMIcon",
+        "webComponent": "import { ShieldAlfaLineMIcon } from '@alfalab/icons-site/ShieldAlfaLineMIcon';",
+        "middle": "site_shield-alfa-line_m",
+        "cdn": "site_shield-alfa-line_m",
+        "url": "https://alfabank.servicecdn.ru/icons/site_shield-alfa-line_m.svg"
+    },
+    "ShieldAlfaMIcon": {
+        "description": "щит, страховка, альфа-безопасность, безопасность",
+        "web": "ShieldAlfaMIcon",
+        "webComponent": "import { ShieldAlfaMIcon } from '@alfalab/icons-site/ShieldAlfaMIcon';",
+        "middle": "site_shield-alfa_m",
+        "cdn": "site_shield-alfa_m",
+        "url": "https://alfabank.servicecdn.ru/icons/site_shield-alfa_m.svg"
+    },
+    "ShoppingBagPercentArrowInMIcon": {
+        "description": "пакет, покупки, процент, кэшбэк, возврат, cashback",
+        "web": "ShoppingBagPercentArrowInMIcon",
+        "webComponent": "import { ShoppingBagPercentArrowInMIcon } from '@alfalab/icons-site/ShoppingBagPercentArrowInMIcon';",
+        "middle": "site_shopping-bag-percent-arrow-in_m",
+        "cdn": "site_shopping-bag-percent-arrow-in_m",
+        "url": "https://alfabank.servicecdn.ru/icons/site_shopping-bag-percent-arrow-in_m.svg"
+    },
+    "SupermarketTrolleyArrowInMIcon": {
+        "description": "корзина, магазин, тележка, покупки, supermarket, basket, shop, shoping",
+        "web": "SupermarketTrolleyArrowInMIcon",
+        "webComponent": "import { SupermarketTrolleyArrowInMIcon } from '@alfalab/icons-site/SupermarketTrolleyArrowInMIcon';",
+        "middle": "site_supermarket-trolley-arrow-in_m",
+        "cdn": "site_supermarket-trolley-arrow-in_m",
+        "url": "https://alfabank.servicecdn.ru/icons/site_supermarket-trolley-arrow-in_m.svg"
+    },
+    "TicketAirplaneArrowInMIcon": {
+        "description": "билет, самолёт, кэшбэк, cashback",
+        "web": "TicketAirplaneArrowInMIcon",
+        "webComponent": "import { TicketAirplaneArrowInMIcon } from '@alfalab/icons-site/TicketAirplaneArrowInMIcon';",
+        "middle": "site_ticket-airplane-arrow-in_m",
+        "cdn": "site_ticket-airplane-arrow-in_m",
+        "url": "https://alfabank.servicecdn.ru/icons/site_ticket-airplane-arrow-in_m.svg"
+    },
+    "TicketAirplaneMIcon": {
+        "description": "билет, самолёт",
+        "web": "TicketAirplaneMIcon",
+        "webComponent": "import { TicketAirplaneMIcon } from '@alfalab/icons-site/TicketAirplaneMIcon';",
+        "middle": "site_ticket-airplane_m",
+        "cdn": "site_ticket-airplane_m",
+        "url": "https://alfabank.servicecdn.ru/icons/site_ticket-airplane_m.svg"
+    },
+    "TicketArrowInMIcon": {
+        "description": "билет, возврат, кэшбэк, cashback",
+        "web": "TicketArrowInMIcon",
+        "webComponent": "import { TicketArrowInMIcon } from '@alfalab/icons-site/TicketArrowInMIcon';",
+        "middle": "site_ticket-arrow-in_m",
+        "cdn": "site_ticket-arrow-in_m",
+        "url": "https://alfabank.servicecdn.ru/icons/site_ticket-arrow-in_m.svg"
+    },
+    "TicketGiftMIcon": {
+        "description": "билет, подарок",
+        "web": "TicketGiftMIcon",
+        "webComponent": "import { TicketGiftMIcon } from '@alfalab/icons-site/TicketGiftMIcon';",
+        "middle": "site_ticket-gift_m",
+        "cdn": "site_ticket-gift_m",
+        "url": "https://alfabank.servicecdn.ru/icons/site_ticket-gift_m.svg"
+    },
+    "TicketParasolArrowInMIcon": {
+        "description": "билет, umbrella, sun, зонтик, солнце, кэшбэк, cashback",
+        "web": "TicketParasolArrowInMIcon",
+        "webComponent": "import { TicketParasolArrowInMIcon } from '@alfalab/icons-site/TicketParasolArrowInMIcon';",
+        "middle": "site_ticket-parasol-arrow-in_m",
+        "cdn": "site_ticket-parasol-arrow-in_m",
+        "url": "https://alfabank.servicecdn.ru/icons/site_ticket-parasol-arrow-in_m.svg"
+    },
+    "TicketParasolMIcon": {
+        "description": "билет, umbrella, sun, зонтик, солнце",
+        "web": "TicketParasolMIcon",
+        "webComponent": "import { TicketParasolMIcon } from '@alfalab/icons-site/TicketParasolMIcon';",
+        "middle": "site_ticket-parasol_m",
+        "cdn": "site_ticket-parasol_m",
+        "url": "https://alfabank.servicecdn.ru/icons/site_ticket-parasol_m.svg"
+    },
+    "TicketTrainArrowInMIcon": {
+        "description": "билет, поезд, метро, metro, кэшбэк, cashback",
+        "web": "TicketTrainArrowInMIcon",
+        "webComponent": "import { TicketTrainArrowInMIcon } from '@alfalab/icons-site/TicketTrainArrowInMIcon';",
+        "middle": "site_ticket-train-arrow-in_m",
+        "cdn": "site_ticket-train-arrow-in_m",
+        "url": "https://alfabank.servicecdn.ru/icons/site_ticket-train-arrow-in_m.svg"
+    },
+    "TicketTrainMIcon": {
+        "description": "билет, поезд, метро, metro",
+        "web": "TicketTrainMIcon",
+        "webComponent": "import { TicketTrainMIcon } from '@alfalab/icons-site/TicketTrainMIcon';",
+        "middle": "site_ticket-train_m",
+        "cdn": "site_ticket-train_m",
+        "url": "https://alfabank.servicecdn.ru/icons/site_ticket-train_m.svg"
+    },
+    "TicketVipMIcon": {
+        "description": "билет, вип, premium, премиуи",
+        "web": "TicketVipMIcon",
+        "webComponent": "import { TicketVipMIcon } from '@alfalab/icons-site/TicketVipMIcon';",
+        "middle": "site_ticket-vip_m",
+        "cdn": "site_ticket-vip_m",
+        "url": "https://alfabank.servicecdn.ru/icons/site_ticket-vip_m.svg"
+    },
+    "TicketMIcon": {
+        "description": "билет",
+        "web": "TicketMIcon",
+        "webComponent": "import { TicketMIcon } from '@alfalab/icons-site/TicketMIcon';",
+        "middle": "site_ticket_m",
+        "cdn": "site_ticket_m",
+        "url": "https://alfabank.servicecdn.ru/icons/site_ticket_m.svg"
+    },
+    "TuxedoMIcon": {
+        "description": "jacket, business, premium, vip\nпиджак, смокинг, бизнес, премиум",
+        "web": "TuxedoMIcon",
+        "webComponent": "import { TuxedoMIcon } from '@alfalab/icons-site/TuxedoMIcon';",
+        "middle": "site_tuxedo_m",
+        "cdn": "site_tuxedo_m",
+        "url": "https://alfabank.servicecdn.ru/icons/site_tuxedo_m.svg"
+    },
+    "UserCheckmarkMIcon": {
+        "description": "одобрить пользователя, done, approve user, статус, status",
+        "web": "UserCheckmarkMIcon",
+        "webComponent": "import { UserCheckmarkMIcon } from '@alfalab/icons-site/UserCheckmarkMIcon';",
+        "middle": "site_user-checkmark_m",
+        "cdn": "site_user-checkmark_m",
+        "url": "https://alfabank.servicecdn.ru/icons/site_user-checkmark_m.svg"
+    }
+}

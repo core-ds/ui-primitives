@@ -1,0 +1,204 @@
+name: main
+
+on:
+    pull_request:
+    merge_group:
+        branches:
+            - master
+    push:
+        branches:
+            - master
+
+permissions:
+    contents: read
+
+concurrency:
+    group: ${{ github.workflow }}-${{ github.sha }}
+    cancel-in-progress: true
+
+jobs:
+    codegen:
+        if: ${{ github.repository == 'core-ds/ui-primitives' && github.event_name == 'pull_request' }}
+        runs-on: ubuntu-latest
+        steps:
+            - name: Checkout
+              uses: actions/checkout@v7
+
+            - name: Setup CI
+              uses: $/.github/actions/ci-setup
+
+            - name: Bootstrap
+              run: |
+                  pnpm bootstrap
+
+            - name: Codegen
+              env:
+                  FIGMA_FLAG_FILE_KEY: ${{ secrets.FIGMA_FLAG_FILE_KEY }}
+                  FIGMA_ICON_FILE_KEY: ${{ secrets.FIGMA_ICON_FILE_KEY }}
+                  FIGMA_LOGO_FILE_KEY: ${{ secrets.FIGMA_LOGO_FILE_KEY }}
+                  FIGMA_TOKEN: ${{ secrets.FIGMA_TOKEN }}
+              run: |
+                  pnpm codegen
+
+            - name: Check if should update branch
+              uses: actions/github-script@v9
+              with:
+                  script: |
+                      const { stdout } = await exec.getExecOutput('git', ['status', '--porcelain']);
+
+                      if (stdout.trim().length > 0) {
+                          core.setFailed("Codegen check failed");
+                      }
+
+    build:
+        needs: codegen
+        if: always() && case(github.event_name == 'pull_request', needs.codegen.result == 'success', needs.codegen.result == 'skipped')
+        runs-on: ubuntu-latest
+        steps:
+            - name: Checkout
+              uses: actions/checkout@v7
+
+            - name: Setup CI
+              uses: $/.github/actions/ci-setup
+
+            - name: Bootstrap
+              run: |
+                  pnpm bootstrap
+
+            - name: Build
+              run: |
+                  pnpm build
+
+            - name: Upload dist
+              uses: actions/upload-artifact@v7
+              with:
+                  retention-days: 1
+                  name: dist
+                  path: |
+                      icons-demo/dist
+                      packages/*/dist
+                      scripts/*/dist
+
+    lint:
+        needs: codegen
+        if: always() && case(github.event_name == 'pull_request', needs.codegen.result == 'success', needs.codegen.result == 'skipped')
+        runs-on: ubuntu-latest
+        steps:
+            - name: Checkout
+              uses: actions/checkout@v7
+
+            - name: Setup CI
+              uses: $/.github/actions/ci-setup
+
+            - name: Bootstrap
+              run: |
+                  pnpm bootstrap
+
+            - name: Format
+              run: |
+                  pnpm format-check
+
+            - name: Lint
+              run: |
+                  pnpm lint
+
+    icons-demo:
+        if: ${{ always() && needs.build.result == 'success' && github.repository == 'core-ds/ui-primitives' }}
+        needs: build
+        runs-on: ubuntu-latest
+        outputs:
+            url: ${{ format('https://{0}.github.io/icons-demo/{1}', github.repository_owner, case(github.event_name == 'pull_request', github.event.pull_request.number, '')) }}
+        concurrency:
+            group: deploy-icons-demo
+            cancel-in-progress: false
+            queue: max
+        steps:
+            - name: Create app token
+              uses: actions/create-github-app-token@v3
+              id: app-token
+              with:
+                  client-id: ${{ vars.APP_ID }}
+                  private-key: ${{ secrets.APP_PRIVATE_KEY }}
+                  owner: ${{ github.repository_owner }}
+                  repositories: icons-demo
+                  permission-contents: write
+                  permission-pull-requests: write
+
+            - name: Checkout
+              uses: actions/checkout@v7
+              with:
+                  token: ${{ steps.app-token.outputs.token }}
+                  repository: ${{ github.repository_owner }}/icons-demo
+                  ref: gh-pages
+
+            - name: Download dist
+              uses: actions/download-artifact@v8
+              with:
+                  name: dist
+                  path: ${{ runner.temp }}/dist
+
+            - name: Clean
+              run: |
+                  rm -rf ${{ case(github.event_name == 'pull_request', github.event.pull_request.number, 'index.html build') }}
+
+            - name: Make directory
+              if: ${{ github.event_name == 'pull_request' }}
+              run: |
+                  mkdir ${{ github.event.pull_request.number }}
+
+            - name: Copy files
+              run: |
+                  cp    ${{ runner.temp }}/dist/icons-demo/dist/index.html ${{ case(github.event_name == 'pull_request', github.event.pull_request.number, '.' ) }}
+                  cp -r ${{ runner.temp }}/dist/icons-demo/dist/build      ${{ case(github.event_name == 'pull_request', github.event.pull_request.number, '.' ) }}
+
+            - name: Commit and push
+              uses: core-ds/ui-primitives/.github/actions/commit-and-push@master
+              with:
+                  message: Deploy demo
+
+    comment:
+        runs-on: ubuntu-latest
+        needs: icons-demo
+        if: ${{ github.event_name == 'pull_request' }}
+        continue-on-error: true
+        permissions:
+            pull-requests: write # to post pull-requests comments
+        steps:
+            - name: Find comment
+              uses: peter-evans/find-comment@b30e6a3c0ed37e7c023ccd3f1db5c6c0b0c23aad # v4
+              id: comment
+              with:
+                  token: ${{ secrets.GITHUB_TOKEN }}
+                  issue-number: ${{ github.event.pull_request.number }}
+                  comment-author: 'github-actions[bot]'
+                  body-includes: '## Icons demo'
+
+            - name: Create or update comment
+              uses: peter-evans/create-or-update-comment@e8674b075228eee787fea43ef493e45ece1004c9 # v5
+              with:
+                  token: ${{ secrets.GITHUB_TOKEN }}
+                  comment-id: ${{ steps.comment.outputs.comment-id }}
+                  issue-number: ${{ github.event.pull_request.number }}
+                  body: |
+                      ## Icons demo
+
+                      ${{ format('[{0}]({0})', needs.icons-demo.outputs.url) }}
+
+                      Workflow ${{ format('[{3}/{2}]({0}/{1}/actions/runs/{2})', github.server_url, github.repository, github.run_id, github.workflow) }}
+                  reactions: rocket
+                  edit-mode: replace
+
+    ok:
+        runs-on: ubuntu-latest
+        if: always()
+        needs:
+            - codegen
+            - build
+            - lint
+            - 'icons-demo'
+        env:
+            RETURN_CODE: ${{ case(contains(needs.*.result, 'failure') || contains(needs.*.result, 'cancelled'), 1, 0) }}
+        steps:
+            - name: Check for failure
+              run: |
+                  exit $RETURN_CODE

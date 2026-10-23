@@ -1,0 +1,42 @@
+name: remove demo
+
+on:
+    pull_request:
+        types: closed
+
+permissions: {} # each job should define its own permission explicitly
+
+jobs:
+    remove:
+        if: ${{ github.repository == 'core-ds/ui-primitives' }}
+        runs-on: ubuntu-latest
+        concurrency:
+            group: deploy-icons-demo
+            cancel-in-progress: false
+            queue: max
+        steps:
+            - name: Create app token
+              uses: actions/create-github-app-token@v3
+              id: app-token
+              with:
+                  client-id: ${{ vars.APP_ID }}
+                  private-key: ${{ secrets.APP_PRIVATE_KEY }}
+                  owner: ${{ github.repository_owner }}
+                  repositories: icons-demo
+                  permission-contents: write
+
+            - name: Checkout
+              uses: actions/checkout@v7
+              with:
+                  token: ${{ steps.app-token.outputs.token }}
+                  repository: ${{ github.repository_owner }}/icons-demo
+                  ref: gh-pages
+
+            - name: Filesystem
+              run: |
+                  rm -rf ${{ github.event.pull_request.number }}
+
+            - name: Commit and push
+              uses: core-ds/ui-primitives/.github/actions/commit-and-push@master
+              with:
+                  message: Remove demo

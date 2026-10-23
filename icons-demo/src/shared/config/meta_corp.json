@@ -1,0 +1,1312 @@
+{
+    "AScoresCircleMIcon": {
+        "description": "бонус, альфа-выгодно, баллы, bonus, кешбэк и бонусы",
+        "web": "AScoresCircleMIcon",
+        "webComponent": "import { AScoresCircleMIcon } from '@alfalab/icons-corp/AScoresCircleMIcon';",
+        "android": "corp_a_scores_circle_m",
+        "ios": "corp_aScoresCircle_m",
+        "middle": "corp_a-scores-circle_m",
+        "cdn": "corp_a-scores-circle_m",
+        "url": "https://alfabank.servicecdn.ru/icons/corp_a-scores-circle_m.svg"
+    },
+    "AllServicesCompactMIcon": {
+        "description": "сервисы, все сервисы, services, all services",
+        "web": "AllServicesCompactMIcon",
+        "webComponent": "import { AllServicesCompactMIcon } from '@alfalab/icons-corp/AllServicesCompactMIcon';",
+        "android": "corp_all_services_compact_m",
+        "ios": "corp_allServicesCompact_m",
+        "middle": "corp_all-services-compact_m",
+        "cdn": "corp_all-services-compact_m",
+        "url": "https://alfabank.servicecdn.ru/icons/corp_all-services-compact_m.svg"
+    },
+    "ArrowAscBoldMIcon": {
+        "description": "альфа бизнес пипл, alfa business people",
+        "web": "ArrowAscBoldMIcon",
+        "webComponent": "import { ArrowAscBoldMIcon } from '@alfalab/icons-corp/ArrowAscBoldMIcon';",
+        "android": "corp_arrow_asc_bold_m",
+        "ios": "corp_arrowAscBold_m",
+        "middle": "corp_arrow-asc-bold_m",
+        "cdn": "corp_arrow-asc-bold_m",
+        "url": "https://alfabank.servicecdn.ru/icons/corp_arrow-asc-bold_m.svg"
+    },
+    "ArrowRiseMIcon": {
+        "description": "",
+        "web": "ArrowRiseMIcon",
+        "webComponent": "import { ArrowRiseMIcon } from '@alfalab/icons-corp/ArrowRiseMIcon';",
+        "android": "corp_arrow_rise_m",
+        "ios": "corp_arrowRise_m",
+        "middle": "corp_arrow-rise_m",
+        "cdn": "corp_arrow-rise_m",
+        "url": "https://alfabank.servicecdn.ru/icons/corp_arrow-rise_m.svg"
+    },
+    "ArrowsRightLeftCurvedBoldMIcon": {
+        "description": "стрелки, кривые стрелки, arrows, платежи в работе",
+        "web": "ArrowsRightLeftCurvedBoldMIcon",
+        "webComponent": "import { ArrowsRightLeftCurvedBoldMIcon } from '@alfalab/icons-corp/ArrowsRightLeftCurvedBoldMIcon';",
+        "android": "corp_arrows_right_left_curved_bold_m",
+        "ios": "corp_arrowsRightLeftCurvedBold_m",
+        "middle": "corp_arrows-right-left-curved-bold_m",
+        "cdn": "corp_arrows-right-left-curved-bold_m",
+        "url": "https://alfabank.servicecdn.ru/icons/corp_arrows-right-left-curved-bold_m.svg"
+    },
+    "ArtificialIntelligenceMIcon": {
+        "description": "искусственный интеллект, нейросеть",
+        "web": "ArtificialIntelligenceMIcon",
+        "webComponent": "import { ArtificialIntelligenceMIcon } from '@alfalab/icons-corp/ArtificialIntelligenceMIcon';",
+        "android": "corp_artificial_intelligence_m",
+        "ios": "corp_artificialIntelligence_m",
+        "middle": "corp_artificial-intelligence_m",
+        "cdn": "corp_artificial-intelligence_m",
+        "url": "https://alfabank.servicecdn.ru/icons/corp_artificial-intelligence_m.svg"
+    },
+    "ArtificialIntelligenceSIcon": {
+        "description": "искусственный интеллект, нейросеть",
+        "web": "ArtificialIntelligenceSIcon",
+        "webComponent": "import { ArtificialIntelligenceSIcon } from '@alfalab/icons-corp/ArtificialIntelligenceSIcon';",
+        "android": "corp_artificial_intelligence_s",
+        "ios": "corp_artificialIntelligence_s",
+        "middle": "corp_artificial-intelligence_s",
+        "cdn": "corp_artificial-intelligence_s",
+        "url": "https://alfabank.servicecdn.ru/icons/corp_artificial-intelligence_s.svg"
+    },
+    "AtmMIcon": {
+        "description": "банкомат, инкассация, самоинкассация, atm",
+        "web": "AtmMIcon",
+        "webComponent": "import { AtmMIcon } from '@alfalab/icons-corp/AtmMIcon';",
+        "android": "corp_atm_m",
+        "ios": "corp_atm_m",
+        "middle": "corp_atm_m",
+        "cdn": "corp_atm_m",
+        "url": "https://alfabank.servicecdn.ru/icons/corp_atm_m.svg"
+    },
+    "BankGearMIcon": {
+        "description": "банк, шестерёнка",
+        "web": "BankGearMIcon",
+        "webComponent": "import { BankGearMIcon } from '@alfalab/icons-corp/BankGearMIcon';",
+        "android": "corp_bank_gear_m",
+        "ios": "corp_bankGear_m",
+        "middle": "corp_bank-gear_m",
+        "cdn": "corp_bank-gear_m",
+        "url": "https://alfabank.servicecdn.ru/icons/corp_bank-gear_m.svg"
+    },
+    "BankShieldMIcon": {
+        "description": "банк с щитом, аккредитивы",
+        "web": "BankShieldMIcon",
+        "webComponent": "import { BankShieldMIcon } from '@alfalab/icons-corp/BankShieldMIcon';",
+        "android": "corp_bank_shield_m",
+        "ios": "corp_bankShield_m",
+        "middle": "corp_bank-shield_m",
+        "cdn": "corp_bank-shield_m",
+        "url": "https://alfabank.servicecdn.ru/icons/corp_bank-shield_m.svg"
+    },
+    "BankWithShieldMIcon": {
+        "description": "",
+        "web": "BankWithShieldMIcon",
+        "webComponent": "import { BankWithShieldMIcon } from '@alfalab/icons-corp/BankWithShieldMIcon';",
+        "android": "corp_bank_with_shield_m",
+        "ios": "corp_bankWithShield_m",
+        "middle": "corp_bank-with-shield_m",
+        "cdn": "corp_bank-with-shield_m",
+        "url": "https://alfabank.servicecdn.ru/icons/corp_bank-with-shield_m.svg"
+    },
+    "BanknoteStackMIcon": {
+        "description": "купюры, стопка, деньги, оплатить, дела в работе",
+        "web": "BanknoteStackMIcon",
+        "webComponent": "import { BanknoteStackMIcon } from '@alfalab/icons-corp/BanknoteStackMIcon';",
+        "android": "corp_banknote_stack_m",
+        "ios": "corp_banknoteStack_m",
+        "middle": "corp_banknote-stack_m",
+        "cdn": "corp_banknote-stack_m",
+        "url": "https://alfabank.servicecdn.ru/icons/corp_banknote-stack_m.svg"
+    },
+    "BanknotesMIcon": {
+        "description": "заказ наличных, наличные, стопка наличных, кэш, cash, money, деньги",
+        "web": "BanknotesMIcon",
+        "webComponent": "import { BanknotesMIcon } from '@alfalab/icons-corp/BanknotesMIcon';",
+        "android": "corp_banknotes_m",
+        "ios": "corp_banknotes_m",
+        "middle": "corp_banknotes_m",
+        "cdn": "corp_banknotes_m",
+        "url": "https://alfabank.servicecdn.ru/icons/corp_banknotes_m.svg"
+    },
+    "BellAddMIcon": {
+        "description": "",
+        "web": "BellAddMIcon",
+        "webComponent": "import { BellAddMIcon } from '@alfalab/icons-corp/BellAddMIcon';",
+        "android": "corp_bell_add_m",
+        "ios": "corp_bellAdd_m",
+        "middle": "corp_bell-add_m",
+        "cdn": "corp_bell-add_m",
+        "url": "https://alfabank.servicecdn.ru/icons/corp_bell-add_m.svg"
+    },
+    "BellPlusMIcon": {
+        "description": "колокольчик с плюсом, уведомление, notification",
+        "web": "BellPlusMIcon",
+        "webComponent": "import { BellPlusMIcon } from '@alfalab/icons-corp/BellPlusMIcon';",
+        "android": "corp_bell_plus_m",
+        "ios": "corp_bellPlus_m",
+        "middle": "corp_bell-plus_m",
+        "cdn": "corp_bell-plus_m",
+        "url": "https://alfabank.servicecdn.ru/icons/corp_bell-plus_m.svg"
+    },
+    "BellMIcon": {
+        "description": "уведомления, колокольчик, нотификейшн, bell, notification",
+        "web": "BellMIcon",
+        "webComponent": "import { BellMIcon } from '@alfalab/icons-corp/BellMIcon';",
+        "android": "corp_bell_m",
+        "ios": "corp_bell_m",
+        "middle": "corp_bell_m",
+        "cdn": "corp_bell_m",
+        "url": "https://alfabank.servicecdn.ru/icons/corp_bell_m.svg"
+    },
+    "BriefcaseGearMIcon": {
+        "description": "компания, холдинг, тарифы, настройки компании, холодос, чемодан, шестерёнка, settings",
+        "web": "BriefcaseGearMIcon",
+        "webComponent": "import { BriefcaseGearMIcon } from '@alfalab/icons-corp/BriefcaseGearMIcon';",
+        "android": "corp_briefcase_gear_m",
+        "ios": "corp_briefcaseGear_m",
+        "middle": "corp_briefcase-gear_m",
+        "cdn": "corp_briefcase-gear_m",
+        "url": "https://alfabank.servicecdn.ru/icons/corp_briefcase-gear_m.svg"
+    },
+    "BubblePhoneMIcon": {
+        "description": "",
+        "web": "BubblePhoneMIcon",
+        "webComponent": "import { BubblePhoneMIcon } from '@alfalab/icons-corp/BubblePhoneMIcon';",
+        "android": "corp_bubble_phone_m",
+        "ios": "corp_bubblePhone_m",
+        "middle": "corp_bubble-phone_m",
+        "cdn": "corp_bubble-phone_m",
+        "url": "https://alfabank.servicecdn.ru/icons/corp_bubble-phone_m.svg"
+    },
+    "CalculatorUserMIcon": {
+        "description": "калькулятор, персона, человек, юзер, бухгалтерия аутсорс",
+        "web": "CalculatorUserMIcon",
+        "webComponent": "import { CalculatorUserMIcon } from '@alfalab/icons-corp/CalculatorUserMIcon';",
+        "android": "corp_calculator_user_m",
+        "ios": "corp_calculatorUser_m",
+        "middle": "corp_calculator-user_m",
+        "cdn": "corp_calculator-user_m",
+        "url": "https://alfabank.servicecdn.ru/icons/corp_calculator-user_m.svg"
+    },
+    "CalculatorMIcon": {
+        "description": "сервис бухгалтерия, бухгалтерия, калькулятор",
+        "web": "CalculatorMIcon",
+        "webComponent": "import { CalculatorMIcon } from '@alfalab/icons-corp/CalculatorMIcon';",
+        "android": "corp_calculator_m",
+        "ios": "corp_calculator_m",
+        "middle": "corp_calculator_m",
+        "cdn": "corp_calculator_m",
+        "url": "https://alfabank.servicecdn.ru/icons/corp_calculator_m.svg"
+    },
+    "CalendarBanknoteMIcon": {
+        "description": "календарь, кеш, кэш, деньги, зарплата каждый день",
+        "web": "CalendarBanknoteMIcon",
+        "webComponent": "import { CalendarBanknoteMIcon } from '@alfalab/icons-corp/CalendarBanknoteMIcon';",
+        "android": "corp_calendar_banknote_m",
+        "ios": "corp_calendarBanknote_m",
+        "middle": "corp_calendar-banknote_m",
+        "cdn": "corp_calendar-banknote_m",
+        "url": "https://alfabank.servicecdn.ru/icons/corp_calendar-banknote_m.svg"
+    },
+    "CalendarCashMIcon": {
+        "description": "",
+        "web": "CalendarCashMIcon",
+        "webComponent": "import { CalendarCashMIcon } from '@alfalab/icons-corp/CalendarCashMIcon';",
+        "android": "corp_calendar_cash_m",
+        "ios": "corp_calendarCash_m",
+        "middle": "corp_calendar-cash_m",
+        "cdn": "corp_calendar-cash_m",
+        "url": "https://alfabank.servicecdn.ru/icons/corp_calendar-cash_m.svg"
+    },
+    "CalendarMIcon": {
+        "description": "календарь, письма, выбор даты, calendar",
+        "web": "CalendarMIcon",
+        "webComponent": "import { CalendarMIcon } from '@alfalab/icons-corp/CalendarMIcon';",
+        "android": "corp_calendar_m",
+        "ios": "corp_calendar_m",
+        "middle": "corp_calendar_m",
+        "cdn": "corp_calendar_m",
+        "url": "https://alfabank.servicecdn.ru/icons/corp_calendar_m.svg"
+    },
+    "CardStarMIcon": {
+        "description": "карта со звездой, звезда, карта, card, star, платежи в работе",
+        "web": "CardStarMIcon",
+        "webComponent": "import { CardStarMIcon } from '@alfalab/icons-corp/CardStarMIcon';",
+        "android": "corp_card_star_m",
+        "ios": "corp_cardStar_m",
+        "middle": "corp_card-star_m",
+        "cdn": "corp_card-star_m",
+        "url": "https://alfabank.servicecdn.ru/icons/corp_card-star_m.svg"
+    },
+    "CashMoneyMIcon": {
+        "description": "",
+        "web": "CashMoneyMIcon",
+        "webComponent": "import { CashMoneyMIcon } from '@alfalab/icons-corp/CashMoneyMIcon';",
+        "android": "corp_cash_money_m",
+        "ios": "corp_cashMoney_m",
+        "middle": "corp_cash-money_m",
+        "cdn": "corp_cash-money_m",
+        "url": "https://alfabank.servicecdn.ru/icons/corp_cash-money_m.svg"
+    },
+    "CashRegisterMIcon": {
+        "description": "касса, онлайн-касса",
+        "web": "CashRegisterMIcon",
+        "webComponent": "import { CashRegisterMIcon } from '@alfalab/icons-corp/CashRegisterMIcon';",
+        "android": "corp_cash_register_m",
+        "ios": "corp_cashRegister_m",
+        "middle": "corp_cash-register_m",
+        "cdn": "corp_cash-register_m",
+        "url": "https://alfabank.servicecdn.ru/icons/corp_cash-register_m.svg"
+    },
+    "ClockHandsMIcon": {
+        "description": "часы, циферблат, clock, стрелки часов",
+        "web": "ClockHandsMIcon",
+        "webComponent": "import { ClockHandsMIcon } from '@alfalab/icons-corp/ClockHandsMIcon';",
+        "android": "corp_clock_hands_m",
+        "ios": "corp_clockHands_m",
+        "middle": "corp_clock-hands_m",
+        "cdn": "corp_clock-hands_m",
+        "url": "https://alfabank.servicecdn.ru/icons/corp_clock-hands_m.svg"
+    },
+    "CloudCheckmarkLineMIcon": {
+        "description": "Облако",
+        "web": "CloudCheckmarkLineMIcon",
+        "webComponent": "import { CloudCheckmarkLineMIcon } from '@alfalab/icons-corp/CloudCheckmarkLineMIcon';",
+        "android": "corp_cloud_checkmark_line_m",
+        "ios": "corp_cloudCheckmarkLine_m",
+        "middle": "corp_cloud-checkmark-line_m",
+        "cdn": "corp_cloud-checkmark-line_m",
+        "url": "https://alfabank.servicecdn.ru/icons/corp_cloud-checkmark-line_m.svg"
+    },
+    "CloudCrossLineMIcon": {
+        "description": "Облако",
+        "web": "CloudCrossLineMIcon",
+        "webComponent": "import { CloudCrossLineMIcon } from '@alfalab/icons-corp/CloudCrossLineMIcon';",
+        "android": "corp_cloud_cross_line_m",
+        "ios": "corp_cloudCrossLine_m",
+        "middle": "corp_cloud-cross-line_m",
+        "cdn": "corp_cloud-cross-line_m",
+        "url": "https://alfabank.servicecdn.ru/icons/corp_cloud-cross-line_m.svg"
+    },
+    "CoffeeCupMIcon": {
+        "description": "чай, кофе, tea, чаевые, сервис безналичных чаевых",
+        "web": "CoffeeCupMIcon",
+        "webComponent": "import { CoffeeCupMIcon } from '@alfalab/icons-corp/CoffeeCupMIcon';",
+        "android": "corp_coffee_cup_m",
+        "ios": "corp_coffeeCup_m",
+        "middle": "corp_coffee-cup_m",
+        "cdn": "corp_coffee-cup_m",
+        "url": "https://alfabank.servicecdn.ru/icons/corp_coffee-cup_m.svg"
+    },
+    "CoinsStackCheckMIcon": {
+        "description": "монеты",
+        "web": "CoinsStackCheckMIcon",
+        "webComponent": "import { CoinsStackCheckMIcon } from '@alfalab/icons-corp/CoinsStackCheckMIcon';",
+        "android": "corp_coins_stack_check_m",
+        "ios": "corp_coinsStackCheck_m",
+        "middle": "corp_coins-stack-check_m",
+        "cdn": "corp_coins-stack-check_m",
+        "url": "https://alfabank.servicecdn.ru/icons/corp_coins-stack-check_m.svg"
+    },
+    "CoinsStackMIcon": {
+        "description": "личный кабинет МФО",
+        "web": "CoinsStackMIcon",
+        "webComponent": "import { CoinsStackMIcon } from '@alfalab/icons-corp/CoinsStackMIcon';",
+        "android": "corp_coins_stack_m",
+        "ios": "corp_coinsStack_m",
+        "middle": "corp_coins-stack_m",
+        "cdn": "corp_coins-stack_m",
+        "url": "https://alfabank.servicecdn.ru/icons/corp_coins-stack_m.svg"
+    },
+    "CorpArrowsRightLeftCurvedBoldMIcon": {
+        "description": "",
+        "web": "CorpArrowsRightLeftCurvedBoldMIcon",
+        "webComponent": "import { CorpArrowsRightLeftCurvedBoldMIcon } from '@alfalab/icons-corp/CorpArrowsRightLeftCurvedBoldMIcon';",
+        "android": "corp_corp_arrows_right_left_curved_bold_m",
+        "ios": "corp_corp_arrowsRightLeftCurvedBold_m",
+        "middle": "corp_corp_arrows-right-left-curved-bold_m",
+        "cdn": "corp_corp_arrows-right-left-curved-bold_m",
+        "url": "https://alfabank.servicecdn.ru/icons/corp_corp_arrows-right-left-curved-bold_m.svg"
+    },
+    "CryptoproMIcon": {
+        "description": "крипто про, cryptopro",
+        "web": "CryptoproMIcon",
+        "webComponent": "import { CryptoproMIcon } from '@alfalab/icons-corp/CryptoproMIcon';",
+        "android": "corp_cryptopro_m",
+        "ios": "corp_cryptopro_m",
+        "middle": "corp_cryptopro_m",
+        "cdn": "corp_cryptopro_m",
+        "url": "https://alfabank.servicecdn.ru/icons/corp_cryptopro_m.svg"
+    },
+    "CursorClickMIcon": {
+        "description": "курсор, клик, click, paybyclick",
+        "web": "CursorClickMIcon",
+        "webComponent": "import { CursorClickMIcon } from '@alfalab/icons-corp/CursorClickMIcon';",
+        "android": "corp_cursor_click_m",
+        "ios": "corp_cursorClick_m",
+        "middle": "corp_cursor-click_m",
+        "cdn": "corp_cursor-click_m",
+        "url": "https://alfabank.servicecdn.ru/icons/corp_cursor-click_m.svg"
+    },
+    "DocumentALogoMIcon": {
+        "description": "",
+        "web": "DocumentALogoMIcon",
+        "webComponent": "import { DocumentALogoMIcon } from '@alfalab/icons-corp/DocumentALogoMIcon';",
+        "android": "corp_document_a_logo_m",
+        "ios": "corp_documentALogo_m",
+        "middle": "corp_document-a-logo_m",
+        "cdn": "corp_document-a-logo_m",
+        "url": "https://alfabank.servicecdn.ru/icons/corp_document-a-logo_m.svg"
+    },
+    "DocumentArrowsCwMIcon": {
+        "description": "постоянные поручения, платёжка повторяется, повтор документа, повтор, документ",
+        "web": "DocumentArrowsCwMIcon",
+        "webComponent": "import { DocumentArrowsCwMIcon } from '@alfalab/icons-corp/DocumentArrowsCwMIcon';",
+        "android": "corp_document_arrows_cw_m",
+        "ios": "corp_documentArrowsCw_m",
+        "middle": "corp_document-arrows-cw_m",
+        "cdn": "corp_document-arrows-cw_m",
+        "url": "https://alfabank.servicecdn.ru/icons/corp_document-arrows-cw_m.svg"
+    },
+    "DocumentEagleMIcon": {
+        "description": "герб, документ, орёл, специальный счёт",
+        "web": "DocumentEagleMIcon",
+        "webComponent": "import { DocumentEagleMIcon } from '@alfalab/icons-corp/DocumentEagleMIcon';",
+        "android": "corp_document_eagle_m",
+        "ios": "corp_documentEagle_m",
+        "middle": "corp_document-eagle_m",
+        "cdn": "corp_document-eagle_m",
+        "url": "https://alfabank.servicecdn.ru/icons/corp_document-eagle_m.svg"
+    },
+    "DocumentHorizontalMIcon": {
+        "description": "документ, счета-фактуры",
+        "web": "DocumentHorizontalMIcon",
+        "webComponent": "import { DocumentHorizontalMIcon } from '@alfalab/icons-corp/DocumentHorizontalMIcon';",
+        "android": "corp_document_horizontal_m",
+        "ios": "corp_documentHorizontal_m",
+        "middle": "corp_document-horizontal_m",
+        "cdn": "corp_document-horizontal_m",
+        "url": "https://alfabank.servicecdn.ru/icons/corp_document-horizontal_m.svg"
+    },
+    "DocumentHouseMIcon": {
+        "description": "счета эскроу 214-фз, дом",
+        "web": "DocumentHouseMIcon",
+        "webComponent": "import { DocumentHouseMIcon } from '@alfalab/icons-corp/DocumentHouseMIcon';",
+        "android": "corp_document_house_m",
+        "ios": "corp_documentHouse_m",
+        "middle": "corp_document-house_m",
+        "cdn": "corp_document-house_m",
+        "url": "https://alfabank.servicecdn.ru/icons/corp_document-house_m.svg"
+    },
+    "DocumentShieldMIcon": {
+        "description": "документ, защита, щит, гарантия, secure, doc",
+        "web": "DocumentShieldMIcon",
+        "webComponent": "import { DocumentShieldMIcon } from '@alfalab/icons-corp/DocumentShieldMIcon';",
+        "android": "corp_document_shield_m",
+        "ios": "corp_documentShield_m",
+        "middle": "corp_document-shield_m",
+        "cdn": "corp_document-shield_m",
+        "url": "https://alfabank.servicecdn.ru/icons/corp_document-shield_m.svg"
+    },
+    "DocumentStampMIcon": {
+        "description": "документ с печатью, печать, stamp, выписка, сформировать выписку",
+        "web": "DocumentStampMIcon",
+        "webComponent": "import { DocumentStampMIcon } from '@alfalab/icons-corp/DocumentStampMIcon';",
+        "android": "corp_document_stamp_m",
+        "ios": "corp_documentStamp_m",
+        "middle": "corp_document-stamp_m",
+        "cdn": "corp_document-stamp_m",
+        "url": "https://alfabank.servicecdn.ru/icons/corp_document-stamp_m.svg"
+    },
+    "DocumentUserMIcon": {
+        "description": "документ, юзер, пользователь, доверенность",
+        "web": "DocumentUserMIcon",
+        "webComponent": "import { DocumentUserMIcon } from '@alfalab/icons-corp/DocumentUserMIcon';",
+        "android": "corp_document_user_m",
+        "ios": "corp_documentUser_m",
+        "middle": "corp_document-user_m",
+        "cdn": "corp_document-user_m",
+        "url": "https://alfabank.servicecdn.ru/icons/corp_document-user_m.svg"
+    },
+    "DocumentWorldMIcon": {
+        "description": "документ, мир, планета, вэд, валютный расчётный счёт",
+        "web": "DocumentWorldMIcon",
+        "webComponent": "import { DocumentWorldMIcon } from '@alfalab/icons-corp/DocumentWorldMIcon';",
+        "android": "corp_document_world_m",
+        "ios": "corp_documentWorld_m",
+        "middle": "corp_document-world_m",
+        "cdn": "corp_document-world_m",
+        "url": "https://alfabank.servicecdn.ru/icons/corp_document-world_m.svg"
+    },
+    "DocumentsAlfaMIcon": {
+        "description": "справки",
+        "web": "DocumentsAlfaMIcon",
+        "webComponent": "import { DocumentsAlfaMIcon } from '@alfalab/icons-corp/DocumentsAlfaMIcon';",
+        "android": "corp_documents_alfa_m",
+        "ios": "corp_documentsAlfa_m",
+        "middle": "corp_documents-alfa_m",
+        "cdn": "corp_documents-alfa_m",
+        "url": "https://alfabank.servicecdn.ru/icons/corp_documents-alfa_m.svg"
+    },
+    "DocumentsDollarMIcon": {
+        "description": "",
+        "web": "DocumentsDollarMIcon",
+        "webComponent": "import { DocumentsDollarMIcon } from '@alfalab/icons-corp/DocumentsDollarMIcon';",
+        "android": "corp_documents_dollar_m",
+        "ios": "corp_documentsDollar_m",
+        "middle": "corp_documents-dollar_m",
+        "cdn": "corp_documents-dollar_m",
+        "url": "https://alfabank.servicecdn.ru/icons/corp_documents-dollar_m.svg"
+    },
+    "DocumentsUsdMIcon": {
+        "description": "евро, доллар, конвертация, конвертировать валюту, валюта, USD, EUR",
+        "web": "DocumentsUsdMIcon",
+        "webComponent": "import { DocumentsUsdMIcon } from '@alfalab/icons-corp/DocumentsUsdMIcon';",
+        "android": "corp_documents_usd_m",
+        "ios": "corp_documentsUsd_m",
+        "middle": "corp_documents-usd_m",
+        "cdn": "corp_documents-usd_m",
+        "url": "https://alfabank.servicecdn.ru/icons/corp_documents-usd_m.svg"
+    },
+    "DocumentsMIcon": {
+        "description": "документы, стопка документов, реестр платежей",
+        "web": "DocumentsMIcon",
+        "webComponent": "import { DocumentsMIcon } from '@alfalab/icons-corp/DocumentsMIcon';",
+        "android": "corp_documents_m",
+        "ios": "corp_documents_m",
+        "middle": "corp_documents_m",
+        "cdn": "corp_documents_m",
+        "url": "https://alfabank.servicecdn.ru/icons/corp_documents_m.svg"
+    },
+    "DollarEuroMIcon": {
+        "description": "",
+        "web": "DollarEuroMIcon",
+        "webComponent": "import { DollarEuroMIcon } from '@alfalab/icons-corp/DollarEuroMIcon';",
+        "android": "corp_dollar_euro_m",
+        "ios": "corp_dollarEuro_m",
+        "middle": "corp_dollar-euro_m",
+        "cdn": "corp_dollar-euro_m",
+        "url": "https://alfabank.servicecdn.ru/icons/corp_dollar-euro_m.svg"
+    },
+    "DoorOpenMIcon": {
+        "description": "логаут, выход, дверка, door",
+        "web": "DoorOpenMIcon",
+        "webComponent": "import { DoorOpenMIcon } from '@alfalab/icons-corp/DoorOpenMIcon';",
+        "android": "corp_door_open_m",
+        "ios": "corp_doorOpen_m",
+        "middle": "corp_door-open_m",
+        "cdn": "corp_door-open_m",
+        "url": "https://alfabank.servicecdn.ru/icons/corp_door-open_m.svg"
+    },
+    "DotsHorizontalCompactMIcon": {
+        "description": "три точки, кебаб, митбол, meatballs",
+        "web": "DotsHorizontalCompactMIcon",
+        "webComponent": "import { DotsHorizontalCompactMIcon } from '@alfalab/icons-corp/DotsHorizontalCompactMIcon';",
+        "android": "corp_dots_horizontal_compact_m",
+        "ios": "corp_dotsHorizontalCompact_m",
+        "middle": "corp_dots-horizontal-compact_m",
+        "cdn": "corp_dots-horizontal-compact_m",
+        "url": "https://alfabank.servicecdn.ru/icons/corp_dots-horizontal-compact_m.svg"
+    },
+    "EagleMIcon": {
+        "description": "орёл, герб, gov, госзакупки",
+        "web": "EagleMIcon",
+        "webComponent": "import { EagleMIcon } from '@alfalab/icons-corp/EagleMIcon';",
+        "android": "corp_eagle_m",
+        "ios": "corp_eagle_m",
+        "middle": "corp_eagle_m",
+        "cdn": "corp_eagle_m",
+        "url": "https://alfabank.servicecdn.ru/icons/corp_eagle_m.svg"
+    },
+    "EnteraLogoMIcon": {
+        "description": "сервис entera, энтера",
+        "web": "EnteraLogoMIcon",
+        "webComponent": "import { EnteraLogoMIcon } from '@alfalab/icons-corp/EnteraLogoMIcon';",
+        "android": "corp_entera_logo_m",
+        "ios": "corp_enteraLogo_m",
+        "middle": "corp_entera-logo_m",
+        "cdn": "corp_entera-logo_m",
+        "url": "https://alfabank.servicecdn.ru/icons/corp_entera-logo_m.svg"
+    },
+    "EurUsdCoinsMIcon": {
+        "description": "евро, доллар, конвертация, конвертировать валюту, валюта, USD, EUR",
+        "web": "EurUsdCoinsMIcon",
+        "webComponent": "import { EurUsdCoinsMIcon } from '@alfalab/icons-corp/EurUsdCoinsMIcon';",
+        "android": "corp_eur_usd_coins_m",
+        "ios": "corp_eurUsdCoins_m",
+        "middle": "corp_eur-usd-coins_m",
+        "cdn": "corp_eur-usd-coins_m",
+        "url": "https://alfabank.servicecdn.ru/icons/corp_eur-usd-coins_m.svg"
+    },
+    "FlameMIcon": {
+        "description": "огонь, fire, заработать на банке",
+        "web": "FlameMIcon",
+        "webComponent": "import { FlameMIcon } from '@alfalab/icons-corp/FlameMIcon';",
+        "android": "corp_flame_m",
+        "ios": "corp_flame_m",
+        "middle": "corp_flame_m",
+        "cdn": "corp_flame_m",
+        "url": "https://alfabank.servicecdn.ru/icons/corp_flame_m.svg"
+    },
+    "FlowchartMIcon": {
+        "description": "флоучарт, flowchart, eдиный остаток",
+        "web": "FlowchartMIcon",
+        "webComponent": "import { FlowchartMIcon } from '@alfalab/icons-corp/FlowchartMIcon';",
+        "android": "corp_flowchart_m",
+        "ios": "corp_flowchart_m",
+        "middle": "corp_flowchart_m",
+        "cdn": "corp_flowchart_m",
+        "url": "https://alfabank.servicecdn.ru/icons/corp_flowchart_m.svg"
+    },
+    "FolderMagnifierMIcon": {
+        "description": "папка, лупа, административные проверки",
+        "web": "FolderMagnifierMIcon",
+        "webComponent": "import { FolderMagnifierMIcon } from '@alfalab/icons-corp/FolderMagnifierMIcon';",
+        "android": "corp_folder_magnifier_m",
+        "ios": "corp_folderMagnifier_m",
+        "middle": "corp_folder-magnifier_m",
+        "cdn": "corp_folder-magnifier_m",
+        "url": "https://alfabank.servicecdn.ru/icons/corp_folder-magnifier_m.svg"
+    },
+    "GavelMIcon": {
+        "description": "",
+        "web": "GavelMIcon",
+        "webComponent": "import { GavelMIcon } from '@alfalab/icons-corp/GavelMIcon';",
+        "android": "corp_gavel_m",
+        "ios": "corp_gavel_m",
+        "middle": "corp_gavel_m",
+        "cdn": "corp_gavel_m",
+        "url": "https://alfabank.servicecdn.ru/icons/corp_gavel_m.svg"
+    },
+    "HandHeartMIcon": {
+        "description": "благотворительность, charity",
+        "web": "HandHeartMIcon",
+        "webComponent": "import { HandHeartMIcon } from '@alfalab/icons-corp/HandHeartMIcon';",
+        "android": "corp_hand_heart_m",
+        "ios": "corp_handHeart_m",
+        "middle": "corp_hand-heart_m",
+        "cdn": "corp_hand-heart_m",
+        "url": "https://alfabank.servicecdn.ru/icons/corp_hand-heart_m.svg"
+    },
+    "HandMoneyBagMIcon": {
+        "description": "управление ликвидностью, рука, мешок",
+        "web": "HandMoneyBagMIcon",
+        "webComponent": "import { HandMoneyBagMIcon } from '@alfalab/icons-corp/HandMoneyBagMIcon';",
+        "android": "corp_hand_money_bag_m",
+        "ios": "corp_handMoneyBag_m",
+        "middle": "corp_hand-money-bag_m",
+        "cdn": "corp_hand-money-bag_m",
+        "url": "https://alfabank.servicecdn.ru/icons/corp_hand-money-bag_m.svg"
+    },
+    "HandWithMoneyBagMIcon": {
+        "description": "",
+        "web": "HandWithMoneyBagMIcon",
+        "webComponent": "import { HandWithMoneyBagMIcon } from '@alfalab/icons-corp/HandWithMoneyBagMIcon';",
+        "android": "corp_hand_with_money_bag_m",
+        "ios": "corp_handWithMoneyBag_m",
+        "middle": "corp_hand-with-money-bag_m",
+        "cdn": "corp_hand-with-money-bag_m",
+        "url": "https://alfabank.servicecdn.ru/icons/corp_hand-with-money-bag_m.svg"
+    },
+    "HouseDocumentMIcon": {
+        "description": "",
+        "web": "HouseDocumentMIcon",
+        "webComponent": "import { HouseDocumentMIcon } from '@alfalab/icons-corp/HouseDocumentMIcon';",
+        "android": "corp_house_document_m",
+        "ios": "corp_houseDocument_m",
+        "middle": "corp_house-document_m",
+        "cdn": "corp_house-document_m",
+        "url": "https://alfabank.servicecdn.ru/icons/corp_house-document_m.svg"
+    },
+    "HousePercentMIcon": {
+        "description": "дом, процент, кредит с залогом, кредит, credit",
+        "web": "HousePercentMIcon",
+        "webComponent": "import { HousePercentMIcon } from '@alfalab/icons-corp/HousePercentMIcon';",
+        "android": "corp_house_percent_m",
+        "ios": "corp_housePercent_m",
+        "middle": "corp_house-percent_m",
+        "cdn": "corp_house-percent_m",
+        "url": "https://alfabank.servicecdn.ru/icons/corp_house-percent_m.svg"
+    },
+    "HousesGearMIcon": {
+        "description": "холдинг, режим холдинга, holding",
+        "web": "HousesGearMIcon",
+        "webComponent": "import { HousesGearMIcon } from '@alfalab/icons-corp/HousesGearMIcon';",
+        "android": "corp_houses_gear_m",
+        "ios": "corp_housesGear_m",
+        "middle": "corp_houses-gear_m",
+        "cdn": "corp_houses-gear_m",
+        "url": "https://alfabank.servicecdn.ru/icons/corp_houses-gear_m.svg"
+    },
+    "HousesPercentMIcon": {
+        "description": "дома, процент, бизнес-ипотека",
+        "web": "HousesPercentMIcon",
+        "webComponent": "import { HousesPercentMIcon } from '@alfalab/icons-corp/HousesPercentMIcon';",
+        "android": "corp_houses_percent_m",
+        "ios": "corp_housesPercent_m",
+        "middle": "corp_houses-percent_m",
+        "cdn": "corp_houses-percent_m",
+        "url": "https://alfabank.servicecdn.ru/icons/corp_houses-percent_m.svg"
+    },
+    "JudgeHammerMIcon": {
+        "description": "тендерные займы, молоток, молот",
+        "web": "JudgeHammerMIcon",
+        "webComponent": "import { JudgeHammerMIcon } from '@alfalab/icons-corp/JudgeHammerMIcon';",
+        "android": "corp_judge_hammer_m",
+        "ios": "corp_judgeHammer_m",
+        "middle": "corp_judge-hammer_m",
+        "cdn": "corp_judge-hammer_m",
+        "url": "https://alfabank.servicecdn.ru/icons/corp_judge-hammer_m.svg"
+    },
+    "LaptopMIcon": {
+        "description": "ноутбук, компьютер, интернет-эквайринг",
+        "web": "LaptopMIcon",
+        "webComponent": "import { LaptopMIcon } from '@alfalab/icons-corp/LaptopMIcon';",
+        "android": "corp_laptop_m",
+        "ios": "corp_laptop_m",
+        "middle": "corp_laptop_m",
+        "cdn": "corp_laptop_m",
+        "url": "https://alfabank.servicecdn.ru/icons/corp_laptop_m.svg"
+    },
+    "LightningMIcon": {
+        "description": "молния, риски",
+        "web": "LightningMIcon",
+        "webComponent": "import { LightningMIcon } from '@alfalab/icons-corp/LightningMIcon';",
+        "android": "corp_lightning_m",
+        "ios": "corp_lightning_m",
+        "middle": "corp_lightning_m",
+        "cdn": "corp_lightning_m",
+        "url": "https://alfabank.servicecdn.ru/icons/corp_lightning_m.svg"
+    },
+    "LogOutMIcon": {
+        "description": "",
+        "web": "LogOutMIcon",
+        "webComponent": "import { LogOutMIcon } from '@alfalab/icons-corp/LogOutMIcon';",
+        "android": "corp_log_out_m",
+        "ios": "corp_logOut_m",
+        "middle": "corp_log-out_m",
+        "cdn": "corp_log-out_m",
+        "url": "https://alfabank.servicecdn.ru/icons/corp_log-out_m.svg"
+    },
+    "MailArrowRightMIcon": {
+        "description": "письмо в банк, конверт со стрелкой",
+        "web": "MailArrowRightMIcon",
+        "webComponent": "import { MailArrowRightMIcon } from '@alfalab/icons-corp/MailArrowRightMIcon';",
+        "android": "corp_mail_arrow_right_m",
+        "ios": "corp_mailArrowRight_m",
+        "middle": "corp_mail-arrow-right_m",
+        "cdn": "corp_mail-arrow-right_m",
+        "url": "https://alfabank.servicecdn.ru/icons/corp_mail-arrow-right_m.svg"
+    },
+    "MailMIcon": {
+        "description": "конверт, письмо, почта",
+        "web": "MailMIcon",
+        "webComponent": "import { MailMIcon } from '@alfalab/icons-corp/MailMIcon';",
+        "android": "corp_mail_m",
+        "ios": "corp_mail_m",
+        "middle": "corp_mail_m",
+        "cdn": "corp_mail_m",
+        "url": "https://alfabank.servicecdn.ru/icons/corp_mail_m.svg"
+    },
+    "MaxLogoMIcon": {
+        "description": "сервис макс, max",
+        "web": "MaxLogoMIcon",
+        "webComponent": "import { MaxLogoMIcon } from '@alfalab/icons-corp/MaxLogoMIcon';",
+        "android": "corp_max_logo_m",
+        "ios": "corp_maxLogo_m",
+        "middle": "corp_max-logo_m",
+        "cdn": "corp_max-logo_m",
+        "url": "https://alfabank.servicecdn.ru/icons/corp_max-logo_m.svg"
+    },
+    "NeuralAssistantFlareMIcon": {
+        "description": "нейропомощник, ассистент, нейроассистент, искусственный интеллект, нейросеть, AI",
+        "web": "NeuralAssistantFlareMIcon",
+        "webComponent": "import { NeuralAssistantFlareMIcon } from '@alfalab/icons-corp/NeuralAssistantFlareMIcon';",
+        "android": "corp_neural_assistant_flare_m",
+        "ios": "corp_neuralAssistantFlare_m",
+        "middle": "corp_neural-assistant-flare_m",
+        "cdn": "corp_neural-assistant-flare_m",
+        "url": "https://alfabank.servicecdn.ru/icons/corp_neural-assistant-flare_m.svg"
+    },
+    "NeuralAssistantFlareSIcon": {
+        "description": "нейропомощник, ассистент, нейроассистент, искусственный интеллект, нейросеть, AI",
+        "web": "NeuralAssistantFlareSIcon",
+        "webComponent": "import { NeuralAssistantFlareSIcon } from '@alfalab/icons-corp/NeuralAssistantFlareSIcon';",
+        "android": "corp_neural_assistant_flare_s",
+        "ios": "corp_neuralAssistantFlare_s",
+        "middle": "corp_neural-assistant-flare_s",
+        "cdn": "corp_neural-assistant-flare_s",
+        "url": "https://alfabank.servicecdn.ru/icons/corp_neural-assistant-flare_s.svg"
+    },
+    "NeuralAssistantFlareXxlIcon": {
+        "description": "нейропомощник, ассистент, нейроассистент, искусственный интеллект, нейросеть, AI",
+        "web": "NeuralAssistantFlareXxlIcon",
+        "webComponent": "import { NeuralAssistantFlareXxlIcon } from '@alfalab/icons-corp/NeuralAssistantFlareXxlIcon';",
+        "android": "corp_neural_assistant_flare_xxl",
+        "ios": "corp_neuralAssistantFlare_xxl",
+        "middle": "corp_neural-assistant-flare_xxl",
+        "cdn": "corp_neural-assistant-flare_xxl",
+        "url": "https://alfabank.servicecdn.ru/icons/corp_neural-assistant-flare_xxl.svg"
+    },
+    "NeuralAssistantMIcon": {
+        "description": "нейропомощник, ассистент, нейроассистент, искусственный интеллект, нейросеть, AI",
+        "web": "NeuralAssistantMIcon",
+        "webComponent": "import { NeuralAssistantMIcon } from '@alfalab/icons-corp/NeuralAssistantMIcon';",
+        "android": "corp_neural_assistant_m",
+        "ios": "corp_neuralAssistant_m",
+        "middle": "corp_neural-assistant_m",
+        "cdn": "corp_neural-assistant_m",
+        "url": "https://alfabank.servicecdn.ru/icons/corp_neural-assistant_m.svg"
+    },
+    "NeuralAssistantSIcon": {
+        "description": "нейропомощник, ассистент, нейроассистент, искусственный интеллект, нейросеть, AI",
+        "web": "NeuralAssistantSIcon",
+        "webComponent": "import { NeuralAssistantSIcon } from '@alfalab/icons-corp/NeuralAssistantSIcon';",
+        "android": "corp_neural_assistant_s",
+        "ios": "corp_neuralAssistant_s",
+        "middle": "corp_neural-assistant_s",
+        "cdn": "corp_neural-assistant_s",
+        "url": "https://alfabank.servicecdn.ru/icons/corp_neural-assistant_s.svg"
+    },
+    "NeuralAssistantXxlIcon": {
+        "description": "нейропомощник, ассистент, нейроассистент, искусственный интеллект, нейросеть, AI",
+        "web": "NeuralAssistantXxlIcon",
+        "webComponent": "import { NeuralAssistantXxlIcon } from '@alfalab/icons-corp/NeuralAssistantXxlIcon';",
+        "android": "corp_neural_assistant_xxl",
+        "ios": "corp_neuralAssistant_xxl",
+        "middle": "corp_neural-assistant_xxl",
+        "cdn": "corp_neural-assistant_xxl",
+        "url": "https://alfabank.servicecdn.ru/icons/corp_neural-assistant_xxl.svg"
+    },
+    "PayControlMIcon": {
+        "description": "пейконтроль, pay-control",
+        "web": "PayControlMIcon",
+        "webComponent": "import { PayControlMIcon } from '@alfalab/icons-corp/PayControlMIcon';",
+        "android": "corp_pay_control_m",
+        "ios": "corp_payControl_m",
+        "middle": "corp_pay-control_m",
+        "cdn": "corp_pay-control_m",
+        "url": "https://alfabank.servicecdn.ru/icons/corp_pay-control_m.svg"
+    },
+    "PaypassMIcon": {
+        "description": "торговый эквайринг, эквайринг и касса",
+        "web": "PaypassMIcon",
+        "webComponent": "import { PaypassMIcon } from '@alfalab/icons-corp/PaypassMIcon';",
+        "android": "corp_paypass_m",
+        "ios": "corp_paypass_m",
+        "middle": "corp_paypass_m",
+        "cdn": "corp_paypass_m",
+        "url": "https://alfabank.servicecdn.ru/icons/corp_paypass_m.svg"
+    },
+    "PencilLineMIcon": {
+        "description": "карандаш, подписать, подпись, дела в работе",
+        "web": "PencilLineMIcon",
+        "webComponent": "import { PencilLineMIcon } from '@alfalab/icons-corp/PencilLineMIcon';",
+        "android": "corp_pencil_line_m",
+        "ios": "corp_pencilLine_m",
+        "middle": "corp_pencil-line_m",
+        "cdn": "corp_pencil-line_m",
+        "url": "https://alfabank.servicecdn.ru/icons/corp_pencil-line_m.svg"
+    },
+    "PencilLineSIcon": {
+        "description": "карандаш, подписать, подпись, дела в работе",
+        "web": "PencilLineSIcon",
+        "webComponent": "import { PencilLineSIcon } from '@alfalab/icons-corp/PencilLineSIcon';",
+        "android": "corp_pencil_line_s",
+        "ios": "corp_pencilLine_s",
+        "middle": "corp_pencil-line_s",
+        "cdn": "corp_pencil-line_s",
+        "url": "https://alfabank.servicecdn.ru/icons/corp_pencil-line_s.svg"
+    },
+    "PencilUnderlineMIcon": {
+        "description": "карандаш, подписать, подпись, дела в работе",
+        "web": "PencilUnderlineMIcon",
+        "webComponent": "import { PencilUnderlineMIcon } from '@alfalab/icons-corp/PencilUnderlineMIcon';",
+        "android": "corp_pencil_underline_m",
+        "ios": "corp_pencilUnderline_m",
+        "middle": "corp_pencil-underline_m",
+        "cdn": "corp_pencil-underline_m",
+        "url": "https://alfabank.servicecdn.ru/icons/corp_pencil-underline_m.svg"
+    },
+    "PercentMIcon": {
+        "description": "процент, кредитная витрина, кредитные продукты",
+        "web": "PercentMIcon",
+        "webComponent": "import { PercentMIcon } from '@alfalab/icons-corp/PercentMIcon';",
+        "android": "corp_percent_m",
+        "ios": "corp_percent_m",
+        "middle": "corp_percent_m",
+        "cdn": "corp_percent_m",
+        "url": "https://alfabank.servicecdn.ru/icons/corp_percent_m.svg"
+    },
+    "PhoneBubbleMIcon": {
+        "description": "смс подпись, телефон с чатом, СМС подписание",
+        "web": "PhoneBubbleMIcon",
+        "webComponent": "import { PhoneBubbleMIcon } from '@alfalab/icons-corp/PhoneBubbleMIcon';",
+        "android": "corp_phone_bubble_m",
+        "ios": "corp_phoneBubble_m",
+        "middle": "corp_phone-bubble_m",
+        "cdn": "corp_phone-bubble_m",
+        "url": "https://alfabank.servicecdn.ru/icons/corp_phone-bubble_m.svg"
+    },
+    "PinLocationMIcon": {
+        "description": "навигация, расположение, местоположение, адрес, точка на карте, маркер, пункт назначения, геолокация, pin, location, gps, maps",
+        "web": "PinLocationMIcon",
+        "webComponent": "import { PinLocationMIcon } from '@alfalab/icons-corp/PinLocationMIcon';",
+        "android": "corp_pin_location_m",
+        "ios": "corp_pinLocation_m",
+        "middle": "corp_pin-location_m",
+        "cdn": "corp_pin-location_m",
+        "url": "https://alfabank.servicecdn.ru/icons/corp_pin-location_m.svg"
+    },
+    "PinLocationSIcon": {
+        "description": "навигация, расположение, местоположение, адрес, точка на карте, маркер, пункт назначения, геолокация, pin, location, gps, maps",
+        "web": "PinLocationSIcon",
+        "webComponent": "import { PinLocationSIcon } from '@alfalab/icons-corp/PinLocationSIcon';",
+        "android": "corp_pin_location_s",
+        "ios": "corp_pinLocation_s",
+        "middle": "corp_pin-location_s",
+        "cdn": "corp_pin-location_s",
+        "url": "https://alfabank.servicecdn.ru/icons/corp_pin-location_s.svg"
+    },
+    "PoliceCapMIcon": {
+        "description": "фуражка, полиция, проверка надзорных органов",
+        "web": "PoliceCapMIcon",
+        "webComponent": "import { PoliceCapMIcon } from '@alfalab/icons-corp/PoliceCapMIcon';",
+        "android": "corp_police_cap_m",
+        "ios": "corp_policeCap_m",
+        "middle": "corp_police-cap_m",
+        "cdn": "corp_police-cap_m",
+        "url": "https://alfabank.servicecdn.ru/icons/corp_police-cap_m.svg"
+    },
+    "ReceiptPlusMIcon": {
+        "description": "чек, receipt, плюс, выставить счёт",
+        "web": "ReceiptPlusMIcon",
+        "webComponent": "import { ReceiptPlusMIcon } from '@alfalab/icons-corp/ReceiptPlusMIcon';",
+        "android": "corp_receipt_plus_m",
+        "ios": "corp_receiptPlus_m",
+        "middle": "corp_receipt-plus_m",
+        "cdn": "corp_receipt-plus_m",
+        "url": "https://alfabank.servicecdn.ru/icons/corp_receipt-plus_m.svg"
+    },
+    "SafeBoxMIcon": {
+        "description": "депозиты, сейф",
+        "web": "SafeBoxMIcon",
+        "webComponent": "import { SafeBoxMIcon } from '@alfalab/icons-corp/SafeBoxMIcon';",
+        "android": "corp_safe_box_m",
+        "ios": "corp_safeBox_m",
+        "middle": "corp_safe-box_m",
+        "cdn": "corp_safe-box_m",
+        "url": "https://alfabank.servicecdn.ru/icons/corp_safe-box_m.svg"
+    },
+    "ScalesMIcon": {
+        "description": "весы, факторинг",
+        "web": "ScalesMIcon",
+        "webComponent": "import { ScalesMIcon } from '@alfalab/icons-corp/ScalesMIcon';",
+        "android": "corp_scales_m",
+        "ios": "corp_scales_m",
+        "middle": "corp_scales_m",
+        "cdn": "corp_scales_m",
+        "url": "https://alfabank.servicecdn.ru/icons/corp_scales_m.svg"
+    },
+    "ScheduleMIcon": {
+        "description": "инвестиционные продукты, график",
+        "web": "ScheduleMIcon",
+        "webComponent": "import { ScheduleMIcon } from '@alfalab/icons-corp/ScheduleMIcon';",
+        "android": "corp_schedule_m",
+        "ios": "corp_schedule_m",
+        "middle": "corp_schedule_m",
+        "cdn": "corp_schedule_m",
+        "url": "https://alfabank.servicecdn.ru/icons/corp_schedule_m.svg"
+    },
+    "ShieldDocumentMIcon": {
+        "description": "",
+        "web": "ShieldDocumentMIcon",
+        "webComponent": "import { ShieldDocumentMIcon } from '@alfalab/icons-corp/ShieldDocumentMIcon';",
+        "android": "corp_shield_document_m",
+        "ios": "corp_shieldDocument_m",
+        "middle": "corp_shield-document_m",
+        "cdn": "corp_shield-document_m",
+        "url": "https://alfabank.servicecdn.ru/icons/corp_shield-document_m.svg"
+    },
+    "ShieldRiskAverageMIcon": {
+        "description": "щит, молния",
+        "web": "ShieldRiskAverageMIcon",
+        "webComponent": "import { ShieldRiskAverageMIcon } from '@alfalab/icons-corp/ShieldRiskAverageMIcon';",
+        "android": "corp_shield_risk_average_m",
+        "ios": "corp_shieldRiskAverage_m",
+        "middle": "corp_shield-risk-average_m",
+        "cdn": "corp_shield-risk-average_m",
+        "url": "https://alfabank.servicecdn.ru/icons/corp_shield-risk-average_m.svg"
+    },
+    "ShieldRiskAverageSIcon": {
+        "description": "щит, молния",
+        "web": "ShieldRiskAverageSIcon",
+        "webComponent": "import { ShieldRiskAverageSIcon } from '@alfalab/icons-corp/ShieldRiskAverageSIcon';",
+        "android": "corp_shield_risk_average_s",
+        "ios": "corp_shieldRiskAverage_s",
+        "middle": "corp_shield-risk-average_s",
+        "cdn": "corp_shield-risk-average_s",
+        "url": "https://alfabank.servicecdn.ru/icons/corp_shield-risk-average_s.svg"
+    },
+    "ShieldRiskFreeMIcon": {
+        "description": "щит, галочка",
+        "web": "ShieldRiskFreeMIcon",
+        "webComponent": "import { ShieldRiskFreeMIcon } from '@alfalab/icons-corp/ShieldRiskFreeMIcon';",
+        "android": "corp_shield_risk_free_m",
+        "ios": "corp_shieldRiskFree_m",
+        "middle": "corp_shield-risk-free_m",
+        "cdn": "corp_shield-risk-free_m",
+        "url": "https://alfabank.servicecdn.ru/icons/corp_shield-risk-free_m.svg"
+    },
+    "ShieldRiskFreeSIcon": {
+        "description": "щит, галочка",
+        "web": "ShieldRiskFreeSIcon",
+        "webComponent": "import { ShieldRiskFreeSIcon } from '@alfalab/icons-corp/ShieldRiskFreeSIcon';",
+        "android": "corp_shield_risk_free_s",
+        "ios": "corp_shieldRiskFree_s",
+        "middle": "corp_shield-risk-free_s",
+        "cdn": "corp_shield-risk-free_s",
+        "url": "https://alfabank.servicecdn.ru/icons/corp_shield-risk-free_s.svg"
+    },
+    "ShieldRiskHighMIcon": {
+        "description": "щит, внимание",
+        "web": "ShieldRiskHighMIcon",
+        "webComponent": "import { ShieldRiskHighMIcon } from '@alfalab/icons-corp/ShieldRiskHighMIcon';",
+        "android": "corp_shield_risk_high_m",
+        "ios": "corp_shieldRiskHigh_m",
+        "middle": "corp_shield-risk-high_m",
+        "cdn": "corp_shield-risk-high_m",
+        "url": "https://alfabank.servicecdn.ru/icons/corp_shield-risk-high_m.svg"
+    },
+    "ShieldRiskHighSIcon": {
+        "description": "щит, внимание",
+        "web": "ShieldRiskHighSIcon",
+        "webComponent": "import { ShieldRiskHighSIcon } from '@alfalab/icons-corp/ShieldRiskHighSIcon';",
+        "android": "corp_shield_risk_high_s",
+        "ios": "corp_shieldRiskHigh_s",
+        "middle": "corp_shield-risk-high_s",
+        "cdn": "corp_shield-risk-high_s",
+        "url": "https://alfabank.servicecdn.ru/icons/corp_shield-risk-high_s.svg"
+    },
+    "ShieldRiskUnknownLineMIcon": {
+        "description": "[corp_shield-risk-unknown_line_m], щит, вопрос",
+        "web": "ShieldRiskUnknownLineMIcon",
+        "webComponent": "import { ShieldRiskUnknownLineMIcon } from '@alfalab/icons-corp/ShieldRiskUnknownLineMIcon';",
+        "android": "corp_shield_risk_unknown_line_m",
+        "ios": "corp_shieldRiskUnknownLine_m",
+        "middle": "corp_shield-risk-unknown-line_m",
+        "cdn": "corp_shield-risk-unknown-line_m",
+        "url": "https://alfabank.servicecdn.ru/icons/corp_shield-risk-unknown-line_m.svg"
+    },
+    "ShieldRiskUnknownMIcon": {
+        "description": "щит, вопрос",
+        "web": "ShieldRiskUnknownMIcon",
+        "webComponent": "import { ShieldRiskUnknownMIcon } from '@alfalab/icons-corp/ShieldRiskUnknownMIcon';",
+        "android": "corp_shield_risk_unknown_m",
+        "ios": "corp_shieldRiskUnknown_m",
+        "middle": "corp_shield-risk-unknown_m",
+        "cdn": "corp_shield-risk-unknown_m",
+        "url": "https://alfabank.servicecdn.ru/icons/corp_shield-risk-unknown_m.svg"
+    },
+    "ShieldRiskUnknownSIcon": {
+        "description": "щит, вопрос",
+        "web": "ShieldRiskUnknownSIcon",
+        "webComponent": "import { ShieldRiskUnknownSIcon } from '@alfalab/icons-corp/ShieldRiskUnknownSIcon';",
+        "android": "corp_shield_risk_unknown_s",
+        "ios": "corp_shieldRiskUnknown_s",
+        "middle": "corp_shield-risk-unknown_s",
+        "cdn": "corp_shield-risk-unknown_s",
+        "url": "https://alfabank.servicecdn.ru/icons/corp_shield-risk-unknown_s.svg"
+    },
+    "ShieldRubMIcon": {
+        "description": "щит, рубль",
+        "web": "ShieldRubMIcon",
+        "webComponent": "import { ShieldRubMIcon } from '@alfalab/icons-corp/ShieldRubMIcon';",
+        "android": "corp_shield_rub_m",
+        "ios": "corp_shieldRub_m",
+        "middle": "corp_shield-rub_m",
+        "cdn": "corp_shield-rub_m",
+        "url": "https://alfabank.servicecdn.ru/icons/corp_shield-rub_m.svg"
+    },
+    "ShieldRubSIcon": {
+        "description": "щит, рубль",
+        "web": "ShieldRubSIcon",
+        "webComponent": "import { ShieldRubSIcon } from '@alfalab/icons-corp/ShieldRubSIcon';",
+        "android": "corp_shield_rub_s",
+        "ios": "corp_shieldRub_s",
+        "middle": "corp_shield-rub_s",
+        "cdn": "corp_shield-rub_s",
+        "url": "https://alfabank.servicecdn.ru/icons/corp_shield-rub_s.svg"
+    },
+    "ShieldRubXxlIcon": {
+        "description": "щит, рубль",
+        "web": "ShieldRubXxlIcon",
+        "webComponent": "import { ShieldRubXxlIcon } from '@alfalab/icons-corp/ShieldRubXxlIcon';",
+        "android": "corp_shield_rub_xxl",
+        "ios": "corp_shieldRub_xxl",
+        "middle": "corp_shield-rub_xxl",
+        "cdn": "corp_shield-rub_xxl",
+        "url": "https://alfabank.servicecdn.ru/icons/corp_shield-rub_xxl.svg"
+    },
+    "ShieldWorldMIcon": {
+        "description": "щит, мир, планета, земля, вэд, валютный контроль",
+        "web": "ShieldWorldMIcon",
+        "webComponent": "import { ShieldWorldMIcon } from '@alfalab/icons-corp/ShieldWorldMIcon';",
+        "android": "corp_shield_world_m",
+        "ios": "corp_shieldWorld_m",
+        "middle": "corp_shield-world_m",
+        "cdn": "corp_shield-world_m",
+        "url": "https://alfabank.servicecdn.ru/icons/corp_shield-world_m.svg"
+    },
+    "ShopMIcon": {
+        "description": "магазин, витрина, франчайзинг",
+        "web": "ShopMIcon",
+        "webComponent": "import { ShopMIcon } from '@alfalab/icons-corp/ShopMIcon';",
+        "android": "corp_shop_m",
+        "ios": "corp_shop_m",
+        "middle": "corp_shop_m",
+        "cdn": "corp_shop_m",
+        "url": "https://alfabank.servicecdn.ru/icons/corp_shop_m.svg"
+    },
+    "SignatureSquareMIcon": {
+        "description": "подпись, lite эдо, sign",
+        "web": "SignatureSquareMIcon",
+        "webComponent": "import { SignatureSquareMIcon } from '@alfalab/icons-corp/SignatureSquareMIcon';",
+        "android": "corp_signature_square_m",
+        "ios": "corp_signatureSquare_m",
+        "middle": "corp_signature-square_m",
+        "cdn": "corp_signature-square_m",
+        "url": "https://alfabank.servicecdn.ru/icons/corp_signature-square_m.svg"
+    },
+    "SlidersMIcon": {
+        "description": "фильтрблок, GeneralFilterTag, FiltersBlock",
+        "web": "SlidersMIcon",
+        "webComponent": "import { SlidersMIcon } from '@alfalab/icons-corp/SlidersMIcon';",
+        "android": "corp_sliders_m",
+        "ios": "corp_sliders_m",
+        "middle": "corp_sliders_m",
+        "cdn": "corp_sliders_m",
+        "url": "https://alfabank.servicecdn.ru/icons/corp_sliders_m.svg"
+    },
+    "SlidersSIcon": {
+        "description": "фильтрблок, GeneralFilterTag, FiltersBlock",
+        "web": "SlidersSIcon",
+        "webComponent": "import { SlidersSIcon } from '@alfalab/icons-corp/SlidersSIcon';",
+        "android": "corp_sliders_s",
+        "ios": "corp_sliders_s",
+        "middle": "corp_sliders_s",
+        "cdn": "corp_sliders_s",
+        "url": "https://alfabank.servicecdn.ru/icons/corp_sliders_s.svg"
+    },
+    "SquareLinesRoundedMIcon": {
+        "description": "",
+        "web": "SquareLinesRoundedMIcon",
+        "webComponent": "import { SquareLinesRoundedMIcon } from '@alfalab/icons-corp/SquareLinesRoundedMIcon';",
+        "android": "corp_square_lines_rounded_m",
+        "ios": "corp_squareLinesRounded_m",
+        "middle": "corp_square-lines-rounded_m",
+        "cdn": "corp_square-lines-rounded_m",
+        "url": "https://alfabank.servicecdn.ru/icons/corp_square-lines-rounded_m.svg"
+    },
+    "SquareLinesSquareMediumMIcon": {
+        "description": "линии, счета",
+        "web": "SquareLinesSquareMediumMIcon",
+        "webComponent": "import { SquareLinesSquareMediumMIcon } from '@alfalab/icons-corp/SquareLinesSquareMediumMIcon';",
+        "android": "corp_square_lines_square_medium_m",
+        "ios": "corp_squareLinesSquareMedium_m",
+        "middle": "corp_square-lines-square-medium_m",
+        "cdn": "corp_square-lines-square-medium_m",
+        "url": "https://alfabank.servicecdn.ru/icons/corp_square-lines-square-medium_m.svg"
+    },
+    "StackOfCoinsMIcon": {
+        "description": "",
+        "web": "StackOfCoinsMIcon",
+        "webComponent": "import { StackOfCoinsMIcon } from '@alfalab/icons-corp/StackOfCoinsMIcon';",
+        "android": "corp_stack_of_coins_m",
+        "ios": "corp_stackOfCoins_m",
+        "middle": "corp_stack-of-coins_m",
+        "cdn": "corp_stack-of-coins_m",
+        "url": "https://alfabank.servicecdn.ru/icons/corp_stack-of-coins_m.svg"
+    },
+    "SupermarketTrolleyMIcon": {
+        "description": "витрина продуктов",
+        "web": "SupermarketTrolleyMIcon",
+        "webComponent": "import { SupermarketTrolleyMIcon } from '@alfalab/icons-corp/SupermarketTrolleyMIcon';",
+        "android": "corp_supermarket_trolley_m",
+        "ios": "corp_supermarketTrolley_m",
+        "middle": "corp_supermarket-trolley_m",
+        "cdn": "corp_supermarket-trolley_m",
+        "url": "https://alfabank.servicecdn.ru/icons/corp_supermarket-trolley_m.svg"
+    },
+    "SwapHorizontalMIcon": {
+        "description": "",
+        "web": "SwapHorizontalMIcon",
+        "webComponent": "import { SwapHorizontalMIcon } from '@alfalab/icons-corp/SwapHorizontalMIcon';",
+        "android": "corp_swap_horizontal_m",
+        "ios": "corp_swapHorizontal_m",
+        "middle": "corp_swap-horizontal_m",
+        "cdn": "corp_swap-horizontal_m",
+        "url": "https://alfabank.servicecdn.ru/icons/corp_swap-horizontal_m.svg"
+    },
+    "TrafficControllersBatonMIcon": {
+        "description": "штрафы ГИБДД",
+        "web": "TrafficControllersBatonMIcon",
+        "webComponent": "import { TrafficControllersBatonMIcon } from '@alfalab/icons-corp/TrafficControllersBatonMIcon';",
+        "android": "corp_traffic_controllers_baton_m",
+        "ios": "corp_trafficControllersBaton_m",
+        "middle": "corp_traffic-controllers-baton_m",
+        "cdn": "corp_traffic-controllers-baton_m",
+        "url": "https://alfabank.servicecdn.ru/icons/corp_traffic-controllers-baton_m.svg"
+    },
+    "TrashCanCompactLineMIcon": {
+        "description": "корзина, мусорка, урна, удалить, trash can",
+        "web": "TrashCanCompactLineMIcon",
+        "webComponent": "import { TrashCanCompactLineMIcon } from '@alfalab/icons-corp/TrashCanCompactLineMIcon';",
+        "android": "corp_trash_can_compact_line_m",
+        "ios": "corp_trashCanCompactLine_m",
+        "middle": "corp_trash-can-compact-line_m",
+        "cdn": "corp_trash-can-compact-line_m",
+        "url": "https://alfabank.servicecdn.ru/icons/corp_trash-can-compact-line_m.svg"
+    },
+    "TrashCanCompactLineSIcon": {
+        "description": "корзина, мусорка, урна, удалить, trash can",
+        "web": "TrashCanCompactLineSIcon",
+        "webComponent": "import { TrashCanCompactLineSIcon } from '@alfalab/icons-corp/TrashCanCompactLineSIcon';",
+        "android": "corp_trash_can_compact_line_s",
+        "ios": "corp_trashCanCompactLine_s",
+        "middle": "corp_trash-can-compact-line_s",
+        "cdn": "corp_trash-can-compact-line_s",
+        "url": "https://alfabank.servicecdn.ru/icons/corp_trash-can-compact-line_s.svg"
+    },
+    "TwoPersonsMIcon": {
+        "description": "",
+        "web": "TwoPersonsMIcon",
+        "webComponent": "import { TwoPersonsMIcon } from '@alfalab/icons-corp/TwoPersonsMIcon';",
+        "android": "corp_two_persons_m",
+        "ios": "corp_twoPersons_m",
+        "middle": "corp_two-persons_m",
+        "cdn": "corp_two-persons_m",
+        "url": "https://alfabank.servicecdn.ru/icons/corp_two-persons_m.svg"
+    },
+    "TwoUsersTieMIcon": {
+        "description": "контрагенты",
+        "web": "TwoUsersTieMIcon",
+        "webComponent": "import { TwoUsersTieMIcon } from '@alfalab/icons-corp/TwoUsersTieMIcon';",
+        "android": "corp_two_users_tie_m",
+        "ios": "corp_twoUsersTie_m",
+        "middle": "corp_two-users-tie_m",
+        "cdn": "corp_two-users-tie_m",
+        "url": "https://alfabank.servicecdn.ru/icons/corp_two-users-tie_m.svg"
+    },
+    "UserWorldMIcon": {
+        "description": "планета, земля, вэд, человек, сопровождение вэд",
+        "web": "UserWorldMIcon",
+        "webComponent": "import { UserWorldMIcon } from '@alfalab/icons-corp/UserWorldMIcon';",
+        "android": "corp_user_world_m",
+        "ios": "corp_userWorld_m",
+        "middle": "corp_user-world_m",
+        "cdn": "corp_user-world_m",
+        "url": "https://alfabank.servicecdn.ru/icons/corp_user-world_m.svg"
+    },
+    "ViewModeCardsMIcon": {
+        "description": "карточки, карточный вид данных, длинные карточки, cards mode, cards data, cards view",
+        "web": "ViewModeCardsMIcon",
+        "webComponent": "import { ViewModeCardsMIcon } from '@alfalab/icons-corp/ViewModeCardsMIcon';",
+        "android": "corp_view_mode_cards_m",
+        "ios": "corp_viewModeCards_m",
+        "middle": "corp_view-mode-cards_m",
+        "cdn": "corp_view-mode-cards_m",
+        "url": "https://alfabank.servicecdn.ru/icons/corp_view-mode-cards_m.svg"
+    },
+    "ViewModeCardsSIcon": {
+        "description": "карточки, карточный вид данных, длинные карточки, cards mode, cards data, cards view",
+        "web": "ViewModeCardsSIcon",
+        "webComponent": "import { ViewModeCardsSIcon } from '@alfalab/icons-corp/ViewModeCardsSIcon';",
+        "android": "corp_view_mode_cards_s",
+        "ios": "corp_viewModeCards_s",
+        "middle": "corp_view-mode-cards_s",
+        "cdn": "corp_view-mode-cards_s",
+        "url": "https://alfabank.servicecdn.ru/icons/corp_view-mode-cards_s.svg"
+    },
+    "ViewModeTableMIcon": {
+        "description": "таблица, табличный вид данных, table, table view, table mode",
+        "web": "ViewModeTableMIcon",
+        "webComponent": "import { ViewModeTableMIcon } from '@alfalab/icons-corp/ViewModeTableMIcon';",
+        "android": "corp_view_mode_table_m",
+        "ios": "corp_viewModeTable_m",
+        "middle": "corp_view-mode-table_m",
+        "cdn": "corp_view-mode-table_m",
+        "url": "https://alfabank.servicecdn.ru/icons/corp_view-mode-table_m.svg"
+    },
+    "ViewModeTableSIcon": {
+        "description": "таблица, табличный вид данных, table, table view, table mode",
+        "web": "ViewModeTableSIcon",
+        "webComponent": "import { ViewModeTableSIcon } from '@alfalab/icons-corp/ViewModeTableSIcon';",
+        "android": "corp_view_mode_table_s",
+        "ios": "corp_viewModeTable_s",
+        "middle": "corp_view-mode-table_s",
+        "cdn": "corp_view-mode-table_s",
+        "url": "https://alfabank.servicecdn.ru/icons/corp_view-mode-table_s.svg"
+    },
+    "WalletMIcon": {
+        "description": "зарплатный проект",
+        "web": "WalletMIcon",
+        "webComponent": "import { WalletMIcon } from '@alfalab/icons-corp/WalletMIcon';",
+        "android": "corp_wallet_m",
+        "ios": "corp_wallet_m",
+        "middle": "corp_wallet_m",
+        "cdn": "corp_wallet_m",
+        "url": "https://alfabank.servicecdn.ru/icons/corp_wallet_m.svg"
+    },
+    "WindowGearMIcon": {
+        "description": "настройка, окно",
+        "web": "WindowGearMIcon",
+        "webComponent": "import { WindowGearMIcon } from '@alfalab/icons-corp/WindowGearMIcon';",
+        "android": "corp_window_gear_m",
+        "ios": "corp_windowGear_m",
+        "middle": "corp_window-gear_m",
+        "cdn": "corp_window-gear_m",
+        "url": "https://alfabank.servicecdn.ru/icons/corp_window-gear_m.svg"
+    },
+    "WorldCashMIcon": {
+        "description": "ВЭД",
+        "web": "WorldCashMIcon",
+        "webComponent": "import { WorldCashMIcon } from '@alfalab/icons-corp/WorldCashMIcon';",
+        "android": "corp_world_cash_m",
+        "ios": "corp_worldCash_m",
+        "middle": "corp_world-cash_m",
+        "cdn": "corp_world-cash_m",
+        "url": "https://alfabank.servicecdn.ru/icons/corp_world-cash_m.svg"
+    },
+    "WorldChevronLeftRightMIcon": {
+        "description": "мир, планета, вэд, валютные операции",
+        "web": "WorldChevronLeftRightMIcon",
+        "webComponent": "import { WorldChevronLeftRightMIcon } from '@alfalab/icons-corp/WorldChevronLeftRightMIcon';",
+        "android": "corp_world_chevron_left_right_m",
+        "ios": "corp_worldChevronLeftRight_m",
+        "middle": "corp_world-chevron-left-right_m",
+        "cdn": "corp_world-chevron-left-right_m",
+        "url": "https://alfabank.servicecdn.ru/icons/corp_world-chevron-left-right_m.svg"
+    },
+    "WorldDocumentMIcon": {
+        "description": "планета, ВЭД, документ, сведения, о валютной операции",
+        "web": "WorldDocumentMIcon",
+        "webComponent": "import { WorldDocumentMIcon } from '@alfalab/icons-corp/WorldDocumentMIcon';",
+        "android": "corp_world_document_m",
+        "ios": "corp_worldDocument_m",
+        "middle": "corp_world-document_m",
+        "cdn": "corp_world-document_m",
+        "url": "https://alfabank.servicecdn.ru/icons/corp_world-document_m.svg"
+    },
+    "WorldPlusMIcon": {
+        "description": "мир, плюс, создать, валютный платёж, ВЭД",
+        "web": "WorldPlusMIcon",
+        "webComponent": "import { WorldPlusMIcon } from '@alfalab/icons-corp/WorldPlusMIcon';",
+        "android": "corp_world_plus_m",
+        "ios": "corp_worldPlus_m",
+        "middle": "corp_world-plus_m",
+        "cdn": "corp_world-plus_m",
+        "url": "https://alfabank.servicecdn.ru/icons/corp_world-plus_m.svg"
+    }
+}

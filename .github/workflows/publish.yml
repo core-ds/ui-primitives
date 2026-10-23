@@ -1,41 +1,109 @@
-name: PUBLISH
-
-# Ensure npm 11.5.1 or later for trusted publishing
-# https://github.com/orgs/community/discussions/173102
+name: publish
 
 on:
     push:
         branches:
             - master
 
-permissions:
-    id-token: write
-    contents: write
-
 concurrency:
-    group: ${{ github.workflow }}
-    cancel-in-progress: true
+    group: ${{ github.workflow }}-${{ github.ref }}
+    cancel-in-progress: false
+    queue: max
+
+permissions: {} # each job should define its own permission explicitly
 
 jobs:
-    build:
+    select-mode:
+        if: ${{ github.repository == 'core-ds/ui-primitives' }}
         runs-on: ubuntu-latest
+        outputs:
+            mode: ${{ steps.select-mode.outputs.mode }}
+            publish-plan-artifact-id: ${{ steps.select-mode.outputs.publish-plan-artifact-id }}
+        permissions:
+            contents: read # to check out repo (actions/checkout)
         steps:
             - name: Checkout
-              uses: actions/checkout@v6
+              uses: actions/checkout@v7
+
+            - name: Setup CI
+              uses: $/.github/actions/ci-setup
+
+            - name: Select mode
+              id: select-mode
+              uses: changesets/action/select-mode@v2
+
+    version:
+        needs: select-mode
+        if: needs.select-mode.outputs.mode == 'version'
+        runs-on: ubuntu-latest
+        permissions:
+            contents: read # to check out repo (actions/checkout)
+        steps:
+            - name: Checkout
+              uses: actions/checkout@v7
+
+            - name: Setup CI
+              uses: $/.github/actions/ci-setup
+
+            - name: Create app token
+              uses: actions/create-github-app-token@v3
+              id: app-token
               with:
-                  token: ${{ secrets.GITHUB_TOKEN }}
+                  client-id: ${{ vars.APP_ID }}
+                  private-key: ${{ secrets.APP_PRIVATE_KEY }}
+                  permission-contents: write # to create version commits (changesets/action)
+                  permission-pull-requests: write # to create pull request (changesets/action)
 
-            - name: Setup node
-              uses: actions/setup-node@v6
+            - name: Create or update release pull request
+              id: changesets
+              uses: changesets/action/version@v2
               with:
-                  node-version-file: ".node-version"
+                  github-token: ${{ steps.app-token.outputs.token }}
+                  script: 'pnpm version-packages'
 
-            - name: Publish
-              run: npm run ci
+    pack:
+        needs: select-mode
+        if: needs.select-mode.outputs.mode == 'publish'
+        runs-on: ubuntu-latest
+        outputs:
+            pack-dir-artifact-id: ${{ steps.pack.outputs.pack-dir-artifact-id }}
+        permissions:
+            contents: read # to check out repo (actions/checkout)
+        steps:
+            - name: Checkout
+              uses: actions/checkout@v7
 
-            # FIXME: временный костыль против race condition с задержкой публикации в npm registry, убрать когда появится нормальная проверка доступности версии
-            - name: Wait for npm registry propagation
-              run: sleep 300
+            - name: Setup CI
+              uses: $/.github/actions/ci-setup
 
-            - name: Dispatch build icons
-              run: curl -X POST -u '${{secrets.PAT_USERNAME}}:${{secrets.PAT_TOKEN}}' -H 'Accept:\ application/vnd.github.everest-preview+json' -H 'Content-Type:\ application/json' https://api.github.com/repos/core-ds/icons/dispatches --data '{"event_type":"build_application"}'
+            - name: Bootstrap
+              run: |
+                  pnpm bootstrap
+
+            - name: Build artifacts
+              run: |
+                  pnpm build
+
+            - name: Pack
+              id: pack
+              uses: changesets/action/pack@v2
+              with:
+                  publish-plan-artifact-id: ${{ needs.select-mode.outputs.publish-plan-artifact-id }}
+
+    publish:
+        needs: pack
+        runs-on: ubuntu-latest
+        permissions:
+            contents: write # to create release (changesets/action)
+            id-token: write # to use OpenID Connect token for trusted publishing (changesets/action)
+        steps:
+            - name: Checkout
+              uses: actions/checkout@v7
+
+            - name: Setup CI
+              uses: $/.github/actions/ci-setup
+
+            - name: Publish to npm
+              uses: changesets/action/publish@v2
+              with:
+                  pack-dir-artifact-id: ${{ needs.pack.outputs.pack-dir-artifact-id }}
