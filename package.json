@@ -7,11 +7,6 @@
         "url": "git+https://github.com/core-ds/ui-primitives.git"
     },
     "license": "MIT",
-    "workspaces": [
-        "icons-demo",
-        "packages/*",
-        "scripts/*"
-    ],
     "scripts": {
         "bootstrap": "pnpm -r run bootstrap && pnpm rebuild",
         "build": "pnpm -r --sequential run build",
