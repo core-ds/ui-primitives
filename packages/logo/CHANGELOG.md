@@ -1,5 +1,11 @@
 # @alfalab/icons-logo
 
+## 1.64.0
+
+### Minor Changes
+
+- [#1221](https://github.com/core-ds/ui-primitives/pull/1221) [`53fb846`](https://github.com/core-ds/ui-primitives/commit/53fb846f94db85d07d19b67ebdeb5947fe187908) Thanks [@fulcanellee](https://github.com/fulcanellee)! - Иконки обернуты в `forwardRef`
+
 ## 1.63.3
 
 ### Patch Changes
