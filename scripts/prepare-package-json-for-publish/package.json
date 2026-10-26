@@ -9,15 +9,15 @@
         "clean": "rimraf dist tsconfig.tsbuildinfo"
     },
     "dependencies": {
-        "fs-extra": "^11.4.1",
-        "yargs": "^18.2.0"
+        "fs-extra": "catalog:",
+        "yargs": "catalog:"
     },
     "devDependencies": {
-        "@types/fs-extra": "^11.0.4",
-        "@types/node": "^24.9.2",
-        "@types/yargs": "^17.0.35",
-        "rimraf": "^6.1.3",
+        "@types/fs-extra": "catalog:",
+        "@types/node": "catalog:",
+        "@types/yargs": "catalog:",
+        "rimraf": "catalog:",
         "scripts-tsconfig": "workspace:*",
-        "typescript": "^6.0.3"
+        "typescript": "catalog:"
     }
 }
