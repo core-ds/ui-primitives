@@ -9,11 +9,13 @@ export const iconTemplate = `
  * This is auto-generated file by scripts/svg-to-component package
  * Do not edit it manually
  */
-import React, { SVGProps } from 'react';
+import React, { SVGProps, forwardRef } from 'react';
 
-export const {{ComponentName}}: React.FC<SVGProps<SVGSVGElement>> = props => (
+export const {{ComponentName}} = forwardRef<SVGSVGElement, SVGProps<SVGSVGElement>>((props, ref) => (
     {{body}}
-);
+));
+
+{{ComponentName}}.displayName = '{{ComponentName}}';
 
 export default {{ComponentName}};
 `.trimStart();
@@ -122,7 +124,7 @@ export async function createComponent(src: string, out: string): Promise<void> {
         .replace(/{{ComponentName}}/g, `${componentName}`)
         .replace('{{body}}', data)
         .replace(/viewBox=\"[^"]*"/g, '$& {...props}')
-        .replace('<svg', `<svg role="img" focusable="false" ${color ? '' : 'fill="currentColor"'}`);
+        .replace('<svg', `<svg ref={ref} role="img" focusable="false" ${color ? '' : 'fill="currentColor"'}`);
 
     const dest = path.join(out, `${componentName}.tsx`);
 
