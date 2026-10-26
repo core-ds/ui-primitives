@@ -2,10 +2,10 @@
  * This is auto-generated file by scripts/svg-to-component package
  * Do not edit it manually
  */
-import React, { SVGProps } from 'react';
+import React, { SVGProps, forwardRef } from 'react';
 
-export const SerbiaMColorIcon: React.FC<SVGProps<SVGSVGElement>> = (props) => (
-    <svg role="img" focusable="false" width="24" height="24" viewBox="0 0 24 24" {...props} fill="none">
+export const SerbiaMColorIcon = forwardRef<SVGSVGElement, SVGProps<SVGSVGElement>>((props, ref) => (
+    <svg ref={ref} role="img" focusable="false" width="24" height="24" viewBox="0 0 24 24" {...props} fill="none">
         <path
             d="M0 18.065c0 .992.805 1.797 1.797 1.797h20.406c.992 0 1.797-.805 1.797-1.797V14.62H0v3.444z"
             fill="#F5F5F5"
@@ -93,6 +93,8 @@ export const SerbiaMColorIcon: React.FC<SVGProps<SVGSVGElement>> = (props) => (
         <path d="M6.435 13.082a.872.872 0 00.372 0V10.62h-.372v2.462z" fill="#F5F5F5" />
         <path d="M7.49 11.644H5.752v.372H7.49v-.372z" fill="#F5F5F5" />
     </svg>
-);
+));
+
+SerbiaMColorIcon.displayName = 'SerbiaMColorIcon';
 
 export default SerbiaMColorIcon;

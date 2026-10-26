@@ -2,10 +2,10 @@
  * This is auto-generated file by scripts/svg-to-component package
  * Do not edit it manually
  */
-import React, { SVGProps } from 'react';
+import React, { SVGProps, forwardRef } from 'react';
 
-export const MpgoMWhiteIcon: React.FC<SVGProps<SVGSVGElement>> = (props) => (
-    <svg role="img" focusable="false" width="71" height="24" viewBox="0 0 71 24" {...props} fill="none">
+export const MpgoMWhiteIcon = forwardRef<SVGSVGElement, SVGProps<SVGSVGElement>>((props, ref) => (
+    <svg ref={ref} role="img" focusable="false" width="71" height="24" viewBox="0 0 71 24" {...props} fill="none">
         <path
             d="M69 12.027c0-2.896-2.375-5.243-5.304-5.243-2.93 0-5.305 2.347-5.305 5.243 0 2.895 2.375 5.242 5.305 5.242 2.929 0 5.304-2.347 5.304-5.242zm-2.001 0c0-1.803-1.48-3.265-3.303-3.265-1.825 0-3.304 1.462-3.304 3.264 0 1.803 1.48 3.265 3.303 3.265 1.825 0 3.304-1.462 3.304-3.264z"
             fill="#fff"
@@ -27,6 +27,8 @@ export const MpgoMWhiteIcon: React.FC<SVGProps<SVGSVGElement>> = (props) => (
             fill="#fff"
         />
     </svg>
-);
+));
+
+MpgoMWhiteIcon.displayName = 'MpgoMWhiteIcon';
 
 export default MpgoMWhiteIcon;

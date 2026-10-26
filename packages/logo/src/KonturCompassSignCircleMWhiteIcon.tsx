@@ -2,10 +2,10 @@
  * This is auto-generated file by scripts/svg-to-component package
  * Do not edit it manually
  */
-import React, { SVGProps } from 'react';
+import React, { SVGProps, forwardRef } from 'react';
 
-export const KonturCompassSignCircleMWhiteIcon: React.FC<SVGProps<SVGSVGElement>> = (props) => (
-    <svg role="img" focusable="false" width="24" height="24" viewBox="0 0 24 24" {...props} fill="none">
+export const KonturCompassSignCircleMWhiteIcon = forwardRef<SVGSVGElement, SVGProps<SVGSVGElement>>((props, ref) => (
+    <svg ref={ref} role="img" focusable="false" width="24" height="24" viewBox="0 0 24 24" {...props} fill="none">
         <path
             d="M17.172 8.054a.955.955 0 00-1.226-1.226L9.589 9.175a.727.727 0 00-.43.431L6.826 15.95a.955.955 0 001.225 1.225l6.343-2.333c.2-.073.357-.23.431-.43l2.347-6.357z"
             fill="#222"
@@ -23,6 +23,8 @@ export const KonturCompassSignCircleMWhiteIcon: React.FC<SVGProps<SVGSVGElement>
             fill="#fff"
         />
     </svg>
-);
+));
+
+KonturCompassSignCircleMWhiteIcon.displayName = 'KonturCompassSignCircleMWhiteIcon';
 
 export default KonturCompassSignCircleMWhiteIcon;

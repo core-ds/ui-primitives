@@ -2,10 +2,10 @@
  * This is auto-generated file by scripts/svg-to-component package
  * Do not edit it manually
  */
-import React, { SVGProps } from 'react';
+import React, { SVGProps, forwardRef } from 'react';
 
-export const InfoSColorIcon: React.FC<SVGProps<SVGSVGElement>> = (props) => (
-    <svg role="img" focusable="false" width="16" height="16" viewBox="0 0 16 16" {...props}>
+export const InfoSColorIcon = forwardRef<SVGSVGElement, SVGProps<SVGSVGElement>>((props, ref) => (
+    <svg ref={ref} role="img" focusable="false" width="16" height="16" viewBox="0 0 16 16" {...props}>
         <g fill="none" fillRule="evenodd">
             <path opacity=".547" d="M-1-1h18v18H-1z" />
             <g fill="#EF3124" fillOpacity=".9" fillRule="nonzero">
@@ -14,6 +14,8 @@ export const InfoSColorIcon: React.FC<SVGProps<SVGSVGElement>> = (props) => (
             </g>
         </g>
     </svg>
-);
+));
+
+InfoSColorIcon.displayName = 'InfoSColorIcon';
 
 export default InfoSColorIcon;

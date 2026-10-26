@@ -2,10 +2,10 @@
  * This is auto-generated file by scripts/svg-to-component package
  * Do not edit it manually
  */
-import React, { SVGProps } from 'react';
+import React, { SVGProps, forwardRef } from 'react';
 
-export const CancelXxxlColorIcon: React.FC<SVGProps<SVGSVGElement>> = (props) => (
-    <svg role="img" focusable="false" width="88" height="88" viewBox="0 0 88 88" {...props}>
+export const CancelXxxlColorIcon = forwardRef<SVGSVGElement, SVGProps<SVGSVGElement>>((props, ref) => (
+    <svg ref={ref} role="img" focusable="false" width="88" height="88" viewBox="0 0 88 88" {...props}>
         <g fill="none">
             <path d="M0 0l88 1.796V88H0z" />
             <rect width="88" height="88" fill="#EF3124" rx="44" />
@@ -15,6 +15,8 @@ export const CancelXxxlColorIcon: React.FC<SVGProps<SVGSVGElement>> = (props) =>
             />
         </g>
     </svg>
-);
+));
+
+CancelXxxlColorIcon.displayName = 'CancelXxxlColorIcon';
 
 export default CancelXxxlColorIcon;

@@ -2,10 +2,10 @@
  * This is auto-generated file by scripts/svg-to-component package
  * Do not edit it manually
  */
-import React, { SVGProps } from 'react';
+import React, { SVGProps, forwardRef } from 'react';
 
-export const PerekrestokMWhiteIcon: React.FC<SVGProps<SVGSVGElement>> = (props) => (
-    <svg role="img" focusable="false" width="157" height="24" viewBox="0 0 157 24" {...props} fill="none">
+export const PerekrestokMWhiteIcon = forwardRef<SVGSVGElement, SVGProps<SVGSVGElement>>((props, ref) => (
+    <svg ref={ref} role="img" focusable="false" width="157" height="24" viewBox="0 0 157 24" {...props} fill="none">
         <path
             d="M12.665 7.433L10.449 9.67 8.232 7.433c-1.224-1.233-1.224-3.237 0-4.509a3.12 3.12 0 014.433 0c1.224 1.272 1.224 3.276 0 4.51zm-4.433 6.32l2.216-2.235 2.217 2.235c1.224 1.233 1.224 3.237 0 4.509a3.12 3.12 0 01-4.433 0c-1.224-1.273-1.224-3.276 0-4.51zm5.349-.886l-2.216-2.274 2.216-2.235a3.12 3.12 0 014.433 0c1.224 1.234 1.224 3.237 0 4.509a3.12 3.12 0 01-4.433 0zM7.35 8.358l2.218 2.235-2.216 2.236a3.117 3.117 0 01-4.434 0c-1.224-1.234-1.224-3.237 0-4.51 1.184-1.194 3.21-1.194 4.433.04z"
             fill="#fff"
@@ -15,6 +15,8 @@ export const PerekrestokMWhiteIcon: React.FC<SVGProps<SVGSVGElement>> = (props) 
             fill="#fff"
         />
     </svg>
-);
+));
+
+PerekrestokMWhiteIcon.displayName = 'PerekrestokMWhiteIcon';
 
 export default PerekrestokMWhiteIcon;

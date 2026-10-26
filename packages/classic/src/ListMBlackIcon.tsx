@@ -2,10 +2,10 @@
  * This is auto-generated file by scripts/svg-to-component package
  * Do not edit it manually
  */
-import React, { SVGProps } from 'react';
+import React, { SVGProps, forwardRef } from 'react';
 
-export const ListMBlackIcon: React.FC<SVGProps<SVGSVGElement>> = (props) => (
-    <svg role="img" focusable="false" width="18" height="14" viewBox="0 0 18 14" {...props}>
+export const ListMBlackIcon = forwardRef<SVGSVGElement, SVGProps<SVGSVGElement>>((props, ref) => (
+    <svg ref={ref} role="img" focusable="false" width="18" height="14" viewBox="0 0 18 14" {...props}>
         <g fill="none" fillRule="evenodd">
             <path d="M-3-5h24v24H-3z" />
             <g fill="#0B1F35">
@@ -14,6 +14,8 @@ export const ListMBlackIcon: React.FC<SVGProps<SVGSVGElement>> = (props) => (
             </g>
         </g>
     </svg>
-);
+));
+
+ListMBlackIcon.displayName = 'ListMBlackIcon';
 
 export default ListMBlackIcon;

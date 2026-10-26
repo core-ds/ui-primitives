@@ -2,10 +2,10 @@
  * This is auto-generated file by scripts/svg-to-component package
  * Do not edit it manually
  */
-import React, { SVGProps } from 'react';
+import React, { SVGProps, forwardRef } from 'react';
 
-export const LentaProMColorIcon: React.FC<SVGProps<SVGSVGElement>> = (props) => (
-    <svg role="img" focusable="false" width="66" height="24" viewBox="0 0 66 24" {...props} fill="none">
+export const LentaProMColorIcon = forwardRef<SVGSVGElement, SVGProps<SVGSVGElement>>((props, ref) => (
+    <svg ref={ref} role="img" focusable="false" width="66" height="24" viewBox="0 0 66 24" {...props} fill="none">
         <path
             d="M38.532 12.673c-1.821.386-3.138 1.806-3.368 3.632a4.414 4.414 0 00.548 2.669c.1.17.41.539.688.818.43.43.584.547 1.013.76.74.368 1.052.438 1.971.438.662 0 .83-.018 1.17-.125 1.451-.456 2.483-1.497 2.889-2.916.158-.555.17-1.673.024-2.208-.4-1.458-1.56-2.624-2.99-3.01-.444-.118-1.507-.15-1.945-.058zm3.031 2.98c-.296-.627-.968-1.141-1.689-1.292-1.214-.253-2.383.393-2.835 1.566-.177.46-.18 1.242-.007 1.746.322.939 1.149 1.559 2.166 1.624 1.95.125 3.22-1.83 2.365-3.643z"
             fill="#FFB903"
@@ -39,6 +39,8 @@ export const LentaProMColorIcon: React.FC<SVGProps<SVGSVGElement>> = (props) => 
             clipRule="evenodd"
         />
     </svg>
-);
+));
+
+LentaProMColorIcon.displayName = 'LentaProMColorIcon';
 
 export default LentaProMColorIcon;

@@ -2,13 +2,24 @@
  * This is auto-generated file by scripts/svg-to-component package
  * Do not edit it manually
  */
-import React, { SVGProps } from 'react';
+import React, { SVGProps, forwardRef } from 'react';
 
-export const EaglePlusLine20Icon: React.FC<SVGProps<SVGSVGElement>> = (props) => (
-    <svg role="img" focusable="false" fill="currentColor" width="20" height="20" viewBox="0 0 20 20" {...props}>
+export const EaglePlusLine20Icon = forwardRef<SVGSVGElement, SVGProps<SVGSVGElement>>((props, ref) => (
+    <svg
+        ref={ref}
+        role="img"
+        focusable="false"
+        fill="currentColor"
+        width="20"
+        height="20"
+        viewBox="0 0 20 20"
+        {...props}
+    >
         <path d="M16 14h3v2h-3v3h-2v-3h-3v-2h3v-3h2v3z" />
         <path d="M10.4 2.532a4 4 0 015.046.5l.761.76a1.001 1.001 0 01-.336 1.636c-1.041.417-1.634.71-2.053 1.019a3.038 3.038 0 00-.272.225L19 5.834V7a9.95 9.95 0 01-.188 2h-2.058c.071-.248.13-.521.172-.823l-4.319.665c-1.163.178-2.174-1.06-1.521-2.196.425-.738.87-1.31 1.543-1.807a7.222 7.222 0 011.086-.65 1.999 1.999 0 00-2.206.007L10 5.202 8.491 4.196a2 2 0 00-2.207-.007c.41.204.769.414 1.087.65.672.497 1.118 1.07 1.543 1.807.653 1.136-.358 2.374-1.521 2.196l-4.32-.665c.153 1.155.542 1.886 1.045 2.353.671.623 1.746.97 3.382.97h1.54l-1.888 4.243c.6.229 1.22.38 1.848.459v2.016a9.993 9.993 0 01-3.472-1.003l-.141-.07-.855-.428 1.472-3.315c-1.257-.173-2.376-.598-3.247-1.407C1.538 10.863 1 9.167 1 7V5.834l5.454.839a3.037 3.037 0 00-.272-.226c-.419-.31-1.012-.602-2.053-1.019a1.002 1.002 0 01-.336-1.635l.76-.761a4 4 0 015.048-.5l.399.266.4-.266z" />
     </svg>
-);
+));
+
+EaglePlusLine20Icon.displayName = 'EaglePlusLine20Icon';
 
 export default EaglePlusLine20Icon;

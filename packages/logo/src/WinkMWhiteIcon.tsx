@@ -2,10 +2,10 @@
  * This is auto-generated file by scripts/svg-to-component package
  * Do not edit it manually
  */
-import React, { SVGProps } from 'react';
+import React, { SVGProps, forwardRef } from 'react';
 
-export const WinkMWhiteIcon: React.FC<SVGProps<SVGSVGElement>> = (props) => (
-    <svg role="img" focusable="false" width="82" height="24" viewBox="0 0 82 24" {...props} fill="none">
+export const WinkMWhiteIcon = forwardRef<SVGSVGElement, SVGProps<SVGSVGElement>>((props, ref) => (
+    <svg ref={ref} role="img" focusable="false" width="82" height="24" viewBox="0 0 82 24" {...props} fill="none">
         <path
             d="M60.853 16.909a.174.174 0 01-.177.171h-5.039l-4.325-4.423v4.421h-4.45V6.918h4.45v4.33l4.154-4.33h4.877c.046 0 .09.019.124.052a.175.175 0 010 .248l-4.6 4.651 4.935 4.913c.033.033.052.08.051.127zm-20.414-4.76l-4.887-5.23H31.32V17.08h4.232v-5.23l4.887 5.23h4.24V6.919h-4.24v5.23zM23.194 6.928a.174.174 0 00-.056-.01h-3.86l-2.06 6.193-2.163-6.193h-4.713l-2.164 6.193-2.06-6.193H2.176a.175.175 0 00-.165.233l3.385 9.93h5.175l2.085-5.957 2.088 5.956h5.174l3.385-9.93a.176.176 0 00-.108-.222zm1.494 10.153h4.45V6.919h-4.45V17.08z"
             fill="#fff"
@@ -30,6 +30,8 @@ export const WinkMWhiteIcon: React.FC<SVGProps<SVGSVGElement>> = (props) => (
             </linearGradient>
         </defs>
     </svg>
-);
+));
+
+WinkMWhiteIcon.displayName = 'WinkMWhiteIcon';
 
 export default WinkMWhiteIcon;

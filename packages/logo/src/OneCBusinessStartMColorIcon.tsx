@@ -2,10 +2,10 @@
  * This is auto-generated file by scripts/svg-to-component package
  * Do not edit it manually
  */
-import React, { SVGProps } from 'react';
+import React, { SVGProps, forwardRef } from 'react';
 
-export const OneCBusinessStartMColorIcon: React.FC<SVGProps<SVGSVGElement>> = (props) => (
-    <svg role="img" focusable="false" width="95" height="24" viewBox="0 0 95 24" {...props} fill="none">
+export const OneCBusinessStartMColorIcon = forwardRef<SVGSVGElement, SVGProps<SVGSVGElement>>((props, ref) => (
+    <svg ref={ref} role="img" focusable="false" width="95" height="24" viewBox="0 0 95 24" {...props} fill="none">
         <path
             d="M23.314 19.371c-.8-.057-1.714-.171-2.4-.4-.171 0-.743-.228-.8-.342-2.514-1.143-4.228-3.715-4.228-6.686 0-4 3.314-7.314 7.314-7.314s7.257 3.2 7.314 7.257h2.629C33.029 6.4 28.57 2 23.143 2 17.657 2 13.2 6.514 13.2 11.943c0 3.771 2.171 7.086 5.2 8.743.571.343 1.371.628 1.6.743.857.228 2 .4 2.971.457h69.715v-2.629H24.914c-.343.172-1.371.172-1.6.114zm1.486-4.114h-1.371c-.343 0-.8-.057-1.029-.171-.343-.057-.629-.229-.8-.343-.971-.572-1.714-1.6-1.714-2.743a3.134 3.134 0 013.143-3.143c1.714 0 3.028 1.372 3.142 3.029h2.572c-.057-3.143-2.572-5.6-5.714-5.6-3.143 0-5.715 2.571-5.715 5.714 0 2.229 1.257 4.114 3.143 5.086.343.171.8.343.972.4.571.171 1.2.228 1.771.228h69.314v-2.571H24.8v.114zM8.857 22V4.629H4.971V2h6.572v20H8.857zM2 6v2.571h2.914V22h2.572V6H2z"
             fill="#D71920"
@@ -15,6 +15,8 @@ export const OneCBusinessStartMColorIcon: React.FC<SVGProps<SVGSVGElement>> = (p
             fill="#D71920"
         />
     </svg>
-);
+));
+
+OneCBusinessStartMColorIcon.displayName = 'OneCBusinessStartMColorIcon';
 
 export default OneCBusinessStartMColorIcon;

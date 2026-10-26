@@ -2,10 +2,10 @@
  * This is auto-generated file by scripts/svg-to-component package
  * Do not edit it manually
  */
-import React, { SVGProps } from 'react';
+import React, { SVGProps, forwardRef } from 'react';
 
-export const VkWorkspaceMWhiteIcon: React.FC<SVGProps<SVGSVGElement>> = (props) => (
-    <svg role="img" focusable="false" width="127" height="24" viewBox="0 0 127 24" {...props} fill="none">
+export const VkWorkspaceMWhiteIcon = forwardRef<SVGSVGElement, SVGProps<SVGSVGElement>>((props, ref) => (
+    <svg ref={ref} role="img" focusable="false" width="127" height="24" viewBox="0 0 127 24" {...props} fill="none">
         <path
             d="M22 11.508c0-4.482 0-6.723-1.392-8.116C19.215 2 16.974 2 12.492 2h-.984C7.026 2 4.785 2 3.392 3.392 2 4.785 2 7.026 2 11.508v.984c0 4.482 0 6.723 1.392 8.116C4.785 22 7.026 22 11.508 22h.984c4.482 0 6.723 0 8.116-1.392C22 19.215 22 16.974 22 12.492v-.984z"
             fill="#07F"
@@ -19,6 +19,8 @@ export const VkWorkspaceMWhiteIcon: React.FC<SVGProps<SVGSVGElement>> = (props) 
             fill="#fff"
         />
     </svg>
-);
+));
+
+VkWorkspaceMWhiteIcon.displayName = 'VkWorkspaceMWhiteIcon';
 
 export default VkWorkspaceMWhiteIcon;

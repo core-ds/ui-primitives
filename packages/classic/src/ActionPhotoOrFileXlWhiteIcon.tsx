@@ -2,10 +2,10 @@
  * This is auto-generated file by scripts/svg-to-component package
  * Do not edit it manually
  */
-import React, { SVGProps } from 'react';
+import React, { SVGProps, forwardRef } from 'react';
 
-export const ActionPhotoOrFileXlWhiteIcon: React.FC<SVGProps<SVGSVGElement>> = (props) => (
-    <svg role="img" focusable="false" width="36" height="36" viewBox="0 0 36 36" {...props}>
+export const ActionPhotoOrFileXlWhiteIcon = forwardRef<SVGSVGElement, SVGProps<SVGSVGElement>>((props, ref) => (
+    <svg ref={ref} role="img" focusable="false" width="36" height="36" viewBox="0 0 36 36" {...props}>
         <g transform="translate(5 2)" fill="#FFF" fillRule="evenodd">
             <path
                 d="M19.812 1L26 7.754V25a2 2 0 01-2 2h-3v1h3a3 3 0 003-3V7.365L20.252 0H8a3 3 0 00-3 3v2h1V3a2 2 0 012-2h11.812z"
@@ -22,6 +22,8 @@ export const ActionPhotoOrFileXlWhiteIcon: React.FC<SVGProps<SVGSVGElement>> = (
             <circle cx="14" cy="16" r="2" fillOpacity=".3" />
         </g>
     </svg>
-);
+));
+
+ActionPhotoOrFileXlWhiteIcon.displayName = 'ActionPhotoOrFileXlWhiteIcon';
 
 export default ActionPhotoOrFileXlWhiteIcon;

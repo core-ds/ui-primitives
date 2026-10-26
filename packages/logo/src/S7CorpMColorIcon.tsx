@@ -2,10 +2,10 @@
  * This is auto-generated file by scripts/svg-to-component package
  * Do not edit it manually
  */
-import React, { SVGProps } from 'react';
+import React, { SVGProps, forwardRef } from 'react';
 
-export const S7CorpMColorIcon: React.FC<SVGProps<SVGSVGElement>> = (props) => (
-    <svg role="img" focusable="false" width="54" height="24" viewBox="0 0 54 24" {...props} fill="none">
+export const S7CorpMColorIcon = forwardRef<SVGSVGElement, SVGProps<SVGSVGElement>>((props, ref) => (
+    <svg ref={ref} role="img" focusable="false" width="54" height="24" viewBox="0 0 54 24" {...props} fill="none">
         <path
             d="M33.668 12.139c-.17 2.172-1.683 3.55-3.913 3.55-2.518 0-4.188-1.808-4.188-4.552 0-2.679 1.748-4.539 4.265-4.539 2.035 0 3.627 1.314 3.77 3.122h-1.877c-.196-.975-.9-1.535-1.931-1.535-1.409 0-2.309 1.157-2.309 2.978 0 1.808.887 2.953 2.296 2.953 1.135 0 1.826-.676 1.983-1.977h1.904zm2.02.208c0 1.275.574 2.029 1.54 2.029.952 0 1.512-.754 1.512-2.042 0-1.262-.574-2.029-1.512-2.029-.979 0-1.54.755-1.54 2.042zm4.788-.013c0 2.003-1.292 3.316-3.248 3.316-1.97 0-3.275-1.327-3.275-3.304 0-2.002 1.318-3.316 3.327-3.316 1.904 0 3.196 1.327 3.196 3.304zm4.697-1.652a3.776 3.776 0 00-.678-.065c-.614 0-1.123.286-1.41.78-.195.313-.26.716-.26 1.458v2.627h-1.722V9.2h1.643v1.158c.457-.872 1.122-1.288 2.036-1.288.13 0 .208 0 .39.026v1.586zm2.078 1.692c0 1.222.574 1.937 1.527 1.937.927 0 1.487-.729 1.487-1.912 0-1.21-.56-1.964-1.487-1.964-.965 0-1.527.702-1.527 1.939zm-.013-2.394c.444-.638 1.097-.95 1.957-.95 1.682 0 2.805 1.34 2.805 3.344 0 1.976-1.083 3.277-2.74 3.277-.847 0-1.46-.299-1.944-.95v3.005h-1.721V9.2h1.643v.78z"
             fill="#5E6060"
@@ -19,6 +19,8 @@ export const S7CorpMColorIcon: React.FC<SVGProps<SVGSVGElement>> = (props) => (
             fill="#fff"
         />
     </svg>
-);
+));
+
+S7CorpMColorIcon.displayName = 'S7CorpMColorIcon';
 
 export default S7CorpMColorIcon;

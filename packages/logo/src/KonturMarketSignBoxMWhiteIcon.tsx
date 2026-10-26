@@ -2,10 +2,10 @@
  * This is auto-generated file by scripts/svg-to-component package
  * Do not edit it manually
  */
-import React, { SVGProps } from 'react';
+import React, { SVGProps, forwardRef } from 'react';
 
-export const KonturMarketSignBoxMWhiteIcon: React.FC<SVGProps<SVGSVGElement>> = (props) => (
-    <svg role="img" focusable="false" width="24" height="24" viewBox="0 0 24 24" {...props} fill="none">
+export const KonturMarketSignBoxMWhiteIcon = forwardRef<SVGSVGElement, SVGProps<SVGSVGElement>>((props, ref) => (
+    <svg ref={ref} role="img" focusable="false" width="24" height="24" viewBox="0 0 24 24" {...props} fill="none">
         <path
             d="M2.019 18.407a1.826 1.826 0 001.807 2.084h16.348a1.826 1.826 0 001.807-2.084l-1.903-13.33a1.826 1.826 0 00-1.808-1.568H5.73c-.909 0-1.68.668-1.808 1.568L2.02 18.407z"
             fill="#fff"
@@ -15,6 +15,8 @@ export const KonturMarketSignBoxMWhiteIcon: React.FC<SVGProps<SVGSVGElement>> = 
             fill="#222"
         />
     </svg>
-);
+));
+
+KonturMarketSignBoxMWhiteIcon.displayName = 'KonturMarketSignBoxMWhiteIcon';
 
 export default KonturMarketSignBoxMWhiteIcon;

@@ -2,10 +2,10 @@
  * This is auto-generated file by scripts/svg-to-component package
  * Do not edit it manually
  */
-import React, { SVGProps } from 'react';
+import React, { SVGProps, forwardRef } from 'react';
 
-export const MirSColorIcon: React.FC<SVGProps<SVGSVGElement>> = (props) => (
-    <svg role="img" focusable="false" width="48" height="16" viewBox="0 0 48 16" {...props} fill="none">
+export const MirSColorIcon = forwardRef<SVGSVGElement, SVGProps<SVGSVGElement>>((props, ref) => (
+    <svg ref={ref} role="img" focusable="false" width="48" height="16" viewBox="0 0 48 16" {...props} fill="none">
         <path
             d="M40.594 6.794c-3.07 0-6.956-2.414-6.956-5.394h9.732C45.927 1.4 48 3.411 48 5.894c0 .302-.032.604-.095.9h-7.311z"
             fill="url(#prefix__paint0_linear_128_47)"
@@ -28,6 +28,8 @@ export const MirSColorIcon: React.FC<SVGProps<SVGSVGElement>> = (props) => (
             </linearGradient>
         </defs>
     </svg>
-);
+));
+
+MirSColorIcon.displayName = 'MirSColorIcon';
 
 export default MirSColorIcon;

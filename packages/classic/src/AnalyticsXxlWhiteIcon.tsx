@@ -2,10 +2,10 @@
  * This is auto-generated file by scripts/svg-to-component package
  * Do not edit it manually
  */
-import React, { SVGProps } from 'react';
+import React, { SVGProps, forwardRef } from 'react';
 
-export const AnalyticsXxlWhiteIcon: React.FC<SVGProps<SVGSVGElement>> = (props) => (
-    <svg role="img" focusable="false" width="48" height="48" viewBox="0 0 48 48" {...props}>
+export const AnalyticsXxlWhiteIcon = forwardRef<SVGSVGElement, SVGProps<SVGSVGElement>>((props, ref) => (
+    <svg ref={ref} role="img" focusable="false" width="48" height="48" viewBox="0 0 48 48" {...props}>
         <g fill="#FFF" fillRule="evenodd">
             <path
                 opacity=".3"
@@ -15,6 +15,8 @@ export const AnalyticsXxlWhiteIcon: React.FC<SVGProps<SVGSVGElement>> = (props) 
             <path d="M32.218 29.906a14.636 14.636 0 003.232-9.18C35.45 12.606 28.844 6 20.724 6 12.604 6 6 12.606 6 20.726c0 8.12 6.604 14.724 14.724 14.724 3.472 0 6.66-1.212 9.18-3.23l9.302 9.302a1.636 1.636 0 102.314-2.314l-9.302-9.302zm-24.584-9.18c0-7.218 5.874-13.09 13.09-13.09 7.218 0 13.09 5.872 13.09 13.09 0 3.346-1.274 6.39-3.346 8.708l-1.036 1.036c-2.316 2.072-5.362 3.346-8.708 3.346-7.216 0-13.09-5.872-13.09-13.09z" />
         </g>
     </svg>
-);
+));
+
+AnalyticsXxlWhiteIcon.displayName = 'AnalyticsXxlWhiteIcon';
 
 export default AnalyticsXxlWhiteIcon;

@@ -2,10 +2,10 @@
  * This is auto-generated file by scripts/svg-to-component package
  * Do not edit it manually
  */
-import React, { SVGProps } from 'react';
+import React, { SVGProps, forwardRef } from 'react';
 
-export const CardActivationXlWhiteIcon: React.FC<SVGProps<SVGSVGElement>> = (props) => (
-    <svg role="img" focusable="false" width="36" height="36" viewBox="0 0 36 36" {...props} fill="none">
+export const CardActivationXlWhiteIcon = forwardRef<SVGSVGElement, SVGProps<SVGSVGElement>>((props, ref) => (
+    <svg ref={ref} role="img" focusable="false" width="36" height="36" viewBox="0 0 36 36" {...props} fill="none">
         <path
             opacity=".3"
             d="M15.393 9.473a8.916 8.916 0 105.21-.001l-.44 1.434a7.395 7.395 0 014.929 4.926 7.42 7.42 0 01-7.23 9.586 7.419 7.419 0 01-2.031-14.51l-.438-1.435z"
@@ -17,6 +17,8 @@ export const CardActivationXlWhiteIcon: React.FC<SVGProps<SVGSVGElement>> = (pro
             fill="#fff"
         />
     </svg>
-);
+));
+
+CardActivationXlWhiteIcon.displayName = 'CardActivationXlWhiteIcon';
 
 export default CardActivationXlWhiteIcon;

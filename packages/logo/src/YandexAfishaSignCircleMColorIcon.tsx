@@ -2,10 +2,10 @@
  * This is auto-generated file by scripts/svg-to-component package
  * Do not edit it manually
  */
-import React, { SVGProps } from 'react';
+import React, { SVGProps, forwardRef } from 'react';
 
-export const YandexAfishaSignCircleMColorIcon: React.FC<SVGProps<SVGSVGElement>> = (props) => (
-    <svg role="img" focusable="false" width="24" height="24" viewBox="0 0 24 24" {...props} fill="none">
+export const YandexAfishaSignCircleMColorIcon = forwardRef<SVGSVGElement, SVGProps<SVGSVGElement>>((props, ref) => (
+    <svg ref={ref} role="img" focusable="false" width="24" height="24" viewBox="0 0 24 24" {...props} fill="none">
         <path
             d="M22.001 12c0 .12-.002.238-.006.356-.187 5.347-4.581 9.625-9.974 9.625-5.512 0-9.98-4.469-9.98-9.98 0-5.513 4.468-9.981 9.98-9.981 4.845 0 8.885 3.454 9.79 8.034.125.63.19 1.28.19 1.946z"
             fill="#C4C4C4"
@@ -29,6 +29,8 @@ export const YandexAfishaSignCircleMColorIcon: React.FC<SVGProps<SVGSVGElement>>
             clipRule="evenodd"
         />
     </svg>
-);
+));
+
+YandexAfishaSignCircleMColorIcon.displayName = 'YandexAfishaSignCircleMColorIcon';
 
 export default YandexAfishaSignCircleMColorIcon;

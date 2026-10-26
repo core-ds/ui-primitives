@@ -2,10 +2,10 @@
  * This is auto-generated file by scripts/svg-to-component package
  * Do not edit it manually
  */
-import React, { SVGProps } from 'react';
+import React, { SVGProps, forwardRef } from 'react';
 
-export const AsiaAllianceMColorIcon: React.FC<SVGProps<SVGSVGElement>> = (props) => (
-    <svg role="img" focusable="false" width="155" height="24" viewBox="0 0 155 24" {...props} fill="none">
+export const AsiaAllianceMColorIcon = forwardRef<SVGSVGElement, SVGProps<SVGSVGElement>>((props, ref) => (
+    <svg ref={ref} role="img" focusable="false" width="155" height="24" viewBox="0 0 155 24" {...props} fill="none">
         <path
             d="M17.547 19.172c.606 1.482 1.367 2.038 2.657 2.038v.606a58.635 58.635 0 00-5.65 0v-.606c1.278 0 1.536-.528.93-2.038l-1.536-3.782H7.16l-1.483 3.782c-.607 1.51-.349 2.038.93 2.038v.606a54.017 54.017 0 00-4.608 0v-.606c1.303 0 2.104-.556 2.67-2.038l5.792-14.85h1.059l6.024 14.85h.002zm-10.076-4.62H13.6l-3.11-7.717-3.018 7.717z"
             fill="url(#prefix__paint0_linear_4925_56)"
@@ -225,6 +225,8 @@ export const AsiaAllianceMColorIcon: React.FC<SVGProps<SVGSVGElement>> = (props)
             </linearGradient>
         </defs>
     </svg>
-);
+));
+
+AsiaAllianceMColorIcon.displayName = 'AsiaAllianceMColorIcon';
 
 export default AsiaAllianceMColorIcon;

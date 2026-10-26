@@ -2,10 +2,10 @@
  * This is auto-generated file by scripts/svg-to-component package
  * Do not edit it manually
  */
-import React, { SVGProps } from 'react';
+import React, { SVGProps, forwardRef } from 'react';
 
-export const CategoryFamilyMWhiteIcon: React.FC<SVGProps<SVGSVGElement>> = (props) => (
-    <svg role="img" focusable="false" width="24" height="24" viewBox="0 0 24 24" {...props}>
+export const CategoryFamilyMWhiteIcon = forwardRef<SVGSVGElement, SVGProps<SVGSVGElement>>((props, ref) => (
+    <svg ref={ref} role="img" focusable="false" width="24" height="24" viewBox="0 0 24 24" {...props}>
         <g fill="none" fillRule="evenodd">
             <path
                 d="M17.271 2A6.683 6.683 0 0012 4.555 6.683 6.683 0 006.729 2 6.737 6.737 0 000 8.729c0 .286.023.566.057.837.566 5.094 6.152 9.213 11.825 12.996l.277.185.277-.185c5.289-3.526 10.977-7.733 11.51-13.025.033-.266.054-.533.054-.808A6.737 6.737 0 0017.271 2zm5.682 7.428c-.46 4.559-5.425 8.517-10.793 12.117C6.78 17.944 1.562 14.043 1.05 9.448A5.878 5.878 0 011 8.729 5.735 5.735 0 016.729 3a5.699 5.699 0 014.847 2.687l.424.671.423-.672A5.703 5.703 0 0117.271 3 5.735 5.735 0 0123 8.729c0 .234-.019.462-.047.699z"
@@ -18,6 +18,8 @@ export const CategoryFamilyMWhiteIcon: React.FC<SVGProps<SVGSVGElement>> = (prop
             />
         </g>
     </svg>
-);
+));
+
+CategoryFamilyMWhiteIcon.displayName = 'CategoryFamilyMWhiteIcon';
 
 export default CategoryFamilyMWhiteIcon;

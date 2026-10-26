@@ -2,10 +2,10 @@
  * This is auto-generated file by scripts/svg-to-component package
  * Do not edit it manually
  */
-import React, { SVGProps } from 'react';
+import React, { SVGProps, forwardRef } from 'react';
 
-export const HoldXsWhiteIcon: React.FC<SVGProps<SVGSVGElement>> = (props) => (
-    <svg role="img" focusable="false" width="12" height="12" viewBox="0 0 12 12" {...props}>
+export const HoldXsWhiteIcon = forwardRef<SVGSVGElement, SVGProps<SVGSVGElement>>((props, ref) => (
+    <svg ref={ref} role="img" focusable="false" width="12" height="12" viewBox="0 0 12 12" {...props}>
         <g fill="none" transform="translate(2 2)" fillRule="evenodd">
             <path
                 fill="#FFF"
@@ -14,6 +14,8 @@ export const HoldXsWhiteIcon: React.FC<SVGProps<SVGSVGElement>> = (props) => (
             />
         </g>
     </svg>
-);
+));
+
+HoldXsWhiteIcon.displayName = 'HoldXsWhiteIcon';
 
 export default HoldXsWhiteIcon;

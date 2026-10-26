@@ -2,10 +2,10 @@
  * This is auto-generated file by scripts/svg-to-component package
  * Do not edit it manually
  */
-import React, { SVGProps } from 'react';
+import React, { SVGProps, forwardRef } from 'react';
 
-export const FormatJpgSBlackIcon: React.FC<SVGProps<SVGSVGElement>> = (props) => (
-    <svg role="img" focusable="false" width="18" height="18" viewBox="0 0 18 18" {...props} fill="none">
+export const FormatJpgSBlackIcon = forwardRef<SVGSVGElement, SVGProps<SVGSVGElement>>((props, ref) => (
+    <svg ref={ref} role="img" focusable="false" width="18" height="18" viewBox="0 0 18 18" {...props} fill="none">
         <path
             d="M14 5.706h-1V2.467c0-.29-.251-.526-.559-.526H5.707L2 5.431v.275H1V5.04L5.293 1h7.148C13.301 1 14 1.658 14 2.467v3.239zM12.5 17h-10c-.827 0-1.5-.633-1.5-1.412h1c0 .26.224.47.5.47h10c.275 0 .5-.21.5-.47h1c0 .779-.673 1.412-1.5 1.412z"
             fill="#0B1F35"
@@ -17,6 +17,8 @@ export const FormatJpgSBlackIcon: React.FC<SVGProps<SVGSVGElement>> = (props) =>
             fill="#0B1F35"
         />
     </svg>
-);
+));
+
+FormatJpgSBlackIcon.displayName = 'FormatJpgSBlackIcon';
 
 export default FormatJpgSBlackIcon;

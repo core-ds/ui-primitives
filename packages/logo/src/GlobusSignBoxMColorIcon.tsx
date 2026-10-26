@@ -2,10 +2,10 @@
  * This is auto-generated file by scripts/svg-to-component package
  * Do not edit it manually
  */
-import React, { SVGProps } from 'react';
+import React, { SVGProps, forwardRef } from 'react';
 
-export const GlobusSignBoxMColorIcon: React.FC<SVGProps<SVGSVGElement>> = (props) => (
-    <svg role="img" focusable="false" width="24" height="24" viewBox="0 0 24 24" {...props} fill="none">
+export const GlobusSignBoxMColorIcon = forwardRef<SVGSVGElement, SVGProps<SVGSVGElement>>((props, ref) => (
+    <svg ref={ref} role="img" focusable="false" width="24" height="24" viewBox="0 0 24 24" {...props} fill="none">
         <path
             d="M21.736 9.45c-.345-.436-.893-.527-1.052-.544a24.671 24.671 0 00-1.214-.073l-.757-.037c-1.35-1.724-3.755-2.877-6.492-2.877-2.738 0-5.11 1.137-6.465 2.842a81.88 81.88 0 00-1.558.068c-.422.024-.795.149-1.08.36-.37.278-.593.693-.66 1.234-.04.33-.104.74-.17 1.173-.118.772-.239 1.57-.28 2.15-.036.518.052.896.27 1.153.2.237.498.372.94.428.61.076 1.58.143 2.803.224 1.389 1.531 3.649 2.53 6.2 2.53 2.55 0 4.838-1.012 6.225-2.56.546-.037 1.02-.07 1.354-.095.501-.036.893-.2 1.166-.487.201-.213.337-.49.414-.845.327-1.524.546-3.158.605-3.623.052-.403-.032-.747-.249-1.022z"
             fill="#fff"
@@ -23,6 +23,8 @@ export const GlobusSignBoxMColorIcon: React.FC<SVGProps<SVGSVGElement>> = (props
             fill="#00AB4E"
         />
     </svg>
-);
+));
+
+GlobusSignBoxMColorIcon.displayName = 'GlobusSignBoxMColorIcon';
 
 export default GlobusSignBoxMColorIcon;

@@ -2,10 +2,10 @@
  * This is auto-generated file by scripts/svg-to-component package
  * Do not edit it manually
  */
-import React, { SVGProps } from 'react';
+import React, { SVGProps, forwardRef } from 'react';
 
-export const PyaterochkaSColorIcon: React.FC<SVGProps<SVGSVGElement>> = (props) => (
-    <svg role="img" focusable="false" width="18" height="18" viewBox="0 0 18 18" {...props} fill="none">
+export const PyaterochkaSColorIcon = forwardRef<SVGSVGElement, SVGProps<SVGSVGElement>>((props, ref) => (
+    <svg ref={ref} role="img" focusable="false" width="18" height="18" viewBox="0 0 18 18" {...props} fill="none">
         <path
             d="M8.664 1.508a7.463 7.463 0 012.82.416 7.523 7.523 0 014.763 5.134 7.513 7.513 0 01-5.496 9.236 7.52 7.52 0 01-4.3-.24 7.546 7.546 0 01-3.788-3.046 7.448 7.448 0 01-1-2.45 7.462 7.462 0 011.085-5.697 7.536 7.536 0 012.354-2.265 7.446 7.446 0 013.562-1.088z"
             fill="#FEFFFE"
@@ -25,6 +25,8 @@ export const PyaterochkaSColorIcon: React.FC<SVGProps<SVGSVGElement>> = (props) 
             clipRule="evenodd"
         />
     </svg>
-);
+));
+
+PyaterochkaSColorIcon.displayName = 'PyaterochkaSColorIcon';
 
 export default PyaterochkaSColorIcon;

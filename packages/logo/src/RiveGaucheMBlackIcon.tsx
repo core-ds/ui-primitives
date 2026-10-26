@@ -2,10 +2,10 @@
  * This is auto-generated file by scripts/svg-to-component package
  * Do not edit it manually
  */
-import React, { SVGProps } from 'react';
+import React, { SVGProps, forwardRef } from 'react';
 
-export const RiveGaucheMBlackIcon: React.FC<SVGProps<SVGSVGElement>> = (props) => (
-    <svg role="img" focusable="false" width="127" height="24" viewBox="0 0 127 24" {...props} fill="none">
+export const RiveGaucheMBlackIcon = forwardRef<SVGSVGElement, SVGProps<SVGSVGElement>>((props, ref) => (
+    <svg ref={ref} role="img" focusable="false" width="127" height="24" viewBox="0 0 127 24" {...props} fill="none">
         <path
             d="M2 2.423v19.259h3.908v-3.968h4.225c1.479 0 2.588-.53 3.485-1.058a7.557 7.557 0 002.958-3.228c.634-1.323.845-2.646.74-4.021-.106-1.005-.37-1.958-.793-2.751a7.527 7.527 0 00-3.063-3.228c-1.162-.635-2.377-1.005-3.644-1.005H2zm3.908 11.376v-7.46h2.957c.581 0 1.162 0 1.743.158 1.426.317 2.377 1.27 2.746 2.751a3.75 3.75 0 01-.475 2.804c-.528.847-1.373 1.482-2.376 1.64a6.472 6.472 0 01-1.004.107H5.91z"
             fill="#020000"
@@ -21,6 +21,8 @@ export const RiveGaucheMBlackIcon: React.FC<SVGProps<SVGSVGElement>> = (props) =
             fill="#020000"
         />
     </svg>
-);
+));
+
+RiveGaucheMBlackIcon.displayName = 'RiveGaucheMBlackIcon';
 
 export default RiveGaucheMBlackIcon;

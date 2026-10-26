@@ -2,10 +2,10 @@
  * This is auto-generated file by scripts/svg-to-component package
  * Do not edit it manually
  */
-import React, { SVGProps } from 'react';
+import React, { SVGProps, forwardRef } from 'react';
 
-export const MozenSignBoxMWhiteIcon: React.FC<SVGProps<SVGSVGElement>> = (props) => (
-    <svg role="img" focusable="false" width="24" height="24" viewBox="0 0 24 24" {...props} fill="none">
+export const MozenSignBoxMWhiteIcon = forwardRef<SVGSVGElement, SVGProps<SVGSVGElement>>((props, ref) => (
+    <svg ref={ref} role="img" focusable="false" width="24" height="24" viewBox="0 0 24 24" {...props} fill="none">
         <path
             d="M19.634 12c0-1.72-.573-3.31-1.533-4.587l1.89-1.423A9.973 9.973 0 0122 12c0 5.519-4.48 10-10 10v-2.367A7.638 7.638 0 0019.634 12z"
             fill="url(#prefix__paint0_linear_5543_51)"
@@ -48,6 +48,8 @@ export const MozenSignBoxMWhiteIcon: React.FC<SVGProps<SVGSVGElement>> = (props)
             </linearGradient>
         </defs>
     </svg>
-);
+));
+
+MozenSignBoxMWhiteIcon.displayName = 'MozenSignBoxMWhiteIcon';
 
 export default MozenSignBoxMWhiteIcon;

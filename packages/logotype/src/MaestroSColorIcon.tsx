@@ -2,10 +2,10 @@
  * This is auto-generated file by scripts/svg-to-component package
  * Do not edit it manually
  */
-import React, { SVGProps } from 'react';
+import React, { SVGProps, forwardRef } from 'react';
 
-export const MaestroSColorIcon: React.FC<SVGProps<SVGSVGElement>> = (props) => (
-    <svg role="img" focusable="false" width="48" height="16" viewBox="0 0 48 16" {...props} fill="none">
+export const MaestroSColorIcon = forwardRef<SVGSVGElement, SVGProps<SVGSVGElement>>((props, ref) => (
+    <svg ref={ref} role="img" focusable="false" width="48" height="16" viewBox="0 0 48 16" {...props} fill="none">
         <path d="M38.793 1.71h-7.7v12.578h7.7V1.711z" fill="#6C6BBD" />
         <path
             d="M31.886 8a7.985 7.985 0 013.055-6.287 7.998 7.998 0 100 12.577A7.986 7.986 0 0131.886 8z"
@@ -16,6 +16,8 @@ export const MaestroSColorIcon: React.FC<SVGProps<SVGSVGElement>> = (props) => (
             fill="#0099DF"
         />
     </svg>
-);
+));
+
+MaestroSColorIcon.displayName = 'MaestroSColorIcon';
 
 export default MaestroSColorIcon;

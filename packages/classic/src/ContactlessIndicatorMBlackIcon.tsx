@@ -2,10 +2,10 @@
  * This is auto-generated file by scripts/svg-to-component package
  * Do not edit it manually
  */
-import React, { SVGProps } from 'react';
+import React, { SVGProps, forwardRef } from 'react';
 
-export const ContactlessIndicatorMBlackIcon: React.FC<SVGProps<SVGSVGElement>> = (props) => (
-    <svg role="img" focusable="false" width="24" height="24" viewBox="0 0 24 24" {...props} fill="none">
+export const ContactlessIndicatorMBlackIcon = forwardRef<SVGSVGElement, SVGProps<SVGSVGElement>>((props, ref) => (
+    <svg ref={ref} role="img" focusable="false" width="24" height="24" viewBox="0 0 24 24" {...props} fill="none">
         <path
             d="M11.845 18.659c3.53-3.678 3.53-9.641 0-13.32a.6.6 0 01.866-.83c3.976 4.142 3.976 10.838 0 14.981a.6.6 0 01-.866-.831zm-3.789-2.138c2.395-2.497 2.395-6.546 0-9.042a.6.6 0 01.866-.831c2.84 2.96 2.84 7.743 0 10.703a.6.6 0 11-.866-.83zm-3.79-2.305c1.174-1.222 1.174-3.211 0-4.434a.6.6 0 11.867-.83c1.618 1.686 1.618 4.408 0 6.095a.6.6 0 11-.866-.83z"
             fill="#0B1F35"
@@ -18,6 +18,8 @@ export const ContactlessIndicatorMBlackIcon: React.FC<SVGProps<SVGSVGElement>> =
         />
         <circle cx="20" cy="4" r="4" fill="#EF3124" />
     </svg>
-);
+));
+
+ContactlessIndicatorMBlackIcon.displayName = 'ContactlessIndicatorMBlackIcon';
 
 export default ContactlessIndicatorMBlackIcon;

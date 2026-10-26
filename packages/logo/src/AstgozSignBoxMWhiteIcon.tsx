@@ -2,10 +2,10 @@
  * This is auto-generated file by scripts/svg-to-component package
  * Do not edit it manually
  */
-import React, { SVGProps } from 'react';
+import React, { SVGProps, forwardRef } from 'react';
 
-export const AstgozSignBoxMWhiteIcon: React.FC<SVGProps<SVGSVGElement>> = (props) => (
-    <svg role="img" focusable="false" width="24" height="24" viewBox="0 0 24 24" {...props} fill="none">
+export const AstgozSignBoxMWhiteIcon = forwardRef<SVGSVGElement, SVGProps<SVGSVGElement>>((props, ref) => (
+    <svg ref={ref} role="img" focusable="false" width="24" height="24" viewBox="0 0 24 24" {...props} fill="none">
         <path
             d="M7.198 4.376s2.357-1.5 3.977-2.173c.27-.111.44-.181.808-.198.342-.016.428 0 1.003.198C16.39 3.38 20.66 6.376 20.88 6.736c.22.36.086 2.384 0 3.762-.03.482-.404.733-.722.994-1.303 1.068-3.66 2.272-3.66 2.272V9.418s0-.104-.036-.161a.321.321 0 00-.098-.091s-4.381-2.94-7.563-4.405c-.328-.15-.53-.195-.881-.273-.279-.062-.722-.112-.722-.112z"
             fill="#fff"
@@ -19,6 +19,8 @@ export const AstgozSignBoxMWhiteIcon: React.FC<SVGProps<SVGSVGElement>> = (props
             fill="#fff"
         />
     </svg>
-);
+));
+
+AstgozSignBoxMWhiteIcon.displayName = 'AstgozSignBoxMWhiteIcon';
 
 export default AstgozSignBoxMWhiteIcon;

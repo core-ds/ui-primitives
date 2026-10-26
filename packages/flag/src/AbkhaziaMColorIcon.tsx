@@ -2,10 +2,10 @@
  * This is auto-generated file by scripts/svg-to-component package
  * Do not edit it manually
  */
-import React, { SVGProps } from 'react';
+import React, { SVGProps, forwardRef } from 'react';
 
-export const AbkhaziaMColorIcon: React.FC<SVGProps<SVGSVGElement>> = (props) => (
-    <svg role="img" focusable="false" width="24" height="24" viewBox="0 0 24 24" {...props} fill="none">
+export const AbkhaziaMColorIcon = forwardRef<SVGSVGElement, SVGProps<SVGSVGElement>>((props, ref) => (
+    <svg ref={ref} role="img" focusable="false" width="24" height="24" viewBox="0 0 24 24" {...props} fill="none">
         <g clipPath="url(#prefix__clip0)">
             <path d="M24 6.383H0V8.63h24V6.383z" fill="#F5F5F5" />
             <path d="M24 8.63H0v2.246h24V8.629z" fill="#73AF00" />
@@ -31,6 +31,8 @@ export const AbkhaziaMColorIcon: React.FC<SVGProps<SVGSVGElement>> = (props) => 
             </clipPath>
         </defs>
     </svg>
-);
+));
+
+AbkhaziaMColorIcon.displayName = 'AbkhaziaMColorIcon';
 
 export default AbkhaziaMColorIcon;

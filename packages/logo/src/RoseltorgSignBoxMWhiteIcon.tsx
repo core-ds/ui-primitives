@@ -2,10 +2,10 @@
  * This is auto-generated file by scripts/svg-to-component package
  * Do not edit it manually
  */
-import React, { SVGProps } from 'react';
+import React, { SVGProps, forwardRef } from 'react';
 
-export const RoseltorgSignBoxMWhiteIcon: React.FC<SVGProps<SVGSVGElement>> = (props) => (
-    <svg role="img" focusable="false" width="24" height="24" viewBox="0 0 24 24" {...props} fill="none">
+export const RoseltorgSignBoxMWhiteIcon = forwardRef<SVGSVGElement, SVGProps<SVGSVGElement>>((props, ref) => (
+    <svg ref={ref} role="img" focusable="false" width="24" height="24" viewBox="0 0 24 24" {...props} fill="none">
         <path
             d="M11.22 2.03c-4.747.362-8.671 4.135-9.19 8.834l-.028.263 3.415-.001 3.415-.002.531-.957.532-.957L7.15 9.2l-2.74-.011.028-.116c.015-.063.151-.366.302-.674l.274-.558h5.648l.525-.937.525-.937-2.538-.021-2.538-.021.296-.236c2.966-2.367 7.573-2.33 10.245.082l.19.171-2.524.002c-1.669.001-2.524.016-2.524.044 0 .024.23.45.51.948l.511.905 2.815.01 2.815.012.178.315c.098.174.245.473.327.664l.149.347h-2.75c-2.6 0-2.746.004-2.72.074.015.04.25.476.521.968l.495.893 3.415.002H22l-.03-.262c-.588-5.305-5.383-9.245-10.75-8.835zM2.03 13.264a12.3 12.3 0 00.286 1.442l.056.19 2.68.011 2.68.01-1.745 1.743-1.747 1.742.36.395c.378.413.924.922.991.922.022 0 .807-.767 1.746-1.705.939-.938 1.72-1.706 1.738-1.706.017 0 .036 1.197.042 2.66l.011 2.662.38.099c.356.092.834.182 1.3.244l.2.026v-9.02H2l.03.285zm10.963 4.223c0 2.996.015 4.507.043 4.507.246 0 1.263-.198 1.658-.323l.2-.063v-6.69h4.688l-.082.21c-.253.64-.739 1.432-1.265 2.065-.165.197-.299.386-.3.421-.007 1.54 0 2.425.022 2.436.092.049 1.271-1.043 1.779-1.646 1.196-1.421 2.256-3.921 2.256-5.322v-.102h-8.999v4.508z"
             fill="#fff"
@@ -13,6 +13,8 @@ export const RoseltorgSignBoxMWhiteIcon: React.FC<SVGProps<SVGSVGElement>> = (pr
             clipRule="evenodd"
         />
     </svg>
-);
+));
+
+RoseltorgSignBoxMWhiteIcon.displayName = 'RoseltorgSignBoxMWhiteIcon';
 
 export default RoseltorgSignBoxMWhiteIcon;

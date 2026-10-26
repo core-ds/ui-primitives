@@ -2,10 +2,10 @@
  * This is auto-generated file by scripts/svg-to-component package
  * Do not edit it manually
  */
-import React, { SVGProps } from 'react';
+import React, { SVGProps, forwardRef } from 'react';
 
-export const OverdraftXxlBlackIcon: React.FC<SVGProps<SVGSVGElement>> = (props) => (
-    <svg role="img" focusable="false" width="48" height="48" viewBox="0 0 48 48" {...props}>
+export const OverdraftXxlBlackIcon = forwardRef<SVGSVGElement, SVGProps<SVGSVGElement>>((props, ref) => (
+    <svg ref={ref} role="img" focusable="false" width="48" height="48" viewBox="0 0 48 48" {...props}>
         <g fill="none" fillRule="evenodd">
             <path
                 d="M24 46.5C11.574 46.5 1.5 36.426 1.5 24S11.574 1.5 24 1.5 46.5 11.574 46.5 24 36.426 46.5 24 46.5zm.042-9.658c7.07 0 12.8-5.73 12.8-12.8s-5.73-12.8-12.8-12.8-12.8 5.73-12.8 12.8 5.73 12.8 12.8 12.8z"
@@ -18,6 +18,8 @@ export const OverdraftXxlBlackIcon: React.FC<SVGProps<SVGSVGElement>> = (props) 
             />
         </g>
     </svg>
-);
+));
+
+OverdraftXxlBlackIcon.displayName = 'OverdraftXxlBlackIcon';
 
 export default OverdraftXxlBlackIcon;

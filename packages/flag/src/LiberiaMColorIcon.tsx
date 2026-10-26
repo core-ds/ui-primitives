@@ -2,10 +2,10 @@
  * This is auto-generated file by scripts/svg-to-component package
  * Do not edit it manually
  */
-import React, { SVGProps } from 'react';
+import React, { SVGProps, forwardRef } from 'react';
 
-export const LiberiaMColorIcon: React.FC<SVGProps<SVGSVGElement>> = (props) => (
-    <svg role="img" focusable="false" width="24" height="24" viewBox="0 0 24 24" {...props} fill="none">
+export const LiberiaMColorIcon = forwardRef<SVGSVGElement, SVGProps<SVGSVGElement>>((props, ref) => (
+    <svg ref={ref} role="img" focusable="false" width="24" height="24" viewBox="0 0 24 24" {...props} fill="none">
         <path d="M22.203 4.138H1.797c-.866 0-1.59.613-1.76 1.43h23.925a1.798 1.798 0 00-1.76-1.43z" fill="#FF4B55" />
         <path d="M.038 5.567A1.802 1.802 0 000 5.935v1.062h24V5.935a1.8 1.8 0 00-.038-.368H.038z" fill="#F5F5F5" />
         <path d="M24 6.997H0v1.429h24v-1.43z" fill="#FF4B55" />
@@ -26,6 +26,8 @@ export const LiberiaMColorIcon: React.FC<SVGProps<SVGSVGElement>> = (props) => (
             fill="#F5F5F5"
         />
     </svg>
-);
+));
+
+LiberiaMColorIcon.displayName = 'LiberiaMColorIcon';
 
 export default LiberiaMColorIcon;

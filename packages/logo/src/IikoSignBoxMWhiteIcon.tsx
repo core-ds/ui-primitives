@@ -2,10 +2,10 @@
  * This is auto-generated file by scripts/svg-to-component package
  * Do not edit it manually
  */
-import React, { SVGProps } from 'react';
+import React, { SVGProps, forwardRef } from 'react';
 
-export const IikoSignBoxMWhiteIcon: React.FC<SVGProps<SVGSVGElement>> = (props) => (
-    <svg role="img" focusable="false" width="24" height="24" viewBox="0 0 24 24" {...props} fill="none">
+export const IikoSignBoxMWhiteIcon = forwardRef<SVGSVGElement, SVGProps<SVGSVGElement>>((props, ref) => (
+    <svg ref={ref} role="img" focusable="false" width="24" height="24" viewBox="0 0 24 24" {...props} fill="none">
         <path
             d="M7.263 20.88l.825.764a1.33 1.33 0 001.843-.03c.494-.494.989-1.004 1.408-1.558.435-.54.734-1.214.93-1.858.164-.48.134-1.05.09-1.544-.046-.434-.24-.929-.45-1.303-.45-.854-1.184-1.634-1.903-2.308-1.004-.929-2.023-1.663-2.563-2.997a3.499 3.499 0 01-.284-1.288c-.015-.48.09-.914.27-1.364.374-.959.988-1.678 1.692-2.307a1.33 1.33 0 00.015-1.963l-.794-.75A1.348 1.348 0 006.56 2.33c-.33.285-.644.57-.944.9-.959 1.078-1.723 2.622-1.453 4.12.165.944.54 1.858 1.139 2.637.629.854 1.513 1.469 2.292 2.203.9.854 1.858 1.993 1.783 3.297-.045.599-.254 1.108-.6 1.618-.449.69-.988 1.274-1.542 1.828a1.361 1.361 0 00.03 1.948z"
             fill="#fff"
@@ -25,6 +25,8 @@ export const IikoSignBoxMWhiteIcon: React.FC<SVGProps<SVGSVGElement>> = (props) 
             clipRule="evenodd"
         />
     </svg>
-);
+));
+
+IikoSignBoxMWhiteIcon.displayName = 'IikoSignBoxMWhiteIcon';
 
 export default IikoSignBoxMWhiteIcon;

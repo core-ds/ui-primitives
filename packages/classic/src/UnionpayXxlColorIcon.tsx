@@ -2,10 +2,10 @@
  * This is auto-generated file by scripts/svg-to-component package
  * Do not edit it manually
  */
-import React, { SVGProps } from 'react';
+import React, { SVGProps, forwardRef } from 'react';
 
-export const UnionpayXxlColorIcon: React.FC<SVGProps<SVGSVGElement>> = (props) => (
-    <svg role="img" focusable="false" width="48" height="48" viewBox="0 0 48 48" {...props}>
+export const UnionpayXxlColorIcon = forwardRef<SVGSVGElement, SVGProps<SVGSVGElement>>((props, ref) => (
+    <svg ref={ref} role="img" focusable="false" width="48" height="48" viewBox="0 0 48 48" {...props}>
         <g fill="none" fillRule="evenodd">
             <path
                 d="M10.59 10h11.287c1.575 0 2.47 1.272 1.997 2.836l-6.751 22.332C16.646 36.728 14.984 38 13.41 38H2.122C.549 38-.347 36.728.127 35.168L6.88 12.836C7.352 11.272 9.013 10 10.59 10"
@@ -21,6 +21,8 @@ export const UnionpayXxlColorIcon: React.FC<SVGProps<SVGSVGElement>> = (props) =
             />
         </g>
     </svg>
-);
+));
+
+UnionpayXxlColorIcon.displayName = 'UnionpayXxlColorIcon';
 
 export default UnionpayXxlColorIcon;

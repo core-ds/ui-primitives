@@ -2,10 +2,10 @@
  * This is auto-generated file by scripts/svg-to-component package
  * Do not edit it manually
  */
-import React, { SVGProps } from 'react';
+import React, { SVGProps, forwardRef } from 'react';
 
-export const VernoeReshenieMWhiteIcon: React.FC<SVGProps<SVGSVGElement>> = (props) => (
-    <svg role="img" focusable="false" width="114" height="24" viewBox="0 0 114 24" {...props} fill="none">
+export const VernoeReshenieMWhiteIcon = forwardRef<SVGSVGElement, SVGProps<SVGSVGElement>>((props, ref) => (
+    <svg ref={ref} role="img" focusable="false" width="114" height="24" viewBox="0 0 114 24" {...props} fill="none">
         <path
             d="M19.33 17.706l1.676-1.08-8.653-4.629v-1.876l-1.44-.78v3.488l8.418 4.877zM5.676 5.899L2 8.099v1.906l1.706-.842v7.864L12.508 22l1.426-1.186-8.258-4.624V5.9z"
             fill="#fff"
@@ -15,6 +15,8 @@ export const VernoeReshenieMWhiteIcon: React.FC<SVGProps<SVGSVGElement>> = (prop
             fill="#fff"
         />
     </svg>
-);
+));
+
+VernoeReshenieMWhiteIcon.displayName = 'VernoeReshenieMWhiteIcon';
 
 export default VernoeReshenieMWhiteIcon;

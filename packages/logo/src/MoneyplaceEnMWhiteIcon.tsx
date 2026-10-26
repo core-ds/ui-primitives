@@ -2,10 +2,10 @@
  * This is auto-generated file by scripts/svg-to-component package
  * Do not edit it manually
  */
-import React, { SVGProps } from 'react';
+import React, { SVGProps, forwardRef } from 'react';
 
-export const MoneyplaceEnMWhiteIcon: React.FC<SVGProps<SVGSVGElement>> = (props) => (
-    <svg role="img" focusable="false" width="95" height="24" viewBox="0 0 95 24" {...props} fill="none">
+export const MoneyplaceEnMWhiteIcon = forwardRef<SVGSVGElement, SVGProps<SVGSVGElement>>((props, ref) => (
+    <svg ref={ref} role="img" focusable="false" width="95" height="24" viewBox="0 0 95 24" {...props} fill="none">
         <path
             d="M4.531 20H2.506A.503.503 0 012 19.5v-13c0-.276.227-.5.506-.5h2.025c.28 0 .506.224.506.5v13c0 .276-.226.5-.506.5z"
             fill="url(#prefix__paint0_linear_2594_144)"
@@ -73,6 +73,8 @@ export const MoneyplaceEnMWhiteIcon: React.FC<SVGProps<SVGSVGElement>> = (props)
             </linearGradient>
         </defs>
     </svg>
-);
+));
+
+MoneyplaceEnMWhiteIcon.displayName = 'MoneyplaceEnMWhiteIcon';
 
 export default MoneyplaceEnMWhiteIcon;

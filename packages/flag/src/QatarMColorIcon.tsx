@@ -2,10 +2,10 @@
  * This is auto-generated file by scripts/svg-to-component package
  * Do not edit it manually
  */
-import React, { SVGProps } from 'react';
+import React, { SVGProps, forwardRef } from 'react';
 
-export const QatarMColorIcon: React.FC<SVGProps<SVGSVGElement>> = (props) => (
-    <svg role="img" focusable="false" width="24" height="24" viewBox="0 0 24 24" {...props} fill="none">
+export const QatarMColorIcon = forwardRef<SVGSVGElement, SVGProps<SVGSVGElement>>((props, ref) => (
+    <svg ref={ref} role="img" focusable="false" width="24" height="24" viewBox="0 0 24 24" {...props} fill="none">
         <path
             d="M10.38 19.095a.11.11 0 000-.21l-2.172-.665a.11.11 0 010-.21l2.172-.662a.11.11 0 000-.211l-2.172-.661a.11.11 0 010-.211l2.172-.664c.104-.032.104-.18 0-.211l-2.172-.662a.11.11 0 010-.21l2.172-.665a.11.11 0 000-.21l-2.172-.662a.11.11 0 010-.211l2.172-.664a.11.11 0 000-.211l-2.172-.662a.11.11 0 010-.21l2.172-.665a.11.11 0 000-.21l-2.17-.663a.11.11 0 010-.211l2.171-.661a.11.11 0 000-.211l-2.172-.664a.11.11 0 010-.211l2.172-.662a.11.11 0 000-.21L8.208 5.99a.11.11 0 010-.21l2.172-.662a.11.11 0 000-.211l-2.502-.765a.108.108 0 00-.032-.005H1.797A1.8 1.8 0 000 5.935v12.13c0 .992.805 1.797 1.797 1.797h6.049a.11.11 0 00.032-.005l2.502-.762z"
             fill="#F5F5F5"
@@ -15,6 +15,8 @@ export const QatarMColorIcon: React.FC<SVGProps<SVGSVGElement>> = (props) => (
             fill="#873250"
         />
     </svg>
-);
+));
+
+QatarMColorIcon.displayName = 'QatarMColorIcon';
 
 export default QatarMColorIcon;

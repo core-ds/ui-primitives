@@ -2,15 +2,17 @@
  * This is auto-generated file by scripts/svg-to-component package
  * Do not edit it manually
  */
-import React, { SVGProps } from 'react';
+import React, { SVGProps, forwardRef } from 'react';
 
-export const BidzaarEnSignBoxMBlackIcon: React.FC<SVGProps<SVGSVGElement>> = (props) => (
-    <svg role="img" focusable="false" width="24" height="24" viewBox="0 0 24 24" {...props} fill="none">
+export const BidzaarEnSignBoxMBlackIcon = forwardRef<SVGSVGElement, SVGProps<SVGSVGElement>>((props, ref) => (
+    <svg ref={ref} role="img" focusable="false" width="24" height="24" viewBox="0 0 24 24" {...props} fill="none">
         <path
             d="M4.684 12.635c-.721 0-1.202-.308-1.481-.77h-.02v.626H2V5.757h1.183v2.915h.02c.279-.462.76-.77 1.481-.77 1.164 0 2.136.846 2.136 2.366s-.972 2.367-2.136 2.367zm-.298-1.116c.712 0 1.202-.5 1.202-1.25s-.49-1.251-1.202-1.251-1.203.5-1.203 1.25.49 1.251 1.203 1.251zm4.206-5.705v1.299H7.245V5.814h1.347zm-1.27 6.677V8.046h1.183v4.445H7.322zm3.797.144c-1.164 0-2.136-.846-2.136-2.367 0-1.52.972-2.366 2.136-2.366.722 0 1.203.308 1.482.77h.019V5.757h1.173v6.734H12.62v-.625h-.02c-.278.461-.76.77-1.481.77zm.298-1.116c.712 0 1.203-.5 1.203-1.25s-.49-1.251-1.203-1.251c-.712 0-1.202.5-1.202 1.25s.49 1.251 1.202 1.251zm-4.971 5.543H8.88v1.04H5.012v-.953l2.261-2.454H5.137v-1.039h3.579v.943l-2.27 2.463zm9.759 1.181c-1.164 0-2.136-.846-2.136-2.366s.972-2.367 2.136-2.367c.721 0 1.202.308 1.481.77h.02v-.625h1.173v4.444h-1.173v-.625h-.02c-.279.462-.76.77-1.481.77zm.298-1.115c.712 0 1.203-.5 1.203-1.251 0-.75-.491-1.25-1.203-1.25-.712 0-1.202.5-1.202 1.25s.49 1.25 1.202 1.25zm-5.384 1.115c-1.164 0-2.136-.846-2.136-2.366s.972-2.367 2.136-2.367c.722 0 1.203.308 1.482.77h.019v-.625h1.173v4.444H12.62v-.625h-.02c-.278.462-.76.77-1.481.77zm.298-1.115c.712 0 1.203-.5 1.203-1.251 0-.75-.49-1.25-1.203-1.25-.712 0-1.202.5-1.202 1.25s.49 1.25 1.202 1.25zM22 13.52v1.27h-.135c-.942 0-1.395.404-1.395 1.49v1.82h-1.173v-4.446h1.164v.943h.019c.23-.692.74-1.077 1.472-1.077H22z"
             fill="#000"
         />
     </svg>
-);
+));
+
+BidzaarEnSignBoxMBlackIcon.displayName = 'BidzaarEnSignBoxMBlackIcon';
 
 export default BidzaarEnSignBoxMBlackIcon;

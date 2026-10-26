@@ -2,10 +2,10 @@
  * This is auto-generated file by scripts/svg-to-component package
  * Do not edit it manually
  */
-import React, { SVGProps } from 'react';
+import React, { SVGProps, forwardRef } from 'react';
 
-export const FlashMWhiteIcon: React.FC<SVGProps<SVGSVGElement>> = (props) => (
-    <svg role="img" focusable="false" fill="none" height="24" viewBox="0 0 24 24" {...props} width="24">
+export const FlashMWhiteIcon = forwardRef<SVGSVGElement, SVGProps<SVGSVGElement>>((props, ref) => (
+    <svg ref={ref} role="img" focusable="false" fill="none" height="24" viewBox="0 0 24 24" {...props} width="24">
         <path d="M0 0h24v24H0z" />
         <g fill="#fff">
             <path
@@ -16,6 +16,8 @@ export const FlashMWhiteIcon: React.FC<SVGProps<SVGSVGElement>> = (props) => (
             <path d="M16 4H8v1c0 1 2 3 2 3h4s2-2 2-3zm-3.123 9.004a.877.877 0 11-1.754 0 .877.877 0 011.754 0zM8.5 2.072a.5.5 0 00-.5.5v.5h8v-.5a.5.5 0 00-.5-.5z" />
         </g>
     </svg>
-);
+));
+
+FlashMWhiteIcon.displayName = 'FlashMWhiteIcon';
 
 export default FlashMWhiteIcon;

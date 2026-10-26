@@ -2,10 +2,10 @@
  * This is auto-generated file by scripts/svg-to-component package
  * Do not edit it manually
  */
-import React, { SVGProps } from 'react';
+import React, { SVGProps, forwardRef } from 'react';
 
-export const UgandaMColorIcon: React.FC<SVGProps<SVGSVGElement>> = (props) => (
-    <svg role="img" focusable="false" width="24" height="24" viewBox="0 0 24 24" {...props} fill="none">
+export const UgandaMColorIcon = forwardRef<SVGSVGElement, SVGProps<SVGSVGElement>>((props, ref) => (
+    <svg ref={ref} role="img" focusable="false" width="24" height="24" viewBox="0 0 24 24" {...props} fill="none">
         <path
             d="M22.203 4.138H1.797C.805 4.138 0 4.943 0 5.935v.824h24v-.824c0-.992-.805-1.797-1.797-1.797z"
             fill="#464655"
@@ -43,6 +43,8 @@ export const UgandaMColorIcon: React.FC<SVGProps<SVGSVGElement>> = (props) => (
         <path d="M11.746 10.6a.062.062 0 100-.123.062.062 0 000 .123z" fill="#F5F5F5" />
         <path d="M11.585 10.773s-.134.157-.046.203c.089.046.174-.085.174-.085l-.128-.118z" fill="#FF4B55" />
     </svg>
-);
+));
+
+UgandaMColorIcon.displayName = 'UgandaMColorIcon';
 
 export default UgandaMColorIcon;

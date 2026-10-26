@@ -2,10 +2,10 @@
  * This is auto-generated file by scripts/svg-to-component package
  * Do not edit it manually
  */
-import React, { SVGProps } from 'react';
+import React, { SVGProps, forwardRef } from 'react';
 
-export const AmocrmEnMWhiteIcon: React.FC<SVGProps<SVGSVGElement>> = (props) => (
-    <svg role="img" focusable="false" width="107" height="24" viewBox="0 0 107 24" {...props} fill="none">
+export const AmocrmEnMWhiteIcon = forwardRef<SVGSVGElement, SVGProps<SVGSVGElement>>((props, ref) => (
+    <svg ref={ref} role="img" focusable="false" width="107" height="24" viewBox="0 0 107 24" {...props} fill="none">
         <path
             d="M43.622 15.924c.295-.623.443-1.23.443-1.819 0-.59-.192-.884-.573-.884-.156 0-.286.113-.39.338a1.549 1.549 0 00-.156.65c0 .693.226 1.265.676 1.715zm.234 3.017c-1.37 1.612-3.012 2.417-4.926 2.417-1.916 0-3.35-.49-4.303-1.469-.953-.979-1.421-2.197-1.404-3.652-.017-2.063.633-3.84 1.95-5.33 1.317-1.49 3.042-2.235 5.173-2.235.971 0 1.75.12 2.34.364 1.023.415 1.534.805 1.534 1.169 0 .278-.715.42-2.144.43-1.43.008-2.626.502-3.589 1.48-.96.98-1.443 2.215-1.443 3.706 0 .78.23 1.434.69 1.963.459.529 1.109.793 1.95.793.84 0 1.538-.174 2.092-.52-1.23-.833-1.846-2.037-1.846-3.614-.017-.832.282-1.59.897-2.275.616-.684 1.404-1.031 2.366-1.04.962-.008 1.65.256 2.067.793.416.538.624 1.227.624 2.067 0 .84-.2 1.729-.598 2.665h.156a2.894 2.894 0 001.976-.807c.208-.208.385-.39.533-.545.147-.156.3-.234.455-.234.242 0 .364.286.364.857 0 1.058-.312 1.851-.936 2.38-.624.528-1.313.792-2.067.792-.754 0-1.39-.052-1.91-.155z"
             fill="#fff"
@@ -35,6 +35,8 @@ export const AmocrmEnMWhiteIcon: React.FC<SVGProps<SVGSVGElement>> = (props) => 
             fill="#fff"
         />
     </svg>
-);
+));
+
+AmocrmEnMWhiteIcon.displayName = 'AmocrmEnMWhiteIcon';
 
 export default AmocrmEnMWhiteIcon;

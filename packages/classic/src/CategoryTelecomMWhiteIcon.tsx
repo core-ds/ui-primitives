@@ -2,10 +2,10 @@
  * This is auto-generated file by scripts/svg-to-component package
  * Do not edit it manually
  */
-import React, { SVGProps } from 'react';
+import React, { SVGProps, forwardRef } from 'react';
 
-export const CategoryTelecomMWhiteIcon: React.FC<SVGProps<SVGSVGElement>> = (props) => (
-    <svg role="img" focusable="false" width="24" height="24" viewBox="0 0 24 24" {...props}>
+export const CategoryTelecomMWhiteIcon = forwardRef<SVGSVGElement, SVGProps<SVGSVGElement>>((props, ref) => (
+    <svg ref={ref} role="img" focusable="false" width="24" height="24" viewBox="0 0 24 24" {...props}>
         <g fill="#FFF">
             <path d="M16 12.29l.72.69a6.48 6.48 0 000-9l-.72.73a5.49 5.49 0 010 7.58zm-8 0a5.49 5.49 0 010-7.58L7.3 4a6.48 6.48 0 000 9z" />
             <path d="M18.87 15.05l.72.69a10.46 10.46 0 000-14.48l-.72.74a9.47 9.47 0 010 13.1zm-13.74 0A9.47 9.47 0 015.13 2l-.72-.69a10.46 10.46 0 000 14.48z" />
@@ -15,6 +15,8 @@ export const CategoryTelecomMWhiteIcon: React.FC<SVGProps<SVGSVGElement>> = (pro
             />
         </g>
     </svg>
-);
+));
+
+CategoryTelecomMWhiteIcon.displayName = 'CategoryTelecomMWhiteIcon';
 
 export default CategoryTelecomMWhiteIcon;

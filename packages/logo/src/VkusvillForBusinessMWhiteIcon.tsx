@@ -2,10 +2,10 @@
  * This is auto-generated file by scripts/svg-to-component package
  * Do not edit it manually
  */
-import React, { SVGProps } from 'react';
+import React, { SVGProps, forwardRef } from 'react';
 
-export const VkusvillForBusinessMWhiteIcon: React.FC<SVGProps<SVGSVGElement>> = (props) => (
-    <svg role="img" focusable="false" width="84" height="24" viewBox="0 0 84 24" {...props} fill="none">
+export const VkusvillForBusinessMWhiteIcon = forwardRef<SVGSVGElement, SVGProps<SVGSVGElement>>((props, ref) => (
+    <svg ref={ref} role="img" focusable="false" width="84" height="24" viewBox="0 0 84 24" {...props} fill="none">
         <path
             d="M39.74 10.157h-4.171V2.203h3.665c1.659 0 2.558 1.032 2.558 2.253 0 .548-.276 1.109-.7 1.532.626.33 1.165 1.073 1.165 1.848 0 1.362-1.068 2.32-2.518 2.32zm-2.2-1.6h1.928a.765.765 0 00.795-.785v-.013a.764.764 0 00-.79-.785h-1.93l-.004 1.583zm0-3.183h1.437c.515 0 .823-.353.823-.786 0-.432-.287-.785-.823-.785H37.54v1.57zm-19.965 4.784L14.708 6.09l2.781-3.888h-2.318L12.96 5.39V2.203h-2.015v7.955h2.014V6.893l2.22 3.265h2.395zm36.206-7.955v5.886c0 .264-.117.467-.364.467-.35 0-.366-.399-.366-.663h-1.89c0 1.277.733 2.467 2.315 2.467 1.376 0 2.322-1.118 2.322-2.492V3.991h2.725v6.166h2.015V2.203H53.78z"
             fill="#fff"
@@ -20,6 +20,8 @@ export const VkusvillForBusinessMWhiteIcon: React.FC<SVGProps<SVGSVGElement>> = 
             fill="#fff"
         />
     </svg>
-);
+));
+
+VkusvillForBusinessMWhiteIcon.displayName = 'VkusvillForBusinessMWhiteIcon';
 
 export default VkusvillForBusinessMWhiteIcon;

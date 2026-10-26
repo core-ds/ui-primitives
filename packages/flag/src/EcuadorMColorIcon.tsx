@@ -2,10 +2,10 @@
  * This is auto-generated file by scripts/svg-to-component package
  * Do not edit it manually
  */
-import React, { SVGProps } from 'react';
+import React, { SVGProps, forwardRef } from 'react';
 
-export const EcuadorMColorIcon: React.FC<SVGProps<SVGSVGElement>> = (props) => (
-    <svg role="img" focusable="false" width="24" height="24" viewBox="0 0 24 24" {...props} fill="none">
+export const EcuadorMColorIcon = forwardRef<SVGSVGElement, SVGProps<SVGSVGElement>>((props, ref) => (
+    <svg ref={ref} role="img" focusable="false" width="24" height="24" viewBox="0 0 24 24" {...props} fill="none">
         <path
             d="M0 18.065c0 .992.805 1.797 1.797 1.797h20.406c.992 0 1.797-.805 1.797-1.797V15.93H0v2.134z"
             fill="#FF4B55"
@@ -93,6 +93,8 @@ export const EcuadorMColorIcon: React.FC<SVGProps<SVGSVGElement>> = (props) => (
         <path d="M12.72 14.823l.431.576-.431.144-.288-.72h.288z" fill="#FFE15A" />
         <path d="M9.081 11.6l-.207-.208v-1.031h.207v1.24zm6.043-.208l-.207.209v-1.24h.207v1.031z" fill="#41479B" />
     </svg>
-);
+));
+
+EcuadorMColorIcon.displayName = 'EcuadorMColorIcon';
 
 export default EcuadorMColorIcon;

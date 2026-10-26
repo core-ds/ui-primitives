@@ -2,10 +2,10 @@
  * This is auto-generated file by scripts/svg-to-component package
  * Do not edit it manually
  */
-import React, { SVGProps } from 'react';
+import React, { SVGProps, forwardRef } from 'react';
 
-export const BankUralskiyLColorIcon: React.FC<SVGProps<SVGSVGElement>> = (props) => (
-    <svg role="img" focusable="false" width="30" height="30" viewBox="0 0 30 30" {...props}>
+export const BankUralskiyLColorIcon = forwardRef<SVGSVGElement, SVGProps<SVGSVGElement>>((props, ref) => (
+    <svg ref={ref} role="img" focusable="false" width="30" height="30" viewBox="0 0 30 30" {...props}>
         <g fill="none">
             <path
                 d="M5.615 19.92c-.36-.632-.632-1.354-.632-2.167V8.907c-1.174.27-2.077 1.083-2.618 2.076v5.597a7.751 7.751 0 003.25 3.34"
@@ -33,6 +33,8 @@ export const BankUralskiyLColorIcon: React.FC<SVGProps<SVGSVGElement>> = (props)
             />
         </g>
     </svg>
-);
+));
+
+BankUralskiyLColorIcon.displayName = 'BankUralskiyLColorIcon';
 
 export default BankUralskiyLColorIcon;

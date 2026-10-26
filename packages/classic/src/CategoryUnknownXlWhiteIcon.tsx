@@ -2,10 +2,10 @@
  * This is auto-generated file by scripts/svg-to-component package
  * Do not edit it manually
  */
-import React, { SVGProps } from 'react';
+import React, { SVGProps, forwardRef } from 'react';
 
-export const CategoryUnknownXlWhiteIcon: React.FC<SVGProps<SVGSVGElement>> = (props) => (
-    <svg role="img" focusable="false" width="34" height="34" viewBox="0 0 34 34" {...props}>
+export const CategoryUnknownXlWhiteIcon = forwardRef<SVGSVGElement, SVGProps<SVGSVGElement>>((props, ref) => (
+    <svg ref={ref} role="img" focusable="false" width="34" height="34" viewBox="0 0 34 34" {...props}>
         <g fill="none" fillRule="evenodd">
             <path d="M-1-1h36v36H-1z" />
             <path
@@ -19,6 +19,8 @@ export const CategoryUnknownXlWhiteIcon: React.FC<SVGProps<SVGSVGElement>> = (pr
             />
         </g>
     </svg>
-);
+));
+
+CategoryUnknownXlWhiteIcon.displayName = 'CategoryUnknownXlWhiteIcon';
 
 export default CategoryUnknownXlWhiteIcon;

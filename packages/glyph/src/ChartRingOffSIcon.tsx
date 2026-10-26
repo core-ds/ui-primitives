@@ -2,10 +2,19 @@
  * This is auto-generated file by scripts/svg-to-component package
  * Do not edit it manually
  */
-import React, { SVGProps } from 'react';
+import React, { SVGProps, forwardRef } from 'react';
 
-export const ChartRingOffSIcon: React.FC<SVGProps<SVGSVGElement>> = (props) => (
-    <svg role="img" focusable="false" fill="currentColor" width="16" height="16" viewBox="0 0 16 16" {...props}>
+export const ChartRingOffSIcon = forwardRef<SVGSVGElement, SVGProps<SVGSVGElement>>((props, ref) => (
+    <svg
+        ref={ref}
+        role="img"
+        focusable="false"
+        fill="currentColor"
+        width="16"
+        height="16"
+        viewBox="0 0 16 16"
+        {...props}
+    >
         <g clipPath="url(#prefix__clip0_158643_11428)">
             <path
                 d="M15.53 14.467l-1.061 1.06-1.37-1.369A7.959 7.959 0 018 16 8 8 0 011.84 2.9L.469 1.53 1.529.468l14 13.998zM4.69 5.752a4 4 0 005.556 5.555L4.691 5.752z"
@@ -20,6 +29,8 @@ export const ChartRingOffSIcon: React.FC<SVGProps<SVGSVGElement>> = (props) => (
             </clipPath>
         </defs>
     </svg>
-);
+));
+
+ChartRingOffSIcon.displayName = 'ChartRingOffSIcon';
 
 export default ChartRingOffSIcon;

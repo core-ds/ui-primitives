@@ -2,10 +2,10 @@
  * This is auto-generated file by scripts/svg-to-component package
  * Do not edit it manually
  */
-import React, { SVGProps } from 'react';
+import React, { SVGProps, forwardRef } from 'react';
 
-export const VinlabBusinessMColorIcon: React.FC<SVGProps<SVGSVGElement>> = (props) => (
-    <svg role="img" focusable="false" width="255" height="24" viewBox="0 0 255 24" {...props} fill="none">
+export const VinlabBusinessMColorIcon = forwardRef<SVGSVGElement, SVGProps<SVGSVGElement>>((props, ref) => (
+    <svg ref={ref} role="img" focusable="false" width="255" height="24" viewBox="0 0 255 24" {...props} fill="none">
         <path
             d="M2.71 8.21s-1.098 4.926 1.818 6.413c2.916 1.487 7.6.554 8.39-.6.79-1.155.973-1.95.973-1.95V8.22L2.71 8.21z"
             fill="#6CC351"
@@ -31,6 +31,8 @@ export const VinlabBusinessMColorIcon: React.FC<SVGProps<SVGSVGElement>> = (prop
             fill="#fff"
         />
     </svg>
-);
+));
+
+VinlabBusinessMColorIcon.displayName = 'VinlabBusinessMColorIcon';
 
 export default VinlabBusinessMColorIcon;

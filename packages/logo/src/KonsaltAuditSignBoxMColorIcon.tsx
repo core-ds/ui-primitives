@@ -2,10 +2,10 @@
  * This is auto-generated file by scripts/svg-to-component package
  * Do not edit it manually
  */
-import React, { SVGProps } from 'react';
+import React, { SVGProps, forwardRef } from 'react';
 
-export const KonsaltAuditSignBoxMColorIcon: React.FC<SVGProps<SVGSVGElement>> = (props) => (
-    <svg role="img" focusable="false" width="24" height="24" fill="none">
+export const KonsaltAuditSignBoxMColorIcon = forwardRef<SVGSVGElement, SVGProps<SVGSVGElement>>((props, ref) => (
+    <svg ref={ref} role="img" focusable="false" width="24" height="24" fill="none">
         <path
             d="M2 18.07h5.959l-.003-4.691-.016-.002c-.013-.002-.015-.006-.019-.03a1.399 1.399 0 01-.003-.117v-.088h-.035l-.004-.12-.038-.004v-.04c0-.039 0-.039-.017-.039s-.017 0-.021-.04c-.004-.039-.005-.04-.021-.04h-.018v-.08h-.02c-.02 0-.02 0-.02-.018 0-.016-.003-.018-.019-.018s-.017-.002-.017-.022c0-.02-.001-.021-.02-.021-.02 0-.022-.002-.022-.019 0-.016-.002-.018-.017-.018-.016 0-.018-.002-.018-.022v-.021h-.077v-.022c0-.02 0-.021-.017-.021-.016 0-.018-.002-.018-.018 0-.018 0-.018-.04-.02-.038-.002-.04-.003-.041-.018-.002-.014-.005-.017-.03-.02a.482.482 0 00-.055-.004c-.028 0-.028 0-.028-.018v-.019h-.088c-.048 0-.1-.002-.115-.004-.024-.003-.027-.006-.027-.018v-.015H6.88v.037h-.194v.018c0 .016-.002.018-.028.021a.49.49 0 01-.056.004c-.028 0-.028 0-.028.018s-.002.019-.02.019c-.02 0-.022.002-.022.018 0 .017 0 .018-.035.022-.034.004-.035.005-.035.022 0 .016-.002.018-.02.018-.02 0-.021.001-.021.018 0 .016-.003.018-.02.02-.016.002-.019.004-.02.022-.002.017-.005.02-.02.02-.014 0-.017.002-.018.02-.002.017-.004.02-.021.022-.017.001-.02.004-.02.02 0 .015-.001.018-.017.018h-.018v.08h-.041v.08h-.018c-.017 0-.017 0-.017.03a.537.537 0 01-.004.057c-.003.025-.006.029-.02.03-.015.002-.015.002-.016.062l-.002.06h-.035v.091c0 .05-.002.104-.004.12-.003.024-.005.028-.019.03l-.015.002-.003 2.768H3.88V4.405H2V18.07z"
             fill="#0C6666"
@@ -21,6 +21,8 @@ export const KonsaltAuditSignBoxMColorIcon: React.FC<SVGProps<SVGSVGElement>> = 
             fill="#0C6666"
         />
     </svg>
-);
+));
+
+KonsaltAuditSignBoxMColorIcon.displayName = 'KonsaltAuditSignBoxMColorIcon';
 
 export default KonsaltAuditSignBoxMColorIcon;

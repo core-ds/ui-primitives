@@ -2,10 +2,10 @@
  * This is auto-generated file by scripts/svg-to-component package
  * Do not edit it manually
  */
-import React, { SVGProps } from 'react';
+import React, { SVGProps, forwardRef } from 'react';
 
-export const LockXsBlackIcon: React.FC<SVGProps<SVGSVGElement>> = (props) => (
-    <svg role="img" focusable="false" width="12" height="12" viewBox="0 0 12 12" {...props}>
+export const LockXsBlackIcon = forwardRef<SVGSVGElement, SVGProps<SVGSVGElement>>((props, ref) => (
+    <svg ref={ref} role="img" focusable="false" width="12" height="12" viewBox="0 0 12 12" {...props}>
         <g fill="none" fillRule="evenodd">
             <path d="M0 0h12v12H0z" />
             <g fill="#0B1F35">
@@ -17,6 +17,8 @@ export const LockXsBlackIcon: React.FC<SVGProps<SVGSVGElement>> = (props) => (
             </g>
         </g>
     </svg>
-);
+));
+
+LockXsBlackIcon.displayName = 'LockXsBlackIcon';
 
 export default LockXsBlackIcon;

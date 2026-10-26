@@ -2,10 +2,10 @@
  * This is auto-generated file by scripts/svg-to-component package
  * Do not edit it manually
  */
-import React, { SVGProps } from 'react';
+import React, { SVGProps, forwardRef } from 'react';
 
-export const IikoEnMColorIcon: React.FC<SVGProps<SVGSVGElement>> = (props) => (
-    <svg role="img" focusable="false" width="54" height="24" viewBox="0 0 54 24" {...props} fill="none">
+export const IikoEnMColorIcon = forwardRef<SVGSVGElement, SVGProps<SVGSVGElement>>((props, ref) => (
+    <svg ref={ref} role="img" focusable="false" width="54" height="24" viewBox="0 0 54 24" {...props} fill="none">
         <path
             d="M41.581 9.532c-4.528 0-7.387 2.345-7.387 6.237 0 3.886 2.859 6.231 7.387 6.231 4.522 0 7.387-2.345 7.387-6.231.005-3.892-2.865-6.237-7.387-6.237zm0 9.05c-1.228 0-1.256-1.59-1.256-2.813 0-1.229.028-2.825 1.256-2.825s1.245 1.591 1.245 2.825c.006 1.223-.011 2.814-1.245 2.814zM2.475 21.726h4.779a.474.474 0 00.475-.474V10.28a.474.474 0 00-.475-.474h-4.78A.474.474 0 002 10.28v10.966c0 .263.212.48.475.48zm0-13.166h4.779a.474.474 0 00.475-.474V5.054a.474.474 0 00-.475-.474h-4.78A.474.474 0 002 5.054v3.032c0 .262.212.475.475.475zm8.006 13.166h4.78a.474.474 0 00.474-.474V10.28a.474.474 0 00-.474-.474h-4.78a.474.474 0 00-.474.474v10.966c0 .263.212.48.474.48zm0-13.166h4.78a.474.474 0 00.474-.474V5.054a.474.474 0 00-.474-.474h-4.78a.474.474 0 00-.474.474v3.032c0 .262.212.475.474.475zm19.252 6.237l3.238-4.226a.476.476 0 00-.38-.765h-5.259a.477.477 0 00-.39.206l-3.105 4.528h-.095V5.054a.474.474 0 00-.475-.474h-4.773a.474.474 0 00-.475.474v16.192c0 .263.212.475.475.475h4.773a.474.474 0 00.475-.475v-5.298h.095l3.065 5.533c.084.15.246.245.419.245h5.539a.477.477 0 00.402-.731l-3.551-5.65a.489.489 0 01.022-.548z"
             fill="#EF3B39"
@@ -33,6 +33,8 @@ export const IikoEnMColorIcon: React.FC<SVGProps<SVGSVGElement>> = (props) => (
             fill="#EF3B39"
         />
     </svg>
-);
+));
+
+IikoEnMColorIcon.displayName = 'IikoEnMColorIcon';
 
 export default IikoEnMColorIcon;

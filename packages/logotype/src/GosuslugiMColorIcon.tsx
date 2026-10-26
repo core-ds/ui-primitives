@@ -2,10 +2,10 @@
  * This is auto-generated file by scripts/svg-to-component package
  * Do not edit it manually
  */
-import React, { SVGProps } from 'react';
+import React, { SVGProps, forwardRef } from 'react';
 
-export const GosuslugiMColorIcon: React.FC<SVGProps<SVGSVGElement>> = (props) => (
-    <svg role="img" focusable="false" width="24" height="24" viewBox="0 0 24 24" {...props} fill="none">
+export const GosuslugiMColorIcon = forwardRef<SVGSVGElement, SVGProps<SVGSVGElement>>((props, ref) => (
+    <svg ref={ref} role="img" focusable="false" width="24" height="24" viewBox="0 0 24 24" {...props} fill="none">
         <g clipPath="url(#prefix__clip0_458_36)">
             <path
                 d="M22.8 7.961c-.094-1.237-1.038-2.822-1.982-3.583a36.05 36.05 0 00-3.304-2.157A36.728 36.728 0 0014.02.381a5.072 5.072 0 00-2.014-.38 4.967 4.967 0 00-2.014.38A36.94 36.94 0 006.5 2.222c-1.825 1.11-3.304 2.157-3.304 2.157-.49.413-.906.901-1.233 1.442a.093.093 0 00.08.14h1.534a.128.128 0 00.096-.044 5.12 5.12 0 01.58-.569s1.302-.913 2.908-1.882a32.61 32.61 0 013.074-1.605 4.403 4.403 0 011.772-.332 4.5 4.5 0 011.772.332 32.41 32.41 0 013.074 1.605 31.732 31.732 0 012.908 1.883c.83.664 1.661 2.048 1.744 3.127 0 0 .194 1.605.222 3.507a32.838 32.838 0 01-.194 3.515 5.12 5.12 0 01-1.772 3.127s-1.302.941-2.908 1.91a32.61 32.61 0 01-3.074 1.605 4.403 4.403 0 01-1.772.332 4.497 4.497 0 01-1.772-.323 32.412 32.412 0 01-3.074-1.606 35.316 35.316 0 01-2.908-1.91 3.984 3.984 0 01-.501-.486.128.128 0 00-.096-.044h-1.54a.093.093 0 00-.08.143c.343.543.751 1.026 1.16 1.355 0 0 1.479 1.11 3.304 2.188 1.13.676 2.297 1.29 3.493 1.84.64.26 1.325.386 2.014.37a4.966 4.966 0 002.014-.38 36.924 36.924 0 003.493-1.84 53.598 53.598 0 003.304-2.187 5.878 5.878 0 002.014-3.584 37.9 37.9 0 00.22-4.028c-.031-2.178-.251-4.018-.251-4.018z"
@@ -39,6 +39,8 @@ export const GosuslugiMColorIcon: React.FC<SVGProps<SVGSVGElement>> = (props) =>
             </clipPath>
         </defs>
     </svg>
-);
+));
+
+GosuslugiMColorIcon.displayName = 'GosuslugiMColorIcon';
 
 export default GosuslugiMColorIcon;

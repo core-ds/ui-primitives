@@ -2,10 +2,10 @@
  * This is auto-generated file by scripts/svg-to-component package
  * Do not edit it manually
  */
-import React, { SVGProps } from 'react';
+import React, { SVGProps, forwardRef } from 'react';
 
-export const DepositMWhiteIcon: React.FC<SVGProps<SVGSVGElement>> = (props) => (
-    <svg role="img" focusable="false" width="22" height="21" viewBox="0 0 22 21" {...props}>
+export const DepositMWhiteIcon = forwardRef<SVGSVGElement, SVGProps<SVGSVGElement>>((props, ref) => (
+    <svg ref={ref} role="img" focusable="false" width="22" height="21" viewBox="0 0 22 21" {...props}>
         <g fill="none" transform="translate(-1 -2)" fillRule="evenodd">
             <path d="M0 0h24v24H0z" />
             <path
@@ -21,6 +21,8 @@ export const DepositMWhiteIcon: React.FC<SVGProps<SVGSVGElement>> = (props) => (
             <path fill="#FFF" d="M5 22h3v1H5zm11 0h3v1h-3z" opacity=".3" />
         </g>
     </svg>
-);
+));
+
+DepositMWhiteIcon.displayName = 'DepositMWhiteIcon';
 
 export default DepositMWhiteIcon;

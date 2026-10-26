@@ -2,12 +2,23 @@
  * This is auto-generated file by scripts/svg-to-component package
  * Do not edit it manually
  */
-import React, { SVGProps } from 'react';
+import React, { SVGProps, forwardRef } from 'react';
 
-export const WorldSegmentedLineMIcon: React.FC<SVGProps<SVGSVGElement>> = (props) => (
-    <svg role="img" focusable="false" fill="currentColor" width="24" height="24" viewBox="0 0 24 24" {...props}>
+export const WorldSegmentedLineMIcon = forwardRef<SVGSVGElement, SVGProps<SVGSVGElement>>((props, ref) => (
+    <svg
+        ref={ref}
+        role="img"
+        focusable="false"
+        fill="currentColor"
+        width="24"
+        height="24"
+        viewBox="0 0 24 24"
+        {...props}
+    >
         <path d="M12 2c5.523 0 10 4.477 10 10s-4.477 10-10 10S2 17.523 2 12 6.477 2 12 2zm-1.977 11c.092 2.15.478 4.01 1.005 5.328.306.765.621 1.25.868 1.512.04.041.076.072.104.096.028-.024.064-.055.104-.096.247-.261.562-.747.868-1.512.527-1.319.913-3.178 1.005-5.328h-3.954zm-5.959 0a8.004 8.004 0 005.319 6.56C8.63 17.93 8.123 15.614 8.02 13H4.064zm11.916 0c-.103 2.614-.612 4.93-1.364 6.56a8.004 8.004 0 005.32-6.56H15.98zM9.383 4.44A8.005 8.005 0 004.064 11H8.02c.103-2.614.61-4.932 1.363-6.56zm2.514-.28c-.248.261-.563.747-.869 1.512-.527 1.319-.913 3.178-1.005 5.328h3.954c-.092-2.15-.478-4.01-1.005-5.328-.306-.765-.621-1.25-.868-1.512-.04-.042-.075-.072-.104-.098-.028.026-.064.056-.104.098zm2.72.28c.751 1.628 1.26 3.946 1.363 6.56h3.956a8.005 8.005 0 00-5.32-6.56z" />
     </svg>
-);
+));
+
+WorldSegmentedLineMIcon.displayName = 'WorldSegmentedLineMIcon';
 
 export default WorldSegmentedLineMIcon;

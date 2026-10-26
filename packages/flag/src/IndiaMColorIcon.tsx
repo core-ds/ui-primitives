@@ -2,10 +2,10 @@
  * This is auto-generated file by scripts/svg-to-component package
  * Do not edit it manually
  */
-import React, { SVGProps } from 'react';
+import React, { SVGProps, forwardRef } from 'react';
 
-export const IndiaMColorIcon: React.FC<SVGProps<SVGSVGElement>> = (props) => (
-    <svg role="img" focusable="false" width="24" height="24" viewBox="0 0 24 24" {...props} fill="none">
+export const IndiaMColorIcon = forwardRef<SVGSVGElement, SVGProps<SVGSVGElement>>((props, ref) => (
+    <svg ref={ref} role="img" focusable="false" width="24" height="24" viewBox="0 0 24 24" {...props} fill="none">
         <path
             d="M22.203 4.138H1.797C.805 4.138 0 4.943 0 5.935V9.38h24V5.935c0-.992-.805-1.797-1.797-1.797z"
             fill="#FAB446"
@@ -43,6 +43,8 @@ export const IndiaMColorIcon: React.FC<SVGProps<SVGSVGElement>> = (props) => (
         <path d="M12 12.34a.34.34 0 100-.68.34.34 0 000 .68z" fill="#F5F5F5" />
         <path d="M12 12.204a.204.204 0 100-.408.204.204 0 000 .408z" fill="#41479B" />
     </svg>
-);
+));
+
+IndiaMColorIcon.displayName = 'IndiaMColorIcon';
 
 export default IndiaMColorIcon;

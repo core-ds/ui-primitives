@@ -2,10 +2,10 @@
  * This is auto-generated file by scripts/svg-to-component package
  * Do not edit it manually
  */
-import React, { SVGProps } from 'react';
+import React, { SVGProps, forwardRef } from 'react';
 
-export const ConvertRubToUsdXxlBlackIcon: React.FC<SVGProps<SVGSVGElement>> = (props) => (
-    <svg role="img" focusable="false" width="48" height="48" viewBox="0 0 48 48" {...props}>
+export const ConvertRubToUsdXxlBlackIcon = forwardRef<SVGSVGElement, SVGProps<SVGSVGElement>>((props, ref) => (
+    <svg ref={ref} role="img" focusable="false" width="48" height="48" viewBox="0 0 48 48" {...props}>
         <g fill="none" fillRule="evenodd">
             <path
                 d="M32.5 8h-8.8l5.1-5.1-.7-.7-6.4 6.4 6.4 6.4.7-.7L23.7 9h8.8C38.8 9 44 14.2 44 20.5v.5h1v-.5C45 13.6 39.4 8 32.5 8zM19.9 33.1l-.7.7 5.1 5.1h-8.8C9.2 39 4 33.8 4 27.5V27H3v.5C3 34.4 8.6 40 15.5 40h8.8l-5.1 5.1.7.7 6.4-6.4-6.4-6.3z"
@@ -18,6 +18,8 @@ export const ConvertRubToUsdXxlBlackIcon: React.FC<SVGProps<SVGSVGElement>> = (p
             />
         </g>
     </svg>
-);
+));
+
+ConvertRubToUsdXxlBlackIcon.displayName = 'ConvertRubToUsdXxlBlackIcon';
 
 export default ConvertRubToUsdXxlBlackIcon;

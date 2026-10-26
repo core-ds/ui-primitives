@@ -2,10 +2,10 @@
  * This is auto-generated file by scripts/svg-to-component package
  * Do not edit it manually
  */
-import React, { SVGProps } from 'react';
+import React, { SVGProps, forwardRef } from 'react';
 
-export const SearchboosterEnMWhiteIcon: React.FC<SVGProps<SVGSVGElement>> = (props) => (
-    <svg role="img" focusable="false" width="144" height="24" viewBox="0 0 144 24" {...props} fill="none">
+export const SearchboosterEnMWhiteIcon = forwardRef<SVGSVGElement, SVGProps<SVGSVGElement>>((props, ref) => (
+    <svg ref={ref} role="img" focusable="false" width="144" height="24" viewBox="0 0 144 24" {...props} fill="none">
         <path
             d="M66.837 17.529h6.094c3.23 0 5.178-1.647 5.178-4.353v-.021c0-2.032-1.4-3.54-3.557-3.764v-.043c1.6-.235 2.81-1.743 2.81-3.368v-.022c0-2.33-1.769-3.86-4.463-3.86h-6.062v15.43zm5.494-13.474c1.705 0 2.684.78 2.684 2.192v.021c0 1.551-1.126 2.406-3.21 2.406h-2.61v-4.62h3.136zm-.042 6.47c2.252 0 3.41.855 3.41 2.512v.022c0 1.647-1.137 2.513-3.252 2.513h-3.252v-5.048h3.094zm38.447 7.228c2.61 0 4.505-1.411 4.505-3.464v-.011c0-1.615-.863-2.524-3.126-3.059l-1.8-.417c-1.189-.288-1.641-.759-1.641-1.454v-.01c0-.899.768-1.487 1.989-1.487 1.284 0 2.042.684 2.178 1.668l.011.075h2.136l-.01-.128c-.116-1.914-1.694-3.4-4.315-3.4-2.547 0-4.273 1.379-4.273 3.39v.01c0 1.636 1.042 2.662 3.147 3.154l1.81.417c1.189.289 1.589.706 1.589 1.433v.01c0 .91-.821 1.487-2.189 1.487-1.4 0-2.157-.61-2.367-1.647l-.022-.106h-2.252l.01.096c.232 2.053 1.853 3.443 4.62 3.443zm10.541 0a7.49 7.49 0 001.158-.096V15.87a4.713 4.713 0 01-.61.043c-.959 0-1.464-.342-1.464-1.486v-6.31h2.074V6.28h-2.074V3.35h-2.326v2.93h-1.589v1.84h1.589v6.447c0 2.246 1.053 3.187 3.242 3.187zm7.879 0c2.683 0 4.388-1.625 4.745-3.411l.021-.118h-2.157l-.031.086c-.284.845-1.179 1.55-2.526 1.55-1.81 0-2.957-1.24-3-3.368h7.841v-.78c0-3.38-1.905-5.647-5.009-5.647-3.105 0-5.104 2.353-5.104 5.87v.012c0 3.55 1.967 5.806 5.22 5.806zm-.106-9.795c1.484 0 2.557.952 2.746 2.898h-5.556c.2-1.882 1.336-2.898 2.81-2.898zm7.151 9.571h2.274v-6.705c0-1.68.905-2.652 2.368-2.652.442 0 .842.053 1.021.128V6.15c-.179-.031-.463-.085-.79-.085-1.263 0-2.188.824-2.547 2.139h-.052V6.279h-2.274v11.25z"
             fill="#fff"
@@ -31,6 +31,8 @@ export const SearchboosterEnMWhiteIcon: React.FC<SVGProps<SVGSVGElement>> = (pro
             fill="#fff"
         />
     </svg>
-);
+));
+
+SearchboosterEnMWhiteIcon.displayName = 'SearchboosterEnMWhiteIcon';
 
 export default SearchboosterEnMWhiteIcon;

@@ -2,10 +2,10 @@
  * This is auto-generated file by scripts/svg-to-component package
  * Do not edit it manually
  */
-import React, { SVGProps } from 'react';
+import React, { SVGProps, forwardRef } from 'react';
 
-export const ScaleMBlackIcon: React.FC<SVGProps<SVGSVGElement>> = (props) => (
-    <svg role="img" focusable="false" width="24" height="24" viewBox="0 0 24 24" {...props} fill="none">
+export const ScaleMBlackIcon = forwardRef<SVGSVGElement, SVGProps<SVGSVGElement>>((props, ref) => (
+    <svg ref={ref} role="img" focusable="false" width="24" height="24" viewBox="0 0 24 24" {...props} fill="none">
         <path
             opacity=".3"
             d="M8 13c0 2.945-1.79 4-4 4s-4-1.055-4-4h8zm15 0c0 2.945-1.79 4-4 4s-4-1.055-4-4h8z"
@@ -16,6 +16,8 @@ export const ScaleMBlackIcon: React.FC<SVGProps<SVGSVGElement>> = (props) => (
             fill="#0F1F32"
         />
     </svg>
-);
+));
+
+ScaleMBlackIcon.displayName = 'ScaleMBlackIcon';
 
 export default ScaleMBlackIcon;

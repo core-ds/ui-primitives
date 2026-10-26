@@ -2,10 +2,10 @@
  * This is auto-generated file by scripts/svg-to-component package
  * Do not edit it manually
  */
-import React, { SVGProps } from 'react';
+import React, { SVGProps, forwardRef } from 'react';
 
-export const TogoMColorIcon: React.FC<SVGProps<SVGSVGElement>> = (props) => (
-    <svg role="img" focusable="false" width="24" height="24" viewBox="0 0 24 24" {...props} fill="none">
+export const TogoMColorIcon = forwardRef<SVGSVGElement, SVGProps<SVGSVGElement>>((props, ref) => (
+    <svg ref={ref} role="img" focusable="false" width="24" height="24" viewBox="0 0 24 24" {...props} fill="none">
         <path
             d="M22.213 4.138H1.787A1.797 1.797 0 000 5.935v1.348h24V5.935c0-.989-.799-1.791-1.787-1.797zM24 10.428H0v3.145h24v-3.145z"
             fill="#73AF00"
@@ -25,6 +25,8 @@ export const TogoMColorIcon: React.FC<SVGProps<SVGSVGElement>> = (props) => (
             fill="#F5F5F5"
         />
     </svg>
-);
+));
+
+TogoMColorIcon.displayName = 'TogoMColorIcon';
 
 export default TogoMColorIcon;

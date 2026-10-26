@@ -2,10 +2,10 @@
  * This is auto-generated file by scripts/svg-to-component package
  * Do not edit it manually
  */
-import React, { SVGProps } from 'react';
+import React, { SVGProps, forwardRef } from 'react';
 
-export const ActionPhotoOrFileSBlackIcon: React.FC<SVGProps<SVGSVGElement>> = (props) => (
-    <svg role="img" focusable="false" width="18" height="18" viewBox="0 0 18 18" {...props}>
+export const ActionPhotoOrFileSBlackIcon = forwardRef<SVGSVGElement, SVGProps<SVGSVGElement>>((props, ref) => (
+    <svg ref={ref} role="img" focusable="false" width="18" height="18" viewBox="0 0 18 18" {...props}>
         <g transform="translate(2 1)" fill="#0B1F35" fillRule="evenodd">
             <path
                 d="M3 3V1a1 1 0 011-1h6.252L14 3.365V12a1 1 0 01-1 1h-2v2a1 1 0 01-1 1H1a1 1 0 01-1-1V4a1 1 0 011-1h2zm1 0h3.252L11 6.365V12h2V3.81L9.869 1H4v2zm2.869 1H1v11h9V6.81L6.869 4z"
@@ -18,6 +18,8 @@ export const ActionPhotoOrFileSBlackIcon: React.FC<SVGProps<SVGSVGElement>> = (p
             <circle cx="6" cy="8" r="1" fillOpacity=".3" />
         </g>
     </svg>
-);
+));
+
+ActionPhotoOrFileSBlackIcon.displayName = 'ActionPhotoOrFileSBlackIcon';
 
 export default ActionPhotoOrFileSBlackIcon;

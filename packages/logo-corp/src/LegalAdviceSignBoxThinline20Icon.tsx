@@ -2,13 +2,24 @@
  * This is auto-generated file by scripts/svg-to-component package
  * Do not edit it manually
  */
-import React, { SVGProps } from 'react';
+import React, { SVGProps, forwardRef } from 'react';
 
-export const LegalAdviceSignBoxThinline20Icon: React.FC<SVGProps<SVGSVGElement>> = (props) => (
-    <svg role="img" focusable="false" fill="currentColor" width="20" height="20" viewBox="0 0 20 20" {...props}>
+export const LegalAdviceSignBoxThinline20Icon = forwardRef<SVGSVGElement, SVGProps<SVGSVGElement>>((props, ref) => (
+    <svg
+        ref={ref}
+        role="img"
+        focusable="false"
+        fill="currentColor"
+        width="20"
+        height="20"
+        viewBox="0 0 20 20"
+        {...props}
+    >
         <path d="M16.792 11.258c.388 0 .773.075 1.132.22.359.146.686.361.96.633l.196.214a2.9 2.9 0 01.674 1.854 2.91 2.91 0 01-.87 2.067l-.004.004-3.294 3.22a.746.746 0 01-1.114.072l-3.347-3.295-.002-.002a2.913 2.913 0 01-.87-2.067c0-.777.316-1.517.87-2.067.274-.272.601-.487.96-.633a3.01 3.01 0 012.265 0c.235.096.453.224.655.376a2.94 2.94 0 011.789-.596zm0 1.5c-.196 0-.39.038-.568.11a1.426 1.426 0 00-.468.308l-.004.004-.225.218a.75.75 0 01-1.047 0l-.224-.218-.005-.004c-.13-.13-.29-.235-.468-.308a1.509 1.509 0 00-1.135 0 1.429 1.429 0 00-.894 1.31c0 .366.148.725.424 1l2.815 2.773 2.834-2.77c.278-.276.427-.635.427-1.002 0-.322-.114-.638-.328-.896l-.099-.107c-.13-.13-.29-.235-.468-.308a1.508 1.508 0 00-.567-.11z" />
         <path d="M6.774 2.42a.75.75 0 01.623-.155L18 4.385V9h-1.5V5.614L8 3.914V16.5h1V18H2V8l4.5-.75V3l.005-.084a.75.75 0 01.27-.496zM3.5 9.27v7.23h3V8.77l-3 .5z" />
     </svg>
-);
+));
+
+LegalAdviceSignBoxThinline20Icon.displayName = 'LegalAdviceSignBoxThinline20Icon';
 
 export default LegalAdviceSignBoxThinline20Icon;

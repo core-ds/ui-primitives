@@ -2,12 +2,23 @@
  * This is auto-generated file by scripts/svg-to-component package
  * Do not edit it manually
  */
-import React, { SVGProps } from 'react';
+import React, { SVGProps, forwardRef } from 'react';
 
-export const SfMicSlashXxlIcon: React.FC<SVGProps<SVGSVGElement>> = (props) => (
-    <svg role="img" focusable="false" fill="currentColor" width="48" height="48" viewBox="0 0 48 48" {...props}>
+export const SfMicSlashXxlIcon = forwardRef<SVGSVGElement, SVGProps<SVGSVGElement>>((props, ref) => (
+    <svg
+        ref={ref}
+        role="img"
+        focusable="false"
+        fill="currentColor"
+        width="48"
+        height="48"
+        viewBox="0 0 48 48"
+        {...props}
+    >
         <path d="M23.738 6.237c-3.254 0-5.462 2.374-5.545 5.828v.664l11.04 11.023c.034-.116.05-.266.05-.398V12.247c0-3.553-2.225-6.01-5.545-6.01zm12.202 30.63a1.283 1.283 0 001.81 0c.481-.514.498-1.311 0-1.81L12.067 9.393c-.498-.482-1.328-.498-1.826 0-.481.498-.481 1.328 0 1.81l25.7 25.665zM11.868 23.62c0 6.508 4.283 11.073 10.625 11.605v3.868h-6.176c-.697 0-1.245.564-1.245 1.261 0 .698.548 1.246 1.245 1.246H31.16c.697 0 1.245-.548 1.245-1.245 0-.698-.548-1.262-1.245-1.262H25v-3.868c1.86-.15 3.554-.648 4.981-1.461l-1.776-1.793c-1.262.614-2.773.963-4.466.963-5.678 0-9.363-3.752-9.363-9.413V20.25c0-.697-.565-1.245-1.262-1.245-.697 0-1.245.548-1.245 1.245v3.37zm20.669 3.42l1.942 1.942c.73-1.56 1.146-3.37 1.146-5.362v-3.37c0-.697-.565-1.245-1.262-1.245-.697 0-1.245.548-1.245 1.245v3.27c0 1.279-.2 2.458-.581 3.52zm-8.799 2.324c.581 0 1.13-.083 1.61-.265l-7.155-7.139v1.395c0 3.536 2.241 6.01 5.545 6.01z" />
     </svg>
-);
+));
+
+SfMicSlashXxlIcon.displayName = 'SfMicSlashXxlIcon';
 
 export default SfMicSlashXxlIcon;

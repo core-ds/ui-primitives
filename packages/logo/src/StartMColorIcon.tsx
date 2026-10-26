@@ -2,10 +2,10 @@
  * This is auto-generated file by scripts/svg-to-component package
  * Do not edit it manually
  */
-import React, { SVGProps } from 'react';
+import React, { SVGProps, forwardRef } from 'react';
 
-export const StartMColorIcon: React.FC<SVGProps<SVGSVGElement>> = (props) => (
-    <svg role="img" focusable="false" width="87" height="24" viewBox="0 0 87 24" {...props} fill="none">
+export const StartMColorIcon = forwardRef<SVGSVGElement, SVGProps<SVGSVGElement>>((props, ref) => (
+    <svg ref={ref} role="img" focusable="false" width="87" height="24" viewBox="0 0 87 24" {...props} fill="none">
         <path
             d="M5.75 2C3.194 2 2 3.444 2 5.694v2.612c0 2.333.417 3.333 2.111 4.389l1.306.805c1.055.639 1.194 1.111 1.194 2.472v2.306c0 .666-.305 1.083-.889 1.083-.583 0-.889-.389-.889-1.083v-3.611H2v3.639C2 20.583 3.167 22 5.694 22 8.306 22 9.5 20.5 9.5 18.306v-2.834c0-2.166-.556-3.277-2.167-4.305l-1.305-.834c-.917-.583-1.14-1-1.14-2.5v-2.11c0-.667.306-1.084.862-1.084.583 0 .917.417.917 1.083v3.584H9.5V5.694C9.5 3.472 8.306 2 5.75 2zm4.639 3.056h2v16.666h2.889V5.056h2V2.278h-6.89v2.778zm25.778-2.778v2.778h2v16.666h2.889V5.056h2V2.278h-6.89zM20.899 13.889l.679-8.972h.344l.68 8.972h-1.703zM19.055 2.278l-1.61 19.444h2.86l.394-5.194H22.8l.393 5.194h2.917L24.5 2.278h-5.445zm13.306 6.861c0 1.389-.305 1.806-1.25 1.806h-.639V4.917h.75c.89 0 1.14.36 1.14 1.805V9.14zm2.75 11.111v-5.056c0-1.61-.611-2.5-2.083-2.805v-.333C34.5 11.832 35.25 10.75 35.25 9V5.694c0-2.138-1.278-3.416-3.75-3.416h-3.917v19.444h2.89v-8.139h1.75v6.667c0 1.111.471 1.472.471 1.472h2.89s-.473-.36-.473-1.472z"
             fill="#FF2800"
@@ -15,6 +15,8 @@ export const StartMColorIcon: React.FC<SVGProps<SVGSVGElement>> = (props) => (
             fill="#191F28"
         />
     </svg>
-);
+));
+
+StartMColorIcon.displayName = 'StartMColorIcon';
 
 export default StartMColorIcon;

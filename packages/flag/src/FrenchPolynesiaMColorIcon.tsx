@@ -2,10 +2,10 @@
  * This is auto-generated file by scripts/svg-to-component package
  * Do not edit it manually
  */
-import React, { SVGProps } from 'react';
+import React, { SVGProps, forwardRef } from 'react';
 
-export const FrenchPolynesiaMColorIcon: React.FC<SVGProps<SVGSVGElement>> = (props) => (
-    <svg role="img" focusable="false" width="24" height="24" viewBox="0 0 24 24" {...props} fill="none">
+export const FrenchPolynesiaMColorIcon = forwardRef<SVGSVGElement, SVGProps<SVGSVGElement>>((props, ref) => (
+    <svg ref={ref} role="img" focusable="false" width="24" height="24" viewBox="0 0 24 24" {...props} fill="none">
         <path
             d="M0 18.065c0 .992.805 1.797 1.797 1.797h20.406c.992 0 1.797-.805 1.797-1.797v-2.34H0v2.34zM22.203 4.138H1.797C.805 4.138 0 4.943 0 5.935v2.34h24v-2.34c0-.992-.805-1.797-1.797-1.797z"
             fill="#FF4B55"
@@ -28,6 +28,8 @@ export const FrenchPolynesiaMColorIcon: React.FC<SVGProps<SVGSVGElement>> = (pro
             fill="#AA4650"
         />
     </svg>
-);
+));
+
+FrenchPolynesiaMColorIcon.displayName = 'FrenchPolynesiaMColorIcon';
 
 export default FrenchPolynesiaMColorIcon;

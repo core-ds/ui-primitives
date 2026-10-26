@@ -60,7 +60,7 @@
         "url": "https://alfabank.servicecdn.ru/icons/logotype_alfa-bank-logo_m.svg"
     },
     "AlfaBankLIcon": {
-        "description": "[logotype_alfa_bank_l]",
+        "description": "[logotype_alfa-bank_l]",
         "web": "AlfaBankLIcon",
         "webComponent": "import { AlfaBankLIcon } from '@alfalab/icons-logotype/AlfaBankLIcon';",
         "android": "logotype_alfa_bank_l",
@@ -130,7 +130,7 @@
         "url": "https://alfabank.servicecdn.ru/icons/logotype_alfa-invest-ru-logo-short_l.svg"
     },
     "AlfaPayLIcon": {
-        "description": "[logotype_alfa_pay_l]",
+        "description": "[logotype_alfa-pay_l]",
         "web": "AlfaPayLIcon",
         "webComponent": "import { AlfaPayLIcon } from '@alfalab/icons-logotype/AlfaPayLIcon';",
         "android": "logotype_alfa_pay_l",
@@ -140,7 +140,7 @@
         "url": "https://alfabank.servicecdn.ru/icons/logotype_alfa-pay_l.svg"
     },
     "AlfaPayLColorIcon": {
-        "description": "[logotype_alfa_pay_l_color]",
+        "description": "[logotype_alfa-pay_l_color]",
         "web": "AlfaPayLColorIcon",
         "webComponent": "import { AlfaPayLColorIcon } from '@alfalab/icons-logotype/AlfaPayLColorIcon';",
         "android": "logotype_alfa_pay_l_color",
@@ -150,7 +150,7 @@
         "url": "https://alfabank.servicecdn.ru/icons/logotype_alfa-pay_l_color.svg"
     },
     "AlfaPayMIcon": {
-        "description": "[logotype_alfa_pay_m]",
+        "description": "[logotype_alfa-pay_m]",
         "web": "AlfaPayMIcon",
         "webComponent": "import { AlfaPayMIcon } from '@alfalab/icons-logotype/AlfaPayMIcon';",
         "android": "logotype_alfa_pay_m",
@@ -160,7 +160,7 @@
         "url": "https://alfabank.servicecdn.ru/icons/logotype_alfa-pay_m.svg"
     },
     "AlfaPaySIcon": {
-        "description": "[logotype_alfa_pay_s]",
+        "description": "[logotype_alfa-pay_s]",
         "web": "AlfaPaySIcon",
         "webComponent": "import { AlfaPaySIcon } from '@alfalab/icons-logotype/AlfaPaySIcon';",
         "android": "logotype_alfa_pay_s",
@@ -190,7 +190,7 @@
         "url": "https://alfabank.servicecdn.ru/icons/logotype_apple-pay_m.svg"
     },
     "ApplePaySIcon": {
-        "description": "[logotype_apple_pay_s]",
+        "description": "[logotype_apple-pay_s]",
         "web": "ApplePaySIcon",
         "webComponent": "import { ApplePaySIcon } from '@alfalab/icons-logotype/ApplePaySIcon';",
         "android": "logotype_apple_pay_s",
@@ -200,7 +200,7 @@
         "url": "https://alfabank.servicecdn.ru/icons/logotype_apple-pay_s.svg"
     },
     "BeelineMIcon": {
-        "description": "[logotype_perekrestok_s]",
+        "description": "[logotype_beeline_m_color]",
         "web": "BeelineMIcon",
         "webComponent": "import { BeelineMIcon } from '@alfalab/icons-logotype/BeelineMIcon';",
         "android": "logotype_beeline_m",
@@ -210,7 +210,7 @@
         "url": "https://alfabank.servicecdn.ru/icons/logotype_beeline_m.svg"
     },
     "BeelineMColorIcon": {
-        "description": "[logotype_perekrestok_s]",
+        "description": "[logotype_beeline_m_color]",
         "web": "BeelineMColorIcon",
         "webComponent": "import { BeelineMColorIcon } from '@alfalab/icons-logotype/BeelineMColorIcon';",
         "android": "logotype_beeline_m_color",
@@ -220,7 +220,7 @@
         "url": "https://alfabank.servicecdn.ru/icons/logotype_beeline_m_color.svg"
     },
     "BeelineSIcon": {
-        "description": "[logotype_perekrestok_s]",
+        "description": "[logotype_beeline_s_color]",
         "web": "BeelineSIcon",
         "webComponent": "import { BeelineSIcon } from '@alfalab/icons-logotype/BeelineSIcon';",
         "android": "logotype_beeline_s",
@@ -230,7 +230,7 @@
         "url": "https://alfabank.servicecdn.ru/icons/logotype_beeline_s.svg"
     },
     "BeelineSColorIcon": {
-        "description": "[logotype_perekrestok_s]",
+        "description": "[logotype_beeline_s_color]",
         "web": "BeelineSColorIcon",
         "webComponent": "import { BeelineSColorIcon } from '@alfalab/icons-logotype/BeelineSColorIcon';",
         "android": "logotype_beeline_s_color",
@@ -240,7 +240,7 @@
         "url": "https://alfabank.servicecdn.ru/icons/logotype_beeline_s_color.svg"
     },
     "DigitalRubBlackMColorIcon": {
-        "description": "[logotype_digital_rub_black_m_color]",
+        "description": "[logotype_digital-rub-black_m_color]",
         "web": "DigitalRubBlackMColorIcon",
         "webComponent": "import { DigitalRubBlackMColorIcon } from '@alfalab/icons-logotype/DigitalRubBlackMColorIcon';",
         "android": "logotype_digital_rub_black_m_color",
@@ -250,7 +250,7 @@
         "url": "https://alfabank.servicecdn.ru/icons/logotype_digital-rub-black_m_color.svg"
     },
     "DigitalRubRedMColorIcon": {
-        "description": "[logotype_digital_rub_red_m_color]",
+        "description": "[logotype_digital-rub-red_m_color]",
         "web": "DigitalRubRedMColorIcon",
         "webComponent": "import { DigitalRubRedMColorIcon } from '@alfalab/icons-logotype/DigitalRubRedMColorIcon';",
         "android": "logotype_digital_rub_red_m_color",
@@ -260,7 +260,7 @@
         "url": "https://alfabank.servicecdn.ru/icons/logotype_digital-rub-red_m_color.svg"
     },
     "DigitalRubUnderlayRedSColorIcon": {
-        "description": "[logotype_digital_rub_underlay_red_s_color]",
+        "description": "[logotype_digital-rub-underlay-red_s_color]",
         "web": "DigitalRubUnderlayRedSColorIcon",
         "webComponent": "import { DigitalRubUnderlayRedSColorIcon } from '@alfalab/icons-logotype/DigitalRubUnderlayRedSColorIcon';",
         "android": "logotype_digital_rub_underlay_red_s_color",
@@ -270,7 +270,7 @@
         "url": "https://alfabank.servicecdn.ru/icons/logotype_digital-rub-underlay-red_s_color.svg"
     },
     "DigitalRubWhiteMColorIcon": {
-        "description": "[logotype_digital_rub_white_m_color]",
+        "description": "[logotype_digital-rub-white_m_color]",
         "web": "DigitalRubWhiteMColorIcon",
         "webComponent": "import { DigitalRubWhiteMColorIcon } from '@alfalab/icons-logotype/DigitalRubWhiteMColorIcon';",
         "android": "logotype_digital_rub_white_m_color",
@@ -280,7 +280,7 @@
         "url": "https://alfabank.servicecdn.ru/icons/logotype_digital-rub-white_m_color.svg"
     },
     "DigitalRubWhiteSColorIcon": {
-        "description": "[logotype_digital_rub_white_s_color]",
+        "description": "[logotype_digital-rub-white_s_color]",
         "web": "DigitalRubWhiteSColorIcon",
         "webComponent": "import { DigitalRubWhiteSColorIcon } from '@alfalab/icons-logotype/DigitalRubWhiteSColorIcon';",
         "android": "logotype_digital_rub_white_s_color",
@@ -330,7 +330,7 @@
         "url": "https://alfabank.servicecdn.ru/icons/logotype_google-pay_m.svg"
     },
     "GosuslugiSignMColorIcon": {
-        "description": "Госуслуги, знак\n[logotype_gosuslugi_sign_m_color]",
+        "description": "Госуслуги, знак\n[logotype_gosuslugi-sign_m_color]",
         "web": "GosuslugiSignMColorIcon",
         "webComponent": "import { GosuslugiSignMColorIcon } from '@alfalab/icons-logotype/GosuslugiSignMColorIcon';",
         "android": "logotype_gosuslugi_sign_m_color",
@@ -490,7 +490,7 @@
         "url": "https://alfabank.servicecdn.ru/icons/logotype_mobile-id_m.svg"
     },
     "ModuleBankMColorIcon": {
-        "description": "[logotype_module_bank_m_color]",
+        "description": "[logotype_module-bank_m_color]",
         "web": "ModuleBankMColorIcon",
         "webComponent": "import { ModuleBankMColorIcon } from '@alfalab/icons-logotype/ModuleBankMColorIcon';",
         "android": "logotype_module_bank_m_color",
@@ -530,7 +530,7 @@
         "url": "https://alfabank.servicecdn.ru/icons/logotype_odnoklassniki_m.svg"
     },
     "OfficeAClubDarkDisableMIcon": {
-        "description": "[logotype_office_a_club_dark_disable_m]",
+        "description": "[logotype_office-a-club-dark-disable_m]",
         "web": "OfficeAClubDarkDisableMIcon",
         "webComponent": "import { OfficeAClubDarkDisableMIcon } from '@alfalab/icons-logotype/OfficeAClubDarkDisableMIcon';",
         "android": "logotype_office_a_club_dark_disable_m",
@@ -540,7 +540,7 @@
         "url": "https://alfabank.servicecdn.ru/icons/logotype_office-a-club-dark-disable_m.svg"
     },
     "OfficeAClubDarkMIcon": {
-        "description": "[logotype_office_a_club_dark_m]",
+        "description": "[logotype_office-a-club-dark_m]",
         "web": "OfficeAClubDarkMIcon",
         "webComponent": "import { OfficeAClubDarkMIcon } from '@alfalab/icons-logotype/OfficeAClubDarkMIcon';",
         "android": "logotype_office_a_club_dark_m",
@@ -550,7 +550,7 @@
         "url": "https://alfabank.servicecdn.ru/icons/logotype_office-a-club-dark_m.svg"
     },
     "OfficeAClubLightDisableMIcon": {
-        "description": "[logotype_office_a_club_light_disable_m]",
+        "description": "[logotype_office-a-club-light-disable_m]",
         "web": "OfficeAClubLightDisableMIcon",
         "webComponent": "import { OfficeAClubLightDisableMIcon } from '@alfalab/icons-logotype/OfficeAClubLightDisableMIcon';",
         "android": "logotype_office_a_club_light_disable_m",
@@ -560,7 +560,7 @@
         "url": "https://alfabank.servicecdn.ru/icons/logotype_office-a-club-light-disable_m.svg"
     },
     "OfficeAClubLightMIcon": {
-        "description": "[logotype_office_a_club_light_m]",
+        "description": "[logotype_office-a-club-light_m]",
         "web": "OfficeAClubLightMIcon",
         "webComponent": "import { OfficeAClubLightMIcon } from '@alfalab/icons-logotype/OfficeAClubLightMIcon';",
         "android": "logotype_office_a_club_light_m",
@@ -570,7 +570,7 @@
         "url": "https://alfabank.servicecdn.ru/icons/logotype_office-a-club-light_m.svg"
     },
     "OtkritieBankMColorIcon": {
-        "description": "[logotype_otkritie_bank_m_color]",
+        "description": "[logotype_otkritie-bank_m_color]",
         "web": "OtkritieBankMColorIcon",
         "webComponent": "import { OtkritieBankMColorIcon } from '@alfalab/icons-logotype/OtkritieBankMColorIcon';",
         "android": "logotype_otkritie_bank_m_color",
@@ -590,7 +590,7 @@
         "url": "https://alfabank.servicecdn.ru/icons/logotype_paypass_xs.svg"
     },
     "PerekrestokMIcon": {
-        "description": "[logotype_perekrestok_m]",
+        "description": "[logotype_perekrestok_m_color]",
         "web": "PerekrestokMIcon",
         "webComponent": "import { PerekrestokMIcon } from '@alfalab/icons-logotype/PerekrestokMIcon';",
         "android": "logotype_perekrestok_m",
@@ -600,7 +600,7 @@
         "url": "https://alfabank.servicecdn.ru/icons/logotype_perekrestok_m.svg"
     },
     "PerekrestokSIcon": {
-        "description": "[logotype_perekrestok_s]",
+        "description": "[logotype_perekrestok_s_color]",
         "web": "PerekrestokSIcon",
         "webComponent": "import { PerekrestokSIcon } from '@alfalab/icons-logotype/PerekrestokSIcon';",
         "android": "logotype_perekrestok_s",
@@ -650,7 +650,7 @@
         "url": "https://alfabank.servicecdn.ru/icons/logotype_samsung-pay_m.svg"
     },
     "SberBankMColorIcon": {
-        "description": "[logotype_sber_bank_m_color]",
+        "description": "[logotype_sber-bank_m_color]",
         "web": "SberBankMColorIcon",
         "webComponent": "import { SberBankMColorIcon } from '@alfalab/icons-logotype/SberBankMColorIcon';",
         "android": "logotype_sber_bank_m_color",
@@ -660,7 +660,7 @@
         "url": "https://alfabank.servicecdn.ru/icons/logotype_sber-bank_m_color.svg"
     },
     "SbpCircleMColorIcon": {
-        "description": "[logotype_sbp_circle_m_color]",
+        "description": "[logotype_sbp-circle_m_color]",
         "web": "SbpCircleMColorIcon",
         "webComponent": "import { SbpCircleMColorIcon } from '@alfalab/icons-logotype/SbpCircleMColorIcon';",
         "android": "logotype_sbp_circle_m_color",
@@ -670,7 +670,7 @@
         "url": "https://alfabank.servicecdn.ru/icons/logotype_sbp-circle_m_color.svg"
     },
     "SbpFullMColorIcon": {
-        "description": "[logotype_sbp_full_m_color]",
+        "description": "[logotype_sbp-full_m_color]",
         "web": "SbpFullMColorIcon",
         "webComponent": "import { SbpFullMColorIcon } from '@alfalab/icons-logotype/SbpFullMColorIcon';",
         "android": "logotype_sbp_full_m_color",
@@ -680,7 +680,7 @@
         "url": "https://alfabank.servicecdn.ru/icons/logotype_sbp-full_m_color.svg"
     },
     "SbpPayMIcon": {
-        "description": "spb pay\n[logotype_sbp_pay_m]",
+        "description": "spb pay\n[logotype_sbp-pay_m]",
         "web": "SbpPayMIcon",
         "webComponent": "import { SbpPayMIcon } from '@alfalab/icons-logotype/SbpPayMIcon';",
         "android": "logotype_sbp_pay_m",
@@ -730,7 +730,7 @@
         "url": "https://alfabank.servicecdn.ru/icons/logotype_sfa_xs_color.svg"
     },
     "SubwayMoscowMIcon": {
-        "description": "[logotype_subway_moscow_m]",
+        "description": "[logotype_subway-moscow_m]",
         "web": "SubwayMoscowMIcon",
         "webComponent": "import { SubwayMoscowMIcon } from '@alfalab/icons-logotype/SubwayMoscowMIcon';",
         "android": "logotype_subway_moscow_m",
@@ -770,7 +770,7 @@
         "url": "https://alfabank.servicecdn.ru/icons/logotype_telegram_m.svg"
     },
     "TinkoffBankMColorIcon": {
-        "description": "[logotype_tinkoff_bank_m_color]",
+        "description": "[logotype_tinkoff-bank_m_color]",
         "web": "TinkoffBankMColorIcon",
         "webComponent": "import { TinkoffBankMColorIcon } from '@alfalab/icons-logotype/TinkoffBankMColorIcon';",
         "android": "logotype_tinkoff_bank_m_color",
@@ -780,7 +780,7 @@
         "url": "https://alfabank.servicecdn.ru/icons/logotype_tinkoff-bank_m_color.svg"
     },
     "TochkaBankMColorIcon": {
-        "description": "Original project made by Stepan Voevodin – https://www.figma.com/community/file/863381574197862284\n[logotype_tochka_bank_m_color]",
+        "description": "Original project made by Stepan Voevodin – https://www.figma.com/community/file/863381574197862284\n[logotype_tochka-bank_m_color]",
         "web": "TochkaBankMColorIcon",
         "webComponent": "import { TochkaBankMColorIcon } from '@alfalab/icons-logotype/TochkaBankMColorIcon';",
         "android": "logotype_tochka_bank_m_color",

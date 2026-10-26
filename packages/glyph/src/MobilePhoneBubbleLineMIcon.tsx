@@ -2,10 +2,19 @@
  * This is auto-generated file by scripts/svg-to-component package
  * Do not edit it manually
  */
-import React, { SVGProps } from 'react';
+import React, { SVGProps, forwardRef } from 'react';
 
-export const MobilePhoneBubbleLineMIcon: React.FC<SVGProps<SVGSVGElement>> = (props) => (
-    <svg role="img" focusable="false" fill="currentColor" width="24" height="24" viewBox="0 0 24 24" {...props}>
+export const MobilePhoneBubbleLineMIcon = forwardRef<SVGSVGElement, SVGProps<SVGSVGElement>>((props, ref) => (
+    <svg
+        ref={ref}
+        role="img"
+        focusable="false"
+        fill="currentColor"
+        width="24"
+        height="24"
+        viewBox="0 0 24 24"
+        {...props}
+    >
         <path d="M4.941 3C3.87 3 3 3.806 3 4.8v14.4c0 .994.87 1.8 1.941 1.8h7.765c1.072 0 1.941-.806 1.941-1.8v-.362a3.45 3.45 0 01-.53.044H13.06v.318c0 .018-.005.057-.06.108a.428.428 0 01-.293.104H4.94a.428.428 0 01-.293-.104c-.055-.051-.06-.09-.06-.108V4.8c0-.018.005-.057.06-.108a.428.428 0 01.293-.104h5.885a8.347 8.347 0 013.294-1.021A2.01 2.01 0 0012.706 3H4.94z" />
         <path d="M7.765 17.294a.53.53 0 100 1.059h2.117a.53.53 0 100-1.059H7.765z" />
         <path
@@ -14,6 +23,8 @@ export const MobilePhoneBubbleLineMIcon: React.FC<SVGProps<SVGSVGElement>> = (pr
             clipRule="evenodd"
         />
     </svg>
-);
+));
+
+MobilePhoneBubbleLineMIcon.displayName = 'MobilePhoneBubbleLineMIcon';
 
 export default MobilePhoneBubbleLineMIcon;

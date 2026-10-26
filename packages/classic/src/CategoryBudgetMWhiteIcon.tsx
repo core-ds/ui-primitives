@@ -2,10 +2,10 @@
  * This is auto-generated file by scripts/svg-to-component package
  * Do not edit it manually
  */
-import React, { SVGProps } from 'react';
+import React, { SVGProps, forwardRef } from 'react';
 
-export const CategoryBudgetMWhiteIcon: React.FC<SVGProps<SVGSVGElement>> = (props) => (
-    <svg role="img" focusable="false" width="24" height="24" viewBox="0 0 24 24" {...props} fill="none">
+export const CategoryBudgetMWhiteIcon = forwardRef<SVGSVGElement, SVGProps<SVGSVGElement>>((props, ref) => (
+    <svg ref={ref} role="img" focusable="false" width="24" height="24" viewBox="0 0 24 24" {...props} fill="none">
         <path
             d="M9.5 11.974c0-.538.449-.974 1.002-.974h2.996c.554 0 1.002.436 1.002.974v2.671c0 .74-.618 1.341-1.38 1.341a.93.93 0 00-.701.316l-.149.17a.36.36 0 01-.54 0l-.149-.17a.93.93 0 00-.701-.316c-.762 0-1.38-.6-1.38-1.34v-2.672zM10.659 3.5h2.682c.434-.585.658-.87.897-1.295C14.902 1.031 14.355 0 12 0S9.098 1.03 9.762 2.205c.24.424.463.563.897 1.295z"
             fill="#fff"
@@ -18,6 +18,8 @@ export const CategoryBudgetMWhiteIcon: React.FC<SVGProps<SVGSVGElement>> = (prop
             clipRule="evenodd"
         />
     </svg>
-);
+));
+
+CategoryBudgetMWhiteIcon.displayName = 'CategoryBudgetMWhiteIcon';
 
 export default CategoryBudgetMWhiteIcon;

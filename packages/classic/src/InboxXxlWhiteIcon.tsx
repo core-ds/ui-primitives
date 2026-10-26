@@ -2,10 +2,10 @@
  * This is auto-generated file by scripts/svg-to-component package
  * Do not edit it manually
  */
-import React, { SVGProps } from 'react';
+import React, { SVGProps, forwardRef } from 'react';
 
-export const InboxXxlWhiteIcon: React.FC<SVGProps<SVGSVGElement>> = (props) => (
-    <svg role="img" focusable="false" width="41" height="46" viewBox="0 0 41 46" {...props}>
+export const InboxXxlWhiteIcon = forwardRef<SVGSVGElement, SVGProps<SVGSVGElement>>((props, ref) => (
+    <svg ref={ref} role="img" focusable="false" width="41" height="46" viewBox="0 0 41 46" {...props}>
         <g fill="none" fillRule="evenodd">
             <path d="M-4 0h48v48H-4z" />
             <path
@@ -19,6 +19,8 @@ export const InboxXxlWhiteIcon: React.FC<SVGProps<SVGSVGElement>> = (props) => (
             <path fill="#FFF" d="M21 23.3V0h-1v23.3l-7.1-7.2-.8.8 8.4 8.3 8.4-8.3-.8-.8z" opacity=".3" />
         </g>
     </svg>
-);
+));
+
+InboxXxlWhiteIcon.displayName = 'InboxXxlWhiteIcon';
 
 export default InboxXxlWhiteIcon;

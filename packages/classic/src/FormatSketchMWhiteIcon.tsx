@@ -2,10 +2,10 @@
  * This is auto-generated file by scripts/svg-to-component package
  * Do not edit it manually
  */
-import React, { SVGProps } from 'react';
+import React, { SVGProps, forwardRef } from 'react';
 
-export const FormatSketchMWhiteIcon: React.FC<SVGProps<SVGSVGElement>> = (props) => (
-    <svg role="img" focusable="false" width="22" height="24" viewBox="0 0 22 24" {...props}>
+export const FormatSketchMWhiteIcon = forwardRef<SVGSVGElement, SVGProps<SVGSVGElement>>((props, ref) => (
+    <svg ref={ref} role="img" focusable="false" width="22" height="24" viewBox="0 0 22 24" {...props}>
         <g fill="#FFF" fillRule="evenodd">
             <path d="M18 7h-1V3c0-1.103-.897-2-2-2H5.707L1 5.707V6H0v-.707L5.293 0H15c1.654 0 3 1.346 3 3v4z" />
             <path d="M9 22H3c-1.654 0-3-1.346-3-3V6h1v13c0 1.103.897 2 2 2h6v1zm4.503 1.234l-8.131-8.673L8.848 9h9.301l3.48 5.431-8.126 8.803zm-6.875-8.796l6.869 7.327 6.874-7.446L17.602 10H9.403l-2.775 4.438z" />
@@ -15,6 +15,8 @@ export const FormatSketchMWhiteIcon: React.FC<SVGProps<SVGSVGElement>> = (props)
             <path d="M13.049 22.29l3.743-8.003.905.424-3.742 8.003z" />
         </g>
     </svg>
-);
+));
+
+FormatSketchMWhiteIcon.displayName = 'FormatSketchMWhiteIcon';
 
 export default FormatSketchMWhiteIcon;

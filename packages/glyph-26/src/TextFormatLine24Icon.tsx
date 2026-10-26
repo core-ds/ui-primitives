@@ -2,10 +2,19 @@
  * This is auto-generated file by scripts/svg-to-component package
  * Do not edit it manually
  */
-import React, { SVGProps } from 'react';
+import React, { SVGProps, forwardRef } from 'react';
 
-export const TextFormatLine24Icon: React.FC<SVGProps<SVGSVGElement>> = (props) => (
-    <svg role="img" focusable="false" fill="currentColor" width="24" height="24" viewBox="0 0 24 24" {...props}>
+export const TextFormatLine24Icon = forwardRef<SVGSVGElement, SVGProps<SVGSVGElement>>((props, ref) => (
+    <svg
+        ref={ref}
+        role="img"
+        focusable="false"
+        fill="currentColor"
+        width="24"
+        height="24"
+        viewBox="0 0 24 24"
+        {...props}
+    >
         <path d="M1 21h2L8.25 3h-2L1 21z" />
         <path d="M13.5 21h-2L6.25 3h2l5.25 18z" />
         <path d="M4 14h7v2H4v-2z" />
@@ -15,6 +24,8 @@ export const TextFormatLine24Icon: React.FC<SVGProps<SVGSVGElement>> = (props) =
             clipRule="evenodd"
         />
     </svg>
-);
+));
+
+TextFormatLine24Icon.displayName = 'TextFormatLine24Icon';
 
 export default TextFormatLine24Icon;

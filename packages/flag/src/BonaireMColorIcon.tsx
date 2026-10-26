@@ -2,10 +2,10 @@
  * This is auto-generated file by scripts/svg-to-component package
  * Do not edit it manually
  */
-import React, { SVGProps } from 'react';
+import React, { SVGProps, forwardRef } from 'react';
 
-export const BonaireMColorIcon: React.FC<SVGProps<SVGSVGElement>> = (props) => (
-    <svg role="img" focusable="false" width="24" height="24" viewBox="0 0 24 24" {...props} fill="none">
+export const BonaireMColorIcon = forwardRef<SVGSVGElement, SVGProps<SVGSVGElement>>((props, ref) => (
+    <svg ref={ref} role="img" focusable="false" width="24" height="24" viewBox="0 0 24 24" {...props} fill="none">
         <path
             d="M23.963 5.573a1.763 1.763 0 00-.223-.57 1.819 1.819 0 00-.382-.444L.642 19.44c.313.263.715.421 1.155.421h20.406c.992 0 1.797-.805 1.797-1.797V5.935a1.73 1.73 0 00-.037-.362z"
             fill="#41479B"
@@ -27,6 +27,8 @@ export const BonaireMColorIcon: React.FC<SVGProps<SVGSVGElement>> = (props) => (
             fill="#FF4B55"
         />
     </svg>
-);
+));
+
+BonaireMColorIcon.displayName = 'BonaireMColorIcon';
 
 export default BonaireMColorIcon;

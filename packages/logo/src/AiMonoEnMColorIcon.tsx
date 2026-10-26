@@ -2,10 +2,10 @@
  * This is auto-generated file by scripts/svg-to-component package
  * Do not edit it manually
  */
-import React, { SVGProps } from 'react';
+import React, { SVGProps, forwardRef } from 'react';
 
-export const AiMonoEnMColorIcon: React.FC<SVGProps<SVGSVGElement>> = (props) => (
-    <svg role="img" focusable="false" width="93" height="24" viewBox="0 0 93 24" {...props} fill="none">
+export const AiMonoEnMColorIcon = forwardRef<SVGSVGElement, SVGProps<SVGSVGElement>>((props, ref) => (
+    <svg ref={ref} role="img" focusable="false" width="93" height="24" viewBox="0 0 93 24" {...props} fill="none">
         <path
             d="M21.824 21.687V7.72h3.646v13.967h-3.646zm1.831-15.768a1.918 1.918 0 01-1.395-.573 1.912 1.912 0 01-.573-1.391c0-.533.19-.991.573-1.373A1.903 1.903 0 0123.655 2c.543 0 1.005.194 1.387.582.388.382.582.84.582 1.373 0 .54-.194 1.003-.582 1.391a1.89 1.89 0 01-1.387.573z"
             fill="url(#prefix__paint0_linear_4615_115)"
@@ -45,6 +45,8 @@ export const AiMonoEnMColorIcon: React.FC<SVGProps<SVGSVGElement>> = (props) => 
             </linearGradient>
         </defs>
     </svg>
-);
+));
+
+AiMonoEnMColorIcon.displayName = 'AiMonoEnMColorIcon';
 
 export default AiMonoEnMColorIcon;

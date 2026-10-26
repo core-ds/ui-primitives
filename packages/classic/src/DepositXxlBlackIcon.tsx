@@ -2,10 +2,10 @@
  * This is auto-generated file by scripts/svg-to-component package
  * Do not edit it manually
  */
-import React, { SVGProps } from 'react';
+import React, { SVGProps, forwardRef } from 'react';
 
-export const DepositXxlBlackIcon: React.FC<SVGProps<SVGSVGElement>> = (props) => (
-    <svg role="img" focusable="false" width="44" height="42" viewBox="0 0 44 42" {...props}>
+export const DepositXxlBlackIcon = forwardRef<SVGSVGElement, SVGProps<SVGSVGElement>>((props, ref) => (
+    <svg ref={ref} role="img" focusable="false" width="44" height="42" viewBox="0 0 44 42" {...props}>
         <g fill="none" transform="translate(-2 -4)" fillRule="evenodd">
             <path d="M0 0h48v48H0z" />
             <path
@@ -21,6 +21,8 @@ export const DepositXxlBlackIcon: React.FC<SVGProps<SVGSVGElement>> = (props) =>
             <path fill="#0B1F35" d="M15 46H8v-4h7v4zm-6-1h5v-2H9v2zm30 1h-7v-4h7v4zm-6-1h5v-2h-5v2z" />
         </g>
     </svg>
-);
+));
+
+DepositXxlBlackIcon.displayName = 'DepositXxlBlackIcon';
 
 export default DepositXxlBlackIcon;

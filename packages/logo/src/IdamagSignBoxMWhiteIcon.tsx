@@ -2,10 +2,10 @@
  * This is auto-generated file by scripts/svg-to-component package
  * Do not edit it manually
  */
-import React, { SVGProps } from 'react';
+import React, { SVGProps, forwardRef } from 'react';
 
-export const IdamagSignBoxMWhiteIcon: React.FC<SVGProps<SVGSVGElement>> = (props) => (
-    <svg role="img" focusable="false" width="24" height="24" viewBox="0 0 24 24" {...props} fill="none">
+export const IdamagSignBoxMWhiteIcon = forwardRef<SVGSVGElement, SVGProps<SVGSVGElement>>((props, ref) => (
+    <svg ref={ref} role="img" focusable="false" width="24" height="24" viewBox="0 0 24 24" {...props} fill="none">
         <path
             d="M18.974 2c.029-.003.044.01.044.038a3.5 3.5 0 01-.197 1.43 1.813 1.813 0 01-.952 1 2.12 2.12 0 01-1.105.176.245.245 0 01-.098-.125c-.227-.63-.139-1.21.264-1.742.28-.323.627-.546 1.04-.668.17-.05.341-.086.516-.108h.488z"
             fill="#fff"
@@ -17,6 +17,8 @@ export const IdamagSignBoxMWhiteIcon: React.FC<SVGProps<SVGSVGElement>> = (props
             clipRule="evenodd"
         />
     </svg>
-);
+));
+
+IdamagSignBoxMWhiteIcon.displayName = 'IdamagSignBoxMWhiteIcon';
 
 export default IdamagSignBoxMWhiteIcon;

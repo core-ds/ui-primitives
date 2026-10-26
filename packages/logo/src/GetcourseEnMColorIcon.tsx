@@ -2,10 +2,10 @@
  * This is auto-generated file by scripts/svg-to-component package
  * Do not edit it manually
  */
-import React, { SVGProps } from 'react';
+import React, { SVGProps, forwardRef } from 'react';
 
-export const GetcourseEnMColorIcon: React.FC<SVGProps<SVGSVGElement>> = (props) => (
-    <svg role="img" focusable="false" width="166" height="24" viewBox="0 0 166 24" {...props} fill="none">
+export const GetcourseEnMColorIcon = forwardRef<SVGSVGElement, SVGProps<SVGSVGElement>>((props, ref) => (
+    <svg ref={ref} role="img" focusable="false" width="166" height="24" viewBox="0 0 166 24" {...props} fill="none">
         <path
             d="M16.315 20.094c-1.394 1.177-3 1.766-4.817 1.766-1.267 0-2.478-.221-3.634-.662a8.848 8.848 0 01-3.028-1.986c-.863-.865-1.551-1.922-2.065-3.172C2.257 14.79 2 13.364 2 11.764c0-1.379.257-2.657.77-3.834a9.358 9.358 0 012.12-3.089 9.744 9.744 0 013.167-2.069C9.287 2.257 10.607 2 12.02 2c.88 0 1.725.101 2.533.303.807.184 1.55.47 2.23.856a8.114 8.114 0 011.872 1.351c.55.515 1 1.103 1.349 1.765l-3.992 3.062a4.418 4.418 0 00-1.735-1.848 4.57 4.57 0 00-2.45-.717A3.993 3.993 0 008.69 8.234a5.131 5.131 0 00-.909 1.655 6.19 6.19 0 00-.33 2.068c0 .773.11 1.471.33 2.097.22.625.523 1.167.909 1.627.403.441.88.79 1.431 1.048.55.24 1.166.359 1.845.359 1.56 0 2.936-.644 4.13-1.931h-3.387v-3.862h8.039v10.427h-4.433v-1.628zm20.365-2.949v4.69H22.75V2.25h13.682v4.69h-8.314v2.758h7.103v4.358h-7.103v3.09h8.562zM54.81 6.94h-5.617v14.894h-5.368V6.94h-5.643V2.25h16.627v4.69z"
             fill="#013A4C"
@@ -15,6 +15,8 @@ export const GetcourseEnMColorIcon: React.FC<SVGProps<SVGSVGElement>> = (props) 
             fill="#22C2B5"
         />
     </svg>
-);
+));
+
+GetcourseEnMColorIcon.displayName = 'GetcourseEnMColorIcon';
 
 export default GetcourseEnMColorIcon;

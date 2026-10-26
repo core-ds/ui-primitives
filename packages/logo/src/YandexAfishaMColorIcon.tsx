@@ -2,10 +2,10 @@
  * This is auto-generated file by scripts/svg-to-component package
  * Do not edit it manually
  */
-import React, { SVGProps } from 'react';
+import React, { SVGProps, forwardRef } from 'react';
 
-export const YandexAfishaMColorIcon: React.FC<SVGProps<SVGSVGElement>> = (props) => (
-    <svg role="img" focusable="false" width="152" height="24" viewBox="0 0 152 24" {...props} fill="none">
+export const YandexAfishaMColorIcon = forwardRef<SVGSVGElement, SVGProps<SVGSVGElement>>((props, ref) => (
+    <svg ref={ref} role="img" focusable="false" width="152" height="24" viewBox="0 0 152 24" {...props} fill="none">
         <path
             d="M21.38 11.69c0 .115-.003.23-.007.344-.181 5.181-4.439 9.326-9.664 9.326-5.34 0-9.67-4.33-9.67-9.67 0-5.341 4.33-9.67 9.67-9.67 4.695 0 8.609 3.346 9.486 7.783.121.61.184 1.241.184 1.887z"
             fill="#C4C4C4"
@@ -33,6 +33,8 @@ export const YandexAfishaMColorIcon: React.FC<SVGProps<SVGSVGElement>> = (props)
             clipRule="evenodd"
         />
     </svg>
-);
+));
+
+YandexAfishaMColorIcon.displayName = 'YandexAfishaMColorIcon';
 
 export default YandexAfishaMColorIcon;

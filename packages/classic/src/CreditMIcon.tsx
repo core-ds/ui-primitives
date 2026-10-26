@@ -2,10 +2,19 @@
  * This is auto-generated file by scripts/svg-to-component package
  * Do not edit it manually
  */
-import React, { SVGProps } from 'react';
+import React, { SVGProps, forwardRef } from 'react';
 
-export const CreditMIcon: React.FC<SVGProps<SVGSVGElement>> = (props) => (
-    <svg role="img" focusable="false" fill="currentColor" width="24" height="24" viewBox="0 0 24 24" {...props}>
+export const CreditMIcon = forwardRef<SVGSVGElement, SVGProps<SVGSVGElement>>((props, ref) => (
+    <svg
+        ref={ref}
+        role="img"
+        focusable="false"
+        fill="currentColor"
+        width="24"
+        height="24"
+        viewBox="0 0 24 24"
+        {...props}
+    >
         <path d="M19.5 23h-17A2.503 2.503 0 010 20.5v-16C0 3.122 1.121 2 2.5 2H5v1H2.5C1.673 3 1 3.673 1 4.5v16c0 .827.673 1.5 1.5 1.5h17c.827 0 1.5-.673 1.5-1.5v-16c0-.827-.673-1.5-1.5-1.5H17V2h2.5C20.879 2 22 3.122 22 4.5v16c0 1.378-1.121 2.5-2.5 2.5z" />
         <path d="M7 2h8v1H7z" />
         <path
@@ -17,6 +26,8 @@ export const CreditMIcon: React.FC<SVGProps<SVGSVGElement>> = (props) => (
             opacity=".3"
         />
     </svg>
-);
+));
+
+CreditMIcon.displayName = 'CreditMIcon';
 
 export default CreditMIcon;

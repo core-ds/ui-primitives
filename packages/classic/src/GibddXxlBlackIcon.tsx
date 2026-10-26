@@ -2,10 +2,10 @@
  * This is auto-generated file by scripts/svg-to-component package
  * Do not edit it manually
  */
-import React, { SVGProps } from 'react';
+import React, { SVGProps, forwardRef } from 'react';
 
-export const GibddXxlBlackIcon: React.FC<SVGProps<SVGSVGElement>> = (props) => (
-    <svg role="img" focusable="false" width="48" height="48" viewBox="0 0 48 48" {...props} fill="none">
+export const GibddXxlBlackIcon = forwardRef<SVGSVGElement, SVGProps<SVGSVGElement>>((props, ref) => (
+    <svg ref={ref} role="img" focusable="false" width="48" height="48" viewBox="0 0 48 48" {...props} fill="none">
         <path
             d="M38.735 19.117a5.002 5.002 0 013.909 5.216L42 34v2a3 3 0 11-6 0v-2H12v2a3 3 0 11-6 0v-2l-.645-9.667a5.002 5.002 0 013.91-5.217c.86-2.85 1.367-4.377 2.262-5.556a9 9 0 014.019-2.99C17.07 10 18.86 10 22.44 10h3.12c3.58 0 5.37 0 6.894.57a9 9 0 014.02 2.99c.894 1.18 1.401 2.706 2.26 5.557zM15.09 14.44c-.853.842-1.266 2.081-2.09 4.559h22c-.83-2.483-1.244-3.725-2.102-4.567a4.999 4.999 0 00-1.23-.886C30.599 13 29.289 13 26.672 13H21.32c-2.611 0-3.917 0-4.986.544a5.001 5.001 0 00-1.244.897zM36 29a3 3 0 100-6 3 3 0 000 6zm-24 0a3 3 0 100-6 3 3 0 000 6z"
             fill="#0B1F35"
@@ -17,6 +17,8 @@ export const GibddXxlBlackIcon: React.FC<SVGProps<SVGSVGElement>> = (props) => (
             fill="#0B1F35"
         />
     </svg>
-);
+));
+
+GibddXxlBlackIcon.displayName = 'GibddXxlBlackIcon';
 
 export default GibddXxlBlackIcon;

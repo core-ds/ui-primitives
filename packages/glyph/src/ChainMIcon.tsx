@@ -2,10 +2,19 @@
  * This is auto-generated file by scripts/svg-to-component package
  * Do not edit it manually
  */
-import React, { SVGProps } from 'react';
+import React, { SVGProps, forwardRef } from 'react';
 
-export const ChainMIcon: React.FC<SVGProps<SVGSVGElement>> = (props) => (
-    <svg role="img" focusable="false" fill="currentColor" width="24" height="24" viewBox="0 0 24 24" {...props}>
+export const ChainMIcon = forwardRef<SVGSVGElement, SVGProps<SVGSVGElement>>((props, ref) => (
+    <svg
+        ref={ref}
+        role="img"
+        focusable="false"
+        fill="currentColor"
+        width="24"
+        height="24"
+        viewBox="0 0 24 24"
+        {...props}
+    >
         <path
             d="M5.293 11.292l-1.671 1.672a5 5 0 000 7.07l.343.344a5 5 0 007.07 0l3.344-3.343a5 5 0 000-7.071l-.343-.343a5.034 5.034 0 00-.625-.532l-1.447 1.447c.235.132.457.298.658.499l.343.343a3 3 0 010 4.243l-3.343 3.343a3 3 0 01-4.243 0l-.343-.343a3 3 0 010-4.243l1.671-1.672-1.414-1.414z"
             fillRule="evenodd"
@@ -17,6 +26,8 @@ export const ChainMIcon: React.FC<SVGProps<SVGSVGElement>> = (props) => (
             clipRule="evenodd"
         />
     </svg>
-);
+));
+
+ChainMIcon.displayName = 'ChainMIcon';
 
 export default ChainMIcon;

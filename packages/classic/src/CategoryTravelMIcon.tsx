@@ -2,10 +2,19 @@
  * This is auto-generated file by scripts/svg-to-component package
  * Do not edit it manually
  */
-import React, { SVGProps } from 'react';
+import React, { SVGProps, forwardRef } from 'react';
 
-export const CategoryTravelMIcon: React.FC<SVGProps<SVGSVGElement>> = (props) => (
-    <svg role="img" focusable="false" fill="currentColor" width="24" height="24" viewBox="0 0 24 24" {...props}>
+export const CategoryTravelMIcon = forwardRef<SVGSVGElement, SVGProps<SVGSVGElement>>((props, ref) => (
+    <svg
+        ref={ref}
+        role="img"
+        focusable="false"
+        fill="currentColor"
+        width="24"
+        height="24"
+        viewBox="0 0 24 24"
+        {...props}
+    >
         <path d="M9 22a1 1 0 001 1h4a1 1 0 001-1v-2H9v2z" opacity=".3" />
         <path d="M14.706 17.764v-.5c0-1.093.817-1.786 1.851-2.663l.268-.229a7.984 7.984 0 001.392-1.341c1.021-1.178 1.588-2.541 1.734-4.161.031-.286.049-.576.049-.87 0-4.411-3.589-8-8-8S4 3.589 4 8c0 .294.018.584.048.86.147 1.632.717 2.998 1.73 4.163.4.494.87.948 1.374 1.329l.292.248c1.034.877 1.851 1.57 1.851 2.663v.5h5.411v.001zM8.09 13.838l-.311-.264a7.088 7.088 0 01-1.235-1.193c-.894-1.028-1.371-2.176-1.501-3.619A7.104 7.104 0 015 8c0-3.859 3.14-7 7-7s7 3.141 7 7c0 .257-.016.512-.044.771-.129 1.435-.606 2.582-1.5 3.61l-.011.014a7.097 7.097 0 01-1.248 1.198l-.287.245c-1.006.854-1.963 1.666-2.165 2.926h-3.49c-.202-1.26-1.159-2.073-2.165-2.926z" />
         <path
@@ -13,6 +22,8 @@ export const CategoryTravelMIcon: React.FC<SVGProps<SVGSVGElement>> = (props) =>
             opacity=".3"
         />
     </svg>
-);
+));
+
+CategoryTravelMIcon.displayName = 'CategoryTravelMIcon';
 
 export default CategoryTravelMIcon;

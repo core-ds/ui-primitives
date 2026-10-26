@@ -2,10 +2,10 @@
  * This is auto-generated file by scripts/svg-to-component package
  * Do not edit it manually
  */
-import React, { SVGProps } from 'react';
+import React, { SVGProps, forwardRef } from 'react';
 
-export const CategoryScholarshipXlBlackIcon: React.FC<SVGProps<SVGSVGElement>> = (props) => (
-    <svg role="img" focusable="false" width="32" height="27" viewBox="0 0 32 27" {...props}>
+export const CategoryScholarshipXlBlackIcon = forwardRef<SVGSVGElement, SVGProps<SVGSVGElement>>((props, ref) => (
+    <svg ref={ref} role="img" focusable="false" width="32" height="27" viewBox="0 0 32 27" {...props}>
         <g fill="none" transform="translate(-2 -5)" fillRule="evenodd">
             <path fill="#0B1F35" d="M30 15.945l2-1.187V25h-2z" opacity=".3" />
             <ellipse cx="18" cy="14" fill="#0B1F35" opacity=".3" rx="3" ry="1" />
@@ -15,6 +15,8 @@ export const CategoryScholarshipXlBlackIcon: React.FC<SVGProps<SVGSVGElement>> =
             />
         </g>
     </svg>
-);
+));
+
+CategoryScholarshipXlBlackIcon.displayName = 'CategoryScholarshipXlBlackIcon';
 
 export default CategoryScholarshipXlBlackIcon;

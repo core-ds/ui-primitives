@@ -2,12 +2,23 @@
  * This is auto-generated file by scripts/svg-to-component package
  * Do not edit it manually
  */
-import React, { SVGProps } from 'react';
+import React, { SVGProps, forwardRef } from 'react';
 
-export const OverdraftSignBoxLine24Icon: React.FC<SVGProps<SVGSVGElement>> = (props) => (
-    <svg role="img" focusable="false" fill="currentColor" width="24" height="24" viewBox="0 0 24 24" {...props}>
+export const OverdraftSignBoxLine24Icon = forwardRef<SVGSVGElement, SVGProps<SVGSVGElement>>((props, ref) => (
+    <svg
+        ref={ref}
+        role="img"
+        focusable="false"
+        fill="currentColor"
+        width="24"
+        height="24"
+        viewBox="0 0 24 24"
+        {...props}
+    >
         <path d="M12 2.001a9.96 9.96 0 016.33 2.258l.04-.034a1 1 0 011.405 1.406l-.035.038A9.959 9.959 0 0122 12a9.959 9.959 0 01-2.259 6.33l.034.038a1 1 0 01-1.406 1.406l-.038-.034A9.958 9.958 0 0112 22.001a9.959 9.959 0 01-6.332-2.26.998.998 0 01-1.41-1.41A9.96 9.96 0 012 12.001a9.96 9.96 0 012.259-6.332.999.999 0 011.41-1.41A9.96 9.96 0 0112 2zm2.757 14.17c-.79.524-1.738.83-2.757.83a4.975 4.975 0 01-2.758-.83l-2.147 2.147A7.963 7.963 0 0012 20.001c1.849 0 3.55-.63 4.904-1.683l-2.147-2.147zM5.682 7.096A7.964 7.964 0 004 12c0 1.848.628 3.549 1.68 4.903l2.148-2.147A4.976 4.976 0 017 12c0-1.02.305-1.967.83-2.758L5.681 7.096zM16.17 9.243c.524.79.83 1.738.83 2.758a4.975 4.975 0 01-.83 2.756l2.148 2.147A7.963 7.963 0 0020 12.001c0-1.85-.63-3.55-1.683-4.905L16.17 9.243zM12 9.001a3 3 0 100 6 3 3 0 000-6zm0-5c-1.848 0-3.55.628-4.904 1.68L9.243 7.83A4.977 4.977 0 0112 7.001c1.019 0 1.966.305 2.756.828l2.147-2.147A7.963 7.963 0 0012 4z" />
     </svg>
-);
+));
+
+OverdraftSignBoxLine24Icon.displayName = 'OverdraftSignBoxLine24Icon';
 
 export default OverdraftSignBoxLine24Icon;

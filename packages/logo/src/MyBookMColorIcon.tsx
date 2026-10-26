@@ -2,10 +2,10 @@
  * This is auto-generated file by scripts/svg-to-component package
  * Do not edit it manually
  */
-import React, { SVGProps } from 'react';
+import React, { SVGProps, forwardRef } from 'react';
 
-export const MyBookMColorIcon: React.FC<SVGProps<SVGSVGElement>> = (props) => (
-    <svg role="img" focusable="false" width="81" height="24" viewBox="0 0 81 24" {...props} fill="none">
+export const MyBookMColorIcon = forwardRef<SVGSVGElement, SVGProps<SVGSVGElement>>((props, ref) => (
+    <svg ref={ref} role="img" focusable="false" width="81" height="24" viewBox="0 0 81 24" {...props} fill="none">
         <path
             d="M4.75 21.625C3.25 21.5 2 20.188 2 18.75V5.25C2 3.813 3.25 2.5 4.75 2.375c4.813-.5 9.688-.5 14.563 0C20.75 2.5 22 3.813 22 5.25v13.5c0 1.438-1.25 2.75-2.75 2.875A69.52 69.52 0 0112 22a69.52 69.52 0 01-7.25-.375z"
             fill="url(#prefix__paint0_linear_4424_142)"
@@ -36,6 +36,8 @@ export const MyBookMColorIcon: React.FC<SVGProps<SVGSVGElement>> = (props) => (
             </linearGradient>
         </defs>
     </svg>
-);
+));
+
+MyBookMColorIcon.displayName = 'MyBookMColorIcon';
 
 export default MyBookMColorIcon;

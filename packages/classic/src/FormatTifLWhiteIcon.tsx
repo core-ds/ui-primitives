@@ -2,10 +2,10 @@
  * This is auto-generated file by scripts/svg-to-component package
  * Do not edit it manually
  */
-import React, { SVGProps } from 'react';
+import React, { SVGProps, forwardRef } from 'react';
 
-export const FormatTifLWhiteIcon: React.FC<SVGProps<SVGSVGElement>> = (props) => (
-    <svg role="img" focusable="false" width="30" height="30" viewBox="0 0 30 30" {...props} fill="none">
+export const FormatTifLWhiteIcon = forwardRef<SVGSVGElement, SVGProps<SVGSVGElement>>((props, ref) => (
+    <svg ref={ref} role="img" focusable="false" width="30" height="30" viewBox="0 0 30 30" {...props} fill="none">
         <path
             d="M19 28H6a4.005 4.005 0 01-3.998-3.874H2V8.293L8.293 2H19c2.206 0 4 1.794 4 4v5h-1V6c0-1.654-1.346-3-3-3H8.707L3 8.707V24c0 1.654 1.346 3 3 3h13c1.654 0 3-1.346 3-3h1c0 2.206-1.794 4-4 4z"
             fill="#fff"
@@ -17,6 +17,8 @@ export const FormatTifLWhiteIcon: React.FC<SVGProps<SVGSVGElement>> = (props) =>
             fill="#fff"
         />
     </svg>
-);
+));
+
+FormatTifLWhiteIcon.displayName = 'FormatTifLWhiteIcon';
 
 export default FormatTifLWhiteIcon;

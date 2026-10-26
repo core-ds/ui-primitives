@@ -2,10 +2,10 @@
  * This is auto-generated file by scripts/svg-to-component package
  * Do not edit it manually
  */
-import React, { SVGProps } from 'react';
+import React, { SVGProps, forwardRef } from 'react';
 
-export const HeadhunterSignBoxMColorIcon: React.FC<SVGProps<SVGSVGElement>> = (props) => (
-    <svg role="img" focusable="false" width="24" height="24" viewBox="0 0 24 24" {...props} fill="none">
+export const HeadhunterSignBoxMColorIcon = forwardRef<SVGSVGElement, SVGProps<SVGSVGElement>>((props, ref) => (
+    <svg ref={ref} role="img" focusable="false" width="24" height="24" viewBox="0 0 24 24" {...props} fill="none">
         <path
             d="M15.049 5v5.21c.785-.946 1.726-1.422 2.818-1.422.56 0 1.067.109 1.52.324.451.214.79.488 1.018.821.23.335.389.713.47 1.11.083.405.125 1.033.125 1.886V18.5h-2.438v-5.018c0-.995-.047-1.626-.139-1.894a1.219 1.219 0 00-.491-.638c-.233-.16-.527-.24-.88-.24-.405 0-.767.103-1.083.306-.319.204-.55.509-.699.917-.147.408-.221 1.011-.221 1.81V18.5h-2.437V5h2.437zm-9.61 0v5.21c.786-.946 1.727-1.422 2.819-1.422.563 0 1.066.109 1.518.324.454.214.792.488 1.02.821.23.337.386.705.47 1.11.084.405.125 1.033.125 1.886V18.5H8.95v-5.018c0-.995-.044-1.626-.137-1.894a1.222 1.222 0 00-.49-.638c-.235-.16-.528-.24-.881-.24-.404 0-.767.103-1.083.306-.321.204-.552.509-.7.917-.148.408-.223 1.011-.22 1.81L5.436 18.5H3V5h2.44z"
             fill="#D6001C"
@@ -19,6 +19,8 @@ export const HeadhunterSignBoxMColorIcon: React.FC<SVGProps<SVGSVGElement>> = (p
             clipRule="evenodd"
         />
     </svg>
-);
+));
+
+HeadhunterSignBoxMColorIcon.displayName = 'HeadhunterSignBoxMColorIcon';
 
 export default HeadhunterSignBoxMColorIcon;

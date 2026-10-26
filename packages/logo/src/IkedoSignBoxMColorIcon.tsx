@@ -2,10 +2,10 @@
  * This is auto-generated file by scripts/svg-to-component package
  * Do not edit it manually
  */
-import React, { SVGProps } from 'react';
+import React, { SVGProps, forwardRef } from 'react';
 
-export const IkedoSignBoxMColorIcon: React.FC<SVGProps<SVGSVGElement>> = (props) => (
-    <svg role="img" focusable="false" width="24" height="24" viewBox="0 0 24 24" {...props} fill="none">
+export const IkedoSignBoxMColorIcon = forwardRef<SVGSVGElement, SVGProps<SVGSVGElement>>((props, ref) => (
+    <svg ref={ref} role="img" focusable="false" width="24" height="24" viewBox="0 0 24 24" {...props} fill="none">
         <path
             d="M14.492 11.882V9.966h1.886c.522 0 .957-.186 1.325-.56a1.851 1.851 0 00.551-1.346 1.875 1.875 0 00-.551-1.355 1.798 1.798 0 00-1.325-.56h-1.886V4.24h1.886c.512 0 .996.098 1.46.304.464.207.86.472 1.2.816.338.343.599.746.802 1.218.203.471.3.962.3 1.483a3.7 3.7 0 01-.3 1.483 3.903 3.903 0 01-.803 1.218 3.833 3.833 0 01-1.199.815 3.542 3.542 0 01-1.46.305h-1.886zm.138 1.857a3.528 3.528 0 013.71 0 3.91 3.91 0 011.375 1.42c.336.595.509 1.231.509 1.916 0 .686-.173 1.321-.51 1.917a3.91 3.91 0 01-1.374 1.42 3.44 3.44 0 01-1.854.526 3.528 3.528 0 01-1.855-.526 3.91 3.91 0 01-1.374-1.42 3.832 3.832 0 01-.51-1.917c0-.685.173-1.32.51-1.916a3.91 3.91 0 011.374-1.42zm3.172 1.976c-.365-.378-.807-.576-1.316-.576-.51 0-.952.189-1.317.576a1.901 1.901 0 00-.557 1.36c0 .527.182.974.557 1.36a1.77 1.77 0 001.317.567c.509 0 .941-.189 1.316-.566.365-.378.548-.834.548-1.36a1.854 1.854 0 00-.548-1.361z"
             fill="#7856FF"
@@ -22,6 +22,8 @@ export const IkedoSignBoxMColorIcon: React.FC<SVGProps<SVGSVGElement>> = (props)
             fill="#A1FFBB"
         />
     </svg>
-);
+));
+
+IkedoSignBoxMColorIcon.displayName = 'IkedoSignBoxMColorIcon';
 
 export default IkedoSignBoxMColorIcon;

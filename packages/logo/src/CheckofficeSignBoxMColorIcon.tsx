@@ -2,10 +2,10 @@
  * This is auto-generated file by scripts/svg-to-component package
  * Do not edit it manually
  */
-import React, { SVGProps } from 'react';
+import React, { SVGProps, forwardRef } from 'react';
 
-export const CheckofficeSignBoxMColorIcon: React.FC<SVGProps<SVGSVGElement>> = (props) => (
-    <svg role="img" focusable="false" width="24" height="24" viewBox="0 0 24 24" {...props} fill="none">
+export const CheckofficeSignBoxMColorIcon = forwardRef<SVGSVGElement, SVGProps<SVGSVGElement>>((props, ref) => (
+    <svg ref={ref} role="img" focusable="false" width="24" height="24" viewBox="0 0 24 24" {...props} fill="none">
         <path
             d="M12 4.915L5.611 8.484 3.068 6.99 12 2l8.932 4.99-2.544 1.494L12 4.914z"
             fill="url(#prefix__paint0_linear_8043_733)"
@@ -96,6 +96,8 @@ export const CheckofficeSignBoxMColorIcon: React.FC<SVGProps<SVGSVGElement>> = (
             </linearGradient>
         </defs>
     </svg>
-);
+));
+
+CheckofficeSignBoxMColorIcon.displayName = 'CheckofficeSignBoxMColorIcon';
 
 export default CheckofficeSignBoxMColorIcon;

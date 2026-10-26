@@ -2,10 +2,10 @@
  * This is auto-generated file by scripts/svg-to-component package
  * Do not edit it manually
  */
-import React, { SVGProps } from 'react';
+import React, { SVGProps, forwardRef } from 'react';
 
-export const OneCMWhiteIcon: React.FC<SVGProps<SVGSVGElement>> = (props) => (
-    <svg role="img" focusable="false" width="45" height="24" viewBox="0 0 45 24" {...props} fill="none">
+export const OneCMWhiteIcon = forwardRef<SVGSVGElement, SVGProps<SVGSVGElement>>((props, ref) => (
+    <svg ref={ref} role="img" focusable="false" width="45" height="24" viewBox="0 0 45 24" {...props} fill="none">
         <path
             d="M23.28 19.34c-.793-.053-1.707-.192-2.428-.401a12.05 12.05 0 01-.836-.31c-2.51-1.162-4.258-3.7-4.258-6.644 0-4.037 3.285-7.326 7.326-7.326 4.004 0 7.267 3.233 7.323 7.225h2.646c-.056-5.451-4.505-9.868-9.97-9.868-5.496 0-9.97 4.471-9.97 9.97 0 3.79 2.131 7.087 5.252 8.77a12.13 12.13 0 001.648.69c.89.265 1.981.441 2.953.515a46.9 46.9 0 001.819.039h18.223v-2.636H24.815c-.242 0-1.3-.01-1.536-.025zm1.535-4.14c-.192 0-1.199-.006-1.385-.022a8.96 8.96 0 01-1.065-.14 4.172 4.172 0 01-.782-.284 3.146 3.146 0 01-1.653-2.769 3.154 3.154 0 016.303-.102h2.542a5.693 5.693 0 00-5.691-5.595 5.698 5.698 0 00-5.699 5.697 5.684 5.684 0 003.124 5.075c.286.167.822.341.974.381.523.138 1.226.232 1.796.273.21.018 1.243.026 1.46.027v.004h18.269V15.2H24.815zm-13.333 6.79H8.818V4.665H4.925V2h6.557v19.99zM2 5.996v2.562h2.925V21.99h2.56V5.996H2zm36.301-3.81c-.96 0-1.755.765-1.755 1.725 0 .96.796 1.756 1.755 1.756.99 0 1.754-.795 1.754-1.756 0-.96-.765-1.725-1.754-1.725zm0 3.198a1.465 1.465 0 01-1.475-1.473c0-.806.683-1.445 1.475-1.445s1.472.639 1.472 1.445c0 .85-.68 1.473-1.472 1.473z"
             fill="#fff"
@@ -15,6 +15,8 @@ export const OneCMWhiteIcon: React.FC<SVGProps<SVGSVGElement>> = (props) => (
             fill="#fff"
         />
     </svg>
-);
+));
+
+OneCMWhiteIcon.displayName = 'OneCMWhiteIcon';
 
 export default OneCMWhiteIcon;

@@ -2,10 +2,10 @@
  * This is auto-generated file by scripts/svg-to-component package
  * Do not edit it manually
  */
-import React, { SVGProps } from 'react';
+import React, { SVGProps, forwardRef } from 'react';
 
-export const TakoSignBoxMBlackIcon: React.FC<SVGProps<SVGSVGElement>> = (props) => (
-    <svg role="img" focusable="false" width="24" height="24" viewBox="0 0 24 24" {...props} fill="none">
+export const TakoSignBoxMBlackIcon = forwardRef<SVGSVGElement, SVGProps<SVGSVGElement>>((props, ref) => (
+    <svg ref={ref} role="img" focusable="false" width="24" height="24" viewBox="0 0 24 24" {...props} fill="none">
         <path
             d="M23 6c-5.256 3.131-11.076 5.75-15.63 7.568-.003 1.358-.622 2.912-2.48 4.403C8.076 17.569 12.57 13.012 23 6z"
             fill="#000"
@@ -20,6 +20,8 @@ export const TakoSignBoxMBlackIcon: React.FC<SVGProps<SVGSVGElement>> = (props) 
             fillOpacity=".6"
         />
     </svg>
-);
+));
+
+TakoSignBoxMBlackIcon.displayName = 'TakoSignBoxMBlackIcon';
 
 export default TakoSignBoxMBlackIcon;

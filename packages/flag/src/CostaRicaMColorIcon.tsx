@@ -2,10 +2,10 @@
  * This is auto-generated file by scripts/svg-to-component package
  * Do not edit it manually
  */
-import React, { SVGProps } from 'react';
+import React, { SVGProps, forwardRef } from 'react';
 
-export const CostaRicaMColorIcon: React.FC<SVGProps<SVGSVGElement>> = (props) => (
-    <svg role="img" focusable="false" width="24" height="24" viewBox="0 0 24 24" {...props} fill="none">
+export const CostaRicaMColorIcon = forwardRef<SVGSVGElement, SVGProps<SVGSVGElement>>((props, ref) => (
+    <svg ref={ref} role="img" focusable="false" width="24" height="24" viewBox="0 0 24 24" {...props} fill="none">
         <path d="M24 9.517H0v4.966h24V9.517z" fill="#FF4B55" />
         <path
             d="M22.202 4.137H1.795c-.96 0-1.745.753-1.795 1.7v.99h24v-.892c0-.993-.805-1.798-1.798-1.798z"
@@ -79,6 +79,8 @@ export const CostaRicaMColorIcon: React.FC<SVGProps<SVGSVGElement>> = (props) =>
             fill="#F5F5F5"
         />
     </svg>
-);
+));
+
+CostaRicaMColorIcon.displayName = 'CostaRicaMColorIcon';
 
 export default CostaRicaMColorIcon;

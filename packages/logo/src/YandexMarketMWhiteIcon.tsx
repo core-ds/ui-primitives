@@ -2,10 +2,10 @@
  * This is auto-generated file by scripts/svg-to-component package
  * Do not edit it manually
  */
-import React, { SVGProps } from 'react';
+import React, { SVGProps, forwardRef } from 'react';
 
-export const YandexMarketMWhiteIcon: React.FC<SVGProps<SVGSVGElement>> = (props) => (
-    <svg role="img" focusable="false" width="140" height="24" viewBox="0 0 140 24" {...props} fill="none">
+export const YandexMarketMWhiteIcon = forwardRef<SVGSVGElement, SVGProps<SVGSVGElement>>((props, ref) => (
+    <svg ref={ref} role="img" focusable="false" width="140" height="24" viewBox="0 0 140 24" {...props} fill="none">
         <path d="M12 22c5.523 0 10-4.477 10-10S17.523 2 12 2 2 6.477 2 12s4.477 10 10 10z" fill="#FF5226" />
         <path
             d="M13.62 18.3V7.593h-1.256c-.905 0-1.592.192-2.059.577-.466.37-.7.865-.7 1.483 0 .466.082.864.247 1.194.165.33.405.631.72.906.317.274.715.576 1.195.906l1.194.802-3.5 4.84H6.825l3.336-4.53 1.565 1.4-1.236-.783a15.647 15.647 0 01-1.77-1.338 4.82 4.82 0 01-1.133-1.441c-.26-.522-.391-1.133-.391-1.833 0-1.208.433-2.183 1.297-2.924.879-.755 2.162-1.132 3.85-1.132h3.727V18.3h-2.45z"
@@ -28,6 +28,8 @@ export const YandexMarketMWhiteIcon: React.FC<SVGProps<SVGSVGElement>> = (props)
             fill="#fff"
         />
     </svg>
-);
+));
+
+YandexMarketMWhiteIcon.displayName = 'YandexMarketMWhiteIcon';
 
 export default YandexMarketMWhiteIcon;

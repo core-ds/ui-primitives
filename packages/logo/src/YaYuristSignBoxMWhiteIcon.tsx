@@ -2,10 +2,10 @@
  * This is auto-generated file by scripts/svg-to-component package
  * Do not edit it manually
  */
-import React, { SVGProps } from 'react';
+import React, { SVGProps, forwardRef } from 'react';
 
-export const YaYuristSignBoxMWhiteIcon: React.FC<SVGProps<SVGSVGElement>> = (props) => (
-    <svg role="img" focusable="false" width="24" height="24" viewBox="0 0 24 24" {...props} fill="none">
+export const YaYuristSignBoxMWhiteIcon = forwardRef<SVGSVGElement, SVGProps<SVGSVGElement>>((props, ref) => (
+    <svg ref={ref} role="img" focusable="false" width="24" height="24" viewBox="0 0 24 24" {...props} fill="none">
         <path
             d="M20.6 8.911c-.911-.844-2.044-1.266-3.4-1.266-1.111 0-2.089.288-2.933.888-.845.6-1.4 1.378-1.667 2.356h-1.533V7.778h-.023l-2.622 6v2.755h2.645V13.2h1.466a4.093 4.093 0 001.623 2.533c.866.645 1.866.956 3.044.956 1.356 0 2.489-.422 3.422-1.267.911-.844 1.378-1.933 1.378-3.244-.022-1.334-.489-2.422-1.4-3.267zm-1.889 4.822c-.378.423-.889.623-1.51.623-.623 0-1.134-.2-1.512-.623-.378-.422-.578-.933-.578-1.555 0-.622.2-1.134.578-1.556.378-.422.889-.622 1.511-.622.622 0 1.133.2 1.511.622.378.422.578.934.578 1.556 0 .6-.2 1.133-.578 1.555z"
             fill="#EE2D30"
@@ -15,6 +15,8 @@ export const YaYuristSignBoxMWhiteIcon: React.FC<SVGProps<SVGSVGElement>> = (pro
             fill="#fff"
         />
     </svg>
-);
+));
+
+YaYuristSignBoxMWhiteIcon.displayName = 'YaYuristSignBoxMWhiteIcon';
 
 export default YaYuristSignBoxMWhiteIcon;

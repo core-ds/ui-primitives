@@ -2,10 +2,10 @@
  * This is auto-generated file by scripts/svg-to-component package
  * Do not edit it manually
  */
-import React, { SVGProps } from 'react';
+import React, { SVGProps, forwardRef } from 'react';
 
-export const KonturDiadocSignBoxMWhiteIcon: React.FC<SVGProps<SVGSVGElement>> = (props) => (
-    <svg role="img" focusable="false" width="24" height="24" viewBox="0 0 24 24" {...props} fill="none">
+export const KonturDiadocSignBoxMWhiteIcon = forwardRef<SVGSVGElement, SVGProps<SVGSVGElement>>((props, ref) => (
+    <svg ref={ref} role="img" focusable="false" width="24" height="24" viewBox="0 0 24 24" {...props} fill="none">
         <path d="M9.437 8.97a.625.625 0 100 1.25h3.75a.625.625 0 000-1.25h-3.75z" fill="#222" />
         <path
             d="M6.59 3.66A2.347 2.347 0 018.833 2h9.823A2.344 2.344 0 0121 4.344v15.312A2.344 2.344 0 0118.656 22H4.163a2.344 2.344 0 01-2.242-3.027L6.591 3.66zm3.862 2.715c0-.345.28-.625.625-.625h4.454c.604 0 1.093.49 1.093 1.094v8.281h.931a.86.86 0 01.82 1.116l-.64 2.04a.625.625 0 11-1.192-.374l.48-1.532H7.944l.48 1.532a.625.625 0 11-1.192.374l-.64-2.04a.86.86 0 01.82-1.116h7.962V7h-4.297a.625.625 0 01-.625-.625zM8.11 12.592c0-.345.28-.625.625-.625h4.453a.625.625 0 010 1.25H8.734a.625.625 0 01-.625-.625zm.703-2.998c0-.345.28-.625.625-.625h3.75a.625.625 0 010 1.25h-3.75a.625.625 0 01-.625-.625z"
@@ -20,6 +20,8 @@ export const KonturDiadocSignBoxMWhiteIcon: React.FC<SVGProps<SVGSVGElement>> = 
             fill="#222"
         />
     </svg>
-);
+));
+
+KonturDiadocSignBoxMWhiteIcon.displayName = 'KonturDiadocSignBoxMWhiteIcon';
 
 export default KonturDiadocSignBoxMWhiteIcon;

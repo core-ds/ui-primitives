@@ -2,10 +2,10 @@
  * This is auto-generated file by scripts/svg-to-component package
  * Do not edit it manually
  */
-import React, { SVGProps } from 'react';
+import React, { SVGProps, forwardRef } from 'react';
 
-export const HistoryXlWhiteIcon: React.FC<SVGProps<SVGSVGElement>> = (props) => (
-    <svg role="img" focusable="false" width="32" height="32" viewBox="0 0 32 32" {...props}>
+export const HistoryXlWhiteIcon = forwardRef<SVGSVGElement, SVGProps<SVGSVGElement>>((props, ref) => (
+    <svg ref={ref} role="img" focusable="false" width="32" height="32" viewBox="0 0 32 32" {...props}>
         <g fill="none" fillRule="evenodd">
             <path d="M-2-2h36v36H-2z" />
             <path fill="#FFF" d="M16.9 6H14v11l6.1 5.1 1.9-2.3-5.1-4.2z" opacity=".3" />
@@ -15,6 +15,8 @@ export const HistoryXlWhiteIcon: React.FC<SVGProps<SVGSVGElement>> = (props) => 
             />
         </g>
     </svg>
-);
+));
+
+HistoryXlWhiteIcon.displayName = 'HistoryXlWhiteIcon';
 
 export default HistoryXlWhiteIcon;

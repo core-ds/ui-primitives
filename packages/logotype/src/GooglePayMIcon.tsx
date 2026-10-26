@@ -2,10 +2,19 @@
  * This is auto-generated file by scripts/svg-to-component package
  * Do not edit it manually
  */
-import React, { SVGProps } from 'react';
+import React, { SVGProps, forwardRef } from 'react';
 
-export const GooglePayMIcon: React.FC<SVGProps<SVGSVGElement>> = (props) => (
-    <svg role="img" focusable="false" fill="currentColor" width="51" height="24" viewBox="0 0 51 24" {...props}>
+export const GooglePayMIcon = forwardRef<SVGSVGElement, SVGProps<SVGSVGElement>>((props, ref) => (
+    <svg
+        ref={ref}
+        role="img"
+        focusable="false"
+        fill="currentColor"
+        width="51"
+        height="24"
+        viewBox="0 0 51 24"
+        {...props}
+    >
         <path d="M8.637 5.293a4.513 4.513 0 013.19 1.247l2.374-2.373A7.99 7.99 0 008.637 2a8.317 8.317 0 000 16.634c2.244 0 4.134-.737 5.512-2.008 1.57-1.447 2.475-3.589 2.475-6.12 0-.567-.047-1.132-.144-1.69H8.637v3.202h4.492c-.387 2.158-2.428 3.325-4.492 3.325-3.356 0-5.716-3.508-4.67-6.618.66-1.97 2.5-3.433 4.67-3.433z" />
         <path
             d="M24.14 17.634v-5.858h3.072c1.267 0 2.331-.41 3.194-1.233a4.18 4.18 0 000-6.122 4.458 4.458 0 00-3.194-1.262h-4.933v14.475h1.86zm0-7.642V4.938h3.112a2.541 2.541 0 011.84 4.306 2.454 2.454 0 01-1.84.748H24.14zm15.141-1.485c-.795-.735-1.88-1.102-3.255-1.102-1.766 0-3.1.646-4 1.94l1.638 1.032c.605-.877 1.427-1.315 2.466-1.315.661-.01 1.302.23 1.795.673.492.406.774 1.013.768 1.651v.426c-.715-.405-1.624-.607-2.728-.607-1.294.002-2.328.305-3.103.91-.775.606-1.162 1.42-1.162 2.446a3.098 3.098 0 001.102 2.426c.734.647 1.648.97 2.739.97 1.278 0 2.302-.566 3.073-1.698h.08v1.375h1.78v-6.106c0-1.28-.397-2.287-1.193-3.021zm-5.044 7.307a1.487 1.487 0 01-.617-1.213c0-.544.253-.989.762-1.352.505-.365 1.135-.547 1.89-.547 1.037-.004 1.846.225 2.426.688 0 .78-.308 1.46-.924 2.04a2.967 2.967 0 01-2.092.87 2.272 2.272 0 01-1.446-.486z"
@@ -14,6 +23,8 @@ export const GooglePayMIcon: React.FC<SVGProps<SVGSVGElement>> = (props) => (
         />
         <path d="M50.685 7.728L44.475 22h-1.92l2.304-4.988-4.083-9.278h2.021l2.952 7.116h.04l2.871-7.116 2.025-.006z" />
     </svg>
-);
+));
+
+GooglePayMIcon.displayName = 'GooglePayMIcon';
 
 export default GooglePayMIcon;

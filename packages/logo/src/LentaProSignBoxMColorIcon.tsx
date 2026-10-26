@@ -2,10 +2,10 @@
  * This is auto-generated file by scripts/svg-to-component package
  * Do not edit it manually
  */
-import React, { SVGProps } from 'react';
+import React, { SVGProps, forwardRef } from 'react';
 
-export const LentaProSignBoxMColorIcon: React.FC<SVGProps<SVGSVGElement>> = (props) => (
-    <svg role="img" focusable="false" width="24" height="24" viewBox="0 0 24 24" {...props} fill="none">
+export const LentaProSignBoxMColorIcon = forwardRef<SVGSVGElement, SVGProps<SVGSVGElement>>((props, ref) => (
+    <svg ref={ref} role="img" focusable="false" width="24" height="24" viewBox="0 0 24 24" {...props} fill="none">
         <path
             d="M3 15.99c.002.134.668 1.297 1.04 1.814.44.611 1.253 1.47 1.83 1.934 1.331 1.068 3.061 1.848 4.77 2.149.91.16 2.488.148 3.282-.025a8.989 8.989 0 001.897-.655c.943-.47 2.126-1.46 2.71-2.27.288-.401.795-1.246.795-1.328.002-.145-1.834.14-2.57.4-1.753.619-3.423 2.032-4.188 3.545-.099.196-.194.356-.21.355-.018-.001-.128-.2-.244-.442a10.019 10.019 0 00-.575-.983c-1.65-2.469-4.154-4.048-7.1-4.477-.757-.11-1.438-.119-1.437-.018z"
             fill="#00BE64"
@@ -17,6 +17,8 @@ export const LentaProSignBoxMColorIcon: React.FC<SVGProps<SVGSVGElement>> = (pro
             clipRule="evenodd"
         />
     </svg>
-);
+));
+
+LentaProSignBoxMColorIcon.displayName = 'LentaProSignBoxMColorIcon';
 
 export default LentaProSignBoxMColorIcon;

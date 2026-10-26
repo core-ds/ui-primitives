@@ -2,10 +2,19 @@
  * This is auto-generated file by scripts/svg-to-component package
  * Do not edit it manually
  */
-import React, { SVGProps } from 'react';
+import React, { SVGProps, forwardRef } from 'react';
 
-export const SignatureSquareMIcon: React.FC<SVGProps<SVGSVGElement>> = (props) => (
-    <svg role="img" focusable="false" fill="currentColor" width="24" height="24" viewBox="0 0 24 24" {...props}>
+export const SignatureSquareMIcon = forwardRef<SVGSVGElement, SVGProps<SVGSVGElement>>((props, ref) => (
+    <svg
+        ref={ref}
+        role="img"
+        focusable="false"
+        fill="currentColor"
+        width="24"
+        height="24"
+        viewBox="0 0 24 24"
+        {...props}
+    >
         <path d="M11.309 9.523c-.324.929-1.09 2.066-2.17 3.09a6.939 6.939 0 01-.14-1.402c.003-.966.203-1.84.54-2.43.32-.566.698-.786 1.138-.781a.86.86 0 01.101.01c.5.068.602.246.642.343.074.178.103.554-.111 1.17z" />
         <path
             d="M5 3a2 2 0 00-2 2v14a2 2 0 002 2h14a2 2 0 002-2V5a2 2 0 00-2-2H5zm5.7 3c-1.367-.015-2.331.789-2.902 1.793-.556.978-.797 2.22-.8 3.413-.002.92.137 1.875.43 2.74A9.076 9.076 0 015 15.035l.526 1.93a11.006 11.006 0 002.852-1.255c.62.752 1.49 1.3 2.628 1.29.866-.002 1.735-.379 2.596-1.052.568.583 1.32 1.064 2.27 1.052 1.133-.015 2.172-.74 3.128-1.936l-1.563-1.25c-.815 1.02-1.35 1.183-1.592 1.186-.314.004-.759-.256-1.29-1.052a1 1 0 00-1.54-.152C12.035 14.775 11.368 15 11 15h-.01c-.346.004-.684-.136-.992-.47 1.523-1.3 2.694-2.896 3.2-4.35.29-.831.413-1.766.072-2.59-.374-.905-1.193-1.42-2.218-1.562A2.81 2.81 0 0010.699 6z"
@@ -13,6 +22,8 @@ export const SignatureSquareMIcon: React.FC<SVGProps<SVGSVGElement>> = (props) =
             clipRule="evenodd"
         />
     </svg>
-);
+));
+
+SignatureSquareMIcon.displayName = 'SignatureSquareMIcon';
 
 export default SignatureSquareMIcon;

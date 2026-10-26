@@ -2,10 +2,10 @@
  * This is auto-generated file by scripts/svg-to-component package
  * Do not edit it manually
  */
-import React, { SVGProps } from 'react';
+import React, { SVGProps, forwardRef } from 'react';
 
-export const A101SignCircleMColorIcon: React.FC<SVGProps<SVGSVGElement>> = (props) => (
-    <svg role="img" focusable="false" width="24" height="24" viewBox="0 0 24 24" {...props} fill="none">
+export const A101SignCircleMColorIcon = forwardRef<SVGSVGElement, SVGProps<SVGSVGElement>>((props, ref) => (
+    <svg ref={ref} role="img" focusable="false" width="24" height="24" viewBox="0 0 24 24" {...props} fill="none">
         <path
             d="M5.516 12.805h1.58l-.79-1.894-.79 1.894zm9.338-2.833c-.393 0-.704.189-.941.575-.238.378-.354.844-.354 1.393 0 .552.117 1.017.354 1.4.237.38.549.57.941.57.397 0 .706-.19.936-.57.24-.383.353-.848.353-1.4 0-.549-.113-1.015-.353-1.393-.23-.386-.54-.575-.935-.575z"
             fill="#E7373E"
@@ -15,6 +15,8 @@ export const A101SignCircleMColorIcon: React.FC<SVGProps<SVGSVGElement>> = (prop
             fill="#E7373E"
         />
     </svg>
-);
+));
+
+A101SignCircleMColorIcon.displayName = 'A101SignCircleMColorIcon';
 
 export default A101SignCircleMColorIcon;

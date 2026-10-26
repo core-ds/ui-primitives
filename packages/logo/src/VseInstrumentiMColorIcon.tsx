@@ -2,10 +2,10 @@
  * This is auto-generated file by scripts/svg-to-component package
  * Do not edit it manually
  */
-import React, { SVGProps } from 'react';
+import React, { SVGProps, forwardRef } from 'react';
 
-export const VseInstrumentiMColorIcon: React.FC<SVGProps<SVGSVGElement>> = (props) => (
-    <svg role="img" focusable="false" width="44" height="24" viewBox="0 0 44 24" {...props} fill="none">
+export const VseInstrumentiMColorIcon = forwardRef<SVGSVGElement, SVGProps<SVGSVGElement>>((props, ref) => (
+    <svg ref={ref} role="img" focusable="false" width="44" height="24" viewBox="0 0 44 24" {...props} fill="none">
         <path
             d="M37.525 22H6.475A4.475 4.475 0 012 17.525V6.475A4.475 4.475 0 016.475 2h31.05A4.475 4.475 0 0142 6.475v11.05A4.475 4.475 0 0137.525 22z"
             fill="#D51317"
@@ -25,6 +25,8 @@ export const VseInstrumentiMColorIcon: React.FC<SVGProps<SVGSVGElement>> = (prop
             fill="#fff"
         />
     </svg>
-);
+));
+
+VseInstrumentiMColorIcon.displayName = 'VseInstrumentiMColorIcon';
 
 export default VseInstrumentiMColorIcon;

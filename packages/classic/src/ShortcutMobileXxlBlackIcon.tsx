@@ -2,10 +2,10 @@
  * This is auto-generated file by scripts/svg-to-component package
  * Do not edit it manually
  */
-import React, { SVGProps } from 'react';
+import React, { SVGProps, forwardRef } from 'react';
 
-export const ShortcutMobileXxlBlackIcon: React.FC<SVGProps<SVGSVGElement>> = (props) => (
-    <svg role="img" focusable="false" width="48" height="48" viewBox="0 0 48 48" {...props}>
+export const ShortcutMobileXxlBlackIcon = forwardRef<SVGSVGElement, SVGProps<SVGSVGElement>>((props, ref) => (
+    <svg ref={ref} role="img" focusable="false" width="48" height="48" viewBox="0 0 48 48" {...props}>
         <g fill="none" fillRule="evenodd">
             <circle fill="#F5F5F5" cx="24" cy="24" r="22" />
             <path fill="#0B1F35" opacity=".2" d="M17.5 17h13v12h-13z" />
@@ -17,6 +17,8 @@ export const ShortcutMobileXxlBlackIcon: React.FC<SVGProps<SVGSVGElement>> = (pr
             />
         </g>
     </svg>
-);
+));
+
+ShortcutMobileXxlBlackIcon.displayName = 'ShortcutMobileXxlBlackIcon';
 
 export default ShortcutMobileXxlBlackIcon;

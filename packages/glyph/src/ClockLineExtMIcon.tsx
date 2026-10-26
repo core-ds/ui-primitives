@@ -2,10 +2,19 @@
  * This is auto-generated file by scripts/svg-to-component package
  * Do not edit it manually
  */
-import React, { SVGProps } from 'react';
+import React, { SVGProps, forwardRef } from 'react';
 
-export const ClockLineExtMIcon: React.FC<SVGProps<SVGSVGElement>> = (props) => (
-    <svg role="img" focusable="false" fill="currentColor" height="24" viewBox="0 0 24 24" {...props} width="24">
+export const ClockLineExtMIcon = forwardRef<SVGSVGElement, SVGProps<SVGSVGElement>>((props, ref) => (
+    <svg
+        ref={ref}
+        role="img"
+        focusable="false"
+        fill="currentColor"
+        height="24"
+        viewBox="0 0 24 24"
+        {...props}
+        width="24"
+    >
         <clipPath id="a">
             <path d="M0 0h24v24H0z" />
         </clipPath>
@@ -14,6 +23,8 @@ export const ClockLineExtMIcon: React.FC<SVGProps<SVGSVGElement>> = (props) => (
             <path d="M10 6v8h8v-2h-6V6z" />
         </g>
     </svg>
-);
+));
+
+ClockLineExtMIcon.displayName = 'ClockLineExtMIcon';
 
 export default ClockLineExtMIcon;

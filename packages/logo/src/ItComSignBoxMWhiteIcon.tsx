@@ -2,10 +2,10 @@
  * This is auto-generated file by scripts/svg-to-component package
  * Do not edit it manually
  */
-import React, { SVGProps } from 'react';
+import React, { SVGProps, forwardRef } from 'react';
 
-export const ItComSignBoxMWhiteIcon: React.FC<SVGProps<SVGSVGElement>> = (props) => (
-    <svg role="img" focusable="false" width="24" height="24" viewBox="0 0 24 24" {...props} fill="none">
+export const ItComSignBoxMWhiteIcon = forwardRef<SVGSVGElement, SVGProps<SVGSVGElement>>((props, ref) => (
+    <svg ref={ref} role="img" focusable="false" width="24" height="24" viewBox="0 0 24 24" {...props} fill="none">
         <path
             d="M4.698 21.992h8.92l-9.437-2.575a3.25 3.25 0 01-1.318-.722A3.324 3.324 0 012 17.45v1.794c.002.73.288 1.43.795 1.946a2.692 2.692 0 001.912.81l-.009-.008zM4.685 4.631a2.686 2.686 0 00-1.897.812A2.781 2.781 0 002 7.378v7.451L4.685 4.631z"
             fill="#333"
@@ -25,6 +25,8 @@ export const ItComSignBoxMWhiteIcon: React.FC<SVGProps<SVGSVGElement>> = (props)
             clipRule="evenodd"
         />
     </svg>
-);
+));
+
+ItComSignBoxMWhiteIcon.displayName = 'ItComSignBoxMWhiteIcon';
 
 export default ItComSignBoxMWhiteIcon;

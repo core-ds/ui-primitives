@@ -2,10 +2,10 @@
  * This is auto-generated file by scripts/svg-to-component package
  * Do not edit it manually
  */
-import React, { SVGProps } from 'react';
+import React, { SVGProps, forwardRef } from 'react';
 
-export const YandexGasStationsMColorIcon: React.FC<SVGProps<SVGSVGElement>> = (props) => (
-    <svg role="img" focusable="false" width="116" height="24" viewBox="0 0 116 24" {...props} fill="none">
+export const YandexGasStationsMColorIcon = forwardRef<SVGSVGElement, SVGProps<SVGSVGElement>>((props, ref) => (
+    <svg ref={ref} role="img" focusable="false" width="116" height="24" viewBox="0 0 116 24" {...props} fill="none">
         <path
             d="M12 22c5.523 0 10-4.477 10-10S17.523 2 12 2 2 6.477 2 12s4.477 10 10 10zm.462-14.4h1.012v10.41h2.024v-12h-3.036c-3.036 0-4.626 1.59-4.626 3.904 0 1.88.867 2.891 2.458 4.048L7.547 18.01H9.86l2.892-4.482-1.013-.723c-1.3-.867-1.879-1.59-1.879-3.036 0-1.301.867-2.169 2.602-2.169z"
             fill="#000"
@@ -123,6 +123,8 @@ export const YandexGasStationsMColorIcon: React.FC<SVGProps<SVGSVGElement>> = (p
             </linearGradient>
         </defs>
     </svg>
-);
+));
+
+YandexGasStationsMColorIcon.displayName = 'YandexGasStationsMColorIcon';
 
 export default YandexGasStationsMColorIcon;

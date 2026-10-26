@@ -2,10 +2,10 @@
  * This is auto-generated file by scripts/svg-to-component package
  * Do not edit it manually
  */
-import React, { SVGProps } from 'react';
+import React, { SVGProps, forwardRef } from 'react';
 
-export const BnovoSignBoxMColorIcon: React.FC<SVGProps<SVGSVGElement>> = (props) => (
-    <svg role="img" focusable="false" width="24" height="24" viewBox="0 0 24 24" {...props} fill="none">
+export const BnovoSignBoxMColorIcon = forwardRef<SVGSVGElement, SVGProps<SVGSVGElement>>((props, ref) => (
+    <svg ref={ref} role="img" focusable="false" width="24" height="24" viewBox="0 0 24 24" {...props} fill="none">
         <path
             d="M3.599 6.553A9.978 9.978 0 016.922 3.41a8.958 8.958 0 014.015-1.407.999.999 0 01.646.175c.19.13.327.324.392.538a9.903 9.903 0 01.738 3.552 11.519 11.519 0 01-.927 4.725.276.276 0 01-.255.181c-.157.007-.313.04-.47.04-2.99.064-5.895 1.872-7.815 4.07a.758.758 0 01-.372.278c-.248.058-.346-.168-.405-.356a10.723 10.723 0 01-.182-5.6 9.706 9.706 0 011.305-3.06"
             fill="#F47119"
@@ -19,6 +19,8 @@ export const BnovoSignBoxMColorIcon: React.FC<SVGProps<SVGSVGElement>> = (props)
             fill="#1875F0"
         />
     </svg>
-);
+));
+
+BnovoSignBoxMColorIcon.displayName = 'BnovoSignBoxMColorIcon';
 
 export default BnovoSignBoxMColorIcon;

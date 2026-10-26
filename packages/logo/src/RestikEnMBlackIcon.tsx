@@ -2,10 +2,10 @@
  * This is auto-generated file by scripts/svg-to-component package
  * Do not edit it manually
  */
-import React, { SVGProps } from 'react';
+import React, { SVGProps, forwardRef } from 'react';
 
-export const RestikEnMBlackIcon: React.FC<SVGProps<SVGSVGElement>> = (props) => (
-    <svg role="img" focusable="false" width="79" height="24" viewBox="0 0 79 24" {...props} fill="none">
+export const RestikEnMBlackIcon = forwardRef<SVGSVGElement, SVGProps<SVGSVGElement>>((props, ref) => (
+    <svg ref={ref} role="img" focusable="false" width="79" height="24" viewBox="0 0 79 24" {...props} fill="none">
         <path
             d="M11.884 2h-7.68L2 4.099V22h4.408l2.217-2.378v-3.498h.04L11.763 22h4.564l2.351-2.378-3.579-6.6.005-.012c.262-.151.506-.332.726-.54.306-.278.6-.605.882-.98.313-.406.57-.923.783-1.535a6.16 6.16 0 00.326-2.023c0-1.653-.566-3.063-1.692-4.204C15.005 2.572 13.579 2 11.884 2zM8.627 8.459h.94c.491 0 .866.162 1.166.474l.003.003c.202.209.343.451.413.741H8.627V8.46zm-3.46-5.62v15.944H7.8v-5.875h3.647l3.097 5.877h2.737l-3.31-6.102.666-.374.015-.007c.147-.068.355-.211.627-.459.26-.236.52-.524.776-.865l.004-.004c.241-.312.462-.74.654-1.297a5.32 5.32 0 00.28-1.745c0-1.437-.483-2.632-1.45-3.612l-.003-.002c-.955-.982-2.165-1.478-3.657-1.478H5.168v-.001zM7.8 5.242h3.971c.732 0 1.36.254 1.855.77.502.514.747 1.165.747 1.92 0 .72-.251 1.341-.75 1.843-.496.498-1.125.742-1.852.742h-3.97V5.242z"
             fill="#000"
@@ -27,6 +27,8 @@ export const RestikEnMBlackIcon: React.FC<SVGProps<SVGSVGElement>> = (props) => 
             fill="#000"
         />
     </svg>
-);
+));
+
+RestikEnMBlackIcon.displayName = 'RestikEnMBlackIcon';
 
 export default RestikEnMBlackIcon;

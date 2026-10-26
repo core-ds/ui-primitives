@@ -2,10 +2,19 @@
  * This is auto-generated file by scripts/svg-to-component package
  * Do not edit it manually
  */
-import React, { SVGProps } from 'react';
+import React, { SVGProps, forwardRef } from 'react';
 
-export const QrCodeScannerLineExtMIcon: React.FC<SVGProps<SVGSVGElement>> = (props) => (
-    <svg role="img" focusable="false" fill="currentColor" height="24" viewBox="0 0 24 24" {...props} width="24">
+export const QrCodeScannerLineExtMIcon = forwardRef<SVGSVGElement, SVGProps<SVGSVGElement>>((props, ref) => (
+    <svg
+        ref={ref}
+        role="img"
+        focusable="false"
+        fill="currentColor"
+        height="24"
+        viewBox="0 0 24 24"
+        {...props}
+        width="24"
+    >
         <clipPath id="a">
             <path d="M0 0h24v24H0z" />
         </clipPath>
@@ -19,6 +28,8 @@ export const QrCodeScannerLineExtMIcon: React.FC<SVGProps<SVGSVGElement>> = (pro
             <path d="M10.605 2H4.17A2.17 2.17 0 002 4.169v6.499H0V4.169A4.17 4.17 0 014.169 0h6.436zm9.226-2A4.17 4.17 0 0124 4.169v6.499h-2v-6.5A2.17 2.17 0 0019.831 2h-6.437V0z" />
         </g>
     </svg>
-);
+));
+
+QrCodeScannerLineExtMIcon.displayName = 'QrCodeScannerLineExtMIcon';
 
 export default QrCodeScannerLineExtMIcon;

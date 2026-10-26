@@ -2,10 +2,10 @@
  * This is auto-generated file by scripts/svg-to-component package
  * Do not edit it manually
  */
-import React, { SVGProps } from 'react';
+import React, { SVGProps, forwardRef } from 'react';
 
-export const PochtaBankSquareMWhiteIcon: React.FC<SVGProps<SVGSVGElement>> = (props) => (
-    <svg role="img" focusable="false" width="24" height="24" viewBox="0 0 24 24" {...props} fill="none">
+export const PochtaBankSquareMWhiteIcon = forwardRef<SVGSVGElement, SVGProps<SVGSVGElement>>((props, ref) => (
+    <svg ref={ref} role="img" focusable="false" width="24" height="24" viewBox="0 0 24 24" {...props} fill="none">
         <path
             d="M17.556 2H6.444A4.444 4.444 0 002 6.444v11.112A4.444 4.444 0 006.444 22h11.112A4.444 4.444 0 0022 17.556V6.444A4.444 4.444 0 0017.556 2z"
             fill="#fff"
@@ -17,6 +17,8 @@ export const PochtaBankSquareMWhiteIcon: React.FC<SVGProps<SVGSVGElement>> = (pr
             clipRule="evenodd"
         />
     </svg>
-);
+));
+
+PochtaBankSquareMWhiteIcon.displayName = 'PochtaBankSquareMWhiteIcon';
 
 export default PochtaBankSquareMWhiteIcon;

@@ -2,10 +2,10 @@
  * This is auto-generated file by scripts/svg-to-component package
  * Do not edit it manually
  */
-import React, { SVGProps } from 'react';
+import React, { SVGProps, forwardRef } from 'react';
 
-export const ChileMColorIcon: React.FC<SVGProps<SVGSVGElement>> = (props) => (
-    <svg role="img" focusable="false" width="24" height="24" viewBox="0 0 24 24" {...props} fill="none">
+export const ChileMColorIcon = forwardRef<SVGSVGElement, SVGProps<SVGSVGElement>>((props, ref) => (
+    <svg ref={ref} role="img" focusable="false" width="24" height="24" viewBox="0 0 24 24" {...props} fill="none">
         <path
             d="M22.203 4.138H7.448c.229 0 .414.185.414.414v7.034a.414.414 0 01-.414.414H24V5.935c0-.992-.805-1.797-1.797-1.797z"
             fill="#F5F5F5"
@@ -23,6 +23,8 @@ export const ChileMColorIcon: React.FC<SVGProps<SVGSVGElement>> = (props) => (
             fill="#F5F5F5"
         />
     </svg>
-);
+));
+
+ChileMColorIcon.displayName = 'ChileMColorIcon';
 
 export default ChileMColorIcon;

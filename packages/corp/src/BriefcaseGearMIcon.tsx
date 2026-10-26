@@ -2,10 +2,19 @@
  * This is auto-generated file by scripts/svg-to-component package
  * Do not edit it manually
  */
-import React, { SVGProps } from 'react';
+import React, { SVGProps, forwardRef } from 'react';
 
-export const BriefcaseGearMIcon: React.FC<SVGProps<SVGSVGElement>> = (props) => (
-    <svg role="img" focusable="false" fill="currentColor" width="24" height="24" viewBox="0 0 24 24" {...props}>
+export const BriefcaseGearMIcon = forwardRef<SVGSVGElement, SVGProps<SVGSVGElement>>((props, ref) => (
+    <svg
+        ref={ref}
+        role="img"
+        focusable="false"
+        fill="currentColor"
+        width="24"
+        height="24"
+        viewBox="0 0 24 24"
+        {...props}
+    >
         <path
             d="M7 3a2 2 0 012-2h4a2 2 0 012 2v2h4a2 2 0 012 2v5.08c-.07.013-.141.03-.211.05l-.015.003a6.371 6.371 0 00-.184-.108 2.595 2.595 0 00-2.496-1.882h-1.19c-1.163 0-2.18.772-2.497 1.884a5.38 5.38 0 00-.181.107l-.018-.005a2.596 2.596 0 00-2.922 1.172l-.578.97a2.596 2.596 0 00.455 3.224l.005.005-.005.005a2.59 2.59 0 00-.79 1.495H3a2 2 0 01-2-2V7a2 2 0 012-2h4V3zm6 2V3H9v2h4z"
             fillRule="evenodd"
@@ -17,6 +26,8 @@ export const BriefcaseGearMIcon: React.FC<SVGProps<SVGSVGElement>> = (props) => 
             clipRule="evenodd"
         />
     </svg>
-);
+));
+
+BriefcaseGearMIcon.displayName = 'BriefcaseGearMIcon';
 
 export default BriefcaseGearMIcon;

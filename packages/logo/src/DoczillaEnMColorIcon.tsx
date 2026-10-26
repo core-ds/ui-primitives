@@ -2,10 +2,10 @@
  * This is auto-generated file by scripts/svg-to-component package
  * Do not edit it manually
  */
-import React, { SVGProps } from 'react';
+import React, { SVGProps, forwardRef } from 'react';
 
-export const DoczillaEnMColorIcon: React.FC<SVGProps<SVGSVGElement>> = (props) => (
-    <svg role="img" focusable="false" width="98" height="24" viewBox="0 0 98 24" {...props} fill="none">
+export const DoczillaEnMColorIcon = forwardRef<SVGSVGElement, SVGProps<SVGSVGElement>>((props, ref) => (
+    <svg ref={ref} role="img" focusable="false" width="98" height="24" viewBox="0 0 98 24" {...props} fill="none">
         <path d="M74.55 6.205V2.862L72.005 4.47v1.735h2.547z" fill="#575756" />
         <path
             d="M9.849 2H2v20h7.548c5.619 0 10.179-4.482 10.179-10.003 0-5.421-4.397-9.84-9.878-9.997zm3.67 8.393L4.211 19.79l3.978-6.78H5.314L9.83 8.53H6.85l2.594-2.542h5.747l-4.422 4.406h2.75z"
@@ -16,6 +16,8 @@ export const DoczillaEnMColorIcon: React.FC<SVGProps<SVGSVGElement>> = (props) =
             fill="#575756"
         />
     </svg>
-);
+));
+
+DoczillaEnMColorIcon.displayName = 'DoczillaEnMColorIcon';
 
 export default DoczillaEnMColorIcon;

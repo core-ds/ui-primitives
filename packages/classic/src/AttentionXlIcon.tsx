@@ -2,10 +2,19 @@
  * This is auto-generated file by scripts/svg-to-component package
  * Do not edit it manually
  */
-import React, { SVGProps } from 'react';
+import React, { SVGProps, forwardRef } from 'react';
 
-export const AttentionXlIcon: React.FC<SVGProps<SVGSVGElement>> = (props) => (
-    <svg role="img" focusable="false" fill="currentColor" width="36" height="36" viewBox="0 0 36 36" {...props}>
+export const AttentionXlIcon = forwardRef<SVGSVGElement, SVGProps<SVGSVGElement>>((props, ref) => (
+    <svg
+        ref={ref}
+        role="img"
+        focusable="false"
+        fill="currentColor"
+        width="36"
+        height="36"
+        viewBox="0 0 36 36"
+        {...props}
+    >
         <path
             opacity=".9"
             d="M18.87 5.53a1 1 0 00-1.74 0L3.21 30.006a1 1 0 00.869 1.494H31.92a1 1 0 00.87-1.494L18.868 5.53zm.868-.495L33.66 29.511a2 2 0 01-1.74 2.989H4.08a2 2 0 01-1.739-2.989l13.92-24.476a2 2 0 013.477 0z"
@@ -18,6 +27,8 @@ export const AttentionXlIcon: React.FC<SVGProps<SVGSVGElement>> = (props) => (
         />
         <path opacity=".3" d="M19.5 26.5a1.5 1.5 0 10-3 0 1.5 1.5 0 003 0z" />
     </svg>
-);
+));
+
+AttentionXlIcon.displayName = 'AttentionXlIcon';
 
 export default AttentionXlIcon;

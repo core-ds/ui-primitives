@@ -2,10 +2,10 @@
  * This is auto-generated file by scripts/svg-to-component package
  * Do not edit it manually
  */
-import React, { SVGProps } from 'react';
+import React, { SVGProps, forwardRef } from 'react';
 
-export const MoneyplaceSignBoxMColorIcon: React.FC<SVGProps<SVGSVGElement>> = (props) => (
-    <svg role="img" focusable="false" width="24" height="24" viewBox="0 0 24 24" {...props} fill="none">
+export const MoneyplaceSignBoxMColorIcon = forwardRef<SVGSVGElement, SVGProps<SVGSVGElement>>((props, ref) => (
+    <svg ref={ref} role="img" focusable="false" width="24" height="24" viewBox="0 0 24 24" {...props} fill="none">
         <path
             d="M6.938 20H4.913a.503.503 0 01-.506-.5v-13c0-.276.227-.5.506-.5h2.025c.28 0 .506.224.506.5v13c0 .276-.226.5-.506.5z"
             fill="url(#prefix__paint0_linear_2594_138)"
@@ -69,6 +69,8 @@ export const MoneyplaceSignBoxMColorIcon: React.FC<SVGProps<SVGSVGElement>> = (p
             </linearGradient>
         </defs>
     </svg>
-);
+));
+
+MoneyplaceSignBoxMColorIcon.displayName = 'MoneyplaceSignBoxMColorIcon';
 
 export default MoneyplaceSignBoxMColorIcon;

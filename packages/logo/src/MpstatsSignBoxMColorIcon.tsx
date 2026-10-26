@@ -2,10 +2,10 @@
  * This is auto-generated file by scripts/svg-to-component package
  * Do not edit it manually
  */
-import React, { SVGProps } from 'react';
+import React, { SVGProps, forwardRef } from 'react';
 
-export const MpstatsSignBoxMColorIcon: React.FC<SVGProps<SVGSVGElement>> = (props) => (
-    <svg role="img" focusable="false" width="24" height="24" viewBox="0 0 24 24" {...props} fill="none">
+export const MpstatsSignBoxMColorIcon = forwardRef<SVGSVGElement, SVGProps<SVGSVGElement>>((props, ref) => (
+    <svg ref={ref} role="img" focusable="false" width="24" height="24" viewBox="0 0 24 24" {...props} fill="none">
         <path
             d="M18.601 14.98L6.13 21.905C5.62 22.187 5 21.81 5 21.22V7.381c0-.59.62-.963 1.13-.682a.782.782 0 01.398.682v7.979c0 .59.623.965 1.133.68l7.25-4.061a.761.761 0 01.734-.003l2.953 1.637c.535.3.535 1.076.003 1.368z"
             fill="url(#prefix__paint0_linear_2594_130)"
@@ -39,6 +39,8 @@ export const MpstatsSignBoxMColorIcon: React.FC<SVGProps<SVGSVGElement>> = (prop
             </linearGradient>
         </defs>
     </svg>
-);
+));
+
+MpstatsSignBoxMColorIcon.displayName = 'MpstatsSignBoxMColorIcon';
 
 export default MpstatsSignBoxMColorIcon;

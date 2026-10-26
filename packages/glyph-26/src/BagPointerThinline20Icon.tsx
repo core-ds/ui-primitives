@@ -2,13 +2,24 @@
  * This is auto-generated file by scripts/svg-to-component package
  * Do not edit it manually
  */
-import React, { SVGProps } from 'react';
+import React, { SVGProps, forwardRef } from 'react';
 
-export const BagPointerThinline20Icon: React.FC<SVGProps<SVGSVGElement>> = (props) => (
-    <svg role="img" focusable="false" fill="currentColor" width="20" height="20" viewBox="0 0 20 20" {...props}>
+export const BagPointerThinline20Icon = forwardRef<SVGSVGElement, SVGProps<SVGSVGElement>>((props, ref) => (
+    <svg
+        ref={ref}
+        role="img"
+        focusable="false"
+        fill="currentColor"
+        width="20"
+        height="20"
+        viewBox="0 0 20 20"
+        {...props}
+    >
         <path d="M10.47 10.47a.751.751 0 01.793-.172l8 3a.75.75 0 01.033 1.392l-3.226 1.38-1.382 3.225a.752.752 0 01-1.391-.032l-3-8a.751.751 0 01.172-.794zm3.576 6.517l.884-2.058 2.057-.883-4.706-1.765 1.765 4.706z" />
         <path d="M9.996 2c1.004 0 1.977.284 2.674.549a10.391 10.391 0 011.17.533l.021.01a.092.092 0 01.006.005h.002l.001.002a.75.75 0 01.177 1.163l-2.803 3 2.677 1.275c.273.13.53.287.77.463h-3.286L10 8.33 6.722 9.892a3.252 3.252 0 00-1.736 2.069l-.467 1.69A2.251 2.251 0 006.69 16.5H10V18H6.69c-2.477 0-4.273-2.36-3.615-4.747l.466-1.69a4.753 4.753 0 012.537-3.026L8.75 7.264l-2.8-3.002a.752.752 0 01.177-1.163l.003-.002.006-.003.02-.011.068-.037a10.323 10.323 0 011.1-.497C8.02 2.284 8.992 2 9.996 2zm0 1.5c-.745 0-1.523.217-2.138.451-.036.014-.07.03-.105.043L9.996 6.4l2.247-2.406c-.035-.014-.07-.03-.106-.043-.617-.235-1.396-.451-2.141-.451z" />
     </svg>
-);
+));
+
+BagPointerThinline20Icon.displayName = 'BagPointerThinline20Icon';
 
 export default BagPointerThinline20Icon;

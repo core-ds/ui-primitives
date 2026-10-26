@@ -2,15 +2,17 @@
  * This is auto-generated file by scripts/svg-to-component package
  * Do not edit it manually
  */
-import React, { SVGProps } from 'react';
+import React, { SVGProps, forwardRef } from 'react';
 
-export const S7AirlinesSignBoxMWhiteIcon: React.FC<SVGProps<SVGSVGElement>> = (props) => (
-    <svg role="img" focusable="false" width="24" height="24" viewBox="0 0 24 24" {...props} fill="none">
+export const S7AirlinesSignBoxMWhiteIcon = forwardRef<SVGSVGElement, SVGProps<SVGSVGElement>>((props, ref) => (
+    <svg ref={ref} role="img" focusable="false" width="24" height="24" viewBox="0 0 24 24" {...props} fill="none">
         <path
             d="M11.244 4.222c-2.233 0-3.681.123-4.73.513-1.762.686-2.98 2.124-2.98 4.014 0 1.574.734 2.713 2.856 4.024 2.265 1.372 2.716 1.826 2.716 2.652 0 .905-.886 1.935-3.169 1.935-.796 0-1.996-.11-2.763-.298l-.366-.092c-.203.547-.667 1.84-.808 2.31l.362.106c.69.22 2.327.392 3.498.392 3.901 0 6.229-2.356 6.229-4.822 0-1.515-.689-2.667-3.015-4.118-1.167-.718-1.762-1.183-2.124-1.543-.292-.376-.325-.656-.325-.952 0-.282.063-.607.25-.845.2-.295.57-.483 1.07-.638.514-.17 1.465-.174 2.948-.174h1.38l.987-2.464h-2.016zm3.496 0h6.937c.326 0 .388.23.263.481-.454 1.124-4.734 11.84-4.734 11.84h-2.86s3.38-8.608 3.941-9.89c-.13 0-.248.003-.407.008h-.002c-.318.01-.794.025-1.825.025h-2.299l.986-2.464z"
             fill="#fff"
         />
     </svg>
-);
+));
+
+S7AirlinesSignBoxMWhiteIcon.displayName = 'S7AirlinesSignBoxMWhiteIcon';
 
 export default S7AirlinesSignBoxMWhiteIcon;

@@ -2,12 +2,23 @@
  * This is auto-generated file by scripts/svg-to-component package
  * Do not edit it manually
  */
-import React, { SVGProps } from 'react';
+import React, { SVGProps, forwardRef } from 'react';
 
-export const CzkMIcon: React.FC<SVGProps<SVGSVGElement>> = (props) => (
-    <svg role="img" focusable="false" fill="currentColor" width="24" height="24" viewBox="0 0 24 24" {...props}>
+export const CzkMIcon = forwardRef<SVGSVGElement, SVGProps<SVGSVGElement>>((props, ref) => (
+    <svg
+        ref={ref}
+        role="img"
+        focusable="false"
+        fill="currentColor"
+        width="24"
+        height="24"
+        viewBox="0 0 24 24"
+        {...props}
+    >
         <path d="M19.792 18.575c-.591.283-1.291.425-2.1.425-.951 0-1.773-.2-2.464-.602a4.029 4.029 0 01-1.586-1.72c-.366-.75-.55-1.642-.55-2.676v-.008c0-1.028.184-1.911.55-2.65a3.987 3.987 0 011.586-1.701c.686-.402 1.504-.602 2.455-.602.827 0 1.541.15 2.144.451.602.296 1.075.7 1.418 1.214.348.508.558 1.09.629 1.746v.044H19.8l-.017-.044a2.026 2.026 0 00-.674-1.16c-.348-.308-.82-.462-1.417-.462-.485 0-.904.127-1.259.381-.348.248-.617.609-.806 1.081-.189.473-.284 1.04-.284 1.702v.017c0 .674.095 1.25.284 1.728.189.479.46.845.815 1.099.355.248.774.372 1.258.372.567 0 1.025-.136 1.374-.408.348-.277.585-.667.709-1.17l.017-.052 2.074-.01-.009.072a3.84 3.84 0 01-.656 1.745 3.595 3.595 0 01-1.417 1.188zm-2.1-11.603L19.065 5h1.87l-2.18 3.013H16.61L14.43 5h1.87l1.392 1.972zm-7.784-.953l-5.016 5.946h-.115V6.019H2.5v12.786h2.277v-4.111l1.324-1.556 4.02 5.667h2.781L7.739 11.62l4.783-5.6H9.909z" />
     </svg>
-);
+));
+
+CzkMIcon.displayName = 'CzkMIcon';
 
 export default CzkMIcon;

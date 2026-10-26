@@ -2,12 +2,23 @@
  * This is auto-generated file by scripts/svg-to-component package
  * Do not edit it manually
  */
-import React, { SVGProps } from 'react';
+import React, { SVGProps, forwardRef } from 'react';
 
-export const FlagLine20Icon: React.FC<SVGProps<SVGSVGElement>> = (props) => (
-    <svg role="img" focusable="false" fill="currentColor" width="20" height="20" viewBox="0 0 20 20" {...props}>
+export const FlagLine20Icon = forwardRef<SVGSVGElement, SVGProps<SVGSVGElement>>((props, ref) => (
+    <svg
+        ref={ref}
+        role="img"
+        focusable="false"
+        fill="currentColor"
+        width="20"
+        height="20"
+        viewBox="0 0 20 20"
+        {...props}
+    >
         <path d="M5.361 3.266c1.276-.314 3.032-.28 5.118.856 1.603.874 2.803.736 3.577.452.404-.148.717-.346.926-.506a2.83 2.83 0 00.274-.236l.005-.006-.001.002-.005.005.11-.105A1 1 0 0117 4.5v9.945l-.332.3-.004.002-.006.005-.013.012a3.461 3.461 0 01-.551.385c-.34.199-.83.43-1.455.585-1.276.313-3.032.281-5.118-.856-1.647-.898-2.891-.865-3.682-.67a3.5 3.5 0 00-.839.323v3.47H3V4.553l.332-.298L4 5a80.06 80.06 0 01-.667-.745l.003-.003.006-.005.012-.01.037-.032a4.373 4.373 0 01.516-.354 5.464 5.464 0 011.454-.585zm4.16 2.612c-1.647-.898-2.89-.865-3.682-.67A3.498 3.498 0 005 5.531v6.836a6.02 6.02 0 01.361-.101c1.276-.314 3.032-.28 5.118.856 1.647.898 2.89.865 3.682.67.357-.088.639-.216.839-.325V6.35a5.017 5.017 0 01-.255.101c-1.293.475-3.094.587-5.224-.574z" />
     </svg>
-);
+));
+
+FlagLine20Icon.displayName = 'FlagLine20Icon';
 
 export default FlagLine20Icon;

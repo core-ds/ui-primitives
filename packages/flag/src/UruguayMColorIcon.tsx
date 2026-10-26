@@ -2,10 +2,10 @@
  * This is auto-generated file by scripts/svg-to-component package
  * Do not edit it manually
  */
-import React, { SVGProps } from 'react';
+import React, { SVGProps, forwardRef } from 'react';
 
-export const UruguayMColorIcon: React.FC<SVGProps<SVGSVGElement>> = (props) => (
-    <svg role="img" focusable="false" width="24" height="24" viewBox="0 0 24 24" {...props} fill="none">
+export const UruguayMColorIcon = forwardRef<SVGSVGElement, SVGProps<SVGSVGElement>>((props, ref) => (
+    <svg ref={ref} role="img" focusable="false" width="24" height="24" viewBox="0 0 24 24" {...props} fill="none">
         <path
             d="M8.69 9.38H0v1.746h8.69V9.38zm0-3.495h15.309a1.797 1.797 0 00-1.796-1.747H1.797C.805 4.138 0 4.943 0 5.935v1.697h8.69V5.885zM1.797 19.862h20.405c.976 0 1.77-.778 1.797-1.747H0c.027.97.82 1.747 1.796 1.747z"
             fill="#F5F5F5"
@@ -51,6 +51,8 @@ export const UruguayMColorIcon: React.FC<SVGProps<SVGSVGElement>> = (props) => (
         <path d="M1.858 5.996l2.28 2.28-.415.414-1.865-2.694z" fill="#FFCD5A" />
         <path d="M4.345 9.655a1.172 1.172 0 100-2.344 1.172 1.172 0 000 2.344z" fill="#FFE15A" />
     </svg>
-);
+));
+
+UruguayMColorIcon.displayName = 'UruguayMColorIcon';
 
 export default UruguayMColorIcon;

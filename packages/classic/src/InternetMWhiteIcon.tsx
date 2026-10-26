@@ -2,10 +2,10 @@
  * This is auto-generated file by scripts/svg-to-component package
  * Do not edit it manually
  */
-import React, { SVGProps } from 'react';
+import React, { SVGProps, forwardRef } from 'react';
 
-export const InternetMWhiteIcon: React.FC<SVGProps<SVGSVGElement>> = (props) => (
-    <svg role="img" focusable="false" width="24" height="22" viewBox="0 0 24 22" {...props}>
+export const InternetMWhiteIcon = forwardRef<SVGSVGElement, SVGProps<SVGSVGElement>>((props, ref) => (
+    <svg ref={ref} role="img" focusable="false" width="24" height="22" viewBox="0 0 24 22" {...props}>
         <g fill="none" fillRule="evenodd">
             <path d="M0 0h24v24H0z" />
             <circle cx="12" cy="20" r="2" fill="#FFF" opacity=".3" />
@@ -15,6 +15,8 @@ export const InternetMWhiteIcon: React.FC<SVGProps<SVGSVGElement>> = (props) => 
             />
         </g>
     </svg>
-);
+));
+
+InternetMWhiteIcon.displayName = 'InternetMWhiteIcon';
 
 export default InternetMWhiteIcon;

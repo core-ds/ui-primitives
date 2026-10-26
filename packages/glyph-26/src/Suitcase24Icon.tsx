@@ -2,12 +2,23 @@
  * This is auto-generated file by scripts/svg-to-component package
  * Do not edit it manually
  */
-import React, { SVGProps } from 'react';
+import React, { SVGProps, forwardRef } from 'react';
 
-export const Suitcase24Icon: React.FC<SVGProps<SVGSVGElement>> = (props) => (
-    <svg role="img" focusable="false" fill="currentColor" width="24" height="24" viewBox="0 0 24 24" {...props}>
+export const Suitcase24Icon = forwardRef<SVGSVGElement, SVGProps<SVGSVGElement>>((props, ref) => (
+    <svg
+        ref={ref}
+        role="img"
+        focusable="false"
+        fill="currentColor"
+        width="24"
+        height="24"
+        viewBox="0 0 24 24"
+        {...props}
+    >
         <path d="M13 1a4 4 0 014 4v.126c1.725.444 3 2.01 3 3.874v8a4.002 4.002 0 01-3 3.874V23h-2v-2H9v2H7v-2.126A4.002 4.002 0 014 17V9a4.002 4.002 0 013-3.874V5a4 4 0 014-4h2zM9 17h2V9H9v8zm4 0h2V9h-2v8zM11 3a2 2 0 00-2 2h6a2 2 0 00-2-2h-2z" />
     </svg>
-);
+));
+
+Suitcase24Icon.displayName = 'Suitcase24Icon';
 
 export default Suitcase24Icon;

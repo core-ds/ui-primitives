@@ -2,10 +2,10 @@
  * This is auto-generated file by scripts/svg-to-component package
  * Do not edit it manually
  */
-import React, { SVGProps } from 'react';
+import React, { SVGProps, forwardRef } from 'react';
 
-export const Opti24SignBoxMWhiteIcon: React.FC<SVGProps<SVGSVGElement>> = (props) => (
-    <svg role="img" focusable="false" width="24" height="24" viewBox="0 0 24 24" {...props} fill="none">
+export const Opti24SignBoxMWhiteIcon = forwardRef<SVGSVGElement, SVGProps<SVGSVGElement>>((props, ref) => (
+    <svg ref={ref} role="img" focusable="false" width="24" height="24" viewBox="0 0 24 24" {...props} fill="none">
         <path
             d="M20.888 12.38v-.678c0-.178.032-.371.048-.548h-.032c-.097.177-.177.322-.274.516l-.435.693v.016h.693zm0 1.305v-.79h-1.387v-.451l1.322-2.048h.774v1.967H22v.532h-.403v.79h-.709zm-3.645 0v-.452l.403-.419c.516-.548.951-.985.951-1.467 0-.258-.177-.452-.516-.452-.213.01-.421.066-.612.161l-.13-.5c.283-.135.59-.207.904-.21.886 0 1.16.485 1.16.952 0 .613-.467 1.113-.935 1.548l-.24.226v.016h1.241v.58h-2.226v.017z"
             fill="#fff"
@@ -17,6 +17,8 @@ export const Opti24SignBoxMWhiteIcon: React.FC<SVGProps<SVGSVGElement>> = (props
             clipRule="evenodd"
         />
     </svg>
-);
+));
+
+Opti24SignBoxMWhiteIcon.displayName = 'Opti24SignBoxMWhiteIcon';
 
 export default Opti24SignBoxMWhiteIcon;

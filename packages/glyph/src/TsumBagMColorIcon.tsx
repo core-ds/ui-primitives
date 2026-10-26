@@ -2,10 +2,10 @@
  * This is auto-generated file by scripts/svg-to-component package
  * Do not edit it manually
  */
-import React, { SVGProps } from 'react';
+import React, { SVGProps, forwardRef } from 'react';
 
-export const TsumBagMColorIcon: React.FC<SVGProps<SVGSVGElement>> = (props) => (
-    <svg role="img" focusable="false" width="24" height="24" viewBox="0 0 24 24" {...props} fill="none">
+export const TsumBagMColorIcon = forwardRef<SVGSVGElement, SVGProps<SVGSVGElement>>((props, ref) => (
+    <svg ref={ref} role="img" focusable="false" width="24" height="24" viewBox="0 0 24 24" {...props} fill="none">
         <path
             d="M3 7h18a1 1 0 011 1v13a1 1 0 01-1 1H3a1 1 0 01-1-1V8a1 1 0 011-1z"
             fill="#F94F0D"
@@ -28,6 +28,8 @@ export const TsumBagMColorIcon: React.FC<SVGProps<SVGSVGElement>> = (props) => (
         />
         <path d="M10.842 16.503h.33v-.319h-.33v.319z" fill="#F94F0D" fillRule="evenodd" clipRule="evenodd" />
     </svg>
-);
+));
+
+TsumBagMColorIcon.displayName = 'TsumBagMColorIcon';
 
 export default TsumBagMColorIcon;

@@ -2,10 +2,10 @@
  * This is auto-generated file by scripts/svg-to-component package
  * Do not edit it manually
  */
-import React, { SVGProps } from 'react';
+import React, { SVGProps, forwardRef } from 'react';
 
-export const DelikateskaMColorIcon: React.FC<SVGProps<SVGSVGElement>> = (props) => (
-    <svg role="img" focusable="false" width="95" height="24" viewBox="0 0 95 24" {...props} fill="none">
+export const DelikateskaMColorIcon = forwardRef<SVGSVGElement, SVGProps<SVGSVGElement>>((props, ref) => (
+    <svg ref={ref} role="img" focusable="false" width="95" height="24" viewBox="0 0 95 24" {...props} fill="none">
         <path
             d="M13.183 10.258a.557.557 0 00-.558.552.557.557 0 001.115 0 .557.557 0 00-.557-.552zm0 2.375a.557.557 0 00-.558.552.557.557 0 001.115 0 .557.557 0 00-.557-.552z"
             fill="#B32442"
@@ -15,6 +15,8 @@ export const DelikateskaMColorIcon: React.FC<SVGProps<SVGSVGElement>> = (props) 
             fill="#B32442"
         />
     </svg>
-);
+));
+
+DelikateskaMColorIcon.displayName = 'DelikateskaMColorIcon';
 
 export default DelikateskaMColorIcon;

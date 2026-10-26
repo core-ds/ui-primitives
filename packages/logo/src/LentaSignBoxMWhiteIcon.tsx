@@ -2,10 +2,10 @@
  * This is auto-generated file by scripts/svg-to-component package
  * Do not edit it manually
  */
-import React, { SVGProps } from 'react';
+import React, { SVGProps, forwardRef } from 'react';
 
-export const LentaSignBoxMWhiteIcon: React.FC<SVGProps<SVGSVGElement>> = (props) => (
-    <svg role="img" focusable="false" width="24" height="24" viewBox="0 0 24 24" {...props} fill="none">
+export const LentaSignBoxMWhiteIcon = forwardRef<SVGSVGElement, SVGProps<SVGSVGElement>>((props, ref) => (
+    <svg ref={ref} role="img" focusable="false" width="24" height="24" viewBox="0 0 24 24" {...props} fill="none">
         <path
             d="M12.927 16.66h.926v3.591h-.926v-1.398h-1.618v1.398h-.926V16.66h.926v1.323h1.618V16.66zm1.362.89h1.154v2.701h.926v-2.7h1.139v-.891h-3.219v.89zM22 19.47v.763a1.308 1.308 0 01-.586.118c-.48 0-.723-.21-.82-.547l-.016.022c-.28.352-.668.525-1.17.525-.504 0-.892-.18-1.236-.546-.338-.366-.51-.818-.51-1.35 0-.532.172-.977.51-1.343.345-.366.753-.553 1.235-.553.482 0 .856.158 1.133.48v-.38h.926v2.54c0 .217.1.33.297.33.091 0 .171-.02.237-.06zm-1.422-1.015c0-.294-.093-.538-.287-.725a.942.942 0 00-.71-.287.943.943 0 00-.712.287c-.186.186-.28.43-.28.725s.094.54.28.733c.187.186.424.28.711.28a.964.964 0 00.712-.28.99.99 0 00.286-.733zM2.751 16.66l-.028 1.349c-.006.546-.026.815-.105 1.125-.072.296-.21.38-.427.38A.545.545 0 012 19.486v.763c.072.04.19.06.349.06.651-.02.967-.328 1.125-.88.112-.395.132-.697.151-1.151l.021-.729h1.15v2.7h.927v-3.59H2.751zm4.461 2.038c.1.613.586.813 1.08.813.326 0 .668-.128.879-.319l.571.575c-.341.378-.816.584-1.465.584-.91 0-2.006-.537-2.006-1.896s1.056-1.895 1.953-1.895c1.134 0 1.604.532 1.604 1.13 0 .977-1.242 1.428-2.616 1.008zm1.61-.902c0-.279-.276-.404-.585-.404-.472 0-.88.2-1.005.712.962.277 1.59.07 1.59-.308zM6.64 11.232a6 6 0 005.521 3.66 6 6 0 00-5.521-3.66z"
             fill="#fff"
@@ -15,6 +15,8 @@ export const LentaSignBoxMWhiteIcon: React.FC<SVGProps<SVGSVGElement>> = (props)
             fill="#fff"
         />
     </svg>
-);
+));
+
+LentaSignBoxMWhiteIcon.displayName = 'LentaSignBoxMWhiteIcon';
 
 export default LentaSignBoxMWhiteIcon;

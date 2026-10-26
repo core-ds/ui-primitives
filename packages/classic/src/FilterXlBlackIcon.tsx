@@ -2,10 +2,10 @@
  * This is auto-generated file by scripts/svg-to-component package
  * Do not edit it manually
  */
-import React, { SVGProps } from 'react';
+import React, { SVGProps, forwardRef } from 'react';
 
-export const FilterXlBlackIcon: React.FC<SVGProps<SVGSVGElement>> = (props) => (
-    <svg role="img" focusable="false" width="36" height="36" viewBox="0 0 36 36" {...props} fill="none">
+export const FilterXlBlackIcon = forwardRef<SVGSVGElement, SVGProps<SVGSVGElement>>((props, ref) => (
+    <svg ref={ref} role="img" focusable="false" width="36" height="36" viewBox="0 0 36 36" {...props} fill="none">
         <path
             d="M4.5 30C6.981 30 9 27.981 9 25.5S6.981 21 4.5 21A4.505 4.505 0 000 25.5C0 27.981 2.019 30 4.5 30zm0-7.5c1.654 0 3 1.346 3 3s-1.346 3-3 3c-1.655 0-3-1.346-3-3s1.345-3 3-3zm9-12c0 2.481 2.019 4.5 4.5 4.5s4.5-2.019 4.5-4.5S20.481 6 18 6a4.505 4.505 0 00-4.5 4.5zm7.5 0c0 1.655-1.346 3-3 3s-3-1.345-3-3 1.346-3 3-3 3 1.345 3 3zm6 9c0 2.481 2.019 4.5 4.5 4.5s4.5-2.019 4.5-4.5-2.019-4.5-4.5-4.5a4.505 4.505 0 00-4.5 4.5zm4.5-3c1.654 0 3 1.346 3 3s-1.346 3-3 3-3-1.346-3-3 1.346-3 3-3z"
             fill="#0B1F35"
@@ -16,6 +16,8 @@ export const FilterXlBlackIcon: React.FC<SVGProps<SVGSVGElement>> = (props) => (
             fill="#0B1F35"
         />
     </svg>
-);
+));
+
+FilterXlBlackIcon.displayName = 'FilterXlBlackIcon';
 
 export default FilterXlBlackIcon;

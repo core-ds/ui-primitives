@@ -2,10 +2,10 @@
  * This is auto-generated file by scripts/svg-to-component package
  * Do not edit it manually
  */
-import React, { SVGProps } from 'react';
+import React, { SVGProps, forwardRef } from 'react';
 
-export const AlfaBankSignSquareMColorIcon: React.FC<SVGProps<SVGSVGElement>> = (props) => (
-    <svg role="img" focusable="false" width="24" height="24" viewBox="0 0 24 24" {...props} fill="none">
+export const AlfaBankSignSquareMColorIcon = forwardRef<SVGSVGElement, SVGProps<SVGSVGElement>>((props, ref) => (
+    <svg ref={ref} role="img" focusable="false" width="24" height="24" viewBox="0 0 24 24" {...props} fill="none">
         <path
             d="M2 6.2A4.2 4.2 0 016.2 2h11.6A4.2 4.2 0 0122 6.2v11.6a4.2 4.2 0 01-4.2 4.2H6.2A4.2 4.2 0 012 17.8V6.2z"
             fill="#EF3124"
@@ -17,6 +17,8 @@ export const AlfaBankSignSquareMColorIcon: React.FC<SVGProps<SVGSVGElement>> = (
             clipRule="evenodd"
         />
     </svg>
-);
+));
+
+AlfaBankSignSquareMColorIcon.displayName = 'AlfaBankSignSquareMColorIcon';
 
 export default AlfaBankSignSquareMColorIcon;

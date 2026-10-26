@@ -2,10 +2,10 @@
  * This is auto-generated file by scripts/svg-to-component package
  * Do not edit it manually
  */
-import React, { SVGProps } from 'react';
+import React, { SVGProps, forwardRef } from 'react';
 
-export const VkWorkspaceMColorIcon: React.FC<SVGProps<SVGSVGElement>> = (props) => (
-    <svg role="img" focusable="false" width="127" height="24" viewBox="0 0 127 24" {...props} fill="none">
+export const VkWorkspaceMColorIcon = forwardRef<SVGSVGElement, SVGProps<SVGSVGElement>>((props, ref) => (
+    <svg ref={ref} role="img" focusable="false" width="127" height="24" viewBox="0 0 127 24" {...props} fill="none">
         <path
             d="M17.996 2.217a66.218 66.218 0 00-1.021 2.064l-.002.004-4.25 8.83c-.605 1.254-1.062 2.203-1.303 2.955a6.865 6.865 0 00-.041.131c-.145.49-.191.892-.119 1.242.007.03.014.061.023.091.036.134.092.26.167.38.589.936 2.018.936 4.876.936h5.27c.403-1.407.404-3.392.404-6.358v-.984c0-4.482 0-6.723-1.392-8.116-.644-.643-1.47-.99-2.612-1.175z"
             fill="#00D9ED"
@@ -25,6 +25,8 @@ export const VkWorkspaceMColorIcon: React.FC<SVGProps<SVGSVGElement>> = (props) 
             fill="#07F"
         />
     </svg>
-);
+));
+
+VkWorkspaceMColorIcon.displayName = 'VkWorkspaceMColorIcon';
 
 export default VkWorkspaceMColorIcon;

@@ -2,10 +2,19 @@
  * This is auto-generated file by scripts/svg-to-component package
  * Do not edit it manually
  */
-import React, { SVGProps } from 'react';
+import React, { SVGProps, forwardRef } from 'react';
 
-export const CategoryTravelXxlIcon: React.FC<SVGProps<SVGSVGElement>> = (props) => (
-    <svg role="img" focusable="false" fill="currentColor" width="48" height="48" viewBox="0 0 48 48" {...props}>
+export const CategoryTravelXxlIcon = forwardRef<SVGSVGElement, SVGProps<SVGSVGElement>>((props, ref) => (
+    <svg
+        ref={ref}
+        role="img"
+        focusable="false"
+        fill="currentColor"
+        width="48"
+        height="48"
+        viewBox="0 0 48 48"
+        {...props}
+    >
         <path d="M19 46.542c0 .92.746 1.458 1.667 1.458h6.667c.92 0 1.666-.538 1.666-1.458V43H19v3.542z" opacity=".3" />
         <path d="M28.912 40v-.5c0-2.586 1.932-4.337 4.377-6.554C36.725 29.831 41 25.955 41 18c0-9.374-7.626-17-17-17C14.626 1 7 8.626 7 18c0 7.955 4.275 11.831 7.711 14.946 2.446 2.217 4.377 3.968 4.377 6.554v.5h9.824zm-13.529-7.795C11.922 29.067 8 25.512 8 18 8 9.178 15.178 2 24 2s16 7.178 16 16c0 7.512-3.922 11.067-7.383 14.205-2.383 2.161-4.46 4.044-4.686 6.795h-7.863c-.225-2.751-2.302-4.634-4.685-6.795z" />
         <path
@@ -13,6 +22,8 @@ export const CategoryTravelXxlIcon: React.FC<SVGProps<SVGSVGElement>> = (props) 
             opacity=".3"
         />
     </svg>
-);
+));
+
+CategoryTravelXxlIcon.displayName = 'CategoryTravelXxlIcon';
 
 export default CategoryTravelXxlIcon;

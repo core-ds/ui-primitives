@@ -2,10 +2,10 @@
  * This is auto-generated file by scripts/svg-to-component package
  * Do not edit it manually
  */
-import React, { SVGProps } from 'react';
+import React, { SVGProps, forwardRef } from 'react';
 
-export const YandexMWhiteIcon: React.FC<SVGProps<SVGSVGElement>> = (props) => (
-    <svg role="img" focusable="false" width="74" height="24" viewBox="0 0 74 24" {...props} fill="none">
+export const YandexMWhiteIcon = forwardRef<SVGSVGElement, SVGProps<SVGSVGElement>>((props, ref) => (
+    <svg ref={ref} role="img" focusable="false" width="74" height="24" viewBox="0 0 74 24" {...props} fill="none">
         <path
             d="M10.47 4.323H9.127c-2.463 0-3.75 1.231-3.75 3.06 0 2.07.895 3.031 2.733 4.272l1.511 1.007-4.375 6.493H2l3.927-5.802C3.67 11.748 2.401 10.19 2.401 7.55 2.401 4.24 4.715 2 9.108 2h4.366v17.155H10.47V4.323z"
             fill="#F8604A"
@@ -19,6 +19,8 @@ export const YandexMWhiteIcon: React.FC<SVGProps<SVGSVGElement>> = (props) => (
             clipRule="evenodd"
         />
     </svg>
-);
+));
+
+YandexMWhiteIcon.displayName = 'YandexMWhiteIcon';
 
 export default YandexMWhiteIcon;

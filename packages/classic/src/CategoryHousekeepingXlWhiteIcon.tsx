@@ -2,10 +2,10 @@
  * This is auto-generated file by scripts/svg-to-component package
  * Do not edit it manually
  */
-import React, { SVGProps } from 'react';
+import React, { SVGProps, forwardRef } from 'react';
 
-export const CategoryHousekeepingXlWhiteIcon: React.FC<SVGProps<SVGSVGElement>> = (props) => (
-    <svg role="img" focusable="false" width="36" height="36" viewBox="0 0 36 36" {...props}>
+export const CategoryHousekeepingXlWhiteIcon = forwardRef<SVGSVGElement, SVGProps<SVGSVGElement>>((props, ref) => (
+    <svg ref={ref} role="img" focusable="false" width="36" height="36" viewBox="0 0 36 36" {...props}>
         <g fill="none" fillRule="evenodd">
             <path
                 d="M27.161 26v5h3v-5h4.838a1 1 0 00.762-1.648l-5.434-6.393h3.526c.875 0 1.328-1.045.73-1.684l-5.192-5.538a1 1 0 00-1.459 0l-5.192 5.538c-.599.639-.146 1.684.73 1.684h3.526l-5.434 6.393A1 1 0 0022.323 26h4.838z"
@@ -19,6 +19,8 @@ export const CategoryHousekeepingXlWhiteIcon: React.FC<SVGProps<SVGSVGElement>> 
             <path fill="#FFF" opacity=".3" d="M11 18h4v6h-4z" />
         </g>
     </svg>
-);
+));
+
+CategoryHousekeepingXlWhiteIcon.displayName = 'CategoryHousekeepingXlWhiteIcon';
 
 export default CategoryHousekeepingXlWhiteIcon;

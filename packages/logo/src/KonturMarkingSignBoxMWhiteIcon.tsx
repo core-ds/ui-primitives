@@ -2,10 +2,10 @@
  * This is auto-generated file by scripts/svg-to-component package
  * Do not edit it manually
  */
-import React, { SVGProps } from 'react';
+import React, { SVGProps, forwardRef } from 'react';
 
-export const KonturMarkingSignBoxMWhiteIcon: React.FC<SVGProps<SVGSVGElement>> = (props) => (
-    <svg role="img" focusable="false" width="24" height="24" viewBox="0 0 24 24" {...props} fill="none">
+export const KonturMarkingSignBoxMWhiteIcon = forwardRef<SVGSVGElement, SVGProps<SVGSVGElement>>((props, ref) => (
+    <svg ref={ref} role="img" focusable="false" width="24" height="24" viewBox="0 0 24 24" {...props} fill="none">
         <path
             d="M17.571 3H6.43A3.429 3.429 0 003 6.429V17.57A3.429 3.429 0 006.429 21H17.57A3.429 3.429 0 0021 17.571V6.43A3.429 3.429 0 0017.571 3z"
             fill="#fff"
@@ -17,6 +17,8 @@ export const KonturMarkingSignBoxMWhiteIcon: React.FC<SVGProps<SVGSVGElement>> =
             clipRule="evenodd"
         />
     </svg>
-);
+));
+
+KonturMarkingSignBoxMWhiteIcon.displayName = 'KonturMarkingSignBoxMWhiteIcon';
 
 export default KonturMarkingSignBoxMWhiteIcon;

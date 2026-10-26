@@ -2,10 +2,10 @@
  * This is auto-generated file by scripts/svg-to-component package
  * Do not edit it manually
  */
-import React, { SVGProps } from 'react';
+import React, { SVGProps, forwardRef } from 'react';
 
-export const BurundiMColorIcon: React.FC<SVGProps<SVGSVGElement>> = (props) => (
-    <svg role="img" focusable="false" width="24" height="24" viewBox="0 0 24 24" {...props} fill="none">
+export const BurundiMColorIcon = forwardRef<SVGSVGElement, SVGProps<SVGSVGElement>>((props, ref) => (
+    <svg ref={ref} role="img" focusable="false" width="24" height="24" viewBox="0 0 24 24" {...props} fill="none">
         <path
             d="M22.202 4.137H1.795c-.96 0-1.745.753-1.795 1.7v12.326a1.798 1.798 0 001.702 1.698h20.593A1.798 1.798 0 0024 18.065V5.935c0-.993-.805-1.798-1.798-1.798z"
             fill="#73AF00"
@@ -43,6 +43,8 @@ export const BurundiMColorIcon: React.FC<SVGProps<SVGSVGElement>> = (props) => (
             fill="#73AF00"
         />
     </svg>
-);
+));
+
+BurundiMColorIcon.displayName = 'BurundiMColorIcon';
 
 export default BurundiMColorIcon;

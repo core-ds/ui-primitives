@@ -2,10 +2,10 @@
  * This is auto-generated file by scripts/svg-to-component package
  * Do not edit it manually
  */
-import React, { SVGProps } from 'react';
+import React, { SVGProps, forwardRef } from 'react';
 
-export const FivepostMColorIcon: React.FC<SVGProps<SVGSVGElement>> = (props) => (
-    <svg role="img" focusable="false" width="61" height="24" viewBox="0 0 61 24" {...props} fill="none">
+export const FivepostMColorIcon = forwardRef<SVGSVGElement, SVGProps<SVGSVGElement>>((props, ref) => (
+    <svg ref={ref} role="img" focusable="false" width="61" height="24" viewBox="0 0 61 24" {...props} fill="none">
         <path
             d="M10.637 22a9.553 9.553 0 01-8.51-5.213 1.154 1.154 0 01.648-1.619c.54-.186 1.14.05 1.398.56a7.25 7.25 0 0012.285 1.041c.433-.583 1.033-1.511 1.033-3.003l2.064 2.164s-.108.31-.317.703c-.21.393-.297.54-.424.752A9.555 9.555 0 0110.637 22z"
             fill="#64B441"
@@ -23,6 +23,8 @@ export const FivepostMColorIcon: React.FC<SVGProps<SVGSVGElement>> = (props) => 
             fill="#5FAF2D"
         />
     </svg>
-);
+));
+
+FivepostMColorIcon.displayName = 'FivepostMColorIcon';
 
 export default FivepostMColorIcon;

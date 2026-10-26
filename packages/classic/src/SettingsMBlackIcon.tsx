@@ -2,10 +2,11 @@
  * This is auto-generated file by scripts/svg-to-component package
  * Do not edit it manually
  */
-import React, { SVGProps } from 'react';
+import React, { SVGProps, forwardRef } from 'react';
 
-export const SettingsMBlackIcon: React.FC<SVGProps<SVGSVGElement>> = (props) => (
+export const SettingsMBlackIcon = forwardRef<SVGSVGElement, SVGProps<SVGSVGElement>>((props, ref) => (
     <svg
+        ref={ref}
         role="img"
         focusable="false"
         width="24"
@@ -33,6 +34,8 @@ export const SettingsMBlackIcon: React.FC<SVGProps<SVGSVGElement>> = (props) => 
             />
         </g>
     </svg>
-);
+));
+
+SettingsMBlackIcon.displayName = 'SettingsMBlackIcon';
 
 export default SettingsMBlackIcon;

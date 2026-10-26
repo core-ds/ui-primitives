@@ -2,10 +2,10 @@
  * This is auto-generated file by scripts/svg-to-component package
  * Do not edit it manually
  */
-import React, { SVGProps } from 'react';
+import React, { SVGProps, forwardRef } from 'react';
 
-export const YotaEnMColorIcon: React.FC<SVGProps<SVGSVGElement>> = (props) => (
-    <svg role="img" focusable="false" width="66" height="24" viewBox="0 0 66 24" {...props} fill="none">
+export const YotaEnMColorIcon = forwardRef<SVGSVGElement, SVGProps<SVGSVGElement>>((props, ref) => (
+    <svg ref={ref} role="img" focusable="false" width="66" height="24" viewBox="0 0 66 24" {...props} fill="none">
         <path
             d="M9.773 10.486l-.103.02v2.873l.103.021c2.976.619 5.136 3.283 5.136 6.333v.934c0 .672-.545 1.219-1.216 1.219a1.219 1.219 0 01-1.215-1.218v-.933a4.001 4.001 0 00-1.252-2.925 3.995 3.995 0 00-2.772-1.108 3.994 3.994 0 00-2.77 1.108 4.001 4.001 0 00-1.253 2.925v.933c0 .671-.544 1.218-1.215 1.218A1.22 1.22 0 012 20.668v-.933c0-3.052 2.16-5.716 5.136-6.334l.103-.022v-2.872l-.103-.021C4.16 9.866 2 7.202 2 4.152V3.22C2 2.547 2.544 2 3.216 2c.67 0 1.215.547 1.215 1.219v.933a4 4 0 001.252 2.924 3.993 3.993 0 002.771 1.107 3.993 3.993 0 002.772-1.107 4 4 0 001.252-2.924V3.22c0-.672.544-1.219 1.215-1.219.67 0 1.216.547 1.216 1.219v.933c0 3.05-2.16 5.714-5.136 6.334zM8.454 22a2.351 2.351 0 002.348-2.352 2.35 2.35 0 00-2.348-2.354 2.35 2.35 0 00-2.346 2.353A2.35 2.35 0 008.454 22z"
             fill="#00AEEF"
@@ -17,6 +17,8 @@ export const YotaEnMColorIcon: React.FC<SVGProps<SVGSVGElement>> = (props) => (
             fill="#00AEEF"
         />
     </svg>
-);
+));
+
+YotaEnMColorIcon.displayName = 'YotaEnMColorIcon';
 
 export default YotaEnMColorIcon;

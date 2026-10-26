@@ -2,10 +2,19 @@
  * This is auto-generated file by scripts/svg-to-component package
  * Do not edit it manually
  */
-import React, { SVGProps } from 'react';
+import React, { SVGProps, forwardRef } from 'react';
 
-export const WorldSegmentedCashSIcon: React.FC<SVGProps<SVGSVGElement>> = (props) => (
-    <svg role="img" focusable="false" fill="currentColor" width="16" height="16" viewBox="0 0 16 16" {...props}>
+export const WorldSegmentedCashSIcon = forwardRef<SVGSVGElement, SVGProps<SVGSVGElement>>((props, ref) => (
+    <svg
+        ref={ref}
+        role="img"
+        focusable="false"
+        fill="currentColor"
+        width="16"
+        height="16"
+        viewBox="0 0 16 16"
+        {...props}
+    >
         <g clipPath="url(#prefix__clip0_18363_1158)">
             <path d="M6.585 2c-.175.443-.328.943-.454 1.5h3.738A10.444 10.444 0 009.415 2C9.002.944 8.493.261 8-.117 7.507.262 6.998.944 6.585 1.999zM1.503 3.5A7.518 7.518 0 015.886.052a8.304 8.304 0 00-.698 1.4A12.29 12.29 0 004.597 3.5H1.503zM.843 5A7.497 7.497 0 00.5 7.25c0 .784.12 1.54.343 2.25h3.524a20.905 20.905 0 01-.117-2.25c0-.797.04-1.547.117-2.25H.843zm.66 6a7.536 7.536 0 002.747 2.746V11H1.503z" />
             <path
@@ -21,6 +30,8 @@ export const WorldSegmentedCashSIcon: React.FC<SVGProps<SVGSVGElement>> = (props
             </clipPath>
         </defs>
     </svg>
-);
+));
+
+WorldSegmentedCashSIcon.displayName = 'WorldSegmentedCashSIcon';
 
 export default WorldSegmentedCashSIcon;

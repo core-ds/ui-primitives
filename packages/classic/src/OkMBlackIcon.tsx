@@ -2,10 +2,10 @@
  * This is auto-generated file by scripts/svg-to-component package
  * Do not edit it manually
  */
-import React, { SVGProps } from 'react';
+import React, { SVGProps, forwardRef } from 'react';
 
-export const OkMBlackIcon: React.FC<SVGProps<SVGSVGElement>> = (props) => (
-    <svg role="img" focusable="false" width="24" height="24" viewBox="0 0 24 24" {...props}>
+export const OkMBlackIcon = forwardRef<SVGSVGElement, SVGProps<SVGSVGElement>>((props, ref) => (
+    <svg ref={ref} role="img" focusable="false" width="24" height="24" viewBox="0 0 24 24" {...props}>
         <g fill="none">
             <path
                 fill="#0B1F35"
@@ -14,6 +14,8 @@ export const OkMBlackIcon: React.FC<SVGProps<SVGSVGElement>> = (props) => (
             <path fill="#0B1F35" d="M10.015 15.12l-3.342-3.152-.673.696 4.015 4.015 7.854-7.855L17.024 8z" />
         </g>
     </svg>
-);
+));
+
+OkMBlackIcon.displayName = 'OkMBlackIcon';
 
 export default OkMBlackIcon;

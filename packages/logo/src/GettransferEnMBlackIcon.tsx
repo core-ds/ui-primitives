@@ -2,10 +2,10 @@
  * This is auto-generated file by scripts/svg-to-component package
  * Do not edit it manually
  */
-import React, { SVGProps } from 'react';
+import React, { SVGProps, forwardRef } from 'react';
 
-export const GettransferEnMBlackIcon: React.FC<SVGProps<SVGSVGElement>> = (props) => (
-    <svg role="img" focusable="false" width="198" height="24" viewBox="0 0 198 24" {...props} fill="none">
+export const GettransferEnMBlackIcon = forwardRef<SVGSVGElement, SVGProps<SVGSVGElement>>((props, ref) => (
+    <svg ref={ref} role="img" focusable="false" width="198" height="24" viewBox="0 0 198 24" {...props} fill="none">
         <path
             d="M13.332 6.16c2.08 0 3.988.397 5.672 1.18l.214.1 1-3.86-.13-.07C18.278 2.522 15.941 2 13.332 2c-3.526 0-6.46 1.11-8.488 3.21C3.01 7.11 2 9.77 2 12.694c0 5.472 3.852 8.87 10.053 8.87 1.856 0 4.595-.355 6.207-1.359l.075-.047 1.456-10.025H11.13l-.95 3.742h4.555l-.509 3.507c-.807.152-1.556.231-2.172.231-3.026 0-4.762-1.793-4.762-4.918 0-5.899 4.225-6.535 6.041-6.535zm14.761 4.566c1.425 0 1.724.967 1.724 1.778 0 .187-.015.364-.033.535h-4.323c.414-1.555 1.277-2.313 2.632-2.313zm0-3.61c-2.328 0-4.277.854-5.636 2.468-1.233 1.465-1.913 3.503-1.913 5.74 0 1.876.736 6.24 7.549 6.24 1.376 0 2.89-.316 4.053-.845l.08-.037 1.223-4.215-.42.247c-1.324.775-2.824 1.137-4.723 1.137-1.828 0-2.797-.605-3.027-1.9h8.611l.04-.139c.21-.746.46-1.886.46-3.076 0-3.414-2.472-5.62-6.297-5.62zm13.87-3.231l-4.983.682-1.54 10.71c-.093.644-.134 1.12-.134 1.545 0 3.147 1.76 4.742 5.23 4.742.8 0 1.59-.117 2.35-.348l.106-.033.873-3.725-.322.098c-.595.18-1.142.252-1.888.252-1.292 0-1.458-.61-1.458-1.143 0-.434.064-.894.115-1.263l.659-4.563h3.388l.992-3.363h-3.899l.511-3.591zm18.859-1.459H46.38l-1.03 4.146h5.008l-2.105 15.002h5.002L55.36 6.571h4.433l1.03-4.146z"
             fill="#000"
@@ -15,6 +15,8 @@ export const GettransferEnMBlackIcon: React.FC<SVGProps<SVGSVGElement>> = (props
             fill="#000"
         />
     </svg>
-);
+));
+
+GettransferEnMBlackIcon.displayName = 'GettransferEnMBlackIcon';
 
 export default GettransferEnMBlackIcon;

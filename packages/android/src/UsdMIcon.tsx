@@ -2,12 +2,23 @@
  * This is auto-generated file by scripts/svg-to-component package
  * Do not edit it manually
  */
-import React, { SVGProps } from 'react';
+import React, { SVGProps, forwardRef } from 'react';
 
-export const UsdMIcon: React.FC<SVGProps<SVGSVGElement>> = (props) => (
-    <svg role="img" focusable="false" fill="currentColor" width="24" height="24" viewBox="0 0 24 24" {...props}>
+export const UsdMIcon = forwardRef<SVGSVGElement, SVGProps<SVGSVGElement>>((props, ref) => (
+    <svg
+        ref={ref}
+        role="img"
+        focusable="false"
+        fill="currentColor"
+        width="24"
+        height="24"
+        viewBox="0 0 24 24"
+        {...props}
+    >
         <path d="M15.002 16.543c0-.715-.227-1.304-.681-1.767-.454-.471-1.211-.892-2.271-1.262-1.06-.378-1.885-.727-2.474-1.047-1.96-1.052-2.94-2.608-2.94-4.669 0-1.396.425-2.545 1.275-3.445.85-.9 2.002-1.434 3.457-1.602V0h2.02v2.776c1.463.21 2.594.833 3.393 1.868.8 1.026 1.2 2.363 1.2 4.012h-3.055c0-1.06-.24-1.893-.719-2.498-.47-.614-1.114-.921-1.93-.921-.808 0-1.439.218-1.893.656-.454.437-.681 1.064-.681 1.88 0 .732.222 1.32.668 1.766.455.438 1.22.854 2.297 1.25 1.077.395 1.922.76 2.536 1.097a6.395 6.395 0 011.552 1.161c.42.43.745.926.972 1.49.227.563.34 1.223.34 1.98 0 1.422-.437 2.575-1.312 3.458-.866.883-2.078 1.405-3.634 1.564V24h-2.006v-2.448c-1.666-.185-2.949-.782-3.849-1.792-.891-1.01-1.337-2.347-1.337-4.012h3.066c0 1.06.265 1.88.795 2.46.538.58 1.295.87 2.271.87.96 0 1.687-.23 2.183-.693.505-.463.757-1.077.757-1.842z" />
     </svg>
-);
+));
+
+UsdMIcon.displayName = 'UsdMIcon';
 
 export default UsdMIcon;

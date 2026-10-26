@@ -2,10 +2,10 @@
  * This is auto-generated file by scripts/svg-to-component package
  * Do not edit it manually
  */
-import React, { SVGProps } from 'react';
+import React, { SVGProps, forwardRef } from 'react';
 
-export const BalanceTransferMBlackIcon: React.FC<SVGProps<SVGSVGElement>> = (props) => (
-    <svg role="img" focusable="false" width="24" height="24" viewBox="0 0 24 24" {...props} fill="none">
+export const BalanceTransferMBlackIcon = forwardRef<SVGSVGElement, SVGProps<SVGSVGElement>>((props, ref) => (
+    <svg ref={ref} role="img" focusable="false" width="24" height="24" viewBox="0 0 24 24" {...props} fill="none">
         <path
             d="M2 2h15a2 2 0 012 2v2h3a2 2 0 012 2v11a2 2 0 01-2 2H7a2 2 0 01-2-2v-2H2a2 2 0 01-2-2V4a2 2 0 012-2zm0 1a1 1 0 00-1 1v11a1 1 0 001 1h3V8a2 2 0 012-2h11V4a1 1 0 00-1-1H2zm5 4a1 1 0 00-1 1v11a1 1 0 001 1h15a1 1 0 001-1V8a1 1 0 00-1-1H7z"
             fill="#0B1F35"
@@ -20,6 +20,8 @@ export const BalanceTransferMBlackIcon: React.FC<SVGProps<SVGSVGElement>> = (pro
         />
         <path d="M11.695 16.464h5.58v1.227h-5.58v-1.227z" fill="#0B1F35" fillOpacity=".3" />
     </svg>
-);
+));
+
+BalanceTransferMBlackIcon.displayName = 'BalanceTransferMBlackIcon';
 
 export default BalanceTransferMBlackIcon;

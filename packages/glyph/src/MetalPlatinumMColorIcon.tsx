@@ -2,10 +2,10 @@
  * This is auto-generated file by scripts/svg-to-component package
  * Do not edit it manually
  */
-import React, { SVGProps } from 'react';
+import React, { SVGProps, forwardRef } from 'react';
 
-export const MetalPlatinumMColorIcon: React.FC<SVGProps<SVGSVGElement>> = (props) => (
-    <svg role="img" focusable="false" width="24" height="24" viewBox="0 0 24 24" {...props} fill="none">
+export const MetalPlatinumMColorIcon = forwardRef<SVGSVGElement, SVGProps<SVGSVGElement>>((props, ref) => (
+    <svg ref={ref} role="img" focusable="false" width="24" height="24" viewBox="0 0 24 24" {...props} fill="none">
         <path
             d="M9.709 10.588h-.712v2.11h.697c.7 0 1.116-.399 1.116-1.083 0-.68-.416-1.027-1.101-1.027z"
             fill="#626B75"
@@ -17,6 +17,8 @@ export const MetalPlatinumMColorIcon: React.FC<SVGProps<SVGSVGElement>> = (props
             clipRule="evenodd"
         />
     </svg>
-);
+));
+
+MetalPlatinumMColorIcon.displayName = 'MetalPlatinumMColorIcon';
 
 export default MetalPlatinumMColorIcon;

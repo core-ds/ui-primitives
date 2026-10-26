@@ -2,10 +2,10 @@
  * This is auto-generated file by scripts/svg-to-component package
  * Do not edit it manually
  */
-import React, { SVGProps } from 'react';
+import React, { SVGProps, forwardRef } from 'react';
 
-export const CashbackXsWhiteIcon: React.FC<SVGProps<SVGSVGElement>> = (props) => (
-    <svg role="img" focusable="false" width="12" height="12" viewBox="0 0 12 12" {...props}>
+export const CashbackXsWhiteIcon = forwardRef<SVGSVGElement, SVGProps<SVGSVGElement>>((props, ref) => (
+    <svg ref={ref} role="img" focusable="false" width="12" height="12" viewBox="0 0 12 12" {...props}>
         <g fill="none" fillRule="evenodd">
             <g fill="#FFF" fillRule="nonzero">
                 <path d="M5.786 4C4.247 4 3 5.343 3 7v2.003c0 .55.415.997.926.997h4.148C8.585 10 9 9.554 9 9.003V7c0-1.657-1.247-3-2.786-3h-.428z" />
@@ -13,6 +13,8 @@ export const CashbackXsWhiteIcon: React.FC<SVGProps<SVGSVGElement>> = (props) =>
             </g>
         </g>
     </svg>
-);
+));
+
+CashbackXsWhiteIcon.displayName = 'CashbackXsWhiteIcon';
 
 export default CashbackXsWhiteIcon;

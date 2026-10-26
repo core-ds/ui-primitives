@@ -2,10 +2,10 @@
  * This is auto-generated file by scripts/svg-to-component package
  * Do not edit it manually
  */
-import React, { SVGProps } from 'react';
+import React, { SVGProps, forwardRef } from 'react';
 
-export const VietnamMColorIcon: React.FC<SVGProps<SVGSVGElement>> = (props) => (
-    <svg role="img" focusable="false" width="24" height="24" viewBox="0 0 24 24" {...props} fill="none">
+export const VietnamMColorIcon = forwardRef<SVGSVGElement, SVGProps<SVGSVGElement>>((props, ref) => (
+    <svg ref={ref} role="img" focusable="false" width="24" height="24" viewBox="0 0 24 24" {...props} fill="none">
         <path
             d="M22.209 4.138H1.796C.806 4.138 0 4.939 0 5.933v12.134c0 .994.806 1.795 1.796 1.795h20.408c.994 0 1.796-.806 1.796-1.795V5.933a1.789 1.789 0 00-1.791-1.795z"
             fill="#FF4B55"
@@ -15,6 +15,8 @@ export const VietnamMColorIcon: React.FC<SVGProps<SVGSVGElement>> = (props) => (
             fill="#FFE15A"
         />
     </svg>
-);
+));
+
+VietnamMColorIcon.displayName = 'VietnamMColorIcon';
 
 export default VietnamMColorIcon;

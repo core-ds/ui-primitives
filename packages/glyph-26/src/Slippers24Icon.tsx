@@ -2,12 +2,23 @@
  * This is auto-generated file by scripts/svg-to-component package
  * Do not edit it manually
  */
-import React, { SVGProps } from 'react';
+import React, { SVGProps, forwardRef } from 'react';
 
-export const Slippers24Icon: React.FC<SVGProps<SVGSVGElement>> = (props) => (
-    <svg role="img" focusable="false" fill="currentColor" width="24" height="24" viewBox="0 0 24 24" {...props}>
+export const Slippers24Icon = forwardRef<SVGSVGElement, SVGProps<SVGSVGElement>>((props, ref) => (
+    <svg
+        ref={ref}
+        role="img"
+        focusable="false"
+        fill="currentColor"
+        width="24"
+        height="24"
+        viewBox="0 0 24 24"
+        {...props}
+    >
         <path d="M7.003 14.001c1.48 0 2.277.434 2.707.88.431.45.61 1.033.62 1.57l-.454 3.07a2.907 2.907 0 01-5.749 0l-.454-3.061c.009-.539.187-1.127.621-1.578.43-.448 1.229-.88 2.709-.881zM14 11.927c.532-.32 1.415-.533 2.845-.15 1.43.384 2.087 1.009 2.387 1.552.3.545.32 1.154.192 1.676l-1.233 2.848a2.907 2.907 0 01-5.553-1.489l.353-3.073c.148-.518.473-1.04 1.009-1.364zM7.001 4.001c1.494 0 2.817.965 3.273 2.388l.052.16a14.15 14.15 0 01.524 6.394l-.037.238C9.928 12.44 8.668 12 7.003 12c-1.667 0-2.929.442-3.815 1.183l-.036-.24a14.151 14.151 0 01.525-6.395l.05-.16A3.438 3.438 0 017.002 4zm8.649-.424a3.44 3.44 0 016.325 1.695l.008.167a14.15 14.15 0 01-1.149 6.312l-.097.22c-.664-.942-1.767-1.694-3.375-2.125-1.61-.432-2.943-.332-3.992.154l.029-.241c.248-2.153.988-4.22 2.162-6.041l.09-.14z" />
     </svg>
-);
+));
+
+Slippers24Icon.displayName = 'Slippers24Icon';
 
 export default Slippers24Icon;

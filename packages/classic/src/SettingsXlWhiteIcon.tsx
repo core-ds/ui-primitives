@@ -2,10 +2,10 @@
  * This is auto-generated file by scripts/svg-to-component package
  * Do not edit it manually
  */
-import React, { SVGProps } from 'react';
+import React, { SVGProps, forwardRef } from 'react';
 
-export const SettingsXlWhiteIcon: React.FC<SVGProps<SVGSVGElement>> = (props) => (
-    <svg role="img" focusable="false" width="36" height="36" viewBox="0 0 36 36" {...props} fill="none">
+export const SettingsXlWhiteIcon = forwardRef<SVGSVGElement, SVGProps<SVGSVGElement>>((props, ref) => (
+    <svg ref={ref} role="img" focusable="false" width="36" height="36" viewBox="0 0 36 36" {...props} fill="none">
         <g clipPath="url(#prefix__clip0)">
             <path
                 d="M18 10.5a7.5 7.5 0 10.002 15.002A7.5 7.5 0 0018 10.5zm0 1.5c3.309 0 6 2.691 6 6s-2.691 6-6 6-6-2.691-6-6 2.691-6 6-6z"
@@ -31,6 +31,8 @@ export const SettingsXlWhiteIcon: React.FC<SVGProps<SVGSVGElement>> = (props) =>
             </clipPath>
         </defs>
     </svg>
-);
+));
+
+SettingsXlWhiteIcon.displayName = 'SettingsXlWhiteIcon';
 
 export default SettingsXlWhiteIcon;

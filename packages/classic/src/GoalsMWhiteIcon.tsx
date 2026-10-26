@@ -2,10 +2,10 @@
  * This is auto-generated file by scripts/svg-to-component package
  * Do not edit it manually
  */
-import React, { SVGProps } from 'react';
+import React, { SVGProps, forwardRef } from 'react';
 
-export const GoalsMWhiteIcon: React.FC<SVGProps<SVGSVGElement>> = (props) => (
-    <svg role="img" focusable="false" width="24" height="22" viewBox="0 0 24 22" {...props}>
+export const GoalsMWhiteIcon = forwardRef<SVGSVGElement, SVGProps<SVGSVGElement>>((props, ref) => (
+    <svg ref={ref} role="img" focusable="false" width="24" height="22" viewBox="0 0 24 22" {...props}>
         <g fill="none" fillRule="evenodd">
             <path d="M0-1h24v24H0z" />
             <path fill="#FFF" d="M14.5 0L6 3l8.5 2.833" opacity=".3" />
@@ -15,6 +15,8 @@ export const GoalsMWhiteIcon: React.FC<SVGProps<SVGSVGElement>> = (props) => (
             <path fill="#FFF" d="M1.826 21.767l-.846-.534 6.416-10.169 3.016 4.67-.84.543-2.167-3.353z" />
         </g>
     </svg>
-);
+));
+
+GoalsMWhiteIcon.displayName = 'GoalsMWhiteIcon';
 
 export default GoalsMWhiteIcon;

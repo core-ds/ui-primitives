@@ -2,10 +2,10 @@
  * This is auto-generated file by scripts/svg-to-component package
  * Do not edit it manually
  */
-import React, { SVGProps } from 'react';
+import React, { SVGProps, forwardRef } from 'react';
 
-export const CategoryIdeaXxlBlackIcon: React.FC<SVGProps<SVGSVGElement>> = (props) => (
-    <svg role="img" focusable="false" width="48" height="48" viewBox="0 0 48 48" {...props} fill="none">
+export const CategoryIdeaXxlBlackIcon = forwardRef<SVGSVGElement, SVGProps<SVGSVGElement>>((props, ref) => (
+    <svg ref={ref} role="img" focusable="false" width="48" height="48" viewBox="0 0 48 48" {...props} fill="none">
         <path
             d="M13 22.602C13 16.198 18.144 11 24.5 11S36 16.198 36 22.602c0 1.852-.232 3.274-.786 4.53-.553 1.255-1.41 2.302-2.59 3.43-.09.087-.347.33-.49.465l-.1.093c-.999.95-1.721 1.75-2.213 2.585-.486.825-.758 1.703-.822 2.824l-.027.471h-8.946l-.025-.473c-.06-1.119-.33-1.998-.814-2.825-.49-.838-1.212-1.642-2.212-2.596h-.001l-.25-.24-.348-.33c-1.179-1.131-2.036-2.18-2.59-3.43C13.233 25.852 13 24.438 13 22.6zm4.664 7.78c1.02.973 1.824 1.854 2.386 2.815.497.85.798 1.746.911 2.803h7.079a6.84 6.84 0 01.919-2.802c.564-.958 1.369-1.835 2.387-2.803l.109-.103c.145-.137.39-.368.479-.454 1.133-1.083 1.887-2.024 2.365-3.11.479-1.085.701-2.356.701-4.127C35 16.742 30.295 12 24.5 12S14 16.742 14 22.602c0 1.753.222 3.017.701 4.099.48 1.083 1.234 2.026 2.368 3.114l.343.327.252.24zM20 39h9v.5c0 2.577-1.947 4.5-4.5 4.5S20 42.077 20 39.5V39zm1.031 1c.225 1.76 1.635 3 3.469 3 1.834 0 3.244-1.24 3.469-3H21.03z"
             fill="#0B1F35"
@@ -32,6 +32,8 @@ export const CategoryIdeaXxlBlackIcon: React.FC<SVGProps<SVGSVGElement>> = (prop
             fillOpacity=".3"
         />
     </svg>
-);
+));
+
+CategoryIdeaXxlBlackIcon.displayName = 'CategoryIdeaXxlBlackIcon';
 
 export default CategoryIdeaXxlBlackIcon;

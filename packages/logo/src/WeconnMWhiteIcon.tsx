@@ -2,10 +2,10 @@
  * This is auto-generated file by scripts/svg-to-component package
  * Do not edit it manually
  */
-import React, { SVGProps } from 'react';
+import React, { SVGProps, forwardRef } from 'react';
 
-export const WeconnMWhiteIcon: React.FC<SVGProps<SVGSVGElement>> = (props) => (
-    <svg role="img" focusable="false" width="80" height="24" viewBox="0 0 80 24" {...props} fill="none">
+export const WeconnMWhiteIcon = forwardRef<SVGSVGElement, SVGProps<SVGSVGElement>>((props, ref) => (
+    <svg ref={ref} role="img" focusable="false" width="80" height="24" viewBox="0 0 80 24" {...props} fill="none">
         <path
             d="M5.723 2.01H2l3.55 12.238L7.493 7.85l-1.77-5.84zm7.263 0H9.273l2.055 12.238h3.712L12.986 2.01z"
             fill="#65C3D7"
@@ -21,6 +21,8 @@ export const WeconnMWhiteIcon: React.FC<SVGProps<SVGSVGElement>> = (props) => (
             fill="#fff"
         />
     </svg>
-);
+));
+
+WeconnMWhiteIcon.displayName = 'WeconnMWhiteIcon';
 
 export default WeconnMWhiteIcon;

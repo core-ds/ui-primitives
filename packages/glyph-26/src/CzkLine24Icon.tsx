@@ -2,12 +2,23 @@
  * This is auto-generated file by scripts/svg-to-component package
  * Do not edit it manually
  */
-import React, { SVGProps } from 'react';
+import React, { SVGProps, forwardRef } from 'react';
 
-export const CzkLine24Icon: React.FC<SVGProps<SVGSVGElement>> = (props) => (
-    <svg role="img" focusable="false" fill="currentColor" width="24" height="24" viewBox="0 0 24 24" {...props}>
+export const CzkLine24Icon = forwardRef<SVGSVGElement, SVGProps<SVGSVGElement>>((props, ref) => (
+    <svg
+        ref={ref}
+        role="img"
+        focusable="false"
+        fill="currentColor"
+        width="24"
+        height="24"
+        viewBox="0 0 24 24"
+        {...props}
+    >
         <path d="M4 10.969L9.903 3h2.49L6.58 10.846l6.27 10.128-.042.026h-2.294l-5.215-8.425L4 14.33V21H2V3h2v7.969zm13.718-.95c1.204-.107 2.404.27 3.376 1.062.538.439.985.99 1.322 1.613l-1.944.648a3.287 3.287 0 00-.64-.71c-.584-.475-1.273-.68-1.938-.621-.668.059-1.334.386-1.858.976-.528.596-.868 1.414-.913 2.31-.045.896.21 1.76.684 2.429.471.665 1.112 1.077 1.777 1.218.66.14 1.355.02 1.969-.373a3.2 3.2 0 00.92-.914l1.945.649a5.274 5.274 0 01-1.788 1.95 4.614 4.614 0 01-3.462.644c-1.187-.252-2.25-.97-2.993-2.018a5.884 5.884 0 01-1.049-3.687c.067-1.327.57-2.583 1.413-3.535.844-.951 1.974-1.535 3.179-1.641zm5.284 4.304H23v-.008l.002.008zm-4.975-8.452L20.283 3h2.29L19.43 7h-2.804l-3.001-4h2.249l2.153 2.871z" />
     </svg>
-);
+));
+
+CzkLine24Icon.displayName = 'CzkLine24Icon';
 
 export default CzkLine24Icon;

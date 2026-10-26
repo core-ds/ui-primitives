@@ -2,10 +2,19 @@
  * This is auto-generated file by scripts/svg-to-component package
  * Do not edit it manually
  */
-import React, { SVGProps } from 'react';
+import React, { SVGProps, forwardRef } from 'react';
 
-export const EurUsdCoinsMIcon: React.FC<SVGProps<SVGSVGElement>> = (props) => (
-    <svg role="img" focusable="false" fill="currentColor" width="24" height="24" viewBox="0 0 24 24" {...props}>
+export const EurUsdCoinsMIcon = forwardRef<SVGSVGElement, SVGProps<SVGSVGElement>>((props, ref) => (
+    <svg
+        ref={ref}
+        role="img"
+        focusable="false"
+        fill="currentColor"
+        width="24"
+        height="24"
+        viewBox="0 0 24 24"
+        {...props}
+    >
         <g clipPath="url(#prefix__clip0_91717_9301)">
             <path d="M8 0a8 8 0 00-1.997 15.749 9.966 9.966 0 01.651-3.314 3.047 3.047 0 01-.61-.464c-.645-.632-.986-1.514-1.02-2.646H3.89v-.928h1.132v-.843H3.891v-.928H5.03c.057-1.12.415-1.988 1.073-2.607.658-.623 1.543-.935 2.653-.935a7 7 0 011.573.204l-.184 1.35a4.205 4.205 0 00-1.337-.224c-.662 0-1.171.189-1.527.566-.355.378-.553.926-.592 1.646h2.337v.928H6.682v.843h2.344v.436a9.966 9.966 0 016.723-2.83A8.003 8.003 0 008 0z" />
             <path d="M8.554 9.325c-.48.535-.903 1.122-1.26 1.751a1.657 1.657 0 01-.04-.04c-.355-.377-.545-.947-.572-1.711h1.872z" />
@@ -21,6 +30,8 @@ export const EurUsdCoinsMIcon: React.FC<SVGProps<SVGSVGElement>> = (props) => (
             </clipPath>
         </defs>
     </svg>
-);
+));
+
+EurUsdCoinsMIcon.displayName = 'EurUsdCoinsMIcon';
 
 export default EurUsdCoinsMIcon;

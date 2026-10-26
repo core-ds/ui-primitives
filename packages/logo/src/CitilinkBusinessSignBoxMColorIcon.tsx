@@ -2,10 +2,10 @@
  * This is auto-generated file by scripts/svg-to-component package
  * Do not edit it manually
  */
-import React, { SVGProps } from 'react';
+import React, { SVGProps, forwardRef } from 'react';
 
-export const CitilinkBusinessSignBoxMColorIcon: React.FC<SVGProps<SVGSVGElement>> = (props) => (
-    <svg role="img" focusable="false" width="24" height="24" viewBox="0 0 24 24" {...props} fill="none">
+export const CitilinkBusinessSignBoxMColorIcon = forwardRef<SVGSVGElement, SVGProps<SVGSVGElement>>((props, ref) => (
+    <svg ref={ref} role="img" focusable="false" width="24" height="24" viewBox="0 0 24 24" {...props} fill="none">
         <path
             d="M18.417 4.026L8.081 2.076A4.34 4.34 0 002.936 6.34v11.316a4.34 4.34 0 005.145 4.269l10.336-1.952a3.249 3.249 0 002.647-3.192V7.22a3.25 3.25 0 00-2.647-3.194z"
             fill="#233D4F"
@@ -15,6 +15,8 @@ export const CitilinkBusinessSignBoxMColorIcon: React.FC<SVGProps<SVGSVGElement>
             fill="#fff"
         />
     </svg>
-);
+));
+
+CitilinkBusinessSignBoxMColorIcon.displayName = 'CitilinkBusinessSignBoxMColorIcon';
 
 export default CitilinkBusinessSignBoxMColorIcon;

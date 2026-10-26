@@ -2,10 +2,10 @@
  * This is auto-generated file by scripts/svg-to-component package
  * Do not edit it manually
  */
-import React, { SVGProps } from 'react';
+import React, { SVGProps, forwardRef } from 'react';
 
-export const NeuralAssistantSignCircleMColorIcon: React.FC<SVGProps<SVGSVGElement>> = (props) => (
-    <svg role="img" focusable="false" width="24" height="24" viewBox="0 0 24 24" {...props} fill="none">
+export const NeuralAssistantSignCircleMColorIcon = forwardRef<SVGSVGElement, SVGProps<SVGSVGElement>>((props, ref) => (
+    <svg ref={ref} role="img" focusable="false" width="24" height="24" viewBox="0 0 24 24" {...props} fill="none">
         <path d="M12 24c6.627 0 12-5.373 12-12S18.627 0 12 0 0 5.373 0 12s5.373 12 12 12z" fill="#FF1418" />
         <path
             d="M12 24c6.627 0 12-5.373 12-12S18.627 0 12 0 0 5.373 0 12s5.373 12 12 12z"
@@ -46,6 +46,8 @@ export const NeuralAssistantSignCircleMColorIcon: React.FC<SVGProps<SVGSVGElemen
             </linearGradient>
         </defs>
     </svg>
-);
+));
+
+NeuralAssistantSignCircleMColorIcon.displayName = 'NeuralAssistantSignCircleMColorIcon';
 
 export default NeuralAssistantSignCircleMColorIcon;

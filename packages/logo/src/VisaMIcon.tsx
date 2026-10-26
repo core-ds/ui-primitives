@@ -2,16 +2,27 @@
  * This is auto-generated file by scripts/svg-to-component package
  * Do not edit it manually
  */
-import React, { SVGProps } from 'react';
+import React, { SVGProps, forwardRef } from 'react';
 
-export const VisaMIcon: React.FC<SVGProps<SVGSVGElement>> = (props) => (
-    <svg role="img" focusable="false" fill="currentColor" width="65" height="24" viewBox="0 0 65 24" {...props}>
+export const VisaMIcon = forwardRef<SVGSVGElement, SVGProps<SVGSVGElement>>((props, ref) => (
+    <svg
+        ref={ref}
+        role="img"
+        focusable="false"
+        fill="currentColor"
+        width="65"
+        height="24"
+        viewBox="0 0 65 24"
+        {...props}
+    >
         <path
             d="M24.513 2.354l-8.107 19.344h-5.29L7.126 6.26c-.242-.951-.453-1.299-1.19-1.7C4.735 3.909 2.748 3.297 1 2.917l.12-.562h8.514c1.085 0 2.061.722 2.307 1.972L14.05 15.52l5.207-13.166h5.257zm20.726 13.028c.022-5.106-7.06-5.387-7.011-7.668.014-.694.676-1.431 2.122-1.62.718-.094 2.692-.166 4.935.866l.878-4.102C44.958 2.421 43.409 2 41.482 2c-4.946 0-8.428 2.63-8.457 6.395-.03 2.785 2.485 4.338 4.382 5.264 1.948.948 2.604 1.555 2.595 2.403-.013 1.299-1.555 1.87-2.994 1.894-2.516.04-3.976-.68-5.14-1.222l-.906 4.238c1.168.538 3.326 1.004 5.565 1.028 5.256 0 8.695-2.597 8.712-6.618zm13.06 6.316h4.628L58.888 2.354h-4.272c-.96 0-1.77.559-2.13 1.42l-7.507 17.924h5.254l1.043-2.89h6.42l.603 2.89zm-5.583-6.854L55.35 7.58l1.516 7.264h-4.15zM31.663 2.354l-4.138 19.343H22.52l4.14-19.343h5.003z"
             fillRule="evenodd"
             clipRule="evenodd"
         />
     </svg>
-);
+));
+
+VisaMIcon.displayName = 'VisaMIcon';
 
 export default VisaMIcon;

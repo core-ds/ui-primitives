@@ -2,10 +2,10 @@
  * This is auto-generated file by scripts/svg-to-component package
  * Do not edit it manually
  */
-import React, { SVGProps } from 'react';
+import React, { SVGProps, forwardRef } from 'react';
 
-export const CardCloseLWhiteIcon: React.FC<SVGProps<SVGSVGElement>> = (props) => (
-    <svg role="img" focusable="false" width="30" height="30" viewBox="0 0 30 30" {...props}>
+export const CardCloseLWhiteIcon = forwardRef<SVGSVGElement, SVGProps<SVGSVGElement>>((props, ref) => (
+    <svg ref={ref} role="img" focusable="false" width="30" height="30" viewBox="0 0 30 30" {...props}>
         <g fill="none" fillRule="evenodd">
             <path d="M0 0h30v30H0z" />
             <path fill="#FFF" d="M6 19h5v2H6v-2zm-4-8h25v4H2v-4z" opacity=".3" fillRule="nonzero" />
@@ -21,6 +21,8 @@ export const CardCloseLWhiteIcon: React.FC<SVGProps<SVGSVGElement>> = (props) =>
             />
         </g>
     </svg>
-);
+));
+
+CardCloseLWhiteIcon.displayName = 'CardCloseLWhiteIcon';
 
 export default CardCloseLWhiteIcon;

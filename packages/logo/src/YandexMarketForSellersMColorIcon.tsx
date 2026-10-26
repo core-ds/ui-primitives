@@ -2,10 +2,10 @@
  * This is auto-generated file by scripts/svg-to-component package
  * Do not edit it manually
  */
-import React, { SVGProps } from 'react';
+import React, { SVGProps, forwardRef } from 'react';
 
-export const YandexMarketForSellersMColorIcon: React.FC<SVGProps<SVGSVGElement>> = (props) => (
-    <svg role="img" focusable="false" width="100" height="24" viewBox="0 0 100 24" {...props} fill="none">
+export const YandexMarketForSellersMColorIcon = forwardRef<SVGSVGElement, SVGProps<SVGSVGElement>>((props, ref) => (
+    <svg ref={ref} role="img" focusable="false" width="100" height="24" viewBox="0 0 100 24" {...props} fill="none">
         <path
             d="M9.112 3.524a5.588 5.588 0 100 11.176 5.588 5.588 0 000-11.176zM2 9.112a7.112 7.112 0 1114.224 0A7.112 7.112 0 012 9.112z"
             fill="#3E424C"
@@ -27,6 +27,8 @@ export const YandexMarketForSellersMColorIcon: React.FC<SVGProps<SVGSVGElement>>
             fill="#3E424C"
         />
     </svg>
-);
+));
+
+YandexMarketForSellersMColorIcon.displayName = 'YandexMarketForSellersMColorIcon';
 
 export default YandexMarketForSellersMColorIcon;

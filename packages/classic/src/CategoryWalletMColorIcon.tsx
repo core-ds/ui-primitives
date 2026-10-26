@@ -2,10 +2,10 @@
  * This is auto-generated file by scripts/svg-to-component package
  * Do not edit it manually
  */
-import React, { SVGProps } from 'react';
+import React, { SVGProps, forwardRef } from 'react';
 
-export const CategoryWalletMColorIcon: React.FC<SVGProps<SVGSVGElement>> = (props) => (
-    <svg role="img" focusable="false" width="24" height="24" viewBox="0 0 24 24" {...props} fill="none">
+export const CategoryWalletMColorIcon = forwardRef<SVGSVGElement, SVGProps<SVGSVGElement>>((props, ref) => (
+    <svg ref={ref} role="img" focusable="false" width="24" height="24" viewBox="0 0 24 24" {...props} fill="none">
         <path
             d="M4.308 6.593a1.6 1.6 0 011.33-1.83L16.64 3.02a1.6 1.6 0 011.83 1.33l.968 6.109a1.6 1.6 0 01-1.33 1.83L7.106 14.033a1.6 1.6 0 01-1.83-1.33l-.968-6.109z"
             fill="#5C85AD"
@@ -25,6 +25,8 @@ export const CategoryWalletMColorIcon: React.FC<SVGProps<SVGSVGElement>> = (prop
             clipRule="evenodd"
         />
     </svg>
-);
+));
+
+CategoryWalletMColorIcon.displayName = 'CategoryWalletMColorIcon';
 
 export default CategoryWalletMColorIcon;

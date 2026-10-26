@@ -2,10 +2,10 @@
  * This is auto-generated file by scripts/svg-to-component package
  * Do not edit it manually
  */
-import React, { SVGProps } from 'react';
+import React, { SVGProps, forwardRef } from 'react';
 
-export const BeelineBusinessSignBoxMWhiteIcon: React.FC<SVGProps<SVGSVGElement>> = (props) => (
-    <svg role="img" focusable="false" width="24" height="24" viewBox="0 0 24 24" {...props} fill="none">
+export const BeelineBusinessSignBoxMWhiteIcon = forwardRef<SVGSVGElement, SVGProps<SVGSVGElement>>((props, ref) => (
+    <svg ref={ref} role="img" focusable="false" width="24" height="24" viewBox="0 0 24 24" {...props} fill="none">
         <path
             d="M11.98 22c5.511 0 9.979-4.478 9.979-10 0-5.523-4.468-10-9.979-10-5.511 0-9.979 4.477-9.979 10 0 5.522 4.468 10 9.979 10z"
             fill="#fff"
@@ -19,6 +19,8 @@ export const BeelineBusinessSignBoxMWhiteIcon: React.FC<SVGProps<SVGSVGElement>>
             fill="#000"
         />
     </svg>
-);
+));
+
+BeelineBusinessSignBoxMWhiteIcon.displayName = 'BeelineBusinessSignBoxMWhiteIcon';
 
 export default BeelineBusinessSignBoxMWhiteIcon;

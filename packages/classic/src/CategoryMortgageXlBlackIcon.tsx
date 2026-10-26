@@ -2,10 +2,10 @@
  * This is auto-generated file by scripts/svg-to-component package
  * Do not edit it manually
  */
-import React, { SVGProps } from 'react';
+import React, { SVGProps, forwardRef } from 'react';
 
-export const CategoryMortgageXlBlackIcon: React.FC<SVGProps<SVGSVGElement>> = (props) => (
-    <svg role="img" focusable="false" width="36" height="36" viewBox="0 0 36 36" {...props}>
+export const CategoryMortgageXlBlackIcon = forwardRef<SVGSVGElement, SVGProps<SVGSVGElement>>((props, ref) => (
+    <svg ref={ref} role="img" focusable="false" width="36" height="36" viewBox="0 0 36 36" {...props}>
         <g fill="none" fillRule="evenodd">
             <path
                 d="M19.214 25.381a3.218 3.218 0 003.214 3.214 3.218 3.218 0 003.214-3.214 3.218 3.218 0 00-3.214-3.214 3.218 3.218 0 00-3.214 3.214zm5.429 0a2.214 2.214 0 11-4.427 0 2.214 2.214 0 014.427 0zm-11.072-5.643a3.218 3.218 0 003.214-3.214 3.218 3.218 0 00-3.214-3.214 3.218 3.218 0 00-3.214 3.214 3.218 3.218 0 003.214 3.214zm0-5.428a2.214 2.214 0 110 4.427 2.214 2.214 0 010-4.427zM12.257 26.874l10.727-12.49.758.652-10.726 12.49z"
@@ -18,6 +18,8 @@ export const CategoryMortgageXlBlackIcon: React.FC<SVGProps<SVGSVGElement>> = (p
             />
         </g>
     </svg>
-);
+));
+
+CategoryMortgageXlBlackIcon.displayName = 'CategoryMortgageXlBlackIcon';
 
 export default CategoryMortgageXlBlackIcon;

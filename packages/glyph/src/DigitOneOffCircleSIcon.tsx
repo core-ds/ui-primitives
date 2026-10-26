@@ -2,10 +2,19 @@
  * This is auto-generated file by scripts/svg-to-component package
  * Do not edit it manually
  */
-import React, { SVGProps } from 'react';
+import React, { SVGProps, forwardRef } from 'react';
 
-export const DigitOneOffCircleSIcon: React.FC<SVGProps<SVGSVGElement>> = (props) => (
-    <svg role="img" focusable="false" fill="currentColor" width="16" height="16" viewBox="0 0 16 16" {...props}>
+export const DigitOneOffCircleSIcon = forwardRef<SVGSVGElement, SVGProps<SVGSVGElement>>((props, ref) => (
+    <svg
+        ref={ref}
+        role="img"
+        focusable="false"
+        fill="currentColor"
+        width="16"
+        height="16"
+        viewBox="0 0 16 16"
+        {...props}
+    >
         <g clipPath="url(#prefix__clip0_126471_28048)">
             <path d="M16 8c0 1.34-.33 2.603-.912 3.713L9 5.625V4h-.4l-.902.322-3.41-3.41A8 8 0 0116 8z" />
             <path
@@ -20,6 +29,8 @@ export const DigitOneOffCircleSIcon: React.FC<SVGProps<SVGSVGElement>> = (props)
             </clipPath>
         </defs>
     </svg>
-);
+));
+
+DigitOneOffCircleSIcon.displayName = 'DigitOneOffCircleSIcon';
 
 export default DigitOneOffCircleSIcon;

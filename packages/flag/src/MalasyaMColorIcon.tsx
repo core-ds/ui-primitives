@@ -2,10 +2,10 @@
  * This is auto-generated file by scripts/svg-to-component package
  * Do not edit it manually
  */
-import React, { SVGProps } from 'react';
+import React, { SVGProps, forwardRef } from 'react';
 
-export const MalasyaMColorIcon: React.FC<SVGProps<SVGSVGElement>> = (props) => (
-    <svg role="img" focusable="false" width="24" height="24" viewBox="0 0 24 24" {...props} fill="none">
+export const MalasyaMColorIcon = forwardRef<SVGSVGElement, SVGProps<SVGSVGElement>>((props, ref) => (
+    <svg ref={ref} role="img" focusable="false" width="24" height="24" viewBox="0 0 24 24" {...props} fill="none">
         <path d="M14.896 4.552v.71h8.973a1.798 1.798 0 00-1.666-1.124h-7.72c.228 0 .413.185.413.414z" fill="#FF4B55" />
         <path d="M14.896 5.261v1.123H24v-.449c0-.238-.047-.466-.131-.674h-8.973z" fill="#F5F5F5" />
         <path d="M24 6.384h-9.104v1.124H24V6.384z" fill="#FF4B55" />
@@ -33,6 +33,8 @@ export const MalasyaMColorIcon: React.FC<SVGProps<SVGSVGElement>> = (props) => (
             fill="#FFE15A"
         />
     </svg>
-);
+));
+
+MalasyaMColorIcon.displayName = 'MalasyaMColorIcon';
 
 export default MalasyaMColorIcon;

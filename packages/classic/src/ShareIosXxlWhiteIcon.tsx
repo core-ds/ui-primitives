@@ -2,10 +2,10 @@
  * This is auto-generated file by scripts/svg-to-component package
  * Do not edit it manually
  */
-import React, { SVGProps } from 'react';
+import React, { SVGProps, forwardRef } from 'react';
 
-export const ShareIosXxlWhiteIcon: React.FC<SVGProps<SVGSVGElement>> = (props) => (
-    <svg role="img" focusable="false" width="33" height="46" viewBox="0 0 33 46" {...props}>
+export const ShareIosXxlWhiteIcon = forwardRef<SVGSVGElement, SVGProps<SVGSVGElement>>((props, ref) => (
+    <svg ref={ref} role="img" focusable="false" width="33" height="46" viewBox="0 0 33 46" {...props}>
         <g fill="none" fillRule="evenodd">
             <path d="M-8 0h48v48H-8z" />
             <path
@@ -15,6 +15,8 @@ export const ShareIosXxlWhiteIcon: React.FC<SVGProps<SVGSVGElement>> = (props) =
             <path fill="#FFF" d="M8.854 9.854L16 2.707V30h1V2.707l7.146 7.147.708-.708L16.5.793 8.146 9.146z" />
         </g>
     </svg>
-);
+));
+
+ShareIosXxlWhiteIcon.displayName = 'ShareIosXxlWhiteIcon';
 
 export default ShareIosXxlWhiteIcon;

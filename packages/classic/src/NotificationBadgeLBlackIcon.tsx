@@ -2,10 +2,10 @@
  * This is auto-generated file by scripts/svg-to-component package
  * Do not edit it manually
  */
-import React, { SVGProps } from 'react';
+import React, { SVGProps, forwardRef } from 'react';
 
-export const NotificationBadgeLBlackIcon: React.FC<SVGProps<SVGSVGElement>> = (props) => (
-    <svg role="img" focusable="false" width="30" height="30" viewBox="0 0 30 30" {...props}>
+export const NotificationBadgeLBlackIcon = forwardRef<SVGSVGElement, SVGProps<SVGSVGElement>>((props, ref) => (
+    <svg ref={ref} role="img" focusable="false" width="30" height="30" viewBox="0 0 30 30" {...props}>
         <g fill="#0B1F35" fillRule="evenodd">
             <circle cx="24.5" cy="5.5" r="5.5" fillOpacity=".3" />
             <path
@@ -14,6 +14,8 @@ export const NotificationBadgeLBlackIcon: React.FC<SVGProps<SVGSVGElement>> = (p
             />
         </g>
     </svg>
-);
+));
+
+NotificationBadgeLBlackIcon.displayName = 'NotificationBadgeLBlackIcon';
 
 export default NotificationBadgeLBlackIcon;

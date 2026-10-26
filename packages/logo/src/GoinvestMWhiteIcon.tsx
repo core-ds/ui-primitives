@@ -2,10 +2,10 @@
  * This is auto-generated file by scripts/svg-to-component package
  * Do not edit it manually
  */
-import React, { SVGProps } from 'react';
+import React, { SVGProps, forwardRef } from 'react';
 
-export const GoinvestMWhiteIcon: React.FC<SVGProps<SVGSVGElement>> = (props) => (
-    <svg role="img" focusable="false" width="125" height="24" viewBox="0 0 125 24" {...props} fill="none">
+export const GoinvestMWhiteIcon = forwardRef<SVGSVGElement, SVGProps<SVGSVGElement>>((props, ref) => (
+    <svg ref={ref} role="img" focusable="false" width="125" height="24" viewBox="0 0 125 24" {...props} fill="none">
         <path
             d="M11.692 10.877v2.31h6.583c-.458 3.62-2.956 6.335-6.78 6.335-4.247 0-6.857-3.347-6.857-7.564 0-4.217 2.604-7.508 6.857-7.508 3.244 0 4.853 1.66 5.511 2.53h2.664C18.984 4.993 16.69 2 11.495 2 5.983 2 2 6.245 2 11.958S5.983 21.97 11.495 21.97c4.389 0 7.459-3.229 8.182-6.856h.117l1.094 6.532h2.074l-1.938-10.77h-9.332z"
             fill="#fff"
@@ -31,6 +31,8 @@ export const GoinvestMWhiteIcon: React.FC<SVGProps<SVGSVGElement>> = (props) => 
             fill="#fff"
         />
     </svg>
-);
+));
+
+GoinvestMWhiteIcon.displayName = 'GoinvestMWhiteIcon';
 
 export default GoinvestMWhiteIcon;

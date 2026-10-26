@@ -2,13 +2,24 @@
  * This is auto-generated file by scripts/svg-to-component package
  * Do not edit it manually
  */
-import React, { SVGProps } from 'react';
+import React, { SVGProps, forwardRef } from 'react';
 
-export const EyeOff20Icon: React.FC<SVGProps<SVGSVGElement>> = (props) => (
-    <svg role="img" focusable="false" fill="currentColor" width="20" height="20" viewBox="0 0 20 20" {...props}>
+export const EyeOff20Icon = forwardRef<SVGSVGElement, SVGProps<SVGSVGElement>>((props, ref) => (
+    <svg
+        ref={ref}
+        role="img"
+        focusable="false"
+        fill="currentColor"
+        width="20"
+        height="20"
+        viewBox="0 0 20 20"
+        {...props}
+    >
         <path d="M18.707 17.293l-1.414 1.414-3.559-3.559C12.716 15.66 11.481 16 10 16c-3.048 0-5.056-1.431-6.276-2.848a9.518 9.518 0 01-1.28-1.921 8.405 8.405 0 01-.366-.837l-.02-.057-.006-.019a.188.188 0 01-.002-.006l-.001-.002S2.06 10.303 3 10a75.451 75.451 0 01-.951-.309v-.003l.003-.006.007-.019a5.804 5.804 0 01.093-.249c.063-.16.16-.382.291-.644a9.521 9.521 0 011.28-1.922c.25-.29.535-.58.853-.858L1.293 2.707l1.414-1.414 16 16zM6.922 8.336a3.5 3.5 0 004.742 4.742l-1.147-1.147A2 2 0 018.07 9.484L6.921 8.335zM10 4c3.048 0 5.056 1.431 6.276 2.848a9.518 9.518 0 011.573 2.566c.032.08.056.145.073.192.008.024.014.043.02.057l.006.019.002.006.001.002c-.005.003-.072.026-.951.31.88.284.946.306.951.309v.003l-.003.006-.007.019c-.005.014-.01.033-.02.057a8.32 8.32 0 01-.365.837 9.6 9.6 0 01-.928 1.483l-3.156-3.156a3.5 3.5 0 00-3.03-3.03l-2.33-2.33A8.827 8.827 0 0110 4z" />
         <path d="M3 10l-.951.308a1.005 1.005 0 010-.617L3 10zm14.951-.308a1 1 0 010 .617L17 10l.951-.308z" />
     </svg>
-);
+));
+
+EyeOff20Icon.displayName = 'EyeOff20Icon';
 
 export default EyeOff20Icon;

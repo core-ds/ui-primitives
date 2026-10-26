@@ -2,10 +2,10 @@
  * This is auto-generated file by scripts/svg-to-component package
  * Do not edit it manually
  */
-import React, { SVGProps } from 'react';
+import React, { SVGProps, forwardRef } from 'react';
 
-export const CategoryHobbyMBlackIcon: React.FC<SVGProps<SVGSVGElement>> = (props) => (
-    <svg role="img" focusable="false" width="24" height="24" viewBox="0 0 24 24" {...props}>
+export const CategoryHobbyMBlackIcon = forwardRef<SVGSVGElement, SVGProps<SVGSVGElement>>((props, ref) => (
+    <svg ref={ref} role="img" focusable="false" width="24" height="24" viewBox="0 0 24 24" {...props}>
         <g fill="none" fillRule="evenodd">
             <path
                 d="M0 18.259c0 .4.156.778.439 1.062l1.325 1.325c.283.283.66.439 1.061.439.401 0 .777-.156 1.061-.439l2.073-2.073c.273.243.619.382.989.382h.001c.4 0 .777-.156 1.061-.439l3.377-3.377.056.056c.293.293.677.438 1.061.438.385 0 .769-.146 1.062-.438l7.081-7.082a1.501 1.501 0 000-2.121L15.096.441A1.488 1.488 0 0014.034 0h-.001c-.401 0-.777.156-1.06.439L5.892 7.521a1.49 1.49 0 00-.44 1.061c0 .401.156.777.439 1.06l.056.056-3.378 3.378a1.491 1.491 0 00-.05 2.044L.44 17.199c-.284.282-.44.658-.44 1.06zM6.599 8.228l7.082-7.081A.492.492 0 0114.033 1h.001a.5.5 0 01.354.146l5.551 5.551a.5.5 0 010 .707l-7.081 7.082a.502.502 0 01-.708 0L9.374 11.71l-2.72-2.72-.055-.055a.496.496 0 010-.707zm-3.323 5.554l3.378-3.378 2.013 2.013 2.013 2.013-3.377 3.377a.495.495 0 01-.354.146h-.001a.499.499 0 01-.353-.146l-3.319-3.318a.5.5 0 010-.707zm-2.13 4.124l2.066-2.066 2.032 2.032-2.066 2.066a.5.5 0 01-.707 0l-1.325-1.325a.498.498 0 010-.707z"
@@ -18,6 +18,8 @@ export const CategoryHobbyMBlackIcon: React.FC<SVGProps<SVGSVGElement>> = (props
             />
         </g>
     </svg>
-);
+));
+
+CategoryHobbyMBlackIcon.displayName = 'CategoryHobbyMBlackIcon';
 
 export default CategoryHobbyMBlackIcon;

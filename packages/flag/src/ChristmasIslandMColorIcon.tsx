@@ -2,10 +2,10 @@
  * This is auto-generated file by scripts/svg-to-component package
  * Do not edit it manually
  */
-import React, { SVGProps } from 'react';
+import React, { SVGProps, forwardRef } from 'react';
 
-export const ChristmasIslandMColorIcon: React.FC<SVGProps<SVGSVGElement>> = (props) => (
-    <svg role="img" focusable="false" width="24" height="24" viewBox="0 0 24 24" {...props} fill="none">
+export const ChristmasIslandMColorIcon = forwardRef<SVGSVGElement, SVGProps<SVGSVGElement>>((props, ref) => (
+    <svg ref={ref} role="img" focusable="false" width="24" height="24" viewBox="0 0 24 24" {...props} fill="none">
         <path
             d="M1.797 19.862h20.406c.44 0 .842-.158 1.155-.42L.642 4.558A1.799 1.799 0 000 5.935v12.13c0 .992.805 1.797 1.797 1.797z"
             fill="#41479B"
@@ -28,6 +28,8 @@ export const ChristmasIslandMColorIcon: React.FC<SVGProps<SVGSVGElement>> = (pro
             fill="#FFE15A"
         />
     </svg>
-);
+));
+
+ChristmasIslandMColorIcon.displayName = 'ChristmasIslandMColorIcon';
 
 export default ChristmasIslandMColorIcon;

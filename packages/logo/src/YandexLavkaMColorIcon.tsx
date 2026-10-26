@@ -2,10 +2,10 @@
  * This is auto-generated file by scripts/svg-to-component package
  * Do not edit it manually
  */
-import React, { SVGProps } from 'react';
+import React, { SVGProps, forwardRef } from 'react';
 
-export const YandexLavkaMColorIcon: React.FC<SVGProps<SVGSVGElement>> = (props) => (
-    <svg role="img" focusable="false" width="142" height="24" viewBox="0 0 142 24" {...props} fill="none">
+export const YandexLavkaMColorIcon = forwardRef<SVGSVGElement, SVGProps<SVGSVGElement>>((props, ref) => (
+    <svg ref={ref} role="img" focusable="false" width="142" height="24" viewBox="0 0 142 24" {...props} fill="none">
         <path
             d="M9.342 19.416h2.607V4.446H8.157c-3.812 0-5.815 1.96-5.815 4.846 0 2.305 1.097 3.662 3.058 5.062l-3.403 5.061h2.821l3.791-5.664-1.314-.883c-1.594-1.077-2.37-1.917-2.37-3.727 0-1.593 1.121-2.67 3.253-2.67h1.163v12.945zm34.226-.733v-2.09c-.798.539-2.133 1.014-3.382 1.014-1.874 0-2.585-.884-2.692-2.694h6.182v-1.355c0-3.77-1.66-5.192-4.223-5.192-3.123 0-4.609 2.391-4.609 5.665 0 3.77 1.852 5.6 5.127 5.6 1.636 0 2.843-.431 3.597-.948zm16.024.948c1.185 0 2.025-.216 2.65-.668v-2.09c-.646.453-1.422.733-2.499.733-1.831 0-2.585-1.422-2.585-3.662 0-2.348.926-3.553 2.607-3.553.99 0 1.96.344 2.477.667V8.884c-.539-.302-1.487-.516-2.757-.516-3.274 0-4.976 2.346-4.976 5.642 0 3.618 1.659 5.62 5.083 5.62zM20.09 8.58v4.287h-3.424V8.58h-2.563v10.834h2.563v-4.523h3.424v4.523h2.563V8.581H20.09zm14.13 8.81h-1.142V8.58h-7.474v.927c0 2.649-.172 6.074-1.077 7.883h-.796v4.502h2.368v-2.478h5.751v2.478h2.37V17.39v.001zm17.532 2.024h2.907l-4.113-5.836 3.619-4.998H51.58l-3.62 5v-5h-2.563v10.834h2.563v-5.32l3.79 5.32zM39.41 10.391c1.272 0 1.659 1.055 1.659 2.412v.215h-3.575c.064-1.723.689-2.627 1.916-2.627zm-8.895 7h-3.618c.71-1.638.903-4.589.903-6.463v-.323h2.715v6.785z"
             fill="#000"
@@ -20,6 +20,8 @@ export const YandexLavkaMColorIcon: React.FC<SVGProps<SVGSVGElement>> = (props) 
             fill="#000"
         />
     </svg>
-);
+));
+
+YandexLavkaMColorIcon.displayName = 'YandexLavkaMColorIcon';
 
 export default YandexLavkaMColorIcon;

@@ -2,10 +2,10 @@
  * This is auto-generated file by scripts/svg-to-component package
  * Do not edit it manually
  */
-import React, { SVGProps } from 'react';
+import React, { SVGProps, forwardRef } from 'react';
 
-export const ShortcutTemplateXxlBlackIcon: React.FC<SVGProps<SVGSVGElement>> = (props) => (
-    <svg role="img" focusable="false" width="48" height="48" viewBox="0 0 48 48" {...props}>
+export const ShortcutTemplateXxlBlackIcon = forwardRef<SVGSVGElement, SVGProps<SVGSVGElement>>((props, ref) => (
+    <svg ref={ref} role="img" focusable="false" width="48" height="48" viewBox="0 0 48 48" {...props}>
         <g fill="none" fillRule="evenodd">
             <circle cx="24" cy="24" r="22" fill="#F5F5F5" fillRule="nonzero" />
             <path
@@ -15,6 +15,8 @@ export const ShortcutTemplateXxlBlackIcon: React.FC<SVGProps<SVGSVGElement>> = (
             />
         </g>
     </svg>
-);
+));
+
+ShortcutTemplateXxlBlackIcon.displayName = 'ShortcutTemplateXxlBlackIcon';
 
 export default ShortcutTemplateXxlBlackIcon;

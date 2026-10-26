@@ -2,10 +2,10 @@
  * This is auto-generated file by scripts/svg-to-component package
  * Do not edit it manually
  */
-import React, { SVGProps } from 'react';
+import React, { SVGProps, forwardRef } from 'react';
 
-export const RegistryMBlackIcon: React.FC<SVGProps<SVGSVGElement>> = (props) => (
-    <svg role="img" focusable="false" width="24" height="24" viewBox="0 0 24 24" {...props}>
+export const RegistryMBlackIcon = forwardRef<SVGSVGElement, SVGProps<SVGSVGElement>>((props, ref) => (
+    <svg ref={ref} role="img" focusable="false" width="24" height="24" viewBox="0 0 24 24" {...props}>
         <g fill="none" fillRule="evenodd">
             <path d="M0 0h24v24H0z" />
             <path
@@ -16,6 +16,8 @@ export const RegistryMBlackIcon: React.FC<SVGProps<SVGSVGElement>> = (props) => 
             <path d="M6 11h12v2H6v-2zm0 4h12v2H6v-2z" fill="#0B1F35" opacity=".3" fillRule="nonzero" />
         </g>
     </svg>
-);
+));
+
+RegistryMBlackIcon.displayName = 'RegistryMBlackIcon';
 
 export default RegistryMBlackIcon;

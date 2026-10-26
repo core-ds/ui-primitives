@@ -2,10 +2,10 @@
  * This is auto-generated file by scripts/svg-to-component package
  * Do not edit it manually
  */
-import React, { SVGProps } from 'react';
+import React, { SVGProps, forwardRef } from 'react';
 
-export const YandexBusinessTripsMColorIcon: React.FC<SVGProps<SVGSVGElement>> = (props) => (
-    <svg role="img" focusable="false" width="187" height="24" viewBox="0 0 187 24" {...props} fill="none">
+export const YandexBusinessTripsMColorIcon = forwardRef<SVGSVGElement, SVGProps<SVGSVGElement>>((props, ref) => (
+    <svg ref={ref} role="img" focusable="false" width="187" height="24" viewBox="0 0 187 24" {...props} fill="none">
         <path
             d="M8.069 17.805h2.15V5.395h-3.13c-3.143 0-4.803 1.623-4.803 4.01 0 1.909.911 3.04 2.53 4.2L2 17.805h2.327l3.13-4.705-1.089-.736c-1.32-.887-1.96-1.582-1.96-3.082 0-1.323.926-2.21 2.695-2.21h.966v10.733zm43.734-.382c-.517.382-1.211.56-2.19.56-2.831 0-4.206-1.664-4.22-4.651 0-2.728 1.402-4.678 4.11-4.678 1.062 0 1.837.178 2.286.423v1.8c-.422-.273-1.224-.559-2.04-.559-1.389 0-2.15.996-2.15 2.946 0 1.854.625 3.027 2.136 3.027.898 0 1.537-.232 2.068-.6v1.732z"
             fill="#000"
@@ -281,6 +281,8 @@ export const YandexBusinessTripsMColorIcon: React.FC<SVGProps<SVGSVGElement>> = 
             </radialGradient>
         </defs>
     </svg>
-);
+));
+
+YandexBusinessTripsMColorIcon.displayName = 'YandexBusinessTripsMColorIcon';
 
 export default YandexBusinessTripsMColorIcon;

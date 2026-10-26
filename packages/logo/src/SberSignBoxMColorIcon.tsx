@@ -2,10 +2,10 @@
  * This is auto-generated file by scripts/svg-to-component package
  * Do not edit it manually
  */
-import React, { SVGProps } from 'react';
+import React, { SVGProps, forwardRef } from 'react';
 
-export const SberSignBoxMColorIcon: React.FC<SVGProps<SVGSVGElement>> = (props) => (
-    <svg role="img" focusable="false" width="24" height="24" viewBox="0 0 24 24" {...props} fill="none">
+export const SberSignBoxMColorIcon = forwardRef<SVGSVGElement, SVGProps<SVGSVGElement>>((props, ref) => (
+    <svg ref={ref} role="img" focusable="false" width="24" height="24" viewBox="0 0 24 24" {...props} fill="none">
         <path
             d="M19.911 5.945a10.78 10.78 0 011.202 2.01l-9.103 6.792-3.823-2.43V9.41l3.803 2.41 7.921-5.875z"
             fill="#21A038"
@@ -115,6 +115,8 @@ export const SberSignBoxMColorIcon: React.FC<SVGProps<SVGSVGElement>> = (props) 
             </linearGradient>
         </defs>
     </svg>
-);
+));
+
+SberSignBoxMColorIcon.displayName = 'SberSignBoxMColorIcon';
 
 export default SberSignBoxMColorIcon;

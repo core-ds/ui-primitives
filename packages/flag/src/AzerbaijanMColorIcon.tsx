@@ -2,10 +2,10 @@
  * This is auto-generated file by scripts/svg-to-component package
  * Do not edit it manually
  */
-import React, { SVGProps } from 'react';
+import React, { SVGProps, forwardRef } from 'react';
 
-export const AzerbaijanMColorIcon: React.FC<SVGProps<SVGSVGElement>> = (props) => (
-    <svg role="img" focusable="false" width="24" height="24" viewBox="0 0 24 24" {...props} fill="none">
+export const AzerbaijanMColorIcon = forwardRef<SVGSVGElement, SVGProps<SVGSVGElement>>((props, ref) => (
+    <svg ref={ref} role="img" focusable="false" width="24" height="24" viewBox="0 0 24 24" {...props} fill="none">
         <path
             d="M0 18.163c.05.947.835 1.7 1.795 1.7h20.407c.993 0 1.798-.805 1.798-1.798v-3.444H0v3.542z"
             fill="#73AF00"
@@ -24,6 +24,8 @@ export const AzerbaijanMColorIcon: React.FC<SVGProps<SVGSVGElement>> = (props) =
             fill="#F5F5F5"
         />
     </svg>
-);
+));
+
+AzerbaijanMColorIcon.displayName = 'AzerbaijanMColorIcon';
 
 export default AzerbaijanMColorIcon;

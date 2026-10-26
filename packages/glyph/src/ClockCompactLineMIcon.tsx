@@ -2,10 +2,19 @@
  * This is auto-generated file by scripts/svg-to-component package
  * Do not edit it manually
  */
-import React, { SVGProps } from 'react';
+import React, { SVGProps, forwardRef } from 'react';
 
-export const ClockCompactLineMIcon: React.FC<SVGProps<SVGSVGElement>> = (props) => (
-    <svg role="img" focusable="false" fill="currentColor" width="24" height="24" viewBox="0 0 24 24" {...props}>
+export const ClockCompactLineMIcon = forwardRef<SVGSVGElement, SVGProps<SVGSVGElement>>((props, ref) => (
+    <svg
+        ref={ref}
+        role="img"
+        focusable="false"
+        fill="currentColor"
+        width="24"
+        height="24"
+        viewBox="0 0 24 24"
+        {...props}
+    >
         <path
             d="M12 20a8 8 0 100-16 8 8 0 000 16zm6.4-8a6.4 6.4 0 11-12.8 0 6.4 6.4 0 0112.8 0z"
             fillRule="evenodd"
@@ -17,6 +26,8 @@ export const ClockCompactLineMIcon: React.FC<SVGProps<SVGSVGElement>> = (props) 
             clipRule="evenodd"
         />
     </svg>
-);
+));
+
+ClockCompactLineMIcon.displayName = 'ClockCompactLineMIcon';
 
 export default ClockCompactLineMIcon;

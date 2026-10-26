@@ -2,10 +2,10 @@
  * This is auto-generated file by scripts/svg-to-component package
  * Do not edit it manually
  */
-import React, { SVGProps } from 'react';
+import React, { SVGProps, forwardRef } from 'react';
 
-export const CategoryRestaurantsXxlWhiteIcon: React.FC<SVGProps<SVGSVGElement>> = (props) => (
-    <svg role="img" focusable="false" width="48" height="48" viewBox="0 0 48 48" {...props}>
+export const CategoryRestaurantsXxlWhiteIcon = forwardRef<SVGSVGElement, SVGProps<SVGSVGElement>>((props, ref) => (
+    <svg ref={ref} role="img" focusable="false" width="48" height="48" viewBox="0 0 48 48" {...props}>
         <g fill="none" fillRule="evenodd">
             <path
                 d="M42.5 22c-2.969 0-5.255 1.231-6.513 3.326L36 21.504a1.43 1.43 0 00-.428-1.017A1.707 1.707 0 0034.366 20H2.634c-.458 0-.897.177-1.206.487A1.43 1.43 0 001 21.504l.018 5.513C1.018 41.75 10.049 47 18.5 47c6.332 0 10.658-2.494 13.424-6.174 3.422-.102 7.109-1.587 10.431-4.233 3.642-2.9 5.646-6.13 5.645-9.094A5.509 5.509 0 0042.5 22zm-24 24C8.18 46 2.018 38.904 2.018 27.017L2 21.501a.44.44 0 01.136-.308.704.704 0 01.498-.193h31.732c.194 0 .375.07.498.193a.437.437 0 01.136.308l-.019 5.519C34.981 44.631 22.367 46 18.5 46zm23.232-10.189c-2.863 2.28-6.113 3.689-9.084 3.975 1.905-2.982 2.914-6.591 3.225-10.243h.033c0-4.824 3.407-6.543 6.595-6.543a4.508 4.508 0 014.5 4.5c.001 2.653-1.87 5.604-5.269 8.311z"
@@ -23,6 +23,8 @@ export const CategoryRestaurantsXxlWhiteIcon: React.FC<SVGProps<SVGSVGElement>> 
             />
         </g>
     </svg>
-);
+));
+
+CategoryRestaurantsXxlWhiteIcon.displayName = 'CategoryRestaurantsXxlWhiteIcon';
 
 export default CategoryRestaurantsXxlWhiteIcon;

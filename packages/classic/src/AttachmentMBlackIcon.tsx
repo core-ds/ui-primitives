@@ -2,10 +2,10 @@
  * This is auto-generated file by scripts/svg-to-component package
  * Do not edit it manually
  */
-import React, { SVGProps } from 'react';
+import React, { SVGProps, forwardRef } from 'react';
 
-export const AttachmentMBlackIcon: React.FC<SVGProps<SVGSVGElement>> = (props) => (
-    <svg role="img" focusable="false" width="17" height="18" viewBox="0 0 17 18" {...props}>
+export const AttachmentMBlackIcon = forwardRef<SVGSVGElement, SVGProps<SVGSVGElement>>((props, ref) => (
+    <svg ref={ref} role="img" focusable="false" width="17" height="18" viewBox="0 0 17 18" {...props}>
         <g fill="none" fillRule="evenodd">
             <path d="M-3-3h24v24H-3" />
             <path
@@ -15,6 +15,8 @@ export const AttachmentMBlackIcon: React.FC<SVGProps<SVGSVGElement>> = (props) =
             />
         </g>
     </svg>
-);
+));
+
+AttachmentMBlackIcon.displayName = 'AttachmentMBlackIcon';
 
 export default AttachmentMBlackIcon;

@@ -2,10 +2,10 @@
  * This is auto-generated file by scripts/svg-to-component package
  * Do not edit it manually
  */
-import React, { SVGProps } from 'react';
+import React, { SVGProps, forwardRef } from 'react';
 
-export const BankSberXlBlackIcon: React.FC<SVGProps<SVGSVGElement>> = (props) => (
-    <svg role="img" focusable="false" width="36" height="36" version="1" viewBox="0 0 36 36" {...props}>
+export const BankSberXlBlackIcon = forwardRef<SVGSVGElement, SVGProps<SVGSVGElement>>((props, ref) => (
+    <svg ref={ref} role="img" focusable="false" width="36" height="36" version="1" viewBox="0 0 36 36" {...props}>
         <path
             fill="#0B1F35"
             d="M3.472 17.208c0 .951.106 1.902.211 2.853.317 1.69.951 3.275 1.691 4.648 1.057 1.796 2.43 3.381 4.121 4.543 1.162.845 2.325 1.479 3.698 1.902.528.211 1.162.317 1.796.528.845.212 1.69.318 2.641.318h.845c.423 0 .951 0 1.479-.106 2.008-.211 4.015-.951 5.706-2.008 1.691-1.057 3.17-2.43 4.226-4.015 1.162-1.691 2.008-3.592 2.43-5.6 0-.211.106-.528.106-.845.106-.634.106-1.374.106-2.008v-.423c0-.634-.106-1.162-.211-1.796-.211-1.585-.74-3.064-1.479-4.438L12.242 21.54l-8.77-5.072v.74zM25.343 4.845A12.565 12.565 0 0023.653 4l-11.411 6.551L7.17 7.592 6.219 8.86l6.023 3.487 13.101-7.502z"
@@ -19,6 +19,8 @@ export const BankSberXlBlackIcon: React.FC<SVGProps<SVGSVGElement>> = (props) =>
             d="M4.634 11.608l7.608 4.438 15.849-9.087c-.423-.423-.845-.74-1.268-1.057l-14.581 8.242-6.868-3.909c-.317.422-.529.95-.74 1.373z"
         />
     </svg>
-);
+));
+
+BankSberXlBlackIcon.displayName = 'BankSberXlBlackIcon';
 
 export default BankSberXlBlackIcon;

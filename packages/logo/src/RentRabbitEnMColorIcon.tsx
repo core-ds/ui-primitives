@@ -2,10 +2,10 @@
  * This is auto-generated file by scripts/svg-to-component package
  * Do not edit it manually
  */
-import React, { SVGProps } from 'react';
+import React, { SVGProps, forwardRef } from 'react';
 
-export const RentRabbitEnMColorIcon: React.FC<SVGProps<SVGSVGElement>> = (props) => (
-    <svg role="img" focusable="false" width="110" height="24" viewBox="0 0 110 24" {...props} fill="none">
+export const RentRabbitEnMColorIcon = forwardRef<SVGSVGElement, SVGProps<SVGSVGElement>>((props, ref) => (
+    <svg ref={ref} role="img" focusable="false" width="110" height="24" viewBox="0 0 110 24" {...props} fill="none">
         <path
             d="M11.355 19.808c.49.478.887.871 1.217 1.19H8.504a7.509 7.509 0 001.366-2.635c.512.5 1.035 1.007 1.485 1.445z"
             fill="#52AEE5"
@@ -31,6 +31,8 @@ export const RentRabbitEnMColorIcon: React.FC<SVGProps<SVGSVGElement>> = (props)
             fill="#343A4A"
         />
     </svg>
-);
+));
+
+RentRabbitEnMColorIcon.displayName = 'RentRabbitEnMColorIcon';
 
 export default RentRabbitEnMColorIcon;

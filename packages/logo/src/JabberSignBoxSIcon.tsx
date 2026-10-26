@@ -2,10 +2,19 @@
  * This is auto-generated file by scripts/svg-to-component package
  * Do not edit it manually
  */
-import React, { SVGProps } from 'react';
+import React, { SVGProps, forwardRef } from 'react';
 
-export const JabberSignBoxSIcon: React.FC<SVGProps<SVGSVGElement>> = (props) => (
-    <svg role="img" focusable="false" fill="currentColor" width="16" height="16" viewBox="0 0 16 16" {...props}>
+export const JabberSignBoxSIcon = forwardRef<SVGSVGElement, SVGProps<SVGSVGElement>>((props, ref) => (
+    <svg
+        ref={ref}
+        role="img"
+        focusable="false"
+        fill="currentColor"
+        width="16"
+        height="16"
+        viewBox="0 0 16 16"
+        {...props}
+    >
         <g clipPath="url(#prefix__clip0_10859_73)">
             <path
                 d="M10.95 3.832c.184.132.36.273.527.423.054-.353.065-1.432-.919-2.644C9.591.419 7.401.143 6.363.201a6.029 6.029 0 00-2.986 1.123c-1.099.798-1.636 2.121-1.754 2.552.47-.288 1.652-.936 2.626-1.217 1.09-.321 2.2-.425 3.327-.249 1.248.194 2.362.694 3.374 1.422z"
@@ -22,6 +31,8 @@ export const JabberSignBoxSIcon: React.FC<SVGProps<SVGSVGElement>> = (props) => 
             </clipPath>
         </defs>
     </svg>
-);
+));
+
+JabberSignBoxSIcon.displayName = 'JabberSignBoxSIcon';
 
 export default JabberSignBoxSIcon;

@@ -2,12 +2,23 @@
  * This is auto-generated file by scripts/svg-to-component package
  * Do not edit it manually
  */
-import React, { SVGProps } from 'react';
+import React, { SVGProps, forwardRef } from 'react';
 
-export const IslandLine24Icon: React.FC<SVGProps<SVGSVGElement>> = (props) => (
-    <svg role="img" focusable="false" fill="currentColor" width="24" height="24" viewBox="0 0 24 24" {...props}>
+export const IslandLine24Icon = forwardRef<SVGSVGElement, SVGProps<SVGSVGElement>>((props, ref) => (
+    <svg
+        ref={ref}
+        role="img"
+        focusable="false"
+        fill="currentColor"
+        width="24"
+        height="24"
+        viewBox="0 0 24 24"
+        {...props}
+    >
         <path d="M12.252 16.005l.04.002a7.051 7.051 0 01.44.032l.082.01a7.007 7.007 0 01.88.159l.061.017A7.005 7.005 0 0118.927 22H5.072a7.005 7.005 0 013.381-5.035l.03-.018.17-.098c.151-.082.306-.157.463-.228l.045-.021a6.886 6.886 0 01.452-.182l.021-.008a6.984 6.984 0 012.313-.41h.052l.253.004zM12 18a4.99 4.99 0 00-4 2h7.998A4.99 4.99 0 0012 18zm-8.793-6.673c-.848-3.518.987-5.19 3.803-3.882 0 .033.006 1.239.44 3.01.437 1.487 1.042 2.821 1.667 4.02a8.96 8.96 0 00-1.813.847 26.683 26.683 0 01-1.187-2.593c-.613.96-.574 1.84-.59 3.272-2.162-1.66-2.086-4.8.178-6.413-1.311-.205-2.014.87-2.498 1.74zM8 4.901c.857-4.863 5.553-4.49 6.599-2.583 3-2.486 7.379-.1 6.205 4.025-.394-1.129-2.118-2.677-3.746-1.578 4.02 2.137 3.124 6.987.441 8.236.377-3.456-.861-4.53-1.975-5.28l-.012-.001a48.021 48.021 0 01-1.06 6.62 8.984 8.984 0 00-1.979-.327 46.379 46.379 0 001.028-6.27c-1.41.764-2.763 2.229-3.502 3.758-2.913-5.902 1.513-7.195 2.962-7.106-1.157-.808-2.63-.892-4.962.506z" />
     </svg>
-);
+));
+
+IslandLine24Icon.displayName = 'IslandLine24Icon';
 
 export default IslandLine24Icon;

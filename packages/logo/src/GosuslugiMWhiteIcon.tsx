@@ -2,10 +2,10 @@
  * This is auto-generated file by scripts/svg-to-component package
  * Do not edit it manually
  */
-import React, { SVGProps } from 'react';
+import React, { SVGProps, forwardRef } from 'react';
 
-export const GosuslugiMWhiteIcon: React.FC<SVGProps<SVGSVGElement>> = (props) => (
-    <svg role="img" focusable="false" width="88" height="24" viewBox="0 0 88 24" {...props} fill="none">
+export const GosuslugiMWhiteIcon = forwardRef<SVGSVGElement, SVGProps<SVGSVGElement>>((props, ref) => (
+    <svg ref={ref} role="img" focusable="false" width="88" height="24" viewBox="0 0 88 24" {...props} fill="none">
         <path
             d="M27.3 14.402a.129.129 0 00-.067-.07.137.137 0 00-.096-.006c-.547.203-1.452.368-2.166.368-1.561 0-2.305-.422-2.305-2.816 0-1.914.228-2.816 2.305-2.816a7.33 7.33 0 011.996.288.123.123 0 00.144-.062c.192-.424.472-1.11.678-1.614l.08-.198a.123.123 0 00.003-.104.129.129 0 00-.078-.07 10.234 10.234 0 00-2.985-.462c-3.271 0-4.729 1.542-4.729 5.003 0 3.51 1.458 5.076 4.729 5.076.82 0 2.434-.172 3.214-.483a.126.126 0 00.07-.158l-.794-1.876zM2 7.221a.12.12 0 01.119-.12h6.717c.084 0 .14.088.108.166L8.112 9.27a.116.116 0 01-.12.072.12.12 0 01-.012 0H4.515v7.196a.12.12 0 01-.118.12H2.119a.119.119 0 01-.119-.12V7.221zm7.507 4.621c0-3.6 1.245-5.002 4.443-5.002 3.223 0 4.48 1.402 4.48 5.002 0 3.655-1.257 5.077-4.48 5.077-3.198 0-4.443-1.422-4.443-5.077zm2.532.036c0 2.538.454 2.943 1.91 2.943 1.485 0 1.949-.405 1.949-2.943 0-2.702-.506-2.943-1.948-2.943-1.415 0-1.911.24-1.911 2.943z"
             fill="#fff"
@@ -19,6 +19,8 @@ export const GosuslugiMWhiteIcon: React.FC<SVGProps<SVGSVGElement>> = (props) =>
             clipRule="evenodd"
         />
     </svg>
-);
+));
+
+GosuslugiMWhiteIcon.displayName = 'GosuslugiMWhiteIcon';
 
 export default GosuslugiMWhiteIcon;

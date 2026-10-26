@@ -2,10 +2,10 @@
  * This is auto-generated file by scripts/svg-to-component package
  * Do not edit it manually
  */
-import React, { SVGProps } from 'react';
+import React, { SVGProps, forwardRef } from 'react';
 
-export const AntiguaAndBarbudaMColorIcon: React.FC<SVGProps<SVGSVGElement>> = (props) => (
-    <svg role="img" focusable="false" width="24" height="24" viewBox="0 0 24 24" {...props} fill="none">
+export const AntiguaAndBarbudaMColorIcon = forwardRef<SVGSVGElement, SVGProps<SVGSVGElement>>((props, ref) => (
+    <svg ref={ref} role="img" focusable="false" width="24" height="24" viewBox="0 0 24 24" {...props} fill="none">
         <path
             d="M22.202 4.137H1.795c-.96 0-1.745.753-1.795 1.7v12.326c.05.947.835 1.7 1.795 1.7h20.407c.993 0 1.798-.805 1.798-1.798V5.935c0-.993-.805-1.798-1.798-1.798z"
             fill="#464655"
@@ -21,6 +21,8 @@ export const AntiguaAndBarbudaMColorIcon: React.FC<SVGProps<SVGSVGElement>> = (p
         <path d="M7.264 13.655h9.475l2.526-3.31H4.737l2.527 3.31z" fill="#4173CD" />
         <path d="M7.264 13.655l4.737 6.208 4.738-6.208H7.264z" fill="#F5F5F5" />
     </svg>
-);
+));
+
+AntiguaAndBarbudaMColorIcon.displayName = 'AntiguaAndBarbudaMColorIcon';
 
 export default AntiguaAndBarbudaMColorIcon;

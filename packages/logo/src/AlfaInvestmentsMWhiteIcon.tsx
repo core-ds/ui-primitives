@@ -2,10 +2,10 @@
  * This is auto-generated file by scripts/svg-to-component package
  * Do not edit it manually
  */
-import React, { SVGProps } from 'react';
+import React, { SVGProps, forwardRef } from 'react';
 
-export const AlfaInvestmentsMWhiteIcon: React.FC<SVGProps<SVGSVGElement>> = (props) => (
-    <svg role="img" focusable="false" width="127" height="24" viewBox="0 0 127 24" {...props} fill="none">
+export const AlfaInvestmentsMWhiteIcon = forwardRef<SVGSVGElement, SVGProps<SVGSVGElement>>((props, ref) => (
+    <svg ref={ref} role="img" focusable="false" width="127" height="24" viewBox="0 0 127 24" {...props} fill="none">
         <path
             d="M8.824 2c1.516 0 1.954.886 2.333 2l3.966 11.557h-2.931l-.89-2.743H6.01l-.962 2.743H2.292L6.447 4c.394-1.114.86-2 2.377-2zm-.131 3.014l-1.881 5.472h3.732L8.766 5.014h-.073zM2 19.272h13.414V22H2v-2.729zm19.756-7.444V2.114h-2.639v13.443h2.625l6.809-9.714v9.714h2.624V2.114h-2.624l-6.795 9.714zm51.994-3.7V5.957h8.909v2.171H79.48v7.429h-2.55V8.128h-3.18zM39.603 9.614h-3.85V5.971h-2.478v9.586h2.479v-3.843h3.849v3.843h2.493V5.97h-2.493v3.643zm46.963 2.214l3.5-5.857h2.493v9.586h-2.523v-5.9l-3.484 5.9h-2.48V5.97h2.494v5.857zm25.472-5.857l-3.484 5.857V5.971h-2.508v9.586h2.478l3.485-5.9v5.9h2.523V5.97h-2.494zm6.969 5.857l3.5-5.857H125v9.586h-2.522v-5.9l-3.485 5.9h-2.479V5.97h2.493v5.857zm-56.105-1.185c0-3.058-1.822-5.1-4.636-5.1-2.8 0-4.666 2.2-4.666 5.214 0 3.014 1.954 5.043 4.87 5.043 3.31 0 4.33-2.158 4.476-3.043H60.38s-.671.928-1.925.914c-1.312-.014-2.201-.9-2.333-2.571h6.78v-.457zM58.266 7.5c1.064 0 1.866.8 2.026 1.9H56.21c.175-1.172.962-1.9 2.056-1.9zm-5.89 1.028c0 1.129-.686 1.8-1.371 2.072.816.257 1.618.943 1.618 2.157 0 1.714-1.385 2.786-3.616 2.786h-4.942V5.957h4.942c2.114 0 3.368.971 3.368 2.571zm-3.704 3.086h-2.1v2.014h2.085c.919 0 1.385-.357 1.385-1.071 0-.6-.51-.943-1.37-.943zm-2.1-1.843H48.6c.467 0 1.269-.128 1.269-.985 0-.572-.467-.9-1.269-.9h-2.027V9.77zm22.235 3.786c-1.239 0-2.114-1.186-2.114-2.886 0-1.728.846-2.886 2.1-2.886 1.325 0 1.67.858 1.79 1.156a.396.396 0 00.018.044h2.39c-.072-1.042-1.02-3.442-4.198-3.442-2.712 0-4.666 2.157-4.666 5.128 0 2.972 1.968 5.129 4.695 5.129 3.324 0 4.316-2.486 4.389-3.443h-2.465c-.247.486-.86 1.2-1.939 1.2zm34.206-7.586v7.443h1.706v4.943h-2.289v-2.8h-7.888V5.97h2.493v7.443h3.485V5.971h2.493z"
             fill="#fff"
@@ -13,6 +13,8 @@ export const AlfaInvestmentsMWhiteIcon: React.FC<SVGProps<SVGSVGElement>> = (pro
             clipRule="evenodd"
         />
     </svg>
-);
+));
+
+AlfaInvestmentsMWhiteIcon.displayName = 'AlfaInvestmentsMWhiteIcon';
 
 export default AlfaInvestmentsMWhiteIcon;

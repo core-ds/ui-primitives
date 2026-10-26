@@ -2,10 +2,10 @@
  * This is auto-generated file by scripts/svg-to-component package
  * Do not edit it manually
  */
-import React, { SVGProps } from 'react';
+import React, { SVGProps, forwardRef } from 'react';
 
-export const SaharokSignBoxMColorIcon: React.FC<SVGProps<SVGSVGElement>> = (props) => (
-    <svg role="img" focusable="false" width="24" height="24" viewBox="0 0 24 24" {...props} fill="none">
+export const SaharokSignBoxMColorIcon = forwardRef<SVGSVGElement, SVGProps<SVGSVGElement>>((props, ref) => (
+    <svg ref={ref} role="img" focusable="false" width="24" height="24" viewBox="0 0 24 24" {...props} fill="none">
         <path d="M18.164 1.039l-3.498.912 2.086 7.642 3.498-.913-2.086-7.641z" fill="#4AAFEA" />
         <path d="M14.436 1L4.742 3.529 10.057 23l9.694-2.529L14.436 1z" fill="#CA4BB0" />
         <path d="M7.54 13.668l-3.79.988 2.065 7.563 3.79-.988-2.065-7.563z" fill="#F7CA5D" />
@@ -14,6 +14,8 @@ export const SaharokSignBoxMColorIcon: React.FC<SVGProps<SVGSVGElement>> = (prop
             fill="#fff"
         />
     </svg>
-);
+));
+
+SaharokSignBoxMColorIcon.displayName = 'SaharokSignBoxMColorIcon';
 
 export default SaharokSignBoxMColorIcon;

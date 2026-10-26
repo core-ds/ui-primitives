@@ -2,10 +2,10 @@
  * This is auto-generated file by scripts/svg-to-component package
  * Do not edit it manually
  */
-import React, { SVGProps } from 'react';
+import React, { SVGProps, forwardRef } from 'react';
 
-export const AvitoSignBoxMColorIcon: React.FC<SVGProps<SVGSVGElement>> = (props) => (
-    <svg role="img" focusable="false" width="24" height="24" viewBox="0 0 24 24" {...props} fill="none">
+export const AvitoSignBoxMColorIcon = forwardRef<SVGSVGElement, SVGProps<SVGSVGElement>>((props, ref) => (
+    <svg ref={ref} role="img" focusable="false" width="24" height="24" viewBox="0 0 24 24" {...props} fill="none">
         <path
             d="M9.135 8.596c1.236 0 2.239-.974 2.239-2.176 0-1.202-1.003-2.176-2.24-2.176-1.236 0-2.238.974-2.238 2.176 0 1.202 1.002 2.176 2.239 2.176z"
             fill="#965EEB"
@@ -23,6 +23,8 @@ export const AvitoSignBoxMColorIcon: React.FC<SVGProps<SVGSVGElement>> = (props)
             fill="#FF4053"
         />
     </svg>
-);
+));
+
+AvitoSignBoxMColorIcon.displayName = 'AvitoSignBoxMColorIcon';
 
 export default AvitoSignBoxMColorIcon;

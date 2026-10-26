@@ -2,10 +2,10 @@
  * This is auto-generated file by scripts/svg-to-component package
  * Do not edit it manually
  */
-import React, { SVGProps } from 'react';
+import React, { SVGProps, forwardRef } from 'react';
 
-export const CategoryFamilyXxlBlackIcon: React.FC<SVGProps<SVGSVGElement>> = (props) => (
-    <svg role="img" focusable="false" width="48" height="48" viewBox="0 0 48 48" {...props}>
+export const CategoryFamilyXxlBlackIcon = forwardRef<SVGSVGElement, SVGProps<SVGSVGElement>>((props, ref) => (
+    <svg ref={ref} role="img" focusable="false" width="48" height="48" viewBox="0 0 48 48" {...props}>
         <g fill="none" fillRule="evenodd">
             <path d="M34.313 5.5c-4.349 0-8.156 2.285-10.312 5.713C21.843 7.785 18.037 5.5 13.688 5.5 6.957 5.5 1.5 10.957 1.5 17.688c0 .519.043 1.027.106 1.528.708 6.369 5.746 12.016 12.17 17.173 4.465-1.837 7.463-2.346 8.126-5.469-2.479-1.347-3.772-4.999-3.772-8.146 0-3.94 1.246-6.514 5.87-6.514 4.624 0 5.87 2.574 5.87 6.514 0 3.147-1.293 6.799-3.772 8.146.663 3.123 3.662 3.631 8.127 5.469.102.042.185.1.282.148 6.363-5.215 11.246-10.928 11.897-17.386.058-.481.096-.968.096-1.464 0-6.73-5.456-12.187-12.187-12.187z" />
             <path
@@ -19,6 +19,8 @@ export const CategoryFamilyXxlBlackIcon: React.FC<SVGProps<SVGSVGElement>> = (pr
             />
         </g>
     </svg>
-);
+));
+
+CategoryFamilyXxlBlackIcon.displayName = 'CategoryFamilyXxlBlackIcon';
 
 export default CategoryFamilyXxlBlackIcon;

@@ -2,10 +2,10 @@
  * This is auto-generated file by scripts/svg-to-component package
  * Do not edit it manually
  */
-import React, { SVGProps } from 'react';
+import React, { SVGProps, forwardRef } from 'react';
 
-export const FormatUnknownSColorIcon: React.FC<SVGProps<SVGSVGElement>> = (props) => (
-    <svg role="img" focusable="false" width="18" height="18" viewBox="0 0 18 18" {...props} fill="none">
+export const FormatUnknownSColorIcon = forwardRef<SVGSVGElement, SVGProps<SVGSVGElement>>((props, ref) => (
+    <svg ref={ref} role="img" focusable="false" width="18" height="18" viewBox="0 0 18 18" {...props} fill="none">
         <path
             d="M14 15.706V2.467c0-.29-.251-.526-.559-.526H6.707L3 5.431v10.275H2V5.04L6.293 1h7.148C14.301 1 15 1.658 15 2.467v13.239h-1z"
             fill="#EF3124"
@@ -23,6 +23,8 @@ export const FormatUnknownSColorIcon: React.FC<SVGProps<SVGSVGElement>> = (props
             fill="#EF3124"
         />
     </svg>
-);
+));
+
+FormatUnknownSColorIcon.displayName = 'FormatUnknownSColorIcon';
 
 export default FormatUnknownSColorIcon;

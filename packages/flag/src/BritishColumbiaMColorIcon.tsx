@@ -2,10 +2,10 @@
  * This is auto-generated file by scripts/svg-to-component package
  * Do not edit it manually
  */
-import React, { SVGProps } from 'react';
+import React, { SVGProps, forwardRef } from 'react';
 
-export const BritishColumbiaMColorIcon: React.FC<SVGProps<SVGSVGElement>> = (props) => (
-    <svg role="img" focusable="false" width="24" height="24" viewBox="0 0 24 24" {...props} fill="none">
+export const BritishColumbiaMColorIcon = forwardRef<SVGSVGElement, SVGProps<SVGSVGElement>>((props, ref) => (
+    <svg ref={ref} role="img" focusable="false" width="24" height="24" viewBox="0 0 24 24" {...props} fill="none">
         <path
             d="M10.565 4.138H2.9l7.666 2.511V4.138zM24 7.034V5.935c0-.354-.103-.684-.28-.962l-6.294 2.061H24zm-2.894-2.896H13.44v2.511l7.666-2.511zM.281 4.971a1.785 1.785 0 00-.278.867v1.196H6.58L.28 4.971zM24 11.257V9.103h-6.574L24 11.257zM.003 9.103v2.155L6.58 9.103H.003zM13.44 12h7.666L13.44 9.489v2.51zM2.9 12h7.665V9.489L2.9 11.999z"
             fill="#41479B"
@@ -32,6 +32,8 @@ export const BritishColumbiaMColorIcon: React.FC<SVGProps<SVGSVGElement>> = (pro
             fill="#FFE15A"
         />
     </svg>
-);
+));
+
+BritishColumbiaMColorIcon.displayName = 'BritishColumbiaMColorIcon';
 
 export default BritishColumbiaMColorIcon;

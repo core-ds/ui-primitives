@@ -2,10 +2,10 @@
  * This is auto-generated file by scripts/svg-to-component package
  * Do not edit it manually
  */
-import React, { SVGProps } from 'react';
+import React, { SVGProps, forwardRef } from 'react';
 
-export const RestikSignBoxMWhiteIcon: React.FC<SVGProps<SVGSVGElement>> = (props) => (
-    <svg role="img" focusable="false" width="24" height="24" viewBox="0 0 24 24" {...props} fill="none">
+export const RestikSignBoxMWhiteIcon = forwardRef<SVGSVGElement, SVGProps<SVGSVGElement>>((props, ref) => (
+    <svg ref={ref} role="img" focusable="false" width="24" height="24" viewBox="0 0 24 24" {...props} fill="none">
         <path
             d="M13.545 2h-7.68L3.661 4.099V22H8.07l2.218-2.378v-3.498h.039L13.424 22h4.564l2.351-2.378-3.579-6.6.005-.012c.262-.151.506-.332.726-.54.306-.278.6-.605.882-.98.313-.406.57-.923.783-1.535a6.155 6.155 0 00.326-2.023c0-1.653-.566-3.063-1.692-4.204C16.666 2.572 15.24 2 13.545 2zm-3.257 6.459h.94c.491 0 .866.162 1.166.474l.004.003c.202.209.342.451.412.741h-2.522V8.46zm-3.46-5.62v15.944h2.633v-5.875h3.647l3.098 5.877h2.736l-3.31-6.102.667-.374.014-.007c.147-.068.355-.211.627-.459.261-.236.52-.524.776-.865l.004-.004c.241-.312.462-.74.654-1.297a5.32 5.32 0 00.28-1.745c0-1.437-.483-2.632-1.45-3.612l-.003-.002c-.955-.982-2.165-1.478-3.657-1.478H6.829v-.001zm2.633 2.403h3.971c.732 0 1.36.254 1.855.77.502.514.747 1.165.747 1.92 0 .72-.25 1.341-.75 1.843-.496.498-1.125.742-1.852.742h-3.97V5.242z"
             fill="#fff"
@@ -13,6 +13,8 @@ export const RestikSignBoxMWhiteIcon: React.FC<SVGProps<SVGSVGElement>> = (props
             clipRule="evenodd"
         />
     </svg>
-);
+));
+
+RestikSignBoxMWhiteIcon.displayName = 'RestikSignBoxMWhiteIcon';
 
 export default RestikSignBoxMWhiteIcon;

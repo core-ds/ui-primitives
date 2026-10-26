@@ -2,10 +2,10 @@
  * This is auto-generated file by scripts/svg-to-component package
  * Do not edit it manually
  */
-import React, { SVGProps } from 'react';
+import React, { SVGProps, forwardRef } from 'react';
 
-export const OneBusinessMWhiteIcon: React.FC<SVGProps<SVGSVGElement>> = (props) => (
-    <svg role="img" focusable="false" width="131" height="24" viewBox="0 0 131 24" {...props} fill="none">
+export const OneBusinessMWhiteIcon = forwardRef<SVGSVGElement, SVGProps<SVGSVGElement>>((props, ref) => (
+    <svg ref={ref} role="img" focusable="false" width="131" height="24" viewBox="0 0 131 24" {...props} fill="none">
         <path
             d="M11.959 22c5.499 0 9.957-4.478 9.957-10 0-5.523-4.458-10-9.957-10C6.459 2 2 6.477 2 12c0 5.522 4.458 10 9.958 10z"
             fill="#fff"
@@ -41,6 +41,8 @@ export const OneBusinessMWhiteIcon: React.FC<SVGProps<SVGSVGElement>> = (props) 
             </radialGradient>
         </defs>
     </svg>
-);
+));
+
+OneBusinessMWhiteIcon.displayName = 'OneBusinessMWhiteIcon';
 
 export default OneBusinessMWhiteIcon;

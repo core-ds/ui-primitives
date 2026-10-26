@@ -2,10 +2,10 @@
  * This is auto-generated file by scripts/svg-to-component package
  * Do not edit it manually
  */
-import React, { SVGProps } from 'react';
+import React, { SVGProps, forwardRef } from 'react';
 
-export const ClockMWhiteIcon: React.FC<SVGProps<SVGSVGElement>> = (props) => (
-    <svg role="img" focusable="false" width="20" height="20" viewBox="0 0 20 20" {...props}>
+export const ClockMWhiteIcon = forwardRef<SVGSVGElement, SVGProps<SVGSVGElement>>((props, ref) => (
+    <svg ref={ref} role="img" focusable="false" width="20" height="20" viewBox="0 0 20 20" {...props}>
         <g transform="translate(-2 -2)" fill="none" fillRule="evenodd">
             <path d="M0 0h24v24H0z" />
             <circle stroke="#FFF" cx="12" cy="12" r="9.5" />
@@ -16,6 +16,8 @@ export const ClockMWhiteIcon: React.FC<SVGProps<SVGSVGElement>> = (props) => (
             />
         </g>
     </svg>
-);
+));
+
+ClockMWhiteIcon.displayName = 'ClockMWhiteIcon';
 
 export default ClockMWhiteIcon;

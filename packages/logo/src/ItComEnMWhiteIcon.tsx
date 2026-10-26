@@ -2,10 +2,10 @@
  * This is auto-generated file by scripts/svg-to-component package
  * Do not edit it manually
  */
-import React, { SVGProps } from 'react';
+import React, { SVGProps, forwardRef } from 'react';
 
-export const ItComEnMWhiteIcon: React.FC<SVGProps<SVGSVGElement>> = (props) => (
-    <svg role="img" focusable="false" width="83" height="24" viewBox="0 0 83 24" {...props} fill="none">
+export const ItComEnMWhiteIcon = forwardRef<SVGSVGElement, SVGProps<SVGSVGElement>>((props, ref) => (
+    <svg ref={ref} role="img" focusable="false" width="83" height="24" viewBox="0 0 83 24" {...props} fill="none">
         <path
             d="M20.005 17.198l2.332-8.666a2.755 2.755 0 00-.279-2.087 2.773 2.773 0 00-1.672-1.286l-1.757-.469a3.33 3.33 0 011.382 2.688v9.812l-.006.008zM16.23 4.058L8.876 2.092a2.783 2.783 0 00-2.095.277 2.765 2.765 0 00-1.29 1.666l-.008.015h10.739l.008.008z"
             fill="#fff"
@@ -27,6 +27,8 @@ export const ItComEnMWhiteIcon: React.FC<SVGProps<SVGSVGElement>> = (props) => (
             fill="#333"
         />
     </svg>
-);
+));
+
+ItComEnMWhiteIcon.displayName = 'ItComEnMWhiteIcon';
 
 export default ItComEnMWhiteIcon;

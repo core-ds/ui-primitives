@@ -2,10 +2,10 @@
  * This is auto-generated file by scripts/svg-to-component package
  * Do not edit it manually
  */
-import React, { SVGProps } from 'react';
+import React, { SVGProps, forwardRef } from 'react';
 
-export const PravocardMWhiteIcon: React.FC<SVGProps<SVGSVGElement>> = (props) => (
-    <svg role="img" focusable="false" width="132" height="24" viewBox="0 0 132 24" {...props} fill="none">
+export const PravocardMWhiteIcon = forwardRef<SVGSVGElement, SVGProps<SVGSVGElement>>((props, ref) => (
+    <svg ref={ref} role="img" focusable="false" width="132" height="24" viewBox="0 0 132 24" {...props} fill="none">
         <path
             d="M23.68 17.142h1.961V8.576h5.944v8.566h1.96V6.812h-9.864v10.33zm12.14 0h1.96v-3.764h4.47c2.368 0 3.826-1.228 3.826-3.196v-.173c0-1.968-1.474-3.197-3.826-3.197h-6.43v10.33zm1.96-5.527V8.576h4.423c1.207 0 1.882.52 1.882 1.433v.173c0 .913-.675 1.433-1.882 1.433H37.78zm14.388-4.802h-2.164L45.3 16.843v.299h1.992l1.066-2.362h5.458l1.067 2.362h1.991v-.3l-4.705-10.03zm-2.995 6.203l1.913-4.22L53 13.016h-3.827zm17.435-1.181c.769-.488 1.192-1.228 1.192-2.173V9.49c0-1.7-1.364-2.677-3.733-2.677h-6.006v10.33h6.32c2.274 0 3.748-1.15 3.748-2.93v-.172c0-1.024-.533-1.78-1.52-2.205zm-2.54-3.259c1.129 0 1.74.394 1.74 1.15v.173c0 .787-.564 1.15-1.756 1.15h-4.03V8.575h4.045zm2.07 5.574c0 .771-.659 1.228-1.788 1.228h-4.33v-2.566h4.329c1.207 0 1.788.378 1.788 1.165v.173zm9.399 3.18c3.654 0 5.991-2.046 5.991-5.259v-.173c0-3.212-2.337-5.275-5.99-5.275-3.655 0-6.007 2.063-6.007 5.275v.173c0 3.213 2.352 5.26 6.006 5.26zm0-1.826c-2.556 0-4.015-1.244-4.015-3.401v-.22c0-2.158 1.459-3.433 4.015-3.433 2.557 0 4 1.275 4 3.432v.22c0 2.158-1.443 3.402-4 3.402zm18.226-8.691h-2.368l-4.062 4.204H85.31V6.813h-1.96v10.329h1.96V12.78h2.039l3.937 4.362h2.29v-.3l-4.424-4.99 4.611-4.74v-.3zm7.574 0h-2.164l-4.705 10.03v.299h1.991l1.067-2.362h5.458l1.066 2.362h1.992v-.3l-4.705-10.03zm-2.995 6.203l1.913-4.22 1.913 4.22h-3.826zm8.888 4.126h1.96v-3.764h4.469c2.369 0 3.828-1.228 3.828-3.196v-.173c0-1.968-1.475-3.197-3.828-3.197h-6.429v10.33zm1.96-5.527V8.576h4.423c1.207 0 1.882.52 1.882 1.433v.173c0 .913-.675 1.433-1.882 1.433h-4.423zm19.207 3.763V6.812h-8.814l-.078 4.992c-.016 1.448-.361 2.645-.941 3.574h-1.317v3.858h1.96v-2.094h8.829v2.094h1.961v-3.858h-1.6zm-7.073-3.511l.079-3.291h5.049v6.802h-5.928c.455-.834.769-1.984.8-3.511z"
             fill="#fff"
@@ -17,6 +17,8 @@ export const PravocardMWhiteIcon: React.FC<SVGProps<SVGSVGElement>> = (props) =>
             clipRule="evenodd"
         />
     </svg>
-);
+));
+
+PravocardMWhiteIcon.displayName = 'PravocardMWhiteIcon';
 
 export default PravocardMWhiteIcon;

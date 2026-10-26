@@ -2,10 +2,10 @@
  * This is auto-generated file by scripts/svg-to-component package
  * Do not edit it manually
  */
-import React, { SVGProps } from 'react';
+import React, { SVGProps, forwardRef } from 'react';
 
-export const AlfaIdEnMColorIcon: React.FC<SVGProps<SVGSVGElement>> = (props) => (
-    <svg role="img" focusable="false" width="45" height="24" viewBox="0 0 45 24" {...props} fill="none">
+export const AlfaIdEnMColorIcon = forwardRef<SVGSVGElement, SVGProps<SVGSVGElement>>((props, ref) => (
+    <svg ref={ref} role="img" focusable="false" width="45" height="24" viewBox="0 0 45 24" {...props} fill="none">
         <path
             d="M40.862 7.1a7.638 7.638 0 00-5.203-1.76h-4.492v13.327h4.492c4.438 0 7.167-2.55 7.167-6.648a6.337 6.337 0 00-.446-2.657A6.54 6.54 0 0040.862 7.1zm-7 .565h1.764a4.266 4.266 0 011.778.235 4.136 4.136 0 011.505.939c.424.416.747.916.946 1.466.2.55.271 1.135.209 1.714a3.858 3.858 0 01-.225 1.706 3.982 3.982 0 01-.948 1.457 4.18 4.18 0 01-1.496.94 4.31 4.31 0 01-1.769.25h-1.753l-.01-8.707z"
             fill="#EF3124"
@@ -23,6 +23,8 @@ export const AlfaIdEnMColorIcon: React.FC<SVGProps<SVGSVGElement>> = (props) => 
             clipRule="evenodd"
         />
     </svg>
-);
+));
+
+AlfaIdEnMColorIcon.displayName = 'AlfaIdEnMColorIcon';
 
 export default AlfaIdEnMColorIcon;

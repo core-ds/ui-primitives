@@ -2,10 +2,19 @@
  * This is auto-generated file by scripts/svg-to-component package
  * Do not edit it manually
  */
-import React, { SVGProps } from 'react';
+import React, { SVGProps, forwardRef } from 'react';
 
-export const RouteLineMIcon: React.FC<SVGProps<SVGSVGElement>> = (props) => (
-    <svg role="img" focusable="false" fill="currentColor" width="24" height="24" viewBox="0 0 24 24" {...props}>
+export const RouteLineMIcon = forwardRef<SVGSVGElement, SVGProps<SVGSVGElement>>((props, ref) => (
+    <svg
+        ref={ref}
+        role="img"
+        focusable="false"
+        fill="currentColor"
+        width="24"
+        height="24"
+        viewBox="0 0 24 24"
+        {...props}
+    >
         <path
             d="M15 4.516A3.508 3.508 0 0118.5 1C20.439 1 22 2.58 22 4.516c0 1.202-.626 2.197-1.253 2.899a8.454 8.454 0 01-1.678 1.418c-.348.223-.79.223-1.138 0a8.451 8.451 0 01-1.678-1.418C15.626 6.713 15 5.718 15 4.514zm2 0C17 3.673 17.677 3 18.5 3s1.5.673 1.5 1.516c0 .496-.266 1.03-.744 1.566a5.99 5.99 0 01-.756.702 5.99 5.99 0 01-.756-.702C17.266 5.547 17 5.012 17 4.516z"
             fillRule="evenodd"
@@ -18,6 +27,8 @@ export const RouteLineMIcon: React.FC<SVGProps<SVGSVGElement>> = (props) => (
             clipRule="evenodd"
         />
     </svg>
-);
+));
+
+RouteLineMIcon.displayName = 'RouteLineMIcon';
 
 export default RouteLineMIcon;
