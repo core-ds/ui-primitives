@@ -2,10 +2,10 @@
  * This is auto-generated file by scripts/svg-to-component package
  * Do not edit it manually
  */
-import React, { SVGProps } from 'react';
+import React, { SVGProps, forwardRef } from 'react';
 
-export const KonturDostupSignSquareMWhiteIcon: React.FC<SVGProps<SVGSVGElement>> = (props) => (
-    <svg role="img" focusable="false" width="24" height="24" viewBox="0 0 24 24" {...props} fill="none">
+export const KonturDostupSignSquareMWhiteIcon = forwardRef<SVGSVGElement, SVGProps<SVGSVGElement>>((props, ref) => (
+    <svg ref={ref} role="img" focusable="false" width="24" height="24" viewBox="0 0 24 24" {...props} fill="none">
         <path
             d="M18.19 2H5.81A3.81 3.81 0 002 5.81v12.38A3.81 3.81 0 005.81 22h12.38A3.81 3.81 0 0022 18.19V5.81A3.81 3.81 0 0018.19 2z"
             fill="#fff"
@@ -15,6 +15,8 @@ export const KonturDostupSignSquareMWhiteIcon: React.FC<SVGProps<SVGSVGElement>>
             fill="#222"
         />
     </svg>
-);
+));
+
+KonturDostupSignSquareMWhiteIcon.displayName = 'KonturDostupSignSquareMWhiteIcon';
 
 export default KonturDostupSignSquareMWhiteIcon;

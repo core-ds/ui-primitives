@@ -2,10 +2,10 @@
  * This is auto-generated file by scripts/svg-to-component package
  * Do not edit it manually
  */
-import React, { SVGProps } from 'react';
+import React, { SVGProps, forwardRef } from 'react';
 
-export const SettingsSBlackIcon: React.FC<SVGProps<SVGSVGElement>> = (props) => (
-    <svg role="img" focusable="false" width="18" height="18" viewBox="0 0 18 18" {...props} fill="none">
+export const SettingsSBlackIcon = forwardRef<SVGSVGElement, SVGProps<SVGSVGElement>>((props, ref) => (
+    <svg ref={ref} role="img" focusable="false" width="18" height="18" viewBox="0 0 18 18" {...props} fill="none">
         <path
             d="M9 5.25a3.75 3.75 0 100 7.5 3.75 3.75 0 000-7.5zM9 6c1.655 0 3 1.346 3 3 0 1.655-1.345 3-3 3-1.654 0-3-1.345-3-3 0-1.654 1.346-3 3-3z"
             fill="#0B1F35"
@@ -25,6 +25,8 @@ export const SettingsSBlackIcon: React.FC<SVGProps<SVGSVGElement>> = (props) => 
             />
         </g>
     </svg>
-);
+));
+
+SettingsSBlackIcon.displayName = 'SettingsSBlackIcon';
 
 export default SettingsSBlackIcon;

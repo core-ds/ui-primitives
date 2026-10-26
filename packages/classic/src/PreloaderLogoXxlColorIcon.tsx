@@ -2,10 +2,10 @@
  * This is auto-generated file by scripts/svg-to-component package
  * Do not edit it manually
  */
-import React, { SVGProps } from 'react';
+import React, { SVGProps, forwardRef } from 'react';
 
-export const PreloaderLogoXxlColorIcon: React.FC<SVGProps<SVGSVGElement>> = (props) => (
-    <svg role="img" focusable="false" width="48" height="48" viewBox="0 0 48 48" {...props}>
+export const PreloaderLogoXxlColorIcon = forwardRef<SVGSVGElement, SVGProps<SVGSVGElement>>((props, ref) => (
+    <svg ref={ref} role="img" focusable="false" width="48" height="48" viewBox="0 0 48 48" {...props}>
         <g fill="none">
             <path d="M0 0h48v48H0z" />
             <path fill="#EF3124" d="M24 4c11.046 0 20 8.954 20 20s-8.954 20-20 20S4 35.046 4 24 12.954 4 24 4" />
@@ -14,6 +14,8 @@ export const PreloaderLogoXxlColorIcon: React.FC<SVGProps<SVGSVGElement>> = (pro
             </g>
         </g>
     </svg>
-);
+));
+
+PreloaderLogoXxlColorIcon.displayName = 'PreloaderLogoXxlColorIcon';
 
 export default PreloaderLogoXxlColorIcon;

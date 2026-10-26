@@ -2,10 +2,10 @@
  * This is auto-generated file by scripts/svg-to-component package
  * Do not edit it manually
  */
-import React, { SVGProps } from 'react';
+import React, { SVGProps, forwardRef } from 'react';
 
-export const StVincentAndTheGrenadinesMColorIcon: React.FC<SVGProps<SVGSVGElement>> = (props) => (
-    <svg role="img" focusable="false" width="24" height="24" viewBox="0 0 24 24" {...props} fill="none">
+export const StVincentAndTheGrenadinesMColorIcon = forwardRef<SVGSVGElement, SVGProps<SVGSVGElement>>((props, ref) => (
+    <svg ref={ref} role="img" focusable="false" width="24" height="24" viewBox="0 0 24 24" {...props} fill="none">
         <path d="M18.62 4.138H5.38v15.724h13.24V4.138z" fill="#FFE15A" />
         <path
             d="M22.203 19.862c.992 0 1.797-.805 1.797-1.797V5.934c0-.992-.805-1.797-1.797-1.797H18.62v15.724h3.582z"
@@ -20,6 +20,8 @@ export const StVincentAndTheGrenadinesMColorIcon: React.FC<SVGProps<SVGSVGElemen
             fill="#73AF00"
         />
     </svg>
-);
+));
+
+StVincentAndTheGrenadinesMColorIcon.displayName = 'StVincentAndTheGrenadinesMColorIcon';
 
 export default StVincentAndTheGrenadinesMColorIcon;

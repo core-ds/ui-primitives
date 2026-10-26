@@ -2,10 +2,10 @@
  * This is auto-generated file by scripts/svg-to-component package
  * Do not edit it manually
  */
-import React, { SVGProps } from 'react';
+import React, { SVGProps, forwardRef } from 'react';
 
-export const VinlabSignBoxMWhiteIcon: React.FC<SVGProps<SVGSVGElement>> = (props) => (
-    <svg role="img" focusable="false" width="24" height="24" viewBox="0 0 24 24" {...props} fill="none">
+export const VinlabSignBoxMWhiteIcon = forwardRef<SVGSVGElement, SVGProps<SVGSVGElement>>((props, ref) => (
+    <svg ref={ref} role="img" focusable="false" width="24" height="24" viewBox="0 0 24 24" {...props} fill="none">
         <path
             d="M2.408 9.82s-.631 2.832 1.045 3.686c1.677.855 4.369.319 4.823-.345.454-.664.56-1.12.56-1.12V9.825L2.407 9.82z"
             fill="#6CC351"
@@ -23,6 +23,8 @@ export const VinlabSignBoxMWhiteIcon: React.FC<SVGProps<SVGSVGElement>> = (props
             fill="#fff"
         />
     </svg>
-);
+));
+
+VinlabSignBoxMWhiteIcon.displayName = 'VinlabSignBoxMWhiteIcon';
 
 export default VinlabSignBoxMWhiteIcon;

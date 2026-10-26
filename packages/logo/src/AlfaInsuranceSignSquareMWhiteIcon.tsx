@@ -2,10 +2,10 @@
  * This is auto-generated file by scripts/svg-to-component package
  * Do not edit it manually
  */
-import React, { SVGProps } from 'react';
+import React, { SVGProps, forwardRef } from 'react';
 
-export const AlfaInsuranceSignSquareMWhiteIcon: React.FC<SVGProps<SVGSVGElement>> = (props) => (
-    <svg role="img" focusable="false" width="24" height="24" viewBox="0 0 24 24" {...props} fill="none">
+export const AlfaInsuranceSignSquareMWhiteIcon = forwardRef<SVGSVGElement, SVGProps<SVGSVGElement>>((props, ref) => (
+    <svg ref={ref} role="img" focusable="false" width="24" height="24" viewBox="0 0 24 24" {...props} fill="none">
         <path
             d="M16.05 2H7.952A5.957 5.957 0 002 7.95v8.1C2 19.33 4.668 22 7.952 22h8.098c3.28 0 5.95-2.67 5.95-5.95v-8.1C22 4.67 19.33 2 16.05 2z"
             fill="#fff"
@@ -19,6 +19,8 @@ export const AlfaInsuranceSignSquareMWhiteIcon: React.FC<SVGProps<SVGSVGElement>
             clipRule="evenodd"
         />
     </svg>
-);
+));
+
+AlfaInsuranceSignSquareMWhiteIcon.displayName = 'AlfaInsuranceSignSquareMWhiteIcon';
 
 export default AlfaInsuranceSignSquareMWhiteIcon;

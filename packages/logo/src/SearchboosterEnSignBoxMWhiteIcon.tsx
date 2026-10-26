@@ -2,10 +2,10 @@
  * This is auto-generated file by scripts/svg-to-component package
  * Do not edit it manually
  */
-import React, { SVGProps } from 'react';
+import React, { SVGProps, forwardRef } from 'react';
 
-export const SearchboosterEnSignBoxMWhiteIcon: React.FC<SVGProps<SVGSVGElement>> = (props) => (
-    <svg role="img" focusable="false" width="24" height="24" viewBox="0 0 24 24" {...props} fill="none">
+export const SearchboosterEnSignBoxMWhiteIcon = forwardRef<SVGSVGElement, SVGProps<SVGSVGElement>>((props, ref) => (
+    <svg ref={ref} role="img" focusable="false" width="24" height="24" viewBox="0 0 24 24" {...props} fill="none">
         <path
             d="M2 16.444h4.942c2.62 0 4.2-1.335 4.2-3.53v-.017c0-1.648-1.135-2.87-2.885-3.053V9.81c1.297-.191 2.279-1.414 2.279-2.733V7.06c0-1.89-1.434-3.13-3.62-3.13H2v12.514zM6.456 5.516c1.382 0 2.176.633 2.176 1.778v.018c0 1.257-.913 1.951-2.603 1.951H3.912V5.516h2.544zm-.035 5.248c1.827 0 2.766.693 2.766 2.038v.017c0 1.336-.922 2.038-2.637 2.038H3.912v-4.093h2.51z"
             fill="#fff"
@@ -17,6 +17,8 @@ export const SearchboosterEnSignBoxMWhiteIcon: React.FC<SVGProps<SVGSVGElement>>
             clipRule="evenodd"
         />
     </svg>
-);
+));
+
+SearchboosterEnSignBoxMWhiteIcon.displayName = 'SearchboosterEnSignBoxMWhiteIcon';
 
 export default SearchboosterEnSignBoxMWhiteIcon;

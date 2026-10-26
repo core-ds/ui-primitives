@@ -2,10 +2,10 @@
  * This is auto-generated file by scripts/svg-to-component package
  * Do not edit it manually
  */
-import React, { SVGProps } from 'react';
+import React, { SVGProps, forwardRef } from 'react';
 
-export const AsiaAllianceSignBoxMColorIcon: React.FC<SVGProps<SVGSVGElement>> = (props) => (
-    <svg role="img" focusable="false" width="24" height="24" fill="none">
+export const AsiaAllianceSignBoxMColorIcon = forwardRef<SVGSVGElement, SVGProps<SVGSVGElement>>((props, ref) => (
+    <svg ref={ref} role="img" focusable="false" width="24" height="24" fill="none">
         <path
             d="M22 12.009c0 5.463-4.389 9.902-9.836 9.99C6.55 22.089 1.926 17.48 2 11.872a9.992 9.992 0 015.814-8.94h.001a1.1 1.1 0 01.239.02l.07-.02s-.083.124-.054.11c.11-.055.19-.015.225.013.057.045.23.046.215.042-.02-.006-.123.085-.22.11-.075.018-.11.164-.22.329a.737.737 0 01-.148.136c-3.086 1.508-5.346 4.71-5.346 8.373 0 5.124 4.321 9.442 9.45 9.442 5.128 0 9.395-4.318 9.395-9.442 0-5.124-4.211-9.341-9.34-9.341-.04 0-.234-.102-.274-.102h-.165c-.032 0-.165-.11-.165-.11-.034 0 .13.075.11.047-.022-.03-.253-.156-.22-.156.165 0 .165-.11.055-.165-.098-.049.302.184.302.129 0-.055-.005-.128.052-.147.058-.018-.134-.092-.19-.092-.011 0 .108.002.166-.055l.005-.005a.162.162 0 01.147-.045.49.49 0 00.096.014c5.523 0 10 4.473 10 9.991z"
             fill="url(#prefix__a)"
@@ -81,6 +81,8 @@ export const AsiaAllianceSignBoxMColorIcon: React.FC<SVGProps<SVGSVGElement>> = 
             </linearGradient>
         </defs>
     </svg>
-);
+));
+
+AsiaAllianceSignBoxMColorIcon.displayName = 'AsiaAllianceSignBoxMColorIcon';
 
 export default AsiaAllianceSignBoxMColorIcon;

@@ -2,10 +2,10 @@
  * This is auto-generated file by scripts/svg-to-component package
  * Do not edit it manually
  */
-import React, { SVGProps } from 'react';
+import React, { SVGProps, forwardRef } from 'react';
 
-export const EastTimorMColorIcon: React.FC<SVGProps<SVGSVGElement>> = (props) => (
-    <svg role="img" focusable="false" width="24" height="24" viewBox="0 0 24 24" {...props} fill="none">
+export const EastTimorMColorIcon = forwardRef<SVGSVGElement, SVGProps<SVGSVGElement>>((props, ref) => (
+    <svg ref={ref} role="img" focusable="false" width="24" height="24" viewBox="0 0 24 24" {...props} fill="none">
         <path
             d="M22.206 19.862H1.796c-.99 0-1.796-.8-1.796-1.797V5.935c0-.993.807-1.797 1.797-1.797h20.406c.993 0 1.797.807 1.797 1.797v12.133a1.791 1.791 0 01-1.794 1.794z"
             fill="#FF4B55"
@@ -23,6 +23,8 @@ export const EastTimorMColorIcon: React.FC<SVGProps<SVGSVGElement>> = (props) =>
             fill="#F5F5F5"
         />
     </svg>
-);
+));
+
+EastTimorMColorIcon.displayName = 'EastTimorMColorIcon';
 
 export default EastTimorMColorIcon;

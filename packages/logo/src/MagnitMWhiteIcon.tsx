@@ -2,10 +2,10 @@
  * This is auto-generated file by scripts/svg-to-component package
  * Do not edit it manually
  */
-import React, { SVGProps } from 'react';
+import React, { SVGProps, forwardRef } from 'react';
 
-export const MagnitMWhiteIcon: React.FC<SVGProps<SVGSVGElement>> = (props) => (
-    <svg role="img" focusable="false" width="111" height="24" viewBox="0 0 111 24" {...props} fill="none">
+export const MagnitMWhiteIcon = forwardRef<SVGSVGElement, SVGProps<SVGSVGElement>>((props, ref) => (
+    <svg ref={ref} role="img" focusable="false" width="111" height="24" viewBox="0 0 111 24" {...props} fill="none">
         <path
             d="M59.283 18.648V5.358h8.337v3.085h-4.86v10.205h-3.477zm18.821 0V13.44h-5.16v5.208h-3.477V5.358h3.476v4.96h5.161v-4.96h3.471v13.29h-3.47zm19.58-13.291v3.086h4.061v10.205h3.476V8.443h4.077V5.357H97.684zm-5.11 13.291v-7.576l-5.533 7.576h-2.906V5.358h3.476v7.493l5.436-7.494h3.003v13.29h-3.476zm-53.257 0v-7.899l-3.471 4.173-3.466-4.173v7.899h-3.477V5.358h3.426l3.517 4.566 3.516-4.567h3.43v13.29h-3.475zm10.072-4.675h3.232l-1.619-4.172-1.613 4.172zm5.038 4.675l-.722-1.866H48.3l-.723 1.866H44.08l5.345-13.296h3.21l5.35 13.296h-3.557zM2 8.058A6.096 6.096 0 013.766 3.78 6.01 6.01 0 018.016 2h13.89v3.075H8.015a2.962 2.962 0 00-2.088.879 3.004 3.004 0 00-.87 2.104v5.167a3.018 3.018 0 01-.793 1.768 2.981 2.981 0 01-1.7.913l-.545.082L2 8.058zM2 22v-3.075h13.89a2.962 2.962 0 002.086-.877 3.004 3.004 0 00.87-2.101v-4.905a3.011 3.011 0 01.717-1.938 2.972 2.972 0 011.793-1.01l.544-.082v7.935a6.085 6.085 0 01-1.765 4.279A6 6 0 0115.885 22H2z"
             fill="#fff"
@@ -21,6 +21,8 @@ export const MagnitMWhiteIcon: React.FC<SVGProps<SVGSVGElement>> = (props) => (
             clipRule="evenodd"
         />
     </svg>
-);
+));
+
+MagnitMWhiteIcon.displayName = 'MagnitMWhiteIcon';
 
 export default MagnitMWhiteIcon;

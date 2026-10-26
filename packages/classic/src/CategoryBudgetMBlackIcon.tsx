@@ -2,10 +2,10 @@
  * This is auto-generated file by scripts/svg-to-component package
  * Do not edit it manually
  */
-import React, { SVGProps } from 'react';
+import React, { SVGProps, forwardRef } from 'react';
 
-export const CategoryBudgetMBlackIcon: React.FC<SVGProps<SVGSVGElement>> = (props) => (
-    <svg role="img" focusable="false" width="24" height="24" viewBox="0 0 24 24" {...props} fill="none">
+export const CategoryBudgetMBlackIcon = forwardRef<SVGSVGElement, SVGProps<SVGSVGElement>>((props, ref) => (
+    <svg ref={ref} role="img" focusable="false" width="24" height="24" viewBox="0 0 24 24" {...props} fill="none">
         <path
             d="M9.5 11.976A.99.99 0 0110.502 11h2.996a.99.99 0 011.002.976v2.68c0 .742-.618 1.344-1.38 1.344a.93.93 0 00-.701.317l-.149.17a.36.36 0 01-.54 0l-.149-.17A.93.93 0 0010.88 16c-.762 0-1.38-.602-1.38-1.345v-2.678zM10.659 3.5h2.682c.434-.585.658-.87.897-1.295C14.902 1.031 14.355 0 12 0S9.098 1.03 9.762 2.205c.24.424.463.563.897 1.295z"
             fill="#0B1F35"
@@ -18,6 +18,8 @@ export const CategoryBudgetMBlackIcon: React.FC<SVGProps<SVGSVGElement>> = (prop
             clipRule="evenodd"
         />
     </svg>
-);
+));
+
+CategoryBudgetMBlackIcon.displayName = 'CategoryBudgetMBlackIcon';
 
 export default CategoryBudgetMBlackIcon;

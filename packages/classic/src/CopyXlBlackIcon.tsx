@@ -2,10 +2,10 @@
  * This is auto-generated file by scripts/svg-to-component package
  * Do not edit it manually
  */
-import React, { SVGProps } from 'react';
+import React, { SVGProps, forwardRef } from 'react';
 
-export const CopyXlBlackIcon: React.FC<SVGProps<SVGSVGElement>> = (props) => (
-    <svg role="img" focusable="false" width="36" height="36" viewBox="0 0 36 36" {...props}>
+export const CopyXlBlackIcon = forwardRef<SVGSVGElement, SVGProps<SVGSVGElement>>((props, ref) => (
+    <svg ref={ref} role="img" focusable="false" width="36" height="36" viewBox="0 0 36 36" {...props}>
         <g transform="translate(1)" fill="none" fillRule="evenodd">
             <path
                 d="M9 13.241L16.339 6H28.5A2.5 2.5 0 0131 8.5v23a2.5 2.5 0 01-2.5 2.5h-17A2.5 2.5 0 019 31.5V13.241zm1 .517V31.4a1.6 1.6 0 001.6 1.6h16.8a1.6 1.6 0 001.6-1.6V8.6A1.6 1.6 0 0028.4 7H16.703L10 13.758z"
@@ -20,6 +20,8 @@ export const CopyXlBlackIcon: React.FC<SVGProps<SVGSVGElement>> = (props) => (
             <circle fill="#0A1E32" opacity=".3" cx="16" cy="26" r="2" />
         </g>
     </svg>
-);
+));
+
+CopyXlBlackIcon.displayName = 'CopyXlBlackIcon';
 
 export default CopyXlBlackIcon;

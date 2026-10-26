@@ -2,10 +2,10 @@
  * This is auto-generated file by scripts/svg-to-component package
  * Do not edit it manually
  */
-import React, { SVGProps } from 'react';
+import React, { SVGProps, forwardRef } from 'react';
 
-export const BeelineMColorIcon: React.FC<SVGProps<SVGSVGElement>> = (props) => (
-    <svg role="img" focusable="false" width="24" height="24" viewBox="0 0 24 24" {...props} fill="none">
+export const BeelineMColorIcon = forwardRef<SVGSVGElement, SVGProps<SVGSVGElement>>((props, ref) => (
+    <svg ref={ref} role="img" focusable="false" width="24" height="24" viewBox="0 0 24 24" {...props} fill="none">
         <path
             d="M12 21.712c5.52 0 9.997-4.35 9.997-9.713 0-5.364-4.476-9.713-9.998-9.713-5.521 0-9.997 4.349-9.997 9.713 0 5.364 4.476 9.713 9.997 9.713z"
             fill="#FFC800"
@@ -36,6 +36,8 @@ export const BeelineMColorIcon: React.FC<SVGProps<SVGSVGElement>> = (props) => (
             </radialGradient>
         </defs>
     </svg>
-);
+));
+
+BeelineMColorIcon.displayName = 'BeelineMColorIcon';
 
 export default BeelineMColorIcon;

@@ -2,10 +2,10 @@
  * This is auto-generated file by scripts/svg-to-component package
  * Do not edit it manually
  */
-import React, { SVGProps } from 'react';
+import React, { SVGProps, forwardRef } from 'react';
 
-export const YandexPlusMColorIcon: React.FC<SVGProps<SVGSVGElement>> = (props) => (
-    <svg role="img" focusable="false" width="139" height="24" viewBox="0 0 139 24" {...props} fill="none">
+export const YandexPlusMColorIcon = forwardRef<SVGSVGElement, SVGProps<SVGSVGElement>>((props, ref) => (
+    <svg ref={ref} role="img" focusable="false" width="139" height="24" viewBox="0 0 139 24" {...props} fill="none">
         <path d="M77.166 22c5.523 0 10-4.477 10-10s-4.477-10-10-10-10 4.477-10 10 4.477 10 10 10z" fill="#fff" />
         <path
             d="M87.166 12c0 5.523-4.477 10-10 10s-10-4.477-10-10 4.477-10 10-10c1.08 0 2.118.17 3.092.487L77.978 9.5h-6.655l-.814 2.5h6.657l-1.95 6h2.75l1.95-6h7.25zm-.315-2.5H80.73l1.908-5.872A10.016 10.016 0 0186.851 9.5z"
@@ -94,6 +94,8 @@ export const YandexPlusMColorIcon: React.FC<SVGProps<SVGSVGElement>> = (props) =
             </linearGradient>
         </defs>
     </svg>
-);
+));
+
+YandexPlusMColorIcon.displayName = 'YandexPlusMColorIcon';
 
 export default YandexPlusMColorIcon;

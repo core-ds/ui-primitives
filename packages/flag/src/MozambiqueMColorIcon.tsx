@@ -2,10 +2,10 @@
  * This is auto-generated file by scripts/svg-to-component package
  * Do not edit it manually
  */
-import React, { SVGProps } from 'react';
+import React, { SVGProps, forwardRef } from 'react';
 
-export const MozambiqueMColorIcon: React.FC<SVGProps<SVGSVGElement>> = (props) => (
-    <svg role="img" focusable="false" width="24" height="24" viewBox="0 0 24 24" {...props} fill="none">
+export const MozambiqueMColorIcon = forwardRef<SVGSVGElement, SVGProps<SVGSVGElement>>((props, ref) => (
+    <svg ref={ref} role="img" focusable="false" width="24" height="24" viewBox="0 0 24 24" {...props} fill="none">
         <path
             d="M22.203 4.138H1.797C.805 4.138 0 4.943 0 5.935v2.979h24V5.935c0-.992-.805-1.797-1.797-1.797z"
             fill="#5AA587"
@@ -45,6 +45,8 @@ export const MozambiqueMColorIcon: React.FC<SVGProps<SVGSVGElement>> = (props) =
             fill="#464655"
         />
     </svg>
-);
+));
+
+MozambiqueMColorIcon.displayName = 'MozambiqueMColorIcon';
 
 export default MozambiqueMColorIcon;

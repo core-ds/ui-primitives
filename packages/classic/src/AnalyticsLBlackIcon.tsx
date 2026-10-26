@@ -2,10 +2,10 @@
  * This is auto-generated file by scripts/svg-to-component package
  * Do not edit it manually
  */
-import React, { SVGProps } from 'react';
+import React, { SVGProps, forwardRef } from 'react';
 
-export const AnalyticsLBlackIcon: React.FC<SVGProps<SVGSVGElement>> = (props) => (
-    <svg role="img" focusable="false" width="30" height="30" viewBox="0 0 30 30" {...props}>
+export const AnalyticsLBlackIcon = forwardRef<SVGSVGElement, SVGProps<SVGSVGElement>>((props, ref) => (
+    <svg ref={ref} role="img" focusable="false" width="30" height="30" viewBox="0 0 30 30" {...props}>
         <g fill="#0B1F35" fillRule="evenodd">
             <path
                 opacity=".3"
@@ -15,6 +15,8 @@ export const AnalyticsLBlackIcon: React.FC<SVGProps<SVGSVGElement>> = (props) =>
             <path d="M19.886 18.941a9.148 9.148 0 002.02-5.737C21.906 8.129 17.778 4 12.703 4 7.628 4 3.5 8.129 3.5 13.204c0 5.075 4.128 9.202 9.203 9.202 2.17 0 4.162-.757 5.737-2.019l5.814 5.814a1.024 1.024 0 001.446-1.446l-5.814-5.814zM4.521 13.204c0-4.512 3.672-8.182 8.182-8.182 4.511 0 8.181 3.67 8.181 8.182a8.14 8.14 0 01-2.091 5.442l-.648.648a8.138 8.138 0 01-5.442 2.09c-4.51 0-8.182-3.67-8.182-8.18z" />
         </g>
     </svg>
-);
+));
+
+AnalyticsLBlackIcon.displayName = 'AnalyticsLBlackIcon';
 
 export default AnalyticsLBlackIcon;

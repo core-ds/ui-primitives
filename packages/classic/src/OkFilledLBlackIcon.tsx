@@ -2,10 +2,10 @@
  * This is auto-generated file by scripts/svg-to-component package
  * Do not edit it manually
  */
-import React, { SVGProps } from 'react';
+import React, { SVGProps, forwardRef } from 'react';
 
-export const OkFilledLBlackIcon: React.FC<SVGProps<SVGSVGElement>> = (props) => (
-    <svg role="img" focusable="false" width="30" height="30" viewBox="0 0 30 30" {...props}>
+export const OkFilledLBlackIcon = forwardRef<SVGSVGElement, SVGProps<SVGSVGElement>>((props, ref) => (
+    <svg ref={ref} role="img" focusable="false" width="30" height="30" viewBox="0 0 30 30" {...props}>
         <g fill="none" fillRule="evenodd">
             <rect fill="#0B1F35" width="30" height="30" rx="15" fillRule="nonzero" />
             <path
@@ -15,6 +15,8 @@ export const OkFilledLBlackIcon: React.FC<SVGProps<SVGSVGElement>> = (props) => 
             />
         </g>
     </svg>
-);
+));
+
+OkFilledLBlackIcon.displayName = 'OkFilledLBlackIcon';
 
 export default OkFilledLBlackIcon;

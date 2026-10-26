@@ -2,10 +2,10 @@
  * This is auto-generated file by scripts/svg-to-component package
  * Do not edit it manually
  */
-import React, { SVGProps } from 'react';
+import React, { SVGProps, forwardRef } from 'react';
 
-export const KonturElbaSignBoxMWhiteIcon: React.FC<SVGProps<SVGSVGElement>> = (props) => (
-    <svg role="img" focusable="false" width="24" height="24" viewBox="0 0 24 24" {...props} fill="none">
+export const KonturElbaSignBoxMWhiteIcon = forwardRef<SVGSVGElement, SVGProps<SVGSVGElement>>((props, ref) => (
+    <svg ref={ref} role="img" focusable="false" width="24" height="24" viewBox="0 0 24 24" {...props} fill="none">
         <path
             d="M8.154 15.292l.001.003.005.007a4.582 4.582 0 003.838 2.075H12a4.581 4.581 0 003.84-2.08l.003-.006h-.005A4.578 4.578 0 0112 17.373h-.002a4.577 4.577 0 01-3.838-2.079l-.002-.003-.004.001z"
             fill="#222"
@@ -74,6 +74,8 @@ export const KonturElbaSignBoxMWhiteIcon: React.FC<SVGProps<SVGSVGElement>> = (p
             fill="#fff"
         />
     </svg>
-);
+));
+
+KonturElbaSignBoxMWhiteIcon.displayName = 'KonturElbaSignBoxMWhiteIcon';
 
 export default KonturElbaSignBoxMWhiteIcon;

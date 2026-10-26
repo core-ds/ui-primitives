@@ -2,10 +2,10 @@
  * This is auto-generated file by scripts/svg-to-component package
  * Do not edit it manually
  */
-import React, { SVGProps } from 'react';
+import React, { SVGProps, forwardRef } from 'react';
 
-export const LocationMWhiteIcon: React.FC<SVGProps<SVGSVGElement>> = (props) => (
-    <svg role="img" focusable="false" width="16" height="24" viewBox="0 0 16 24" {...props}>
+export const LocationMWhiteIcon = forwardRef<SVGSVGElement, SVGProps<SVGSVGElement>>((props, ref) => (
+    <svg ref={ref} role="img" focusable="false" width="16" height="24" viewBox="0 0 16 24" {...props}>
         <g fill="none" transform="translate(-4 -1)" fillRule="evenodd">
             <path d="M0 0h24v24H0z" />
             <circle cx="12" cy="9" r="3" fill="#FFF" opacity=".3" />
@@ -15,6 +15,8 @@ export const LocationMWhiteIcon: React.FC<SVGProps<SVGSVGElement>> = (props) => 
             />
         </g>
     </svg>
-);
+));
+
+LocationMWhiteIcon.displayName = 'LocationMWhiteIcon';
 
 export default LocationMWhiteIcon;

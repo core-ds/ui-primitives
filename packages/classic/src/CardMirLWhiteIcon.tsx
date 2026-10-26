@@ -2,10 +2,10 @@
  * This is auto-generated file by scripts/svg-to-component package
  * Do not edit it manually
  */
-import React, { SVGProps } from 'react';
+import React, { SVGProps, forwardRef } from 'react';
 
-export const CardMirLWhiteIcon: React.FC<SVGProps<SVGSVGElement>> = (props) => (
-    <svg role="img" focusable="false" width="30" height="30" viewBox="0 0 30 30" {...props}>
+export const CardMirLWhiteIcon = forwardRef<SVGSVGElement, SVGProps<SVGSVGElement>>((props, ref) => (
+    <svg ref={ref} role="img" focusable="false" width="30" height="30" viewBox="0 0 30 30" {...props}>
         <g fill="none" fillRule="evenodd">
             <path d="M0 0h30v30H0z" />
             <g fill="#FFF" fillOpacity=".9" fillRule="nonzero">
@@ -17,6 +17,8 @@ export const CardMirLWhiteIcon: React.FC<SVGProps<SVGSVGElement>> = (props) => (
             </g>
         </g>
     </svg>
-);
+));
+
+CardMirLWhiteIcon.displayName = 'CardMirLWhiteIcon';
 
 export default CardMirLWhiteIcon;

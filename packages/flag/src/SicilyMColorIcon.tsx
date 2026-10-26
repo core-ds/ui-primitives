@@ -2,10 +2,10 @@
  * This is auto-generated file by scripts/svg-to-component package
  * Do not edit it manually
  */
-import React, { SVGProps } from 'react';
+import React, { SVGProps, forwardRef } from 'react';
 
-export const SicilyMColorIcon: React.FC<SVGProps<SVGSVGElement>> = (props) => (
-    <svg role="img" focusable="false" width="24" height="24" viewBox="0 0 24 24" {...props} fill="none">
+export const SicilyMColorIcon = forwardRef<SVGSVGElement, SVGProps<SVGSVGElement>>((props, ref) => (
+    <svg ref={ref} role="img" focusable="false" width="24" height="24" viewBox="0 0 24 24" {...props} fill="none">
         <path
             d="M0 5.935v12.13c0 .992.805 1.797 1.797 1.797h20.406c.44 0 .842-.158 1.155-.42L.642 4.558A1.799 1.799 0 000 5.935z"
             fill="#FFE15A"
@@ -35,6 +35,8 @@ export const SicilyMColorIcon: React.FC<SVGProps<SVGSVGElement>> = (props) => (
             fill="#464655"
         />
     </svg>
-);
+));
+
+SicilyMColorIcon.displayName = 'SicilyMColorIcon';
 
 export default SicilyMColorIcon;

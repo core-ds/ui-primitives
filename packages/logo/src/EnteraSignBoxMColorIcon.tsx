@@ -2,10 +2,10 @@
  * This is auto-generated file by scripts/svg-to-component package
  * Do not edit it manually
  */
-import React, { SVGProps } from 'react';
+import React, { SVGProps, forwardRef } from 'react';
 
-export const EnteraSignBoxMColorIcon: React.FC<SVGProps<SVGSVGElement>> = (props) => (
-    <svg role="img" focusable="false" width="24" height="24" viewBox="0 0 24 24" {...props} fill="none">
+export const EnteraSignBoxMColorIcon = forwardRef<SVGSVGElement, SVGProps<SVGSVGElement>>((props, ref) => (
+    <svg ref={ref} role="img" focusable="false" width="24" height="24" viewBox="0 0 24 24" {...props} fill="none">
         <path
             d="M10.995 2.272a1.996 1.996 0 012.009 0l6.835 3.978c.31.181.569.442.748.756.18.315.273.671.273 1.035v7.919c0 .74-.39 1.423-1.02 1.79l-6.835 3.979a1.997 1.997 0 01-2.01 0L4.16 17.75a2.05 2.05 0 01-.748-.756 2.085 2.085 0 01-.273-1.034V8.04c0-.74.39-1.423 1.02-1.79l6.836-3.978z"
             fill="#00B482"
@@ -17,6 +17,8 @@ export const EnteraSignBoxMColorIcon: React.FC<SVGProps<SVGSVGElement>> = (props
             fill="#fff"
         />
     </svg>
-);
+));
+
+EnteraSignBoxMColorIcon.displayName = 'EnteraSignBoxMColorIcon';
 
 export default EnteraSignBoxMColorIcon;

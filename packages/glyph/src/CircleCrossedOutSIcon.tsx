@@ -2,10 +2,19 @@
  * This is auto-generated file by scripts/svg-to-component package
  * Do not edit it manually
  */
-import React, { SVGProps } from 'react';
+import React, { SVGProps, forwardRef } from 'react';
 
-export const CircleCrossedOutSIcon: React.FC<SVGProps<SVGSVGElement>> = (props) => (
-    <svg role="img" focusable="false" fill="currentColor" width="16" height="16" viewBox="0 0 16 16" {...props}>
+export const CircleCrossedOutSIcon = forwardRef<SVGSVGElement, SVGProps<SVGSVGElement>>((props, ref) => (
+    <svg
+        ref={ref}
+        role="img"
+        focusable="false"
+        fill="currentColor"
+        width="16"
+        height="16"
+        viewBox="0 0 16 16"
+        {...props}
+    >
         <g clipPath="url(#prefix__clip0_146495_8131)">
             <path d="M13.53 12.47l-1.06 1.06-.435-.434-9.131-9.131-.434-.435 1.06-1.06.435.434 9.131 9.131.434.435z" />
             <path
@@ -20,6 +29,8 @@ export const CircleCrossedOutSIcon: React.FC<SVGProps<SVGSVGElement>> = (props) 
             </clipPath>
         </defs>
     </svg>
-);
+));
+
+CircleCrossedOutSIcon.displayName = 'CircleCrossedOutSIcon';
 
 export default CircleCrossedOutSIcon;

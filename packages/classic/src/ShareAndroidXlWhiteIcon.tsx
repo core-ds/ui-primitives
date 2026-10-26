@@ -2,10 +2,10 @@
  * This is auto-generated file by scripts/svg-to-component package
  * Do not edit it manually
  */
-import React, { SVGProps } from 'react';
+import React, { SVGProps, forwardRef } from 'react';
 
-export const ShareAndroidXlWhiteIcon: React.FC<SVGProps<SVGSVGElement>> = (props) => (
-    <svg role="img" focusable="false" width="29" height="34" viewBox="0 0 29 34" {...props}>
+export const ShareAndroidXlWhiteIcon = forwardRef<SVGSVGElement, SVGProps<SVGSVGElement>>((props, ref) => (
+    <svg ref={ref} role="img" focusable="false" width="29" height="34" viewBox="0 0 29 34" {...props}>
         <g fill="none" fillRule="evenodd">
             <path d="M-3-1h36v36H-3z" />
             <path d="M-3-1h36v36H-3z" />
@@ -15,6 +15,8 @@ export const ShareAndroidXlWhiteIcon: React.FC<SVGProps<SVGSVGElement>> = (props
             />
         </g>
     </svg>
-);
+));
+
+ShareAndroidXlWhiteIcon.displayName = 'ShareAndroidXlWhiteIcon';
 
 export default ShareAndroidXlWhiteIcon;

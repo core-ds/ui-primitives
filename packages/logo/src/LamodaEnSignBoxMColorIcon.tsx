@@ -2,10 +2,10 @@
  * This is auto-generated file by scripts/svg-to-component package
  * Do not edit it manually
  */
-import React, { SVGProps } from 'react';
+import React, { SVGProps, forwardRef } from 'react';
 
-export const LamodaEnSignBoxMColorIcon: React.FC<SVGProps<SVGSVGElement>> = (props) => (
-    <svg role="img" focusable="false" width="24" height="24" viewBox="0 0 24 24" {...props} fill="none">
+export const LamodaEnSignBoxMColorIcon = forwardRef<SVGSVGElement, SVGProps<SVGSVGElement>>((props, ref) => (
+    <svg ref={ref} role="img" focusable="false" width="24" height="24" viewBox="0 0 24 24" {...props} fill="none">
         <path
             d="M12 22c-7.518 0-10-2.475-10-9.97C2 4.54 4.487 2 12 2s10 2.54 10 10.03C22 19.526 19.513 22 12 22z"
             fill="#000"
@@ -15,6 +15,8 @@ export const LamodaEnSignBoxMColorIcon: React.FC<SVGProps<SVGSVGElement>> = (pro
             fill="#fff"
         />
     </svg>
-);
+));
+
+LamodaEnSignBoxMColorIcon.displayName = 'LamodaEnSignBoxMColorIcon';
 
 export default LamodaEnSignBoxMColorIcon;

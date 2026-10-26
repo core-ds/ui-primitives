@@ -2,10 +2,10 @@
  * This is auto-generated file by scripts/svg-to-component package
  * Do not edit it manually
  */
-import React, { SVGProps } from 'react';
+import React, { SVGProps, forwardRef } from 'react';
 
-export const CategoryHealthMWhiteIcon: React.FC<SVGProps<SVGSVGElement>> = (props) => (
-    <svg role="img" focusable="false" width="24" height="24" viewBox="0 0 24 24" {...props}>
+export const CategoryHealthMWhiteIcon = forwardRef<SVGSVGElement, SVGProps<SVGSVGElement>>((props, ref) => (
+    <svg ref={ref} role="img" focusable="false" width="24" height="24" viewBox="0 0 24 24" {...props}>
         <g fill="none" fillRule="evenodd">
             <path
                 d="M10 15v.757C8.873 17.994 8.317 20.364 8.317 23h1c0-2.167.419-4.136 1.224-6H12c6.627 0 12-5.373 12-12V3h-2c-6.627 0-12 5.373-12 12zM23 5c0 6.065-4.935 11-11 11h-1v-1c0-6.065 4.935-11 11-11h1v1z"
@@ -18,6 +18,8 @@ export const CategoryHealthMWhiteIcon: React.FC<SVGProps<SVGSVGElement>> = (prop
             />
         </g>
     </svg>
-);
+));
+
+CategoryHealthMWhiteIcon.displayName = 'CategoryHealthMWhiteIcon';
 
 export default CategoryHealthMWhiteIcon;

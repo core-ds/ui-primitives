@@ -2,10 +2,19 @@
  * This is auto-generated file by scripts/svg-to-component package
  * Do not edit it manually
  */
-import React, { SVGProps } from 'react';
+import React, { SVGProps, forwardRef } from 'react';
 
-export const SunLineMIcon: React.FC<SVGProps<SVGSVGElement>> = (props) => (
-    <svg role="img" focusable="false" fill="currentColor" width="24" height="24" viewBox="0 0 24 24" {...props}>
+export const SunLineMIcon = forwardRef<SVGSVGElement, SVGProps<SVGSVGElement>>((props, ref) => (
+    <svg
+        ref={ref}
+        role="img"
+        focusable="false"
+        fill="currentColor"
+        width="24"
+        height="24"
+        viewBox="0 0 24 24"
+        {...props}
+    >
         <g clipPath="url(#prefix__clip0_57102_8778)">
             <path d="M11 0h2v4h-2V0zM4 11H0v2h4v-2zm7 13v-4h2v4h-2zm9-11h4v-2h-4v2z" />
             <path
@@ -21,6 +30,8 @@ export const SunLineMIcon: React.FC<SVGProps<SVGSVGElement>> = (props) => (
             </clipPath>
         </defs>
     </svg>
-);
+));
+
+SunLineMIcon.displayName = 'SunLineMIcon';
 
 export default SunLineMIcon;

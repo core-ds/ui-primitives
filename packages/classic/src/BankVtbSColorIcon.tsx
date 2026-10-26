@@ -2,10 +2,10 @@
  * This is auto-generated file by scripts/svg-to-component package
  * Do not edit it manually
  */
-import React, { SVGProps } from 'react';
+import React, { SVGProps, forwardRef } from 'react';
 
-export const BankVtbSColorIcon: React.FC<SVGProps<SVGSVGElement>> = (props) => (
-    <svg role="img" focusable="false" width="18" height="18" version="1" viewBox="0 0 18 18" {...props}>
+export const BankVtbSColorIcon = forwardRef<SVGSVGElement, SVGProps<SVGSVGElement>>((props, ref) => (
+    <svg ref={ref} role="img" focusable="false" width="18" height="18" version="1" viewBox="0 0 18 18" {...props}>
         <path
             fill="#193163"
             d="M3.499 8H2.42c-.131.332-.248.666-.349 1h1.047c.112-.339.24-.673.381-1zm1.095-2H3.409a13.07 13.07 0 00-.546 1h1.116c.19-.349.397-.681.615-1zm1.802-2H4.933c-.301.312-.59.643-.857 1H5.36a8.092 8.092 0 011.036-1zm8.457 10H6.392a9.812 9.812 0 01-3.037-4h-1.1a10.779 10.779 0 003.803 5h10.123c-.296-1.86-1.679-3.686-2.984-5h-1.45c.622.547 2.331 2.162 3.106 4zm.078-10h1.048c.109-.339.199-.675.251-1H6.059c-.397.288-.77.63-1.126 1h9.998zM4.594 6h1.249a8.09 8.09 0 01.918-1h6.587c-.201.349-.427.681-.661 1h1.225c.208-.324.398-.659.571-1H5.359c-.27.307-.523.646-.765 1z"
@@ -23,6 +23,8 @@ export const BankVtbSColorIcon: React.FC<SVGProps<SVGSVGElement>> = (props) => (
             d="M11.007 9l-.216.162.927.812.028.026h1.45c-.28-.282-.697-.662-1.072-1h-1.117zm-7.964.221c.022-.075.052-.147.076-.221H2.071c-.022.074-.05.148-.071.222.074.265.162.523.255.778h1.1c-.107-.259-.229-.512-.312-.779zM4.435 10h5.795l-1.025-.898L9.341 9H4c.075.359.313.742.435 1z"
         />
     </svg>
-);
+));
+
+BankVtbSColorIcon.displayName = 'BankVtbSColorIcon';
 
 export default BankVtbSColorIcon;

@@ -2,10 +2,10 @@
  * This is auto-generated file by scripts/svg-to-component package
  * Do not edit it manually
  */
-import React, { SVGProps } from 'react';
+import React, { SVGProps, forwardRef } from 'react';
 
-export const FormatZipLBlackIcon: React.FC<SVGProps<SVGSVGElement>> = (props) => (
-    <svg role="img" focusable="false" width="26" height="26" viewBox="0 0 26 26" {...props}>
+export const FormatZipLBlackIcon = forwardRef<SVGSVGElement, SVGProps<SVGSVGElement>>((props, ref) => (
+    <svg ref={ref} role="img" focusable="false" width="26" height="26" viewBox="0 0 26 26" {...props}>
         <g fill="none" fillRule="evenodd">
             <path d="M-2-2h30v30H-2z" />
             <g fill="#0B1F35">
@@ -14,6 +14,8 @@ export const FormatZipLBlackIcon: React.FC<SVGProps<SVGSVGElement>> = (props) =>
             </g>
         </g>
     </svg>
-);
+));
+
+FormatZipLBlackIcon.displayName = 'FormatZipLBlackIcon';
 
 export default FormatZipLBlackIcon;

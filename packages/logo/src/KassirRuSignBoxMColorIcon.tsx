@@ -2,10 +2,10 @@
  * This is auto-generated file by scripts/svg-to-component package
  * Do not edit it manually
  */
-import React, { SVGProps } from 'react';
+import React, { SVGProps, forwardRef } from 'react';
 
-export const KassirRuSignBoxMColorIcon: React.FC<SVGProps<SVGSVGElement>> = (props) => (
-    <svg role="img" focusable="false" width="24" height="24" viewBox="0 0 24 24" {...props} fill="none">
+export const KassirRuSignBoxMColorIcon = forwardRef<SVGSVGElement, SVGProps<SVGSVGElement>>((props, ref) => (
+    <svg ref={ref} role="img" focusable="false" width="24" height="24" viewBox="0 0 24 24" {...props} fill="none">
         <path
             d="M11.992 4.276c-4.259 0-7.724 3.451-7.724 7.696 0 2.842 1.566 5.315 3.876 6.648v-3.523c-1.65-1.332-2.24-3.217-2.253-3.245a.624.624 0 01.064-.475.635.635 0 01.375-.298.65.65 0 01.475.043.652.652 0 01.312.361c.05.156 1.162 3.643 4.797 3.643h.078c3.884-.05 4.798-3.465 4.84-3.614a.636.636 0 011.233.305c-.007.028-.517 1.97-2.26 3.309v3.494c2.332-1.326 3.912-3.806 3.912-6.662 0-4.245-3.466-7.696-7.725-7.696v.014zm-1.771 6.952a.999.999 0 01-.709-.297 1.018 1.018 0 01-.298-.71.998.998 0 01.298-.708 1.018 1.018 0 01.709-.297 1.018 1.018 0 011.006 1.006.996.996 0 01-.298.709 1.018 1.018 0 01-.708.297zm3.855-.007a.998.998 0 01-.709-.297 1.016 1.016 0 01-.298-.71.996.996 0 01.298-.708 1.018 1.018 0 01.709-.297 1.002 1.002 0 011.006.999 1.004 1.004 0 01-1.006.999v.014z"
             fill="#FFC627"
@@ -23,6 +23,8 @@ export const KassirRuSignBoxMColorIcon: React.FC<SVGProps<SVGSVGElement>> = (pro
             fill="#111820"
         />
     </svg>
-);
+));
+
+KassirRuSignBoxMColorIcon.displayName = 'KassirRuSignBoxMColorIcon';
 
 export default KassirRuSignBoxMColorIcon;

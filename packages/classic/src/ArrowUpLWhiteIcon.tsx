@@ -2,10 +2,10 @@
  * This is auto-generated file by scripts/svg-to-component package
  * Do not edit it manually
  */
-import React, { SVGProps } from 'react';
+import React, { SVGProps, forwardRef } from 'react';
 
-export const ArrowUpLWhiteIcon: React.FC<SVGProps<SVGSVGElement>> = (props) => (
-    <svg role="img" focusable="false" width="30" height="30" viewBox="0 0 30 30" {...props}>
+export const ArrowUpLWhiteIcon = forwardRef<SVGSVGElement, SVGProps<SVGSVGElement>>((props, ref) => (
+    <svg ref={ref} role="img" focusable="false" width="30" height="30" viewBox="0 0 30 30" {...props}>
         <g fill="none" fillRule="evenodd">
             <path
                 fill="#FFF"
@@ -15,6 +15,8 @@ export const ArrowUpLWhiteIcon: React.FC<SVGProps<SVGSVGElement>> = (props) => (
             <path d="M0 30h30V0H0z" />
         </g>
     </svg>
-);
+));
+
+ArrowUpLWhiteIcon.displayName = 'ArrowUpLWhiteIcon';
 
 export default ArrowUpLWhiteIcon;

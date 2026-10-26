@@ -2,10 +2,10 @@
  * This is auto-generated file by scripts/svg-to-component package
  * Do not edit it manually
  */
-import React, { SVGProps } from 'react';
+import React, { SVGProps, forwardRef } from 'react';
 
-export const TBankSignBoxMColorIcon: React.FC<SVGProps<SVGSVGElement>> = (props) => (
-    <svg role="img" focusable="false" width="24" height="24" viewBox="0 0 24 24" {...props} fill="none">
+export const TBankSignBoxMColorIcon = forwardRef<SVGSVGElement, SVGProps<SVGSVGElement>>((props, ref) => (
+    <svg ref={ref} role="img" focusable="false" width="24" height="24" viewBox="0 0 24 24" {...props} fill="none">
         <path
             d="M2 2h20v10.059a7.218 7.218 0 01-3.609 6.25L12 22l-6.391-3.69A7.218 7.218 0 012 12.058V2z"
             fill="#FFDD2D"
@@ -17,6 +17,8 @@ export const TBankSignBoxMColorIcon: React.FC<SVGProps<SVGSVGElement>> = (props)
             clipRule="evenodd"
         />
     </svg>
-);
+));
+
+TBankSignBoxMColorIcon.displayName = 'TBankSignBoxMColorIcon';
 
 export default TBankSignBoxMColorIcon;

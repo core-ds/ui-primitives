@@ -2,10 +2,10 @@
  * This is auto-generated file by scripts/svg-to-component package
  * Do not edit it manually
  */
-import React, { SVGProps } from 'react';
+import React, { SVGProps, forwardRef } from 'react';
 
-export const PaypeopleMColorIcon: React.FC<SVGProps<SVGSVGElement>> = (props) => (
-    <svg role="img" focusable="false" width="111" height="24" viewBox="0 0 111 24" {...props} fill="none">
+export const PaypeopleMColorIcon = forwardRef<SVGSVGElement, SVGProps<SVGSVGElement>>((props, ref) => (
+    <svg ref={ref} role="img" focusable="false" width="111" height="24" viewBox="0 0 111 24" {...props} fill="none">
         <path
             d="M11.224 20.449A9.224 9.224 0 102 11.224c0 2.178.755 4.18 2.017 5.758l1.344-3.418 4.62-.002c.935 0 1.719-.237 2.35-.712a2.974 2.974 0 001.17-1.927c.128-.723-.037-1.256-.493-1.599-.455-.35-1.15-.525-2.087-.525h-.757l-1.253 3.168H5.989l2.219-5.643h3.487c1.146 0 2.103.175 2.873.526.778.343 1.335.835 1.671 1.478.344.642.438 1.405.282 2.288-.197 1.117-.636 2.077-1.317 2.88-.672.796-1.517 1.409-2.537 1.84-1.02.43-2.14.646-3.36.646h-1.97l-1.168 2.96a9.181 9.181 0 005.055 1.507z"
             fill="url(#prefix__paint0_linear_8043_700)"
@@ -33,6 +33,8 @@ export const PaypeopleMColorIcon: React.FC<SVGProps<SVGSVGElement>> = (props) =>
             </linearGradient>
         </defs>
     </svg>
-);
+));
+
+PaypeopleMColorIcon.displayName = 'PaypeopleMColorIcon';
 
 export default PaypeopleMColorIcon;

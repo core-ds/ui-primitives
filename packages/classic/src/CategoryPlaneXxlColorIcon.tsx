@@ -2,10 +2,10 @@
  * This is auto-generated file by scripts/svg-to-component package
  * Do not edit it manually
  */
-import React, { SVGProps } from 'react';
+import React, { SVGProps, forwardRef } from 'react';
 
-export const CategoryPlaneXxlColorIcon: React.FC<SVGProps<SVGSVGElement>> = (props) => (
-    <svg role="img" focusable="false" width="48" height="48" viewBox="0 0 48 48" {...props} fill="none">
+export const CategoryPlaneXxlColorIcon = forwardRef<SVGSVGElement, SVGProps<SVGSVGElement>>((props, ref) => (
+    <svg ref={ref} role="img" focusable="false" width="48" height="48" viewBox="0 0 48 48" {...props} fill="none">
         <path
             d="M40.615 31.801c-.535.537-1.4.537-1.936 0l-1.937-1.936a1.365 1.365 0 010-1.937l3.873-3.873a1.368 1.368 0 011.937 0l1.936 1.937a1.365 1.365 0 010 1.936l-3.873 3.873zM20.073 11.26a1.365 1.365 0 01-1.937 0L16.2 9.322a1.365 1.365 0 010-1.937l3.873-3.873a1.368 1.368 0 011.936 0l1.936 1.937a1.365 1.365 0 010 1.936l-3.872 3.873z"
             fill="#B2CCDC"
@@ -19,6 +19,8 @@ export const CategoryPlaneXxlColorIcon: React.FC<SVGProps<SVGSVGElement>> = (pro
             fill="#B2CCDC"
         />
     </svg>
-);
+));
+
+CategoryPlaneXxlColorIcon.displayName = 'CategoryPlaneXxlColorIcon';
 
 export default CategoryPlaneXxlColorIcon;

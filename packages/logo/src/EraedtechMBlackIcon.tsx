@@ -2,10 +2,10 @@
  * This is auto-generated file by scripts/svg-to-component package
  * Do not edit it manually
  */
-import React, { SVGProps } from 'react';
+import React, { SVGProps, forwardRef } from 'react';
 
-export const EraedtechMBlackIcon: React.FC<SVGProps<SVGSVGElement>> = (props) => (
-    <svg role="img" focusable="false" width="37" height="24" viewBox="0 0 37 24" {...props} fill="none">
+export const EraedtechMBlackIcon = forwardRef<SVGSVGElement, SVGProps<SVGSVGElement>>((props, ref) => (
+    <svg ref={ref} role="img" focusable="false" width="37" height="24" viewBox="0 0 37 24" {...props} fill="none">
         <path d="M10.529 2v11.463h2.787V2h-2.787z" fill="#000" />
         <path
             d="M22.32 13.463h3.004L21.412 2h-3.71l-3.905 11.463h2.996l.763-2.408h4.002l.762 2.408zm-2.717-8.578h-.093l-1.286 4.062h2.666l-1.287-4.062z"
@@ -24,6 +24,8 @@ export const EraedtechMBlackIcon: React.FC<SVGProps<SVGSVGElement>> = (props) =>
             clipRule="evenodd"
         />
     </svg>
-);
+));
+
+EraedtechMBlackIcon.displayName = 'EraedtechMBlackIcon';
 
 export default EraedtechMBlackIcon;

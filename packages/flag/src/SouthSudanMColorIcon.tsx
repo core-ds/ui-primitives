@@ -2,10 +2,10 @@
  * This is auto-generated file by scripts/svg-to-component package
  * Do not edit it manually
  */
-import React, { SVGProps } from 'react';
+import React, { SVGProps, forwardRef } from 'react';
 
-export const SouthSudanMColorIcon: React.FC<SVGProps<SVGSVGElement>> = (props) => (
-    <svg role="img" focusable="false" width="24" height="24" viewBox="0 0 24 24" {...props} fill="none">
+export const SouthSudanMColorIcon = forwardRef<SVGSVGElement, SVGProps<SVGSVGElement>>((props, ref) => (
+    <svg ref={ref} role="img" focusable="false" width="24" height="24" viewBox="0 0 24 24" {...props} fill="none">
         <g clipPath="url(#prefix__clip0)">
             <path
                 d="M22.203 4.138H1.798c-.993 0-1.797.805-1.797 1.797V9.38h24V5.934a1.797 1.797 0 00-1.798-1.796z"
@@ -35,6 +35,8 @@ export const SouthSudanMColorIcon: React.FC<SVGProps<SVGSVGElement>> = (props) =
             </clipPath>
         </defs>
     </svg>
-);
+));
+
+SouthSudanMColorIcon.displayName = 'SouthSudanMColorIcon';
 
 export default SouthSudanMColorIcon;

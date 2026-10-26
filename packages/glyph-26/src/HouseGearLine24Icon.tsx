@@ -2,13 +2,24 @@
  * This is auto-generated file by scripts/svg-to-component package
  * Do not edit it manually
  */
-import React, { SVGProps } from 'react';
+import React, { SVGProps, forwardRef } from 'react';
 
-export const HouseGearLine24Icon: React.FC<SVGProps<SVGSVGElement>> = (props) => (
-    <svg role="img" focusable="false" fill="currentColor" width="24" height="24" viewBox="0 0 24 24" {...props}>
+export const HouseGearLine24Icon = forwardRef<SVGSVGElement, SVGProps<SVGSVGElement>>((props, ref) => (
+    <svg
+        ref={ref}
+        role="img"
+        focusable="false"
+        fill="currentColor"
+        width="24"
+        height="24"
+        viewBox="0 0 24 24"
+        {...props}
+    >
         <path d="M19.462 14.5c.21 0 .395.146.447.354l.171.68c.43.15.82.388 1.15.693l.736-.208c.2-.057.414.03.52.212l.449.771a.48.48 0 01-.081.586l-.581.556a3.5 3.5 0 010 1.212l.58.556a.48.48 0 01.082.586l-.449.77a.458.458 0 01-.52.213l-.736-.208c-.33.305-.72.543-1.15.694l-.17.678a.464.464 0 01-.448.355h-.924a.464.464 0 01-.447-.355l-.171-.68a3.307 3.307 0 01-1.148-.692l-.738.208a.458.458 0 01-.52-.212l-.449-.771a.48.48 0 01.082-.586l.582-.558a3.497 3.497 0 010-1.207l-.582-.56a.48.48 0 01-.082-.585l.449-.77a.458.458 0 01.52-.213l.739.209a3.299 3.299 0 011.147-.694l.17-.68a.464.464 0 01.448-.354h.924zM19 17.474c-.69 0-1.248.571-1.248 1.276 0 .705.559 1.276 1.248 1.276.69 0 1.248-.571 1.248-1.276 0-.705-.559-1.276-1.248-1.276z" />
         <path d="M21 7.945V12h-2V9.054l-7-4.375-7 4.375V19h8v2H3V7.945l9-5.625 9 5.625z" />
     </svg>
-);
+));
+
+HouseGearLine24Icon.displayName = 'HouseGearLine24Icon';
 
 export default HouseGearLine24Icon;

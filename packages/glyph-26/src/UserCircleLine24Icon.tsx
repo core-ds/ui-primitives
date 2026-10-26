@@ -2,13 +2,24 @@
  * This is auto-generated file by scripts/svg-to-component package
  * Do not edit it manually
  */
-import React, { SVGProps } from 'react';
+import React, { SVGProps, forwardRef } from 'react';
 
-export const UserCircleLine24Icon: React.FC<SVGProps<SVGSVGElement>> = (props) => (
-    <svg role="img" focusable="false" fill="currentColor" width="24" height="24" viewBox="0 0 24 24" {...props}>
+export const UserCircleLine24Icon = forwardRef<SVGSVGElement, SVGProps<SVGSVGElement>>((props, ref) => (
+    <svg
+        ref={ref}
+        role="img"
+        focusable="false"
+        fill="currentColor"
+        width="24"
+        height="24"
+        viewBox="0 0 24 24"
+        {...props}
+    >
         <path d="M12 7a3 3 0 110 6 3 3 0 010-6zm0 2a1 1 0 100 2 1 1 0 000-2z" />
         <path d="M12 2a9.74 9.74 0 013.9.787 10.1 10.1 0 013.175 2.138A10.1 10.1 0 0121.213 8.1 9.74 9.74 0 0122 12a9.74 9.74 0 01-.787 3.9l-.206.449a10.01 10.01 0 01-1.932 2.726l-.345.328a10.166 10.166 0 01-2.83 1.81l-.46.184A9.806 9.806 0 0112 22c-1.21 0-2.357-.2-3.44-.602l-.46-.185a10.166 10.166 0 01-2.83-1.81l-.345-.328a10.009 10.009 0 01-1.932-2.726l-.206-.449A9.74 9.74 0 012 12a9.74 9.74 0 01.787-3.9 10.1 10.1 0 012.138-3.175A10.1 10.1 0 018.1 2.787 9.74 9.74 0 0112 2zm0 14c-.721 0-1.513.18-2.09.563-.53.35-.91.883-.91 1.77v1.086A7.75 7.75 0 0012 20a7.75 7.75 0 003-.581V18c0-.56-.302-1.03-.894-1.406C13.5 16.207 12.69 16 12 16zm0-12a7.738 7.738 0 00-3.107.624 8.1 8.1 0 00-2.554 1.715 8.1 8.1 0 00-1.715 2.554A7.738 7.738 0 004 12a7.74 7.74 0 00.624 3.107 8.1 8.1 0 001.715 2.554c.209.21.43.404.663.589.026-1.569.78-2.676 1.803-3.354C9.798 14.236 11.007 14 12 14c1.025 0 2.216.293 3.18.906C16.16 15.53 17 16.56 17 18v.248c.231-.184.453-.378.661-.587a8.1 8.1 0 001.715-2.554A7.74 7.74 0 0020 12a7.74 7.74 0 00-.624-3.107 8.1 8.1 0 00-1.715-2.554 8.1 8.1 0 00-2.554-1.715A7.738 7.738 0 0012 4z" />
     </svg>
-);
+));
+
+UserCircleLine24Icon.displayName = 'UserCircleLine24Icon';
 
 export default UserCircleLine24Icon;

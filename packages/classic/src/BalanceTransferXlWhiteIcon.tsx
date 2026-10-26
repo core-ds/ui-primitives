@@ -2,10 +2,10 @@
  * This is auto-generated file by scripts/svg-to-component package
  * Do not edit it manually
  */
-import React, { SVGProps } from 'react';
+import React, { SVGProps, forwardRef } from 'react';
 
-export const BalanceTransferXlWhiteIcon: React.FC<SVGProps<SVGSVGElement>> = (props) => (
-    <svg role="img" focusable="false" width="36" height="36" viewBox="0 0 36 36" {...props} fill="none">
+export const BalanceTransferXlWhiteIcon = forwardRef<SVGSVGElement, SVGProps<SVGSVGElement>>((props, ref) => (
+    <svg ref={ref} role="img" focusable="false" width="36" height="36" viewBox="0 0 36 36" {...props} fill="none">
         <path
             d="M2.5 4h23A2.5 2.5 0 0128 6.5V9h5.5a2.5 2.5 0 012.5 2.5v17a2.5 2.5 0 01-2.5 2.5h-23A2.5 2.5 0 018 28.5V26H2.5A2.5 2.5 0 010 23.5v-17A2.5 2.5 0 012.5 4zm0 1A1.5 1.5 0 001 6.5v17A1.5 1.5 0 002.5 25H8V11.5A2.5 2.5 0 0110.5 9H27V6.5A1.5 1.5 0 0025.5 5h-23zm8 5A1.5 1.5 0 009 11.5v17a1.5 1.5 0 001.5 1.5h23a1.5 1.5 0 001.5-1.5v-17a1.5 1.5 0 00-1.5-1.5h-23z"
             fill="#fff"
@@ -20,6 +20,8 @@ export const BalanceTransferXlWhiteIcon: React.FC<SVGProps<SVGSVGElement>> = (pr
         />
         <path d="M17.438 24.546h9v1.98h-9v-1.98z" fill="#fff" fillOpacity=".3" />
     </svg>
-);
+));
+
+BalanceTransferXlWhiteIcon.displayName = 'BalanceTransferXlWhiteIcon';
 
 export default BalanceTransferXlWhiteIcon;

@@ -2,10 +2,10 @@
  * This is auto-generated file by scripts/svg-to-component package
  * Do not edit it manually
  */
-import React, { SVGProps } from 'react';
+import React, { SVGProps, forwardRef } from 'react';
 
-export const KonturSchoolSignBoxMWhiteIcon: React.FC<SVGProps<SVGSVGElement>> = (props) => (
-    <svg role="img" focusable="false" width="24" height="24" viewBox="0 0 24 24" {...props} fill="none">
+export const KonturSchoolSignBoxMWhiteIcon = forwardRef<SVGSVGElement, SVGProps<SVGSVGElement>>((props, ref) => (
+    <svg ref={ref} role="img" focusable="false" width="24" height="24" viewBox="0 0 24 24" {...props} fill="none">
         <path
             d="M21.357 10.635l-.907.466v3.595a1.116 1.116 0 00-.641 1.014c0 .616.49 1.115 1.095 1.115S22 16.326 22 15.711c0-.452-.264-.84-.643-1.016v-4.06z"
             fill="#222"
@@ -23,6 +23,8 @@ export const KonturSchoolSignBoxMWhiteIcon: React.FC<SVGProps<SVGSVGElement>> = 
             fill="#222"
         />
     </svg>
-);
+));
+
+KonturSchoolSignBoxMWhiteIcon.displayName = 'KonturSchoolSignBoxMWhiteIcon';
 
 export default KonturSchoolSignBoxMWhiteIcon;

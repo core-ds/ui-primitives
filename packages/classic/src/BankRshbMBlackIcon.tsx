@@ -2,10 +2,10 @@
  * This is auto-generated file by scripts/svg-to-component package
  * Do not edit it manually
  */
-import React, { SVGProps } from 'react';
+import React, { SVGProps, forwardRef } from 'react';
 
-export const BankRshbMBlackIcon: React.FC<SVGProps<SVGSVGElement>> = (props) => (
-    <svg role="img" focusable="false" width="24" height="24" viewBox="0 0 24 24" {...props} fill="none">
+export const BankRshbMBlackIcon = forwardRef<SVGSVGElement, SVGProps<SVGSVGElement>>((props, ref) => (
+    <svg ref={ref} role="img" focusable="false" width="24" height="24" viewBox="0 0 24 24" {...props} fill="none">
         <path
             d="M14.093 9.512c-.343 0-.622.293-.622.655 0 .132.038.255.102.358l.175.308a.557.557 0 000 .817l-.175.307a.678.678 0 00-.102.36c0 .361.279.654.622.654.344 0 .622-.293.622-.654 0-.268-.293-.903-.293-.903v-.345s.293-.636.293-.902c0-.362-.278-.655-.622-.655zm0-.616c.665 0 1.206.57 1.206 1.27 0 .247-.068.476-.184.67h5.596c.158 0 .289.14.289.31v.19c0 .17-.131.31-.29.31h-.825v.266h.412v.374h-.412v.388h.412v.713h-.412v-.323h-.608v.323h-.412v-.713h.412v-.388h-.412v-.374h.412v-.266h-4.163c.117.195.185.424.185.67 0 .702-.54 1.27-1.206 1.27-.667 0-1.206-.568-1.206-1.27 0-.275.085-.527.226-.736a.408.408 0 01-.175-.339c0-.142.07-.267.175-.338a1.304 1.304 0 01-.226-.736c0-.702.539-1.27 1.206-1.27zM7 9.58l2.302 2.38v-1.536L7 8.056V9.58zm0-1.994l2.302 2.38V8.429L7 6.061v1.525zM7 5.59l2.302 2.382V6.434L7 4.066V5.59zM11.569 0v2.43l-.305.313V0h-.347v3.1l-.305.313V0h-.346v3.77l-.305.314V0h-.347v5.977l2.301-2.38V0h-.346zM7 11.619L9.302 14v-1.628L7 10.004v1.615zm2.614.341l2.301-2.38V8.056l-2.3 2.368v1.537zM8.956 0v4.085L8.65 3.77V0h-.347v3.413L7.998 3.1V0h-.346v2.743l-.306-.314V0H7v3.596l2.302 2.381V0h-.346zm.658 9.966l2.301-2.38V6.06l-2.3 2.368v1.537zm0-1.994l2.301-2.382V4.066l-2.3 2.368v1.538zm0 4.4l2.301-2.368v1.615L9.615 14v-1.628z"
             fill="#0B1F35"
@@ -17,6 +17,8 @@ export const BankRshbMBlackIcon: React.FC<SVGProps<SVGSVGElement>> = (props) => 
             fill="#0B1F35"
         />
     </svg>
-);
+));
+
+BankRshbMBlackIcon.displayName = 'BankRshbMBlackIcon';
 
 export default BankRshbMBlackIcon;

@@ -2,10 +2,10 @@
  * This is auto-generated file by scripts/svg-to-component package
  * Do not edit it manually
  */
-import React, { SVGProps } from 'react';
+import React, { SVGProps, forwardRef } from 'react';
 
-export const PaymentErrorMWhiteIcon: React.FC<SVGProps<SVGSVGElement>> = (props) => (
-    <svg role="img" focusable="false" width="24" height="24" viewBox="0 0 24 24" {...props}>
+export const PaymentErrorMWhiteIcon = forwardRef<SVGSVGElement, SVGProps<SVGSVGElement>>((props, ref) => (
+    <svg ref={ref} role="img" focusable="false" width="24" height="24" viewBox="0 0 24 24" {...props}>
         <g fill="none" fillRule="evenodd">
             <path d="M0 0h24v24H0z" />
             <path
@@ -24,6 +24,8 @@ export const PaymentErrorMWhiteIcon: React.FC<SVGProps<SVGSVGElement>> = (props)
             <path fill="#FFF" d="M6.626 16.666l9.97-9.97.707.707-9.97 9.97z" fillRule="nonzero" />
         </g>
     </svg>
-);
+));
+
+PaymentErrorMWhiteIcon.displayName = 'PaymentErrorMWhiteIcon';
 
 export default PaymentErrorMWhiteIcon;

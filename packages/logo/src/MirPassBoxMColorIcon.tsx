@@ -2,10 +2,10 @@
  * This is auto-generated file by scripts/svg-to-component package
  * Do not edit it manually
  */
-import React, { SVGProps } from 'react';
+import React, { SVGProps, forwardRef } from 'react';
 
-export const MirPassBoxMColorIcon: React.FC<SVGProps<SVGSVGElement>> = (props) => (
-    <svg role="img" focusable="false" width="24" height="24" viewBox="0 0 24 24" {...props} fill="none">
+export const MirPassBoxMColorIcon = forwardRef<SVGSVGElement, SVGProps<SVGSVGElement>>((props, ref) => (
+    <svg ref={ref} role="img" focusable="false" width="24" height="24" viewBox="0 0 24 24" {...props} fill="none">
         <path
             d="M21.884 8.642h-7.012v3.77h2.223v-2.123h.923l1.262 2.124h2.53l-1.47-2.303c.711-.264 1.275-.798 1.543-1.467zm-.68-2.745a2.391 2.391 0 00-1.652-.667H14.77c.01.192.037.38.078.562.01.04.019.081.03.121.004.016.01.032.013.049.397 1.301 1.573 2.246 2.964 2.246h4.105a2.559 2.559 0 00-.756-2.311zm-9.413 6.516h2.212V5.23H11.79v7.183zm-4.37-6.239l-.92 3.301h-.158l-.922-3.3a1.27 1.27 0 00-1.213-.945H2v7.183h2.21V8.17h.159l1.263 4.244h1.58L8.474 8.17h.158v4.244h2.21V5.23H8.637a1.27 1.27 0 00-1.214.944z"
             fill="#000"
@@ -15,6 +15,8 @@ export const MirPassBoxMColorIcon: React.FC<SVGProps<SVGSVGElement>> = (props) =
             fill="#868686"
         />
     </svg>
-);
+));
+
+MirPassBoxMColorIcon.displayName = 'MirPassBoxMColorIcon';
 
 export default MirPassBoxMColorIcon;

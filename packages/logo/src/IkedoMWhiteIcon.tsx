@@ -2,10 +2,10 @@
  * This is auto-generated file by scripts/svg-to-component package
  * Do not edit it manually
  */
-import React, { SVGProps } from 'react';
+import React, { SVGProps, forwardRef } from 'react';
 
-export const IkedoMWhiteIcon: React.FC<SVGProps<SVGSVGElement>> = (props) => (
-    <svg role="img" focusable="false" width="63" height="24" viewBox="0 0 63 24" {...props} fill="none">
+export const IkedoMWhiteIcon = forwardRef<SVGSVGElement, SVGProps<SVGSVGElement>>((props, ref) => (
+    <svg ref={ref} role="img" focusable="false" width="63" height="24" viewBox="0 0 63 24" {...props} fill="none">
         <path
             d="M7.218 16v-2.27l4.451-5.899h4.451l-5.348 7.06 5.348 7.06h-4.414L7.218 16zm11.358 5.953v-3.54h3.485c.965 0 1.77-.344 2.448-1.034a3.422 3.422 0 001.019-2.487c0-.612-.133-1.16-.398-1.66a3.805 3.805 0 00-.62-.844c-.68-.69-1.502-1.035-2.45-1.035h-3.484v-3.52h3.485c.947 0 1.84.18 2.698.562.858.381 1.591.871 2.216 1.506.626.636 1.108 1.38 1.484 2.25a6.84 6.84 0 01.554 2.742c0 .961-.179 1.869-.554 2.74-.376.871-.858 1.615-1.483 2.25-.626.636-1.359 1.126-2.216 1.507a6.545 6.545 0 01-2.7.563h-3.484zM50.297 8.794c1.065-.635 2.201-.962 3.426-.962 1.226 0 2.362.327 3.427.962 1.065.636 1.9 1.507 2.539 2.596a6.944 6.944 0 01.941 3.502c0 1.253-.32 2.414-.941 3.503-.621 1.09-1.474 1.942-2.539 2.596a6.408 6.408 0 01-3.427.962c-1.225 0-2.361-.327-3.426-.962-1.066-.636-1.9-1.507-2.54-2.596a6.945 6.945 0 01-.94-3.502c0-1.253.32-2.414.94-3.503.64-1.09 1.474-1.96 2.54-2.596zm5.859 3.612c-.675-.69-1.492-1.053-2.433-1.053-.94 0-1.758.345-2.432 1.053-.675.69-1.03 1.525-1.03 2.486 0 .962.337 1.78 1.03 2.487.675.69 1.491 1.034 2.432 1.034.941 0 1.74-.344 2.433-1.034a3.438 3.438 0 001.012-2.487c.018-.961-.337-1.796-1.012-2.486z"
             fill="#fff"
@@ -21,6 +21,8 @@ export const IkedoMWhiteIcon: React.FC<SVGProps<SVGSVGElement>> = (props) => (
             fill="#7856FF"
         />
     </svg>
-);
+));
+
+IkedoMWhiteIcon.displayName = 'IkedoMWhiteIcon';
 
 export default IkedoMWhiteIcon;

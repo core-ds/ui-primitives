@@ -2,10 +2,10 @@
  * This is auto-generated file by scripts/svg-to-component package
  * Do not edit it manually
  */
-import React, { SVGProps } from 'react';
+import React, { SVGProps, forwardRef } from 'react';
 
-export const FifaTrophyMBlackIcon: React.FC<SVGProps<SVGSVGElement>> = (props) => (
-    <svg role="img" focusable="false" width="24" height="24" viewBox="0 0 24 24" {...props}>
+export const FifaTrophyMBlackIcon = forwardRef<SVGSVGElement, SVGProps<SVGSVGElement>>((props, ref) => (
+    <svg ref={ref} role="img" focusable="false" width="24" height="24" viewBox="0 0 24 24" {...props}>
         <g fill="none" fillRule="evenodd">
             <path
                 d="M19 7.5s0 0 0 0c0-3.9-3.1-7-7-7s-7 3.1-7 7c0 0 0 0 0 0 0 4.5 3 6 3 8S7 19 6 21s3.7 2.5 6 2.5 7-.5 6-2.5-2-3-2-5 3-4 3-8.5z"
@@ -26,6 +26,8 @@ export const FifaTrophyMBlackIcon: React.FC<SVGProps<SVGSVGElement>> = (props) =
             />
         </g>
     </svg>
-);
+));
+
+FifaTrophyMBlackIcon.displayName = 'FifaTrophyMBlackIcon';
 
 export default FifaTrophyMBlackIcon;

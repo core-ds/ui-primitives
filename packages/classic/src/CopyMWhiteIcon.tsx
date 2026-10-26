@@ -2,10 +2,10 @@
  * This is auto-generated file by scripts/svg-to-component package
  * Do not edit it manually
  */
-import React, { SVGProps } from 'react';
+import React, { SVGProps, forwardRef } from 'react';
 
-export const CopyMWhiteIcon: React.FC<SVGProps<SVGSVGElement>> = (props) => (
-    <svg role="img" focusable="false" width="24" height="24" viewBox="0 0 24 24" {...props}>
+export const CopyMWhiteIcon = forwardRef<SVGSVGElement, SVGProps<SVGSVGElement>>((props, ref) => (
+    <svg ref={ref} role="img" focusable="false" width="24" height="24" viewBox="0 0 24 24" {...props}>
         <g transform="translate(-1)" fill="none" fillRule="evenodd">
             <path
                 d="M10.386 5H19a2 2 0 012 2v14a2 2 0 01-2 2H8a2 2 0 01-2-2V9.224L10.386 5zm.426 1L7 9.777V21a1 1 0 001 1h11a1 1 0 001-1V7a1 1 0 00-1-1h-8.188z"
@@ -19,6 +19,8 @@ export const CopyMWhiteIcon: React.FC<SVGProps<SVGSVGElement>> = (props) => (
             <path fill="#FFF" opacity=".3" d="M10 11h5v2h-5zM10 15h7v2h-7z" />
         </g>
     </svg>
-);
+));
+
+CopyMWhiteIcon.displayName = 'CopyMWhiteIcon';
 
 export default CopyMWhiteIcon;

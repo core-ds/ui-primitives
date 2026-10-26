@@ -2,10 +2,10 @@
  * This is auto-generated file by scripts/svg-to-component package
  * Do not edit it manually
  */
-import React, { SVGProps } from 'react';
+import React, { SVGProps, forwardRef } from 'react';
 
-export const GetradioEnMColorIcon: React.FC<SVGProps<SVGSVGElement>> = (props) => (
-    <svg role="img" focusable="false" width="56" height="24" viewBox="0 0 56 24" {...props} fill="none">
+export const GetradioEnMColorIcon = forwardRef<SVGSVGElement, SVGProps<SVGSVGElement>>((props, ref) => (
+    <svg ref={ref} role="img" focusable="false" width="56" height="24" viewBox="0 0 56 24" {...props} fill="none">
         <path
             d="M47.368 20.628c-1.123 0-1.345-.474-1.345-1.295v-3.51c0-.79.216-1.295 1.345-1.295 1.208 0 1.412.506 1.412 1.295v3.51c0 .821-.282 1.295-1.412 1.295zm0 1.372c2.06 0 2.97-.799 2.97-2.588v-3.67c0-1.834-.868-2.588-2.97-2.588-2.101 0-2.902.747-2.902 2.589v3.669c0 1.79.835 2.588 2.902 2.588zM35.77 20.522v-5.848h1.332c1.208 0 1.39.429 1.39 1.25V19.3c0 .82-.283 1.215-1.413 1.215l-1.309.007zm-1.549-7.257v8.657h2.858c2.06 0 2.97-.747 2.97-2.544v-3.533c0-1.834-.868-2.588-2.97-2.588l-2.858.008zm-4.788 5.607l.723-3.202.722 3.208-1.445-.006zm1.513-5.598h-1.547l-2.405 8.648h1.6l.45-1.53h2.226l.442 1.53h1.603l-2.37-8.648zm-8.424 4.169v-2.758h.665c1.21 0 1.423.429 1.423 1.25v.295c0 .821-.316 1.215-1.446 1.215l-.642-.002zm4.133 4.479l-1.908-3.298c1.049-.338 1.498-1.036 1.498-2.318v-.45c0-1.834-.983-2.599-3.084-2.599h-2.192v8.665h1.56v-3.05h.575l1.729 3.05h1.822z"
             fill="#000"
@@ -19,6 +19,8 @@ export const GetradioEnMColorIcon: React.FC<SVGProps<SVGSVGElement>> = (props) =
             fill="#000"
         />
     </svg>
-);
+));
+
+GetradioEnMColorIcon.displayName = 'GetradioEnMColorIcon';
 
 export default GetradioEnMColorIcon;

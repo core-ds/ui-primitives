@@ -2,10 +2,10 @@
  * This is auto-generated file by scripts/svg-to-component package
  * Do not edit it manually
  */
-import React, { SVGProps } from 'react';
+import React, { SVGProps, forwardRef } from 'react';
 
-export const CategoryCashMColorIcon: React.FC<SVGProps<SVGSVGElement>> = (props) => (
-    <svg role="img" focusable="false" width="24" height="24" viewBox="0 0 24 24" {...props} fill="none">
+export const CategoryCashMColorIcon = forwardRef<SVGSVGElement, SVGProps<SVGSVGElement>>((props, ref) => (
+    <svg ref={ref} role="img" focusable="false" width="24" height="24" viewBox="0 0 24 24" {...props} fill="none">
         <path d="M7.942 23.5L0 8.758l8.222-4.315 7.941 14.742L7.942 23.5z" fill="#DCE8F0" />
         <path
             d="M6.71 9.016a1.017 1.017 0 00-1.377-.406c-.5.265-.694.877-.433 1.367.26.49.878.671 1.378.406.5-.265.693-.877.432-1.367zm4.877 9.151a1.017 1.017 0 00-1.377-.407c-.5.266-.694.878-.433 1.367.26.49.877.672 1.377.406.5-.265.694-.877.433-1.366zm-.403-4.131c0 1.759-1.41 3.184-3.15 3.184-1.739 0-3.149-1.425-3.149-3.184 0-1.758 1.41-3.184 3.15-3.184 1.739 0 3.149 1.426 3.149 3.184z"
@@ -22,6 +22,8 @@ export const CategoryCashMColorIcon: React.FC<SVGProps<SVGSVGElement>> = (props)
             fill="#F0F5F7"
         />
     </svg>
-);
+));
+
+CategoryCashMColorIcon.displayName = 'CategoryCashMColorIcon';
 
 export default CategoryCashMColorIcon;

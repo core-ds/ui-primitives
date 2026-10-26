@@ -2,10 +2,19 @@
  * This is auto-generated file by scripts/svg-to-component package
  * Do not edit it manually
  */
-import React, { SVGProps } from 'react';
+import React, { SVGProps, forwardRef } from 'react';
 
-export const InstagramMIcon: React.FC<SVGProps<SVGSVGElement>> = (props) => (
-    <svg role="img" focusable="false" fill="currentColor" width="24" height="24" viewBox="0 0 24 24" {...props}>
+export const InstagramMIcon = forwardRef<SVGSVGElement, SVGProps<SVGSVGElement>>((props, ref) => (
+    <svg
+        ref={ref}
+        role="img"
+        focusable="false"
+        fill="currentColor"
+        width="24"
+        height="24"
+        viewBox="0 0 24 24"
+        {...props}
+    >
         <path
             d="M8.365 8.365a5.14 5.14 0 117.27 7.27 5.14 5.14 0 01-7.27-7.27zm2.358 6.718a3.336 3.336 0 102.554-6.165 3.336 3.336 0 00-2.554 6.165z"
             fillRule="evenodd"
@@ -18,6 +27,8 @@ export const InstagramMIcon: React.FC<SVGProps<SVGSVGElement>> = (props) => (
             clipRule="evenodd"
         />
     </svg>
-);
+));
+
+InstagramMIcon.displayName = 'InstagramMIcon';
 
 export default InstagramMIcon;

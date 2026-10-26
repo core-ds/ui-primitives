@@ -2,10 +2,19 @@
  * This is auto-generated file by scripts/svg-to-component package
  * Do not edit it manually
  */
-import React, { SVGProps } from 'react';
+import React, { SVGProps, forwardRef } from 'react';
 
-export const BriefcaseGearMIcon: React.FC<SVGProps<SVGSVGElement>> = (props) => (
-    <svg role="img" focusable="false" fill="currentColor" width="24" height="24" viewBox="0 0 24 24" {...props}>
+export const BriefcaseGearMIcon = forwardRef<SVGSVGElement, SVGProps<SVGSVGElement>>((props, ref) => (
+    <svg
+        ref={ref}
+        role="img"
+        focusable="false"
+        fill="currentColor"
+        width="24"
+        height="24"
+        viewBox="0 0 24 24"
+        {...props}
+    >
         <path
             d="M9 3a2 2 0 00-2 2v2H3a2 2 0 00-2 2v10a2 2 0 002 2h8.673A7 7 0 0121 11.674V9a2 2 0 00-2-2h-4V5a2 2 0 00-2-2H9zm4 2v2H9V5h4z"
             fillRule="evenodd"
@@ -17,6 +26,8 @@ export const BriefcaseGearMIcon: React.FC<SVGProps<SVGSVGElement>> = (props) => 
             clipRule="evenodd"
         />
     </svg>
-);
+));
+
+BriefcaseGearMIcon.displayName = 'BriefcaseGearMIcon';
 
 export default BriefcaseGearMIcon;

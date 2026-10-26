@@ -2,12 +2,23 @@
  * This is auto-generated file by scripts/svg-to-component package
  * Do not edit it manually
  */
-import React, { SVGProps } from 'react';
+import React, { SVGProps, forwardRef } from 'react';
 
-export const SoundOffXxlIcon: React.FC<SVGProps<SVGSVGElement>> = (props) => (
-    <svg role="img" focusable="false" fill="currentColor" width="48" height="48" viewBox="0 0 48 48" {...props}>
+export const SoundOffXxlIcon = forwardRef<SVGSVGElement, SVGProps<SVGSVGElement>>((props, ref) => (
+    <svg
+        ref={ref}
+        role="img"
+        focusable="false"
+        fill="currentColor"
+        width="48"
+        height="48"
+        viewBox="0 0 48 48"
+        {...props}
+    >
         <path d="M26.998 18.562l-8.252-8.252c1.735-1.407 3.242-2.608 3.603-2.831a3.289 3.289 0 013.002-.215c.946.401 1.647 1.231 1.647 2.286v9.012zm11.89 11.89A17.014 17.014 0 0040.146 24c0-3.557-1.08-6.848-2.913-9.526l3.275-2.162C42.708 15.62 44 19.651 44 24c0 3.388-.784 6.583-2.17 9.393l-2.942-2.941zM32.437 24a8.388 8.388 0 00-1.77-5.192l3.288-2.17c1.467 2.047 2.336 4.597 2.336 7.362 0 1.18-.158 2.321-.454 3.4l-3.4-3.4zM3.998 18.257v11.41c0 .927.096 1.53.765 2.186.668.656 1.853.707 2.798.707h4.858s8.976 7.37 9.93 7.96c.955.59 2.092.601 3.002.215.933-.396 1.628-1.21 1.647-2.244v-8.674L41.181 44l2.817-2.817L6.815 4 3.998 6.817l8.564 8.564-.143.119H7.56c-.09 0-.183 0-.277-.002-.89-.006-1.917-.014-2.521.579-.669.655-.765 1.253-.765 2.18z" />
     </svg>
-);
+));
+
+SoundOffXxlIcon.displayName = 'SoundOffXxlIcon';
 
 export default SoundOffXxlIcon;

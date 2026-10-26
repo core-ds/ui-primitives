@@ -2,10 +2,10 @@
  * This is auto-generated file by scripts/svg-to-component package
  * Do not edit it manually
  */
-import React, { SVGProps } from 'react';
+import React, { SVGProps, forwardRef } from 'react';
 
-export const CashbackBonusLBlackIcon: React.FC<SVGProps<SVGSVGElement>> = (props) => (
-    <svg role="img" focusable="false" width="36" height="36" viewBox="0 0 36 36" {...props}>
+export const CashbackBonusLBlackIcon = forwardRef<SVGSVGElement, SVGProps<SVGSVGElement>>((props, ref) => (
+    <svg ref={ref} role="img" focusable="false" width="36" height="36" viewBox="0 0 36 36" {...props}>
         <g fill="none" fillRule="evenodd">
             <g fill="#0B1F35" fillRule="nonzero">
                 <path d="M18 31c7.18 0 13-5.82 13-13S25.18 5 18 5 5 10.82 5 18s5.82 13 13 13zm0 1c-7.732 0-14-6.268-14-14S10.268 4 18 4s14 6.268 14 14-6.268 14-14 14z" />
@@ -13,6 +13,8 @@ export const CashbackBonusLBlackIcon: React.FC<SVGProps<SVGSVGElement>> = (props
             </g>
         </g>
     </svg>
-);
+));
+
+CashbackBonusLBlackIcon.displayName = 'CashbackBonusLBlackIcon';
 
 export default CashbackBonusLBlackIcon;

@@ -2,10 +2,10 @@
  * This is auto-generated file by scripts/svg-to-component package
  * Do not edit it manually
  */
-import React, { SVGProps } from 'react';
+import React, { SVGProps, forwardRef } from 'react';
 
-export const TransferToCardMBlackIcon: React.FC<SVGProps<SVGSVGElement>> = (props) => (
-    <svg role="img" focusable="false" width="24" height="24" viewBox="0 0 24 24" {...props}>
+export const TransferToCardMBlackIcon = forwardRef<SVGSVGElement, SVGProps<SVGSVGElement>>((props, ref) => (
+    <svg ref={ref} role="img" focusable="false" width="24" height="24" viewBox="0 0 24 24" {...props}>
         <g fill="none" fillRule="evenodd">
             <path d="M0 0h24v24H0z" />
             <path
@@ -16,6 +16,8 @@ export const TransferToCardMBlackIcon: React.FC<SVGProps<SVGSVGElement>> = (prop
             <path fill="#0B1F35" d="M2 8h20v3H2zm3 6h4v2H5z" opacity=".3" />
         </g>
     </svg>
-);
+));
+
+TransferToCardMBlackIcon.displayName = 'TransferToCardMBlackIcon';
 
 export default TransferToCardMBlackIcon;

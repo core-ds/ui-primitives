@@ -2,10 +2,10 @@
  * This is auto-generated file by scripts/svg-to-component package
  * Do not edit it manually
  */
-import React, { SVGProps } from 'react';
+import React, { SVGProps, forwardRef } from 'react';
 
-export const ShortcutHistoryXxlBlackIcon: React.FC<SVGProps<SVGSVGElement>> = (props) => (
-    <svg role="img" focusable="false" width="48" height="48" viewBox="0 0 48 48" {...props}>
+export const ShortcutHistoryXxlBlackIcon = forwardRef<SVGSVGElement, SVGProps<SVGSVGElement>>((props, ref) => (
+    <svg ref={ref} role="img" focusable="false" width="48" height="48" viewBox="0 0 48 48" {...props}>
         <g fill="none" fillRule="evenodd">
             <circle fill="#F5F5F5" cx="24" cy="24" r="22" />
             <g fill="#0B1F35">
@@ -14,6 +14,8 @@ export const ShortcutHistoryXxlBlackIcon: React.FC<SVGProps<SVGSVGElement>> = (p
             </g>
         </g>
     </svg>
-);
+));
+
+ShortcutHistoryXxlBlackIcon.displayName = 'ShortcutHistoryXxlBlackIcon';
 
 export default ShortcutHistoryXxlBlackIcon;

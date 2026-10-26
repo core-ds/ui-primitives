@@ -2,16 +2,18 @@
  * This is auto-generated file by scripts/svg-to-component package
  * Do not edit it manually
  */
-import React, { SVGProps } from 'react';
+import React, { SVGProps, forwardRef } from 'react';
 
-export const CanadaMColorIcon: React.FC<SVGProps<SVGSVGElement>> = (props) => (
-    <svg role="img" focusable="false" width="24" height="24" viewBox="0 0 24 24" {...props} fill="none">
+export const CanadaMColorIcon = forwardRef<SVGSVGElement, SVGProps<SVGSVGElement>>((props, ref) => (
+    <svg ref={ref} role="img" focusable="false" width="24" height="24" viewBox="0 0 24 24" {...props} fill="none">
         <path d="M18.62 4.138H5.38v15.724h13.24V4.138z" fill="#F5F5F5" />
         <path
             d="M1.797 4.138C.805 4.138 0 4.943 0 5.935v12.13c0 .992.805 1.797 1.797 1.797H5.38V4.138H1.797zm20.406 0H18.62v15.724h3.582c.992 0 1.797-.805 1.797-1.797V5.934c0-.992-.805-1.797-1.797-1.797zm-7.692 9.679l2.456-1.403-.564-.282a.414.414 0 01-.225-.425l.183-1.374-1.04.302a.414.414 0 01-.519-.308l-.1-.45-.976 1.143c-.135.158-.393.037-.357-.168l.417-2.424-.639.174a.414.414 0 01-.474-.204l-.672-1.26v-.001.001l-.673 1.26a.414.414 0 01-.474.204l-.638-.174.417 2.424c.035.205-.223.326-.358.168l-.976-1.143-.1.45a.414.414 0 01-.52.308l-1.04-.302.184 1.374a.414.414 0 01-.225.425l-.563.282 2.455 1.403a.597.597 0 01.263.728l-.21.561 2.104-.18a.196.196 0 01.213.201l-.067 2.252h.414l-.066-2.252a.195.195 0 01.212-.2l2.105.18-.21-.562a.598.598 0 01.263-.728z"
             fill="#FF4B55"
         />
     </svg>
-);
+));
+
+CanadaMColorIcon.displayName = 'CanadaMColorIcon';
 
 export default CanadaMColorIcon;

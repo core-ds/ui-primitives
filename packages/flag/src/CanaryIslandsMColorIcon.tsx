@@ -2,10 +2,10 @@
  * This is auto-generated file by scripts/svg-to-component package
  * Do not edit it manually
  */
-import React, { SVGProps } from 'react';
+import React, { SVGProps, forwardRef } from 'react';
 
-export const CanaryIslandsMColorIcon: React.FC<SVGProps<SVGSVGElement>> = (props) => (
-    <svg role="img" focusable="false" width="24" height="24" viewBox="0 0 24 24" {...props} fill="none">
+export const CanaryIslandsMColorIcon = forwardRef<SVGSVGElement, SVGProps<SVGSVGElement>>((props, ref) => (
+    <svg ref={ref} role="img" focusable="false" width="24" height="24" viewBox="0 0 24 24" {...props} fill="none">
         <path
             d="M1.705 19.86H8V4.14H1.797C.805 4.14 0 4.943 0 5.936v12.129c0 .962.755 1.747 1.705 1.795z"
             fill="#F5F5F5"
@@ -51,6 +51,8 @@ export const CanaryIslandsMColorIcon: React.FC<SVGProps<SVGSVGElement>> = (props
             fill="#464655"
         />
     </svg>
-);
+));
+
+CanaryIslandsMColorIcon.displayName = 'CanaryIslandsMColorIcon';
 
 export default CanaryIslandsMColorIcon;

@@ -2,10 +2,10 @@
  * This is auto-generated file by scripts/svg-to-component package
  * Do not edit it manually
  */
-import React, { SVGProps } from 'react';
+import React, { SVGProps, forwardRef } from 'react';
 
-export const HawaiiMColorIcon: React.FC<SVGProps<SVGSVGElement>> = (props) => (
-    <svg role="img" focusable="false" width="24" height="24" viewBox="0 0 24 24" {...props} fill="none">
+export const HawaiiMColorIcon = forwardRef<SVGSVGElement, SVGProps<SVGSVGElement>>((props, ref) => (
+    <svg ref={ref} role="img" focusable="false" width="24" height="24" viewBox="0 0 24 24" {...props} fill="none">
         <path
             d="M22.205 4.139H1.795C.806 4.139 0 4.941 0 5.934v12.132c0 .993.806 1.795 1.795 1.795H22.2c.994 0 1.795-.806 1.795-1.795V5.934a1.788 1.788 0 00-1.79-1.795z"
             fill="#F5F5F5"
@@ -29,6 +29,8 @@ export const HawaiiMColorIcon: React.FC<SVGProps<SVGSVGElement>> = (props) => (
             fill="#FF4B55"
         />
     </svg>
-);
+));
+
+HawaiiMColorIcon.displayName = 'HawaiiMColorIcon';
 
 export default HawaiiMColorIcon;

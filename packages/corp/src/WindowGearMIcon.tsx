@@ -2,10 +2,19 @@
  * This is auto-generated file by scripts/svg-to-component package
  * Do not edit it manually
  */
-import React, { SVGProps } from 'react';
+import React, { SVGProps, forwardRef } from 'react';
 
-export const WindowGearMIcon: React.FC<SVGProps<SVGSVGElement>> = (props) => (
-    <svg role="img" focusable="false" fill="currentColor" width="24" height="24" viewBox="0 0 24 24" {...props}>
+export const WindowGearMIcon = forwardRef<SVGSVGElement, SVGProps<SVGSVGElement>>((props, ref) => (
+    <svg
+        ref={ref}
+        role="img"
+        focusable="false"
+        fill="currentColor"
+        width="24"
+        height="24"
+        viewBox="0 0 24 24"
+        {...props}
+    >
         <path
             d="M2 6a3 3 0 013-3h13a3 3 0 013 3v6.08a2.6 2.6 0 00-.211.049l-.015.004a6.241 6.241 0 00-.184-.108 2.596 2.596 0 00-1.59-1.72V9H4v8a1 1 0 001 1h5.75a2.6 2.6 0 00-.338 2H5a3 3 0 01-3-3V6zm3 1a1 1 0 100-2 1 1 0 000 2zm3 0a1 1 0 100-2 1 1 0 000 2zm3 0a1 1 0 100-2 1 1 0 000 2z"
             fillRule="evenodd"
@@ -17,6 +26,8 @@ export const WindowGearMIcon: React.FC<SVGProps<SVGSVGElement>> = (props) => (
             clipRule="evenodd"
         />
     </svg>
-);
+));
+
+WindowGearMIcon.displayName = 'WindowGearMIcon';
 
 export default WindowGearMIcon;

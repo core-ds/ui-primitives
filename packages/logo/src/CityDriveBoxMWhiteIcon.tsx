@@ -2,10 +2,10 @@
  * This is auto-generated file by scripts/svg-to-component package
  * Do not edit it manually
  */
-import React, { SVGProps } from 'react';
+import React, { SVGProps, forwardRef } from 'react';
 
-export const CityDriveBoxMWhiteIcon: React.FC<SVGProps<SVGSVGElement>> = (props) => (
-    <svg role="img" focusable="false" width="24" height="24" viewBox="0 0 24 24" {...props} fill="none">
+export const CityDriveBoxMWhiteIcon = forwardRef<SVGSVGElement, SVGProps<SVGSVGElement>>((props, ref) => (
+    <svg ref={ref} role="img" focusable="false" width="24" height="24" viewBox="0 0 24 24" {...props} fill="none">
         <path
             d="M2.263 18.341l.898-.158-.133-.756 2.427-.428.132.749.89-.157-.26-1.484-.472.083-.52-2.954-2.927.516.241 1.75c.065.455.036.839-.133 1.277L2 16.85l.263 1.491zm1.136-2.918l-.153-1.08 1.21-.214.39 2.212-1.529.27c.124-.357.14-.775.082-1.188zm4.636-2.683l-1.832.324.651 3.695.891-.157-.238-1.35.942-.166c.826-.145 1.263-.63 1.125-1.415-.14-.791-.691-1.08-1.539-.93zm-.813.894l.92-.162c.297-.052.5.08.548.355.049.276-.094.483-.391.536l-.92.162-.157-.89zm10.963-2.683l.651 3.696L20.8 14.3c.724-.127 1.32-.48 1.18-1.271a.888.888 0 00-.653-.738c.24-.21.343-.512.279-.872-.14-.792-.805-.922-1.537-.793l-1.883.332-.001-.007zm1.01.558l1.014-.18c.319-.055.494.052.54.313.049.276-.083.416-.402.472l-1.014.179-.138-.784zm.261 1.484l1.094-.193c.304-.054.479.046.525.308.046.261-.075.421-.387.476l-1.093.193-.139-.784zm-5.869-2.106l.12.635 3.155-.87-.058-.332-3.217.567zm-3.089 1.42l-.572 3.91.97-.17.07-.625 1.202-.212.293.56.986-.173-1.884-3.479-1.065.188zm1.323 2.207l-.797.14.121-1.602.022-.004.654 1.466zm2.365-2.858l-.935.165.652 3.696 1.029-.182 1.748-2.96.022-.004.44 2.575.934-.165-.652-3.696-1.029.181-1.748 2.96-.022.005-.44-2.575z"
             fill="#32D264"
@@ -15,6 +15,8 @@ export const CityDriveBoxMWhiteIcon: React.FC<SVGProps<SVGSVGElement>> = (props)
             fill="#fff"
         />
     </svg>
-);
+));
+
+CityDriveBoxMWhiteIcon.displayName = 'CityDriveBoxMWhiteIcon';
 
 export default CityDriveBoxMWhiteIcon;

@@ -2,10 +2,10 @@
  * This is auto-generated file by scripts/svg-to-component package
  * Do not edit it manually
  */
-import React, { SVGProps } from 'react';
+import React, { SVGProps, forwardRef } from 'react';
 
-export const GosuslugiSignBoxMWhiteIcon: React.FC<SVGProps<SVGSVGElement>> = (props) => (
-    <svg role="img" focusable="false" width="24" height="24" viewBox="0 0 24 24" {...props} fill="none">
+export const GosuslugiSignBoxMWhiteIcon = forwardRef<SVGSVGElement, SVGProps<SVGSVGElement>>((props, ref) => (
+    <svg ref={ref} role="img" focusable="false" width="24" height="24" viewBox="0 0 24 24" {...props} fill="none">
         <path
             d="M20.854 8.634c-.079-1.03-.866-2.352-1.652-2.986a30.02 30.02 0 00-2.754-1.797 30.6 30.6 0 00-2.91-1.533 4.227 4.227 0 00-1.68-.317 4.139 4.139 0 00-1.677.317A30.69 30.69 0 007.27 3.851a53.114 53.114 0 00-2.754 1.797A4.878 4.878 0 003.49 6.85a.077.077 0 00.067.117h1.278c.03 0 .06-.013.08-.037.148-.17.309-.328.483-.474 0 0 1.085-.76 2.423-1.568a27.17 27.17 0 012.562-1.338 3.68 3.68 0 011.477-.277 3.747 3.747 0 011.477.277 27 27 0 012.561 1.338 26.437 26.437 0 012.423 1.568c.693.554 1.385 1.707 1.454 2.607 0 0 .162 1.337.185 2.922a27.326 27.326 0 01-.162 2.93 4.266 4.266 0 01-1.477 2.605s-1.084.785-2.423 1.592a27.16 27.16 0 01-2.561 1.338 3.67 3.67 0 01-1.477.276 3.748 3.748 0 01-1.477-.27A27.01 27.01 0 017.82 19.12c-1.338-.784-2.423-1.592-2.423-1.592a3.319 3.319 0 01-.417-.405.106.106 0 00-.08-.037H3.617a.077.077 0 00-.066.119c.285.452.625.855.965 1.13 0 0 1.233.925 2.754 1.823a30.61 30.61 0 002.91 1.533 4.226 4.226 0 001.679.31 4.14 4.14 0 001.678-.318c.997-.458 1.968-.97 2.911-1.533 1.521-.925 2.754-1.823 2.754-1.823a4.899 4.899 0 001.678-2.987c.12-1.114.182-2.235.184-3.356a36.195 36.195 0 00-.21-3.349z"
             fill="#fff"
@@ -19,6 +19,8 @@ export const GosuslugiSignBoxMWhiteIcon: React.FC<SVGProps<SVGSVGElement>> = (pr
             fill="#EE2F53"
         />
     </svg>
-);
+));
+
+GosuslugiSignBoxMWhiteIcon.displayName = 'GosuslugiSignBoxMWhiteIcon';
 
 export default GosuslugiSignBoxMWhiteIcon;

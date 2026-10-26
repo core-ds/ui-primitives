@@ -2,10 +2,10 @@
  * This is auto-generated file by scripts/svg-to-component package
  * Do not edit it manually
  */
-import React, { SVGProps } from 'react';
+import React, { SVGProps, forwardRef } from 'react';
 
-export const Opti24MColorIcon: React.FC<SVGProps<SVGSVGElement>> = (props) => (
-    <svg role="img" focusable="false" width="54" height="24" viewBox="0 0 54 24" {...props} fill="none">
+export const Opti24MColorIcon = forwardRef<SVGSVGElement, SVGProps<SVGSVGElement>>((props, ref) => (
+    <svg ref={ref} role="img" focusable="false" width="54" height="24" viewBox="0 0 54 24" {...props} fill="none">
         <path
             d="M48.89 12.94v-1.68c0-.44.08-.92.12-1.361h-.08c-.24.44-.44.8-.68 1.28l-1.081 1.723v.04h1.721zm0 3.243V14.22h-3.444V13.1l3.283-5.085h1.921V12.9h1v1.321h-1v1.961h-1.76zm-9.048-.002v-1.12l1-1.041c1.28-1.361 2.362-2.444 2.362-3.643 0-.64-.44-1.121-1.281-1.121a3.828 3.828 0 00-1.521.4l-.32-1.24a5.277 5.277 0 012.241-.521c2.202 0 2.882 1.2 2.882 2.362 0 1.52-1.16 2.762-2.322 3.843l-.597.56v.04h3.082v1.44h-5.526v.041z"
             fill="#221F20"
@@ -17,6 +17,8 @@ export const Opti24MColorIcon: React.FC<SVGProps<SVGSVGElement>> = (props) => (
             clipRule="evenodd"
         />
     </svg>
-);
+));
+
+Opti24MColorIcon.displayName = 'Opti24MColorIcon';
 
 export default Opti24MColorIcon;

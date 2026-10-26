@@ -2,10 +2,10 @@
  * This is auto-generated file by scripts/svg-to-component package
  * Do not edit it manually
  */
-import React, { SVGProps } from 'react';
+import React, { SVGProps, forwardRef } from 'react';
 
-export const CategoryShieldMColorIcon: React.FC<SVGProps<SVGSVGElement>> = (props) => (
-    <svg role="img" focusable="false" width="24" height="24" viewBox="0 0 24 24" {...props} fill="none">
+export const CategoryShieldMColorIcon = forwardRef<SVGSVGElement, SVGProps<SVGSVGElement>>((props, ref) => (
+    <svg ref={ref} role="img" focusable="false" width="24" height="24" viewBox="0 0 24 24" {...props} fill="none">
         <path
             d="M21.964 4C16.645 3.414 12 1 12 1S7.355 3.414 2.036 4c0 0-1.182 13.908 9.964 19 6.865-3.136 9.053-9.617 9.721-14.132.417-2.816.243-4.868.243-4.868z"
             fill="#5C85AD"
@@ -23,6 +23,8 @@ export const CategoryShieldMColorIcon: React.FC<SVGProps<SVGSVGElement>> = (prop
             fill="#fff"
         />
     </svg>
-);
+));
+
+CategoryShieldMColorIcon.displayName = 'CategoryShieldMColorIcon';
 
 export default CategoryShieldMColorIcon;

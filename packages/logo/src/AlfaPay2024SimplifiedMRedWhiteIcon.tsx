@@ -2,10 +2,10 @@
  * This is auto-generated file by scripts/svg-to-component package
  * Do not edit it manually
  */
-import React, { SVGProps } from 'react';
+import React, { SVGProps, forwardRef } from 'react';
 
-export const AlfaPay2024SimplifiedMRedWhiteIcon: React.FC<SVGProps<SVGSVGElement>> = (props) => (
-    <svg role="img" focusable="false" width="76" height="24" viewBox="0 0 76 24" {...props} fill="none">
+export const AlfaPay2024SimplifiedMRedWhiteIcon = forwardRef<SVGSVGElement, SVGProps<SVGSVGElement>>((props, ref) => (
+    <svg ref={ref} role="img" focusable="false" width="76" height="24" viewBox="0 0 76 24" {...props} fill="none">
         <path d="M12.166 7.503l-1.05 3.284h2.156l-1.05-3.284h-.056z" fill="#EF3124" />
         <path
             d="M12.192 22c5.629 0 10.192-4.477 10.192-10S17.82 2 12.192 2C6.563 2 2 6.477 2 12s4.563 10 10.192 10zm-.005-16.045c.814 0 1.149.508 1.362 1.149l2.216 6.554h-1.574l-.496-1.548h-3l-.496 1.548H8.624l2.215-6.554c.214-.642.534-1.149 1.348-1.149zM8.462 15.78h7.461v1.548H8.462V15.78z"
@@ -31,6 +31,8 @@ export const AlfaPay2024SimplifiedMRedWhiteIcon: React.FC<SVGProps<SVGSVGElement
         />
         <path d="M15.923 15.78H8.462v1.548h7.461V15.78z" fill="#fff" />
     </svg>
-);
+));
+
+AlfaPay2024SimplifiedMRedWhiteIcon.displayName = 'AlfaPay2024SimplifiedMRedWhiteIcon';
 
 export default AlfaPay2024SimplifiedMRedWhiteIcon;

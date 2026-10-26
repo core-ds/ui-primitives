@@ -2,10 +2,10 @@
  * This is auto-generated file by scripts/svg-to-component package
  * Do not edit it manually
  */
-import React, { SVGProps } from 'react';
+import React, { SVGProps, forwardRef } from 'react';
 
-export const MontenegroMColorIcon: React.FC<SVGProps<SVGSVGElement>> = (props) => (
-    <svg role="img" focusable="false" width="24" height="24" viewBox="0 0 24 24" {...props} fill="none">
+export const MontenegroMColorIcon = forwardRef<SVGSVGElement, SVGProps<SVGSVGElement>>((props, ref) => (
+    <svg ref={ref} role="img" focusable="false" width="24" height="24" viewBox="0 0 24 24" {...props} fill="none">
         <path d="M23.172 4.965H.828v14.07h22.344V4.965z" fill="#F5F5F5" />
         <path
             d="M22.203 4.138H1.797C.805 4.138 0 4.943 0 5.935v12.13c0 .992.805 1.797 1.797 1.797h20.406c.992 0 1.797-.805 1.797-1.797V5.935c0-.992-.805-1.797-1.797-1.797zm.97 14.896H.827V4.965h22.344v14.07z"
@@ -63,6 +63,8 @@ export const MontenegroMColorIcon: React.FC<SVGProps<SVGSVGElement>> = (props) =
             fill="#E6B432"
         />
     </svg>
-);
+));
+
+MontenegroMColorIcon.displayName = 'MontenegroMColorIcon';
 
 export default MontenegroMColorIcon;

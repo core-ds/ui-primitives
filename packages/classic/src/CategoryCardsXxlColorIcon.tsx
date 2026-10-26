@@ -2,10 +2,10 @@
  * This is auto-generated file by scripts/svg-to-component package
  * Do not edit it manually
  */
-import React, { SVGProps } from 'react';
+import React, { SVGProps, forwardRef } from 'react';
 
-export const CategoryCardsXxlColorIcon: React.FC<SVGProps<SVGSVGElement>> = (props) => (
-    <svg role="img" focusable="false" width="48" height="48" viewBox="0 0 48 48" {...props} fill="none">
+export const CategoryCardsXxlColorIcon = forwardRef<SVGSVGElement, SVGProps<SVGSVGElement>>((props, ref) => (
+    <svg ref={ref} role="img" focusable="false" width="48" height="48" viewBox="0 0 48 48" {...props} fill="none">
         <path
             d="M11.56 6.373a1.921 1.921 0 012.402-1.288l32.676 10.07a1.942 1.942 0 011.277 2.422l-5.474 18.05a1.921 1.921 0 01-2.403 1.288L7.362 26.845a1.942 1.942 0 01-1.277-2.422l5.474-18.05z"
             fill="#B8D1E0"
@@ -30,6 +30,8 @@ export const CategoryCardsXxlColorIcon: React.FC<SVGProps<SVGSVGElement>> = (pro
             clipRule="evenodd"
         />
     </svg>
-);
+));
+
+CategoryCardsXxlColorIcon.displayName = 'CategoryCardsXxlColorIcon';
 
 export default CategoryCardsXxlColorIcon;

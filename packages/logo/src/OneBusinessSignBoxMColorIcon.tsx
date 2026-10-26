@@ -2,10 +2,10 @@
  * This is auto-generated file by scripts/svg-to-component package
  * Do not edit it manually
  */
-import React, { SVGProps } from 'react';
+import React, { SVGProps, forwardRef } from 'react';
 
-export const OneBusinessSignBoxMColorIcon: React.FC<SVGProps<SVGSVGElement>> = (props) => (
-    <svg role="img" focusable="false" width="24" height="24" viewBox="0 0 24 24" {...props} fill="none">
+export const OneBusinessSignBoxMColorIcon = forwardRef<SVGSVGElement, SVGProps<SVGSVGElement>>((props, ref) => (
+    <svg ref={ref} role="img" focusable="false" width="24" height="24" viewBox="0 0 24 24" {...props} fill="none">
         <path
             d="M6.702 16.721c2.597 0 4.702-2.114 4.702-4.721 0-2.608-2.105-4.722-4.702-4.722-2.596 0-4.701 2.114-4.701 4.722 0 2.607 2.105 4.721 4.701 4.721z"
             fill="#FFCA05"
@@ -41,6 +41,8 @@ export const OneBusinessSignBoxMColorIcon: React.FC<SVGProps<SVGSVGElement>> = (
             </radialGradient>
         </defs>
     </svg>
-);
+));
+
+OneBusinessSignBoxMColorIcon.displayName = 'OneBusinessSignBoxMColorIcon';
 
 export default OneBusinessSignBoxMColorIcon;

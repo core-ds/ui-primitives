@@ -2,10 +2,10 @@
  * This is auto-generated file by scripts/svg-to-component package
  * Do not edit it manually
  */
-import React, { SVGProps } from 'react';
+import React, { SVGProps, forwardRef } from 'react';
 
-export const InsuranceMBlackIcon: React.FC<SVGProps<SVGSVGElement>> = (props) => (
-    <svg role="img" focusable="false" width="24" height="24" viewBox="0 0 24 24" {...props}>
+export const InsuranceMBlackIcon = forwardRef<SVGSVGElement, SVGProps<SVGSVGElement>>((props, ref) => (
+    <svg ref={ref} role="img" focusable="false" width="24" height="24" viewBox="0 0 24 24" {...props}>
         <g transform="translate(3)" fill="#0B1F35" fillRule="evenodd">
             <path
                 d="M1.09 18.862c0 1.258.874 1.663 3.806 2.109l.223.034c2.085.318 3.232.626 3.985 1.3.358-.352.842-.62 1.443-.828.657-.226 1.315-.355 2.56-.539l.219-.032c2.751-.404 3.583-.763 3.583-1.785V2.579h-6.378v4.907c.115 1.674-1.082 2.55-3.282 2.55s-3.425-.868-3.39-2.533V2.58H1.09v16.283zM4.95 1.545v5.968c-.022 1.014.65 1.49 2.299 1.49 1.64 0 2.267-.462 2.193-1.464L9.44 1.545H18v17.576c0 1.008-.563 1.705-1.571 2.14-.694.298-1.37.437-2.936.667l-.218.032c-2.319.342-3.268.67-3.647 1.416l-.424.836-.527-.781c-.498-.738-1.461-1.059-3.732-1.406l-.221-.033c-1.654-.252-2.366-.405-3.098-.744C.576 20.76 0 19.983 0 18.862V1.545h4.95z"
@@ -22,6 +22,8 @@ export const InsuranceMBlackIcon: React.FC<SVGProps<SVGSVGElement>> = (props) =>
             <ellipse cx="7.15" cy="6.096" rx="1.15" ry="1.149" fillOpacity=".3" />
         </g>
     </svg>
-);
+));
+
+InsuranceMBlackIcon.displayName = 'InsuranceMBlackIcon';
 
 export default InsuranceMBlackIcon;

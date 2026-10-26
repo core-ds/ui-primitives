@@ -2,10 +2,10 @@
  * This is auto-generated file by scripts/svg-to-component package
  * Do not edit it manually
  */
-import React, { SVGProps } from 'react';
+import React, { SVGProps, forwardRef } from 'react';
 
-export const CitilinkBusinessMWhiteIcon: React.FC<SVGProps<SVGSVGElement>> = (props) => (
-    <svg role="img" focusable="false" width="90" height="24" viewBox="0 0 90 24" {...props} fill="none">
+export const CitilinkBusinessMWhiteIcon = forwardRef<SVGSVGElement, SVGProps<SVGSVGElement>>((props, ref) => (
+    <svg ref={ref} role="img" focusable="false" width="90" height="24" viewBox="0 0 90 24" {...props} fill="none">
         <path
             d="M66.925 19.296c0 1.084-.792 1.914-1.999 1.914-1.234 0-1.999-.807-1.999-2.076 0-.368.015-.623.054-1.13.107-1.276.638-2.037 2.091-2.29l1.538-.267v.645l-1.523.269c-.991.177-1.376.569-1.46 1.668.23-.384.7-.645 1.383-.645 1.13-.002 1.915.728 1.915 1.912zm-.723 0c0-.7-.438-1.269-1.276-1.269-.838 0-1.276.57-1.276 1.269s.43 1.268 1.276 1.268c.846 0 1.276-.569 1.276-1.268zm1.269-1.976h.7v2.86l2.206-2.86h.7v3.798h-.7v-2.882l-2.206 2.882h-.7v-3.797zm7.028 2.684c0-.343-.254-.5-.8-.5h-.63v-.617h.635c.447 0 .73-.161.73-.523 0-.33-.368-.515-.968-.515s-.915.239-1.069.538h-.685c.107-.561.707-1.165 1.768-1.165 1.015 0 1.645.423 1.645 1.123a.834.834 0 01-.607.83c.392.1.707.377.707.822 0 .755-.685 1.215-1.722 1.215-1.153 0-1.791-.63-1.883-1.253h.715c.115.269.469.622 1.165.622.615 0 .999-.154.999-.577zm1.276-2.684h.7v1.555h2.13V17.32h.699v3.798h-.7v-1.614h-2.13v1.614h-.699v-3.797zm7.943 1.985h-3.159c.038.706.549 1.26 1.291 1.26.77 0 1.062-.407 1.13-.53h.693c-.054.323-.549 1.176-1.823 1.176-1.165 0-1.998-.877-1.998-1.988 0-1.153.815-1.988 1.93-1.988 1.114 0 1.936.824 1.936 2.07zm-3.114-.585h2.337c-.17-.57-.592-.891-1.161-.891-.604 0-1.03.345-1.176.89zm5.581-.845c-.699 0-1.198.599-1.198 1.345 0 .745.5 1.345 1.207 1.345.768 0 1.053-.5 1.114-.63H88c-.046.261-.446 1.276-1.806 1.276-1.085 0-1.93-.868-1.93-1.988s.838-1.988 1.92-1.988c1.37 0 1.76.991 1.814 1.276h-.708c-.059-.13-.35-.636-1.105-.636z"
             fill="#FF5200"
@@ -25,6 +25,8 @@ export const CitilinkBusinessMWhiteIcon: React.FC<SVGProps<SVGSVGElement>> = (pr
             fill="#FF5200"
         />
     </svg>
-);
+));
+
+CitilinkBusinessMWhiteIcon.displayName = 'CitilinkBusinessMWhiteIcon';
 
 export default CitilinkBusinessMWhiteIcon;

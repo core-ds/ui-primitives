@@ -2,10 +2,10 @@
  * This is auto-generated file by scripts/svg-to-component package
  * Do not edit it manually
  */
-import React, { SVGProps } from 'react';
+import React, { SVGProps, forwardRef } from 'react';
 
-export const PaymentErrorXlBlackIcon: React.FC<SVGProps<SVGSVGElement>> = (props) => (
-    <svg role="img" focusable="false" width="32" height="32" viewBox="0 0 32 32" {...props}>
+export const PaymentErrorXlBlackIcon = forwardRef<SVGSVGElement, SVGProps<SVGSVGElement>>((props, ref) => (
+    <svg ref={ref} role="img" focusable="false" width="32" height="32" viewBox="0 0 32 32" {...props}>
         <g fill="none" fillRule="evenodd">
             <path d="M-2-2h36v36H-2z" />
             <path
@@ -16,6 +16,8 @@ export const PaymentErrorXlBlackIcon: React.FC<SVGProps<SVGSVGElement>> = (props
             <path fill="#0B1F35" d="M8.292 23L23.071 8.223l.707.707L9 23.708z" />
         </g>
     </svg>
-);
+));
+
+PaymentErrorXlBlackIcon.displayName = 'PaymentErrorXlBlackIcon';
 
 export default PaymentErrorXlBlackIcon;

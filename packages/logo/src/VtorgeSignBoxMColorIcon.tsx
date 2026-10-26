@@ -2,10 +2,10 @@
  * This is auto-generated file by scripts/svg-to-component package
  * Do not edit it manually
  */
-import React, { SVGProps } from 'react';
+import React, { SVGProps, forwardRef } from 'react';
 
-export const VtorgeSignBoxMColorIcon: React.FC<SVGProps<SVGSVGElement>> = (props) => (
-    <svg role="img" focusable="false" width="24" height="24" viewBox="0 0 24 24" {...props} fill="none">
+export const VtorgeSignBoxMColorIcon = forwardRef<SVGSVGElement, SVGProps<SVGSVGElement>>((props, ref) => (
+    <svg ref={ref} role="img" focusable="false" width="24" height="24" viewBox="0 0 24 24" {...props} fill="none">
         <path
             d="M2 7.237v9.671c0 .531.489.613.733.588h3.755c3.651 0 3.782-.012 4.345-.282.981-.465 1.112-.734 1.151-2.485.04-1.444.026-1.555-.288-2.056-.183-.294-.432-.576-.55-.613-.196-.073-.183-.122.131-.428.668-.649.707-1.763.105-2.62-.38-.526-2.25-2.056-2.84-2.301-.457-.196-.85-.22-2.944-.208-1.334 0-2.551.036-2.695.06-.73 0-.903.362-.903.674zm4.658 3.77c2.212 0 2.539-.22 1.531-1.028-.55-.44-.55-.44-1.832-.44H5.075v1.469h1.583zm2.317 3.771c.222-.208.196-.906-.053-1.126-.157-.16-.536-.196-2.028-.196H5.075v1.469h1.871c1.283 0 1.924-.049 2.029-.147z"
             fill="#0000F7"
@@ -17,6 +17,8 @@ export const VtorgeSignBoxMColorIcon: React.FC<SVGProps<SVGSVGElement>> = (props
             fill="#000"
         />
     </svg>
-);
+));
+
+VtorgeSignBoxMColorIcon.displayName = 'VtorgeSignBoxMColorIcon';
 
 export default VtorgeSignBoxMColorIcon;

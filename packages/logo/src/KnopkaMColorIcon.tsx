@@ -2,10 +2,10 @@
  * This is auto-generated file by scripts/svg-to-component package
  * Do not edit it manually
  */
-import React, { SVGProps } from 'react';
+import React, { SVGProps, forwardRef } from 'react';
 
-export const KnopkaMColorIcon: React.FC<SVGProps<SVGSVGElement>> = (props) => (
-    <svg role="img" focusable="false" width="136" height="24" viewBox="0 0 136 24" {...props} fill="none">
+export const KnopkaMColorIcon = forwardRef<SVGSVGElement, SVGProps<SVGSVGElement>>((props, ref) => (
+    <svg ref={ref} role="img" focusable="false" width="136" height="24" viewBox="0 0 136 24" {...props} fill="none">
         <path
             d="M21.998 12.001c0 5.522-4.477 9.999-9.999 9.999C6.476 22 2 17.523 2 12.001s4.476-9.999 9.999-9.999c5.522 0 9.999 4.477 9.999 9.999z"
             fill="#00B49B"
@@ -49,6 +49,8 @@ export const KnopkaMColorIcon: React.FC<SVGProps<SVGSVGElement>> = (props) => (
             fill="#fff"
         />
     </svg>
-);
+));
+
+KnopkaMColorIcon.displayName = 'KnopkaMColorIcon';
 
 export default KnopkaMColorIcon;

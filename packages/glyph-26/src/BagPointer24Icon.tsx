@@ -2,10 +2,19 @@
  * This is auto-generated file by scripts/svg-to-component package
  * Do not edit it manually
  */
-import React, { SVGProps } from 'react';
+import React, { SVGProps, forwardRef } from 'react';
 
-export const BagPointer24Icon: React.FC<SVGProps<SVGSVGElement>> = (props) => (
-    <svg role="img" focusable="false" fill="currentColor" width="24" height="24" viewBox="0 0 24 24" {...props}>
+export const BagPointer24Icon = forwardRef<SVGSVGElement, SVGProps<SVGSVGElement>>((props, ref) => (
+    <svg
+        ref={ref}
+        role="img"
+        focusable="false"
+        fill="currentColor"
+        width="24"
+        height="24"
+        viewBox="0 0 24 24"
+        {...props}
+    >
         <g clipPath="url(#prefix__clip0_147603_36081)">
             <path d="M14.297 14.293a1.001 1.001 0 011.058-.23l8 3a1.001 1.001 0 01.043 1.856l-3.132 1.342-1.343 3.133a1.001 1.001 0 01-1.855-.042l-3-8a1.002 1.002 0 01.229-1.059z" />
             <path d="M12 8.5c.99 0 1.994.155 3.095.478l.759.252a6.001 6.001 0 013.85 3.968l.12.404-3.766-1.412a3.002 3.002 0 00-3.863 3.862L14.423 22H8.376c-3.349 0-5.75-3.229-4.789-6.437l.71-2.365A6.002 6.002 0 018.146 9.23l.75-.25C10 8.654 11.008 8.5 12 8.5zM12 2c1.226 0 2.39.452 3.197.855a10.795 10.795 0 011.367.819l.024.017.008.005.002.002.002.001-.6.801.6-.8a1.002 1.002 0 01.147 1.464l-1.566 1.76A12.56 12.56 0 0012 6.5c-1.057 0-2.103.145-3.183.425l-1.565-1.76A1.002 1.002 0 017.4 3.7l.6.8-.6-.8.004-.004.008-.005.024-.017.08-.058a10.82 10.82 0 011.286-.76C9.61 2.451 10.775 2 12 2z" />
@@ -16,6 +25,8 @@ export const BagPointer24Icon: React.FC<SVGProps<SVGSVGElement>> = (props) => (
             </clipPath>
         </defs>
     </svg>
-);
+));
+
+BagPointer24Icon.displayName = 'BagPointer24Icon';
 
 export default BagPointer24Icon;

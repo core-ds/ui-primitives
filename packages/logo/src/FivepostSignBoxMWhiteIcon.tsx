@@ -2,10 +2,10 @@
  * This is auto-generated file by scripts/svg-to-component package
  * Do not edit it manually
  */
-import React, { SVGProps } from 'react';
+import React, { SVGProps, forwardRef } from 'react';
 
-export const FivepostSignBoxMWhiteIcon: React.FC<SVGProps<SVGSVGElement>> = (props) => (
-    <svg role="img" focusable="false" width="24" height="24" viewBox="0 0 24 24" {...props} fill="none">
+export const FivepostSignBoxMWhiteIcon = forwardRef<SVGSVGElement, SVGProps<SVGSVGElement>>((props, ref) => (
+    <svg ref={ref} role="img" focusable="false" width="24" height="24" viewBox="0 0 24 24" {...props} fill="none">
         <path
             d="M11.834 22c-4.128 0-7.854-2.352-9.688-5.986a1.328 1.328 0 01.736-1.858 1.302 1.302 0 011.592.642 8.305 8.305 0 007.398 4.558c3.207 0 6.18-1.784 7.6-4.54.3-.582.998-.852 1.627-.64a1.312 1.312 0 01.752 1.852C19.977 19.648 16.051 22 11.834 22z"
             fill="#64B441"
@@ -15,6 +15,8 @@ export const FivepostSignBoxMWhiteIcon: React.FC<SVGProps<SVGSVGElement>> = (pro
             fill="#fff"
         />
     </svg>
-);
+));
+
+FivepostSignBoxMWhiteIcon.displayName = 'FivepostSignBoxMWhiteIcon';
 
 export default FivepostSignBoxMWhiteIcon;

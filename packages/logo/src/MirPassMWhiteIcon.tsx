@@ -2,10 +2,10 @@
  * This is auto-generated file by scripts/svg-to-component package
  * Do not edit it manually
  */
-import React, { SVGProps } from 'react';
+import React, { SVGProps, forwardRef } from 'react';
 
-export const MirPassMWhiteIcon: React.FC<SVGProps<SVGSVGElement>> = (props) => (
-    <svg role="img" focusable="false" width="158" height="24" viewBox="0 0 158 24" {...props} fill="none">
+export const MirPassMWhiteIcon = forwardRef<SVGSVGElement, SVGProps<SVGSVGElement>>((props, ref) => (
+    <svg ref={ref} role="img" focusable="false" width="158" height="24" viewBox="0 0 158 24" {...props} fill="none">
         <path
             d="M57.358 11.5h-19.52v10.496h6.19v-5.91h2.57L50.108 22h7.043l-4.087-6.414c1.98-.736 3.55-2.224 4.294-4.085zm-1.893-7.644C54.253 2.706 52.64 2 50.867 2H37.551a9.16 9.16 0 00.217 1.565c.027.111.052.226.084.337.01.045.025.09.036.136 1.105 3.623 4.38 6.252 8.251 6.252h11.43a7.122 7.122 0 00-2.104-6.434zM29.26 22h6.156V2H29.26v20zM17.095 4.63l-2.565 9.19h-.44l-2.564-9.19C11.094 3.073 9.714 2 8.148 2H2v20h6.155V10.181h.44L12.113 22h4.396l3.518-11.817h.44V22h6.155V2.001h-6.147c-1.569 0-2.946 1.072-3.38 2.628z"
             fill="#fff"
@@ -16,6 +16,8 @@ export const MirPassMWhiteIcon: React.FC<SVGProps<SVGSVGElement>> = (props) => (
             fillOpacity=".8"
         />
     </svg>
-);
+));
+
+MirPassMWhiteIcon.displayName = 'MirPassMWhiteIcon';
 
 export default MirPassMWhiteIcon;

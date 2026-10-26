@@ -2,10 +2,10 @@
  * This is auto-generated file by scripts/svg-to-component package
  * Do not edit it manually
  */
-import React, { SVGProps } from 'react';
+import React, { SVGProps, forwardRef } from 'react';
 
-export const DigitalRubUnderlayRedSColorIcon: React.FC<SVGProps<SVGSVGElement>> = (props) => (
-    <svg role="img" focusable="false" width="16" height="16" viewBox="0 0 16 16" {...props} fill="none">
+export const DigitalRubUnderlayRedSColorIcon = forwardRef<SVGSVGElement, SVGProps<SVGSVGElement>>((props, ref) => (
+    <svg ref={ref} role="img" focusable="false" width="16" height="16" viewBox="0 0 16 16" {...props} fill="none">
         <g clipPath="url(#prefix__clip0_1607_55)">
             <circle cx="8" cy="8" r="8" fill="#E63946" />
             <path
@@ -19,6 +19,8 @@ export const DigitalRubUnderlayRedSColorIcon: React.FC<SVGProps<SVGSVGElement>> 
             </clipPath>
         </defs>
     </svg>
-);
+));
+
+DigitalRubUnderlayRedSColorIcon.displayName = 'DigitalRubUnderlayRedSColorIcon';
 
 export default DigitalRubUnderlayRedSColorIcon;

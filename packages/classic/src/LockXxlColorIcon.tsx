@@ -2,10 +2,10 @@
  * This is auto-generated file by scripts/svg-to-component package
  * Do not edit it manually
  */
-import React, { SVGProps } from 'react';
+import React, { SVGProps, forwardRef } from 'react';
 
-export const LockXxlColorIcon: React.FC<SVGProps<SVGSVGElement>> = (props) => (
-    <svg role="img" focusable="false" width="48" height="48" viewBox="0 0 48 48" {...props}>
+export const LockXxlColorIcon = forwardRef<SVGSVGElement, SVGProps<SVGSVGElement>>((props, ref) => (
+    <svg ref={ref} role="img" focusable="false" width="48" height="48" viewBox="0 0 48 48" {...props}>
         <g fill="none" fillRule="evenodd">
             <path
                 d="M38.872 18H36v-7c0-6.064-4.934-11-11-11h-2c-6.066 0-11 4.936-11 11v7H9.128A3.133 3.133 0 006 21.128v19.484C6 44.686 9.314 48 13.388 48h21.224C38.686 48 42 44.686 42 40.614V21.13A3.133 3.133 0 0038.872 18zM14 11c0-4.962 4.038-9 9-9h2c4.962 0 9 4.038 9 9v7H14v-7zm26 29.614A5.392 5.392 0 0134.612 46H13.388A5.392 5.392 0 018 40.614V21.13c0-.624.506-1.13 1.128-1.13h29.744A1.13 1.13 0 0140 21.128v19.486z"
@@ -18,6 +18,8 @@ export const LockXxlColorIcon: React.FC<SVGProps<SVGSVGElement>> = (props) => (
             />
         </g>
     </svg>
-);
+));
+
+LockXxlColorIcon.displayName = 'LockXxlColorIcon';
 
 export default LockXxlColorIcon;

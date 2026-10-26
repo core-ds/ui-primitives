@@ -2,10 +2,10 @@
  * This is auto-generated file by scripts/svg-to-component package
  * Do not edit it manually
  */
-import React, { SVGProps } from 'react';
+import React, { SVGProps, forwardRef } from 'react';
 
-export const AtmMWhiteIcon: React.FC<SVGProps<SVGSVGElement>> = (props) => (
-    <svg role="img" focusable="false" width="20" height="22" viewBox="0 0 20 22" {...props}>
+export const AtmMWhiteIcon = forwardRef<SVGSVGElement, SVGProps<SVGSVGElement>>((props, ref) => (
+    <svg ref={ref} role="img" focusable="false" width="20" height="22" viewBox="0 0 20 22" {...props}>
         <g fill="none" fillRule="evenodd">
             <path d="M-2-1h24v24H-2z" />
             <path
@@ -15,6 +15,8 @@ export const AtmMWhiteIcon: React.FC<SVGProps<SVGSVGElement>> = (props) => (
             <path fill="#FFF" d="M4 4h12v7H4zm7 9h5v1h-5zm-7 0h2v2H4zm3 0h2v2H7zm-3 3h2v2H4zm3 0h2v2H7z" opacity=".3" />
         </g>
     </svg>
-);
+));
+
+AtmMWhiteIcon.displayName = 'AtmMWhiteIcon';
 
 export default AtmMWhiteIcon;

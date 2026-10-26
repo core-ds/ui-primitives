@@ -2,10 +2,10 @@
  * This is auto-generated file by scripts/svg-to-component package
  * Do not edit it manually
  */
-import React, { SVGProps } from 'react';
+import React, { SVGProps, forwardRef } from 'react';
 
-export const GetcourseEnSignBoxMWhiteIcon: React.FC<SVGProps<SVGSVGElement>> = (props) => (
-    <svg role="img" focusable="false" width="24" height="24" viewBox="0 0 24 24" {...props} fill="none">
+export const GetcourseEnSignBoxMWhiteIcon = forwardRef<SVGSVGElement, SVGProps<SVGSVGElement>>((props, ref) => (
+    <svg ref={ref} role="img" focusable="false" width="24" height="24" viewBox="0 0 24 24" {...props} fill="none">
         <path
             d="M10.021 16.566a4.07 4.07 0 01-2.7.987 5.663 5.663 0 01-2.035-.37 4.958 4.958 0 01-1.697-1.11 5.357 5.357 0 01-1.157-1.774c-.288-.7-.432-1.497-.432-2.391 0-.772.144-1.486.432-2.144A5.233 5.233 0 013.62 8.036a5.46 5.46 0 011.774-1.157 5.702 5.702 0 012.22-.432c.495 0 .968.057 1.42.17.453.103.869.262 1.25.478.39.206.74.458 1.048.756.309.288.56.617.756.987L9.852 10.55a2.473 2.473 0 00-.972-1.033 2.566 2.566 0 00-1.373-.401 2.24 2.24 0 00-1.759.817 2.869 2.869 0 00-.509.926c-.123.35-.185.735-.185 1.157 0 .432.062.822.185 1.172a2.9 2.9 0 00.51.91c.226.247.493.442.802.586.308.134.653.2 1.033.2.874 0 1.645-.36 2.314-1.079H8v-2.16h4.504v5.831H10.02v-.91z"
             fill="#fff"
@@ -15,6 +15,8 @@ export const GetcourseEnSignBoxMWhiteIcon: React.FC<SVGProps<SVGSVGElement>> = (
             fill="#35D3C9"
         />
     </svg>
-);
+));
+
+GetcourseEnSignBoxMWhiteIcon.displayName = 'GetcourseEnSignBoxMWhiteIcon';
 
 export default GetcourseEnSignBoxMWhiteIcon;

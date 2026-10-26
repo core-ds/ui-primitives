@@ -2,10 +2,19 @@
  * This is auto-generated file by scripts/svg-to-component package
  * Do not edit it manually
  */
-import React, { SVGProps } from 'react';
+import React, { SVGProps, forwardRef } from 'react';
 
-export const AScoresCircleSIcon: React.FC<SVGProps<SVGSVGElement>> = (props) => (
-    <svg role="img" focusable="false" fill="currentColor" width="16" height="16" viewBox="0 0 16 16" {...props}>
+export const AScoresCircleSIcon = forwardRef<SVGSVGElement, SVGProps<SVGSVGElement>>((props, ref) => (
+    <svg
+        ref={ref}
+        role="img"
+        focusable="false"
+        fill="currentColor"
+        width="16"
+        height="16"
+        viewBox="0 0 16 16"
+        {...props}
+    >
         <g clipPath="url(#prefix__clip0_22451_1305)">
             <path d="M6.815 8.71h2.326L8.033 5.155h-.044L6.815 8.71z" />
             <path
@@ -20,6 +29,8 @@ export const AScoresCircleSIcon: React.FC<SVGProps<SVGSVGElement>> = (props) => 
             </clipPath>
         </defs>
     </svg>
-);
+));
+
+AScoresCircleSIcon.displayName = 'AScoresCircleSIcon';
 
 export default AScoresCircleSIcon;

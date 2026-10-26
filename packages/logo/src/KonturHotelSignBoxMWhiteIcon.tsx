@@ -2,10 +2,10 @@
  * This is auto-generated file by scripts/svg-to-component package
  * Do not edit it manually
  */
-import React, { SVGProps } from 'react';
+import React, { SVGProps, forwardRef } from 'react';
 
-export const KonturHotelSignBoxMWhiteIcon: React.FC<SVGProps<SVGSVGElement>> = (props) => (
-    <svg role="img" focusable="false" width="24" height="24" viewBox="0 0 24 24" {...props} fill="none">
+export const KonturHotelSignBoxMWhiteIcon = forwardRef<SVGSVGElement, SVGProps<SVGSVGElement>>((props, ref) => (
+    <svg ref={ref} role="img" focusable="false" width="24" height="24" viewBox="0 0 24 24" {...props} fill="none">
         <path
             d="M2.908 3.875a.907.907 0 00-.822 1.29l1.158 2.488c.075.161.153.328.153.506v10.515c0 .801.65 1.45 1.45 1.45h14.305a1.45 1.45 0 001.45-1.45V8.16c0-.178.078-.345.153-.506l1.159-2.489a.906.906 0 00-.822-1.289H2.908z"
             fill="#fff"
@@ -23,6 +23,8 @@ export const KonturHotelSignBoxMWhiteIcon: React.FC<SVGProps<SVGSVGElement>> = (
             clipRule="evenodd"
         />
     </svg>
-);
+));
+
+KonturHotelSignBoxMWhiteIcon.displayName = 'KonturHotelSignBoxMWhiteIcon';
 
 export default KonturHotelSignBoxMWhiteIcon;

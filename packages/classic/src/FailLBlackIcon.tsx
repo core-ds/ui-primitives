@@ -2,10 +2,10 @@
  * This is auto-generated file by scripts/svg-to-component package
  * Do not edit it manually
  */
-import React, { SVGProps } from 'react';
+import React, { SVGProps, forwardRef } from 'react';
 
-export const FailLBlackIcon: React.FC<SVGProps<SVGSVGElement>> = (props) => (
-    <svg role="img" focusable="false" width="30" height="30" viewBox="0 0 30 30" {...props}>
+export const FailLBlackIcon = forwardRef<SVGSVGElement, SVGProps<SVGSVGElement>>((props, ref) => (
+    <svg ref={ref} role="img" focusable="false" width="30" height="30" viewBox="0 0 30 30" {...props}>
         <g fill="none">
             <path
                 fill="#0B1F35"
@@ -17,6 +17,8 @@ export const FailLBlackIcon: React.FC<SVGProps<SVGSVGElement>> = (props) => (
             />
         </g>
     </svg>
-);
+));
+
+FailLBlackIcon.displayName = 'FailLBlackIcon';
 
 export default FailLBlackIcon;

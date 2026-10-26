@@ -2,10 +2,10 @@
  * This is auto-generated file by scripts/svg-to-component package
  * Do not edit it manually
  */
-import React, { SVGProps } from 'react';
+import React, { SVGProps, forwardRef } from 'react';
 
-export const ContactlessOffXlWhiteIcon: React.FC<SVGProps<SVGSVGElement>> = (props) => (
-    <svg role="img" focusable="false" width="36" height="36" viewBox="0 0 36 36" {...props}>
+export const ContactlessOffXlWhiteIcon = forwardRef<SVGSVGElement, SVGProps<SVGSVGElement>>((props, ref) => (
+    <svg ref={ref} role="img" focusable="false" width="36" height="36" viewBox="0 0 36 36" {...props}>
         <g fill="none" fillRule="evenodd">
             <path
                 d="M23.515 32.377C29.098 30.107 33 24.938 33 18.5 33 9.94 26.06 3 17.5 3 8.94 3 2 9.94 2 18.5c0 6.46 3.95 11.637 9.568 13.893"
@@ -17,6 +17,8 @@ export const ContactlessOffXlWhiteIcon: React.FC<SVGProps<SVGSVGElement>> = (pro
             />
         </g>
     </svg>
-);
+));
+
+ContactlessOffXlWhiteIcon.displayName = 'ContactlessOffXlWhiteIcon';
 
 export default ContactlessOffXlWhiteIcon;

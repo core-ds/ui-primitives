@@ -2,12 +2,14 @@
  * This is auto-generated file by scripts/svg-to-component package
  * Do not edit it manually
  */
-import React, { SVGProps } from 'react';
+import React, { SVGProps, forwardRef } from 'react';
 
-export const CheckBoldLWhiteIcon: React.FC<SVGProps<SVGSVGElement>> = (props) => (
-    <svg role="img" focusable="false" width="30" height="30" viewBox="0 0 30 30" {...props}>
+export const CheckBoldLWhiteIcon = forwardRef<SVGSVGElement, SVGProps<SVGSVGElement>>((props, ref) => (
+    <svg ref={ref} role="img" focusable="false" width="30" height="30" viewBox="0 0 30 30" {...props}>
         <path fill="#FFF" d="M13.056 19.263L22.2 6.941l2.008 1.49L13.13 23.357l-7.208-9.01 1.952-1.562z" />
     </svg>
-);
+));
+
+CheckBoldLWhiteIcon.displayName = 'CheckBoldLWhiteIcon';
 
 export default CheckBoldLWhiteIcon;

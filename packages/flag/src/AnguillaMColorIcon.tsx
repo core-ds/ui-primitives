@@ -2,10 +2,10 @@
  * This is auto-generated file by scripts/svg-to-component package
  * Do not edit it manually
  */
-import React, { SVGProps } from 'react';
+import React, { SVGProps, forwardRef } from 'react';
 
-export const AnguillaMColorIcon: React.FC<SVGProps<SVGSVGElement>> = (props) => (
-    <svg role="img" focusable="false" width="24" height="24" viewBox="0 0 24 24" {...props} fill="none">
+export const AnguillaMColorIcon = forwardRef<SVGSVGElement, SVGProps<SVGSVGElement>>((props, ref) => (
+    <svg ref={ref} role="img" focusable="false" width="24" height="24" viewBox="0 0 24 24" {...props} fill="none">
         <path
             d="M22.125 4.138H1.87A1.87 1.87 0 000 6.008v11.984a1.87 1.87 0 001.87 1.87h20.26a1.87 1.87 0 001.87-1.87V6.004a1.872 1.872 0 00-1.875-1.866z"
             fill="#41479B"
@@ -41,6 +41,8 @@ export const AnguillaMColorIcon: React.FC<SVGProps<SVGSVGElement>> = (props) => 
         />
         <path d="M16.225 13.863c.408.74 1.003 1.359 1.87 1.668.867-.309 1.462-.928 1.87-1.668h-3.74z" fill="#82AFFF" />
     </svg>
-);
+));
+
+AnguillaMColorIcon.displayName = 'AnguillaMColorIcon';
 
 export default AnguillaMColorIcon;

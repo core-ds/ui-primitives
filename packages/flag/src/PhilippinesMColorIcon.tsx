@@ -2,10 +2,10 @@
  * This is auto-generated file by scripts/svg-to-component package
  * Do not edit it manually
  */
-import React, { SVGProps } from 'react';
+import React, { SVGProps, forwardRef } from 'react';
 
-export const PhilippinesMColorIcon: React.FC<SVGProps<SVGSVGElement>> = (props) => (
-    <svg role="img" focusable="false" width="24" height="24" viewBox="0 0 24 24" {...props} fill="none">
+export const PhilippinesMColorIcon = forwardRef<SVGSVGElement, SVGProps<SVGSVGElement>>((props, ref) => (
+    <svg ref={ref} role="img" focusable="false" width="24" height="24" viewBox="0 0 24 24" {...props} fill="none">
         <path
             d="M.642 4.559C.25 4.889 0 5.383 0 5.935v12.13c0 .552.25 1.047.642 1.376L12 12 .642 4.559z"
             fill="#F5F5F5"
@@ -28,6 +28,8 @@ export const PhilippinesMColorIcon: React.FC<SVGProps<SVGSVGElement>> = (props) 
             fill="#FFE15A"
         />
     </svg>
-);
+));
+
+PhilippinesMColorIcon.displayName = 'PhilippinesMColorIcon';
 
 export default PhilippinesMColorIcon;

@@ -2,10 +2,10 @@
  * This is auto-generated file by scripts/svg-to-component package
  * Do not edit it manually
  */
-import React, { SVGProps } from 'react';
+import React, { SVGProps, forwardRef } from 'react';
 
-export const VkMusicMColorIcon: React.FC<SVGProps<SVGSVGElement>> = (props) => (
-    <svg role="img" focusable="false" width="106" height="24" viewBox="0 0 106 24" {...props} fill="none">
+export const VkMusicMColorIcon = forwardRef<SVGSVGElement, SVGProps<SVGSVGElement>>((props, ref) => (
+    <svg ref={ref} role="img" focusable="false" width="106" height="24" viewBox="0 0 106 24" {...props} fill="none">
         <path
             d="M34.629 17L38.3 6.929h-1.814l-2.943 8.3h-.286l-2.843-8.3h-1.843L32.13 17h2.5zm8.431-5.214l4.271-4.857h-2.114l-3.572 4.1h-.414v-4.1h-1.714V17h1.714v-4.314h.429L45.43 17h2.257l-4.628-5.214zM53.437 17V9.214h.229L56.48 17h1.6l2.871-7.786h.229V17h1.671V6.929h-2.628l-2.8 7.614h-.229l-2.743-7.614h-2.685V17h1.671zm14.797-2.071h-.229L65.82 9.57h-1.758l3.3 7.829-.085.229c-.215.6-.472.8-1.015.8h-1.385l.143 1.5h1.128c1.372 0 2.114-.615 2.614-2l3.043-8.358h-1.671l-1.9 5.358zm8.739-1.715c.757-.2 1.314-.814 1.314-1.657 0-1.243-1.185-2.128-2.828-2.128-1.472 0-2.715.685-3.172 2.1l1.515.257c.3-.586.885-.957 1.6-.957.685 0 1.242.342 1.242.9 0 .5-.457.828-1.342.828h-.929v1.429h.929c1.114 0 1.457.371 1.457.843 0 .571-.515.914-1.457.914-.858 0-1.358-.286-1.686-.943l-1.514.257c.357 1.243 1.571 2.086 3.214 2.086 1.886 0 3.086-.972 3.086-2.186 0-.928-.672-1.514-1.429-1.743zM82.771 17c1.771 0 3.029-1.1 3.029-2.657s-1.243-2.657-3.029-2.657h-1.157V9.57H79.97V17h2.8zm5.557 0V9.571h-1.643V17h1.643zm-6.714-3.886h1.157c.814 0 1.386.5 1.386 1.229 0 .728-.572 1.228-1.386 1.228h-1.157v-2.457zM96.954 17l-3.414-3.857 3.13-3.573h-1.957l-2.486 2.886h-.4V9.571h-1.643V17h1.643v-2.957h.4L94.797 17h2.157zm3.679-7.571c-1.442 0-2.714.742-3.085 2.028l1.514.257a1.633 1.633 0 011.486-.885c.9 0 1.428.642 1.5 1.614h-1.6c-2.186 0-3.272.957-3.272 2.328 0 1.386 1.072 2.372 2.586 2.372 1.214 0 2.029-.7 2.386-1.314l.343 1.171h1.214v-4.171c0-2.158-1.172-3.4-3.072-3.4zm-.485 6.328c-.8 0-1.315-.414-1.315-1.057 0-.571.415-.971 1.672-.971h1.557c0 1.214-.771 2.028-1.914 2.028z"
             fill="#000"
@@ -23,6 +23,8 @@ export const VkMusicMColorIcon: React.FC<SVGProps<SVGSVGElement>> = (props) => (
             fill="#fff"
         />
     </svg>
-);
+));
+
+VkMusicMColorIcon.displayName = 'VkMusicMColorIcon';
 
 export default VkMusicMColorIcon;

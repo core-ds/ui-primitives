@@ -2,12 +2,23 @@
  * This is auto-generated file by scripts/svg-to-component package
  * Do not edit it manually
  */
-import React, { SVGProps } from 'react';
+import React, { SVGProps, forwardRef } from 'react';
 
-export const Pushpin24Icon: React.FC<SVGProps<SVGSVGElement>> = (props) => (
-    <svg role="img" focusable="false" fill="currentColor" width="24" height="24" viewBox="0 0 24 24" {...props}>
+export const Pushpin24Icon = forwardRef<SVGSVGElement, SVGProps<SVGSVGElement>>((props, ref) => (
+    <svg
+        ref={ref}
+        role="img"
+        focusable="false"
+        fill="currentColor"
+        width="24"
+        height="24"
+        viewBox="0 0 24 24"
+        {...props}
+    >
         <path d="M17.316 2.052l.154.05a7.002 7.002 0 014.428 4.428l.05.154.173.516-2.132 2.664a7.172 7.172 0 00-1.499 5.494l.07.495-3.3 3.301-.934-.333a15.118 15.118 0 01-4.872-2.862l-5.747 5.748-1.414-1.414 5.746-5.747a15.118 15.118 0 01-2.99-5.233l-.192-.584 3.29-3.29.495.07a7.172 7.172 0 005.494-1.498L16.8 1.879l.516.173z" />
     </svg>
-);
+));
+
+Pushpin24Icon.displayName = 'Pushpin24Icon';
 
 export default Pushpin24Icon;

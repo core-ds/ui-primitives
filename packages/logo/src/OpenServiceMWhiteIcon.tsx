@@ -2,10 +2,10 @@
  * This is auto-generated file by scripts/svg-to-component package
  * Do not edit it manually
  */
-import React, { SVGProps } from 'react';
+import React, { SVGProps, forwardRef } from 'react';
 
-export const OpenServiceMWhiteIcon: React.FC<SVGProps<SVGSVGElement>> = (props) => (
-    <svg role="img" focusable="false" width="87" height="24" viewBox="0 0 87 24" {...props} fill="none">
+export const OpenServiceMWhiteIcon = forwardRef<SVGSVGElement, SVGProps<SVGSVGElement>>((props, ref) => (
+    <svg ref={ref} role="img" focusable="false" width="87" height="24" viewBox="0 0 87 24" {...props} fill="none">
         <path
             d="M38.395 9.343c.774.648 1.653 1.007 2.667 1.007.489 0 .966-.088 1.424-.262.505-.19.964-.49 1.374-.84a4.112 4.112 0 001.054-1.394 4.019 4.019 0 00.388-1.734c0-.865-.254-1.647-.745-2.355-.425-.616-.974-1.155-1.69-1.409C42.31 2.16 41.695 2 41.099 2c-1.166 0-2.18.372-3.021 1.193-.817.798-1.219 1.758-1.219 2.902a4.26 4.26 0 001.537 3.248zm.225-3.2c0-.574.087-1.175.364-1.686.212-.394.508-.76.93-.937.221-.093.463-.192.7-.235.163-.03.33-.044.497-.044.512 0 .985.147 1.4.45.395.29.682.673.822 1.148.122.412.183.838.183 1.268 0 .393-.04.794-.162 1.169-.127.395-.365.762-.622 1.085-.407.51-1.032.674-1.658.674-.615 0-1.216-.165-1.626-.653-.27-.321-.515-.687-.652-1.087a3.56 3.56 0 01-.176-1.151zm10.121 4.035v-3.37h1.585c.305 0 .598-.064.878-.186.353-.154.69-.476.946-.758.355-.39.47-.894.47-1.41 0-.338-.096-.679-.224-.988-.157-.38-.452-.672-.785-.901a2.116 2.116 0 00-1.224-.393h-3.273V3.45h2.656c.156 0 .35.081.495.14.376.153.534.504.534.894 0 .23-.071.445-.213.626l-.01.014-.01.012a1.235 1.235 0 01-.936.393h-2.515v4.649h1.627zm10.66 0V8.899h-3.525V6.808h3.34V5.529H54.25v4.649h5.152zm0-6.728V2.172h-5.152V3.45h5.152zm3.695 6.728V3.45h1.72c.357 0 .7.103.935.385l.018.021.016.024c.082.13.142.271.17.423.034.195.03.408.03.605v5.27H67.6V4.576c0-.646-.137-1.296-.59-1.782-.416-.449-.944-.622-1.545-.622H61.47v8.006h1.626z"
             fill="#fff"
@@ -31,6 +31,8 @@ export const OpenServiceMWhiteIcon: React.FC<SVGProps<SVGSVGElement>> = (props) 
             fill="#E63536"
         />
     </svg>
-);
+));
+
+OpenServiceMWhiteIcon.displayName = 'OpenServiceMWhiteIcon';
 
 export default OpenServiceMWhiteIcon;

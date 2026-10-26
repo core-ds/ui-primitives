@@ -2,10 +2,10 @@
  * This is auto-generated file by scripts/svg-to-component package
  * Do not edit it manually
  */
-import React, { SVGProps } from 'react';
+import React, { SVGProps, forwardRef } from 'react';
 
-export const FormatSketchXlWhiteIcon: React.FC<SVGProps<SVGSVGElement>> = (props) => (
-    <svg role="img" focusable="false" width="33" height="34" viewBox="0 0 33 34" {...props}>
+export const FormatSketchXlWhiteIcon = forwardRef<SVGSVGElement, SVGProps<SVGSVGElement>>((props, ref) => (
+    <svg ref={ref} role="img" focusable="false" width="33" height="34" viewBox="0 0 33 34" {...props}>
         <g fill="#FFF" fillRule="evenodd">
             <path d="M15 32H4.558a4.505 4.505 0 01-4.5-4.5V8.294L8.292 0h13.266c2.481 0 4.5 2.019 4.5 4.5V8h-1V4.5c0-1.93-1.57-3.5-3.5-3.5H8.708l-7.65 7.706V27.5c0 1.93 1.57 3.5 3.5 3.5H15v1z" />
             <path d="M20 33.237L7.374 19.559 12.723 11h14.555l5.349 8.559L20 33.237zM8.626 19.441L20 31.763l11.374-12.321L26.723 12H13.277l-4.651 7.441z" />
@@ -15,6 +15,8 @@ export const FormatSketchXlWhiteIcon: React.FC<SVGProps<SVGSVGElement>> = (props
             <path d="M19.543 32.288l6.01-12.996.908.42-6.01 12.996z" />
         </g>
     </svg>
-);
+));
+
+FormatSketchXlWhiteIcon.displayName = 'FormatSketchXlWhiteIcon';
 
 export default FormatSketchXlWhiteIcon;

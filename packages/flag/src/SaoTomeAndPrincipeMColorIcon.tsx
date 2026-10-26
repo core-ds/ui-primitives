@@ -2,10 +2,10 @@
  * This is auto-generated file by scripts/svg-to-component package
  * Do not edit it manually
  */
-import React, { SVGProps } from 'react';
+import React, { SVGProps, forwardRef } from 'react';
 
-export const SaoTomeAndPrincipeMColorIcon: React.FC<SVGProps<SVGSVGElement>> = (props) => (
-    <svg role="img" focusable="false" width="24" height="24" viewBox="0 0 24 24" {...props} fill="none">
+export const SaoTomeAndPrincipeMColorIcon = forwardRef<SVGSVGElement, SVGProps<SVGSVGElement>>((props, ref) => (
+    <svg ref={ref} role="img" focusable="false" width="24" height="24" viewBox="0 0 24 24" {...props} fill="none">
         <mask id="a" style={{ maskType: 'alpha' }} maskUnits="userSpaceOnUse" x="0" y="4" width="24" height="16">
             <path d="M22 4H2a2 2 0 00-2 2v12a2 2 0 002 2h20a2 2 0 002-2V6a2 2 0 00-2-2z" fill="#007A3D" />
         </mask>
@@ -19,6 +19,8 @@ export const SaoTomeAndPrincipeMColorIcon: React.FC<SVGProps<SVGSVGElement>> = (
             />
         </g>
     </svg>
-);
+));
+
+SaoTomeAndPrincipeMColorIcon.displayName = 'SaoTomeAndPrincipeMColorIcon';
 
 export default SaoTomeAndPrincipeMColorIcon;

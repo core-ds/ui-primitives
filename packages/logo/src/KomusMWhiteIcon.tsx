@@ -2,10 +2,10 @@
  * This is auto-generated file by scripts/svg-to-component package
  * Do not edit it manually
  */
-import React, { SVGProps } from 'react';
+import React, { SVGProps, forwardRef } from 'react';
 
-export const KomusMWhiteIcon: React.FC<SVGProps<SVGSVGElement>> = (props) => (
-    <svg role="img" focusable="false" width="64" height="24" viewBox="0 0 64 24" {...props} fill="none">
+export const KomusMWhiteIcon = forwardRef<SVGSVGElement, SVGProps<SVGSVGElement>>((props, ref) => (
+    <svg ref={ref} role="img" focusable="false" width="64" height="24" viewBox="0 0 64 24" {...props} fill="none">
         <path
             d="M16.054 10.413c0-3.254 2.609-5.735 5.614-5.735 1.134 0 2.447.396 3.563 1.349l-11.247 9.94c-.1.1-.15.15-.197.149-.047-.002-.092-.051-.18-.149l-4.68-5.159v4.207L2 18.07V5.65l6.928-3.075v4.602c.446-.567 1.01-1.276 1.543-1.947.736-.926 1.412-1.777 1.642-2.08.666-.737 1.35-1.15 2.52-1.15a2.418 2.418 0 012.41 2.39 2.393 2.393 0 01-4.733.503l-3.184 4.01c1.493 1.905 2.987 3.81 4.678 5.536.034.042.052.065.072.068.024.003.05-.02.108-.068l2.447-2.12c-.197-.576-.377-1.331-.377-1.906z"
             fill="#fff"
@@ -25,6 +25,8 @@ export const KomusMWhiteIcon: React.FC<SVGProps<SVGSVGElement>> = (props) => (
             fill="#fff"
         />
     </svg>
-);
+));
+
+KomusMWhiteIcon.displayName = 'KomusMWhiteIcon';
 
 export default KomusMWhiteIcon;

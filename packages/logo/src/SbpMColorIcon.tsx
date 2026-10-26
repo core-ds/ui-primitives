@@ -2,10 +2,10 @@
  * This is auto-generated file by scripts/svg-to-component package
  * Do not edit it manually
  */
-import React, { SVGProps } from 'react';
+import React, { SVGProps, forwardRef } from 'react';
 
-export const SbpMColorIcon: React.FC<SVGProps<SVGSVGElement>> = (props) => (
-    <svg role="img" focusable="false" width="43" height="24" viewBox="0 0 43 24" {...props} fill="none">
+export const SbpMColorIcon = forwardRef<SVGSVGElement, SVGProps<SVGSVGElement>>((props, ref) => (
+    <svg ref={ref} role="img" focusable="false" width="43" height="24" viewBox="0 0 43 24" {...props} fill="none">
         <path
             d="M9.547 13.095l2.694 1.772v3.286L9.535 23l.012-9.905z"
             fill="#62B22F"
@@ -61,6 +61,8 @@ export const SbpMColorIcon: React.FC<SVGProps<SVGSVGElement>> = (props) => (
             clipRule="evenodd"
         />
     </svg>
-);
+));
+
+SbpMColorIcon.displayName = 'SbpMColorIcon';
 
 export default SbpMColorIcon;

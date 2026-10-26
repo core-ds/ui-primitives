@@ -2,10 +2,10 @@
  * This is auto-generated file by scripts/svg-to-component package
  * Do not edit it manually
  */
-import React, { SVGProps } from 'react';
+import React, { SVGProps, forwardRef } from 'react';
 
-export const GettransferEnSignBoxMBlackIcon: React.FC<SVGProps<SVGSVGElement>> = (props) => (
-    <svg role="img" focusable="false" width="24" height="24" viewBox="0 0 24 24" {...props} fill="none">
+export const GettransferEnSignBoxMBlackIcon = forwardRef<SVGSVGElement, SVGProps<SVGSVGElement>>((props, ref) => (
+    <svg ref={ref} role="img" focusable="false" width="24" height="24" viewBox="0 0 24 24" {...props} fill="none">
         <path
             d="M4.322 8.562c.426 0 .817.082 1.162.242l.044.02.205-.79-.027-.015c-.371-.202-.85-.309-1.384-.309-.723 0-1.324.227-1.74.658C2.208 8.757 2 9.302 2 9.9c0 1.121.79 1.817 2.06 1.817.38 0 .941-.072 1.271-.278l.016-.01.298-2.054H3.87l-.194.767h.933l-.104.718a2.495 2.495 0 01-.445.048c-.62 0-.976-.368-.976-1.008 0-1.208.866-1.339 1.238-1.339zm3.024.936c.292 0 .353.198.353.364a.969.969 0 01-.007.11h-.885c.084-.319.261-.474.539-.474zm0-.74c-.477 0-.876.175-1.155.506-.252.3-.392.718-.392 1.176 0 .384.151 1.278 1.547 1.278.282 0 .592-.064.83-.173l.017-.007.25-.864-.086.05c-.27.16-.578.233-.967.233-.375 0-.573-.123-.62-.389h1.764l.008-.028c.043-.153.094-.387.094-.63 0-.7-.506-1.152-1.29-1.152zm2.842-.662l-1.021.14-.316 2.194c-.019.132-.027.23-.027.317 0 .645.36.971 1.071.971.164 0 .326-.024.482-.071l.021-.007.18-.763-.067.02a1.256 1.256 0 01-.386.052c-.265 0-.3-.125-.3-.235 0-.088.014-.183.024-.258l.135-.935h.695l.203-.69h-.799l.105-.735zM5.17 12.28H2.21l-.21.849h1.026l-.431 3.073H3.62l.43-3.073h.91l.21-.85z"
             fill="#000"
@@ -15,6 +15,8 @@ export const GettransferEnSignBoxMBlackIcon: React.FC<SVGProps<SVGSVGElement>> =
             fill="#000"
         />
     </svg>
-);
+));
+
+GettransferEnSignBoxMBlackIcon.displayName = 'GettransferEnSignBoxMBlackIcon';
 
 export default GettransferEnSignBoxMBlackIcon;

@@ -2,10 +2,10 @@
  * This is auto-generated file by scripts/svg-to-component package
  * Do not edit it manually
  */
-import React, { SVGProps } from 'react';
+import React, { SVGProps, forwardRef } from 'react';
 
-export const YclientsSignSquareMColorIcon: React.FC<SVGProps<SVGSVGElement>> = (props) => (
-    <svg role="img" focusable="false" width="24" height="24" viewBox="0 0 24 24" {...props} fill="none">
+export const YclientsSignSquareMColorIcon = forwardRef<SVGSVGElement, SVGProps<SVGSVGElement>>((props, ref) => (
+    <svg ref={ref} role="img" focusable="false" width="24" height="24" viewBox="0 0 24 24" {...props} fill="none">
         <path
             d="M7.973 2h8.054c2.09 0 3.136 0 3.935.407a3.737 3.737 0 011.631 1.631C22 4.837 22 5.882 22 7.973v8.054c0 2.09 0 3.136-.407 3.935a3.734 3.734 0 01-1.631 1.631c-.799.407-1.844.407-3.935.407H7.973c-2.09 0-3.136 0-3.935-.407a3.734 3.734 0 01-1.631-1.631C2 19.163 2 18.118 2 16.027V7.973c0-2.09 0-3.136.407-3.935a3.733 3.733 0 011.631-1.631C4.837 2 5.882 2 7.973 2zm2.933 16.473l6.892-10.617c.139-.213.208-.32.202-.409a.266.266 0 00-.106-.194c-.071-.053-.198-.053-.453-.053h-3.497c-.253 0-.38 0-.494.035a.8.8 0 00-.277.15c-.092.077-.161.182-.3.394L8.5 14.476c-.164.251-.247.377-.279.512a.796.796 0 000 .365c.032.135.114.261.277.513l1.694 2.607c.118.183.178.275.254.306.066.028.14.028.206 0 .075-.032.135-.123.254-.306zM6.197 7.849l2.105 3.289c.117.183.176.275.251.307.066.028.14.029.206.002.076-.031.136-.122.257-.304l2.178-3.288c.14-.213.211-.32.206-.408a.263.263 0 00-.106-.194c-.07-.053-.199-.053-.455-.053H6.556c-.253 0-.379 0-.45.052A.264.264 0 006 7.444c-.006.088.062.194.197.405z"
             fill="#FFCB00"
@@ -17,6 +17,8 @@ export const YclientsSignSquareMColorIcon: React.FC<SVGProps<SVGSVGElement>> = (
             fill="#000"
         />
     </svg>
-);
+));
+
+YclientsSignSquareMColorIcon.displayName = 'YclientsSignSquareMColorIcon';
 
 export default YclientsSignSquareMColorIcon;

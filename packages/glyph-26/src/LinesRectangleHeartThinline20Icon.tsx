@@ -2,14 +2,25 @@
  * This is auto-generated file by scripts/svg-to-component package
  * Do not edit it manually
  */
-import React, { SVGProps } from 'react';
+import React, { SVGProps, forwardRef } from 'react';
 
-export const LinesRectangleHeartThinline20Icon: React.FC<SVGProps<SVGSVGElement>> = (props) => (
-    <svg role="img" focusable="false" fill="currentColor" width="20" height="20" viewBox="0 0 20 20" {...props}>
+export const LinesRectangleHeartThinline20Icon = forwardRef<SVGSVGElement, SVGProps<SVGSVGElement>>((props, ref) => (
+    <svg
+        ref={ref}
+        role="img"
+        focusable="false"
+        fill="currentColor"
+        width="20"
+        height="20"
+        viewBox="0 0 20 20"
+        {...props}
+    >
         <path d="M16.792 11.258c.388 0 .773.075 1.132.22.359.146.686.361.96.633l.196.214a2.9 2.9 0 01.674 1.854 2.91 2.91 0 01-.87 2.067l-.004.004-3.294 3.22a.744.744 0 01-1.114.072l-3.347-3.295-.002-.002a2.913 2.913 0 01-.87-2.067c0-.777.316-1.517.87-2.067a2.93 2.93 0 01.96-.633 3.012 3.012 0 012.265 0c.235.096.453.224.655.376a2.94 2.94 0 011.789-.596zm0 1.5c-.196 0-.39.038-.568.11a1.425 1.425 0 00-.468.308l-.004.004-.225.218a.75.75 0 01-1.047 0l-.224-.218-.005-.004c-.13-.13-.29-.235-.468-.308a1.509 1.509 0 00-1.135 0 1.428 1.428 0 00-.894 1.31c0 .366.148.725.424 1l2.815 2.773 2.834-2.77c.278-.276.427-.635.427-1.002 0-.322-.114-.638-.328-.896l-.099-.107c-.13-.13-.29-.235-.468-.308a1.51 1.51 0 00-.567-.11z" />
         <path d="M14.654 2.504a3 3 0 012.842 2.842l.004.154V9H16V5.5A1.5 1.5 0 0014.5 4h-9A1.5 1.5 0 004 5.5v9A1.5 1.5 0 005.5 16H8v1.5H5.5a3 3 0 01-3-3v-9a3 3 0 012.846-2.996L5.5 2.5h9l.154.004z" />
         <path d="M10 10.45H6v-1.5h4v1.5zm3-3H6v-1.5h7v1.5z" />
     </svg>
-);
+));
+
+LinesRectangleHeartThinline20Icon.displayName = 'LinesRectangleHeartThinline20Icon';
 
 export default LinesRectangleHeartThinline20Icon;

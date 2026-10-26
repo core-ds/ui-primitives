@@ -2,10 +2,10 @@
  * This is auto-generated file by scripts/svg-to-component package
  * Do not edit it manually
  */
-import React, { SVGProps } from 'react';
+import React, { SVGProps, forwardRef } from 'react';
 
-export const KursMColorIcon: React.FC<SVGProps<SVGSVGElement>> = (props) => (
-    <svg role="img" focusable="false" width="48" height="24" viewBox="0 0 48 24" {...props} fill="none">
+export const KursMColorIcon = forwardRef<SVGSVGElement, SVGProps<SVGSVGElement>>((props, ref) => (
+    <svg ref={ref} role="img" focusable="false" width="48" height="24" viewBox="0 0 48 24" {...props} fill="none">
         <path
             d="M41.27 13.896a6.925 6.925 0 01-2.463-.43 6.146 6.146 0 01-1.966-1.24 5.802 5.802 0 01-1.288-1.9 6.029 6.029 0 01-.463-2.378c0-.86.154-1.652.463-2.38a5.508 5.508 0 011.305-1.883 5.788 5.788 0 011.966-1.239A6.643 6.643 0 0141.286 2c.947 0 1.812.165 2.594.496.782.32 1.442.798 1.982 1.437l-1.388 1.305A4.097 4.097 0 0043.07 4.23a4.084 4.084 0 00-1.685-.347c-.606 0-1.162.1-1.669.298-.496.198-.93.479-1.305.842-.364.364-.65.793-.86 1.29a4.365 4.365 0 00-.297 1.635c0 .595.1 1.14.298 1.635.21.496.495.926.859 1.29.374.363.81.644 1.305.842a4.543 4.543 0 001.669.297c.606 0 1.167-.11 1.685-.33a4.202 4.202 0 001.404-1.041l1.388 1.322A5.292 5.292 0 0143.88 13.4c-.782.33-1.653.496-2.61.496z"
             fill="#212124"
@@ -24,6 +24,8 @@ export const KursMColorIcon: React.FC<SVGProps<SVGSVGElement>> = (props) => (
             fillOpacity=".88"
         />
     </svg>
-);
+));
+
+KursMColorIcon.displayName = 'KursMColorIcon';
 
 export default KursMColorIcon;

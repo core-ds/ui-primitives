@@ -2,10 +2,10 @@
  * This is auto-generated file by scripts/svg-to-component package
  * Do not edit it manually
  */
-import React, { SVGProps } from 'react';
+import React, { SVGProps, forwardRef } from 'react';
 
-export const KuperForBusinessSignBoxMColorIcon: React.FC<SVGProps<SVGSVGElement>> = (props) => (
-    <svg role="img" focusable="false" width="24" height="24" viewBox="0 0 24 24" {...props} fill="none">
+export const KuperForBusinessSignBoxMColorIcon = forwardRef<SVGSVGElement, SVGProps<SVGSVGElement>>((props, ref) => (
+    <svg ref={ref} role="img" focusable="false" width="24" height="24" viewBox="0 0 24 24" {...props} fill="none">
         <path
             d="M12 9.627a2.14 2.14 0 002.143-2.136A2.14 2.14 0 0012 5.354a2.14 2.14 0 00-2.143 2.137c0 1.18.96 2.136 2.143 2.136zm-5.595.712h11.19c.854 0 1.547.69 1.547 1.543 0 .852-.693 1.543-1.547 1.543h-2.991l4.539 5.221h-4.048L12 15.086l-3.095 3.56H4.858l4.539-5.221H6.405c-.854 0-1.547-.691-1.547-1.543s.692-1.543 1.547-1.543z"
             fill="#fff"
@@ -19,6 +19,8 @@ export const KuperForBusinessSignBoxMColorIcon: React.FC<SVGProps<SVGSVGElement>
             clipRule="evenodd"
         />
     </svg>
-);
+));
+
+KuperForBusinessSignBoxMColorIcon.displayName = 'KuperForBusinessSignBoxMColorIcon';
 
 export default KuperForBusinessSignBoxMColorIcon;

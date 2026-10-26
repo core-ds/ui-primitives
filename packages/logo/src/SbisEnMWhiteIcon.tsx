@@ -2,10 +2,10 @@
  * This is auto-generated file by scripts/svg-to-component package
  * Do not edit it manually
  */
-import React, { SVGProps } from 'react';
+import React, { SVGProps, forwardRef } from 'react';
 
-export const SbisEnMWhiteIcon: React.FC<SVGProps<SVGSVGElement>> = (props) => (
-    <svg role="img" focusable="false" width="58" height="24" viewBox="0 0 58 24" {...props} fill="none">
+export const SbisEnMWhiteIcon = forwardRef<SVGSVGElement, SVGProps<SVGSVGElement>>((props, ref) => (
+    <svg ref={ref} role="img" focusable="false" width="58" height="24" viewBox="0 0 58 24" {...props} fill="none">
         <path d="M53.55 9.934l-1.123-3.967L44.56 22l8.99-12.066z" fill="#0B6FBD" />
         <path
             d="M53.15 8.529l-.723-2.562 3.372-1.074-2.65 3.636zm-3.452 6.529l3.852-5.124L41.511 2l8.187 13.058z"
@@ -16,6 +16,8 @@ export const SbisEnMWhiteIcon: React.FC<SVGProps<SVGSVGElement>> = (props) => (
             fill="#fff"
         />
     </svg>
-);
+));
+
+SbisEnMWhiteIcon.displayName = 'SbisEnMWhiteIcon';
 
 export default SbisEnMWhiteIcon;

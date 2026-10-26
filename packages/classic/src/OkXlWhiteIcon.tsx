@@ -2,10 +2,10 @@
  * This is auto-generated file by scripts/svg-to-component package
  * Do not edit it manually
  */
-import React, { SVGProps } from 'react';
+import React, { SVGProps, forwardRef } from 'react';
 
-export const OkXlWhiteIcon: React.FC<SVGProps<SVGSVGElement>> = (props) => (
-    <svg role="img" focusable="false" width="36" height="36" viewBox="0 0 36 36" {...props}>
+export const OkXlWhiteIcon = forwardRef<SVGSVGElement, SVGProps<SVGSVGElement>>((props, ref) => (
+    <svg ref={ref} role="img" focusable="false" width="36" height="36" viewBox="0 0 36 36" {...props}>
         <g fill="none">
             <path
                 fill="#FFF"
@@ -14,6 +14,8 @@ export const OkXlWhiteIcon: React.FC<SVGProps<SVGSVGElement>> = (props) => (
             <path fill="#FFF" d="M15.319 23.115l-6.135-5.948-.664.686 6.799 6.799 11.532-11.533-.834-.812z" />
         </g>
     </svg>
-);
+));
+
+OkXlWhiteIcon.displayName = 'OkXlWhiteIcon';
 
 export default OkXlWhiteIcon;

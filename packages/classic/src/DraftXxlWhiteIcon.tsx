@@ -2,10 +2,10 @@
  * This is auto-generated file by scripts/svg-to-component package
  * Do not edit it manually
  */
-import React, { SVGProps } from 'react';
+import React, { SVGProps, forwardRef } from 'react';
 
-export const DraftXxlWhiteIcon: React.FC<SVGProps<SVGSVGElement>> = (props) => (
-    <svg role="img" focusable="false" width="42" height="42" viewBox="0 0 42 42" {...props}>
+export const DraftXxlWhiteIcon = forwardRef<SVGSVGElement, SVGProps<SVGSVGElement>>((props, ref) => (
+    <svg ref={ref} role="img" focusable="false" width="42" height="42" viewBox="0 0 42 42" {...props}>
         <g fill="none" fillRule="evenodd">
             <path d="M-4-2h48v48H-4z" />
             <path fill="#FFF" d="M12 42H0V30L22.8 7.2l12 12L12 42zM1 41h10.6l21.8-21.8L22.8 8.6 1 30.4V41z" />
@@ -16,6 +16,8 @@ export const DraftXxlWhiteIcon: React.FC<SVGProps<SVGSVGElement>> = (props) => (
             <path fill="#FFF" d="M11.8 41.5H.5V30.2z" opacity=".2" />
         </g>
     </svg>
-);
+));
+
+DraftXxlWhiteIcon.displayName = 'DraftXxlWhiteIcon';
 
 export default DraftXxlWhiteIcon;

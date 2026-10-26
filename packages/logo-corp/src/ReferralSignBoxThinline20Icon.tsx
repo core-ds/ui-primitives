@@ -2,12 +2,23 @@
  * This is auto-generated file by scripts/svg-to-component package
  * Do not edit it manually
  */
-import React, { SVGProps } from 'react';
+import React, { SVGProps, forwardRef } from 'react';
 
-export const ReferralSignBoxThinline20Icon: React.FC<SVGProps<SVGSVGElement>> = (props) => (
-    <svg role="img" focusable="false" fill="currentColor" width="20" height="20" viewBox="0 0 20 20" {...props}>
+export const ReferralSignBoxThinline20Icon = forwardRef<SVGSVGElement, SVGProps<SVGSVGElement>>((props, ref) => (
+    <svg
+        ref={ref}
+        role="img"
+        focusable="false"
+        fill="currentColor"
+        width="20"
+        height="20"
+        viewBox="0 0 20 20"
+        {...props}
+    >
         <path d="M16.75 11a6.75 6.75 0 11-13.5 0c0-2.204.883-3.829 1.833-4.733l.715-.682.874 1.643c.139-.176.291-.384.442-.625C7.678 5.7 8.25 4.336 8.25 2.5V1.35l1.052.463.002.001h.002c.001.001.003.003.005.003l.014.007a4.025 4.025 0 01.216.106c.141.072.34.18.575.324a10.83 10.83 0 011.747 1.33c1.091 1.023 2.238 2.544 2.7 4.63l1.225-.796.38.74.002.004c0 .002 0 .004.002.006l.008.015.023.048a5.83 5.83 0 01.268.74c.14.49.279 1.186.279 2.029zm-12 0a5.25 5.25 0 1010.5 0c0-.533-.07-.989-.152-1.344l-1.745 1.136-.101-1.256c-.18-2.237-1.306-3.819-2.415-4.858a9.334 9.334 0 00-1.167-.929 8.985 8.985 0 01-1.284 3.648c-.342.548-.686.96-.948 1.24a6.018 6.018 0 01-.454.435l-.01.008-.004.005c-.003-.003-.04-.047-.47-.585l.469.586-.706.564-.787-1.478C5.07 8.854 4.75 9.802 4.75 11z" />
     </svg>
-);
+));
+
+ReferralSignBoxThinline20Icon.displayName = 'ReferralSignBoxThinline20Icon';
 
 export default ReferralSignBoxThinline20Icon;

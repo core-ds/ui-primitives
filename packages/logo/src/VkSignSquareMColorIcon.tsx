@@ -2,10 +2,10 @@
  * This is auto-generated file by scripts/svg-to-component package
  * Do not edit it manually
  */
-import React, { SVGProps } from 'react';
+import React, { SVGProps, forwardRef } from 'react';
 
-export const VkSignSquareMColorIcon: React.FC<SVGProps<SVGSVGElement>> = (props) => (
-    <svg role="img" focusable="false" width="24" height="24" viewBox="0 0 24 24" {...props} fill="none">
+export const VkSignSquareMColorIcon = forwardRef<SVGSVGElement, SVGProps<SVGSVGElement>>((props, ref) => (
+    <svg ref={ref} role="img" focusable="false" width="24" height="24" viewBox="0 0 24 24" {...props} fill="none">
         <path
             d="M2 11.6c0-4.525 0-6.788 1.406-8.194C4.812 2 7.075 2 11.6 2h.8c4.525 0 6.788 0 8.194 1.406C22 4.812 22 7.075 22 11.6v.8c0 4.525 0 6.788-1.406 8.194C19.188 22 16.925 22 12.4 22h-.8c-4.525 0-6.788 0-8.194-1.406C2 19.188 2 16.925 2 12.4v-.8z"
             fill="#07F"
@@ -15,6 +15,8 @@ export const VkSignSquareMColorIcon: React.FC<SVGProps<SVGSVGElement>> = (props)
             fill="#fff"
         />
     </svg>
-);
+));
+
+VkSignSquareMColorIcon.displayName = 'VkSignSquareMColorIcon';
 
 export default VkSignSquareMColorIcon;

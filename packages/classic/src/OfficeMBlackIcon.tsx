@@ -2,10 +2,10 @@
  * This is auto-generated file by scripts/svg-to-component package
  * Do not edit it manually
  */
-import React, { SVGProps } from 'react';
+import React, { SVGProps, forwardRef } from 'react';
 
-export const OfficeMBlackIcon: React.FC<SVGProps<SVGSVGElement>> = (props) => (
-    <svg role="img" focusable="false" width="24" height="24" viewBox="0 0 24 24" {...props}>
+export const OfficeMBlackIcon = forwardRef<SVGSVGElement, SVGProps<SVGSVGElement>>((props, ref) => (
+    <svg ref={ref} role="img" focusable="false" width="24" height="24" viewBox="0 0 24 24" {...props}>
         <g fill="#0B1F35">
             <path opacity=".2" d="M15 19.5V4.006L21.5 1.5v21z" />
             <path
@@ -16,6 +16,8 @@ export const OfficeMBlackIcon: React.FC<SVGProps<SVGSVGElement>> = (props) => (
             <path d="M22 23H1.98V1H22v22zM2.98 22H21V2H2.98v20z" />
         </g>
     </svg>
-);
+));
+
+OfficeMBlackIcon.displayName = 'OfficeMBlackIcon';
 
 export default OfficeMBlackIcon;

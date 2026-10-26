@@ -2,10 +2,10 @@
  * This is auto-generated file by scripts/svg-to-component package
  * Do not edit it manually
  */
-import React, { SVGProps } from 'react';
+import React, { SVGProps, forwardRef } from 'react';
 
-export const DetskijMirSignBoxMColorIcon: React.FC<SVGProps<SVGSVGElement>> = (props) => (
-    <svg role="img" focusable="false" width="24" height="24" viewBox="0 0 24 24" {...props} fill="none">
+export const DetskijMirSignBoxMColorIcon = forwardRef<SVGSVGElement, SVGProps<SVGSVGElement>>((props, ref) => (
+    <svg ref={ref} role="img" focusable="false" width="24" height="24" viewBox="0 0 24 24" {...props} fill="none">
         <path
             d="M4.874 6.01c-1.016.368-1.364.034-1.66-.781l-.377-1.044C2.475 3.169 2.81 2.82 3.62 2.53l1.045-.377c1.015-.367 1.363-.033 1.66.782L6.7 3.98c.367 1.016.033 1.364-.782 1.66l-1.044.372z"
             fill="#FF4F3E"
@@ -27,6 +27,8 @@ export const DetskijMirSignBoxMColorIcon: React.FC<SVGProps<SVGSVGElement>> = (p
             fill="#0073E6"
         />
     </svg>
-);
+));
+
+DetskijMirSignBoxMColorIcon.displayName = 'DetskijMirSignBoxMColorIcon';
 
 export default DetskijMirSignBoxMColorIcon;

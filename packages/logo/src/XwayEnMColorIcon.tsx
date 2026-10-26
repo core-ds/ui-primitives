@@ -2,10 +2,10 @@
  * This is auto-generated file by scripts/svg-to-component package
  * Do not edit it manually
  */
-import React, { SVGProps } from 'react';
+import React, { SVGProps, forwardRef } from 'react';
 
-export const XwayEnMColorIcon: React.FC<SVGProps<SVGSVGElement>> = (props) => (
-    <svg role="img" focusable="false" width="87" height="24" viewBox="0 0 87 24" {...props} fill="none">
+export const XwayEnMColorIcon = forwardRef<SVGSVGElement, SVGProps<SVGSVGElement>>((props, ref) => (
+    <svg ref={ref} role="img" focusable="false" width="87" height="24" viewBox="0 0 87 24" {...props} fill="none">
         <path
             d="M44.912 7.546c.094 0 .141.03.188.17l2.094 6.936c.015.077.047.093.11.093h.062c.047 0 .078-.016.11-.093l2.093-6.345c.188-.575.485-.746.953-.746h1.282c.562 0 .844.202 1.015.746l2.141 6.345c.032.077.047.093.11.093h.078c.047 0 .078-.016.11-.093l2.046-6.935c.032-.14.11-.171.203-.171h1.75c.141 0 .157.14.11.295l-2.485 7.744c-.25.777-.5.98-1 .98h-1.515c-.5 0-.735-.218-1-.98l-2.032-6.111c-.016-.063-.031-.094-.11-.094h-.046c-.047 0-.094.031-.11.094l-2.062 6.11c-.266.763-.485.98-1 .98h-1.47c-.578 0-.843-.186-1.093-.98l-2.376-7.743c-.046-.171-.03-.295.11-.295h1.734zm22.299 0c.656 0 1.062.202 1.484.98l4.282 7.743c.094.17.047.295-.156.295H71.18c-.172 0-.235-.03-.297-.17l-.922-1.665h-6.078l-.891 1.664c-.063.125-.141.171-.297.171h-1.688c-.219 0-.265-.124-.172-.295l4.25-7.744c.423-.777.813-.98 1.36-.98h.766zm-2.5 5.706h4.453l-2.063-3.778c-.03-.063-.078-.094-.14-.094h-.078c-.063 0-.11.031-.14.094l-2.032 3.778zm10.767-5.706c.156 0 .234.03.312.155l3.454 4.65 3.484-4.65c.079-.109.157-.155.313-.155h1.688c.14 0 .203.14.11.264l-4.642 6.002v2.472c0 .187-.093.28-.281.28h-1.39c-.188 0-.298-.093-.298-.28v-2.472L73.634 7.81c-.094-.109-.031-.264.11-.264h1.734z"
             fill="#000"
@@ -25,6 +25,8 @@ export const XwayEnMColorIcon: React.FC<SVGProps<SVGSVGElement>> = (props) => (
             clipRule="evenodd"
         />
     </svg>
-);
+));
+
+XwayEnMColorIcon.displayName = 'XwayEnMColorIcon';
 
 export default XwayEnMColorIcon;

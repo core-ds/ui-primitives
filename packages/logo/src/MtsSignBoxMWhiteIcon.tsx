@@ -2,15 +2,17 @@
  * This is auto-generated file by scripts/svg-to-component package
  * Do not edit it manually
  */
-import React, { SVGProps } from 'react';
+import React, { SVGProps, forwardRef } from 'react';
 
-export const MtsSignBoxMWhiteIcon: React.FC<SVGProps<SVGSVGElement>> = (props) => (
-    <svg role="img" focusable="false" width="24" height="24" viewBox="0 0 24 24" {...props} fill="none">
+export const MtsSignBoxMWhiteIcon = forwardRef<SVGSVGElement, SVGProps<SVGSVGElement>>((props, ref) => (
+    <svg ref={ref} role="img" focusable="false" width="24" height="24" viewBox="0 0 24 24" {...props} fill="none">
         <path
             d="M7.368 2L5.632 5.587 3.895 2H2v5.422h1.328v-3.88l1.698 3.277h1.211l1.698-3.277v3.88h1.33V2H7.369zm8.555 0v1.08h2.373l-.005 4.342h1.328l.005-4.342H22V2h-6.077zm4.747 18.076a.888.888 0 01-.262.528 1.13 1.13 0 01-.534.268c-.22.05-.539.08-.88.08a2.9 2.9 0 01-.928-.135 1.135 1.135 0 01-.6-.45c-.145-.213-.217-.523-.217-.915v-.556c0-.395.072-.702.216-.915.142-.212.345-.362.6-.45a2.95 2.95 0 01.929-.135c.352 0 .66.03.88.08.223.05.4.14.534.268a.912.912 0 01.261.528H22c-.036-.448-.189-.83-.456-1.133-.244-.28-.58-.484-1-.608-.408-.122-.942-.185-1.548-.185-.636 0-1.189.09-1.644.27a2.105 2.105 0 00-1.065.904c-.236.4-.358.934-.366 1.59v.06l.072.003-.072.002v.061c.008.655.13 1.188.366 1.59.245.416.603.72 1.065.903.452.18 1.005.27 1.644.27.637 0 1.142-.063 1.548-.184.42-.125.756-.33 1-.608.267-.304.42-.686.456-1.134l-1.33.003z"
             fill="#fff"
         />
     </svg>
-);
+));
+
+MtsSignBoxMWhiteIcon.displayName = 'MtsSignBoxMWhiteIcon';
 
 export default MtsSignBoxMWhiteIcon;

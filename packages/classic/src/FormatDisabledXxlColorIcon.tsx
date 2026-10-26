@@ -2,10 +2,10 @@
  * This is auto-generated file by scripts/svg-to-component package
  * Do not edit it manually
  */
-import React, { SVGProps } from 'react';
+import React, { SVGProps, forwardRef } from 'react';
 
-export const FormatDisabledXxlColorIcon: React.FC<SVGProps<SVGSVGElement>> = (props) => (
-    <svg role="img" focusable="false" width="48" height="48" viewBox="0 0 48 48" {...props} fill="none">
+export const FormatDisabledXxlColorIcon = forwardRef<SVGSVGElement, SVGProps<SVGSVGElement>>((props, ref) => (
+    <svg ref={ref} role="img" focusable="false" width="48" height="48" viewBox="0 0 48 48" {...props} fill="none">
         <g opacity=".6">
             <path
                 d="M7.5 3.5a3 3 0 013-3h20.293l9.818 9.829a3 3 0 01.878 2.12V44.5a3 3 0 01-3 3H10.5a3 3 0 01-3-3v-41z"
@@ -25,6 +25,8 @@ export const FormatDisabledXxlColorIcon: React.FC<SVGProps<SVGSVGElement>> = (pr
             fill="#EF3124"
         />
     </svg>
-);
+));
+
+FormatDisabledXxlColorIcon.displayName = 'FormatDisabledXxlColorIcon';
 
 export default FormatDisabledXxlColorIcon;

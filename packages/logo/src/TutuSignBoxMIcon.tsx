@@ -2,16 +2,27 @@
  * This is auto-generated file by scripts/svg-to-component package
  * Do not edit it manually
  */
-import React, { SVGProps } from 'react';
+import React, { SVGProps, forwardRef } from 'react';
 
-export const TutuSignBoxMIcon: React.FC<SVGProps<SVGSVGElement>> = (props) => (
-    <svg role="img" focusable="false" fill="currentColor" width="24" height="24" viewBox="0 0 24 24" {...props}>
+export const TutuSignBoxMIcon = forwardRef<SVGSVGElement, SVGProps<SVGSVGElement>>((props, ref) => (
+    <svg
+        ref={ref}
+        role="img"
+        focusable="false"
+        fill="currentColor"
+        width="24"
+        height="24"
+        viewBox="0 0 24 24"
+        {...props}
+    >
         <path
             d="M1.838 11.07c.078-9.584 12.632-13.848 18.58-5.947a1.272 1.272 0 00-.426.342c.119-.134.264-.241.427-.316a1.232 1.232 0 011.118 0c.303.151.535.419.646.744.111.325.093.683-.052.994a3.638 3.638 0 00-.047.102l-.015.034c-.053.116-.12.265-.263.533.58.583.974 1.334 1.129 2.153.16.889.018 1.745-.333 2.552a11.07 11.07 0 01-1.628 5.274 10.716 10.716 0 01-3.97 3.783 10.142 10.142 0 01-8.263.555 10.337 10.337 0 01-3.606-2.268 10.648 10.648 0 01-2.424-3.554c.213.1.432.187.655.26.056.064.113.127.17.189a6.81 6.81 0 01-.162-.19 3.968 3.968 0 01-1.335-.698c-1.211-1-1.467-2.713-.213-4.41a2.77 2.77 0 01.012-.131zm16.675-3.372C14.403 6.66 6.07 8.7 3.588 12.275a6.92 6.92 0 00.467 1.749c2.215.397 8.47-1.348 12.468-4.45a12.187 12.187 0 001.99-1.876zm1.91 1.86c-2.106 2.467-5.268 4.318-8.146 5.436-1.486.583-3.503 1.249-5.442 1.494 4.892 1.684 12.14-1.69 13.933-4.611a8.819 8.819 0 00-.344-2.318zM3.85 9.309C5.807 2.718 13.998 1.17 18.4 5.947c-4.362-.879-10.69.702-14.55 3.36zm12.377 10.505a8.531 8.531 0 003.896-4.478 8.737 8.737 0 001.275-1.235c-1.173 1.332-2.818 2.44-4.341 3.205-3.576 1.823-7.654 2.321-10.73 1.108a8.52 8.52 0 004.715 2.322 8.42 8.42 0 005.185-.922z"
             fillRule="evenodd"
             clipRule="evenodd"
         />
     </svg>
-);
+));
+
+TutuSignBoxMIcon.displayName = 'TutuSignBoxMIcon';
 
 export default TutuSignBoxMIcon;

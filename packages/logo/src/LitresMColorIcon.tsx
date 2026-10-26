@@ -2,10 +2,10 @@
  * This is auto-generated file by scripts/svg-to-component package
  * Do not edit it manually
  */
-import React, { SVGProps } from 'react';
+import React, { SVGProps, forwardRef } from 'react';
 
-export const LitresMColorIcon: React.FC<SVGProps<SVGSVGElement>> = (props) => (
-    <svg role="img" focusable="false" width="127" height="24" viewBox="0 0 127 24" {...props} fill="none">
+export const LitresMColorIcon = forwardRef<SVGSVGElement, SVGProps<SVGSVGElement>>((props, ref) => (
+    <svg ref={ref} role="img" focusable="false" width="127" height="24" viewBox="0 0 127 24" {...props} fill="none">
         <path
             d="M95.918 17.84c2.239 0 4.024-.36 5.765-1.148v-3.256a.084.084 0 00-.126-.073c-1.803.943-3.453 1.352-5.639 1.352-2.646 0-4.001-1.26-4.001-3.69 0-2.43 1.358-3.69 4.001-3.69 2.19 0 3.836.409 5.639 1.352.059.03.126-.01.126-.073V5.357c-1.741-.787-3.526-1.147-5.765-1.147-4.793 0-7.55 2.475-7.55 6.818s2.757 6.818 7.55 6.818v-.006zm-9.159-6.595c0-4.884-3.005-7.02-7.326-7.02-4.7 0-7.55 2.564-7.55 6.75 0 5.156 3.211 6.865 7.87 6.865 2.826 0 5.065-.452 6.6-1.056v-3.122a.085.085 0 00-.121-.077c-1.114.553-3.647 1.218-6.434 1.218-2.447 0-3.99-.79-4.333-2.722h11.11c.07 0 .129-.052.14-.12.034-.234.05-.482.05-.713l-.006-.003zm-7.326-4.096c2.19 0 3.398.976 3.846 2.408h-7.752c.38-1.545 1.56-2.408 3.903-2.408M63.852 4.2c-2.36 0-3.97.92-4.973 2.28-.025.034-.08.019-.08-.024l-.055-1.895h-3.367V22h3.459v-6.38c0-.042.052-.06.08-.024 1.002 1.34 2.603 2.243 4.94 2.243 4.001 0 6.488-2.857 6.488-6.818 0-3.962-2.487-6.818-6.488-6.818m-1.04 10.508c-2.33 0-3.98-1.462-3.98-3.69 0-2.228 1.65-3.69 3.98-3.69 2.508 0 3.888 1.416 3.888 3.69s-1.38 3.69-3.888 3.69z"
             fill="#F50"
@@ -26,6 +26,8 @@ export const LitresMColorIcon: React.FC<SVGProps<SVGSVGElement>> = (props) => (
         <path d="M115.703 14.27h-2.193a2.101 2.101 0 010 3.234h2.193a2.1 2.1 0 000-3.235z" fill="#6262D9" />
         <path d="M113.51 14.27h-2.192a2.101 2.101 0 010 3.234h2.192a2.101 2.101 0 000-3.235z" fill="#3D3DC7" />
     </svg>
-);
+));
+
+LitresMColorIcon.displayName = 'LitresMColorIcon';
 
 export default LitresMColorIcon;

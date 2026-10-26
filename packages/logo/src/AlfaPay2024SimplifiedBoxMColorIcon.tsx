@@ -2,10 +2,10 @@
  * This is auto-generated file by scripts/svg-to-component package
  * Do not edit it manually
  */
-import React, { SVGProps } from 'react';
+import React, { SVGProps, forwardRef } from 'react';
 
-export const AlfaPay2024SimplifiedBoxMColorIcon: React.FC<SVGProps<SVGSVGElement>> = (props) => (
-    <svg role="img" focusable="false" width="24" height="24" viewBox="0 0 24 24" {...props} fill="none">
+export const AlfaPay2024SimplifiedBoxMColorIcon = forwardRef<SVGSVGElement, SVGProps<SVGSVGElement>>((props, ref) => (
+    <svg ref={ref} role="img" focusable="false" width="24" height="24" viewBox="0 0 24 24" {...props} fill="none">
         <path
             d="M8.477 20.98H7.264V22H6.221v-3.842h2.256c.878 0 1.41.527 1.41 1.405 0 .851-.532 1.416-1.41 1.416zm-1.213-.934H8.39c.28 0 .428-.17.428-.483 0-.33-.148-.51-.428-.51H7.264v.993zM9.828 22h1.075l.227-.521h1.701l.223.521h1.147l-1.624-3.841H11.49L9.828 22zm1.636-1.311h1.04l-.541-1.401-.5 1.4z"
             fill="#000"
@@ -28,6 +28,8 @@ export const AlfaPay2024SimplifiedBoxMColorIcon: React.FC<SVGProps<SVGSVGElement
         />
         <path d="M14.595 11.489h-5.19v1.077h5.19v-1.077z" fill="#fff" />
     </svg>
-);
+));
+
+AlfaPay2024SimplifiedBoxMColorIcon.displayName = 'AlfaPay2024SimplifiedBoxMColorIcon';
 
 export default AlfaPay2024SimplifiedBoxMColorIcon;

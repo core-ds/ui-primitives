@@ -2,10 +2,19 @@
  * This is auto-generated file by scripts/svg-to-component package
  * Do not edit it manually
  */
-import React, { SVGProps } from 'react';
+import React, { SVGProps, forwardRef } from 'react';
 
-export const SunMIcon: React.FC<SVGProps<SVGSVGElement>> = (props) => (
-    <svg role="img" focusable="false" fill="currentColor" width="24" height="24" viewBox="0 0 24 24" {...props}>
+export const SunMIcon = forwardRef<SVGSVGElement, SVGProps<SVGSVGElement>>((props, ref) => (
+    <svg
+        ref={ref}
+        role="img"
+        focusable="false"
+        fill="currentColor"
+        width="24"
+        height="24"
+        viewBox="0 0 24 24"
+        {...props}
+    >
         <g clipPath="url(#prefix__clip0_151926_17726)">
             <path d="M11 0h2v4h-2V0zM4 11H0v2h4v-2zm7 13v-4h2v4h-2zm9-11h4v-2h-4v2z" />
             <path d="M6 12a6 6 0 1112 0 6 6 0 01-12 0z" fillRule="evenodd" clipRule="evenodd" />
@@ -17,6 +26,8 @@ export const SunMIcon: React.FC<SVGProps<SVGSVGElement>> = (props) => (
             </clipPath>
         </defs>
     </svg>
-);
+));
+
+SunMIcon.displayName = 'SunMIcon';
 
 export default SunMIcon;

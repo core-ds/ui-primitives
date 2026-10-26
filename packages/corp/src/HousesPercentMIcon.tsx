@@ -2,10 +2,19 @@
  * This is auto-generated file by scripts/svg-to-component package
  * Do not edit it manually
  */
-import React, { SVGProps } from 'react';
+import React, { SVGProps, forwardRef } from 'react';
 
-export const HousesPercentMIcon: React.FC<SVGProps<SVGSVGElement>> = (props) => (
-    <svg role="img" focusable="false" fill="currentColor" width="24" height="24" viewBox="0 0 24 24" {...props}>
+export const HousesPercentMIcon = forwardRef<SVGSVGElement, SVGProps<SVGSVGElement>>((props, ref) => (
+    <svg
+        ref={ref}
+        role="img"
+        focusable="false"
+        fill="currentColor"
+        width="24"
+        height="24"
+        viewBox="0 0 24 24"
+        {...props}
+    >
         <path d="M14.02 18.505L11.927 21H8V3l12.42 2.661A2 2 0 0122 7.617V9l-2.79 3.32a4.357 4.357 0 10-5.19 6.185zm8.87-5.015l-1.204-1.01-7.576 9.03 1.204 1.01 7.576-9.03z" />
         <path
             d="M19.33 20.188a2.358 2.358 0 11-.044.455m1.657.357a.786.786 0 10-.086-.357m.013.141a.78.78 0 00.073.216l-.073-.216zm-.013-.141c0 .048.005.095.013.141l-.013-.141z"
@@ -19,6 +28,8 @@ export const HousesPercentMIcon: React.FC<SVGProps<SVGSVGElement>> = (props) => 
             clipRule="evenodd"
         />
     </svg>
-);
+));
+
+HousesPercentMIcon.displayName = 'HousesPercentMIcon';
 
 export default HousesPercentMIcon;

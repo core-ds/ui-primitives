@@ -2,10 +2,10 @@
  * This is auto-generated file by scripts/svg-to-component package
  * Do not edit it manually
  */
-import React, { SVGProps } from 'react';
+import React, { SVGProps, forwardRef } from 'react';
 
-export const GosuslugiXlColorIcon: React.FC<SVGProps<SVGSVGElement>> = (props) => (
-    <svg role="img" focusable="false" width="48" height="48" viewBox="0 0 48 48" {...props} fill="none">
+export const GosuslugiXlColorIcon = forwardRef<SVGSVGElement, SVGProps<SVGSVGElement>>((props, ref) => (
+    <svg ref={ref} role="img" focusable="false" width="48" height="48" viewBox="0 0 48 48" {...props} fill="none">
         <g clipPath="url(#prefix__clip0_458_37)">
             <path
                 d="M45.501 15.922c-.188-2.473-2.077-5.645-3.965-7.167a72.059 72.059 0 00-6.608-4.313A73.43 73.43 0 0027.942.763a10.145 10.145 0 00-4.028-.76 9.933 9.933 0 00-4.028.76 73.882 73.882 0 00-6.986 3.68C9.25 6.662 6.29 8.754 6.29 8.754c-.98.827-1.81 1.803-2.465 2.886a.185.185 0 00.16.28h3.068a.256.256 0 00.193-.088c.354-.407.74-.788 1.16-1.138 0 0 2.602-1.827 5.815-3.764a65.211 65.211 0 016.147-3.21 8.805 8.805 0 013.545-.665 8.993 8.993 0 013.544.664 64.811 64.811 0 016.148 3.21 63.473 63.473 0 015.816 3.765c1.661 1.329 3.323 4.096 3.489 6.255 0 0 .387 3.21.443 7.014a65.65 65.65 0 01-.388 7.03 10.239 10.239 0 01-3.544 6.255s-2.604 1.882-5.816 3.82a65.187 65.187 0 01-6.148 3.21 8.803 8.803 0 01-3.544.664 8.994 8.994 0 01-3.545-.648 64.835 64.835 0 01-6.147-3.21c-3.213-1.882-5.816-3.82-5.816-3.82a7.97 7.97 0 01-1.002-.972.256.256 0 00-.192-.088h-3.08a.186.186 0 00-.158.284c.684 1.086 1.5 2.053 2.317 2.711 0 0 2.959 2.22 6.609 4.377a73.425 73.425 0 006.986 3.679c1.28.519 2.65.77 4.028.742a9.941 9.941 0 004.028-.761 73.892 73.892 0 006.986-3.68c3.65-2.22 6.608-4.376 6.608-4.376a11.756 11.756 0 004.028-7.167 75.52 75.52 0 00.44-8.055c-.062-4.358-.503-8.037-.503-8.037z"
@@ -39,6 +39,8 @@ export const GosuslugiXlColorIcon: React.FC<SVGProps<SVGSVGElement>> = (props) =
             </clipPath>
         </defs>
     </svg>
-);
+));
+
+GosuslugiXlColorIcon.displayName = 'GosuslugiXlColorIcon';
 
 export default GosuslugiXlColorIcon;

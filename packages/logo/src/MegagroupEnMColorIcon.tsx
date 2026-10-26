@@ -2,10 +2,10 @@
  * This is auto-generated file by scripts/svg-to-component package
  * Do not edit it manually
  */
-import React, { SVGProps } from 'react';
+import React, { SVGProps, forwardRef } from 'react';
 
-export const MegagroupEnMColorIcon: React.FC<SVGProps<SVGSVGElement>> = (props) => (
-    <svg role="img" focusable="false" width="111" height="24" viewBox="0 0 111 24" {...props} fill="none">
+export const MegagroupEnMColorIcon = forwardRef<SVGSVGElement, SVGProps<SVGSVGElement>>((props, ref) => (
+    <svg ref={ref} role="img" focusable="false" width="111" height="24" viewBox="0 0 111 24" {...props} fill="none">
         <path
             d="M2.052 16.84l.074-.358 7.593-.002 1.11-5.728c.067-.364.3-.376.36 0l.518 4.621c.099.675.378 1.11 1.38 1.11.045 0 .22-.001.261-.003.89-.036 1.203-.463 1.574-1.106l1.912-3.592-1.69 8.247a2.462 2.462 0 01-3.043 1.888L3.832 19.72a2.467 2.467 0 01-1.78-2.881zm5.38-3.116H2.691l-.212 1.034h4.735l.218-1.034zm-4.6-.69l.142-.69h4.748l-.178.845v-.155H2.833zm5.18-2.069H3.257l-.142.69h4.752l.145-.69zm-4.614-.69l.141-.69h4.763l-.145.69H3.398zm5.339-2.069H3.822l-.141.69h4.767l.007-.032c.057-.269.156-.484.282-.658zM7.733 2.083a2.461 2.461 0 00-3.041 1.888l-.729 3.546h6.353v.001l.104-.001.917.001c.825.023 1.42.325 1.566 1.284l.457 4.249c.09.829.312.857.765 0 .454-.858 2.17-4.25 2.17-4.25.377-.66.856-1.012 1.391-1.173l.096-.468a2.467 2.467 0 00-1.78-2.88l-8.27-2.197z"
             fill="#0D9A39"
@@ -19,6 +19,8 @@ export const MegagroupEnMColorIcon: React.FC<SVGProps<SVGSVGElement>> = (props) 
             clipRule="evenodd"
         />
     </svg>
-);
+));
+
+MegagroupEnMColorIcon.displayName = 'MegagroupEnMColorIcon';
 
 export default MegagroupEnMColorIcon;

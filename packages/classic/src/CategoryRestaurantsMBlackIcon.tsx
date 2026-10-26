@@ -2,10 +2,10 @@
  * This is auto-generated file by scripts/svg-to-component package
  * Do not edit it manually
  */
-import React, { SVGProps } from 'react';
+import React, { SVGProps, forwardRef } from 'react';
 
-export const CategoryRestaurantsMBlackIcon: React.FC<SVGProps<SVGSVGElement>> = (props) => (
-    <svg role="img" focusable="false" width="24" height="24" viewBox="0 0 24 24" {...props}>
+export const CategoryRestaurantsMBlackIcon = forwardRef<SVGSVGElement, SVGProps<SVGSVGElement>>((props, ref) => (
+    <svg ref={ref} role="img" focusable="false" width="24" height="24" viewBox="0 0 24 24" {...props}>
         <g fill="none" fillRule="evenodd">
             <path
                 d="M20.093 11.036c-.744.247-1.507.756-2.098 1.438L18 10.995a.968.968 0 00-.288-.686 1.106 1.106 0 00-.779-.316H1.066c-.295 0-.579.116-.78.317a.965.965 0 00-.286.685l.009 2.764C.009 21.31 4.653 24 9 24c2.453 0 5.001-.859 6.756-2.964 3.304-.125 6.778-2.695 7.991-5.963.474-1.276.284-2.486-.521-3.32-.781-.808-2.009-1.09-3.133-.717zM9 23c-5.004 0-7.991-3.455-7.991-9.241l-.003-.908.061-1.858h15.934l-.009 2.767C16.991 19.546 14.003 23 9 23zm13.809-8.275c-.985 2.654-3.631 4.786-6.305 5.229.755-1.271 1.277-2.868 1.434-4.865.025-1.439 1.263-2.704 2.469-3.104.759-.252 1.583-.07 2.099.463.536.554.643 1.363.303 2.277z"
@@ -18,6 +18,8 @@ export const CategoryRestaurantsMBlackIcon: React.FC<SVGProps<SVGSVGElement>> = 
             />
         </g>
     </svg>
-);
+));
+
+CategoryRestaurantsMBlackIcon.displayName = 'CategoryRestaurantsMBlackIcon';
 
 export default CategoryRestaurantsMBlackIcon;

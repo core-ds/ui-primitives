@@ -2,10 +2,10 @@
  * This is auto-generated file by scripts/svg-to-component package
  * Do not edit it manually
  */
-import React, { SVGProps } from 'react';
+import React, { SVGProps, forwardRef } from 'react';
 
-export const SaharokEnMWhiteIcon: React.FC<SVGProps<SVGSVGElement>> = (props) => (
-    <svg role="img" focusable="false" width="63" height="24" viewBox="0 0 63 24" {...props} fill="none">
+export const SaharokEnMWhiteIcon = forwardRef<SVGSVGElement, SVGProps<SVGSVGElement>>((props, ref) => (
+    <svg ref={ref} role="img" focusable="false" width="63" height="24" viewBox="0 0 63 24" {...props} fill="none">
         <path d="M15.508 1.039l-3.52.912 2.1 7.642 3.52-.913-2.1-7.641z" fill="#4AAFEA" />
         <path d="M11.756 1L1.998 3.529 7.348 23l9.758-2.529L11.756 1z" fill="#CA4BB0" />
         <path d="M4.815 13.668L1 14.656l2.078 7.563 3.815-.988-2.078-7.563z" fill="#F7CA5D" />
@@ -14,6 +14,8 @@ export const SaharokEnMWhiteIcon: React.FC<SVGProps<SVGSVGElement>> = (props) =>
             fill="#fff"
         />
     </svg>
-);
+));
+
+SaharokEnMWhiteIcon.displayName = 'SaharokEnMWhiteIcon';
 
 export default SaharokEnMWhiteIcon;

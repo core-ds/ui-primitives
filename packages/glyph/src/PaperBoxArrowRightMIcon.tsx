@@ -2,10 +2,19 @@
  * This is auto-generated file by scripts/svg-to-component package
  * Do not edit it manually
  */
-import React, { SVGProps } from 'react';
+import React, { SVGProps, forwardRef } from 'react';
 
-export const PaperBoxArrowRightMIcon: React.FC<SVGProps<SVGSVGElement>> = (props) => (
-    <svg role="img" focusable="false" fill="currentColor" width="24" height="24" viewBox="0 0 24 24" {...props}>
+export const PaperBoxArrowRightMIcon = forwardRef<SVGSVGElement, SVGProps<SVGSVGElement>>((props, ref) => (
+    <svg
+        ref={ref}
+        role="img"
+        focusable="false"
+        fill="currentColor"
+        width="24"
+        height="24"
+        viewBox="0 0 24 24"
+        {...props}
+    >
         <path
             d="M20 19a2 2 0 01-2 2h-7.837c.635-2.173 2.464-3.868 4.934-3.868h2.788v-1.94c0-.338.392-.523.652-.307L20 16.097v-2.85l-.067-.056c-1.605-1.33-4.03-.203-4.058 1.87h-.848C11.5 15.062 8.5 18 8 21H6a2 2 0 01-2-2V9h16v10zM9 12h6v-1.5H9V12z"
             fillRule="evenodd"
@@ -18,6 +27,8 @@ export const PaperBoxArrowRightMIcon: React.FC<SVGProps<SVGSVGElement>> = (props
             clipRule="evenodd"
         />
     </svg>
-);
+));
+
+PaperBoxArrowRightMIcon.displayName = 'PaperBoxArrowRightMIcon';
 
 export default PaperBoxArrowRightMIcon;

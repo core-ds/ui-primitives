@@ -2,10 +2,10 @@
  * This is auto-generated file by scripts/svg-to-component package
  * Do not edit it manually
  */
-import React, { SVGProps } from 'react';
+import React, { SVGProps, forwardRef } from 'react';
 
-export const Yandex360SignBoxMColorIcon: React.FC<SVGProps<SVGSVGElement>> = (props) => (
-    <svg role="img" focusable="false" width="24" height="24" viewBox="0 0 24 24" {...props} fill="none">
+export const Yandex360SignBoxMColorIcon = forwardRef<SVGSVGElement, SVGProps<SVGSVGElement>>((props, ref) => (
+    <svg ref={ref} role="img" focusable="false" width="24" height="24" viewBox="0 0 24 24" {...props} fill="none">
         <path d="M12 19c2.184 0 3.954-3.134 3.954-7S14.184 5 12 5s-3.955 3.134-3.955 7 1.77 7 3.954 7z" fill="#fff" />
         <path
             d="M12 19c2.184 0 3.954-3.134 3.954-7S14.184 5 12 5s-3.955 3.134-3.955 7 1.77 7 3.954 7z"
@@ -50,6 +50,8 @@ export const Yandex360SignBoxMColorIcon: React.FC<SVGProps<SVGSVGElement>> = (pr
             </radialGradient>
         </defs>
     </svg>
-);
+));
+
+Yandex360SignBoxMColorIcon.displayName = 'Yandex360SignBoxMColorIcon';
 
 export default Yandex360SignBoxMColorIcon;

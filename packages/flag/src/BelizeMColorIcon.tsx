@@ -2,10 +2,10 @@
  * This is auto-generated file by scripts/svg-to-component package
  * Do not edit it manually
  */
-import React, { SVGProps } from 'react';
+import React, { SVGProps, forwardRef } from 'react';
 
-export const BelizeMColorIcon: React.FC<SVGProps<SVGSVGElement>> = (props) => (
-    <svg role="img" focusable="false" width="24" height="24" viewBox="0 0 24 24" {...props} fill="none">
+export const BelizeMColorIcon = forwardRef<SVGSVGElement, SVGProps<SVGSVGElement>>((props, ref) => (
+    <svg ref={ref} role="img" focusable="false" width="24" height="24" viewBox="0 0 24 24" {...props} fill="none">
         <path
             d="M23.991 5.795A1.796 1.796 0 0022.2 4.138H1.794c-.942 0-1.716.726-1.791 1.657H0v12.414h.006a1.79 1.79 0 001.788 1.652H22.2c.948 0 1.719-.732 1.791-1.655H24V5.793h-.009z"
             fill="#FF4B55"
@@ -279,6 +279,8 @@ export const BelizeMColorIcon: React.FC<SVGProps<SVGSVGElement>> = (props) => (
         />
         <path d="M8.226 11.534s.123-.52-.384-.625c0 0-.051.207.114.333.129.102.27.291.27.291z" fill="#73AF00" />
     </svg>
-);
+));
+
+BelizeMColorIcon.displayName = 'BelizeMColorIcon';
 
 export default BelizeMColorIcon;

@@ -2,10 +2,10 @@
  * This is auto-generated file by scripts/svg-to-component package
  * Do not edit it manually
  */
-import React, { SVGProps } from 'react';
+import React, { SVGProps, forwardRef } from 'react';
 
-export const EnvyboxSignBoxMColorIcon: React.FC<SVGProps<SVGSVGElement>> = (props) => (
-    <svg role="img" focusable="false" width="24" height="24" viewBox="0 0 24 24" {...props} fill="none">
+export const EnvyboxSignBoxMColorIcon = forwardRef<SVGSVGElement, SVGProps<SVGSVGElement>>((props, ref) => (
+    <svg ref={ref} role="img" focusable="false" width="24" height="24" viewBox="0 0 24 24" {...props} fill="none">
         <path
             d="M14.085 19.078l-.785 2.085a1.298 1.298 0 01-2.425.005l-3.252-8.522a1.126 1.126 0 011.06-1.528h6.763a1.13 1.13 0 011.061 1.523 1.13 1.13 0 01-1.058.732h-4.152a.727.727 0 00-.729.725c0 .4.326.725.729.725h3.02a.966.966 0 110 1.933h-2.048a.727.727 0 00-.73.725c0 .4.327.725.73.725h1.212a.645.645 0 01.604.872z"
             fill="#FFE53B"
@@ -31,6 +31,8 @@ export const EnvyboxSignBoxMColorIcon: React.FC<SVGProps<SVGSVGElement>> = (prop
             clipRule="evenodd"
         />
     </svg>
-);
+));
+
+EnvyboxSignBoxMColorIcon.displayName = 'EnvyboxSignBoxMColorIcon';
 
 export default EnvyboxSignBoxMColorIcon;

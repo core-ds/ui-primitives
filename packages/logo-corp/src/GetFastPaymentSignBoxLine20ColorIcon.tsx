@@ -2,10 +2,10 @@
  * This is auto-generated file by scripts/svg-to-component package
  * Do not edit it manually
  */
-import React, { SVGProps } from 'react';
+import React, { SVGProps, forwardRef } from 'react';
 
-export const GetFastPaymentSignBoxLine20ColorIcon: React.FC<SVGProps<SVGSVGElement>> = (props) => (
-    <svg role="img" focusable="false" width="20" height="20" viewBox="0 0 20 20" {...props} fill="none">
+export const GetFastPaymentSignBoxLine20ColorIcon = forwardRef<SVGSVGElement, SVGProps<SVGSVGElement>>((props, ref) => (
+    <svg ref={ref} role="img" focusable="false" width="20" height="20" viewBox="0 0 20 20" {...props} fill="none">
         <path d="M2.5 4.82l2.242 3.97v2.42l-2.238 3.96L2.5 4.82z" fill="#575EAA" />
         <path d="M11.104 7.345l2.1-1.275 4.296-.003-6.396 3.883V7.345z" fill="#DC195B" />
         <path d="M11.093 4.798l.011 5.253-2.246-1.366V.83l2.235 3.968z" fill="#FCB52E" />
@@ -15,6 +15,8 @@ export const GetFastPaymentSignBoxLine20ColorIcon: React.FC<SVGProps<SVGSVGEleme
         <path d="M8.859 19.163l2.245-3.97 2.095-1.264 4.292-.005-8.632 5.24z" fill="#118442" />
         <path d="M2.504 15.17l6.372-3.868L6.733 10l-1.991 1.21-2.238 3.96z" fill="#9150A0" />
     </svg>
-);
+));
+
+GetFastPaymentSignBoxLine20ColorIcon.displayName = 'GetFastPaymentSignBoxLine20ColorIcon';
 
 export default GetFastPaymentSignBoxLine20ColorIcon;

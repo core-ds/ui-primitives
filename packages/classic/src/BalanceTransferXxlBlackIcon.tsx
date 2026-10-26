@@ -2,10 +2,10 @@
  * This is auto-generated file by scripts/svg-to-component package
  * Do not edit it manually
  */
-import React, { SVGProps } from 'react';
+import React, { SVGProps, forwardRef } from 'react';
 
-export const BalanceTransferXxlBlackIcon: React.FC<SVGProps<SVGSVGElement>> = (props) => (
-    <svg role="img" focusable="false" width="48" height="48" viewBox="0 0 48 48" {...props} fill="none">
+export const BalanceTransferXxlBlackIcon = forwardRef<SVGSVGElement, SVGProps<SVGSVGElement>>((props, ref) => (
+    <svg ref={ref} role="img" focusable="false" width="48" height="48" viewBox="0 0 48 48" {...props} fill="none">
         <path
             d="M3.5 6h30A3.5 3.5 0 0137 9.5V13h7.5a3.5 3.5 0 013.5 3.5v22a3.5 3.5 0 01-3.5 3.5h-30a3.5 3.5 0 01-3.5-3.5V35H3.5A3.5 3.5 0 010 31.5v-22A3.5 3.5 0 013.5 6zm0 1A2.5 2.5 0 001 9.5v22A2.5 2.5 0 003.5 34H11V16.5a3.5 3.5 0 013.5-3.5H36V9.5A2.5 2.5 0 0033.5 7h-30zm11 7a2.5 2.5 0 00-2.5 2.5v22a2.5 2.5 0 002.5 2.5h30a2.5 2.5 0 002.5-2.5v-22a2.5 2.5 0 00-2.5-2.5h-30z"
             fill="#0B1F35"
@@ -20,6 +20,8 @@ export const BalanceTransferXxlBlackIcon: React.FC<SVGProps<SVGSVGElement>> = (p
         />
         <path d="M23.805 33.033h11.32v2.49h-11.32v-2.49z" fill="#0B1F35" fillOpacity=".3" />
     </svg>
-);
+));
+
+BalanceTransferXxlBlackIcon.displayName = 'BalanceTransferXxlBlackIcon';
 
 export default BalanceTransferXxlBlackIcon;

@@ -2,10 +2,10 @@
  * This is auto-generated file by scripts/svg-to-component package
  * Do not edit it manually
  */
-import React, { SVGProps } from 'react';
+import React, { SVGProps, forwardRef } from 'react';
 
-export const FintabloMColorIcon: React.FC<SVGProps<SVGSVGElement>> = (props) => (
-    <svg role="img" focusable="false" width="99" height="24" viewBox="0 0 99 24" {...props} fill="none">
+export const FintabloMColorIcon = forwardRef<SVGSVGElement, SVGProps<SVGSVGElement>>((props, ref) => (
+    <svg ref={ref} role="img" focusable="false" width="99" height="24" viewBox="0 0 99 24" {...props} fill="none">
         <path
             d="M2 10.64c0-3.6 0-5.4.917-6.661a4.8 4.8 0 011.062-1.062C5.24 2 7.04 2 10.64 2h2.72c3.6 0 5.4 0 6.661.917a4.8 4.8 0 011.062 1.062C22 5.24 22 7.04 22 10.64v2.72c0 3.6 0 5.4-.917 6.661a4.801 4.801 0 01-1.062 1.062C18.76 22 16.96 22 13.36 22h-2.72c-3.6 0-5.4 0-6.661-.917a4.8 4.8 0 01-1.062-1.062C2 18.76 2 16.96 2 13.36v-2.72z"
             fill="#142969"
@@ -19,6 +19,8 @@ export const FintabloMColorIcon: React.FC<SVGProps<SVGSVGElement>> = (props) => 
             fill="#142969"
         />
     </svg>
-);
+));
+
+FintabloMColorIcon.displayName = 'FintabloMColorIcon';
 
 export default FintabloMColorIcon;

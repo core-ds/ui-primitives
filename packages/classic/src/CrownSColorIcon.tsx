@@ -2,10 +2,10 @@
  * This is auto-generated file by scripts/svg-to-component package
  * Do not edit it manually
  */
-import React, { SVGProps } from 'react';
+import React, { SVGProps, forwardRef } from 'react';
 
-export const CrownSColorIcon: React.FC<SVGProps<SVGSVGElement>> = (props) => (
-    <svg role="img" focusable="false" width="18" height="18" viewBox="0 0 18 18" {...props}>
+export const CrownSColorIcon = forwardRef<SVGSVGElement, SVGProps<SVGSVGElement>>((props, ref) => (
+    <svg ref={ref} role="img" focusable="false" width="18" height="18" viewBox="0 0 18 18" {...props}>
         <g fill="none" fillRule="evenodd">
             <path d="M9 17A8 8 0 109 1a8 8 0 000 16zm0 1A9 9 0 119 0a9 9 0 010 18z" fill="#FFF" fillRule="nonzero" />
             <circle fill="#FFEBB6" cx="9" cy="9" r="8" />
@@ -13,6 +13,8 @@ export const CrownSColorIcon: React.FC<SVGProps<SVGSVGElement>> = (props) => (
             <path fill="#FFB800" d="M5 13v-1h8.003v1z" fillRule="nonzero" />
         </g>
     </svg>
-);
+));
+
+CrownSColorIcon.displayName = 'CrownSColorIcon';
 
 export default CrownSColorIcon;

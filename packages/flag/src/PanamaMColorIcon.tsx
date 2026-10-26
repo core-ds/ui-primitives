@@ -2,10 +2,10 @@
  * This is auto-generated file by scripts/svg-to-component package
  * Do not edit it manually
  */
-import React, { SVGProps } from 'react';
+import React, { SVGProps, forwardRef } from 'react';
 
-export const PanamaMColorIcon: React.FC<SVGProps<SVGSVGElement>> = (props) => (
-    <svg role="img" focusable="false" width="24" height="24" viewBox="0 0 24 24" {...props} fill="none">
+export const PanamaMColorIcon = forwardRef<SVGSVGElement, SVGProps<SVGSVGElement>>((props, ref) => (
+    <svg ref={ref} role="img" focusable="false" width="24" height="24" viewBox="0 0 24 24" {...props} fill="none">
         <path
             d="M23.586 12H12v7.448a.414.414 0 01-.414.414h10.617c.992 0 1.797-.805 1.797-1.797v-6.479a.414.414 0 01-.414.414zM.414 12H12V4.552c0-.229.185-.414.414-.414H1.797C.805 4.138 0 4.943 0 5.935v6.479C0 12.185.185 12 .414 12z"
             fill="#F5F5F5"
@@ -23,6 +23,8 @@ export const PanamaMColorIcon: React.FC<SVGProps<SVGSVGElement>> = (props) => (
             fill="#FF4B55"
         />
     </svg>
-);
+));
+
+PanamaMColorIcon.displayName = 'PanamaMColorIcon';
 
 export default PanamaMColorIcon;

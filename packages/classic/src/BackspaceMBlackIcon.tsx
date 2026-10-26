@@ -2,10 +2,10 @@
  * This is auto-generated file by scripts/svg-to-component package
  * Do not edit it manually
  */
-import React, { SVGProps } from 'react';
+import React, { SVGProps, forwardRef } from 'react';
 
-export const BackspaceMBlackIcon: React.FC<SVGProps<SVGSVGElement>> = (props) => (
-    <svg role="img" focusable="false" width="22" height="16" viewBox="0 0 22 16" {...props}>
+export const BackspaceMBlackIcon = forwardRef<SVGSVGElement, SVGProps<SVGSVGElement>>((props, ref) => (
+    <svg ref={ref} role="img" focusable="false" width="22" height="16" viewBox="0 0 22 16" {...props}>
         <g fill="none" fillRule="evenodd">
             <path d="M-1-4h24v24H-1z" />
             <path
@@ -18,6 +18,8 @@ export const BackspaceMBlackIcon: React.FC<SVGProps<SVGSVGElement>> = (props) =>
             />
         </g>
     </svg>
-);
+));
+
+BackspaceMBlackIcon.displayName = 'BackspaceMBlackIcon';
 
 export default BackspaceMBlackIcon;

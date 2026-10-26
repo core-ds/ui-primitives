@@ -2,10 +2,11 @@
  * This is auto-generated file by scripts/svg-to-component package
  * Do not edit it manually
  */
-import React, { SVGProps } from 'react';
+import React, { SVGProps, forwardRef } from 'react';
 
-export const PravocardSignBoxMColorIcon: React.FC<SVGProps<SVGSVGElement>> = (props) => (
+export const PravocardSignBoxMColorIcon = forwardRef<SVGSVGElement, SVGProps<SVGSVGElement>>((props, ref) => (
     <svg
+        ref={ref}
         role="img"
         focusable="false"
         xmlnsXlink="http://www.w3.org/1999/xlink"
@@ -34,6 +35,8 @@ export const PravocardSignBoxMColorIcon: React.FC<SVGProps<SVGSVGElement>> = (pr
             />
         </defs>
     </svg>
-);
+));
+
+PravocardSignBoxMColorIcon.displayName = 'PravocardSignBoxMColorIcon';
 
 export default PravocardSignBoxMColorIcon;

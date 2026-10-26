@@ -2,10 +2,10 @@
  * This is auto-generated file by scripts/svg-to-component package
  * Do not edit it manually
  */
-import React, { SVGProps } from 'react';
+import React, { SVGProps, forwardRef } from 'react';
 
-export const AlfaPay2024EnMBlackWhiteIcon: React.FC<SVGProps<SVGSVGElement>> = (props) => (
-    <svg role="img" focusable="false" width="98" height="24" viewBox="0 0 98 24" {...props} fill="none">
+export const AlfaPay2024EnMBlackWhiteIcon = forwardRef<SVGSVGElement, SVGProps<SVGSVGElement>>((props, ref) => (
+    <svg ref={ref} role="img" focusable="false" width="98" height="24" viewBox="0 0 98 24" {...props} fill="none">
         <path
             d="M13.4 11.73l1.097-2.964h.04l1.035 2.963H13.4zm15.745.802c0 .6-.467.943-1.077.943-.527 0-.945-.175-.945-.693 0-.508.458-.591.854-.591h1.168v.341z"
             fill="#000"
@@ -38,6 +38,8 @@ export const AlfaPay2024EnMBlackWhiteIcon: React.FC<SVGProps<SVGSVGElement>> = (
         />
         <path d="M18.426 16.48h-7.821v1.478h7.821V16.48z" fill="#fff" />
     </svg>
-);
+));
+
+AlfaPay2024EnMBlackWhiteIcon.displayName = 'AlfaPay2024EnMBlackWhiteIcon';
 
 export default AlfaPay2024EnMBlackWhiteIcon;

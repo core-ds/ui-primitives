@@ -2,10 +2,10 @@
  * This is auto-generated file by scripts/svg-to-component package
  * Do not edit it manually
  */
-import React, { SVGProps } from 'react';
+import React, { SVGProps, forwardRef } from 'react';
 
-export const KursSignBoxMColorIcon: React.FC<SVGProps<SVGSVGElement>> = (props) => (
-    <svg role="img" focusable="false" width="24" height="24" viewBox="0 0 24 24" {...props} fill="none">
+export const KursSignBoxMColorIcon = forwardRef<SVGSVGElement, SVGProps<SVGSVGElement>>((props, ref) => (
+    <svg ref={ref} role="img" focusable="false" width="24" height="24" viewBox="0 0 24 24" {...props} fill="none">
         <path
             d="M19.99 9.449c1.577.921 1.577 3.224 0 4.145L8.374 20.72c-1.577.921-3.548-.23-3.548-2.073V4.396c0-1.841 1.971-2.993 3.548-2.072L19.99 9.45z"
             fill="#EF3124"
@@ -15,6 +15,8 @@ export const KursSignBoxMColorIcon: React.FC<SVGProps<SVGSVGElement>> = (props) 
             fill="#212124"
         />
     </svg>
-);
+));
+
+KursSignBoxMColorIcon.displayName = 'KursSignBoxMColorIcon';
 
 export default KursSignBoxMColorIcon;

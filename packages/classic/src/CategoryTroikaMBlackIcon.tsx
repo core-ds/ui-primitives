@@ -2,10 +2,10 @@
  * This is auto-generated file by scripts/svg-to-component package
  * Do not edit it manually
  */
-import React, { SVGProps } from 'react';
+import React, { SVGProps, forwardRef } from 'react';
 
-export const CategoryTroikaMBlackIcon: React.FC<SVGProps<SVGSVGElement>> = (props) => (
-    <svg role="img" focusable="false" width="24" height="24" viewBox="0 0 24 24" {...props}>
+export const CategoryTroikaMBlackIcon = forwardRef<SVGSVGElement, SVGProps<SVGSVGElement>>((props, ref) => (
+    <svg ref={ref} role="img" focusable="false" width="24" height="24" viewBox="0 0 24 24" {...props}>
         <g fill="none" fillRule="evenodd">
             <path d="M0 0h24v24H0z" />
             <path
@@ -16,6 +16,8 @@ export const CategoryTroikaMBlackIcon: React.FC<SVGProps<SVGSVGElement>> = (prop
             <circle cx="12" cy="10" r="5" fill="#0B1F35" opacity=".3" />
         </g>
     </svg>
-);
+));
+
+CategoryTroikaMBlackIcon.displayName = 'CategoryTroikaMBlackIcon';
 
 export default CategoryTroikaMBlackIcon;

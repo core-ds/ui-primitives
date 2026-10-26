@@ -2,10 +2,19 @@
  * This is auto-generated file by scripts/svg-to-component package
  * Do not edit it manually
  */
-import React, { SVGProps } from 'react';
+import React, { SVGProps, forwardRef } from 'react';
 
-export const GearLineMIcon: React.FC<SVGProps<SVGSVGElement>> = (props) => (
-    <svg role="img" focusable="false" fill="currentColor" width="24" height="24" viewBox="0 0 24 24" {...props}>
+export const GearLineMIcon = forwardRef<SVGSVGElement, SVGProps<SVGSVGElement>>((props, ref) => (
+    <svg
+        ref={ref}
+        role="img"
+        focusable="false"
+        fill="currentColor"
+        width="24"
+        height="24"
+        viewBox="0 0 24 24"
+        {...props}
+    >
         <path d="M12 10c1.14 0 2.065.895 2.065 2s-.924 2-2.065 2c-1.14 0-2.065-.895-2.065-2s.925-2 2.065-2z" />
         <path
             d="M10.225 1c-.948 0-1.774.625-2.003 1.515l-.538 2.082a8.843 8.843 0 00-.145.082l-2.13-.59c-.912-.253-1.883.127-2.357.922L1.277 7.99c-.474.795-.328 1.8.353 2.438l1.594 1.493v.16L1.63 13.573a1.954 1.954 0 00-.353 2.438l1.775 2.978c.474.795 1.445 1.175 2.356.923l2.131-.59.145.08.538 2.083c.23.89 1.055 1.515 2.003 1.515h3.55c.948 0 1.774-.625 2.003-1.515l.538-2.082.145-.082 2.131.59c.911.253 1.882-.127 2.356-.922l1.775-2.978c.474-.795.329-1.8-.353-2.438l-1.594-1.493v-.16l1.594-1.493a1.954 1.954 0 00.353-2.438L20.948 5.01c-.474-.795-1.445-1.175-2.356-.923l-2.131.59a8.835 8.835 0 00-.145-.08l-.538-2.083C15.548 1.625 14.723 1 13.775 1h-3.55zm0 2h3.55l.65 2.515c.073.284.272.523.543.654.264.125.517.268.76.425.252.163.566.211.858.13l2.574-.713 1.775 2.978-1.925 1.803a.983.983 0 00-.313.783 6.427 6.427 0 010 .85.98.98 0 00.313.783l1.925 1.803-1.775 2.978-2.574-.713a1.06 1.06 0 00-.858.13c-.243.157-.496.3-.76.425-.271.13-.47.37-.544.654L13.775 21h-3.55l-.65-2.515a1.007 1.007 0 00-.543-.654 6.768 6.768 0 01-.76-.425 1.06 1.06 0 00-.858-.13l-2.574.713-1.775-2.978 1.925-1.803a.983.983 0 00.313-.783 6.403 6.403 0 010-.85.983.983 0 00-.313-.783L3.065 8.989 4.84 6.01l2.574.713c.292.081.606.033.859-.13.242-.157.495-.3.759-.425.271-.13.47-.37.544-.654L10.225 3z"
@@ -13,6 +22,8 @@ export const GearLineMIcon: React.FC<SVGProps<SVGSVGElement>> = (props) => (
             clipRule="evenodd"
         />
     </svg>
-);
+));
+
+GearLineMIcon.displayName = 'GearLineMIcon';
 
 export default GearLineMIcon;

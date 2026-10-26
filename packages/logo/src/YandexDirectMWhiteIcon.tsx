@@ -2,10 +2,10 @@
  * This is auto-generated file by scripts/svg-to-component package
  * Do not edit it manually
  */
-import React, { SVGProps } from 'react';
+import React, { SVGProps, forwardRef } from 'react';
 
-export const YandexDirectMWhiteIcon: React.FC<SVGProps<SVGSVGElement>> = (props) => (
-    <svg role="img" focusable="false" width="112" height="24" viewBox="0 0 112 24" {...props} fill="none">
+export const YandexDirectMWhiteIcon = forwardRef<SVGSVGElement, SVGProps<SVGSVGElement>>((props, ref) => (
+    <svg ref={ref} role="img" focusable="false" width="112" height="24" viewBox="0 0 112 24" {...props} fill="none">
         <path
             d="M49.374 22v-3.087h7.43V22h2.405v-5.088h-1.384V4.118h-8.622l-.212 6.088c-.107 3.513-.384 5.578-1.065 6.706h-.958V22h2.406zm1.873-11.453l.15-4.428h3.852v10.793h-4.896c.447-1.022.788-2.852.894-6.365zm9.444-2.342v10.708h2.192l3.917-6.62v6.62h2.47V8.205h-2.193l-3.917 6.62v-6.62h-2.47zm13.048 0h-2.342V22h2.533v-4.343c.64.958 1.576 1.47 2.661 1.47 2.47 0 4.173-1.98 4.173-5.578 0-3.577-1.66-5.557-4.045-5.557-1.191 0-2.171.554-2.853 1.597l-.127-1.384zm2.214 8.92c-1.341 0-2.023-1.086-2.023-3.555 0-2.49.725-3.577 2.15-3.577 1.384 0 2.066 1.086 2.066 3.556 0 2.49-.724 3.576-2.193 3.576zm14.7 1.064v-2.065c-.788.533-2.108 1.001-3.342 1.001-1.852 0-2.555-.873-2.661-2.661h6.11v-1.341c0-3.726-1.64-5.13-4.173-5.13-3.087 0-4.556 2.362-4.556 5.598 0 3.726 1.831 5.535 5.067 5.535 1.618 0 2.81-.426 3.555-.937zm-4.108-8.196c1.255 0 1.639 1.044 1.639 2.385v.213H84.65c.064-1.703.68-2.598 1.895-2.598zm12.192 8.92h2.874l-4.067-5.769 3.577-4.939h-2.554l-3.577 4.94v-4.94h-2.533v10.708h2.533v-5.258l3.747 5.258zM110 10.206v-2h-8.494v2h2.98v8.707h2.534v-8.707H110z"
             fill="#fff"
@@ -59,6 +59,8 @@ export const YandexDirectMWhiteIcon: React.FC<SVGProps<SVGSVGElement>> = (props)
             </linearGradient>
         </defs>
     </svg>
-);
+));
+
+YandexDirectMWhiteIcon.displayName = 'YandexDirectMWhiteIcon';
 
 export default YandexDirectMWhiteIcon;

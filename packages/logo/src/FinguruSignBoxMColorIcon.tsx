@@ -2,10 +2,10 @@
  * This is auto-generated file by scripts/svg-to-component package
  * Do not edit it manually
  */
-import React, { SVGProps } from 'react';
+import React, { SVGProps, forwardRef } from 'react';
 
-export const FinguruSignBoxMColorIcon: React.FC<SVGProps<SVGSVGElement>> = (props) => (
-    <svg role="img" focusable="false" width="24" height="24" viewBox="0 0 24 24" {...props} fill="none">
+export const FinguruSignBoxMColorIcon = forwardRef<SVGSVGElement, SVGProps<SVGSVGElement>>((props, ref) => (
+    <svg ref={ref} role="img" focusable="false" width="24" height="24" viewBox="0 0 24 24" {...props} fill="none">
         <path
             d="M7.164 17.257l1.314.79 1.315-.79.8 1.328-1.34.806v2.052h-1.55V19.39l-1.339-.806.8-1.328z"
             fill="#26B170"
@@ -29,6 +29,8 @@ export const FinguruSignBoxMColorIcon: React.FC<SVGProps<SVGSVGElement>> = (prop
             clipRule="evenodd"
         />
     </svg>
-);
+));
+
+FinguruSignBoxMColorIcon.displayName = 'FinguruSignBoxMColorIcon';
 
 export default FinguruSignBoxMColorIcon;

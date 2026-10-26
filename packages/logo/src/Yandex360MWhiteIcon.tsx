@@ -2,10 +2,10 @@
  * This is auto-generated file by scripts/svg-to-component package
  * Do not edit it manually
  */
-import React, { SVGProps } from 'react';
+import React, { SVGProps, forwardRef } from 'react';
 
-export const Yandex360MWhiteIcon: React.FC<SVGProps<SVGSVGElement>> = (props) => (
-    <svg role="img" focusable="false" width="124" height="24" viewBox="0 0 124 24" {...props} fill="none">
+export const Yandex360MWhiteIcon = forwardRef<SVGSVGElement, SVGProps<SVGSVGElement>>((props, ref) => (
+    <svg ref={ref} role="img" focusable="false" width="124" height="24" viewBox="0 0 124 24" {...props} fill="none">
         <path
             d="M9.492 5.631H8.306c-2.176 0-3.317 1.099-3.317 2.725 0 1.845.791 2.704 2.418 3.802l1.34.901-3.868 5.78H2l3.471-5.164c-2-1.431-3.12-2.815-3.12-5.166 0-2.944 2.043-4.944 5.933-4.944h3.866v15.272H9.492V5.631zM23.095 18.84h-2.637v-4.615h-3.493v4.615H14.35V7.783h2.615v4.373h3.493V7.783h2.637V18.84zm11.777 2.438h-2.416v-2.44h-5.868v2.44H24.17V16.77h.813c.923-1.845 1.099-5.34 1.099-8.044v-.944h7.625v8.988h1.165v4.506zM28.326 9.85v.33c0 1.912-.198 4.922-.923 6.593h3.693V9.85h-2.77zm12.414 9.118c-3.34 0-5.23-1.845-5.23-5.626 0-3.317 1.516-5.735 4.702-5.735 2.615 0 4.306 1.43 4.306 5.253v1.384h-6.306c.11 1.78.856 2.658 2.747 2.658 1.274 0 2.658-.419 3.45-.944v2.13c-.747.507-2 .88-3.67.88zm-2.528-6.658h3.648v-.218c0-1.363-.395-2.418-1.693-2.418s-1.89.9-1.957 2.636m10.68 1.1v5.428h-2.616V7.783h2.616v5.098l3.692-5.098h2.637l-3.693 5.098 4.197 5.954h-2.967l-3.869-5.428.003.002zm6.679-.088c0-3.34 1.736-5.714 5.076-5.714 1.296 0 2.264.22 2.813.528v2.219c-.528-.33-1.517-.68-2.528-.68-1.714 0-2.658 1.208-2.658 3.58 0 2.243.768 3.648 2.637 3.648 1.098 0 1.89-.285 2.549-.747v2.133c-.637.461-1.493.68-2.703.68-3.493 0-5.186-2.021-5.186-5.647z"
             fill="#fff"
@@ -43,6 +43,8 @@ export const Yandex360MWhiteIcon: React.FC<SVGProps<SVGSVGElement>> = (props) =>
             </radialGradient>
         </defs>
     </svg>
-);
+));
+
+Yandex360MWhiteIcon.displayName = 'Yandex360MWhiteIcon';
 
 export default Yandex360MWhiteIcon;

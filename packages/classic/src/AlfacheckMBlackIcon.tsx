@@ -2,10 +2,10 @@
  * This is auto-generated file by scripts/svg-to-component package
  * Do not edit it manually
  */
-import React, { SVGProps } from 'react';
+import React, { SVGProps, forwardRef } from 'react';
 
-export const AlfacheckMBlackIcon: React.FC<SVGProps<SVGSVGElement>> = (props) => (
-    <svg role="img" focusable="false" width="22" height="19" viewBox="0 0 22 19" {...props}>
+export const AlfacheckMBlackIcon = forwardRef<SVGSVGElement, SVGProps<SVGSVGElement>>((props, ref) => (
+    <svg ref={ref} role="img" focusable="false" width="22" height="19" viewBox="0 0 22 19" {...props}>
         <g fill="none" fillRule="evenodd">
             <path d="M-1-2h24v24H-1z" />
             <path
@@ -20,6 +20,8 @@ export const AlfacheckMBlackIcon: React.FC<SVGProps<SVGSVGElement>> = (props) =>
             <path fill="#0B1F35" d="M10 8.606L.218 1.913l.564-.826L10 7.394l9.218-6.307.564.826z" opacity=".4" />
         </g>
     </svg>
-);
+));
+
+AlfacheckMBlackIcon.displayName = 'AlfacheckMBlackIcon';
 
 export default AlfacheckMBlackIcon;

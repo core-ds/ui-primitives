@@ -2,10 +2,10 @@
  * This is auto-generated file by scripts/svg-to-component package
  * Do not edit it manually
  */
-import React, { SVGProps } from 'react';
+import React, { SVGProps, forwardRef } from 'react';
 
-export const PerekrestokMColorIcon: React.FC<SVGProps<SVGSVGElement>> = (props) => (
-    <svg role="img" focusable="false" width="157" height="24" viewBox="0 0 157 24" {...props} fill="none">
+export const PerekrestokMColorIcon = forwardRef<SVGSVGElement, SVGProps<SVGSVGElement>>((props, ref) => (
+    <svg ref={ref} role="img" focusable="false" width="157" height="24" viewBox="0 0 157 24" {...props} fill="none">
         <path
             d="M12.665 7.433L10.449 9.67 8.232 7.433c-1.224-1.233-1.224-3.237 0-4.509a3.12 3.12 0 014.433 0c1.224 1.272 1.224 3.276 0 4.51z"
             fill="#5FAF2D"
@@ -43,6 +43,8 @@ export const PerekrestokMColorIcon: React.FC<SVGProps<SVGSVGElement>> = (props) 
             fill="#005A28"
         />
     </svg>
-);
+));
+
+PerekrestokMColorIcon.displayName = 'PerekrestokMColorIcon';
 
 export default PerekrestokMColorIcon;

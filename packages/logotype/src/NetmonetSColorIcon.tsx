@@ -2,10 +2,10 @@
  * This is auto-generated file by scripts/svg-to-component package
  * Do not edit it manually
  */
-import React, { SVGProps } from 'react';
+import React, { SVGProps, forwardRef } from 'react';
 
-export const NetmonetSColorIcon: React.FC<SVGProps<SVGSVGElement>> = (props) => (
-    <svg role="img" focusable="false" width="70" height="16" viewBox="0 0 70 16" {...props} fill="none">
+export const NetmonetSColorIcon = forwardRef<SVGSVGElement, SVGProps<SVGSVGElement>>((props, ref) => (
+    <svg ref={ref} role="img" focusable="false" width="70" height="16" viewBox="0 0 70 16" {...props} fill="none">
         <path
             d="M26.072 11.796V4.172h2.733l1.77 2.635 1.782-2.635h2.733v7.624H32.4V8.034l-1.868 2.593-1.812-2.538v3.707h-2.648zm14.371.182a4.165 4.165 0 01-3.015-1.162 3.787 3.787 0 01-1.205-2.831 3.766 3.766 0 011.213-2.812 4.512 4.512 0 016.05 0 3.79 3.79 0 011.205 2.812 3.775 3.775 0 01-1.21 2.816 4.18 4.18 0 01-3.038 1.177zm.028-2.267a1.478 1.478 0 001.162-.497c.297-.34.453-.78.438-1.23a1.737 1.737 0 00-.468-1.211 1.597 1.597 0 00-1.793-.369c-.2.086-.38.211-.53.369a1.784 1.784 0 00-.437 1.212c-.007.448.16.882.468 1.211a1.5 1.5 0 001.16.515zm5.351 2.085V4.172h2.69v2.705h2.208V4.172h2.69v7.624h-2.69V9.034h-2.208v2.762h-2.69zm12.826.181a4.114 4.114 0 01-2.958-1.097 3.827 3.827 0 01-1.147-2.897 3.97 3.97 0 011.09-2.839 3.653 3.653 0 012.775-1.142c1.255 0 2.213.395 2.875 1.184a4.5 4.5 0 011 2.986c.004.184 0 .367-.015.55h-5.125c.218.83.77 1.244 1.657 1.244a2.412 2.412 0 001.7-.764l1.485 1.225a3.998 3.998 0 01-3.337 1.55zm-1.558-4.62h2.66a1.7 1.7 0 00-.425-1.009 1.185 1.185 0 00-.905-.373 1.147 1.147 0 00-.872.373 1.971 1.971 0 00-.458 1.008zm7.985 4.439V6.322H62.84v-2.15H70v2.155h-2.238V11.8l-2.687-.005z"
             fill="#E0B873"
@@ -15,6 +15,8 @@ export const NetmonetSColorIcon: React.FC<SVGProps<SVGSVGElement>> = (props) => 
             fill="#444641"
         />
     </svg>
-);
+));
+
+NetmonetSColorIcon.displayName = 'NetmonetSColorIcon';
 
 export default NetmonetSColorIcon;

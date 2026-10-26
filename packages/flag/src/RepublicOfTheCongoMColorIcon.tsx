@@ -2,10 +2,10 @@
  * This is auto-generated file by scripts/svg-to-component package
  * Do not edit it manually
  */
-import React, { SVGProps } from 'react';
+import React, { SVGProps, forwardRef } from 'react';
 
-export const RepublicOfTheCongoMColorIcon: React.FC<SVGProps<SVGSVGElement>> = (props) => (
-    <svg role="img" focusable="false" width="24" height="24" viewBox="0 0 24 24" {...props} fill="none">
+export const RepublicOfTheCongoMColorIcon = forwardRef<SVGSVGElement, SVGProps<SVGSVGElement>>((props, ref) => (
+    <svg ref={ref} role="img" focusable="false" width="24" height="24" viewBox="0 0 24 24" {...props} fill="none">
         <path
             d="M.547 19.355c.323.314.764.507 1.25.507h5.237l16.42-15.217a1.791 1.791 0 00-1.251-.507h-5.238L.547 19.355z"
             fill="#FFE15A"
@@ -19,6 +19,8 @@ export const RepublicOfTheCongoMColorIcon: React.FC<SVGProps<SVGSVGElement>> = (
             fill="#FF4B55"
         />
     </svg>
-);
+));
+
+RepublicOfTheCongoMColorIcon.displayName = 'RepublicOfTheCongoMColorIcon';
 
 export default RepublicOfTheCongoMColorIcon;

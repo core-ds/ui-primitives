@@ -2,10 +2,10 @@
  * This is auto-generated file by scripts/svg-to-component package
  * Do not edit it manually
  */
-import React, { SVGProps } from 'react';
+import React, { SVGProps, forwardRef } from 'react';
 
-export const MegafonProBusinessSignBoxMColorIcon: React.FC<SVGProps<SVGSVGElement>> = (props) => (
-    <svg role="img" focusable="false" width="24" height="24" viewBox="0 0 24 24" {...props} fill="none">
+export const MegafonProBusinessSignBoxMColorIcon = forwardRef<SVGSVGElement, SVGProps<SVGSVGElement>>((props, ref) => (
+    <svg ref={ref} role="img" focusable="false" width="24" height="24" viewBox="0 0 24 24" {...props} fill="none">
         <path
             d="M13.224 2.037v10.315a.8.8 0 01-.815.817h-1.222c-.074 0-.11.074-.11.111v8.646c.295 0 .592.074.925.074 5.518 0 10-4.49 10-10.019 0-5.083-3.815-9.35-8.778-9.944zm-.222 15.436c-.704 0-1.222-.594-1.222-1.224 0-.705.592-1.225 1.222-1.225.704 0 1.222.594 1.222 1.225.074.668-.518 1.224-1.222 1.224zm2.926 0c-.704 0-1.222-.594-1.222-1.224 0-.705.592-1.225 1.222-1.225.704 0 1.222.594 1.222 1.225 0 .63-.481 1.224-1.222 1.224zm2.963 0c-.704 0-1.222-.594-1.222-1.224 0-.705.592-1.225 1.222-1.225.704 0 1.222.594 1.222 1.225 0 .63-.518 1.224-1.222 1.224z"
             fill="#00B956"
@@ -15,6 +15,8 @@ export const MegafonProBusinessSignBoxMColorIcon: React.FC<SVGProps<SVGSVGElemen
             fill="#00B956"
         />
     </svg>
-);
+));
+
+MegafonProBusinessSignBoxMColorIcon.displayName = 'MegafonProBusinessSignBoxMColorIcon';
 
 export default MegafonProBusinessSignBoxMColorIcon;

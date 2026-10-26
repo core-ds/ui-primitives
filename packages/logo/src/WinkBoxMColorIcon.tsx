@@ -2,10 +2,10 @@
  * This is auto-generated file by scripts/svg-to-component package
  * Do not edit it manually
  */
-import React, { SVGProps } from 'react';
+import React, { SVGProps, forwardRef } from 'react';
 
-export const WinkBoxMColorIcon: React.FC<SVGProps<SVGSVGElement>> = (props) => (
-    <svg role="img" focusable="false" width="24" height="24" viewBox="0 0 24 24" {...props} fill="none">
+export const WinkBoxMColorIcon = forwardRef<SVGSVGElement, SVGProps<SVGSVGElement>>((props, ref) => (
+    <svg ref={ref} role="img" focusable="false" width="24" height="24" viewBox="0 0 24 24" {...props} fill="none">
         <path
             d="M17.166 13.265c0 .024-.02.044-.046.044h-1.298l-1.115-1.14v1.14H13.56V10.69h1.147v1.116l1.07-1.116h1.257c.012 0 .024.005.032.014a.045.045 0 010 .063l-1.185 1.199 1.272 1.266c.008.009.013.02.013.033zm-5.26-1.227l-1.26-1.348h-1.09v2.62h1.09v-1.35l1.26 1.348h1.092V10.69h-1.093v1.348zm-4.444-1.345a.045.045 0 00-.015-.003h-.995l-.53 1.596-.558-1.596H4.15l-.558 1.596-.53-1.596H2.044a.045.045 0 00-.042.06l.872 2.559h1.333l.538-1.535.538 1.535h1.333l.872-2.559a.045.045 0 00-.027-.057zm.384 2.616h1.147V10.69H7.846v2.62z"
             fill="#000"
@@ -30,6 +30,8 @@ export const WinkBoxMColorIcon: React.FC<SVGProps<SVGSVGElement>> = (props) => (
             </linearGradient>
         </defs>
     </svg>
-);
+));
+
+WinkBoxMColorIcon.displayName = 'WinkBoxMColorIcon';
 
 export default WinkBoxMColorIcon;

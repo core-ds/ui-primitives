@@ -2,13 +2,24 @@
  * This is auto-generated file by scripts/svg-to-component package
  * Do not edit it manually
  */
-import React, { SVGProps } from 'react';
+import React, { SVGProps, forwardRef } from 'react';
 
-export const WalkingManSIcon: React.FC<SVGProps<SVGSVGElement>> = (props) => (
-    <svg role="img" focusable="false" fill="currentColor" width="16" height="16" viewBox="0 0 16 16" {...props}>
+export const WalkingManSIcon = forwardRef<SVGSVGElement, SVGProps<SVGSVGElement>>((props, ref) => (
+    <svg
+        ref={ref}
+        role="img"
+        focusable="false"
+        fill="currentColor"
+        width="16"
+        height="16"
+        viewBox="0 0 16 16"
+        {...props}
+    >
         <path d="M8.608 4c.826 0 1.495-.672 1.495-1.5 0-.829-.67-1.5-1.495-1.5-.825 0-1.494.671-1.494 1.5 0 .828.669 1.5 1.494 1.5zM5.156 5.61c-.53.12-.658.317-1.069 1.073-.41.755-.752 1.538-.752 1.538a.553.553 0 00.226.706.55.55 0 00.723-.156l1-1.286 1.49-.249L6 9c-.108.434.231.643.618.866l2.52 1.45 1.251 3.181c.087.31.269.503.602.503.381 0 .485-.322.448-.66 0 0-.28-2.336-.36-3.14-.08-.805-.127-1.123-.591-1.39L8.263 8.507l.814-2.265a1.002 1.002 0 00-.235-.921.994.994 0 00-.896-.308s-2.26.476-2.79.597z" />
         <path d="M6.118 10.998l1.725 1-2.052 2.797a.563.563 0 01-.737.154.568.568 0 01-.242-.703l1.306-3.248zm5.105-2.406l-1.785-.808.41-1.532L11.77 7.64c.23.166.296.479.155.725a.55.55 0 01-.703.227z" />
     </svg>
-);
+));
+
+WalkingManSIcon.displayName = 'WalkingManSIcon';
 
 export default WalkingManSIcon;

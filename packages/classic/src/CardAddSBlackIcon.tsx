@@ -2,10 +2,10 @@
  * This is auto-generated file by scripts/svg-to-component package
  * Do not edit it manually
  */
-import React, { SVGProps } from 'react';
+import React, { SVGProps, forwardRef } from 'react';
 
-export const CardAddSBlackIcon: React.FC<SVGProps<SVGSVGElement>> = (props) => (
-    <svg role="img" focusable="false" width="18" height="18" viewBox="0 0 18 18" {...props}>
+export const CardAddSBlackIcon = forwardRef<SVGSVGElement, SVGProps<SVGSVGElement>>((props, ref) => (
+    <svg ref={ref} role="img" focusable="false" width="18" height="18" viewBox="0 0 18 18" {...props}>
         <g fill="none" fillRule="evenodd">
             <path d="M3 10h3v2H3v-2zM0 6h17v2H0V6z" fill="#0B1F35" opacity=".3" fillRule="nonzero" />
             <path
@@ -16,6 +16,8 @@ export const CardAddSBlackIcon: React.FC<SVGProps<SVGSVGElement>> = (props) => (
             <path fill="#0B1F35" d="M15.857 16v-2.143H18v-.714h-2.143V11h-.714v2.143H13v.714h2.143V16z" />
         </g>
     </svg>
-);
+));
+
+CardAddSBlackIcon.displayName = 'CardAddSBlackIcon';
 
 export default CardAddSBlackIcon;

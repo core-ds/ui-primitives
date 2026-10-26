@@ -2,10 +2,10 @@
  * This is auto-generated file by scripts/svg-to-component package
  * Do not edit it manually
  */
-import React, { SVGProps } from 'react';
+import React, { SVGProps, forwardRef } from 'react';
 
-export const TinkoffBankMColorIcon: React.FC<SVGProps<SVGSVGElement>> = (props) => (
-    <svg role="img" focusable="false" width="24" height="24" viewBox="0 0 24 24" {...props} fill="none">
+export const TinkoffBankMColorIcon = forwardRef<SVGSVGElement, SVGProps<SVGSVGElement>>((props, ref) => (
+    <svg ref={ref} role="img" focusable="false" width="24" height="24" viewBox="0 0 24 24" {...props} fill="none">
         <g clipPath="url(#prefix__clip0_2111_80)">
             <path
                 d="M4.347 0h15.306C22.053 0 24 1.946 24 4.347v15.306c0 2.4-1.946 4.347-4.347 4.347H4.347A4.347 4.347 0 010 19.653V4.347C0 1.947 1.946 0 4.347 0z"
@@ -62,6 +62,8 @@ export const TinkoffBankMColorIcon: React.FC<SVGProps<SVGSVGElement>> = (props) 
             </clipPath>
         </defs>
     </svg>
-);
+));
+
+TinkoffBankMColorIcon.displayName = 'TinkoffBankMColorIcon';
 
 export default TinkoffBankMColorIcon;

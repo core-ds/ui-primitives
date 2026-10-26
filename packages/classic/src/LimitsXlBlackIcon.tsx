@@ -2,10 +2,10 @@
  * This is auto-generated file by scripts/svg-to-component package
  * Do not edit it manually
  */
-import React, { SVGProps } from 'react';
+import React, { SVGProps, forwardRef } from 'react';
 
-export const LimitsXlBlackIcon: React.FC<SVGProps<SVGSVGElement>> = (props) => (
-    <svg role="img" focusable="false" width="36" height="36" viewBox="0 0 36 36" {...props} fill="none">
+export const LimitsXlBlackIcon = forwardRef<SVGSVGElement, SVGProps<SVGSVGElement>>((props, ref) => (
+    <svg ref={ref} role="img" focusable="false" width="36" height="36" viewBox="0 0 36 36" {...props} fill="none">
         <path
             d="M18 0c9.94 0 18 8.06 18 18s-8.06 18-18 18S0 27.94 0 18h1.5c0 9.113 7.387 16.5 16.5 16.5S34.5 27.113 34.5 18 27.113 1.5 18 1.5V0zm0 0c9.94 0 18 8.06 18 18s-8.06 18-18 18S0 27.94 0 18h1.5c0 9.113 7.387 16.5 16.5 16.5S34.5 27.113 34.5 18 27.113 1.5 18 1.5V0z"
             fill="#0B1F35"
@@ -18,6 +18,8 @@ export const LimitsXlBlackIcon: React.FC<SVGProps<SVGSVGElement>> = (props) => (
             clipRule="evenodd"
         />
     </svg>
-);
+));
+
+LimitsXlBlackIcon.displayName = 'LimitsXlBlackIcon';
 
 export default LimitsXlBlackIcon;

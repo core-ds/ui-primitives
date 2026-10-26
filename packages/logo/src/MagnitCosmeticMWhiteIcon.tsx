@@ -2,10 +2,10 @@
  * This is auto-generated file by scripts/svg-to-component package
  * Do not edit it manually
  */
-import React, { SVGProps } from 'react';
+import React, { SVGProps, forwardRef } from 'react';
 
-export const MagnitCosmeticMWhiteIcon: React.FC<SVGProps<SVGSVGElement>> = (props) => (
-    <svg role="img" focusable="false" width="93" height="24" viewBox="0 0 93 24" {...props} fill="none">
+export const MagnitCosmeticMWhiteIcon = forwardRef<SVGSVGElement, SVGProps<SVGSVGElement>>((props, ref) => (
+    <svg ref={ref} role="img" focusable="false" width="93" height="24" viewBox="0 0 93 24" {...props} fill="none">
         <path
             d="M46.267 9.6V2.009h4.762V3.77h-2.777v5.832h-1.985zm10.763 0V6.625h-2.952v2.977h-1.985V2.008h1.985V4.84h2.951V2.008h1.985V9.6H57.03zm13.517 0V3.77H68.23V2.007h6.642v1.761H72.54V9.6h-1.993zm-5.245 0V5.274L62.139 9.6h-1.66V2.008h1.992V6.29l3.11-4.282h1.713V9.6h-1.992zm-30.455 0V5.084l-1.985 2.384-1.985-2.384V9.6h-1.985V2.008h1.963l2.007 2.612 2.008-2.612h1.962V9.6h-1.985zm5.759-2.672h1.85l-.93-2.384-.92 2.384zm2.883 2.665l-.415-1.063H39.98l-.408 1.063h-2L40.59 2h1.834l3.019 7.593h-1.955zm5.155 12.377a4.076 4.076 0 01-2.936-1.17 3.799 3.799 0 01-1.21-2.786 3.815 3.815 0 011.21-2.787 4.116 4.116 0 012.936-1.162 3.96 3.96 0 011.132.16c.312.085.61.21.89.372.213.131.414.279.605.44.14.113.27.24.385.38l.135.175-1.267 1.336-.099-.122a1.424 1.424 0 00-.249-.25 3.23 3.23 0 00-.377-.281 1.936 1.936 0 00-.513-.22 2.093 2.093 0 00-.642-.099 2.06 2.06 0 00-1.158.334 2.078 2.078 0 00-.777.926 2.095 2.095 0 00.426 2.278 1.998 1.998 0 001.51.593c.357-.002.71-.082 1.033-.236.262-.11.5-.27.702-.47l.256-.274 1.208 1.336-.038.054-.105.136a3.03 3.03 0 01-.378.365c-.194.17-.404.323-.626.455a4.43 4.43 0 01-2.053.517zm-8.959-5.999a1.826 1.826 0 00-1.366.585 2.285 2.285 0 000 2.969 1.832 1.832 0 001.366.584 1.795 1.795 0 001.358-.584 2.284 2.284 0 000-2.97 1.764 1.764 0 00-1.358-.584zm0 5.999a3.852 3.852 0 01-2.421-.931 3.908 3.908 0 01-.874-4.834 3.872 3.872 0 011.94-1.728 3.843 3.843 0 012.59-.107c.85.266 1.582.818 2.074 1.564a3.907 3.907 0 01-.479 4.89 3.772 3.772 0 01-2.83 1.146zm31.209 0v-5.786h-2.226v-1.777h6.46v1.777h-2.241v5.786h-1.993z"
             fill="#fff"
@@ -19,6 +19,8 @@ export const MagnitCosmeticMWhiteIcon: React.FC<SVGProps<SVGSVGElement>> = (prop
             fill="#fff"
         />
     </svg>
-);
+));
+
+MagnitCosmeticMWhiteIcon.displayName = 'MagnitCosmeticMWhiteIcon';
 
 export default MagnitCosmeticMWhiteIcon;

@@ -2,10 +2,10 @@
  * This is auto-generated file by scripts/svg-to-component package
  * Do not edit it manually
  */
-import React, { SVGProps } from 'react';
+import React, { SVGProps, forwardRef } from 'react';
 
-export const BestplaceSignBoxMWhiteIcon: React.FC<SVGProps<SVGSVGElement>> = (props) => (
-    <svg role="img" focusable="false" width="24" height="24" viewBox="0 0 24 24" {...props} fill="none">
+export const BestplaceSignBoxMWhiteIcon = forwardRef<SVGSVGElement, SVGProps<SVGSVGElement>>((props, ref) => (
+    <svg ref={ref} role="img" focusable="false" width="24" height="24" viewBox="0 0 24 24" {...props} fill="none">
         <path
             d="M3.341 7.01L3.36 7l4.069.169-.018.01v7.463l8.664 5.002-4.061 2.353-.028-.016-8.643-4.99V7.01z"
             fill="url(#prefix__paint0_linear_3891_185)"
@@ -54,6 +54,8 @@ export const BestplaceSignBoxMWhiteIcon: React.FC<SVGProps<SVGSVGElement>> = (pr
             </linearGradient>
         </defs>
     </svg>
-);
+));
+
+BestplaceSignBoxMWhiteIcon.displayName = 'BestplaceSignBoxMWhiteIcon';
 
 export default BestplaceSignBoxMWhiteIcon;

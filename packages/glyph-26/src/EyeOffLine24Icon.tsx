@@ -2,13 +2,24 @@
  * This is auto-generated file by scripts/svg-to-component package
  * Do not edit it manually
  */
-import React, { SVGProps } from 'react';
+import React, { SVGProps, forwardRef } from 'react';
 
-export const EyeOffLine24Icon: React.FC<SVGProps<SVGSVGElement>> = (props) => (
-    <svg role="img" focusable="false" fill="currentColor" width="24" height="24" viewBox="0 0 24 24" {...props}>
+export const EyeOffLine24Icon = forwardRef<SVGSVGElement, SVGProps<SVGSVGElement>>((props, ref) => (
+    <svg
+        ref={ref}
+        role="img"
+        focusable="false"
+        fill="currentColor"
+        width="24"
+        height="24"
+        viewBox="0 0 24 24"
+        {...props}
+    >
         <path d="M21.707 20.293l-1.414 1.414-3.702-3.702c-1.243.597-2.73.995-4.49.995-3.61 0-6.13-1.666-7.72-3.303a12.76 12.76 0 01-1.732-2.24 10.896 10.896 0 01-.526-.97l-.03-.063-.008-.02a.11.11 0 00-.003-.006v-.003L3 12l-.919-.394.001-.004.003-.005.009-.02.03-.064a10.896 10.896 0 01.525-.97c.371-.61.94-1.425 1.732-2.24.388-.4.831-.799 1.332-1.176l-3.42-3.42 1.414-1.414 18 18zM7.143 8.557a9.538 9.538 0 00-1.327 1.14A10.771 10.771 0 004.116 12a10.77 10.77 0 001.7 2.303C7.14 15.666 9.172 17 12.1 17c1.124 0 2.108-.2 2.965-.52l-1.737-1.737A3 3 0 0110 14.121a3 3 0 01-.623-3.33L7.143 8.557zM12.1 5c3.614 0 6.087 1.67 7.632 3.315a12.208 12.208 0 011.664 2.248 10.522 10.522 0 01.495.975l.027.064.008.02.003.007v.003L21 12l.93.367-.001.004-.003.007-.008.02a5.025 5.025 0 01-.128.287c-.087.185-.218.444-.394.752-.353.612-.896 1.43-1.665 2.248-.02.022-.044.043-.066.066l-1.414-1.414c.007-.007.015-.014.021-.022a10.216 10.216 0 001.39-1.877c.097-.167.174-.316.236-.438a8.866 8.866 0 00-.236-.438 10.217 10.217 0 00-1.39-1.877C17.003 8.33 15.026 7 12.102 7c-.389 0-.761.024-1.119.068L9.28 5.365c.855-.23 1.794-.365 2.822-.365z" />
         <path d="M3 12l-.92.393a1.001 1.001 0 010-.786L3 12zm18.93-.366a1 1 0 010 .732L21 12l.93-.366z" />
     </svg>
-);
+));
+
+EyeOffLine24Icon.displayName = 'EyeOffLine24Icon';
 
 export default EyeOffLine24Icon;

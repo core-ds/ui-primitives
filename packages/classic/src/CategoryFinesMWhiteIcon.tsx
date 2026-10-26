@@ -2,10 +2,10 @@
  * This is auto-generated file by scripts/svg-to-component package
  * Do not edit it manually
  */
-import React, { SVGProps } from 'react';
+import React, { SVGProps, forwardRef } from 'react';
 
-export const CategoryFinesMWhiteIcon: React.FC<SVGProps<SVGSVGElement>> = (props) => (
-    <svg role="img" focusable="false" width="18" height="24" viewBox="0 0 18 24" {...props}>
+export const CategoryFinesMWhiteIcon = forwardRef<SVGSVGElement, SVGProps<SVGSVGElement>>((props, ref) => (
+    <svg ref={ref} role="img" focusable="false" width="18" height="24" viewBox="0 0 18 24" {...props}>
         <g fill="none" fillRule="evenodd">
             <path d="M-3 0h24v24H-3z" />
             <path
@@ -15,6 +15,8 @@ export const CategoryFinesMWhiteIcon: React.FC<SVGProps<SVGSVGElement>> = (props
             <path fill="#FFF" d="M4 11h10v2H4zm7 4h3v2h-3zm-7 0h5v2H4zm0-8h6v2H4z" opacity=".3" />
         </g>
     </svg>
-);
+));
+
+CategoryFinesMWhiteIcon.displayName = 'CategoryFinesMWhiteIcon';
 
 export default CategoryFinesMWhiteIcon;

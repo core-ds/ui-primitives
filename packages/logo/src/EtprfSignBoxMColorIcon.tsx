@@ -2,10 +2,10 @@
  * This is auto-generated file by scripts/svg-to-component package
  * Do not edit it manually
  */
-import React, { SVGProps } from 'react';
+import React, { SVGProps, forwardRef } from 'react';
 
-export const EtprfSignBoxMColorIcon: React.FC<SVGProps<SVGSVGElement>> = (props) => (
-    <svg role="img" focusable="false" width="24" height="24" viewBox="0 0 24 24" {...props} fill="none">
+export const EtprfSignBoxMColorIcon = forwardRef<SVGSVGElement, SVGProps<SVGSVGElement>>((props, ref) => (
+    <svg ref={ref} role="img" focusable="false" width="24" height="24" viewBox="0 0 24 24" {...props} fill="none">
         <path
             d="M4.32 8.188l-.433 2.035h2.857c-.062.25-.12.461-.177.63a4.587 4.587 0 01-.122.342 3.096 3.096 0 01-.25.511 1.913 1.913 0 01-1.117.833 2.804 2.804 0 01-.757.092 2.672 2.672 0 01-.693-.09 2.34 2.34 0 01-1.132-.673L1 13.648a4.118 4.118 0 001.062.703c.357.162.706.275 1.05.34.344.064.695.097 1.06.094.72-.005 1.346-.09 1.874-.254a4.663 4.663 0 001.371-.673c.382-.28.71-.594.988-.943.214-.264.399-.533.556-.807.157-.275.296-.556.413-.843a10.45 10.45 0 00.366-1.042h1.202l-1.78 8.297h2.677l1.78-8.297h8.945L23 8.189H4.321z"
             fill="url(#prefix__paint0_linear_10612_75)"
@@ -54,6 +54,8 @@ export const EtprfSignBoxMColorIcon: React.FC<SVGProps<SVGSVGElement>> = (props)
             </linearGradient>
         </defs>
     </svg>
-);
+));
+
+EtprfSignBoxMColorIcon.displayName = 'EtprfSignBoxMColorIcon';
 
 export default EtprfSignBoxMColorIcon;

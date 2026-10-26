@@ -2,10 +2,10 @@
  * This is auto-generated file by scripts/svg-to-component package
  * Do not edit it manually
  */
-import React, { SVGProps } from 'react';
+import React, { SVGProps, forwardRef } from 'react';
 
-export const CityDriveMWhiteIcon: React.FC<SVGProps<SVGSVGElement>> = (props) => (
-    <svg role="img" focusable="false" width="142" height="24" viewBox="0 0 142 24" {...props} fill="none">
+export const CityDriveMWhiteIcon = forwardRef<SVGSVGElement, SVGProps<SVGSVGElement>>((props, ref) => (
+    <svg ref={ref} role="img" focusable="false" width="142" height="24" viewBox="0 0 142 24" {...props} fill="none">
         <path
             d="M64.577 22h3.394v-2.857h9.17v2.83h3.367v-5.607h-1.78V5.204H67.67l-.246 6.569c-.055 1.709-.411 3.098-1.314 4.593h-1.533V22zm6.05-9.96l.136-4.059h4.572v8.358h-5.776c.684-1.228 1.013-2.75 1.067-4.299zM89.35 5.204h-6.926V19.17h3.367v-5.1h3.559c3.12 0 5.037-1.495 5.037-4.459 0-2.99-1.834-4.406-5.037-4.406zm-3.559 2.75h3.477c1.122 0 1.78.615 1.78 1.656 0 1.042-.658 1.71-1.78 1.71H85.79V7.954zm41.91-2.75V19.17h7.417c2.738 0 5.147-.907 5.147-3.898 0-1.495-.739-2.537-1.916-3.124 1.012-.614 1.587-1.656 1.587-3.018 0-2.99-2.354-3.898-5.118-3.898h-7.117v-.027zm3.339 2.697h3.832c1.205 0 1.78.508 1.78 1.496 0 1.04-.575 1.468-1.78 1.468h-3.832V7.901zm0 5.608h4.133c1.15 0 1.725.48 1.725 1.468s-.548 1.496-1.725 1.496h-4.133v-2.964zM110.893 2l.027 2.403 12.127-1.148V2h-12.154zM98.657 5.204L94.03 19.17h3.67l.657-2.242h4.544l.712 2.242h3.722l-4.653-13.965h-4.024zm3.422 8.945h-3.012l1.479-5.794h.082l1.451 5.794zm10.511-8.945h-3.531V19.17h3.887l8.322-9.72h.081l-.054 9.72h3.532V5.204h-3.888l-8.322 9.72h-.082l.055-9.72z"
             fill="#32D264"
@@ -15,6 +15,8 @@ export const CityDriveMWhiteIcon: React.FC<SVGProps<SVGSVGElement>> = (props) =>
             fill="#fff"
         />
     </svg>
-);
+));
+
+CityDriveMWhiteIcon.displayName = 'CityDriveMWhiteIcon';
 
 export default CityDriveMWhiteIcon;

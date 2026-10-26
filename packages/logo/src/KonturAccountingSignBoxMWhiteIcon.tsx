@@ -2,10 +2,10 @@
  * This is auto-generated file by scripts/svg-to-component package
  * Do not edit it manually
  */
-import React, { SVGProps } from 'react';
+import React, { SVGProps, forwardRef } from 'react';
 
-export const KonturAccountingSignBoxMWhiteIcon: React.FC<SVGProps<SVGSVGElement>> = (props) => (
-    <svg role="img" focusable="false" width="24" height="24" viewBox="0 0 24 24" {...props} fill="none">
+export const KonturAccountingSignBoxMWhiteIcon = forwardRef<SVGSVGElement, SVGProps<SVGSVGElement>>((props, ref) => (
+    <svg ref={ref} role="img" focusable="false" width="24" height="24" viewBox="0 0 24 24" {...props} fill="none">
         <path
             d="M18.333 2H5.667A2.667 2.667 0 003 4.667v14.666A2.667 2.667 0 005.667 22h12.666A2.667 2.667 0 0021 19.333V4.667A2.667 2.667 0 0018.333 2z"
             fill="#fff"
@@ -21,6 +21,8 @@ export const KonturAccountingSignBoxMWhiteIcon: React.FC<SVGProps<SVGSVGElement>
             clipRule="evenodd"
         />
     </svg>
-);
+));
+
+KonturAccountingSignBoxMWhiteIcon.displayName = 'KonturAccountingSignBoxMWhiteIcon';
 
 export default KonturAccountingSignBoxMWhiteIcon;

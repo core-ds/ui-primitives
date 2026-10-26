@@ -2,10 +2,10 @@
  * This is auto-generated file by scripts/svg-to-component package
  * Do not edit it manually
  */
-import React, { SVGProps } from 'react';
+import React, { SVGProps, forwardRef } from 'react';
 
-export const FormatSketchSBlackIcon: React.FC<SVGProps<SVGSVGElement>> = (props) => (
-    <svg role="img" focusable="false" width="18" height="18" version="1" viewBox="0 0 18 18" {...props}>
+export const FormatSketchSBlackIcon = forwardRef<SVGSVGElement, SVGProps<SVGSVGElement>>((props, ref) => (
+    <svg ref={ref} role="img" focusable="false" width="18" height="18" version="1" viewBox="0 0 18 18" {...props}>
         <path
             fill="#0B1F35"
             d="M9 17H2.5c-.827 0-1.5-.673-1.5-1.5V4.293L5.293 0h7.148C13.301 0 14 .699 14 1.559V5h-1V1.559A.56.56 0 0012.441 1H5.707L2 4.707V15.5a.5.5 0 00.5.5H9v1z"
@@ -19,6 +19,8 @@ export const FormatSketchSBlackIcon: React.FC<SVGProps<SVGSVGElement>> = (props)
         <path fill="#0B1F35" d="M8.047 10.71l.909-.42 3 6.5-.909.42z" />
         <path fill="#0B1F35" d="M11.045 16.789l3.004-6.498.909.42-3.005 6.498z" />
     </svg>
-);
+));
+
+FormatSketchSBlackIcon.displayName = 'FormatSketchSBlackIcon';
 
 export default FormatSketchSBlackIcon;

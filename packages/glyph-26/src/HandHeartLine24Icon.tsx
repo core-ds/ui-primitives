@@ -2,12 +2,23 @@
  * This is auto-generated file by scripts/svg-to-component package
  * Do not edit it manually
  */
-import React, { SVGProps } from 'react';
+import React, { SVGProps, forwardRef } from 'react';
 
-export const HandHeartLine24Icon: React.FC<SVGProps<SVGSVGElement>> = (props) => (
-    <svg role="img" focusable="false" fill="currentColor" width="24" height="24" viewBox="0 0 24 24" {...props}>
+export const HandHeartLine24Icon = forwardRef<SVGSVGElement, SVGProps<SVGSVGElement>>((props, ref) => (
+    <svg
+        ref={ref}
+        role="img"
+        focusable="false"
+        fill="currentColor"
+        width="24"
+        height="24"
+        viewBox="0 0 24 24"
+        {...props}
+    >
         <path d="M21.999 22H16.21v-1.415l-3.233.963a11 11 0 01-6.689-.132l-3.593-1.225-.676-.231v-.715c0-.95.232-1.792.793-2.4.571-.62 1.34-.845 2.084-.845h1.841c0-1.775 1.373-2.68 2.063-2.934l3.48-1.336a11.001 11.001 0 013.942-.73h5.777v11zm-5.789-9a9 9 0 00-3.214.598l-3.492 1.34-.014.005a1.307 1.307 0 00-.476.338c-.16.178-.277.406-.277.719h.476a7 7 0 002.323-.396l1.553-.547.664 1.886-1.553.546A9 9 0 019.213 18H4.896c-.35 0-.52.099-.614.2a.885.885 0 00-.18.357l2.832.966a9.001 9.001 0 005.472.108l3.804-1.133V13zm2 7h1.789v-7H18.21v7zM8.792 2.008a3.242 3.242 0 012.268.926c.6.596.944 1.399.944 2.245 0 .846-.344 1.65-.944 2.245l-.005.005-3.284 3.21a.996.996 0 01-.386.292 1 1 0 01-1.088-.21L2.95 7.425l-.003-.003a3.162 3.162 0 01-.943-2.244c0-.846.344-1.65.943-2.244a3.175 3.175 0 011.042-.687 3.26 3.26 0 013.014.297 3.261 3.261 0 011.79-.536zm0 2a1.25 1.25 0 00-.474.092c-.148.06-.279.147-.385.254l-.006.004-.225.22a1 1 0 01-1.397 0l-.224-.22-.006-.004A1.177 1.177 0 005.69 4.1a1.261 1.261 0 00-.947 0c-.148.06-.279.147-.386.254-.23.23-.352.525-.352.824 0 .297.12.593.35.822l2.64 2.6L9.656 6c.229-.229.348-.523.348-.82 0-.262-.092-.522-.27-.737l-.083-.088a1.18 1.18 0 00-.386-.254 1.26 1.26 0 00-.473-.092z" />
     </svg>
-);
+));
+
+HandHeartLine24Icon.displayName = 'HandHeartLine24Icon';
 
 export default HandHeartLine24Icon;

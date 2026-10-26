@@ -2,12 +2,23 @@
  * This is auto-generated file by scripts/svg-to-component package
  * Do not edit it manually
  */
-import React, { SVGProps } from 'react';
+import React, { SVGProps, forwardRef } from 'react';
 
-export const RocketLine24Icon: React.FC<SVGProps<SVGSVGElement>> = (props) => (
-    <svg role="img" focusable="false" fill="currentColor" width="24" height="24" viewBox="0 0 24 24" {...props}>
+export const RocketLine24Icon = forwardRef<SVGSVGElement, SVGProps<SVGSVGElement>>((props, ref) => (
+    <svg
+        ref={ref}
+        role="img"
+        focusable="false"
+        fill="currentColor"
+        width="24"
+        height="24"
+        viewBox="0 0 24 24"
+        {...props}
+    >
         <path d="M6.4 14.086c.239 0 .438.052.588.114.605.25.941.987.482 1.578a1 1 0 01-1.053.35c-.628.543-.821 1.674-.986 2.441.769-.165 1.899-.356 2.44-.987a1 1 0 01.352-1.051c.582-.453 1.328-.125 1.578.482.062.15.114.35.114.587 0 .505-.23 1.005-.684 1.46-.477.476-1.153.793-1.747 1.01-.62.225-1.28.385-1.82.495a1.879 1.879 0 01-2.228-2.227c.134-.616.28-1.227.496-1.82.216-.594.533-1.27 1.009-1.747.454-.455.954-.686 1.46-.685zm7.496 2.463l.365 2.557 2.605-2.605v-2.922l-2.97 2.97zm6.008-12.454a5.967 5.967 0 00-5.268 1.653l-5.418 5.417 3.617 3.617 5.418-5.417a5.966 5.966 0 001.651-5.27zM4.894 9.74l2.557.365 2.97-2.97h-2.92L4.893 9.74zm13.972 7.092c0 .319-.127.625-.352.85l-3.965 3.966c-.701.701-1.902.301-2.042-.68l-.614-4.3-4.56-4.56-4.299-.613a1.203 1.203 0 01-.68-2.042L6.32 5.487l.087-.08c.215-.175.484-.272.763-.272h5.251l.8-.801a7.969 7.969 0 017.732-2.053c.327.09.59.323.72.63l.047.137.066.258a7.969 7.969 0 01-2.119 7.473l-.8.8v5.252z" />
     </svg>
-);
+));
+
+RocketLine24Icon.displayName = 'RocketLine24Icon';
 
 export default RocketLine24Icon;

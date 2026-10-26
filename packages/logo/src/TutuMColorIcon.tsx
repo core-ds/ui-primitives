@@ -2,10 +2,10 @@
  * This is auto-generated file by scripts/svg-to-component package
  * Do not edit it manually
  */
-import React, { SVGProps } from 'react';
+import React, { SVGProps, forwardRef } from 'react';
 
-export const TutuMColorIcon: React.FC<SVGProps<SVGSVGElement>> = (props) => (
-    <svg role="img" focusable="false" width="78" height="24" viewBox="0 0 78 24" {...props} fill="none">
+export const TutuMColorIcon = forwardRef<SVGSVGElement, SVGProps<SVGSVGElement>>((props, ref) => (
+    <svg ref={ref} role="img" focusable="false" width="78" height="24" viewBox="0 0 78 24" {...props} fill="none">
         <path
             d="M12.3 15.366c.783 0 1.42-.637 1.42-1.421v-1.193a.26.26 0 01.26-.26h6.115a.26.26 0 01.26.26v1.194a8.054 8.054 0 01-16.107 0V11.02a.259.259 0 00-.26-.26H2.26A.26.26 0 012 10.5V5.815a.26.26 0 01.26-.26h1.726a.26.26 0 00.26-.259V2.331a.26.26 0 01.26-.26h6.112a.26.26 0 01.26.26v2.964c0 .144.116.26.26.26h7.44a.26.26 0 01.26.259v4.685a.259.259 0 01-.26.26h-7.44a.259.259 0 00-.26.259v2.927c0 .784.637 1.42 1.421 1.42zm17.177 0c.784 0 1.421-.637 1.421-1.421V5.814a.26.26 0 01.26-.26h6.24a.26.26 0 01.258.273l-.125 8.118a8.054 8.054 0 01-16.107 0V5.814a.26.26 0 01.26-.26h6.113a.26.26 0 01.26.26v8.13c0 .785.636 1.422 1.42 1.422z"
             fill="#0D0B68"
@@ -15,6 +15,8 @@ export const TutuMColorIcon: React.FC<SVGProps<SVGSVGElement>> = (props) => (
             fill="#7D71FF"
         />
     </svg>
-);
+));
+
+TutuMColorIcon.displayName = 'TutuMColorIcon';
 
 export default TutuMColorIcon;

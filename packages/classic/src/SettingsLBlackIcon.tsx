@@ -2,10 +2,10 @@
  * This is auto-generated file by scripts/svg-to-component package
  * Do not edit it manually
  */
-import React, { SVGProps } from 'react';
+import React, { SVGProps, forwardRef } from 'react';
 
-export const SettingsLBlackIcon: React.FC<SVGProps<SVGSVGElement>> = (props) => (
-    <svg role="img" focusable="false" width="30" height="30" viewBox="0 0 30 30" {...props} fill="none">
+export const SettingsLBlackIcon = forwardRef<SVGSVGElement, SVGProps<SVGSVGElement>>((props, ref) => (
+    <svg ref={ref} role="img" focusable="false" width="30" height="30" viewBox="0 0 30 30" {...props} fill="none">
         <g clipPath="url(#prefix__clip0)">
             <path
                 d="M15 8.75a6.25 6.25 0 10.001 12.501A6.25 6.25 0 0015 8.75zM15 10c2.758 0 5 2.242 5 5s-2.242 5-5 5-5-2.242-5-5 2.242-5 5-5z"
@@ -32,6 +32,8 @@ export const SettingsLBlackIcon: React.FC<SVGProps<SVGSVGElement>> = (props) => 
             </clipPath>
         </defs>
     </svg>
-);
+));
+
+SettingsLBlackIcon.displayName = 'SettingsLBlackIcon';
 
 export default SettingsLBlackIcon;

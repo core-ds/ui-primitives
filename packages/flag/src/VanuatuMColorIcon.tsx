@@ -2,10 +2,10 @@
  * This is auto-generated file by scripts/svg-to-component package
  * Do not edit it manually
  */
-import React, { SVGProps } from 'react';
+import React, { SVGProps, forwardRef } from 'react';
 
-export const VanuatuMColorIcon: React.FC<SVGProps<SVGSVGElement>> = (props) => (
-    <svg role="img" focusable="false" width="24" height="24" viewBox="0 0 24 24" {...props} fill="none">
+export const VanuatuMColorIcon = forwardRef<SVGSVGElement, SVGProps<SVGSVGElement>>((props, ref) => (
+    <svg ref={ref} role="img" focusable="false" width="24" height="24" viewBox="0 0 24 24" {...props} fill="none">
         <path
             d="M22.202 4.137H1.795c-.96 0-1.745.753-1.795 1.7v12.326c.05.947.835 1.7 1.795 1.7h20.407c.993 0 1.798-.805 1.798-1.798V5.935c0-.993-.805-1.798-1.798-1.798z"
             fill="#464655"
@@ -31,6 +31,8 @@ export const VanuatuMColorIcon: React.FC<SVGProps<SVGSVGElement>> = (props) => (
             fill="#FFE15A"
         />
     </svg>
-);
+));
+
+VanuatuMColorIcon.displayName = 'VanuatuMColorIcon';
 
 export default VanuatuMColorIcon;

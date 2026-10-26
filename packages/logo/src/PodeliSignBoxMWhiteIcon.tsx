@@ -2,10 +2,10 @@
  * This is auto-generated file by scripts/svg-to-component package
  * Do not edit it manually
  */
-import React, { SVGProps } from 'react';
+import React, { SVGProps, forwardRef } from 'react';
 
-export const PodeliSignBoxMWhiteIcon: React.FC<SVGProps<SVGSVGElement>> = (props) => (
-    <svg role="img" focusable="false" width="24" height="24" viewBox="0 0 24 24" {...props} fill="none">
+export const PodeliSignBoxMWhiteIcon = forwardRef<SVGSVGElement, SVGProps<SVGSVGElement>>((props, ref) => (
+    <svg ref={ref} role="img" focusable="false" width="24" height="24" viewBox="0 0 24 24" {...props} fill="none">
         <path
             d="M12 2a10 10 0 1010 10A10.013 10.013 0 0012 2zm7.284 10a7.283 7.283 0 11-14.567 0 7.283 7.283 0 0114.567 0z"
             fill="#fff"
@@ -15,6 +15,8 @@ export const PodeliSignBoxMWhiteIcon: React.FC<SVGProps<SVGSVGElement>> = (props
             fill="#000"
         />
     </svg>
-);
+));
+
+PodeliSignBoxMWhiteIcon.displayName = 'PodeliSignBoxMWhiteIcon';
 
 export default PodeliSignBoxMWhiteIcon;

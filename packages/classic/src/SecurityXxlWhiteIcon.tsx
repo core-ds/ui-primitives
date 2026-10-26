@@ -2,10 +2,10 @@
  * This is auto-generated file by scripts/svg-to-component package
  * Do not edit it manually
  */
-import React, { SVGProps } from 'react';
+import React, { SVGProps, forwardRef } from 'react';
 
-export const SecurityXxlWhiteIcon: React.FC<SVGProps<SVGSVGElement>> = (props) => (
-    <svg role="img" focusable="false" width="40" height="42" viewBox="0 0 40 42" {...props}>
+export const SecurityXxlWhiteIcon = forwardRef<SVGSVGElement, SVGProps<SVGSVGElement>>((props, ref) => (
+    <svg ref={ref} role="img" focusable="false" width="40" height="42" viewBox="0 0 40 42" {...props}>
         <g fill="none" fillRule="evenodd">
             <path d="M-4-4h48v48H-4z" />
             <path
@@ -15,6 +15,8 @@ export const SecurityXxlWhiteIcon: React.FC<SVGProps<SVGSVGElement>> = (props) =
             <path fill="#FFF" d="M16 29h8v12.5h-8zm2-15h4v6h-4z" opacity=".3" />
         </g>
     </svg>
-);
+));
+
+SecurityXxlWhiteIcon.displayName = 'SecurityXxlWhiteIcon';
 
 export default SecurityXxlWhiteIcon;

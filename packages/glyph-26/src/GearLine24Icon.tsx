@@ -2,13 +2,24 @@
  * This is auto-generated file by scripts/svg-to-component package
  * Do not edit it manually
  */
-import React, { SVGProps } from 'react';
+import React, { SVGProps, forwardRef } from 'react';
 
-export const GearLine24Icon: React.FC<SVGProps<SVGSVGElement>> = (props) => (
-    <svg role="img" focusable="false" fill="currentColor" width="24" height="24" viewBox="0 0 24 24" {...props}>
+export const GearLine24Icon = forwardRef<SVGSVGElement, SVGProps<SVGSVGElement>>((props, ref) => (
+    <svg
+        ref={ref}
+        role="img"
+        focusable="false"
+        fill="currentColor"
+        width="24"
+        height="24"
+        viewBox="0 0 24 24"
+        {...props}
+    >
         <path d="M12 8a4 4 0 110 8 4 4 0 010-8zm0 2a2 2 0 100 4 2 2 0 000-4z" />
         <path d="M15.688 4.901c.21.11.414.229.613.356l3-.613 2.72 4.713-2.03 2.288a7.633 7.633 0 010 .709l2.03 2.29-2.72 4.713-3-.616a7.996 7.996 0 01-.613.356L14.72 22H9.279l-.968-2.904a7.978 7.978 0 01-.613-.355l-2.998.616-2.72-4.713.478-.54 1.55-1.75a8.065 8.065 0 010-.71L1.979 9.356 4.7 4.644l2.997.613a7.99 7.99 0 01.614-.355l.74-2.218L9.28 2h5.442l.966 2.901zM9.936 6.348l-.399.18a5.99 5.99 0 00-1.044.604l-.355.257-2.427-.497-1.28 2.216 1.351 1.524.291.327-.044.436c-.02.199-.03.4-.03.605l.008.304c.005.1.012.2.022.3l.043.436-1.641 1.85 1.279 2.217 2.428-.497.355.257c.245.177.503.335.772.473l.272.13.4.181.137.415L10.72 20h2.56l.644-1.934.138-.415.399-.18c.37-.167.72-.369 1.045-.604l.355-.257 2.428.497 1.278-2.215-1.351-1.524-.29-.328.043-.435a6.099 6.099 0 000-1.21l-.044-.436 1.642-1.852-1.279-2.215-2.427.497-.355-.257a5.992 5.992 0 00-1.045-.604l-.4-.18-.137-.415L13.279 4h-2.56l-.782 2.348z" />
     </svg>
-);
+));
+
+GearLine24Icon.displayName = 'GearLine24Icon';
 
 export default GearLine24Icon;

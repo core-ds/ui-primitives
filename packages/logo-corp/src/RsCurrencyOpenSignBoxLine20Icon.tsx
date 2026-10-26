@@ -2,13 +2,24 @@
  * This is auto-generated file by scripts/svg-to-component package
  * Do not edit it manually
  */
-import React, { SVGProps } from 'react';
+import React, { SVGProps, forwardRef } from 'react';
 
-export const RsCurrencyOpenSignBoxLine20Icon: React.FC<SVGProps<SVGSVGElement>> = (props) => (
-    <svg role="img" focusable="false" fill="currentColor" width="20" height="20" viewBox="0 0 20 20" {...props}>
+export const RsCurrencyOpenSignBoxLine20Icon = forwardRef<SVGSVGElement, SVGProps<SVGSVGElement>>((props, ref) => (
+    <svg
+        ref={ref}
+        role="img"
+        focusable="false"
+        fill="currentColor"
+        width="20"
+        height="20"
+        viewBox="0 0 20 20"
+        {...props}
+    >
         <path d="M11.016 6.158c.284.087.565.21.822.37C12.419 6.893 13 7.545 13 8.5h-2c0-.045-.011-.144-.226-.278A1.582 1.582 0 0010 8c-.351 0-.646.091-.82.207-.145.096-.18.181-.18.293a.255.255 0 00.01.075.378.378 0 00.119.092c.226.132.572.228 1.113.363.458.115 1.114.27 1.637.574.28.164.57.395.787.729.224.344.334.74.334 1.167 0 .86-.486 1.51-1.052 1.906a3.244 3.244 0 01-.924.442V15h-2v-1.146a3.453 3.453 0 01-.862-.382C7.582 13.107 7 12.454 7 11.5h2c0 .045.011.144.226.278.226.143.54.222.774.222.314 0 .61-.098.802-.231.184-.13.198-.23.198-.269 0-.04-.005-.06-.007-.067l-.003-.008a.375.375 0 00-.119-.092c-.226-.132-.572-.228-1.113-.363-.458-.115-1.114-.27-1.637-.575a2.314 2.314 0 01-.787-.728A2.108 2.108 0 017 8.5c0-.888.465-1.553 1.07-1.957.29-.193.613-.33.945-.417L9 5.013l2-.027.016 1.172z" />
         <path d="M15 2a3 3 0 013 3v10a3 3 0 01-3 3H5a3 3 0 01-3-3V5a3 3 0 013-3h10zM5 4a1 1 0 00-1 1v10a1 1 0 001 1h10a1 1 0 001-1V5a1 1 0 00-1-1H5z" />
     </svg>
-);
+));
+
+RsCurrencyOpenSignBoxLine20Icon.displayName = 'RsCurrencyOpenSignBoxLine20Icon';
 
 export default RsCurrencyOpenSignBoxLine20Icon;

@@ -2,10 +2,10 @@
  * This is auto-generated file by scripts/svg-to-component package
  * Do not edit it manually
  */
-import React, { SVGProps } from 'react';
+import React, { SVGProps, forwardRef } from 'react';
 
-export const OptmonkSignBoxMColorIcon: React.FC<SVGProps<SVGSVGElement>> = (props) => (
-    <svg role="img" focusable="false" width="24" height="24" viewBox="0 0 24 24" {...props} fill="none">
+export const OptmonkSignBoxMColorIcon = forwardRef<SVGSVGElement, SVGProps<SVGSVGElement>>((props, ref) => (
+    <svg ref={ref} role="img" focusable="false" width="24" height="24" viewBox="0 0 24 24" {...props} fill="none">
         <path
             d="M3.12 11.316c.346.196.736.29 1.17.29.428 0 .819-.094 1.171-.29a2.193 2.193 0 001.12-1.944c0-.422-.1-.805-.302-1.145a2.168 2.168 0 00-.818-.8 2.443 2.443 0 00-1.17-.289c-.435 0-.825.1-1.17.296-.353.195-.624.46-.825.8A2.181 2.181 0 002 9.371a2.173 2.173 0 001.12 1.945zm2.171-.258c-.302.17-.636.252-1 .252a2.01 2.01 0 01-1.007-.252 1.776 1.776 0 01-.705-.692 1.906 1.906 0 01-.258-.994c0-.365.082-.692.258-.988.17-.296.403-.528.705-.698a2.078 2.078 0 011.006-.252c.365 0 .699.088 1.001.252.296.17.529.402.705.698.17.296.258.623.258.988s-.088.699-.258.994a1.86 1.86 0 01-.705.693z"
             fill="#F4F6CA"
@@ -32,6 +32,8 @@ export const OptmonkSignBoxMColorIcon: React.FC<SVGProps<SVGSVGElement>> = (prop
             fill="#E6AA19"
         />
     </svg>
-);
+));
+
+OptmonkSignBoxMColorIcon.displayName = 'OptmonkSignBoxMColorIcon';
 
 export default OptmonkSignBoxMColorIcon;

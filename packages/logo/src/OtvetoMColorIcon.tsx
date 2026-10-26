@@ -2,10 +2,10 @@
  * This is auto-generated file by scripts/svg-to-component package
  * Do not edit it manually
  */
-import React, { SVGProps } from 'react';
+import React, { SVGProps, forwardRef } from 'react';
 
-export const OtvetoMColorIcon: React.FC<SVGProps<SVGSVGElement>> = (props) => (
-    <svg role="img" focusable="false" width="85" height="24" viewBox="0 0 85 24" {...props} fill="none">
+export const OtvetoMColorIcon = forwardRef<SVGSVGElement, SVGProps<SVGSVGElement>>((props, ref) => (
+    <svg ref={ref} role="img" focusable="false" width="85" height="24" viewBox="0 0 85 24" {...props} fill="none">
         <path d="M12 22c5.523 0 10-4.477 10-10S17.523 2 12 2 2 6.477 2 12s4.477 10 10 10z" fill="#D9D9D9" />
         <path d="M12 22c5.523 0 10-4.477 10-10S17.523 2 12 2 2 6.477 2 12s4.477 10 10 10z" fill="#05F" />
         <path
@@ -19,6 +19,8 @@ export const OtvetoMColorIcon: React.FC<SVGProps<SVGSVGElement>> = (props) => (
             fill="#05F"
         />
     </svg>
-);
+));
+
+OtvetoMColorIcon.displayName = 'OtvetoMColorIcon';
 
 export default OtvetoMColorIcon;

@@ -2,10 +2,10 @@
  * This is auto-generated file by scripts/svg-to-component package
  * Do not edit it manually
  */
-import React, { SVGProps } from 'react';
+import React, { SVGProps, forwardRef } from 'react';
 
-export const CategoryCardsMColorIcon: React.FC<SVGProps<SVGSVGElement>> = (props) => (
-    <svg role="img" focusable="false" width="24" height="24" viewBox="0 0 24 24" {...props} fill="none">
+export const CategoryCardsMColorIcon = forwardRef<SVGSVGElement, SVGProps<SVGSVGElement>>((props, ref) => (
+    <svg ref={ref} role="img" focusable="false" width="24" height="24" viewBox="0 0 24 24" {...props} fill="none">
         <path
             d="M5.35 4.16a1.638 1.638 0 012.047-1.088L22.84 7.793a1.638 1.638 0 011.088 2.046l-2.415 7.897a1.638 1.638 0 01-2.045 1.088L4.024 14.103a1.638 1.638 0 01-1.087-2.046L5.35 4.16z"
             fill="#B8D1E0"
@@ -24,6 +24,8 @@ export const CategoryCardsMColorIcon: React.FC<SVGProps<SVGSVGElement>> = (props
         <rect x="2" y="17" width="12" height="2" rx=".41" fill="#fff" fillOpacity=".3" />
         <path opacity=".8" d="M16 19a1 1 0 100-2 1 1 0 000 2z" fill="#fff" fillRule="evenodd" clipRule="evenodd" />
     </svg>
-);
+));
+
+CategoryCardsMColorIcon.displayName = 'CategoryCardsMColorIcon';
 
 export default CategoryCardsMColorIcon;

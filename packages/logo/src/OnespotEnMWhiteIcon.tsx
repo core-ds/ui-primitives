@@ -2,10 +2,10 @@
  * This is auto-generated file by scripts/svg-to-component package
  * Do not edit it manually
  */
-import React, { SVGProps } from 'react';
+import React, { SVGProps, forwardRef } from 'react';
 
-export const OnespotEnMWhiteIcon: React.FC<SVGProps<SVGSVGElement>> = (props) => (
-    <svg role="img" focusable="false" width="65" height="24" viewBox="0 0 65 24" {...props} fill="none">
+export const OnespotEnMWhiteIcon = forwardRef<SVGSVGElement, SVGProps<SVGSVGElement>>((props, ref) => (
+    <svg ref={ref} role="img" focusable="false" width="65" height="24" viewBox="0 0 65 24" {...props} fill="none">
         <path d="M4.658 19a2.073 2.073 0 100-4.146 2.073 2.073 0 000 4.146z" fill="#fff" />
         <path
             d="M6.613 16.235l-3.884 1.449a2.072 2.072 0 01-.143-.757 2.073 2.073 0 014.027-.692z"
@@ -23,6 +23,8 @@ export const OnespotEnMWhiteIcon: React.FC<SVGProps<SVGSVGElement>> = (props) =>
             fill="#fff"
         />
     </svg>
-);
+));
+
+OnespotEnMWhiteIcon.displayName = 'OnespotEnMWhiteIcon';
 
 export default OnespotEnMWhiteIcon;

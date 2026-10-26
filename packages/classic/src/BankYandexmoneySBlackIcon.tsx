@@ -2,10 +2,11 @@
  * This is auto-generated file by scripts/svg-to-component package
  * Do not edit it manually
  */
-import React, { SVGProps } from 'react';
+import React, { SVGProps, forwardRef } from 'react';
 
-export const BankYandexmoneySBlackIcon: React.FC<SVGProps<SVGSVGElement>> = (props) => (
+export const BankYandexmoneySBlackIcon = forwardRef<SVGSVGElement, SVGProps<SVGSVGElement>>((props, ref) => (
     <svg
+        ref={ref}
         role="img"
         focusable="false"
         width="18"
@@ -36,6 +37,8 @@ export const BankYandexmoneySBlackIcon: React.FC<SVGProps<SVGSVGElement>> = (pro
             </g>
         </g>
     </svg>
-);
+));
+
+BankYandexmoneySBlackIcon.displayName = 'BankYandexmoneySBlackIcon';
 
 export default BankYandexmoneySBlackIcon;

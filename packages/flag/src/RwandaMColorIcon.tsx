@@ -2,10 +2,10 @@
  * This is auto-generated file by scripts/svg-to-component package
  * Do not edit it manually
  */
-import React, { SVGProps } from 'react';
+import React, { SVGProps, forwardRef } from 'react';
 
-export const RwandaMColorIcon: React.FC<SVGProps<SVGSVGElement>> = (props) => (
-    <svg role="img" focusable="false" width="24" height="24" viewBox="0 0 24 24" {...props} fill="none">
+export const RwandaMColorIcon = forwardRef<SVGSVGElement, SVGProps<SVGSVGElement>>((props, ref) => (
+    <svg ref={ref} role="img" focusable="false" width="24" height="24" viewBox="0 0 24 24" {...props} fill="none">
         <path
             d="M22.203 4.138H1.797C.805 4.138 0 4.943 0 5.935V12h24V5.935c0-.992-.805-1.797-1.797-1.797z"
             fill="#4173CD"
@@ -21,6 +21,8 @@ export const RwandaMColorIcon: React.FC<SVGProps<SVGSVGElement>> = (props) => (
         />
         <path d="M20.069 8.845a.776.776 0 100-1.552.776.776 0 000 1.552z" fill="#FFE15A" />
     </svg>
-);
+));
+
+RwandaMColorIcon.displayName = 'RwandaMColorIcon';
 
 export default RwandaMColorIcon;

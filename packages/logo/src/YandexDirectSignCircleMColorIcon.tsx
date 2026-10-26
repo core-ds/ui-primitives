@@ -2,10 +2,10 @@
  * This is auto-generated file by scripts/svg-to-component package
  * Do not edit it manually
  */
-import React, { SVGProps } from 'react';
+import React, { SVGProps, forwardRef } from 'react';
 
-export const YandexDirectSignCircleMColorIcon: React.FC<SVGProps<SVGSVGElement>> = (props) => (
-    <svg role="img" focusable="false" width="24" height="24" viewBox="0 0 24 24" {...props} fill="none">
+export const YandexDirectSignCircleMColorIcon = forwardRef<SVGSVGElement, SVGProps<SVGSVGElement>>((props, ref) => (
+    <svg ref={ref} role="img" focusable="false" width="24" height="24" viewBox="0 0 24 24" {...props} fill="none">
         <path
             d="M22 12a10 10 0 01-6.006 9.17A9.966 9.966 0 0112 22a9.968 9.968 0 01-6.844-2.71A9.972 9.972 0 012 12C2 6.477 6.477 2 12 2c2.532 0 4.843.94 6.605 2.492A9.976 9.976 0 0122 12z"
             fill="#D9D9D9"
@@ -45,6 +45,8 @@ export const YandexDirectSignCircleMColorIcon: React.FC<SVGProps<SVGSVGElement>>
             </linearGradient>
         </defs>
     </svg>
-);
+));
+
+YandexDirectSignCircleMColorIcon.displayName = 'YandexDirectSignCircleMColorIcon';
 
 export default YandexDirectSignCircleMColorIcon;

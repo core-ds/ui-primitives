@@ -2,10 +2,10 @@
  * This is auto-generated file by scripts/svg-to-component package
  * Do not edit it manually
  */
-import React, { SVGProps } from 'react';
+import React, { SVGProps, forwardRef } from 'react';
 
-export const TodoMBlackIcon: React.FC<SVGProps<SVGSVGElement>> = (props) => (
-    <svg role="img" focusable="false" width="24" height="24" viewBox="0 0 24 24" {...props}>
+export const TodoMBlackIcon = forwardRef<SVGSVGElement, SVGProps<SVGSVGElement>>((props, ref) => (
+    <svg ref={ref} role="img" focusable="false" width="24" height="24" viewBox="0 0 24 24" {...props}>
         <g fill="none">
             <g fill="#0B1F35">
                 <path d="M20 3h-1v1h1a1 1 0 011 1v16a1 1 0 01-1 1H4a1 1 0 01-1-1V5a1 1 0 011-1h1V3H4a2 2 0 00-2 2v16a2 2 0 002 2h16a2 2 0 002-2V5a2 2 0 00-2-2z" />
@@ -14,6 +14,8 @@ export const TodoMBlackIcon: React.FC<SVGProps<SVGSVGElement>> = (props) => (
             </g>
         </g>
     </svg>
-);
+));
+
+TodoMBlackIcon.displayName = 'TodoMBlackIcon';
 
 export default TodoMBlackIcon;

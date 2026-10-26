@@ -2,12 +2,23 @@
  * This is auto-generated file by scripts/svg-to-component package
  * Do not edit it manually
  */
-import React, { SVGProps } from 'react';
+import React, { SVGProps, forwardRef } from 'react';
 
-export const UsdThinline20Icon: React.FC<SVGProps<SVGSVGElement>> = (props) => (
-    <svg role="img" focusable="false" fill="currentColor" width="20" height="20" viewBox="0 0 20 20" {...props}>
+export const UsdThinline20Icon = forwardRef<SVGSVGElement, SVGProps<SVGSVGElement>>((props, ref) => (
+    <svg
+        ref={ref}
+        role="img"
+        focusable="false"
+        fill="currentColor"
+        width="20"
+        height="20"
+        viewBox="0 0 20 20"
+        {...props}
+    >
         <path d="M10.75 3.283c1.024.085 1.93.352 2.629.86C14.282 4.8 14.75 5.789 14.75 7h-1.5c0-.788-.282-1.3-.754-1.644-.51-.37-1.329-.606-2.496-.606s-1.987.236-2.496.606C7.032 5.7 6.75 6.212 6.75 7c0 .367.09.629.223.833.137.211.35.404.655.582.639.373 1.523.6 2.554.857.968.243 2.085.516 2.946 1.018.444.26.857.598 1.157 1.059.304.467.465 1.018.465 1.651 0 1.858-1.632 3.43-4 3.706V19h-1.5v-2.284c-1.024-.085-1.93-.35-2.629-.86C5.718 15.2 5.25 14.212 5.25 13h1.5c0 .788.282 1.3.754 1.644.51.37 1.329.606 2.496.606 2.233 0 3.25-1.298 3.25-2.25 0-.367-.09-.629-.223-.833-.137-.211-.35-.404-.655-.582-.639-.373-1.522-.6-2.554-.858-.968-.242-2.085-.515-2.946-1.017-.445-.26-.857-.598-1.157-1.059C5.41 8.184 5.25 7.633 5.25 7c0-1.212.468-2.2 1.371-2.856.7-.51 1.605-.776 2.629-.86V1h1.5v2.283z" />
     </svg>
-);
+));
+
+UsdThinline20Icon.displayName = 'UsdThinline20Icon';
 
 export default UsdThinline20Icon;

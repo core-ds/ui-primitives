@@ -2,10 +2,10 @@
  * This is auto-generated file by scripts/svg-to-component package
  * Do not edit it manually
  */
-import React, { SVGProps } from 'react';
+import React, { SVGProps, forwardRef } from 'react';
 
-export const BermudaMColorIcon: React.FC<SVGProps<SVGSVGElement>> = (props) => (
-    <svg role="img" focusable="false" width="24" height="24" viewBox="0 0 24 24" {...props} fill="none">
+export const BermudaMColorIcon = forwardRef<SVGSVGElement, SVGProps<SVGSVGElement>>((props, ref) => (
+    <svg ref={ref} role="img" focusable="false" width="24" height="24" viewBox="0 0 24 24" {...props} fill="none">
         <g clipPath="url(#prefix__clip0)">
             <path
                 d="M22.203 19.863H1.798A1.797 1.797 0 010 18.065V5.935c0-.992.804-1.797 1.797-1.797h20.405c.993 0 1.797.805 1.797 1.798v12.13c0 .992-.804 1.797-1.797 1.797z"
@@ -110,6 +110,8 @@ export const BermudaMColorIcon: React.FC<SVGProps<SVGSVGElement>> = (props) => (
             </clipPath>
         </defs>
     </svg>
-);
+));
+
+BermudaMColorIcon.displayName = 'BermudaMColorIcon';
 
 export default BermudaMColorIcon;

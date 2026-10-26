@@ -2,14 +2,25 @@
  * This is auto-generated file by scripts/svg-to-component package
  * Do not edit it manually
  */
-import React, { SVGProps } from 'react';
+import React, { SVGProps, forwardRef } from 'react';
 
-export const EyeThinline20Icon: React.FC<SVGProps<SVGSVGElement>> = (props) => (
-    <svg role="img" focusable="false" fill="currentColor" width="20" height="20" viewBox="0 0 20 20" {...props}>
+export const EyeThinline20Icon = forwardRef<SVGSVGElement, SVGProps<SVGSVGElement>>((props, ref) => (
+    <svg
+        ref={ref}
+        role="img"
+        focusable="false"
+        fill="currentColor"
+        width="20"
+        height="20"
+        viewBox="0 0 20 20"
+        {...props}
+    >
         <path d="M10 8a2 2 0 110 4 2 2 0 010-4z" />
         <path d="M10 4.25c2.96 0 4.904 1.386 6.088 2.76.587.683.99 1.362 1.246 1.872a8.037 8.037 0 01.353.808l.018.054.006.017.002.005v.002h.001L17 10l.714.231-.001.001v.002l-.002.005-.006.017-.018.054-.07.183c-.062.154-.155.37-.283.625a9.27 9.27 0 01-1.246 1.871C14.904 14.364 12.959 15.75 10 15.75s-4.903-1.386-6.088-2.76a9.273 9.273 0 01-1.246-1.872 8.072 8.072 0 01-.352-.808l-.019-.054-.006-.017-.002-.005v-.002L3 10l-.714-.231.001-.001v-.002l.002-.005.006-.017.019-.054.07-.183c.062-.154.154-.37.282-.625A9.27 9.27 0 013.912 7.01C5.097 5.636 7.042 4.25 10 4.25zm0 1.5c-2.425 0-3.982 1.114-4.951 2.24A7.766 7.766 0 003.803 10a7.766 7.766 0 001.246 2.01c.97 1.126 2.526 2.24 4.951 2.24s3.982-1.114 4.951-2.24a7.764 7.764 0 001.042-1.566c.09-.177.156-.33.203-.444a6.747 6.747 0 00-.203-.444 7.766 7.766 0 00-1.042-1.567c-.97-1.125-2.526-2.239-4.95-2.239z" />
         <path d="M3 10l-.714.231a.757.757 0 010-.462L3 10zm14.714-.231a.757.757 0 010 .462L17 10l.714-.231z" />
     </svg>
-);
+));
+
+EyeThinline20Icon.displayName = 'EyeThinline20Icon';
 
 export default EyeThinline20Icon;

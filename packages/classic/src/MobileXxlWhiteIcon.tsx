@@ -2,10 +2,10 @@
  * This is auto-generated file by scripts/svg-to-component package
  * Do not edit it manually
  */
-import React, { SVGProps } from 'react';
+import React, { SVGProps, forwardRef } from 'react';
 
-export const MobileXxlWhiteIcon: React.FC<SVGProps<SVGSVGElement>> = (props) => (
-    <svg role="img" focusable="false" width="28" height="45" viewBox="0 0 28 45" {...props}>
+export const MobileXxlWhiteIcon = forwardRef<SVGSVGElement, SVGProps<SVGSVGElement>>((props, ref) => (
+    <svg ref={ref} role="img" focusable="false" width="28" height="45" viewBox="0 0 28 45" {...props}>
         <g fill="none" fillRule="evenodd">
             <path d="M-10-2h48v48h-48z" />
             <path fill="#FFF" d="M.5 7h27v26H.5z" opacity=".2" />
@@ -17,6 +17,8 @@ export const MobileXxlWhiteIcon: React.FC<SVGProps<SVGSVGElement>> = (props) => 
             />
         </g>
     </svg>
-);
+));
+
+MobileXxlWhiteIcon.displayName = 'MobileXxlWhiteIcon';
 
 export default MobileXxlWhiteIcon;

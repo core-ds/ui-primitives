@@ -2,12 +2,23 @@
  * This is auto-generated file by scripts/svg-to-component package
  * Do not edit it manually
  */
-import React, { SVGProps } from 'react';
+import React, { SVGProps, forwardRef } from 'react';
 
-export const WrenchThinline20Icon: React.FC<SVGProps<SVGSVGElement>> = (props) => (
-    <svg role="img" focusable="false" fill="currentColor" width="20" height="20" viewBox="0 0 20 20" {...props}>
+export const WrenchThinline20Icon = forwardRef<SVGSVGElement, SVGProps<SVGSVGElement>>((props, ref) => (
+    <svg
+        ref={ref}
+        role="img"
+        focusable="false"
+        fill="currentColor"
+        width="20"
+        height="20"
+        viewBox="0 0 20 20"
+        {...props}
+    >
         <path d="M11.218 2.2c1.105-.227 2.289-.177 3.193.275l.133 1.265-2.657 2.126a.253.253 0 00-.02.375l1.955 1.955a.248.248 0 00.37-.02l2.135-2.67 1.248.134c.455.91.497 2.095.267 3.198-.233 1.116-.768 2.263-1.606 3.116-.55.56-1.187 1.023-2.011 1.302-.819.276-1.771.353-2.934.227a.3.3 0 00-.246.078l-3.528 3.56a3.21 3.21 0 01-4.558.01 3.278 3.278 0 010-4.626L6.48 8.982a.31.31 0 00.078-.25c-.112-1.153-.022-2.096.26-2.908.284-.817.743-1.449 1.286-2.002.844-.859 1.997-1.393 3.114-1.622zm1.123 1.379c-.262.008-.54.038-.825.097-.893.182-1.757.602-2.351 1.207-.434.441-.746.889-.938 1.439-.192.555-.28 1.267-.182 2.263a1.821 1.821 0 01-.513 1.466l-3.521 3.523a1.763 1.763 0 00-.001 2.488c.679.68 1.775.676 2.45-.006l3.527-3.56a1.788 1.788 0 011.463-.51c1.014.11 1.74.03 2.3-.16.553-.186.997-.497 1.426-.933.6-.61 1.02-1.48 1.205-2.366.059-.283.09-.557.1-.815L15.352 9.12a1.732 1.732 0 01-2.582.145L10.815 7.31a1.768 1.768 0 01.144-2.625L12.34 3.58z" />
     </svg>
-);
+));
+
+WrenchThinline20Icon.displayName = 'WrenchThinline20Icon';
 
 export default WrenchThinline20Icon;

@@ -2,10 +2,10 @@
  * This is auto-generated file by scripts/svg-to-component package
  * Do not edit it manually
  */
-import React, { SVGProps } from 'react';
+import React, { SVGProps, forwardRef } from 'react';
 
-export const BeelineBusinessSignBoxMBlackIcon: React.FC<SVGProps<SVGSVGElement>> = (props) => (
-    <svg role="img" focusable="false" width="24" height="24" viewBox="0 0 24 24" {...props} fill="none">
+export const BeelineBusinessSignBoxMBlackIcon = forwardRef<SVGSVGElement, SVGProps<SVGSVGElement>>((props, ref) => (
+    <svg ref={ref} role="img" focusable="false" width="24" height="24" viewBox="0 0 24 24" {...props} fill="none">
         <path
             d="M13.265 2.712c.688 1.192-.975 3.445-3.717 5.028-2.742 1.585-5.52 1.901-6.209.707a1.093 1.093 0 01-.075-.183c-.179-.555.035-1.274.549-2.031a9.942 9.942 0 013.186-2.915 9.941 9.941 0 014.114-1.304c.911-.068 1.638.107 2.03.538.046.05.087.105.122.16zM16.3 19.445c-3.395 1.962-7.077 2.314-9.429 1.139a9.987 9.987 0 0010.127.073c3.25-1.88 5.05-5.31 5.001-8.82-.159 2.627-2.305 5.645-5.698 7.608z"
             fill="#000"
@@ -15,6 +15,8 @@ export const BeelineBusinessSignBoxMBlackIcon: React.FC<SVGProps<SVGSVGElement>>
             fill="#000"
         />
     </svg>
-);
+));
+
+BeelineBusinessSignBoxMBlackIcon.displayName = 'BeelineBusinessSignBoxMBlackIcon';
 
 export default BeelineBusinessSignBoxMBlackIcon;

@@ -2,10 +2,10 @@
  * This is auto-generated file by scripts/svg-to-component package
  * Do not edit it manually
  */
-import React, { SVGProps } from 'react';
+import React, { SVGProps, forwardRef } from 'react';
 
-export const ItComEnMColorIcon: React.FC<SVGProps<SVGSVGElement>> = (props) => (
-    <svg role="img" focusable="false" width="83" height="24" viewBox="0 0 83 24" {...props} fill="none">
+export const ItComEnMColorIcon = forwardRef<SVGSVGElement, SVGProps<SVGSVGElement>>((props, ref) => (
+    <svg ref={ref} role="img" focusable="false" width="83" height="24" viewBox="0 0 83 24" {...props} fill="none">
         <path
             d="M4.756 21.992h9.112l-9.64-2.575A3.34 3.34 0 012 17.45v1.794c.002.73.294 1.43.812 1.946s1.22.807 1.953.809l-.01-.008zM4.743 4.631a2.772 2.772 0 00-1.938.812A2.751 2.751 0 002 7.378v7.451L4.743 4.631z"
             fill="#333"
@@ -29,6 +29,8 @@ export const ItComEnMColorIcon: React.FC<SVGProps<SVGSVGElement>> = (props) => (
             clipRule="evenodd"
         />
     </svg>
-);
+));
+
+ItComEnMColorIcon.displayName = 'ItComEnMColorIcon';
 
 export default ItComEnMColorIcon;

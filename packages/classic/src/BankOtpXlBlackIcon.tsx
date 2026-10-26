@@ -2,10 +2,10 @@
  * This is auto-generated file by scripts/svg-to-component package
  * Do not edit it manually
  */
-import React, { SVGProps } from 'react';
+import React, { SVGProps, forwardRef } from 'react';
 
-export const BankOtpXlBlackIcon: React.FC<SVGProps<SVGSVGElement>> = (props) => (
-    <svg role="img" focusable="false" width="36" height="36" version="1" viewBox="0 0 36 36" {...props}>
+export const BankOtpXlBlackIcon = forwardRef<SVGSVGElement, SVGProps<SVGSVGElement>>((props, ref) => (
+    <svg ref={ref} role="img" focusable="false" width="36" height="36" version="1" viewBox="0 0 36 36" {...props}>
         <path
             fill="#0B1F35"
             d="M28.205 18c0 5.669-4.661 10.205-10.205 10.205A10.162 10.162 0 017.795 18 10.162 10.162 0 0118 7.795V2C9.181 2 2 9.181 2 18s7.181 16 16 16 16-7.181 16-16h-5.795z"
@@ -15,6 +15,8 @@ export const BankOtpXlBlackIcon: React.FC<SVGProps<SVGSVGElement>> = (props) => 
             d="M18 11c-3.875 0-7 3.125-7 7s3.125 7.125 7 7c3.875 0 7-3.125 7-7s-3.125-7-7-7zm13-2c0-2.25-1.75-4-4-4s-4 1.75-4 4 1.75 4 4 4 4-1.75 4-4z"
         />
     </svg>
-);
+));
+
+BankOtpXlBlackIcon.displayName = 'BankOtpXlBlackIcon';
 
 export default BankOtpXlBlackIcon;

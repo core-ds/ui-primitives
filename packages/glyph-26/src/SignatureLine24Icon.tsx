@@ -2,12 +2,23 @@
  * This is auto-generated file by scripts/svg-to-component package
  * Do not edit it manually
  */
-import React, { SVGProps } from 'react';
+import React, { SVGProps, forwardRef } from 'react';
 
-export const SignatureLine24Icon: React.FC<SVGProps<SVGSVGElement>> = (props) => (
-    <svg role="img" focusable="false" fill="currentColor" width="24" height="24" viewBox="0 0 24 24" {...props}>
+export const SignatureLine24Icon = forwardRef<SVGSVGElement, SVGProps<SVGSVGElement>>((props, ref) => (
+    <svg
+        ref={ref}
+        role="img"
+        focusable="false"
+        fill="currentColor"
+        width="24"
+        height="24"
+        viewBox="0 0 24 24"
+        {...props}
+    >
         <path d="M9.03 4.188c.791-.721 1.792-1.164 2.95-1.045.95.098 1.717.54 2.22 1.271.477.695.655 1.56.662 2.431.014 1.74-.648 3.874-1.72 5.902-.986 1.864-2.364 3.722-4.023 5.204.177.233.364.402.553.514.346.205.83.296 1.572.03.775-.28 1.79-.942 3.049-2.202l.105-.09a1.001 1.001 0 011.587.625c.248 1.416.827 1.81 1.198 1.848.491.051 1.553-.324 3.017-2.275l1.6 1.2c-1.536 2.047-3.202 3.233-4.823 3.064-1.165-.12-1.962-.88-2.452-1.879-.918.764-1.783 1.295-2.603 1.59-1.196.43-2.318.372-3.268-.19a3.935 3.935 0 01-1.112-1.006c-1.643 1.1-3.52 1.821-5.542 1.821v-2c1.604 0 3.171-.602 4.617-1.613-.318-.929-.498-1.986-.565-3.072-.151-2.44.256-5.209 1.156-7.362.45-1.075 1.05-2.062 1.822-2.766zm2.744.944c-.475-.049-.932.11-1.397.534-.483.44-.94 1.141-1.324 2.06-.768 1.836-1.14 4.294-1.005 6.467.04.643.124 1.247.248 1.79 1.236-1.217 2.29-2.684 3.077-4.17.987-1.866 1.5-3.665 1.49-4.952-.006-.641-.139-1.065-.31-1.315-.147-.212-.367-.371-.779-.414z" />
     </svg>
-);
+));
+
+SignatureLine24Icon.displayName = 'SignatureLine24Icon';
 
 export default SignatureLine24Icon;

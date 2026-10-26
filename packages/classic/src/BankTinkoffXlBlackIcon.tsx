@@ -2,10 +2,10 @@
  * This is auto-generated file by scripts/svg-to-component package
  * Do not edit it manually
  */
-import React, { SVGProps } from 'react';
+import React, { SVGProps, forwardRef } from 'react';
 
-export const BankTinkoffXlBlackIcon: React.FC<SVGProps<SVGSVGElement>> = (props) => (
-    <svg role="img" focusable="false" width="36" height="36" viewBox="0 0 36 36" {...props}>
+export const BankTinkoffXlBlackIcon = forwardRef<SVGSVGElement, SVGProps<SVGSVGElement>>((props, ref) => (
+    <svg ref={ref} role="img" focusable="false" width="36" height="36" viewBox="0 0 36 36" {...props}>
         <g fill="#0B1F35" fillRule="evenodd">
             <path d="M15.863 4.208a4.79 4.79 0 014.273.01l.53-1.077a6.002 6.002 0 00-5.328-.01l.525 1.078zm2.109 28.617c2.273 0 4.61-.75 6.76-2.168l-.662-1.002c-3.887 2.565-8.248 2.577-12.14.036l-.657 1.006c2.13 1.394 4.448 2.13 6.7 2.13z" />
             <path d="M15 27.9h1.2c.805 0 1.26.994 1.264 1l.536 1 .534-1c.005-.008.46-1 1.266-1H21c1.542 0 3-1.058 3-2.6V11.9h-2.55V9.7l-.05-.238C20.884 8.27 19.442 7.3 18 7.3s-2.984.97-3.5 2.162l-.05.238c0 .762-.022 1.563 0 2.2H12v13.4c0 1.542 1.458 2.6 3 2.6zm5.25-18.064v2.514l-2.245 2.55-2.355-2.55c-.02-.516.004-1.62 0-2.514C16.034 9.113 17.07 8.5 18 8.5c.93 0 1.866.613 2.25 1.336zM13.2 13.1h1.25l3.545 3.4 3.455-3.4h1.35v5.6h-9.6v-5.6zm9.8 6.8v5.2c0 .875-1.125 1.6-2 1.6h-1.2c-.818 0-1.415.605-1.8 1-.385-.395-.982-1-1.8-1H15c-.875 0-2-.725-2-1.6v-5.2h10z" />
@@ -14,6 +14,8 @@ export const BankTinkoffXlBlackIcon: React.FC<SVGProps<SVGSVGElement>> = (props)
             <path d="M28.874 15.39C29.664 16.823 30 18.53 30 21.1h1.2c0-2.784-.38-4.666-1.274-6.29l-1.052.58z" />
         </g>
     </svg>
-);
+));
+
+BankTinkoffXlBlackIcon.displayName = 'BankTinkoffXlBlackIcon';
 
 export default BankTinkoffXlBlackIcon;

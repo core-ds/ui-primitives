@@ -2,10 +2,10 @@
  * This is auto-generated file by scripts/svg-to-component package
  * Do not edit it manually
  */
-import React, { SVGProps } from 'react';
+import React, { SVGProps, forwardRef } from 'react';
 
-export const DeleteXlWhiteIcon: React.FC<SVGProps<SVGSVGElement>> = (props) => (
-    <svg role="img" focusable="false" width="31" height="34" viewBox="0 0 31 34" {...props}>
+export const DeleteXlWhiteIcon = forwardRef<SVGSVGElement, SVGProps<SVGSVGElement>>((props, ref) => (
+    <svg ref={ref} role="img" focusable="false" width="31" height="34" viewBox="0 0 31 34" {...props}>
         <g fill="none" fillRule="evenodd">
             <path d="M-2-1h36v36H-2z" />
             <path
@@ -15,6 +15,8 @@ export const DeleteXlWhiteIcon: React.FC<SVGProps<SVGSVGElement>> = (props) => (
             <path fill="#FFF" d="M10 13h3v14h-3zm8 0h3v14h-3z" opacity=".3" />
         </g>
     </svg>
-);
+));
+
+DeleteXlWhiteIcon.displayName = 'DeleteXlWhiteIcon';
 
 export default DeleteXlWhiteIcon;

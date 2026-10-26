@@ -2,15 +2,17 @@
  * This is auto-generated file by scripts/svg-to-component package
  * Do not edit it manually
  */
-import React, { SVGProps } from 'react';
+import React, { SVGProps, forwardRef } from 'react';
 
-export const StarterSignBoxMColorIcon: React.FC<SVGProps<SVGSVGElement>> = (props) => (
-    <svg role="img" focusable="false" width="24" height="24" viewBox="0 0 24 24" {...props} fill="none">
+export const StarterSignBoxMColorIcon = forwardRef<SVGSVGElement, SVGProps<SVGSVGElement>>((props, ref) => (
+    <svg ref={ref} role="img" focusable="false" width="24" height="24" viewBox="0 0 24 24" {...props} fill="none">
         <path
             d="M20.571 6.144l-4.664 2.693c-.916.53-1.374.794-1.75.798a1.429 1.429 0 01-1.259-.728c-.184-.326-.184-.855-.184-1.913V2h-1.428v4.994c0 1.058 0 1.587-.184 1.913a1.429 1.429 0 01-1.26.728c-.375-.004-.833-.269-1.75-.798L3.43 6.144l-.715 1.237L6.037 9.3c.891.514 1.337.771 1.43.99a.714.714 0 01-.228.854c-.19.142-.705.142-1.734.142H2v1.428h3.505c1.029 0 1.543 0 1.734.142a.714.714 0 01.228.854c-.093.218-.539.476-1.43.99l-3.323 1.92.715 1.237 4.664-2.693c.916-.53 1.374-.794 1.75-.798a1.429 1.429 0 011.259.728c.184.326.184.855.184 1.913V22h1.428v-4.994c0-1.058 0-1.587.184-1.913a1.429 1.429 0 011.26-.728c.375.004.833.269 1.75.798l4.663 2.693.715-1.237-3.323-1.919c-.891-.514-1.337-.771-1.43-.99a.714.714 0 01.228-.854c.19-.142.705-.142 1.734-.142H22v-1.428h-3.505c-1.029 0-1.544 0-1.734-.142a.714.714 0 01-.229-.854c.094-.218.54-.476 1.43-.99l3.324-1.919-.715-1.237z"
             fill="#FFDE6A"
         />
     </svg>
-);
+));
+
+StarterSignBoxMColorIcon.displayName = 'StarterSignBoxMColorIcon';
 
 export default StarterSignBoxMColorIcon;

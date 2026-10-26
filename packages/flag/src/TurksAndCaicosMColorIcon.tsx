@@ -2,10 +2,10 @@
  * This is auto-generated file by scripts/svg-to-component package
  * Do not edit it manually
  */
-import React, { SVGProps } from 'react';
+import React, { SVGProps, forwardRef } from 'react';
 
-export const TurksAndCaicosMColorIcon: React.FC<SVGProps<SVGSVGElement>> = (props) => (
-    <svg role="img" focusable="false" width="24" height="24" viewBox="0 0 24 24" {...props} fill="none">
+export const TurksAndCaicosMColorIcon = forwardRef<SVGSVGElement, SVGProps<SVGSVGElement>>((props, ref) => (
+    <svg ref={ref} role="img" focusable="false" width="24" height="24" viewBox="0 0 24 24" {...props} fill="none">
         <path
             d="M22.203 19.862H1.797A1.797 1.797 0 010 18.065V5.935c0-.992.805-1.797 1.797-1.797h20.406c.992 0 1.797.805 1.797 1.797v12.13c0 .992-.805 1.797-1.797 1.797z"
             fill="#41479B"
@@ -49,6 +49,8 @@ export const TurksAndCaicosMColorIcon: React.FC<SVGProps<SVGSVGElement>> = (prop
         />
         <path d="M17.643 10.46a.087.087 0 00-.087.086v1.385h.173v-1.385a.087.087 0 00-.086-.086z" fill="#FFA0E4" />
     </svg>
-);
+));
+
+TurksAndCaicosMColorIcon.displayName = 'TurksAndCaicosMColorIcon';
 
 export default TurksAndCaicosMColorIcon;

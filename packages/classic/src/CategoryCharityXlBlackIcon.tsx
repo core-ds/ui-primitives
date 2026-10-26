@@ -2,10 +2,10 @@
  * This is auto-generated file by scripts/svg-to-component package
  * Do not edit it manually
  */
-import React, { SVGProps } from 'react';
+import React, { SVGProps, forwardRef } from 'react';
 
-export const CategoryCharityXlBlackIcon: React.FC<SVGProps<SVGSVGElement>> = (props) => (
-    <svg role="img" focusable="false" width="36" height="36" viewBox="0 0 36 36" {...props}>
+export const CategoryCharityXlBlackIcon = forwardRef<SVGSVGElement, SVGProps<SVGSVGElement>>((props, ref) => (
+    <svg ref={ref} role="img" focusable="false" width="36" height="36" viewBox="0 0 36 36" {...props}>
         <g transform="translate(0 -1)" fill="none" fillRule="evenodd">
             <path
                 d="M30.233 16v-1H23.31c-.078-2.588-.536-4.946-1.324-7h5.884V7h-6.306c-1.212-2.628-3.013-4.678-5.316-5.938l-.24.438-.24-.438c-2.28 1.247-4.082 3.31-5.299 5.938H4.63v1h5.416c-.799 2.066-1.259 4.433-1.335 7H1.767v1h6.932c.029 2.972.57 5.688 1.549 8H4.63v1h6.083c1.209 2.389 2.923 4.271 5.055 5.438l1.982-.105-1.502-.772c-1.819-.996-3.312-2.566-4.412-4.562h3.029l-1-1h-2.528c-1.035-2.268-1.609-4.993-1.639-8h20.535V16zM16.009 2.084C17.884 3.179 19.394 4.858 20.464 7h-8.886c1.073-2.139 2.575-3.831 4.431-4.916zM11.12 8h9.795c.832 2.021 1.313 4.385 1.394 7H9.71c.08-2.594.566-4.966 1.41-7z"
@@ -18,6 +18,8 @@ export const CategoryCharityXlBlackIcon: React.FC<SVGProps<SVGSVGElement>> = (pr
             />
         </g>
     </svg>
-);
+));
+
+CategoryCharityXlBlackIcon.displayName = 'CategoryCharityXlBlackIcon';
 
 export default CategoryCharityXlBlackIcon;

@@ -2,10 +2,10 @@
  * This is auto-generated file by scripts/svg-to-component package
  * Do not edit it manually
  */
-import React, { SVGProps } from 'react';
+import React, { SVGProps, forwardRef } from 'react';
 
-export const SoftlineSignBoxMColorIcon: React.FC<SVGProps<SVGSVGElement>> = (props) => (
-    <svg role="img" focusable="false" width="24" height="24" viewBox="0 0 24 24" {...props} fill="none">
+export const SoftlineSignBoxMColorIcon = forwardRef<SVGSVGElement, SVGProps<SVGSVGElement>>((props, ref) => (
+    <svg ref={ref} role="img" focusable="false" width="24" height="24" viewBox="0 0 24 24" {...props} fill="none">
         <path d="M11.48 12.539H2V22h9.48v-9.461zm10.52 0h-9.48V22H22v-9.461z" fill="#A6A8AB" />
         <path d="M11.48 2H2v9.461h9.48V2z" fill="#A20C33" />
         <path d="M22 2h-9.48v9.461H22V2z" fill="#A6A8AB" />
@@ -14,6 +14,8 @@ export const SoftlineSignBoxMColorIcon: React.FC<SVGProps<SVGSVGElement>> = (pro
             fill="#fff"
         />
     </svg>
-);
+));
+
+SoftlineSignBoxMColorIcon.displayName = 'SoftlineSignBoxMColorIcon';
 
 export default SoftlineSignBoxMColorIcon;

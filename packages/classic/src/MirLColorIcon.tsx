@@ -2,10 +2,10 @@
  * This is auto-generated file by scripts/svg-to-component package
  * Do not edit it manually
  */
-import React, { SVGProps } from 'react';
+import React, { SVGProps, forwardRef } from 'react';
 
-export const MirLColorIcon: React.FC<SVGProps<SVGSVGElement>> = (props) => (
-    <svg role="img" focusable="false" width="30" height="10" viewBox="0 0 30 10" {...props}>
+export const MirLColorIcon = forwardRef<SVGSVGElement, SVGProps<SVGSVGElement>>((props, ref) => (
+    <svg ref={ref} role="img" focusable="false" width="30" height="10" viewBox="0 0 30 10" {...props}>
         <g fill="none" fillRule="evenodd">
             <path
                 d="M19.07 1.062h1.09V8.84h-2.447V4.298c0-.113-.155-.147-.204-.046l-2.012 4.112a.858.858 0 01-.77.476H12.2V1.062h2.368c.043 0 .077.034.077.076v4.45c0 .194.27.252.352.076l1.94-4.115a.856.856 0 01.776-.488h1.356zm-9.71 0h1.592V8.84H8.564V4.354c0-.12-.17-.146-.206-.03L6.97 8.84H4.982L3.595 4.323c-.036-.115-.206-.09-.206.03V8.84H1V1.062h2.824c.37 0 .697.246.8.604l1.18 4.06c.05.175.295.175.345 0l1.177-4.06a.835.835 0 01.8-.604H9.36zm14.085 3.635h5.363a2.697 2.697 0 01-2.5 1.66h-2.863V8.84H21V4.697h2.445z"
@@ -25,6 +25,8 @@ export const MirLColorIcon: React.FC<SVGProps<SVGSVGElement>> = (props) => (
             />
         </g>
     </svg>
-);
+));
+
+MirLColorIcon.displayName = 'MirLColorIcon';
 
 export default MirLColorIcon;

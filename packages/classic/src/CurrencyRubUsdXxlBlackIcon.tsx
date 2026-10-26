@@ -2,10 +2,10 @@
  * This is auto-generated file by scripts/svg-to-component package
  * Do not edit it manually
  */
-import React, { SVGProps } from 'react';
+import React, { SVGProps, forwardRef } from 'react';
 
-export const CurrencyRubUsdXxlBlackIcon: React.FC<SVGProps<SVGSVGElement>> = (props) => (
-    <svg role="img" focusable="false" width="50" height="45" viewBox="0 0 50 45" {...props}>
+export const CurrencyRubUsdXxlBlackIcon = forwardRef<SVGSVGElement, SVGProps<SVGSVGElement>>((props, ref) => (
+    <svg ref={ref} role="img" focusable="false" width="50" height="45" viewBox="0 0 50 45" {...props}>
         <g fill="none" fillRule="evenodd">
             <path d="M1-2h48v48H1z" />
             <path
@@ -19,6 +19,8 @@ export const CurrencyRubUsdXxlBlackIcon: React.FC<SVGProps<SVGSVGElement>> = (pr
             />
         </g>
     </svg>
-);
+));
+
+CurrencyRubUsdXxlBlackIcon.displayName = 'CurrencyRubUsdXxlBlackIcon';
 
 export default CurrencyRubUsdXxlBlackIcon;

@@ -2,10 +2,10 @@
  * This is auto-generated file by scripts/svg-to-component package
  * Do not edit it manually
  */
-import React, { SVGProps } from 'react';
+import React, { SVGProps, forwardRef } from 'react';
 
-export const SintEustatiusMColorIcon: React.FC<SVGProps<SVGSVGElement>> = (props) => (
-    <svg role="img" focusable="false" width="24" height="24" viewBox="0 0 24 24" {...props} fill="none">
+export const SintEustatiusMColorIcon = forwardRef<SVGSVGElement, SVGProps<SVGSVGElement>>((props, ref) => (
+    <svg ref={ref} role="img" focusable="false" width="24" height="24" viewBox="0 0 24 24" {...props} fill="none">
         <path
             d="M22.203 19.863H1.797A1.796 1.796 0 010 18.066V5.934c0-.993.804-1.797 1.797-1.797h20.406c.993 0 1.797.804 1.797 1.797v12.129c0 .993-.804 1.8-1.797 1.8z"
             fill="#41479B"
@@ -24,6 +24,8 @@ export const SintEustatiusMColorIcon: React.FC<SVGProps<SVGSVGElement>> = (props
             fill="#FF4B55"
         />
     </svg>
-);
+));
+
+SintEustatiusMColorIcon.displayName = 'SintEustatiusMColorIcon';
 
 export default SintEustatiusMColorIcon;

@@ -2,10 +2,10 @@
  * This is auto-generated file by scripts/svg-to-component package
  * Do not edit it manually
  */
-import React, { SVGProps } from 'react';
+import React, { SVGProps, forwardRef } from 'react';
 
-export const WalletLWhiteIcon: React.FC<SVGProps<SVGSVGElement>> = (props) => (
-    <svg role="img" focusable="false" width="30" height="30" viewBox="0 0 30 30" {...props}>
+export const WalletLWhiteIcon = forwardRef<SVGSVGElement, SVGProps<SVGSVGElement>>((props, ref) => (
+    <svg ref={ref} role="img" focusable="false" width="30" height="30" viewBox="0 0 30 30" {...props}>
         <g fill="#FFF">
             <path d="M27 21h1v3.5a2.5 2.5 0 01-2.5 2.5h-22A2.5 2.5 0 011 24.5V8.676a2.5 2.5 0 012.062-2.462l18.5-3.288a2.5 2.5 0 012.938 2.46V7.5h-1V5.387a1.5 1.5 0 00-1.763-1.477L3.237 7.2A1.5 1.5 0 002 8.676V24.5A1.5 1.5 0 003.5 26h22a1.5 1.5 0 001.5-1.5V21z" />
             <path d="M28 13h-1V9.5A1.5 1.5 0 0025.5 8H2V7h23.5A2.5 2.5 0 0128 9.5V13z" />
@@ -13,6 +13,8 @@ export const WalletLWhiteIcon: React.FC<SVGProps<SVGSVGElement>> = (props) => (
             <circle cx="23" cy="17" r="2" opacity=".3" />
         </g>
     </svg>
-);
+));
+
+WalletLWhiteIcon.displayName = 'WalletLWhiteIcon';
 
 export default WalletLWhiteIcon;

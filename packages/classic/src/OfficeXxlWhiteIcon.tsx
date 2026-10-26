@@ -2,10 +2,10 @@
  * This is auto-generated file by scripts/svg-to-component package
  * Do not edit it manually
  */
-import React, { SVGProps } from 'react';
+import React, { SVGProps, forwardRef } from 'react';
 
-export const OfficeXxlWhiteIcon: React.FC<SVGProps<SVGSVGElement>> = (props) => (
-    <svg role="img" focusable="false" width="44" height="44" viewBox="0 0 44 44" {...props}>
+export const OfficeXxlWhiteIcon = forwardRef<SVGSVGElement, SVGProps<SVGSVGElement>>((props, ref) => (
+    <svg ref={ref} role="img" focusable="false" width="44" height="44" viewBox="0 0 44 44" {...props}>
         <g fill="none" fillRule="evenodd">
             <path d="M-2-2h48v48H-2z" />
             <path fill="#FFF" d="M0 43h44v1H0z" />
@@ -22,6 +22,8 @@ export const OfficeXxlWhiteIcon: React.FC<SVGProps<SVGSVGElement>> = (props) => 
             />
         </g>
     </svg>
-);
+));
+
+OfficeXxlWhiteIcon.displayName = 'OfficeXxlWhiteIcon';
 
 export default OfficeXxlWhiteIcon;

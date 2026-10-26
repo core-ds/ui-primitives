@@ -2,10 +2,10 @@
  * This is auto-generated file by scripts/svg-to-component package
  * Do not edit it manually
  */
-import React, { SVGProps } from 'react';
+import React, { SVGProps, forwardRef } from 'react';
 
-export const SolomonIslandsMColorIcon: React.FC<SVGProps<SVGSVGElement>> = (props) => (
-    <svg role="img" focusable="false" width="24" height="24" viewBox="0 0 24 24" {...props} fill="none">
+export const SolomonIslandsMColorIcon = forwardRef<SVGSVGElement, SVGProps<SVGSVGElement>>((props, ref) => (
+    <svg ref={ref} role="img" focusable="false" width="24" height="24" viewBox="0 0 24 24" {...props} fill="none">
         <path
             d="M22.213 4.139H1.787A1.797 1.797 0 000 5.936v12.129c0 .993.805 1.797 1.797 1.797h20.406c.992 0 1.797-.804 1.797-1.797V5.935c0-.988-.799-1.79-1.787-1.796z"
             fill="#41479B"
@@ -23,6 +23,8 @@ export const SolomonIslandsMColorIcon: React.FC<SVGProps<SVGSVGElement>> = (prop
             fill="#F5F5F5"
         />
     </svg>
-);
+));
+
+SolomonIslandsMColorIcon.displayName = 'SolomonIslandsMColorIcon';
 
 export default SolomonIslandsMColorIcon;

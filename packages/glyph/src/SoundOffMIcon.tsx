@@ -2,12 +2,23 @@
  * This is auto-generated file by scripts/svg-to-component package
  * Do not edit it manually
  */
-import React, { SVGProps } from 'react';
+import React, { SVGProps, forwardRef } from 'react';
 
-export const SoundOffMIcon: React.FC<SVGProps<SVGSVGElement>> = (props) => (
-    <svg role="img" focusable="false" fill="currentColor" width="24" height="24" viewBox="0 0 24 24" {...props}>
+export const SoundOffMIcon = forwardRef<SVGSVGElement, SVGProps<SVGSVGElement>>((props, ref) => (
+    <svg
+        ref={ref}
+        role="img"
+        focusable="false"
+        fill="currentColor"
+        width="24"
+        height="24"
+        viewBox="0 0 24 24"
+        {...props}
+    >
         <path d="M18.715 14.496c.355-.92.55-1.933.55-2.996a8.177 8.177 0 00-1.31-4.483L19.429 6C20.418 7.556 21 9.453 21 11.5c0 1.563-.339 3.038-.94 4.341l-1.345-1.345zM15.797 11.5c0-.929-.3-1.78-.797-2.443l1.48-1.021a6.12 6.12 0 011.05 3.464 6.31 6.31 0 01-.206 1.606l-1.529-1.529V11.5zM9.596 5.377L13 8.78V5.2c0-.496-.315-.887-.74-1.076a1.423 1.423 0 00-1.352.101c-.147.096-.678.57-1.312 1.152zM3 14.667v-5.37c0-.436.043-.717.344-1.025.272-.28.734-.276 1.135-.273L4.603 8h1.989L2 3.408 3.408 2 22 20.592 20.591 22l-7.59-7.591V18.8l-.001.02c-.008.487-.321.87-.74 1.056-.41.182-.922.177-1.352-.101-.43-.278-4.119-3.746-4.119-3.746H4.603c-.425 0-.958-.024-1.259-.333-.3-.309-.344-.592-.344-1.029z" />
     </svg>
-);
+));
+
+SoundOffMIcon.displayName = 'SoundOffMIcon';
 
 export default SoundOffMIcon;

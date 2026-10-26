@@ -2,10 +2,10 @@
  * This is auto-generated file by scripts/svg-to-component package
  * Do not edit it manually
  */
-import React, { SVGProps } from 'react';
+import React, { SVGProps, forwardRef } from 'react';
 
-export const PodeliMWhiteIcon: React.FC<SVGProps<SVGSVGElement>> = (props) => (
-    <svg role="img" focusable="false" width="126" height="24" viewBox="0 0 126 24" {...props} fill="none">
+export const PodeliMWhiteIcon = forwardRef<SVGSVGElement, SVGProps<SVGSVGElement>>((props, ref) => (
+    <svg ref={ref} role="img" focusable="false" width="126" height="24" viewBox="0 0 126 24" {...props} fill="none">
         <path
             d="M2 21.49h2.81V5.046h10.283v16.457h2.76V2.497H2V21.49zM55.128 3.834a2.259 2.259 0 00-4.122 0l-6.71 15.081h-2.343v2.592h22.245v-2.592h-2.344L55.128 3.834zm-7.785 15.081l5.732-13.162 5.729 13.162H47.343zM94.644 2.497a2.21 2.21 0 00-2.035 1.35l-7.383 17.485-.072.175h3.05l6.427-15.591 6.427 15.514.03.077h3.054l-7.455-17.66a2.202 2.202 0 00-2.043-1.35zm26.054 0l-10.999 14.927V2.497h-2.767v19.01h2.703l11.046-14.991v14.991h2.767V2.497h-2.75zM81.156 4.425a10.013 10.013 0 00-12.09-.74 10 10 0 00-1.513 15.389 9.995 9.995 0 0016.28-3.235l.074-.171h-3l-.038.06a7.252 7.252 0 01-6.238 3.547 7.284 7.284 0 01-7.198-6.225H84.57v-.112a9.685 9.685 0 00-.064-2.403 10.004 10.004 0 00-3.35-6.11zm-11.14 1.958a7.283 7.283 0 0111.71 4.045H67.519a7.284 7.284 0 012.489-4.045h.008zM31.563 2a10 10 0 1010 10 10.013 10.013 0 00-10-10zm7.284 10a7.283 7.283 0 11-14.567 0 7.283 7.283 0 0114.567 0z"
             fill="#fff"
@@ -15,6 +15,8 @@ export const PodeliMWhiteIcon: React.FC<SVGProps<SVGSVGElement>> = (props) => (
             fill="#000"
         />
     </svg>
-);
+));
+
+PodeliMWhiteIcon.displayName = 'PodeliMWhiteIcon';
 
 export default PodeliMWhiteIcon;

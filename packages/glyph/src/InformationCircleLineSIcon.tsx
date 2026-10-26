@@ -2,10 +2,19 @@
  * This is auto-generated file by scripts/svg-to-component package
  * Do not edit it manually
  */
-import React, { SVGProps } from 'react';
+import React, { SVGProps, forwardRef } from 'react';
 
-export const InformationCircleLineSIcon: React.FC<SVGProps<SVGSVGElement>> = (props) => (
-    <svg role="img" focusable="false" fill="currentColor" width="16" height="16" viewBox="0 0 16 16" {...props}>
+export const InformationCircleLineSIcon = forwardRef<SVGSVGElement, SVGProps<SVGSVGElement>>((props, ref) => (
+    <svg
+        ref={ref}
+        role="img"
+        focusable="false"
+        fill="currentColor"
+        width="16"
+        height="16"
+        viewBox="0 0 16 16"
+        {...props}
+    >
         <g clipPath="url(#prefix__clip0_33957_1199)">
             <path d="M8.908 12.262V6.933h-1.81v5.33h1.81zm.254-7.558a1.163 1.163 0 11-2.325 0 1.163 1.163 0 012.325 0z" />
             <path
@@ -20,6 +29,8 @@ export const InformationCircleLineSIcon: React.FC<SVGProps<SVGSVGElement>> = (pr
             </clipPath>
         </defs>
     </svg>
-);
+));
+
+InformationCircleLineSIcon.displayName = 'InformationCircleLineSIcon';
 
 export default InformationCircleLineSIcon;

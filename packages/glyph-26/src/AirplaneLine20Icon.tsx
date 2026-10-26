@@ -2,12 +2,23 @@
  * This is auto-generated file by scripts/svg-to-component package
  * Do not edit it manually
  */
-import React, { SVGProps } from 'react';
+import React, { SVGProps, forwardRef } from 'react';
 
-export const AirplaneLine20Icon: React.FC<SVGProps<SVGSVGElement>> = (props) => (
-    <svg role="img" focusable="false" fill="currentColor" width="20" height="20" viewBox="0 0 20 20" {...props}>
+export const AirplaneLine20Icon = forwardRef<SVGSVGElement, SVGProps<SVGSVGElement>>((props, ref) => (
+    <svg
+        ref={ref}
+        role="img"
+        focusable="false"
+        fill="currentColor"
+        width="20"
+        height="20"
+        viewBox="0 0 20 20"
+        {...props}
+    >
         <path d="M5.922 3.247a4.002 4.002 0 013.305.948h.001l3.197 2.825a6.603 6.603 0 014.526.697l.153.092c1.518 1.005 1.13 3.396-.696 3.826l-2.829.665-1.501 2.849a4 4 0 01-2.88 2.08l-1.534.256a1.001 1.001 0 01-1.152-1.142l.388-2.471-1.69.398c-2.106.495-4.031-1.338-3.637-3.468l.3-1.616.05-.194a1.501 1.501 0 012.28-.765l.001.001.985.685.891-.236-2.331-3.496-.003-.004a1.102 1.102 0 01.592-1.657l.141-.033.005-.001 1.438-.24zm3.082 10.13l-.301 1.908.165-.028a2 2 0 001.44-1.04l.689-1.31-1.993.47zM6.25 5.22l-.067.01L8.45 8.629l.045.063a1.001 1.001 0 01-.547 1.563l-2.696.711a1 1 0 01-.826-.146l-.73-.507-.157.856a1 1 0 001.213 1.154l11.195-2.635c.042-.01.057-.024.065-.032a.136.136 0 00.028-.068.133.133 0 00-.009-.073.082.082 0 00-.015-.02l-.037-.029a4.604 4.604 0 00-3.405-.426l-.17.044a1 1 0 01-.915-.22l-3.587-3.17A2.002 2.002 0 006.25 5.22z" />
     </svg>
-);
+));
+
+AirplaneLine20Icon.displayName = 'AirplaneLine20Icon';
 
 export default AirplaneLine20Icon;

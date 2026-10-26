@@ -2,10 +2,10 @@
  * This is auto-generated file by scripts/svg-to-component package
  * Do not edit it manually
  */
-import React, { SVGProps } from 'react';
+import React, { SVGProps, forwardRef } from 'react';
 
-export const NotificationBadgeXlWhiteIcon: React.FC<SVGProps<SVGSVGElement>> = (props) => (
-    <svg role="img" focusable="false" width="36" height="36" viewBox="0 0 36 36" {...props}>
+export const NotificationBadgeXlWhiteIcon = forwardRef<SVGSVGElement, SVGProps<SVGSVGElement>>((props, ref) => (
+    <svg ref={ref} role="img" focusable="false" width="36" height="36" viewBox="0 0 36 36" {...props}>
         <g fill="#FFF" fillRule="evenodd">
             <circle cx="29.5" cy="6.5" r="6.5" opacity=".3" />
             <path
@@ -14,6 +14,8 @@ export const NotificationBadgeXlWhiteIcon: React.FC<SVGProps<SVGSVGElement>> = (
             />
         </g>
     </svg>
-);
+));
+
+NotificationBadgeXlWhiteIcon.displayName = 'NotificationBadgeXlWhiteIcon';
 
 export default NotificationBadgeXlWhiteIcon;

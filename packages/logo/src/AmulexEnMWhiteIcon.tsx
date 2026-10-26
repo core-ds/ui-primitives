@@ -2,10 +2,10 @@
  * This is auto-generated file by scripts/svg-to-component package
  * Do not edit it manually
  */
-import React, { SVGProps } from 'react';
+import React, { SVGProps, forwardRef } from 'react';
 
-export const AmulexEnMWhiteIcon: React.FC<SVGProps<SVGSVGElement>> = (props) => (
-    <svg role="img" focusable="false" width="117" height="24" viewBox="0 0 117 24" {...props} fill="none">
+export const AmulexEnMWhiteIcon = forwardRef<SVGSVGElement, SVGProps<SVGSVGElement>>((props, ref) => (
+    <svg ref={ref} role="img" focusable="false" width="117" height="24" viewBox="0 0 117 24" {...props} fill="none">
         <path
             d="M4.156 22L16.349 2l14.94 19.997L2 10.497l23.264 6.26-8.917-8.44-12.193 13.68.002.003z"
             fill="#fff"
@@ -20,6 +20,8 @@ export const AmulexEnMWhiteIcon: React.FC<SVGProps<SVGSVGElement>> = (props) => 
             fill="#fff"
         />
     </svg>
-);
+));
+
+AmulexEnMWhiteIcon.displayName = 'AmulexEnMWhiteIcon';
 
 export default AmulexEnMWhiteIcon;

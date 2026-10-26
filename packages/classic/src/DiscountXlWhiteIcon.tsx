@@ -2,10 +2,10 @@
  * This is auto-generated file by scripts/svg-to-component package
  * Do not edit it manually
  */
-import React, { SVGProps } from 'react';
+import React, { SVGProps, forwardRef } from 'react';
 
-export const DiscountXlWhiteIcon: React.FC<SVGProps<SVGSVGElement>> = (props) => (
-    <svg role="img" focusable="false" width="36" height="36">
+export const DiscountXlWhiteIcon = forwardRef<SVGSVGElement, SVGProps<SVGSVGElement>>((props, ref) => (
+    <svg ref={ref} role="img" focusable="false" width="36" height="36">
         <g fill="none" fillRule="evenodd">
             <path d="M0 0h36v36H0z" />
             <circle fill="#FFF" opacity=".3" cx="27" cy="9" r="3" fillRule="nonzero" />
@@ -16,6 +16,8 @@ export const DiscountXlWhiteIcon: React.FC<SVGProps<SVGSVGElement>> = (props) =>
             />
         </g>
     </svg>
-);
+));
+
+DiscountXlWhiteIcon.displayName = 'DiscountXlWhiteIcon';
 
 export default DiscountXlWhiteIcon;

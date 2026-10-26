@@ -2,10 +2,10 @@
  * This is auto-generated file by scripts/svg-to-component package
  * Do not edit it manually
  */
-import React, { SVGProps } from 'react';
+import React, { SVGProps, forwardRef } from 'react';
 
-export const ColombiaMColorIcon: React.FC<SVGProps<SVGSVGElement>> = (props) => (
-    <svg role="img" focusable="false" width="24" height="24" viewBox="0 0 24 24" {...props} fill="none">
+export const ColombiaMColorIcon = forwardRef<SVGSVGElement, SVGProps<SVGSVGElement>>((props, ref) => (
+    <svg ref={ref} role="img" focusable="false" width="24" height="24" viewBox="0 0 24 24" {...props} fill="none">
         <path
             d="M0 18.065c0 .992.805 1.797 1.797 1.797h20.406c.992 0 1.797-.805 1.797-1.797V15.93H0v2.134z"
             fill="#FF4B55"
@@ -16,6 +16,8 @@ export const ColombiaMColorIcon: React.FC<SVGProps<SVGSVGElement>> = (props) => 
         />
         <path d="M24 12H0v3.93h24V12z" fill="#41479B" />
     </svg>
-);
+));
+
+ColombiaMColorIcon.displayName = 'ColombiaMColorIcon';
 
 export default ColombiaMColorIcon;

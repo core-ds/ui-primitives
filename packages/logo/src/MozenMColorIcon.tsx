@@ -2,10 +2,10 @@
  * This is auto-generated file by scripts/svg-to-component package
  * Do not edit it manually
  */
-import React, { SVGProps } from 'react';
+import React, { SVGProps, forwardRef } from 'react';
 
-export const MozenMColorIcon: React.FC<SVGProps<SVGSVGElement>> = (props) => (
-    <svg role="img" focusable="false" width="88" height="24" viewBox="0 0 88 24" {...props} fill="none">
+export const MozenMColorIcon = forwardRef<SVGSVGElement, SVGProps<SVGSVGElement>>((props, ref) => (
+    <svg ref={ref} role="img" focusable="false" width="88" height="24" viewBox="0 0 88 24" {...props} fill="none">
         <path
             d="M19.635 12c0-1.72-.573-3.31-1.533-4.587l1.89-1.422A9.974 9.974 0 0122.001 12c0 5.52-4.48 10-10 10v-2.366A7.639 7.639 0 0019.634 12z"
             fill="url(#prefix__paint0_linear_5543_53)"
@@ -48,6 +48,8 @@ export const MozenMColorIcon: React.FC<SVGProps<SVGSVGElement>> = (props) => (
             </linearGradient>
         </defs>
     </svg>
-);
+));
+
+MozenMColorIcon.displayName = 'MozenMColorIcon';
 
 export default MozenMColorIcon;

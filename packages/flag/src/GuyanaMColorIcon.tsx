@@ -2,10 +2,10 @@
  * This is auto-generated file by scripts/svg-to-component package
  * Do not edit it manually
  */
-import React, { SVGProps } from 'react';
+import React, { SVGProps, forwardRef } from 'react';
 
-export const GuyanaMColorIcon: React.FC<SVGProps<SVGSVGElement>> = (props) => (
-    <svg role="img" focusable="false" width="24" height="24" viewBox="0 0 24 24" {...props} fill="none">
+export const GuyanaMColorIcon = forwardRef<SVGSVGElement, SVGProps<SVGSVGElement>>((props, ref) => (
+    <svg ref={ref} role="img" focusable="false" width="24" height="24" viewBox="0 0 24 24" {...props} fill="none">
         <mask id="a" style={{ maskType: 'alpha' }} maskUnits="userSpaceOnUse" x="0" y="4" width="24" height="16">
             <path d="M0 6a2 2 0 012-2h20a2 2 0 012 2v12a2 2 0 01-2 2H2a2 2 0 01-2-2V6z" fill="#2A936A" />
         </mask>
@@ -43,6 +43,8 @@ export const GuyanaMColorIcon: React.FC<SVGProps<SVGSVGElement>> = (props) => (
             </g>
         </g>
     </svg>
-);
+));
+
+GuyanaMColorIcon.displayName = 'GuyanaMColorIcon';
 
 export default GuyanaMColorIcon;

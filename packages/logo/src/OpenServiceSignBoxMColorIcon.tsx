@@ -2,10 +2,10 @@
  * This is auto-generated file by scripts/svg-to-component package
  * Do not edit it manually
  */
-import React, { SVGProps } from 'react';
+import React, { SVGProps, forwardRef } from 'react';
 
-export const OpenServiceSignBoxMColorIcon: React.FC<SVGProps<SVGSVGElement>> = (props) => (
-    <svg role="img" focusable="false" width="24" height="24" viewBox="0 0 24 24" {...props} fill="none">
+export const OpenServiceSignBoxMColorIcon = forwardRef<SVGSVGElement, SVGProps<SVGSVGElement>>((props, ref) => (
+    <svg ref={ref} role="img" focusable="false" width="24" height="24" viewBox="0 0 24 24" {...props} fill="none">
         <path
             d="M16.875 8.372l2.459 2.471c-2.842.303-4.45 1.884-4.772 4.796l-2.46-2.472c2.875-.287 4.472-1.88 4.773-4.795z"
             fill="#002ED9"
@@ -25,6 +25,8 @@ export const OpenServiceSignBoxMColorIcon: React.FC<SVGProps<SVGSVGElement>> = (
             fill="#002ED9"
         />
     </svg>
-);
+));
+
+OpenServiceSignBoxMColorIcon.displayName = 'OpenServiceSignBoxMColorIcon';
 
 export default OpenServiceSignBoxMColorIcon;

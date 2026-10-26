@@ -2,10 +2,10 @@
  * This is auto-generated file by scripts/svg-to-component package
  * Do not edit it manually
  */
-import React, { SVGProps } from 'react';
+import React, { SVGProps, forwardRef } from 'react';
 
-export const TenderMBlackIcon: React.FC<SVGProps<SVGSVGElement>> = (props) => (
-    <svg role="img" focusable="false" width="24" height="24" viewBox="0 0 24 24" {...props} fill="none">
+export const TenderMBlackIcon = forwardRef<SVGSVGElement, SVGProps<SVGSVGElement>>((props, ref) => (
+    <svg ref={ref} role="img" focusable="false" width="24" height="24" viewBox="0 0 24 24" {...props} fill="none">
         <path d="M2.209 21.882v.96h10.56v-.96H2.209z" fill="#0B1F35" />
         <path
             d="M13.8 11.283l5.706 5.706c.598.598.627 1.538.064 2.1-.562.563-1.503.534-2.1-.064l-5.706-5.706 1.018-1.018 1.018-1.018z"
@@ -18,6 +18,8 @@ export const TenderMBlackIcon: React.FC<SVGProps<SVGSVGElement>> = (props) => (
             clipRule="evenodd"
         />
     </svg>
-);
+));
+
+TenderMBlackIcon.displayName = 'TenderMBlackIcon';
 
 export default TenderMBlackIcon;

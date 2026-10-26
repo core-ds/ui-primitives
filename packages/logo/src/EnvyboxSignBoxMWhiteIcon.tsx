@@ -2,10 +2,10 @@
  * This is auto-generated file by scripts/svg-to-component package
  * Do not edit it manually
  */
-import React, { SVGProps } from 'react';
+import React, { SVGProps, forwardRef } from 'react';
 
-export const EnvyboxSignBoxMWhiteIcon: React.FC<SVGProps<SVGSVGElement>> = (props) => (
-    <svg role="img" focusable="false" width="24" height="24" viewBox="0 0 24 24" {...props} fill="none">
+export const EnvyboxSignBoxMWhiteIcon = forwardRef<SVGSVGElement, SVGProps<SVGSVGElement>>((props, ref) => (
+    <svg ref={ref} role="img" focusable="false" width="24" height="24" viewBox="0 0 24 24" {...props} fill="none">
         <path
             d="M14.085 19.078l-.785 2.085a1.298 1.298 0 01-2.425.005l-3.252-8.522a1.126 1.126 0 011.06-1.528h6.762a1.13 1.13 0 011.062 1.523 1.13 1.13 0 01-1.058.732h-4.152a.727.727 0 00-.73.725c0 .4.327.725.73.725h3.019a.966.966 0 110 1.933h-2.048a.727.727 0 00-.728.725c0 .4.326.725.728.725h1.213a.645.645 0 01.604.872zm-2.67-11.965a2.647 2.647 0 01-2.653 2.641 2.647 2.647 0 01-2.654-2.64 2.647 2.647 0 012.654-2.64 2.647 2.647 0 012.652 2.64z"
             fill="#fff"
@@ -25,6 +25,8 @@ export const EnvyboxSignBoxMWhiteIcon: React.FC<SVGProps<SVGSVGElement>> = (prop
             clipRule="evenodd"
         />
     </svg>
-);
+));
+
+EnvyboxSignBoxMWhiteIcon.displayName = 'EnvyboxSignBoxMWhiteIcon';
 
 export default EnvyboxSignBoxMWhiteIcon;

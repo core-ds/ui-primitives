@@ -2,10 +2,19 @@
  * This is auto-generated file by scripts/svg-to-component package
  * Do not edit it manually
  */
-import React, { SVGProps } from 'react';
+import React, { SVGProps, forwardRef } from 'react';
 
-export const AlfaPayLIcon: React.FC<SVGProps<SVGSVGElement>> = (props) => (
-    <svg role="img" focusable="false" fill="currentColor" width="79" height="32" viewBox="0 0 79 32" {...props}>
+export const AlfaPayLIcon = forwardRef<SVGSVGElement, SVGProps<SVGSVGElement>>((props, ref) => (
+    <svg
+        ref={ref}
+        role="img"
+        focusable="false"
+        fill="currentColor"
+        width="79"
+        height="32"
+        viewBox="0 0 79 32"
+        {...props}
+    >
         <path d="M15.733 9.725h.06l1.543 4.918H14.1l1.632-4.918z" />
         <path
             d="M7.774 2h15.984c3.189 0 5.773 2.629 5.773 5.872v16.256c0 3.243-2.584 5.872-5.773 5.872H7.774C4.585 30 2 27.37 2 24.128V7.872C2 4.629 4.585 2 7.774 2zm2.172 22.978h11.64v-2.451H9.946v2.451zm5.91-17.956c-1.31 0-1.717.79-2.066 1.795l-3.602 10.377h2.388l.832-2.467h4.595l.771 2.467h2.54L17.882 8.817c-.332-1.003-.715-1.795-2.025-1.795zm20.406-.219h8.474c3.963 0 6.145 1.935 6.145 5.45 0 3.496-2.24 5.501-6.145 5.501h-4.998v7.027h-3.476V6.803zm8.275 3.171h-4.799v4.609h4.8c1.76 0 2.768-.84 2.768-2.305 0-1.529-.931-2.304-2.769-2.304z"
@@ -19,6 +28,8 @@ export const AlfaPayLIcon: React.FC<SVGProps<SVGSVGElement>> = (props) => (
             clipRule="evenodd"
         />
     </svg>
-);
+));
+
+AlfaPayLIcon.displayName = 'AlfaPayLIcon';
 
 export default AlfaPayLIcon;

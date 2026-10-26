@@ -2,10 +2,10 @@
  * This is auto-generated file by scripts/svg-to-component package
  * Do not edit it manually
  */
-import React, { SVGProps } from 'react';
+import React, { SVGProps, forwardRef } from 'react';
 
-export const MarketplaceMBlackIcon: React.FC<SVGProps<SVGSVGElement>> = (props) => (
-    <svg role="img" focusable="false" width="24" height="24" viewBox="0 0 24 24" {...props}>
+export const MarketplaceMBlackIcon = forwardRef<SVGSVGElement, SVGProps<SVGSVGElement>>((props, ref) => (
+    <svg ref={ref} role="img" focusable="false" width="24" height="24" viewBox="0 0 24 24" {...props}>
         <g fill="none" fillRule="evenodd">
             <path
                 d="M19.4 7H17V4.5C17 2 15 0 12.5 0h-1C9 0 7 2 7 4.5V7H4.6L2.4 24h19.1L19.4 7zM8 4.5C8 2.6 9.6 1 11.5 1h1C14.4 1 16 2.6 16 4.5V7H8V4.5zM5.4 8h13.1l1.9 15H3.6L5.4 8z"
@@ -19,6 +19,8 @@ export const MarketplaceMBlackIcon: React.FC<SVGProps<SVGSVGElement>> = (props) 
             />
         </g>
     </svg>
-);
+));
+
+MarketplaceMBlackIcon.displayName = 'MarketplaceMBlackIcon';
 
 export default MarketplaceMBlackIcon;

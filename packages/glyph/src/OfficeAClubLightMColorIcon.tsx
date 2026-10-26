@@ -2,10 +2,10 @@
  * This is auto-generated file by scripts/svg-to-component package
  * Do not edit it manually
  */
-import React, { SVGProps } from 'react';
+import React, { SVGProps, forwardRef } from 'react';
 
-export const OfficeAClubLightMColorIcon: React.FC<SVGProps<SVGSVGElement>> = (props) => (
-    <svg role="img" focusable="false" width="24" height="24" viewBox="0 0 24 24" {...props} fill="none">
+export const OfficeAClubLightMColorIcon = forwardRef<SVGSVGElement, SVGProps<SVGSVGElement>>((props, ref) => (
+    <svg ref={ref} role="img" focusable="false" width="24" height="24" viewBox="0 0 24 24" {...props} fill="none">
         <path
             d="M22.5 7.25v1.998h-2v8s2 0 2 2.002v1.5h-21v-1.5c0-1.996 2-1.996 2-1.996V9.25h-2v-2l10.5-5 10.5 5z"
             fill="#121212"
@@ -18,6 +18,8 @@ export const OfficeAClubLightMColorIcon: React.FC<SVGProps<SVGSVGElement>> = (pr
         />
         <path d="M8.175 16.226v1.575h7.564v-1.575H8.175z" fill="#EF3124" />
     </svg>
-);
+));
+
+OfficeAClubLightMColorIcon.displayName = 'OfficeAClubLightMColorIcon';
 
 export default OfficeAClubLightMColorIcon;

@@ -2,10 +2,10 @@
  * This is auto-generated file by scripts/svg-to-component package
  * Do not edit it manually
  */
-import React, { SVGProps } from 'react';
+import React, { SVGProps, forwardRef } from 'react';
 
-export const PasswordChangeXxlBlackIcon: React.FC<SVGProps<SVGSVGElement>> = (props) => (
-    <svg role="img" focusable="false" width="42" height="42" viewBox="0 0 42 42" {...props}>
+export const PasswordChangeXxlBlackIcon = forwardRef<SVGSVGElement, SVGProps<SVGSVGElement>>((props, ref) => (
+    <svg ref={ref} role="img" focusable="false" width="42" height="42" viewBox="0 0 42 42" {...props}>
         <g fill="none" fillRule="evenodd">
             <path d="M-3-3h48v48H-3z" />
             <path
@@ -20,6 +20,8 @@ export const PasswordChangeXxlBlackIcon: React.FC<SVGProps<SVGSVGElement>> = (pr
             <path fill="#0B1F35" d="M9 11H8V5H2V4h7z" />
         </g>
     </svg>
-);
+));
+
+PasswordChangeXxlBlackIcon.displayName = 'PasswordChangeXxlBlackIcon';
 
 export default PasswordChangeXxlBlackIcon;

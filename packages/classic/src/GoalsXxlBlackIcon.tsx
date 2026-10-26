@@ -2,10 +2,10 @@
  * This is auto-generated file by scripts/svg-to-component package
  * Do not edit it manually
  */
-import React, { SVGProps } from 'react';
+import React, { SVGProps, forwardRef } from 'react';
 
-export const GoalsXxlBlackIcon: React.FC<SVGProps<SVGSVGElement>> = (props) => (
-    <svg role="img" focusable="false" width="48" height="44" viewBox="0 0 48 44" {...props}>
+export const GoalsXxlBlackIcon = forwardRef<SVGSVGElement, SVGProps<SVGSVGElement>>((props, ref) => (
+    <svg ref={ref} role="img" focusable="false" width="48" height="44" viewBox="0 0 48 44" {...props}>
         <g fill="none" fillRule="evenodd">
             <path d="M0-2h48v48H0z" />
             <path fill="#0B1F35" d="M29.5.5l-17 6 17 5.667" opacity=".3" />
@@ -15,6 +15,8 @@ export const GoalsXxlBlackIcon: React.FC<SVGProps<SVGSVGElement>> = (props) => (
             <path fill="#0B1F35" d="M3.23 43.767l-.846-.534 12.412-19.674 5.923 9.17-.84.542-5.073-7.853z" />
         </g>
     </svg>
-);
+));
+
+GoalsXxlBlackIcon.displayName = 'GoalsXxlBlackIcon';
 
 export default GoalsXxlBlackIcon;

@@ -2,10 +2,10 @@
  * This is auto-generated file by scripts/svg-to-component package
  * Do not edit it manually
  */
-import React, { SVGProps } from 'react';
+import React, { SVGProps, forwardRef } from 'react';
 
-export const PaymentToPersonXxlWhiteIcon: React.FC<SVGProps<SVGSVGElement>> = (props) => (
-    <svg role="img" focusable="false" width="48" height="48" viewBox="0 0 48 48" {...props}>
+export const PaymentToPersonXxlWhiteIcon = forwardRef<SVGSVGElement, SVGProps<SVGSVGElement>>((props, ref) => (
+    <svg ref={ref} role="img" focusable="false" width="48" height="48" viewBox="0 0 48 48" {...props}>
         <g fill="none" fillRule="evenodd">
             <path
                 d="M18 30c-5.6 0-9-6.6-9-13.1C9 12.3 10 7 18 7s9 5.3 9 9.9c0 6.5-3.4 13.1-9 13.1zm0-22c-5.7 0-8 2.6-8 8.9 0 5 2.5 12.1 8 12.1s8-7.1 8-12.1c0-6.3-2.3-8.9-8-8.9z"
@@ -21,6 +21,8 @@ export const PaymentToPersonXxlWhiteIcon: React.FC<SVGProps<SVGSVGElement>> = (p
             />
         </g>
     </svg>
-);
+));
+
+PaymentToPersonXxlWhiteIcon.displayName = 'PaymentToPersonXxlWhiteIcon';
 
 export default PaymentToPersonXxlWhiteIcon;

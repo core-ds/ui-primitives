@@ -2,10 +2,10 @@
  * This is auto-generated file by scripts/svg-to-component package
  * Do not edit it manually
  */
-import React, { SVGProps } from 'react';
+import React, { SVGProps, forwardRef } from 'react';
 
-export const KaktusMColorIcon: React.FC<SVGProps<SVGSVGElement>> = (props) => (
-    <svg role="img" focusable="false" width="80" height="24" viewBox="0 0 80 24" {...props} fill="none">
+export const KaktusMColorIcon = forwardRef<SVGSVGElement, SVGProps<SVGSVGElement>>((props, ref) => (
+    <svg ref={ref} role="img" focusable="false" width="80" height="24" viewBox="0 0 80 24" {...props} fill="none">
         <path
             d="M12.244 14.2c1.242 0 2.249-.986 2.249-2.2 0-1.216-1.007-2.2-2.25-2.2-1.241 0-2.248.984-2.248 2.2 0 1.214 1.007 2.2 2.249 2.2z"
             fill="#fff"
@@ -23,6 +23,8 @@ export const KaktusMColorIcon: React.FC<SVGProps<SVGSVGElement>> = (props) => (
             fill="#262C31"
         />
     </svg>
-);
+));
+
+KaktusMColorIcon.displayName = 'KaktusMColorIcon';
 
 export default KaktusMColorIcon;

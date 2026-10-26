@@ -2,10 +2,10 @@
  * This is auto-generated file by scripts/svg-to-component package
  * Do not edit it manually
  */
-import React, { SVGProps } from 'react';
+import React, { SVGProps, forwardRef } from 'react';
 
-export const MyBookMWhiteIcon: React.FC<SVGProps<SVGSVGElement>> = (props) => (
-    <svg role="img" focusable="false" width="81" height="24" viewBox="0 0 81 24" {...props} fill="none">
+export const MyBookMWhiteIcon = forwardRef<SVGSVGElement, SVGProps<SVGSVGElement>>((props, ref) => (
+    <svg ref={ref} role="img" focusable="false" width="81" height="24" viewBox="0 0 81 24" {...props} fill="none">
         <path
             d="M7.902 6.886a.66.66 0 01.718.143l3.49 3.49 3.49-3.49a.66.66 0 011.125.466v7.253a.66.66 0 01-1.318 0V9.087l-2.83 2.83a.66.66 0 01-.933 0l-2.83-2.83v5.66a.66.66 0 01-1.32 0V7.496a.66.66 0 01.408-.61zm4.867 8.794l1.565-1.565a.66.66 0 00-.932-.933l-1.292 1.292-1.292-1.292a.66.66 0 00-.933.933l1.566 1.565v1.705a.66.66 0 001.318 0V15.68z"
             fill="#fff"
@@ -19,6 +19,8 @@ export const MyBookMWhiteIcon: React.FC<SVGProps<SVGSVGElement>> = (props) => (
             clipRule="evenodd"
         />
     </svg>
-);
+));
+
+MyBookMWhiteIcon.displayName = 'MyBookMWhiteIcon';
 
 export default MyBookMWhiteIcon;

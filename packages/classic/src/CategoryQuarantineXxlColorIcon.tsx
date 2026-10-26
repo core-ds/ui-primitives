@@ -2,10 +2,10 @@
  * This is auto-generated file by scripts/svg-to-component package
  * Do not edit it manually
  */
-import React, { SVGProps } from 'react';
+import React, { SVGProps, forwardRef } from 'react';
 
-export const CategoryQuarantineXxlColorIcon: React.FC<SVGProps<SVGSVGElement>> = (props) => (
-    <svg role="img" focusable="false" width="48" height="48" viewBox="0 0 48 48" {...props} fill="none">
+export const CategoryQuarantineXxlColorIcon = forwardRef<SVGSVGElement, SVGProps<SVGSVGElement>>((props, ref) => (
+    <svg ref={ref} role="img" focusable="false" width="48" height="48" viewBox="0 0 48 48" {...props} fill="none">
         <path
             d="M26.76 40.39s-1.803.894-3.337 0c.319-5.534 1.9-9.57 4.08-14.922 2.181-5.353 7.85-11.139 7.85-11.139l.872.446s-4.363 4.593-6.541 10.693-2.924 14.921-2.924 14.921z"
             fill="#5C85AD"
@@ -31,6 +31,8 @@ export const CategoryQuarantineXxlColorIcon: React.FC<SVGProps<SVGSVGElement>> =
             fill="#B2CCDC"
         />
     </svg>
-);
+));
+
+CategoryQuarantineXxlColorIcon.displayName = 'CategoryQuarantineXxlColorIcon';
 
 export default CategoryQuarantineXxlColorIcon;

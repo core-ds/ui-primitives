@@ -2,10 +2,19 @@
  * This is auto-generated file by scripts/svg-to-component package
  * Do not edit it manually
  */
-import React, { SVGProps } from 'react';
+import React, { SVGProps, forwardRef } from 'react';
 
-export const CategoryTravelXlIcon: React.FC<SVGProps<SVGSVGElement>> = (props) => (
-    <svg role="img" focusable="false" fill="currentColor" width="36" height="36" viewBox="0 0 36 36" {...props}>
+export const CategoryTravelXlIcon = forwardRef<SVGSVGElement, SVGProps<SVGSVGElement>>((props, ref) => (
+    <svg
+        ref={ref}
+        role="img"
+        focusable="false"
+        fill="currentColor"
+        width="36"
+        height="36"
+        viewBox="0 0 36 36"
+        {...props}
+    >
         <path
             d="M14 33.667c0 .736.597 1.333 1.333 1.333h5.333c.737 0 1.334-.597 1.334-1.333V31h-8v2.667z"
             opacity=".3"
@@ -16,6 +25,8 @@ export const CategoryTravelXlIcon: React.FC<SVGProps<SVGSVGElement>> = (props) =
             opacity=".3"
         />
     </svg>
-);
+));
+
+CategoryTravelXlIcon.displayName = 'CategoryTravelXlIcon';
 
 export default CategoryTravelXlIcon;

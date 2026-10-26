@@ -2,10 +2,10 @@
  * This is auto-generated file by scripts/svg-to-component package
  * Do not edit it manually
  */
-import React, { SVGProps } from 'react';
+import React, { SVGProps, forwardRef } from 'react';
 
-export const CategoryGasolineXlWhiteIcon: React.FC<SVGProps<SVGSVGElement>> = (props) => (
-    <svg role="img" focusable="false" width="36" height="36" viewBox="0 0 36 36" {...props}>
+export const CategoryGasolineXlWhiteIcon = forwardRef<SVGSVGElement, SVGProps<SVGSVGElement>>((props, ref) => (
+    <svg ref={ref} role="img" focusable="false" width="36" height="36" viewBox="0 0 36 36" {...props}>
         <path fill="none" d="M0 0h36v36H0z" />
         <path
             fill="#fff"
@@ -18,6 +18,8 @@ export const CategoryGasolineXlWhiteIcon: React.FC<SVGProps<SVGSVGElement>> = (p
             d="M31.5 31.86a3.54 3.54 0 01-3.5-3.65V14h-4.61v-1H29v15.21a2.5 2.5 0 105 0V10.37l-4.84-4.5.68-.73L35 9.93v18.28a3.54 3.54 0 01-3.5 3.65z"
         />
     </svg>
-);
+));
+
+CategoryGasolineXlWhiteIcon.displayName = 'CategoryGasolineXlWhiteIcon';
 
 export default CategoryGasolineXlWhiteIcon;

@@ -2,10 +2,10 @@
  * This is auto-generated file by scripts/svg-to-component package
  * Do not edit it manually
  */
-import React, { SVGProps } from 'react';
+import React, { SVGProps, forwardRef } from 'react';
 
-export const MobileXlBlackIcon: React.FC<SVGProps<SVGSVGElement>> = (props) => (
-    <svg role="img" focusable="false" width="20" height="33" viewBox="0 0 20 33" {...props}>
+export const MobileXlBlackIcon = forwardRef<SVGSVGElement, SVGProps<SVGSVGElement>>((props, ref) => (
+    <svg ref={ref} role="img" focusable="false" width="20" height="33" viewBox="0 0 20 33" {...props}>
         <g fill="none" fillRule="evenodd">
             <path d="M-8-1h36v36H-8z" />
             <path fill="#0B1F35" d="M.5 5h19v20H.5z" opacity=".2" />
@@ -17,6 +17,8 @@ export const MobileXlBlackIcon: React.FC<SVGProps<SVGSVGElement>> = (props) => (
             />
         </g>
     </svg>
-);
+));
+
+MobileXlBlackIcon.displayName = 'MobileXlBlackIcon';
 
 export default MobileXlBlackIcon;
