@@ -2,10 +2,13 @@ packages:
     - icons-demo
     - packages/*
     - scripts/*
+    - token-converter
 
 nodeLinker: isolated
 
 allowBuilds:
     '@actions/github-script': false
     core-js: false
+    esbuild: true
     simple-git-hooks: true
+    swiper: true

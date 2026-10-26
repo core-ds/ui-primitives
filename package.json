@@ -14,7 +14,8 @@
         "codegen": "pnpm -r run codegen && pnpm format",
         "format": "pnpm format-check --log-level silent --write",
         "format-check": "prettier --check \"./**/*.{ts,tsx,js,jsx,mjs,mts,cjs,cts,css,json,yml,yaml,md}\"",
-        "lint": "lint-svg \"./icons/**/*.svg\" --exit-code 0",
+        "lint-icons": "lint-svg \"./icons/**/*.svg\" --exit-code 0",
+        "lint-js": "pnpm -r run lint",
         "version-packages": "changeset version && pnpm format"
     },
     "devDependencies": {

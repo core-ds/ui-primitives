@@ -7,7 +7,7 @@ on:
 permissions: {} # each job should define its own permission explicitly
 
 jobs:
-    remove:
+    remove-icons-demo:
         if: ${{ github.repository == 'core-ds/ui-primitives' }}
         runs-on: ubuntu-latest
         concurrency:
@@ -33,6 +33,38 @@ jobs:
                   ref: gh-pages
 
             - name: Filesystem
+              run: |
+                  rm -rf ${{ github.event.pull_request.number }}
+
+            - name: Commit and push
+              uses: core-ds/ui-primitives/.github/actions/commit-and-push@master
+              with:
+                  message: Remove demo
+
+    remove-token-converter:
+        if: ${{ github.repository == 'core-ds/ui-primitives' }}
+        runs-on: ubuntu-latest
+        concurrency:
+            group: deploy-token-converter
+            cancel-in-progress: false
+            queue: max
+        steps:
+            - name: Create app token
+              uses: actions/create-github-app-token@v3
+              id: app-token
+              with:
+                  client-id: ${{ vars.APP_ID }}
+                  private-key: ${{ secrets.APP_PRIVATE_KEY }}
+                  permission-contents: write
+
+            - name: Checkout
+              uses: actions/checkout@v7
+              with:
+                  token: ${{ steps.app-token.outputs.token }}
+                  ref: gh-pages
+
+            - name: Filesystem
+              working-directory: docs
               run: |
                   rm -rf ${{ github.event.pull_request.number }}
 
