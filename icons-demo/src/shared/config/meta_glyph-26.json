@@ -15009,6 +15009,16 @@
         "cdn": "glyph-26_magnifier-flare-thinline_20",
         "url": "https://alfabank.servicecdn.ru/icons/glyph-26_magnifier-flare-thinline_20.svg"
     },
+    "MagnifierFlare24Icon": {
+        "description": "",
+        "web": "MagnifierFlare24Icon",
+        "webComponent": "import { MagnifierFlare24Icon } from '@alfalab/icons-glyph-26/MagnifierFlare24Icon';",
+        "android": "glyph_26_magnifier_flare_24",
+        "ios": "glyph26_magnifierFlare_24",
+        "middle": "glyph-26_magnifier-flare_24",
+        "cdn": "glyph-26_magnifier-flare_24",
+        "url": "https://alfabank.servicecdn.ru/icons/glyph-26_magnifier-flare_24.svg"
+    },
     "MagnifierLine20Icon": {
         "description": "",
         "web": "MagnifierLine20Icon",
