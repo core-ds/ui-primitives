@@ -6,6 +6,7 @@
     "type": "module",
     "scripts": {
         "build": "tsc && vite build",
+        "clean": "rimraf dist",
         "dev": "vite",
         "lint": "eslint --max-warnings 0",
         "preview": "vite preview"
@@ -27,6 +28,7 @@
         "eslint": "^10.13.0",
         "eslint-plugin-react-hooks": "^7.1.1",
         "eslint-plugin-react-refresh": "^0.5.7",
+        "rimraf": "catalog:",
         "typescript": "catalog:",
         "typescript-eslint": "^8.72.0",
         "vite": "^8.3.5",
