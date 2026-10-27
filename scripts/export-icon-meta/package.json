@@ -2,6 +2,7 @@
     "name": "export-icon-meta",
     "version": "0.0.0",
     "private": true,
+    "license": "MIT",
     "type": "module",
     "bin": "./dist/index.mjs",
     "scripts": {
