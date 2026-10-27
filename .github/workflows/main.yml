@@ -78,6 +78,7 @@ jobs:
                       icons-demo/dist
                       packages/*/dist
                       scripts/*/dist
+                      token-converter/dist
 
     lint:
         needs: codegen
@@ -98,16 +99,20 @@ jobs:
               run: |
                   pnpm format-check
 
-            - name: Lint
+            - name: Lint js
               run: |
-                  pnpm lint
+                  pnpm lint-js
+
+            - name: Lint icons
+              run: |
+                  pnpm lint-icons
 
     icons-demo:
         if: ${{ always() && needs.build.result == 'success' && github.repository == 'core-ds/ui-primitives' }}
         needs: build
         runs-on: ubuntu-latest
         outputs:
-            url: ${{ format('https://{0}.github.io/icons-demo/{1}', github.repository_owner, case(github.event_name == 'pull_request', github.event.pull_request.number, '')) }}
+            url: ${{ format('https://core-ds.github.io/icons-demo/{0}', case(github.event_name == 'pull_request', github.event.pull_request.number, '')) }}
         concurrency:
             group: deploy-icons-demo
             cancel-in-progress: false
@@ -148,8 +153,63 @@ jobs:
 
             - name: Copy files
               run: |
-                  cp    ${{ runner.temp }}/dist/icons-demo/dist/index.html ${{ case(github.event_name == 'pull_request', github.event.pull_request.number, '.' ) }}
-                  cp -r ${{ runner.temp }}/dist/icons-demo/dist/build      ${{ case(github.event_name == 'pull_request', github.event.pull_request.number, '.' ) }}
+                  cp    ${{ runner.temp }}/dist/icons-demo/dist/index.html ${{ case(github.event_name == 'pull_request', github.event.pull_request.number, '.') }}
+                  cp -r ${{ runner.temp }}/dist/icons-demo/dist/build      ${{ case(github.event_name == 'pull_request', github.event.pull_request.number, '.') }}
+
+            - name: Commit and push
+              uses: core-ds/ui-primitives/.github/actions/commit-and-push@master
+              with:
+                  message: Deploy demo
+
+    token-converter:
+        if: ${{ always() && needs.build.result == 'success' && github.repository == 'core-ds/ui-primitives' }}
+        needs: build
+        runs-on: ubuntu-latest
+        outputs:
+            url: ${{ format('https://core-ds.github.io/ui-primitives/{0}', case(github.event_name == 'pull_request', github.event.pull_request.number, '')) }}
+        concurrency:
+            group: deploy-token-converter
+            cancel-in-progress: false
+            queue: max
+        steps:
+            - name: Create app token
+              uses: actions/create-github-app-token@v3
+              id: app-token
+              with:
+                  client-id: ${{ vars.APP_ID }}
+                  private-key: ${{ secrets.APP_PRIVATE_KEY }}
+                  permission-contents: write
+                  permission-pull-requests: write
+
+            - name: Checkout
+              uses: actions/checkout@v7
+              with:
+                  token: ${{ steps.app-token.outputs.token }}
+                  ref: gh-pages
+
+            - name: Download dist
+              uses: actions/download-artifact@v8
+              with:
+                  name: dist
+                  path: ${{ runner.temp }}/dist
+
+            - name: Clean
+              working-directory: docs
+              run: |
+                  rm -rf ${{ case(github.event_name == 'pull_request', github.event.pull_request.number, 'index.html icon.svg assets') }}
+
+            - name: Make directory
+              if: ${{ github.event_name == 'pull_request' }}
+              working-directory: docs
+              run: |
+                  mkdir ${{ github.event.pull_request.number }}
+
+            - name: Copy files
+              working-directory: docs
+              run: |
+                  cp    ${{ runner.temp }}/dist/token-converter/dist/index.html ${{ case(github.event_name == 'pull_request', github.event.pull_request.number, '.') }}
+                  cp    ${{ runner.temp }}/dist/token-converter/dist/icon.svg   ${{ case(github.event_name == 'pull_request', github.event.pull_request.number, '.') }}
+                  cp -r ${{ runner.temp }}/dist/token-converter/dist/assets     ${{ case(github.event_name == 'pull_request', github.event.pull_request.number, '.') }}
 
             - name: Commit and push
               uses: core-ds/ui-primitives/.github/actions/commit-and-push@master
@@ -158,7 +218,9 @@ jobs:
 
     comment:
         runs-on: ubuntu-latest
-        needs: icons-demo
+        needs:
+            - icons-demo
+            - token-converter
         if: ${{ github.event_name == 'pull_request' }}
         continue-on-error: true
         permissions:
@@ -171,7 +233,7 @@ jobs:
                   token: ${{ secrets.GITHUB_TOKEN }}
                   issue-number: ${{ github.event.pull_request.number }}
                   comment-author: 'github-actions[bot]'
-                  body-includes: '## Icons demo'
+                  body-includes: '## Deployments'
 
             - name: Create or update comment
               uses: peter-evans/create-or-update-comment@e8674b075228eee787fea43ef493e45ece1004c9 # v5
@@ -180,9 +242,19 @@ jobs:
                   comment-id: ${{ steps.comment.outputs.comment-id }}
                   issue-number: ${{ github.event.pull_request.number }}
                   body: |
-                      ## Icons demo
+                      ## Deployments
+
+                      ### Icons demo
 
                       ${{ format('[{0}]({0})', needs.icons-demo.outputs.url) }}
+
+                      ---
+
+                      ### Token converter
+
+                      ${{ format('[{0}]({0})', needs.token-converter.outputs.url) }}
+
+                      ---
 
                       Workflow ${{ format('[{3}/{2}]({0}/{1}/actions/runs/{2})', github.server_url, github.repository, github.run_id, github.workflow) }}
                   reactions: rocket
@@ -196,6 +268,7 @@ jobs:
             - build
             - lint
             - 'icons-demo'
+            - 'token-converter'
         env:
             RETURN_CODE: ${{ case(contains(needs.*.result, 'failure') || contains(needs.*.result, 'cancelled'), 1, 0) }}
         steps:

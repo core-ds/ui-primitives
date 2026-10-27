@@ -1,0 +1,35 @@
+{
+    "name": "token-converter",
+    "version": "0.0.0",
+    "private": true,
+    "license": "MIT",
+    "type": "module",
+    "scripts": {
+        "build": "tsc && vite build",
+        "dev": "vite",
+        "lint": "eslint --max-warnings 0",
+        "preview": "vite preview"
+    },
+    "dependencies": {
+        "@alfalab/core-components": "catalog:",
+        "@alfalab/core-components-config": "catalog:",
+        "@alfalab/core-components-stack-context": "catalog:",
+        "@alfalab/icons-glyph": "workspace:*",
+        "copy-to-clipboard": "^3.3.3",
+        "react": "catalog:",
+        "react-dom": "catalog:"
+    },
+    "devDependencies": {
+        "@eslint/js": "^10.0.1",
+        "@types/react": "catalog:",
+        "@types/react-dom": "catalog:",
+        "@vitejs/plugin-react": "^6.1.2",
+        "eslint": "^10.13.0",
+        "eslint-plugin-react-hooks": "^7.1.1",
+        "eslint-plugin-react-refresh": "^0.5.7",
+        "typescript": "catalog:",
+        "typescript-eslint": "^8.72.0",
+        "vite": "^8.3.5",
+        "vite-plugin-commonjs": "^0.10.4"
+    }
+}

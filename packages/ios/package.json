@@ -15,14 +15,14 @@
     },
     "devDependencies": {
         "@alfalab/icons-tsconfig": "workspace:*",
-        "@types/react": "^19.3.0",
+        "@types/react": "catalog:",
         "build-icon-package": "workspace:*",
         "prepare-package-json-for-publish": "workspace:*",
-        "react": "^19.3.0",
-        "rimraf": "^6.1.3",
+        "react": "catalog:",
+        "rimraf": "catalog:",
         "svg-to-component": "workspace:*",
-        "tslib": "^2.8.1",
-        "typescript": "^6.0.3"
+        "tslib": "catalog:",
+        "typescript": "catalog:"
     },
     "peerDependencies": {
         "react": "^16.9.0 || ^17.0.1 || ^18.0.0 || ^19.0.0",
