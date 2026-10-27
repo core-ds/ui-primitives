@@ -236,6 +236,9 @@ catalogs:
         '@types/yargs':
             specifier: ^17.0.35
             version: 17.0.35
+        copy-to-clipboard:
+            specifier: ^3.3.3
+            version: 3.3.3
         execa:
             specifier: ^10.2.1
             version: 10.2.1
@@ -355,7 +358,7 @@ importers:
                 specifier: ^2.5.1
                 version: 2.5.1
             copy-to-clipboard:
-                specifier: ^3.3.3
+                specifier: 'catalog:'
                 version: 3.3.3
             react:
                 specifier: 'catalog:'
@@ -1195,7 +1198,7 @@ importers:
                 specifier: workspace:*
                 version: link:../packages/glyph/dist
             copy-to-clipboard:
-                specifier: ^3.3.3
+                specifier: 'catalog:'
                 version: 3.3.3
             react:
                 specifier: 'catalog:'

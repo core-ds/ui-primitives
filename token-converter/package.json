@@ -16,7 +16,7 @@
         "@alfalab/core-components-config": "catalog:",
         "@alfalab/core-components-stack-context": "catalog:",
         "@alfalab/icons-glyph": "workspace:*",
-        "copy-to-clipboard": "^3.3.3",
+        "copy-to-clipboard": "catalog:",
         "react": "catalog:",
         "react-dom": "catalog:"
     },
