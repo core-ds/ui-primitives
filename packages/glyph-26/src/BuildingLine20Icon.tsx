@@ -15,7 +15,7 @@ export const BuildingLine20Icon = forwardRef<SVGSVGElement, SVGProps<SVGSVGEleme
         viewBox="0 0 20 20"
         {...props}
     >
-        <path d="M7.374 2.22a1 1 0 01.843-.196L18 4.199V18H2V9l5-1.428V3a1 1 0 01.374-.78zM4 10.508V16h3V9.652l-3 .856zM9 16h7V5.802L9 4.246V16z" />
+        <path d="M7.374 2.22a1 1 0 01.843-.196L18 4.199V18H2V9l5-1.428V3c0-.303.138-.59.374-.78zM4 10.508V16h3V9.652l-3 .856zM9 16h7V5.802L9 4.246V16z" />
     </svg>
 ));
 
