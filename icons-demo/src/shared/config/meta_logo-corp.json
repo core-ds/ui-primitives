@@ -4159,6 +4159,36 @@
         "cdn": "logo-corp_neuro-helper-search-sign-box-thinline_20",
         "url": "https://alfabank.servicecdn.ru/icons/logo-corp_neuro-helper-search-sign-box-thinline_20.svg"
     },
+    "NewCompanyAccountSignBoxLine20Icon": {
+        "description": "Продукт: Счёт для новой компании",
+        "web": "NewCompanyAccountSignBoxLine20Icon",
+        "webComponent": "import { NewCompanyAccountSignBoxLine20Icon } from '@alfalab/icons-logo-corp/NewCompanyAccountSignBoxLine20Icon';",
+        "android": "logo_corp_new_company_account_sign_box_line_20",
+        "ios": "logoCorp_newCompanyAccountSignBoxLine_20",
+        "middle": "logo-corp_new-company-account-sign-box-line_20",
+        "cdn": "logo-corp_new-company-account-sign-box-line_20",
+        "url": "https://alfabank.servicecdn.ru/icons/logo-corp_new-company-account-sign-box-line_20.svg"
+    },
+    "NewCompanyAccountSignBoxLine24Icon": {
+        "description": "Продукт: Счёт для новой компании",
+        "web": "NewCompanyAccountSignBoxLine24Icon",
+        "webComponent": "import { NewCompanyAccountSignBoxLine24Icon } from '@alfalab/icons-logo-corp/NewCompanyAccountSignBoxLine24Icon';",
+        "android": "logo_corp_new_company_account_sign_box_line_24",
+        "ios": "logoCorp_newCompanyAccountSignBoxLine_24",
+        "middle": "logo-corp_new-company-account-sign-box-line_24",
+        "cdn": "logo-corp_new-company-account-sign-box-line_24",
+        "url": "https://alfabank.servicecdn.ru/icons/logo-corp_new-company-account-sign-box-line_24.svg"
+    },
+    "NewCompanyAccountSignBoxThinline20Icon": {
+        "description": "Продукт: Счёт для новой компании",
+        "web": "NewCompanyAccountSignBoxThinline20Icon",
+        "webComponent": "import { NewCompanyAccountSignBoxThinline20Icon } from '@alfalab/icons-logo-corp/NewCompanyAccountSignBoxThinline20Icon';",
+        "android": "logo_corp_new_company_account_sign_box_thinline_20",
+        "ios": "logoCorp_newCompanyAccountSignBoxThinline_20",
+        "middle": "logo-corp_new-company-account-sign-box-thinline_20",
+        "cdn": "logo-corp_new-company-account-sign-box-thinline_20",
+        "url": "https://alfabank.servicecdn.ru/icons/logo-corp_new-company-account-sign-box-thinline_20.svg"
+    },
     "NewPaymentSignBoxLine20Icon": {
         "description": "Верхнее меню: Новый платёж",
         "web": "NewPaymentSignBoxLine20Icon",
