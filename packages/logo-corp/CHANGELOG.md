@@ -1,5 +1,11 @@
 # @alfalab/icons-logo-corp
 
+## 1.35.0
+
+### Minor Changes
+
+- [#1231](https://github.com/core-ds/ui-primitives/pull/1231) [`1b270d8`](https://github.com/core-ds/ui-primitives/commit/1b270d862f4a270f5efe0a87e02e6c1cb09636c7) Thanks [@core-ds-bot](https://github.com/core-ds-bot)! -
+
 ## 1.34.0
 
 ### Minor Changes
