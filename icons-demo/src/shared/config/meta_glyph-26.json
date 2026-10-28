@@ -14929,6 +14929,36 @@
         "cdn": "glyph-26_lines-rectangle-heart-thinline_20",
         "url": "https://alfabank.servicecdn.ru/icons/glyph-26_lines-rectangle-heart-thinline_20.svg"
     },
+    "LinesRectangleHouseLine20Icon": {
+        "description": "",
+        "web": "LinesRectangleHouseLine20Icon",
+        "webComponent": "import { LinesRectangleHouseLine20Icon } from '@alfalab/icons-glyph-26/LinesRectangleHouseLine20Icon';",
+        "android": "glyph_26_lines_rectangle_house_line_20",
+        "ios": "glyph26_linesRectangleHouseLine_20",
+        "middle": "glyph-26_lines-rectangle-house-line_20",
+        "cdn": "glyph-26_lines-rectangle-house-line_20",
+        "url": "https://alfabank.servicecdn.ru/icons/glyph-26_lines-rectangle-house-line_20.svg"
+    },
+    "LinesRectangleHouseLine24Icon": {
+        "description": "",
+        "web": "LinesRectangleHouseLine24Icon",
+        "webComponent": "import { LinesRectangleHouseLine24Icon } from '@alfalab/icons-glyph-26/LinesRectangleHouseLine24Icon';",
+        "android": "glyph_26_lines_rectangle_house_line_24",
+        "ios": "glyph26_linesRectangleHouseLine_24",
+        "middle": "glyph-26_lines-rectangle-house-line_24",
+        "cdn": "glyph-26_lines-rectangle-house-line_24",
+        "url": "https://alfabank.servicecdn.ru/icons/glyph-26_lines-rectangle-house-line_24.svg"
+    },
+    "LinesRectangleHouseThinline20Icon": {
+        "description": "",
+        "web": "LinesRectangleHouseThinline20Icon",
+        "webComponent": "import { LinesRectangleHouseThinline20Icon } from '@alfalab/icons-glyph-26/LinesRectangleHouseThinline20Icon';",
+        "android": "glyph_26_lines_rectangle_house_thinline_20",
+        "ios": "glyph26_linesRectangleHouseThinline_20",
+        "middle": "glyph-26_lines-rectangle-house-thinline_20",
+        "cdn": "glyph-26_lines-rectangle-house-thinline_20",
+        "url": "https://alfabank.servicecdn.ru/icons/glyph-26_lines-rectangle-house-thinline_20.svg"
+    },
     "LinesRectangleLine20Icon": {
         "description": "",
         "web": "LinesRectangleLine20Icon",
