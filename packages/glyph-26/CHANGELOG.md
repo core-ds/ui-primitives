@@ -1,5 +1,11 @@
 # @alfalab/icons-glyph-26
 
+## 1.35.0
+
+### Minor Changes
+
+- [#1232](https://github.com/core-ds/ui-primitives/pull/1232) [`9466aa8`](https://github.com/core-ds/ui-primitives/commit/9466aa849cc91bb0e9402378d6e0485747f81756) Thanks [@core-ds-bot](https://github.com/core-ds-bot)! -
+
 ## 1.34.0
 
 ### Minor Changes
