@@ -18109,6 +18109,16 @@
         "cdn": "glyph-26_phone-line_24",
         "url": "https://alfabank.servicecdn.ru/icons/glyph-26_phone-line_24.svg"
     },
+    "PhoneNumberScanLine24Icon": {
+        "description": "",
+        "web": "PhoneNumberScanLine24Icon",
+        "webComponent": "import { PhoneNumberScanLine24Icon } from '@alfalab/icons-glyph-26/PhoneNumberScanLine24Icon';",
+        "android": "glyph_26_phone_number_scan_line_24",
+        "ios": "glyph26_phoneNumberScanLine_24",
+        "middle": "glyph-26_phone-number-scan-line_24",
+        "cdn": "glyph-26_phone-number-scan-line_24",
+        "url": "https://alfabank.servicecdn.ru/icons/glyph-26_phone-number-scan-line_24.svg"
+    },
     "PhoneThinline20Icon": {
         "description": "",
         "web": "PhoneThinline20Icon",
