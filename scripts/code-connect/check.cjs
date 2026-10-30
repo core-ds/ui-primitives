@@ -5,6 +5,7 @@ const path = require('node:path');
 const vm = require('node:vm');
 const { execFileSync } = require('node:child_process');
 const ts = require('typescript');
+const { validateManifest, svgGeometry, crossProduct, propertyKey, unknownValue } = require('./validation.cjs');
 
 const repo = path.resolve(__dirname, '../..');
 const manifest = JSON.parse(fs.readFileSync(path.join(repo, 'code-connect/icons/manifest.json'), 'utf8'));
@@ -19,7 +20,7 @@ function run(args) {
             cwd: repo,
             env: environment,
             encoding: 'utf8',
-            maxBuffer: 16 * 1024 * 1024,
+            maxBuffer: 64 * 1024 * 1024,
         });
     } catch (error) {
         if (error.stdout) process.stdout.write(error.stdout);
@@ -28,11 +29,15 @@ function run(args) {
     }
 }
 
+const scriptCache = new Map();
 function evaluate(set, properties) {
-    const source = fs.readFileSync(path.join(repo, set.template), 'utf8');
-    const transpiled = ts.transpileModule(source, {
-        compilerOptions: { module: ts.ModuleKind.CommonJS, target: ts.ScriptTarget.ES2021, esModuleInterop: true },
-    }).outputText;
+    if (!scriptCache.has(set.template)) {
+        const source = fs.readFileSync(insideRepository(set.template), 'utf8');
+        const transpiled = ts.transpileModule(source, {
+            compilerOptions: { module: ts.ModuleKind.CommonJS, target: ts.ScriptTarget.ES2021, esModuleInterop: true },
+        }).outputText;
+        scriptCache.set(set.template, new vm.Script(transpiled, { filename: set.template }));
+    }
     const figma = {
         selectedInstance: {
             getEnum(name, values) {
@@ -45,14 +50,17 @@ function evaluate(set, properties) {
         },
     };
     const module = { exports: {} };
-    vm.runInNewContext(transpiled, {
-        module,
-        exports: module.exports,
-        require(name) {
-            assert.equal(name, 'figma', 'Leaf templates must depend only on the Figma runtime');
-            return figma;
+    scriptCache.get(set.template).runInNewContext(
+        {
+            module,
+            exports: module.exports,
+            require(name) {
+                assert.equal(name, 'figma', 'Leaf templates must depend only on the Figma runtime');
+                return figma;
+            },
         },
-    });
+        { timeout: 1000 }
+    );
     return module.exports.default;
 }
 
@@ -77,23 +85,10 @@ function verifyResult(set, variant, result) {
     assert.equal(result.example.join(''), `<${variant.export} />`);
 }
 
-function svgGeometry(source) {
-    const root = source.match(/<svg\b[^>]*>/)?.[0];
-    assert(root, 'Missing SVG root');
-    return Object.fromEntries(
-        ['width', 'height', 'viewBox'].map((name) => [name, root.match(new RegExp(`\\b${name}="([^"]+)"`))?.[1]])
-    );
-}
-
-function crossProduct(properties) {
-    return Object.entries(properties).reduce(
-        (rows, [name, values]) => rows.flatMap((row) => values.map((value) => ({ ...row, [name]: value }))),
-        [{}]
-    );
-}
-
-function propertyKey(properties) {
-    return JSON.stringify(Object.entries(properties).sort(([left], [right]) => left.localeCompare(right)));
+function insideRepository(relative) {
+    const actual = fs.realpathSync(path.join(repo, relative));
+    assert(actual.startsWith(fs.realpathSync(repo) + path.sep), 'A catalog file resolves outside its repository');
+    return actual;
 }
 
 const compilerOptions = {
@@ -108,8 +103,6 @@ const compilerOptions = {
     esModuleInterop: true,
     types: [],
     paths: {
-        '@alfalab/icons-glyph/*': [path.join(repo, 'packages/glyph/src/*')],
-        '@alfalab/icons-glyph-26/*': [path.join(repo, 'packages/glyph-26/src/*')],
         react: [path.join(repo, 'node_modules/@types/react/index.d.ts')],
         'react/*': [path.join(repo, 'node_modules/@types/react/*')],
     },
@@ -120,16 +113,29 @@ function diagnostics(files) {
 }
 
 try {
-    assert.equal(manifest.schemaVersion, 1);
-    assert.equal(manifest.sets.length, 5);
+    validateManifest(manifest);
+    run(['--test', path.join(__dirname, 'check.spec.cjs'), path.join(__dirname, 'catalog.test.cjs')]);
+    if (fs.existsSync(path.join(__dirname, 'generate.cjs'))) run([path.join(__dirname, 'generate.cjs'), '--check']);
+    else assert(!manifest.sets.some((set) => set.generated), 'Generated bindings need their reproducibility check');
     assert.equal(config.label, 'React');
     assert.equal(config.language, 'tsx');
     assert.deepEqual(
         config.include,
         manifest.sets.map((set) => set.template)
     );
-    assert.equal(new Set(config.include).size, 5);
-    assert.equal(new Set(manifest.sets.map((set) => set.id)).size, 5);
+    assert.equal(new Set(config.include).size, manifest.sets.length);
+    assert.equal(new Set(manifest.sets.map((set) => set.id)).size, manifest.sets.length);
+
+    for (const set of manifest.sets) {
+        const sourceDirectory = insideRepository(set.sourceDirectory);
+        const packageFile = JSON.parse(fs.readFileSync(path.join(sourceDirectory, '../package.json'), 'utf8'));
+        assert.equal(packageFile.name, set.package, 'The React source belongs to another package');
+        const alias = set.package + '/*';
+        const target = [path.join(sourceDirectory, '*')];
+        if (compilerOptions.paths[alias])
+            assert.deepEqual(compilerOptions.paths[alias], target, 'Conflicting package sources');
+        compilerOptions.paths[alias] = target;
+    }
 
     run(['node_modules/typescript/bin/tsc', '-p', 'tsconfig.code-connect.json']);
     const parsedFile = path.join(temporary, 'parsed.json');
@@ -145,27 +151,32 @@ try {
         parsedFile,
     ]);
     const parsed = JSON.parse(fs.readFileSync(parsedFile, 'utf8'));
-    assert.equal(parsed.length, 5);
+    assert.equal(parsed.length, manifest.sets.length);
     const parsedIdentities = new Set();
     for (const item of parsed) {
         assert.equal(item.templateData.isParserless, true);
         assert.equal(item.label, 'React');
         assert(item.template.trim());
         const url = new URL(item.figmaNode);
+        assert(['https://www.figma.com', 'https://figma.com'].includes(url.origin), 'Invalid Figma origin');
+        assert(/^\/(?:design|file)\//.test(url.pathname));
         assert.equal(url.pathname.split('/')[2], manifest.figmaFileKey);
-        parsedIdentities.add(url.searchParams.get('node-id').replace('-', ':'));
+        const identity = url.searchParams.get('node-id').replace('-', ':');
+        assert(!parsedIdentities.has(identity), 'Official parse repeated a Figma source');
+        parsedIdentities.add(identity);
     }
     assert.deepEqual([...parsedIdentities].sort(), manifest.sets.map((set) => set.figmaNodeId).sort());
 
     let cases = 0;
     let rejected = 0;
     const examples = [];
+    const metadataCache = new Map();
     for (const set of manifest.sets) {
         const packageFile = JSON.parse(
             fs.readFileSync(path.join(repo, set.sourceDirectory, '../package.json'), 'utf8')
         );
         assert.equal(packageFile.name, set.package);
-        const source = fs.readFileSync(path.join(repo, set.template), 'utf8');
+        const source = fs.readFileSync(insideRepository(set.template), 'utf8');
         const url = new URL(source.match(/^\/\/ url=(\S+)/m)[1]);
         assert.equal(url.pathname.split('/')[2], manifest.figmaFileKey);
         assert.equal(url.searchParams.get('node-id').replace('-', ':'), set.figmaNodeId);
@@ -174,18 +185,40 @@ try {
         );
         assert(set.template.endsWith('.figma.ts'));
 
+        const pack = set.sourceDirectory.split('/')[1];
+        if (!metadataCache.has(pack)) {
+            const rows = Object.values(
+                JSON.parse(fs.readFileSync(insideRepository(`icons-demo/src/shared/config/meta_${pack}.json`), 'utf8'))
+            );
+            assert.equal(
+                new Set(rows.map((row) => row.middle)).size,
+                rows.length,
+                'UI metadata repeats an asset identifier'
+            );
+            metadataCache.set(pack, new Map(rows.map((row) => [row.middle, row])));
+        }
+        const metadata = metadataCache.get(pack);
+
         const declared = [...set.variants, ...set.unsupported].map((variant) => propertyKey(variant.properties));
         assert.equal(new Set(declared).size, declared.length, 'A state is mapped twice');
         assert.deepEqual(declared.sort(), crossProduct(set.properties).map(propertyKey).sort(), 'Missing Figma state');
         for (const variant of set.variants) {
             const expectedGeometry = {
-                width: String(variant.size),
-                height: String(variant.size),
-                viewBox: `0 0 ${variant.size} ${variant.size}`,
+                width: variant.size,
+                height: variant.size,
+                viewBox: [0, 0, variant.size, variant.size],
             };
-            const svg = fs.readFileSync(path.join(repo, variant.svg), 'utf8');
+            assert.equal(path.posix.dirname(variant.svg), `icons/${pack}`, 'The SVG belongs to another family');
+            const item = metadata.get(path.basename(variant.svg, '.svg'));
+            assert(item, 'The exact source asset is absent from UI metadata');
+            assert.equal(item.web, variant.export, 'The React name differs from exact UI metadata');
+            assert.equal(item.webComponent, declaration(set, variant), 'The import differs from exact UI metadata');
+            const svg = fs.readFileSync(insideRepository(variant.svg), 'utf8');
             assert.deepEqual(svgGeometry(svg), expectedGeometry);
-            const reactSource = fs.readFileSync(path.join(repo, set.sourceDirectory, variant.export + '.tsx'), 'utf8');
+            const reactSource = fs.readFileSync(
+                insideRepository(path.join(set.sourceDirectory, variant.export + '.tsx')),
+                'utf8'
+            );
             assert(reactSource.includes(`export const ${variant.export} =`));
             assert.deepEqual(svgGeometry(reactSource), expectedGeometry);
             const result = evaluate(set, variant.properties);
@@ -202,15 +235,15 @@ try {
             cases++;
         }
         for (const variant of set.unsupported) {
-            assert.equal(typeof variant.missingExport, 'string');
-            assert(
-                !fs.existsSync(path.join(repo, set.sourceDirectory, variant.missingExport + '.tsx')),
-                `${set.name}: unsupported state has acquired an exact export; update its mapping`
-            );
+            if (variant.missingExport)
+                assert(
+                    !fs.existsSync(path.join(repo, set.sourceDirectory, variant.missingExport + '.tsx')),
+                    `${set.name}: unsupported state has acquired an exact export; update its mapping`
+                );
         }
         const invalid = set.unsupported.map((variant) => variant.properties);
         for (const name of Object.keys(set.properties)) {
-            invalid.push({ ...set.variants[0].properties, [name]: '<unknown>' });
+            invalid.push({ ...set.variants[0].properties, [name]: unknownValue(set.properties[name]) });
             const missing = { ...set.variants[0].properties };
             delete missing[name];
             invalid.push(missing);
@@ -222,7 +255,10 @@ try {
             rejected++;
         }
     }
-    assert.equal(examples.length, 19);
+    assert.equal(
+        examples.length,
+        manifest.sets.reduce((total, set) => total + set.variants.length, 0)
+    );
     const actual = diagnostics(examples);
     if (actual.length) {
         throw new Error(
@@ -238,7 +274,9 @@ try {
     const firstVariant = firstSet.variants[0];
     const valid = evaluate(firstSet, firstVariant.properties);
     const wrongFamily = evaluate(firstSet, firstVariant.properties);
-    wrongFamily.imports = [declaration(firstSet, firstVariant).replace('icons-glyph-26/', 'icons-glyph/')];
+    wrongFamily.imports = [
+        declaration(firstSet, firstVariant).replace(firstSet.package + '/', firstSet.package + '-wrong/'),
+    ];
     assert.throws(() => verifyResult(firstSet, firstVariant, wrongFamily));
     const wrongSize = evaluate(firstSet, firstVariant.properties);
     wrongSize.metadata.props.svgSize = firstVariant.size + 4;
@@ -259,12 +297,15 @@ try {
     console.log(
         JSON.stringify({
             templates: parsed.length,
+            packages: metadataCache.size,
             cases,
             renderedSnippets: examples.length,
             rejectedStates: rejected,
             sourceSvgGeometry: 'passed',
             workspaceReactGeometry: 'passed',
             workspaceApiTypes: 'passed',
+            exactUiMetadata: 'passed',
+            checkerRegressions: 'passed',
             negativeControls: {
                 family: 'detected',
                 size: 'detected',
