@@ -1,3 +1,4 @@
 ---
-"@alfalab/icons-glyph-26": minor
+'@alfalab/icons-glyph-26': minor
+'ui-primitives': minor
 ---
