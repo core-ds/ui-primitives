@@ -1,0 +1,309 @@
+{
+    "schemaVersion": 1,
+    "figmaFileKey": "ZcdUPebEhHfSZ91zgmv2cK",
+    "sets": [
+        {
+            "name": "ArrowLeft",
+            "template": "code-connect/icons/ArrowLeft.figma.ts",
+            "id": "core-screen-icon-arrow-left",
+            "figmaNodeId": "149066:33843",
+            "package": "@alfalab/icons-glyph-26",
+            "sourceDirectory": "packages/glyph-26/src",
+            "properties": {
+                "Size": ["20", "24"],
+                "Style": ["Default", "Line", "Thinline"],
+                "Color": ["False"]
+            },
+            "variants": [
+                {
+                    "properties": {
+                        "Size": "20",
+                        "Style": "Default",
+                        "Color": "False"
+                    },
+                    "export": "ArrowLeft20Icon",
+                    "svg": "icons/glyph-26/glyph-26_arrow-left_20.svg",
+                    "size": 20
+                },
+                {
+                    "properties": {
+                        "Size": "24",
+                        "Style": "Default",
+                        "Color": "False"
+                    },
+                    "export": "ArrowLeft24Icon",
+                    "svg": "icons/glyph-26/glyph-26_arrow-left_24.svg",
+                    "size": 24
+                },
+                {
+                    "properties": {
+                        "Size": "20",
+                        "Style": "Line",
+                        "Color": "False"
+                    },
+                    "export": "ArrowLeftLine20Icon",
+                    "svg": "icons/glyph-26/glyph-26_arrow-left-line_20.svg",
+                    "size": 20
+                },
+                {
+                    "properties": {
+                        "Size": "24",
+                        "Style": "Line",
+                        "Color": "False"
+                    },
+                    "export": "ArrowLeftLine24Icon",
+                    "svg": "icons/glyph-26/glyph-26_arrow-left-line_24.svg",
+                    "size": 24
+                },
+                {
+                    "properties": {
+                        "Size": "20",
+                        "Style": "Thinline",
+                        "Color": "False"
+                    },
+                    "export": "ArrowLeftThinline20Icon",
+                    "svg": "icons/glyph-26/glyph-26_arrow-left-thinline_20.svg",
+                    "size": 20
+                }
+            ],
+            "unsupported": [
+                {
+                    "properties": {
+                        "Size": "24",
+                        "Style": "Thinline",
+                        "Color": "False"
+                    },
+                    "reason": "Для выбранного варианта нет точного React-экспорта в подключённом наборе",
+                    "missingExport": "ArrowLeftThinline24Icon"
+                }
+            ]
+        },
+        {
+            "name": "InformationCircle",
+            "template": "code-connect/icons/InformationCircle.figma.ts",
+            "id": "core-screen-icon-information-circle",
+            "figmaNodeId": "147586:13294",
+            "package": "@alfalab/icons-glyph-26",
+            "sourceDirectory": "packages/glyph-26/src",
+            "properties": {
+                "Size": ["20", "24"],
+                "Style": ["Default", "Line", "Thinline"],
+                "Color": ["False"]
+            },
+            "variants": [
+                {
+                    "properties": {
+                        "Size": "20",
+                        "Style": "Default",
+                        "Color": "False"
+                    },
+                    "export": "InformationCircle20Icon",
+                    "svg": "icons/glyph-26/glyph-26_information-circle_20.svg",
+                    "size": 20
+                },
+                {
+                    "properties": {
+                        "Size": "24",
+                        "Style": "Default",
+                        "Color": "False"
+                    },
+                    "export": "InformationCircle24Icon",
+                    "svg": "icons/glyph-26/glyph-26_information-circle_24.svg",
+                    "size": 24
+                },
+                {
+                    "properties": {
+                        "Size": "20",
+                        "Style": "Line",
+                        "Color": "False"
+                    },
+                    "export": "InformationCircleLine20Icon",
+                    "svg": "icons/glyph-26/glyph-26_information-circle-line_20.svg",
+                    "size": 20
+                },
+                {
+                    "properties": {
+                        "Size": "24",
+                        "Style": "Line",
+                        "Color": "False"
+                    },
+                    "export": "InformationCircleLine24Icon",
+                    "svg": "icons/glyph-26/glyph-26_information-circle-line_24.svg",
+                    "size": 24
+                },
+                {
+                    "properties": {
+                        "Size": "20",
+                        "Style": "Thinline",
+                        "Color": "False"
+                    },
+                    "export": "InformationCircleThinline20Icon",
+                    "svg": "icons/glyph-26/glyph-26_information-circle-thinline_20.svg",
+                    "size": 20
+                }
+            ],
+            "unsupported": [
+                {
+                    "properties": {
+                        "Size": "24",
+                        "Style": "Thinline",
+                        "Color": "False"
+                    },
+                    "reason": "Для выбранного варианта нет точного React-экспорта в подключённом наборе",
+                    "missingExport": "InformationCircleThinline24Icon"
+                }
+            ]
+        },
+        {
+            "name": "ChevronDown",
+            "template": "code-connect/icons/ChevronDown.figma.ts",
+            "id": "core-screen-icon-chevron-down",
+            "figmaNodeId": "149085:17064",
+            "package": "@alfalab/icons-glyph-26",
+            "sourceDirectory": "packages/glyph-26/src",
+            "properties": {
+                "Size": ["20", "24"],
+                "Style": ["Default", "Line", "Thinline"],
+                "Color": ["False"]
+            },
+            "variants": [
+                {
+                    "properties": {
+                        "Size": "24",
+                        "Style": "Default",
+                        "Color": "False"
+                    },
+                    "export": "ChevronDown24Icon",
+                    "svg": "icons/glyph-26/glyph-26_chevron-down_24.svg",
+                    "size": 24
+                },
+                {
+                    "properties": {
+                        "Size": "20",
+                        "Style": "Line",
+                        "Color": "False"
+                    },
+                    "export": "ChevronDownLine20Icon",
+                    "svg": "icons/glyph-26/glyph-26_chevron-down-line_20.svg",
+                    "size": 20
+                },
+                {
+                    "properties": {
+                        "Size": "24",
+                        "Style": "Line",
+                        "Color": "False"
+                    },
+                    "export": "ChevronDownLine24Icon",
+                    "svg": "icons/glyph-26/glyph-26_chevron-down-line_24.svg",
+                    "size": 24
+                },
+                {
+                    "properties": {
+                        "Size": "20",
+                        "Style": "Thinline",
+                        "Color": "False"
+                    },
+                    "export": "ChevronDownThinline20Icon",
+                    "svg": "icons/glyph-26/glyph-26_chevron-down-thinline_20.svg",
+                    "size": 20
+                }
+            ],
+            "unsupported": [
+                {
+                    "properties": {
+                        "Size": "20",
+                        "Style": "Default",
+                        "Color": "False"
+                    },
+                    "reason": "Для выбранного варианта нет точного React-экспорта в подключённом наборе",
+                    "missingExport": "ChevronDown20Icon"
+                },
+                {
+                    "properties": {
+                        "Size": "24",
+                        "Style": "Thinline",
+                        "Color": "False"
+                    },
+                    "reason": "Для выбранного варианта нет точного React-экспорта в подключённом наборе",
+                    "missingExport": "ChevronDownThinline24Icon"
+                }
+            ]
+        },
+        {
+            "name": "DotsThreeVertical",
+            "template": "code-connect/icons/DotsThreeVertical.figma.ts",
+            "id": "core-screen-icon-dots-three-vertical",
+            "figmaNodeId": "92334:26810",
+            "package": "@alfalab/icons-glyph",
+            "sourceDirectory": "packages/glyph/src",
+            "properties": {
+                "Size": ["s", "m", "xxl"]
+            },
+            "variants": [
+                {
+                    "properties": {
+                        "Size": "s"
+                    },
+                    "export": "DotsThreeVerticalSIcon",
+                    "svg": "icons/glyph/glyph_dots-three-vertical_s.svg",
+                    "size": 16
+                },
+                {
+                    "properties": {
+                        "Size": "m"
+                    },
+                    "export": "DotsThreeVerticalMIcon",
+                    "svg": "icons/glyph/glyph_dots-three-vertical_m.svg",
+                    "size": 24
+                }
+            ],
+            "unsupported": [
+                {
+                    "properties": {
+                        "Size": "xxl"
+                    },
+                    "reason": "В исходном glyph нет соответствующего React-экспорта",
+                    "missingExport": "DotsThreeVerticalXxlIcon"
+                }
+            ]
+        },
+        {
+            "name": "Diamonds",
+            "template": "code-connect/icons/Diamonds.figma.ts",
+            "id": "core-diamonds-icon",
+            "figmaNodeId": "92210:20888",
+            "package": "@alfalab/icons-glyph",
+            "sourceDirectory": "packages/glyph/src",
+            "properties": {
+                "Size": ["s", "m", "xxl"]
+            },
+            "variants": [
+                {
+                    "properties": {
+                        "Size": "s"
+                    },
+                    "export": "DiamondsSIcon",
+                    "svg": "icons/glyph/glyph_diamonds_s.svg",
+                    "size": 16
+                },
+                {
+                    "properties": {
+                        "Size": "m"
+                    },
+                    "export": "DiamondsMIcon",
+                    "svg": "icons/glyph/glyph_diamonds_m.svg",
+                    "size": 24
+                },
+                {
+                    "properties": {
+                        "Size": "xxl"
+                    },
+                    "export": "DiamondsXxlIcon",
+                    "svg": "icons/glyph/glyph_diamonds_xxl.svg",
+                    "size": 48
+                }
+            ],
+            "unsupported": []
+        }
+    ]
+}

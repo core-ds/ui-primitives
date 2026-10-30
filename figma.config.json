@@ -1,0 +1,14 @@
+{
+    "codeConnect": {
+        "parser": "react",
+        "include": [
+            "code-connect/icons/ArrowLeft.figma.ts",
+            "code-connect/icons/InformationCircle.figma.ts",
+            "code-connect/icons/ChevronDown.figma.ts",
+            "code-connect/icons/DotsThreeVertical.figma.ts",
+            "code-connect/icons/Diamonds.figma.ts"
+        ],
+        "label": "React",
+        "language": "tsx"
+    }
+}

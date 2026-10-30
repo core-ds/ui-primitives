@@ -1,0 +1,18 @@
+{
+    "compilerOptions": {
+        "target": "ES2021",
+        "module": "ESNext",
+        "moduleResolution": "Bundler",
+        "strict": true,
+        "noEmit": true,
+        "skipLibCheck": true,
+        "types": ["@figma/code-connect/figma-types"]
+    },
+    "include": [
+        "code-connect/icons/ArrowLeft.figma.ts",
+        "code-connect/icons/InformationCircle.figma.ts",
+        "code-connect/icons/ChevronDown.figma.ts",
+        "code-connect/icons/DotsThreeVertical.figma.ts",
+        "code-connect/icons/Diamonds.figma.ts"
+    ]
+}
