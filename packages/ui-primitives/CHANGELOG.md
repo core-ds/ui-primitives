@@ -1,5 +1,11 @@
 # ui-primitives
 
+## 36.17.0
+
+### Minor Changes
+
+- [#1234](https://github.com/core-ds/ui-primitives/pull/1234) [`c64174a`](https://github.com/core-ds/ui-primitives/commit/c64174a2cb107cb9bc3905a588e4e4188e2f4298) Thanks [@core-ds-bot](https://github.com/core-ds-bot)! -
+
 ## 36.16.0
 
 ### Minor Changes
