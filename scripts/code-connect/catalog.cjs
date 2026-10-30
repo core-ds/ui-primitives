@@ -209,6 +209,12 @@ function buildCatalog(capture, existingManifest, options) {
     const fileKey = capture.figmaFileKey || capture.fileKey;
     assert.equal(fileKey, existingManifest.figmaFileKey, 'Capture must identify the expected Figma library');
     assert(typeof capture.retrievedAt === 'string' && !Number.isNaN(Date.parse(capture.retrievedAt)));
+    if (capture.retryCompletedAt !== undefined) {
+        assert(
+            typeof capture.retryCompletedAt === 'string' && !Number.isNaN(Date.parse(capture.retryCompletedAt)),
+            'Capture retryCompletedAt must be a valid timestamp'
+        );
+    }
     assert(Array.isArray(capture.pages));
     const assets = options.assets || loadAssetIndex(repo);
     const manual = existingManifest.sets.filter((set) => !set.generated).map((set) => structuredClone(set));
@@ -218,6 +224,7 @@ function buildCatalog(capture, existingManifest, options) {
     const seen = new Set();
     const geometryCache = new Map();
     const pageCoverage = [];
+    const readPeriods = new Map();
     let currentRoots = 0;
     const report = (page, root, reason, extra = {}) => {
         issues.push({
@@ -248,6 +255,12 @@ function buildCatalog(capture, existingManifest, options) {
             assert(/^\d+:\d+$/.test(root.id));
             assert(!seen.has(root.id), `Duplicate Figma root ${root.id}`);
             seen.add(root.id);
+            const retrievedAt = root.retrievedAt === undefined ? capture.retrievedAt : root.retrievedAt;
+            assert(
+                typeof retrievedAt === 'string' && !Number.isNaN(Date.parse(retrievedAt)),
+                `Invalid retrievedAt for Figma root ${root.id}`
+            );
+            readPeriods.set(retrievedAt, (readPeriods.get(retrievedAt) || 0) + 1);
             if (!pack) {
                 report(page, root, 'unknown-source-page');
                 continue;
@@ -311,7 +324,7 @@ function buildCatalog(capture, existingManifest, options) {
                 pageId: page.pageId,
                 pageName: page.pageName,
                 publishStatus: root.publish,
-                retrievedAt: capture.retrievedAt,
+                retrievedAt,
                 propertyDefinitions: root.definitions,
             };
             const previous = manualById.get(root.id);
@@ -414,6 +427,10 @@ function buildCatalog(capture, existingManifest, options) {
         sets,
         sources: {
             retrievedAt: capture.retrievedAt,
+            ...(capture.retryCompletedAt === undefined ? {} : { retryCompletedAt: capture.retryCompletedAt }),
+            readPeriods: [...readPeriods]
+                .sort(([left], [right]) => Date.parse(left) - Date.parse(right) || compare(left, right))
+                .map(([retrievedAt, roots]) => ({ retrievedAt, roots })),
             captureSha256: crypto.createHash('sha256').update(JSON.stringify(capture)).digest('hex'),
             partial: unread.length > 0,
             figma: 'Figma Plugin API: exact component identities, definitions and raw description asset tags',

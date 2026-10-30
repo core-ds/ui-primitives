@@ -201,6 +201,38 @@ test('partial source reads reconcile with explicit unread inventory IDs', () => 
     assert.equal(result.coverage.reasonCounts['figma-source-not-read'], 1);
     assert.equal(result.sources.partial, true);
 });
+test('a retry preserves old source dates and records fresh dates per root', () => {
+    const originalDate = '2026-10-30T00:00:00.000Z';
+    const retryDate = '2026-10-31T01:00:00.000Z';
+    const completedDate = '2026-10-31T01:10:00.000Z';
+    const previous = { ...build().sets[0], generated: undefined, id: 'maintained-id' };
+    const input = capture();
+    const newer = structuredClone(root);
+    newer.id = '1:3';
+    newer.variants[0].id = '1:4';
+    newer.retrievedAt = retryDate;
+    const unpublished = { ...structuredClone(newer), id: '1:5', publish: 'UNPUBLISHED' };
+    input.pages[0].rows.push(newer, unpublished);
+    input.pages[0].total = 3;
+    input.retryCompletedAt = completedDate;
+    const result = build(input, { ...baseline, sets: [previous] });
+    assert.equal(result.sets.find((set) => set.figmaNodeId === '1:1').provenance.retrievedAt, originalDate);
+    assert.equal(result.sets.find((set) => set.figmaNodeId === '1:3').provenance.retrievedAt, retryDate);
+    assert.equal(result.sources.retrievedAt, originalDate);
+    assert.equal(result.sources.retryCompletedAt, completedDate);
+    assert.deepEqual(result.sources.readPeriods, [
+        { retrievedAt: originalDate, roots: 1 },
+        { retrievedAt: retryDate, roots: 2 },
+    ]);
+});
+test('invalid explicit root dates are not silently replaced by the original date', () => {
+    for (const retrievedAt of ['', 'not-a-date', null, 123]) {
+        assert.throws(() => build(capture({ ...root, retrievedAt })), /Invalid retrievedAt for Figma root/);
+    }
+});
+test('a retry completion date must be valid when supplied', () => {
+    assert.throws(() => build({ ...capture(), retryCompletedAt: '' }), /retryCompletedAt must be a valid timestamp/);
+});
 test('generated code uses exact tuple data and explicit rejection', () => {
     const set = build().sets[0];
     const source = templateSource(set, fileKey);
