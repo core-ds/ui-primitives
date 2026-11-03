@@ -8,6 +8,7 @@ import colorsTransparent from '../../styles/colors_transparent.json';
 import colorsMonochrome from '../../styles/colors_monochrome.json';
 import colorsBrand from '../../styles/colors_brand.json';
 import colorsPromo from '../../styles/colors_promo.json';
+import colorsSuperapp from '../../styles/colors_superapp.json';
 
 import typographyAndroid from '../../styles/typography_android.json';
 import typographyIos from '../../styles/typography_ios.json';
@@ -33,6 +34,7 @@ export const colors: Record<
     ...colorsMonochrome,
     ...colorsBrand,
     ...colorsPromo,
+    ...colorsSuperapp,
 };
 
 export const typography = {
