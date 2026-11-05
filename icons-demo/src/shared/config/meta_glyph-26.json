@@ -9089,6 +9089,26 @@
         "cdn": "glyph-26_crown-thinline_20",
         "url": "https://alfabank.servicecdn.ru/icons/glyph-26_crown-thinline_20.svg"
     },
+    "Crown20Icon": {
+        "description": "",
+        "web": "Crown20Icon",
+        "webComponent": "import { Crown20Icon } from '@alfalab/icons-glyph-26/Crown20Icon';",
+        "android": "glyph_26_crown_20",
+        "ios": "glyph26_crown_20",
+        "middle": "glyph-26_crown_20",
+        "cdn": "glyph-26_crown_20",
+        "url": "https://alfabank.servicecdn.ru/icons/glyph-26_crown_20.svg"
+    },
+    "Crown24Icon": {
+        "description": "",
+        "web": "Crown24Icon",
+        "webComponent": "import { Crown24Icon } from '@alfalab/icons-glyph-26/Crown24Icon';",
+        "android": "glyph_26_crown_24",
+        "ios": "glyph26_crown_24",
+        "middle": "glyph-26_crown_24",
+        "cdn": "glyph-26_crown_24",
+        "url": "https://alfabank.servicecdn.ru/icons/glyph-26_crown_24.svg"
+    },
     "CupCardboardLine20Icon": {
         "description": "",
         "web": "CupCardboardLine20Icon",
