@@ -1789,6 +1789,36 @@
         "cdn": "logo-corp_company-sign-box-thinline_20",
         "url": "https://alfabank.servicecdn.ru/icons/logo-corp_company-sign-box-thinline_20.svg"
     },
+    "ContractorsAuditAltSignBoxLine20Icon": {
+        "description": "Продукт: Проверка контрагентов",
+        "web": "ContractorsAuditAltSignBoxLine20Icon",
+        "webComponent": "import { ContractorsAuditAltSignBoxLine20Icon } from '@alfalab/icons-logo-corp/ContractorsAuditAltSignBoxLine20Icon';",
+        "android": "logo_corp_contractors_audit_alt_sign_box_line_20",
+        "ios": "logoCorp_contractorsAuditAltSignBoxLine_20",
+        "middle": "logo-corp_contractors-audit-alt-sign-box-line_20",
+        "cdn": "logo-corp_contractors-audit-alt-sign-box-line_20",
+        "url": "https://alfabank.servicecdn.ru/icons/logo-corp_contractors-audit-alt-sign-box-line_20.svg"
+    },
+    "ContractorsAuditAltSignBoxLine24Icon": {
+        "description": "Продукт: Проверка контрагентов",
+        "web": "ContractorsAuditAltSignBoxLine24Icon",
+        "webComponent": "import { ContractorsAuditAltSignBoxLine24Icon } from '@alfalab/icons-logo-corp/ContractorsAuditAltSignBoxLine24Icon';",
+        "android": "logo_corp_contractors_audit_alt_sign_box_line_24",
+        "ios": "logoCorp_contractorsAuditAltSignBoxLine_24",
+        "middle": "logo-corp_contractors-audit-alt-sign-box-line_24",
+        "cdn": "logo-corp_contractors-audit-alt-sign-box-line_24",
+        "url": "https://alfabank.servicecdn.ru/icons/logo-corp_contractors-audit-alt-sign-box-line_24.svg"
+    },
+    "ContractorsAuditAltSignBoxThinline24Icon": {
+        "description": "Продукт: Проверка контрагентов",
+        "web": "ContractorsAuditAltSignBoxThinline24Icon",
+        "webComponent": "import { ContractorsAuditAltSignBoxThinline24Icon } from '@alfalab/icons-logo-corp/ContractorsAuditAltSignBoxThinline24Icon';",
+        "android": "logo_corp_contractors_audit_alt_sign_box_thinline_24",
+        "ios": "logoCorp_contractorsAuditAltSignBoxThinline_24",
+        "middle": "logo-corp_contractors-audit-alt-sign-box-thinline_24",
+        "cdn": "logo-corp_contractors-audit-alt-sign-box-thinline_24",
+        "url": "https://alfabank.servicecdn.ru/icons/logo-corp_contractors-audit-alt-sign-box-thinline_24.svg"
+    },
     "ContractorsAuditSignBoxLine20Icon": {
         "description": "Продукт: Проверка контрагентов",
         "web": "ContractorsAuditSignBoxLine20Icon",
