@@ -1,5 +1,15 @@
 # ui-primitives
 
+## 36.19.0
+
+### Minor Changes
+
+- [#1245](https://github.com/core-ds/ui-primitives/pull/1245) [`f250589`](https://github.com/core-ds/ui-primitives/commit/f250589a549a91e8b3c1a9390d3ffda93cd88383) Thanks [@core-ds-bot](https://github.com/core-ds-bot)! -
+
+- [#1243](https://github.com/core-ds/ui-primitives/pull/1243) [`563615f`](https://github.com/core-ds/ui-primitives/commit/563615f261055877a762309f71ce0abf22a74af7) Thanks [@core-ds-bot](https://github.com/core-ds-bot)! -
+
+- [#1244](https://github.com/core-ds/ui-primitives/pull/1244) [`68e54b5`](https://github.com/core-ds/ui-primitives/commit/68e54b556c22284fba48ea443e2a82817ad0361d) Thanks [@core-ds-bot](https://github.com/core-ds-bot)! -
+
 ## 36.18.0
 
 ### Minor Changes
