@@ -5,7 +5,7 @@
     "license": "MIT",
     "type": "module",
     "scripts": {
-        "build": "tsc && vite build",
+        "build": "tsc6 && vite build",
         "dev": "vite",
         "lint": "eslint --max-warnings 0",
         "preview": "vite preview"

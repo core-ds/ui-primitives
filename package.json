@@ -21,8 +21,6 @@
     "devDependencies": {
         "@changesets/changelog-github": "^1.0.1",
         "@changesets/cli": "^3.0.3",
-        "export-icon-meta": "workspace:*",
-        "export-typography": "workspace:*",
         "lint-staged": "^17.6.0",
         "lint-svg": "workspace:*",
         "prettier": "^3.9.9",
