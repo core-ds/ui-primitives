@@ -3469,6 +3469,36 @@
         "cdn": "logo-corp_inspections-sign-box-thinline_20",
         "url": "https://alfabank.servicecdn.ru/icons/logo-corp_inspections-sign-box-thinline_20.svg"
     },
+    "InsuranceForBusinessSignBoxLine20Icon": {
+        "description": "Продукт: Страховки для бизнеса",
+        "web": "InsuranceForBusinessSignBoxLine20Icon",
+        "webComponent": "import { InsuranceForBusinessSignBoxLine20Icon } from '@alfalab/icons-logo-corp/InsuranceForBusinessSignBoxLine20Icon';",
+        "android": "logo_corp_insurance_for_business_sign_box_line_20",
+        "ios": "logoCorp_insuranceForBusinessSignBoxLine_20",
+        "middle": "logo-corp_insurance-for-business-sign-box-line_20",
+        "cdn": "logo-corp_insurance-for-business-sign-box-line_20",
+        "url": "https://alfabank.servicecdn.ru/icons/logo-corp_insurance-for-business-sign-box-line_20.svg"
+    },
+    "InsuranceForBusinessSignBoxLine24Icon": {
+        "description": "Продукт: Страховки для бизнеса",
+        "web": "InsuranceForBusinessSignBoxLine24Icon",
+        "webComponent": "import { InsuranceForBusinessSignBoxLine24Icon } from '@alfalab/icons-logo-corp/InsuranceForBusinessSignBoxLine24Icon';",
+        "android": "logo_corp_insurance_for_business_sign_box_line_24",
+        "ios": "logoCorp_insuranceForBusinessSignBoxLine_24",
+        "middle": "logo-corp_insurance-for-business-sign-box-line_24",
+        "cdn": "logo-corp_insurance-for-business-sign-box-line_24",
+        "url": "https://alfabank.servicecdn.ru/icons/logo-corp_insurance-for-business-sign-box-line_24.svg"
+    },
+    "InsuranceForBusinessSignBoxThinline20Icon": {
+        "description": "Продукт: Страховки для бизнеса",
+        "web": "InsuranceForBusinessSignBoxThinline20Icon",
+        "webComponent": "import { InsuranceForBusinessSignBoxThinline20Icon } from '@alfalab/icons-logo-corp/InsuranceForBusinessSignBoxThinline20Icon';",
+        "android": "logo_corp_insurance_for_business_sign_box_thinline_20",
+        "ios": "logoCorp_insuranceForBusinessSignBoxThinline_20",
+        "middle": "logo-corp_insurance-for-business-sign-box-thinline_20",
+        "cdn": "logo-corp_insurance-for-business-sign-box-thinline_20",
+        "url": "https://alfabank.servicecdn.ru/icons/logo-corp_insurance-for-business-sign-box-thinline_20.svg"
+    },
     "InterestBalanceSignBoxLine20Icon": {
         "description": "Продукт: Проценты на остаток",
         "web": "InterestBalanceSignBoxLine20Icon",
