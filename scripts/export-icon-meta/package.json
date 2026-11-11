@@ -20,8 +20,8 @@
         "@types/fs-extra": "catalog:",
         "@types/node": "catalog:",
         "@types/yargs": "catalog:",
+        "@typescript/native": "catalog:",
         "rimraf": "catalog:",
-        "scripts-tsconfig": "workspace:*",
-        "typescript": "catalog:"
+        "scripts-tsconfig": "workspace:*"
     }
 }

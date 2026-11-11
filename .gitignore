@@ -1,5 +1,4 @@
 .DS_Store
-.idea
 
 npm-debug.log
 yarn-error.log
@@ -30,3 +29,10 @@ node_modules
 #!.yarn/cache
 .pnp.*
 *.tsbuildinfo
+
+# IDE
+.idea/*
+!.idea/compiler.xml
+.vscode/*
+!.vscode/settings.json
+!.vscode/extensions.json
