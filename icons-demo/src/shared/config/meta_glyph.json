@@ -10469,6 +10469,16 @@
         "cdn": "glyph_smartphone_m",
         "url": "https://alfabank.servicecdn.ru/icons/glyph_smartphone_m.svg"
     },
+    "SmileHappyMIcon": {
+        "description": "emoji, smile, smiley, face, happy, joy, glad, good, success, positive, like, satisfied, pleased, mood, feedback, rating, emotion, смайл, смайлик, улыбка, эмодзи, лицо, радость, счастье, хорошо, успех, позитив, нравится, доволен, настроение, оценка, отзыв, эмоция",
+        "web": "SmileHappyMIcon",
+        "webComponent": "import { SmileHappyMIcon } from '@alfalab/icons-glyph/SmileHappyMIcon';",
+        "android": "glyph_smile_happy_m",
+        "ios": "glyph_smileHappy_m",
+        "middle": "glyph_smile-happy_m",
+        "cdn": "glyph_smile-happy_m",
+        "url": "https://alfabank.servicecdn.ru/icons/glyph_smile-happy_m.svg"
+    },
     "SmileSadMIcon": {
         "description": "грустное лицо, грустный смайл",
         "web": "SmileSadMIcon",
@@ -10478,6 +10488,16 @@
         "middle": "glyph_smile-sad_m",
         "cdn": "glyph_smile-sad_m",
         "url": "https://alfabank.servicecdn.ru/icons/glyph_smile-sad_m.svg"
+    },
+    "SmileUnhappyMIcon": {
+        "description": "emoji, smile, smiley, face, unhappy, sad, upset, frown, bad, negative, dislike, dissatisfied, disappointed, displeased, mood, feedback, rating, emotion, смайл, смайлик, эмодзи, лицо, грусть, грустный, печаль, расстроен, плохо, негатив, не нравится, недоволен, разочарование, настроение, оценка, отзыв, эмоция",
+        "web": "SmileUnhappyMIcon",
+        "webComponent": "import { SmileUnhappyMIcon } from '@alfalab/icons-glyph/SmileUnhappyMIcon';",
+        "android": "glyph_smile_unhappy_m",
+        "ios": "glyph_smileUnhappy_m",
+        "middle": "glyph_smile-unhappy_m",
+        "cdn": "glyph_smile-unhappy_m",
+        "url": "https://alfabank.servicecdn.ru/icons/glyph_smile-unhappy_m.svg"
     },
     "SnowflakeLineMIcon": {
         "description": "freeze, locked, заморозить, заблокировать, блокировка, снежинка, заморозка",
