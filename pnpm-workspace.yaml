@@ -12,6 +12,7 @@ catalog:
     '@alfalab/core-components-config': ^1.1.0
     '@alfalab/core-components-stack-context': ^1.0.1
     '@figma/rest-api-spec': ^0.34.0
+    '@tsconfig/node24': ^24.0.6
     '@types/fs-extra': ^11.0.4
     '@types/node': ^24.19.2
     '@types/react': ^19.3.0
@@ -34,3 +35,6 @@ allowBuilds:
     esbuild: true
     simple-git-hooks: true
     swiper: true
+
+minimumReleaseAgeExclude:
+    - '@tsconfig/node24@24.0.6'

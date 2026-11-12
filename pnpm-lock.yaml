@@ -221,6 +221,9 @@ catalogs:
         '@figma/rest-api-spec':
             specifier: ^0.34.0
             version: 0.34.0
+        '@tsconfig/node24':
+            specifier: ^24.0.6
+            version: 24.0.6
         '@types/fs-extra':
             specifier: ^11.0.4
             version: 11.0.4
@@ -276,6 +279,15 @@ importers:
             '@changesets/cli':
                 specifier: ^3.0.3
                 version: 3.0.3
+            '@tsconfig/node24':
+                specifier: 'catalog:'
+                version: 24.0.6
+            '@types/node':
+                specifier: 'catalog:'
+                version: 24.19.2
+            '@typescript/native':
+                specifier: 'catalog:'
+                version: typescript@7.0.2
             lint-staged:
                 specifier: ^17.6.0
                 version: 17.6.0
@@ -972,7 +984,7 @@ importers:
         dependencies:
             '@rollup/plugin-typescript':
                 specifier: ^12.3.0
-                version: 12.3.0(rollup@4.64.12)(tslib@2.8.1)(typescript@6.0.3)
+                version: 12.3.1(rollup@4.64.12)(tslib@2.8.1)(typescript@6.0.3)
             execa:
                 specifier: 'catalog:'
                 version: 10.2.1
@@ -1178,7 +1190,11 @@ importers:
                 specifier: workspace:*
                 version: link:../tsconfig
 
-    scripts/tsconfig: {}
+    scripts/tsconfig:
+        dependencies:
+            '@tsconfig/node24':
+                specifier: 'catalog:'
+                version: 24.0.6
 
     token-converter:
         dependencies:
@@ -4136,10 +4152,10 @@ packages:
                 integrity: sha512-2j9bGt5Jh8hj+vPtgzPtl72j0yRxHAyumoo6TNfAjsLB04UtpSvPbPcDcBMxz7n+9CYB0c1GxQFxYRg2jimqGw==,
             }
 
-    '@rollup/plugin-typescript@12.3.0':
+    '@rollup/plugin-typescript@12.3.1':
         resolution:
             {
-                integrity: sha512-7DP0/p7y3t67+NabT9f8oTBFE6gGkto4SA6Np2oudYmZE/m1dt8RB0SjL1msMxFpLo631qjRCcBlAbq1ml/Big==,
+                integrity: sha512-+dT5iMCxLNOCdaCGvGQpLhBpWdnKlPNMU/hvVLKgQgHuBlRFABi1Y6YxXg7ajqnsHRA53Tkdm3Vu1P+qn9HQ7Q==,
             }
         engines: { node: '>=14.0.0' }
         peerDependencies:
@@ -4403,6 +4419,12 @@ packages:
         resolution:
             {
                 integrity: sha512-CsTW892z23gy7IyxYTTorVu1uZWB+0N349rSMgKz4rFLPpLza7F7TpcCKeI5iUAwYQCt8QUlOU67J+KXCxtpGw==,
+            }
+
+    '@tsconfig/node24@24.0.6':
+        resolution:
+            {
+                integrity: sha512-/SK4JuydRQLGSCq7+hbiQ8fdAVR4Suv5EcBvkIAG3zo3GbXQvGoSclz4olL12Ar4OpH8gwGYJ67P4wwQqBRxKw==,
             }
 
     '@types/body-parser@1.19.6':
@@ -13542,7 +13564,7 @@ snapshots:
 
     '@rolldown/pluginutils@1.0.1': {}
 
-    '@rollup/plugin-typescript@12.3.0(rollup@4.64.12)(tslib@2.8.1)(typescript@6.0.3)':
+    '@rollup/plugin-typescript@12.3.1(rollup@4.64.12)(tslib@2.8.1)(typescript@6.0.3)':
         dependencies:
             '@rollup/pluginutils': 5.4.0(rollup@4.64.12)
             resolve: 1.22.13
@@ -13645,6 +13667,8 @@ snapshots:
             react-dom: 19.3.1(react@19.3.1)
 
     '@tanstack/virtual-core@3.19.6': {}
+
+    '@tsconfig/node24@24.0.6': {}
 
     '@types/body-parser@1.19.6':
         dependencies:
