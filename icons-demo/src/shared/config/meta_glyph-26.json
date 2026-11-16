@@ -9349,6 +9349,106 @@
         "cdn": "glyph-26_diamonds_24",
         "url": "https://alfabank.servicecdn.ru/icons/glyph-26_diamonds_24.svg"
     },
+    "DigitOneCircleLine20Icon": {
+        "description": "",
+        "web": "DigitOneCircleLine20Icon",
+        "webComponent": "import { DigitOneCircleLine20Icon } from '@alfalab/icons-glyph-26/DigitOneCircleLine20Icon';",
+        "android": "glyph_26_digit_one_circle_line_20",
+        "ios": "glyph26_digitOneCircleLine_20",
+        "middle": "glyph-26_digit-one-circle-line_20",
+        "cdn": "glyph-26_digit-one-circle-line_20",
+        "url": "https://alfabank.servicecdn.ru/icons/glyph-26_digit-one-circle-line_20.svg"
+    },
+    "DigitOneCircleLine24Icon": {
+        "description": "",
+        "web": "DigitOneCircleLine24Icon",
+        "webComponent": "import { DigitOneCircleLine24Icon } from '@alfalab/icons-glyph-26/DigitOneCircleLine24Icon';",
+        "android": "glyph_26_digit_one_circle_line_24",
+        "ios": "glyph26_digitOneCircleLine_24",
+        "middle": "glyph-26_digit-one-circle-line_24",
+        "cdn": "glyph-26_digit-one-circle-line_24",
+        "url": "https://alfabank.servicecdn.ru/icons/glyph-26_digit-one-circle-line_24.svg"
+    },
+    "DigitOneCircleThinline20Icon": {
+        "description": "",
+        "web": "DigitOneCircleThinline20Icon",
+        "webComponent": "import { DigitOneCircleThinline20Icon } from '@alfalab/icons-glyph-26/DigitOneCircleThinline20Icon';",
+        "android": "glyph_26_digit_one_circle_thinline_20",
+        "ios": "glyph26_digitOneCircleThinline_20",
+        "middle": "glyph-26_digit-one-circle-thinline_20",
+        "cdn": "glyph-26_digit-one-circle-thinline_20",
+        "url": "https://alfabank.servicecdn.ru/icons/glyph-26_digit-one-circle-thinline_20.svg"
+    },
+    "DigitOneCircle20Icon": {
+        "description": "",
+        "web": "DigitOneCircle20Icon",
+        "webComponent": "import { DigitOneCircle20Icon } from '@alfalab/icons-glyph-26/DigitOneCircle20Icon';",
+        "android": "glyph_26_digit_one_circle_20",
+        "ios": "glyph26_digitOneCircle_20",
+        "middle": "glyph-26_digit-one-circle_20",
+        "cdn": "glyph-26_digit-one-circle_20",
+        "url": "https://alfabank.servicecdn.ru/icons/glyph-26_digit-one-circle_20.svg"
+    },
+    "DigitOneCircle24Icon": {
+        "description": "",
+        "web": "DigitOneCircle24Icon",
+        "webComponent": "import { DigitOneCircle24Icon } from '@alfalab/icons-glyph-26/DigitOneCircle24Icon';",
+        "android": "glyph_26_digit_one_circle_24",
+        "ios": "glyph26_digitOneCircle_24",
+        "middle": "glyph-26_digit-one-circle_24",
+        "cdn": "glyph-26_digit-one-circle_24",
+        "url": "https://alfabank.servicecdn.ru/icons/glyph-26_digit-one-circle_24.svg"
+    },
+    "DigitOneOffCircleLine20Icon": {
+        "description": "",
+        "web": "DigitOneOffCircleLine20Icon",
+        "webComponent": "import { DigitOneOffCircleLine20Icon } from '@alfalab/icons-glyph-26/DigitOneOffCircleLine20Icon';",
+        "android": "glyph_26_digit_one_off_circle_line_20",
+        "ios": "glyph26_digitOneOffCircleLine_20",
+        "middle": "glyph-26_digit-one-off-circle-line_20",
+        "cdn": "glyph-26_digit-one-off-circle-line_20",
+        "url": "https://alfabank.servicecdn.ru/icons/glyph-26_digit-one-off-circle-line_20.svg"
+    },
+    "DigitOneOffCircleLine24Icon": {
+        "description": "",
+        "web": "DigitOneOffCircleLine24Icon",
+        "webComponent": "import { DigitOneOffCircleLine24Icon } from '@alfalab/icons-glyph-26/DigitOneOffCircleLine24Icon';",
+        "android": "glyph_26_digit_one_off_circle_line_24",
+        "ios": "glyph26_digitOneOffCircleLine_24",
+        "middle": "glyph-26_digit-one-off-circle-line_24",
+        "cdn": "glyph-26_digit-one-off-circle-line_24",
+        "url": "https://alfabank.servicecdn.ru/icons/glyph-26_digit-one-off-circle-line_24.svg"
+    },
+    "DigitOneOffCircleThinline20Icon": {
+        "description": "",
+        "web": "DigitOneOffCircleThinline20Icon",
+        "webComponent": "import { DigitOneOffCircleThinline20Icon } from '@alfalab/icons-glyph-26/DigitOneOffCircleThinline20Icon';",
+        "android": "glyph_26_digit_one_off_circle_thinline_20",
+        "ios": "glyph26_digitOneOffCircleThinline_20",
+        "middle": "glyph-26_digit-one-off-circle-thinline_20",
+        "cdn": "glyph-26_digit-one-off-circle-thinline_20",
+        "url": "https://alfabank.servicecdn.ru/icons/glyph-26_digit-one-off-circle-thinline_20.svg"
+    },
+    "DigitOneOffCircle20Icon": {
+        "description": "",
+        "web": "DigitOneOffCircle20Icon",
+        "webComponent": "import { DigitOneOffCircle20Icon } from '@alfalab/icons-glyph-26/DigitOneOffCircle20Icon';",
+        "android": "glyph_26_digit_one_off_circle_20",
+        "ios": "glyph26_digitOneOffCircle_20",
+        "middle": "glyph-26_digit-one-off-circle_20",
+        "cdn": "glyph-26_digit-one-off-circle_20",
+        "url": "https://alfabank.servicecdn.ru/icons/glyph-26_digit-one-off-circle_20.svg"
+    },
+    "DigitOneOffCircle24Icon": {
+        "description": "",
+        "web": "DigitOneOffCircle24Icon",
+        "webComponent": "import { DigitOneOffCircle24Icon } from '@alfalab/icons-glyph-26/DigitOneOffCircle24Icon';",
+        "android": "glyph_26_digit_one_off_circle_24",
+        "ios": "glyph26_digitOneOffCircle_24",
+        "middle": "glyph-26_digit-one-off-circle_24",
+        "cdn": "glyph-26_digit-one-off-circle_24",
+        "url": "https://alfabank.servicecdn.ru/icons/glyph-26_digit-one-off-circle_24.svg"
+    },
     "DisplayLine20Icon": {
         "description": "",
         "web": "DisplayLine20Icon",
