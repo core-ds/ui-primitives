@@ -1,5 +1,11 @@
 # @alfalab/icons-shape
 
+## 1.7.0
+
+### Minor Changes
+
+- [#1255](https://github.com/core-ds/ui-primitives/pull/1255) [`5369d3c`](https://github.com/core-ds/ui-primitives/commit/5369d3c3296ddc3da92f35f954b29edeb56725aa) Thanks [@Oladii](https://github.com/Oladii)! -
+
 ## 1.6.0
 
 ### Minor Changes
