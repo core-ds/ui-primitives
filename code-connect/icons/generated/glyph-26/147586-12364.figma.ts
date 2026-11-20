@@ -1,0 +1,34 @@
+// url=https://www.figma.com/design/ZcdUPebEhHfSZ91zgmv2cK/Icons?node-id=147586-12364
+// source=https://github.com/core-ds/ui-primitives/tree/master/packages/glyph-26/src
+// component=MapFolded24Icon / MapFoldedLine20Icon / MapFoldedLine24Icon / MapFoldedThinline20Icon
+// Generated from code-connect/icons/manifest.json. Run pnpm figma:connect:generate.
+import figma from 'figma';
+
+const instance = figma.selectedInstance;
+const state: Array<string | undefined> = [
+    instance.getEnum('Color', { False: 'False' }),
+    instance.getEnum('Size', { '20': '20', '24': '24' }),
+    instance.getEnum('Style', { Default: 'Default', Line: 'Line', Thinline: 'Thinline' }),
+];
+if (state.some((value) => value === undefined)) {
+    throw new Error('map-folded: неизвестные или отсутствующие свойства Figma');
+}
+const variants: Record<string, { component: string; size: number }> = {
+    '["False","20","Line"]': { component: 'MapFoldedLine20Icon', size: 20 },
+    '["False","20","Thinline"]': { component: 'MapFoldedThinline20Icon', size: 20 },
+    '["False","24","Default"]': { component: 'MapFolded24Icon', size: 24 },
+    '["False","24","Line"]': { component: 'MapFoldedLine24Icon', size: 24 },
+};
+const selected = variants[JSON.stringify(state)];
+if (!selected) {
+    throw new Error('map-folded: точное соответствие выбранного варианта не подтверждено');
+}
+const component = selected.component;
+const imports = [`import { ${component} } from '@alfalab/icons-glyph-26/${component}';`];
+
+export default {
+    id: 'ui-primitives-icon-glyph-26-147586-12364',
+    imports,
+    example: figma.code`<${component} />`,
+    metadata: { nestable: true, props: { svgSize: selected.size, imports } },
+};
