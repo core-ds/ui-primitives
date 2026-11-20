@@ -19,9 +19,9 @@
     "devDependencies": {
         "@types/fs-extra": "catalog:",
         "@types/node": "catalog:",
+        "@typescript/native": "catalog:",
         "rimraf": "catalog:",
-        "scripts-tsconfig": "workspace:*",
-        "typescript": "catalog:"
+        "scripts-tsconfig": "workspace:*"
     },
     "peerDependencies": {
         "typescript": "^6.0.0"
