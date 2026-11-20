@@ -2029,6 +2029,46 @@
         "cdn": "glyph_bubble-remark_m",
         "url": "https://alfabank.servicecdn.ru/icons/glyph_bubble-remark_m.svg"
     },
+    "BubbleTailDownLeftExtMIcon": {
+        "description": "",
+        "web": "BubbleTailDownLeftExtMIcon",
+        "webComponent": "import { BubbleTailDownLeftExtMIcon } from '@alfalab/icons-glyph/BubbleTailDownLeftExtMIcon';",
+        "android": "glyph_bubble_tail_down_left_ext_m",
+        "ios": "glyph_bubbleTailDownLeftExt_m",
+        "middle": "glyph_bubble-tail-down-left-ext_m",
+        "cdn": "glyph_bubble-tail-down-left-ext_m",
+        "url": "https://alfabank.servicecdn.ru/icons/glyph_bubble-tail-down-left-ext_m.svg"
+    },
+    "BubbleTailDownRightExtMIcon": {
+        "description": "",
+        "web": "BubbleTailDownRightExtMIcon",
+        "webComponent": "import { BubbleTailDownRightExtMIcon } from '@alfalab/icons-glyph/BubbleTailDownRightExtMIcon';",
+        "android": "glyph_bubble_tail_down_right_ext_m",
+        "ios": "glyph_bubbleTailDownRightExt_m",
+        "middle": "glyph_bubble-tail-down-right-ext_m",
+        "cdn": "glyph_bubble-tail-down-right-ext_m",
+        "url": "https://alfabank.servicecdn.ru/icons/glyph_bubble-tail-down-right-ext_m.svg"
+    },
+    "BubbleTailUpLeftExtMIcon": {
+        "description": "",
+        "web": "BubbleTailUpLeftExtMIcon",
+        "webComponent": "import { BubbleTailUpLeftExtMIcon } from '@alfalab/icons-glyph/BubbleTailUpLeftExtMIcon';",
+        "android": "glyph_bubble_tail_up_left_ext_m",
+        "ios": "glyph_bubbleTailUpLeftExt_m",
+        "middle": "glyph_bubble-tail-up-left-ext_m",
+        "cdn": "glyph_bubble-tail-up-left-ext_m",
+        "url": "https://alfabank.servicecdn.ru/icons/glyph_bubble-tail-up-left-ext_m.svg"
+    },
+    "BubbleTailUpRightExtMIcon": {
+        "description": "",
+        "web": "BubbleTailUpRightExtMIcon",
+        "webComponent": "import { BubbleTailUpRightExtMIcon } from '@alfalab/icons-glyph/BubbleTailUpRightExtMIcon';",
+        "android": "glyph_bubble_tail_up_right_ext_m",
+        "ios": "glyph_bubbleTailUpRightExt_m",
+        "middle": "glyph_bubble-tail-up-right-ext_m",
+        "cdn": "glyph_bubble-tail-up-right-ext_m",
+        "url": "https://alfabank.servicecdn.ru/icons/glyph_bubble-tail-up-right-ext_m.svg"
+    },
     "BubbleMIcon": {
         "description": "бабл, баббл, чат, комменты",
         "web": "BubbleMIcon",
