@@ -9,9 +9,9 @@ export const iconTemplate = `
  * This is auto-generated file by scripts/svg-to-component package
  * Do not edit it manually
  */
-import React, { SVGProps, forwardRef } from 'react';
+import React, { type ComponentProps, type ComponentRef, forwardRef } from 'react';
 
-export const {{ComponentName}} = forwardRef<SVGSVGElement, SVGProps<SVGSVGElement>>((props, ref) => (
+export const {{ComponentName}} = forwardRef<ComponentRef<'svg'>, ComponentProps<'svg'>>((props, ref) => (
     {{body}}
 ));
 

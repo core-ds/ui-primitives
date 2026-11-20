@@ -30,7 +30,7 @@
         "@alfalab/icons-site": "workspace:*",
         "@tanstack/react-virtual": "^3.14.13",
         "classnames": "^2.5.1",
-        "copy-to-clipboard": "^3.3.3",
+        "copy-to-clipboard": "catalog:",
         "react": "catalog:",
         "react-dom": "catalog:"
     },
