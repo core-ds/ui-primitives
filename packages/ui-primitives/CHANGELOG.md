@@ -1,5 +1,11 @@
 # ui-primitives
 
+## 36.23.0
+
+### Minor Changes
+
+- [#1257](https://github.com/core-ds/ui-primitives/pull/1257) [`6d4197a`](https://github.com/core-ds/ui-primitives/commit/6d4197acaf659ffc8461caeb16decdc0fd1f576c) Thanks [@Oladii](https://github.com/Oladii)! -
+
 ## 36.22.1
 
 ### Patch Changes
