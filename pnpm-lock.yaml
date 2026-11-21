@@ -1093,12 +1093,24 @@ importers:
 
     scripts/lint-svg:
         dependencies:
+            '@actions/core':
+                specifier: 'catalog:'
+                version: 3.0.1
             cosmiconfig:
                 specifier: ^10.0.1
                 version: 10.0.1
+            domhandler:
+                specifier: ^6.0.1
+                version: 6.0.1
             globby:
                 specifier: 'catalog:'
                 version: 16.2.4
+            htmlparser2:
+                specifier: ^12.0.0
+                version: 12.0.0
+            micromatch:
+                specifier: ^4.0.8
+                version: 4.0.8
             slash:
                 specifier: ^5.1.0
                 version: 5.1.0
@@ -1106,6 +1118,9 @@ importers:
                 specifier: 'catalog:'
                 version: 18.2.0
         devDependencies:
+            '@types/micromatch':
+                specifier: ^4.0.10
+                version: 4.0.10
             '@types/yargs':
                 specifier: 'catalog:'
                 version: 17.0.35
@@ -4439,6 +4454,12 @@ packages:
                 integrity: sha512-z9fJ5Im06zvUL548KvYNecEVlA7cVDkGUi6kZusb04mpyEFKCIZJvloCcmpmLaIahDpOQGHaHmG6imtPMmPXGQ==,
             }
 
+    '@types/braces@3.0.5':
+        resolution:
+            {
+                integrity: sha512-SQFof9H+LXeWNz8wDe7oN5zu7ket0qwMu5vZubW4GCJ8Kkeh6nBWUz87+KTz/G3Kqsrp0j/W253XJb3KMEeg3w==,
+            }
+
     '@types/connect-history-api-fallback@1.5.4':
         resolution:
             {
@@ -4581,6 +4602,12 @@ packages:
         resolution:
             {
                 integrity: sha512-kGaNbPh1k7AFzgpud/gMdvIm5xuECykRR+JnWKQno9TAXVa6WIVCGTPvYGekIDL4uwCZQSYbUxNBSb1aUo79oA==,
+            }
+
+    '@types/micromatch@4.0.10':
+        resolution:
+            {
+                integrity: sha512-5jOhFDElqr4DKTrTEbnW8DZ4Hz5LRUEmyrGpCMrD/NphYv3nUnaF08xmSLx1rGGnyEs/kFnhiw6dCgcDqMr5PQ==,
             }
 
     '@types/ms@2.1.0':
@@ -6156,6 +6183,13 @@ packages:
                 integrity: sha512-VHwB3KfrcOOkelEG2ZOfxqLZdfkil8PtJi4P8N2MMXucZq2yLp75ClViUlOVwyoHEDjYU433Aq+5zWP61+RGag==,
             }
 
+    dom-serializer@3.1.1:
+        resolution:
+            {
+                integrity: sha512-4MEa38/QexBob6gFNwu+EGdWvhJ1OKuNwdYY3Y3NyeWDQfnGeDYQUDfIRzWu5B5gsv03so2Uxd28YC6zrsx3Lw==,
+            }
+        engines: { node: '>=20.19.0' }
+
     domelementtype@1.3.1:
         resolution:
             {
@@ -6168,12 +6202,26 @@ packages:
                 integrity: sha512-OLETBj6w0OsagBwdXnPdN0cnMfF9opN69co+7ZrbfPGrdpPVNBUj02spi6B1N7wChLQiPn4CSH/zJvXw56gmHw==,
             }
 
+    domelementtype@3.0.0:
+        resolution:
+            {
+                integrity: sha512-umCQid3jKbDmVjx8jGaW7uUykm4DEUeyV21hPxNMo2nV955DhUThwqyOIDtreepP31hl84X7G5U9ZfsWvIB3Pg==,
+            }
+        engines: { node: '>=20.19.0' }
+
     domhandler@4.3.1:
         resolution:
             {
                 integrity: sha512-GrwoxYN+uWlzO8uhUXRl0P+kHE4GtVPfYzVLcUxPL7KNdHKj66vvlhiweIHqYYXWlw+T8iLMp42Lm67ghw4WMQ==,
             }
         engines: { node: '>= 4' }
+
+    domhandler@6.0.1:
+        resolution:
+            {
+                integrity: sha512-gYzvtM72ZtxQO0T048kd6HWSbbGCNOUwcnfQ01cqIJ4X2IYKFFHZ5mKvrQETcFXxsRObZulDaKmy//R7TPtsBg==,
+            }
+        engines: { node: '>=20.19.0' }
 
     domutils@1.7.0:
         resolution:
@@ -6186,6 +6234,13 @@ packages:
             {
                 integrity: sha512-w96Cjofp72M5IIhpjgobBimYEfoPjx1Vx0BSX9P30WBdZW2WIKU0T1Bd0kz2eNZ9ikjKgHbEyKx8BB6H1L3h3A==,
             }
+
+    domutils@4.0.2:
+        resolution:
+            {
+                integrity: sha512-qI4JLRKnSzqFqr7hAlS5xQDusBCjKSEG4t4+7aNrIQMHBcsC2TGEhuyABJdYkgSewL57PNLYEiibY2iPKhKpaA==,
+            }
+        engines: { node: '>=20.19.0' }
 
     dot-case@3.0.4:
         resolution:
@@ -6252,6 +6307,13 @@ packages:
             {
                 integrity: sha512-p92if5Nz619I0w+akJrLZH0MX0Pb5DX39XOwQTtXSdQQOaYH03S1uIQp4mhOZtAXrxq4ViO67YTiLBo2638o9A==,
             }
+
+    entities@8.1.0:
+        resolution:
+            {
+                integrity: sha512-kxL7msIffSuh9aaFAMD7rxAIuTRMAHMeBtgHW2yUdWw732ZNh4MehkF2gdjvtdmikkaIP9bFDDJOPlsvm7avrA==,
+            }
+        engines: { node: '>=20.19.0' }
 
     env-paths@2.2.1:
         resolution:
@@ -6989,6 +7051,13 @@ packages:
                 optional: true
             webpack:
                 optional: true
+
+    htmlparser2@12.0.0:
+        resolution:
+            {
+                integrity: sha512-Tz7u1i95/g2x2jz81+x0FBVhBhY5aRTvD3tXXdFaljuNdzDLJ8UGNRrTcj2cgQvAg3iW/h77Fz15nLW0L0CrZw==,
+            }
+        engines: { node: '>=20.19.0' }
 
     htmlparser2@6.1.0:
         resolution:
@@ -13679,6 +13748,8 @@ snapshots:
         dependencies:
             '@types/node': 24.19.2
 
+    '@types/braces@3.0.5': {}
+
     '@types/connect-history-api-fallback@1.5.4':
         dependencies:
             '@types/express-serve-static-core': 5.1.3
@@ -13759,6 +13830,10 @@ snapshots:
     '@types/mdast@4.0.4':
         dependencies:
             '@types/unist': 3.0.3
+
+    '@types/micromatch@4.0.10':
+        dependencies:
+            '@types/braces': 3.0.5
 
     '@types/ms@2.1.0': {}
 
@@ -14644,13 +14719,25 @@ snapshots:
             domhandler: 4.3.1
             entities: 2.2.0
 
+    dom-serializer@3.1.1:
+        dependencies:
+            domelementtype: 3.0.0
+            domhandler: 6.0.1
+            entities: 8.1.0
+
     domelementtype@1.3.1: {}
 
     domelementtype@2.3.0: {}
 
+    domelementtype@3.0.0: {}
+
     domhandler@4.3.1:
         dependencies:
             domelementtype: 2.3.0
+
+    domhandler@6.0.1:
+        dependencies:
+            domelementtype: 3.0.0
 
     domutils@1.7.0:
         dependencies:
@@ -14662,6 +14749,12 @@ snapshots:
             dom-serializer: 1.4.1
             domelementtype: 2.3.0
             domhandler: 4.3.1
+
+    domutils@4.0.2:
+        dependencies:
+            dom-serializer: 3.1.1
+            domelementtype: 3.0.0
+            domhandler: 6.0.1
 
     dot-case@3.0.4:
         dependencies:
@@ -14699,6 +14792,8 @@ snapshots:
             tapable: 2.3.3
 
     entities@2.2.0: {}
+
+    entities@8.1.0: {}
 
     env-paths@2.2.1: {}
 
@@ -15262,6 +15357,13 @@ snapshots:
             tapable: 2.3.3
         optionalDependencies:
             webpack: 5.112.0(clean-css@5.3.3)(csso@4.2.0)(esbuild@0.18.20)(html-minifier-terser@6.1.0)(lightningcss@1.33.0)(postcss@8.5.31)(svgo@1.3.2)(webpack-cli@7.2.3)
+
+    htmlparser2@12.0.0:
+        dependencies:
+            domelementtype: 3.0.0
+            domhandler: 6.0.1
+            domutils: 4.0.2
+            entities: 8.1.0
 
     htmlparser2@6.1.0:
         dependencies:

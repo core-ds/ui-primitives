@@ -7,6 +7,7 @@
         "url": "git+https://github.com/core-ds/ui-primitives.git"
     },
     "license": "MIT",
+    "type": "module",
     "scripts": {
         "bootstrap": "pnpm -r run bootstrap && pnpm rebuild",
         "build": "pnpm -r --sequential run build",
@@ -14,7 +15,7 @@
         "codegen": "pnpm -r run codegen && pnpm format",
         "format": "pnpm format-check --log-level silent --write",
         "format-check": "prettier --check \"./**/*.{ts,tsx,js,jsx,mjs,mts,cjs,cts,css,json,yml,yaml,md}\"",
-        "lint-icons": "lint-svg \"./icons/**/*.svg\" --exit-code 0",
+        "lint-icons": "lint-svg",
         "lint-js": "pnpm -r run lint",
         "version-packages": "changeset version && pnpm format"
     },
