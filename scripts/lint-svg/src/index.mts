@@ -1,24 +1,30 @@
-export type Severity = 'off' | 'warn' | 'error';
+import type * as domhandler from 'domhandler';
+import path from 'node:path';
 
-/**
- * Like in ESLint, a bare severity keeps the options set by a previous config object.
- */
-export type RuleEntry<Options = never> = [Options] extends [never] ? Severity : Severity | [Severity, Options?];
-
-export type ForbiddenElement = 'clipPath' | 'mask' | 'linearGradient' | 'radialGradient';
-
-export interface Rules {
-    /**
-     * Requires the file name to match `pattern`.
-     */
-    filename?: RuleEntry<{ pattern: RegExp }>;
-    /**
-     * Forbids elements that depend on document-unique ids, unless listed in `allow`.
-     */
-    'forbidden-element'?: RuleEntry<{ allow?: ForbiddenElement[] }>;
+export interface PluginContext {
+    filename: string;
+    content: string;
+    error(message: string, node: domhandler.AnyNode): void;
+    warning(message: string, node: domhandler.AnyNode): void;
 }
 
-type X<T extends keyof Rules = keyof Rules> = [T, NonNullable<Rules[T]> extends RuleEntry<infer V> ? V : never];
+export interface Plugin {
+    plugin: string;
+    Root?: (node: domhandler.Document, context: PluginContext) => void | Promise<void>;
+    RootExit?: (node: domhandler.Document, context: PluginContext) => void | Promise<void>;
+    Text?: (node: domhandler.Text, context: PluginContext) => void | Promise<void>;
+    TextExit?: (node: domhandler.Text, context: PluginContext) => void | Promise<void>;
+    Directive?: (node: domhandler.ProcessingInstruction, context: PluginContext) => void | Promise<void>;
+    DirectiveExit?: (node: domhandler.ProcessingInstruction, context: PluginContext) => void | Promise<void>;
+    Comment?: (node: domhandler.Comment, context: PluginContext) => void | Promise<void>;
+    CommentExit?: (node: domhandler.Comment, context: PluginContext) => void | Promise<void>;
+    Tag?: (node: domhandler.Element, context: PluginContext) => void | Promise<void>;
+    TagExit?: (node: domhandler.Element, context: PluginContext) => void | Promise<void>;
+    CDATA?: (node: domhandler.CDATA, context: PluginContext) => void | Promise<void>;
+    CDATAExit?: (node: domhandler.CDATA, context: PluginContext) => void | Promise<void>;
+}
+
+export type PluginCreator<T = undefined> = (options: T) => Plugin;
 
 export interface Config {
     /**
@@ -30,7 +36,7 @@ export interface Config {
      * global, i.e. matching files are not linted at all.
      */
     ignore?: string | string[];
-    rules?: Rules;
+    plugins?: Plugin[];
 }
 
 export function defineConfig(config: Config): Config;
@@ -38,3 +44,27 @@ export function defineConfig(config: Config[]): Config[];
 export function defineConfig(config: Config | Config[]) {
     return config;
 }
+
+export const filenamePlugin: PluginCreator<{ pattern: RegExp }> = ({ pattern }) => {
+    return {
+        plugin: 'filename',
+        Root: (node, context) => {
+            const filename = path.basename(context.filename);
+
+            if (!pattern.test(filename)) {
+                context.error(`Filename "${filename}" does not match ${pattern}`, node);
+            }
+        },
+    };
+};
+
+export const forbiddenElementPlugin: PluginCreator<{ forbidden: string[] }> = ({ forbidden }) => {
+    return {
+        plugin: 'forbidden-element',
+        Tag: (node, context) => {
+            if (forbidden.includes(node.name)) {
+                context.warning(`Unexpected <${node.name}> element`, node);
+            }
+        },
+    };
+};

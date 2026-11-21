@@ -45,7 +45,7 @@ await yargs(hideBin(process.argv))
             let errors = 0;
             // Like in ESLint, an object with `ignore` only ignores files for every other object
             const globalIgnore = configs
-                .filter(({ files, rules }) => files === undefined && rules === undefined)
+                .filter(({ files, plugins }) => files === undefined && plugins === undefined)
                 .flatMap(({ ignore = [] }) => ignore);
             let input: string[] | undefined;
 
@@ -64,7 +64,7 @@ await yargs(hideBin(process.argv))
                     let warnings = 0;
 
                     for await (const config of source) {
-                        if (config.files === undefined || config.rules === undefined) {
+                        if (config.files === undefined || config.plugins === undefined) {
                             continue;
                         }
 
@@ -81,7 +81,7 @@ await yargs(hideBin(process.argv))
 
                         for await (const file of inputSource) {
                             const content = await fs.readFile(file, { encoding: 'utf8' });
-                            const problems = verify(file, content, config.rules).filter(
+                            const problems = (await verify(file, content, config.plugins)).filter(
                                 ({ severity }) => !argv.quiet || severity === 'error'
                             );
 
@@ -91,7 +91,7 @@ await yargs(hideBin(process.argv))
 
                             const lines = [slash(path.relative(cwd, file))];
 
-                            for (const { index, severity, message, rule } of problems) {
+                            for (const { index, severity, message, plugin } of problems) {
                                 const before = content.slice(0, index).split(/\r?\n/);
                                 const position = `${before.length}:${before[before.length - 1].length + 1}`;
 
@@ -101,7 +101,7 @@ await yargs(hideBin(process.argv))
                                     warnings += 1;
                                 }
 
-                                lines.push(`  ${position.padEnd(8)}${severity.padEnd(7)}  ${message}  ${rule}`);
+                                lines.push(`  ${position.padEnd(8)}${severity.padEnd(7)}  ${message}  ${plugin}`);
                             }
 
                             yield `${lines.join(EOL)}${EOL}${EOL}`;
@@ -122,4 +122,5 @@ await yargs(hideBin(process.argv))
             process.exitCode = errors > 0 ? 1 : 0;
         }
     )
+    .strict()
     .parse();
