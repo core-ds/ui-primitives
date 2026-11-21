@@ -3,11 +3,9 @@
     "extends": "@tsconfig/node24",
     "include": ["${configDir}/src"],
     "compilerOptions": {
-        "strict": true,
         "outDir": "${configDir}/dist",
         "rootDir": "${configDir}/src",
         "declaration": true,
-        "incremental": true,
-        "skipLibCheck": true
+        "incremental": true
     }
 }
