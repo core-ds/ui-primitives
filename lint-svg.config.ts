@@ -22,7 +22,7 @@ export default defineConfig([
         files: 'icons/corp/*.svg',
         plugins: [filenamePlugin({ pattern: createPattern('corp') })],
         ignore: [
-            'icons/corp/corp_corp_arrows-right-left-curved-bold_m.svg', // TODO remove in next major
+            'icons/corp/corp_corp_arrows-right-left-curved-bold_m.svg', // TODO remove in the next major
         ],
     },
     {
@@ -41,9 +41,9 @@ export default defineConfig([
         files: 'icons/logo-corp/*.svg',
         plugins: [filenamePlugin({ pattern: createPattern('logo-corp') })],
         ignore: [
-            'icons/logo-corp/logo-corp_Issue-invoice-sign-box-line_20.svg', // TODO rename in next major
-            'icons/logo-corp/logo-corp_Issue-invoice-sign-box-line_24.svg', // TODO rename in next major
-            'icons/logo-corp/logo-corp_Issue-invoice-sign-box-thinline_20.svg', // TODO rename in next major
+            'icons/logo-corp/logo-corp_Issue-invoice-sign-box-line_20.svg', // TODO rename in the next major
+            'icons/logo-corp/logo-corp_Issue-invoice-sign-box-line_24.svg', // TODO rename in the next major
+            'icons/logo-corp/logo-corp_Issue-invoice-sign-box-thinline_20.svg', // TODO rename in the next major
         ],
     },
     {
