@@ -26,18 +26,16 @@ export interface Plugin {
 
 export type PluginCreator<T = undefined> = (options: T) => Plugin;
 
-export interface Config {
-    /**
-     * Glob pattern(s) relative to the working directory. If omitted, the object applies to every file.
-     */
-    files?: string | string[];
-    /**
-     * Glob pattern(s) relative to the working directory. In an object without other keys the patterns are
-     * global, i.e. matching files are not linted at all.
-     */
-    ignore?: string | string[];
-    plugins?: Plugin[];
+export interface FilesConfig extends Partial<IgnoreConfig> {
+    files: string | string[];
+    plugins: Plugin[];
 }
+
+export interface IgnoreConfig {
+    ignore: string | string[];
+}
+
+export type Config = FilesConfig | IgnoreConfig;
 
 export function defineConfig(config: Config): Config;
 export function defineConfig(config: Config[]): Config[];

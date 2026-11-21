@@ -1,6 +1,6 @@
 import { parseDocument } from 'htmlparser2';
 import * as domhandler from 'domhandler';
-import { Plugin, PluginContext, PluginCreator } from './index.mjs';
+import { Plugin, PluginContext } from './index.mjs';
 
 export interface Problem {
     index: number;

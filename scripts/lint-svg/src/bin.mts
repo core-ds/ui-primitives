@@ -14,7 +14,7 @@ import { Config } from './index.mjs';
 import { verify } from './rules.mjs';
 import { toPlatformPath } from '@actions/core';
 import micromatch from 'micromatch';
-import { ensureArray } from './utils.mjs';
+import { ensureArray, isIgnoreConfig } from './utils.mjs';
 
 await yargs(hideBin(process.argv))
     .command(
@@ -61,10 +61,7 @@ await yargs(hideBin(process.argv))
             let errors = 0;
             let warnings = 0;
             const tooManyWarnings = () => argv.maxWarnings >= 0 && warnings > argv.maxWarnings;
-            // Like in ESLint, an object with `ignore` only ignores files for every other object
-            const globalIgnore = configs
-                .filter(({ files, plugins }) => files === undefined && plugins === undefined)
-                .flatMap(({ ignore = [] }) => ignore);
+            const globalIgnore = configs.filter(isIgnoreConfig).flatMap(({ ignore }) => ignore);
             let input: string[] | undefined;
 
             if (argv.input) {
@@ -78,12 +75,18 @@ await yargs(hideBin(process.argv))
                 Readable.from(configs) as {
                     [Symbol.asyncIterator](): NodeJS.AsyncIterator<Config>;
                 },
-                async function* lint(source) {
+
+                async function* filter(source) {
                     for await (const config of source) {
-                        if (config.files === undefined || config.plugins === undefined) {
+                        if (isIgnoreConfig(config)) {
                             continue;
                         }
 
+                        yield config;
+                    }
+                },
+                async function* lint(source) {
+                    for await (const config of source) {
                         const inputSource = input
                             ? (Readable.from(
                                   micromatch(input, config.files, { ignore: config.ignore }).map((p) =>
