@@ -32,6 +32,22 @@ await yargs(hideBin(process.argv))
                     type: 'boolean',
                     default: false,
                     description: 'Report errors only',
+                })
+                .option('max-warnings', {
+                    type: 'number',
+                    default: -1,
+                    description: 'Number of warnings to trigger nonzero exit code',
+                })
+                .check(({ 'max-warnings': maxWarnings }) => {
+                    if (!Number.isInteger(maxWarnings)) {
+                        throw new Error('--max-warnings must be an integer.');
+                    }
+
+                    if (maxWarnings < -1) {
+                        throw new Error('--max-warnings must more or equal to "-1"');
+                    }
+
+                    return true;
                 }),
         async (argv) => {
             const cwd = process.cwd();
@@ -43,6 +59,8 @@ await yargs(hideBin(process.argv))
 
             const configs = ensureArray((result.config as Config | Config[] | undefined) ?? []);
             let errors = 0;
+            let warnings = 0;
+            const tooManyWarnings = () => argv.maxWarnings >= 0 && warnings > argv.maxWarnings;
             // Like in ESLint, an object with `ignore` only ignores files for every other object
             const globalIgnore = configs
                 .filter(({ files, plugins }) => files === undefined && plugins === undefined)
@@ -61,8 +79,6 @@ await yargs(hideBin(process.argv))
                     [Symbol.asyncIterator](): NodeJS.AsyncIterator<Config>;
                 },
                 async function* lint(source) {
-                    let warnings = 0;
-
                     for await (const config of source) {
                         if (config.files === undefined || config.plugins === undefined) {
                             continue;
@@ -81,25 +97,23 @@ await yargs(hideBin(process.argv))
 
                         for await (const file of inputSource) {
                             const content = await fs.readFile(file, { encoding: 'utf8' });
-                            const problems = (await verify(file, content, config.plugins)).filter(
-                                ({ severity }) => !argv.quiet || severity === 'error'
-                            );
+                            const problems = await verify(file, content, config.plugins);
 
-                            if (problems.length === 0) {
+                            errors += problems.filter(({ severity }) => severity === 'error').length;
+                            warnings += problems.filter(({ severity }) => severity === 'warning').length;
+
+                            // Like in ESLint, quiet warnings are not reported but still count towards --max-warnings
+                            const reported = problems.filter(({ severity }) => !argv.quiet || severity === 'error');
+
+                            if (reported.length === 0) {
                                 continue;
                             }
 
                             const lines = [slash(path.relative(cwd, file))];
 
-                            for (const { index, severity, message, plugin } of problems) {
+                            for (const { index, severity, message, plugin } of reported) {
                                 const before = content.slice(0, index).split(/\r?\n/);
                                 const position = `${before.length}:${before[before.length - 1].length + 1}`;
-
-                                if (severity === 'error') {
-                                    errors += 1;
-                                } else {
-                                    warnings += 1;
-                                }
 
                                 lines.push(`  ${position.padEnd(8)}${severity.padEnd(7)}  ${message}  ${plugin}`);
                             }
@@ -108,18 +122,23 @@ await yargs(hideBin(process.argv))
                         }
                     }
 
-                    const total = errors + warnings;
+                    const reportedWarnings = argv.quiet ? 0 : warnings;
+                    const total = errors + reportedWarnings;
 
                     if (total > 0) {
                         const plural = (count: number, word: string) => `${count} ${word}${count === 1 ? '' : 's'}`;
 
-                        yield `✖ ${plural(total, 'problem')} (${plural(errors, 'error')}, ${plural(warnings, 'warning')})${EOL}`;
+                        yield `✖ ${plural(total, 'problem')} (${plural(errors, 'error')}, ${plural(reportedWarnings, 'warning')})${EOL}`;
+                    }
+
+                    if (tooManyWarnings()) {
+                        yield `${EOL}lint-svg found too many warnings (maximum: ${argv.maxWarnings}).${EOL}`;
                     }
                 },
                 process.stdout
             );
 
-            process.exitCode = errors > 0 ? 1 : 0;
+            process.exitCode = errors > 0 || tooManyWarnings() ? 1 : 0;
         }
     )
     .strict()
