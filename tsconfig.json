@@ -1,8 +1,13 @@
 {
     "$schema": "https://json.schemastore.org/tsconfig",
     "extends": "@tsconfig/node24",
-    "include": ["${configDir}/lint-svg.config.ts"],
+    "include": [
+        "${configDir}/lint-staged.config.mjs",
+        "${configDir}/lint-svg.config.ts",
+        "${configDir}/prettier.config.mjs"
+    ],
     "compilerOptions": {
-        "noEmit": true
+        "noEmit": true,
+        "checkJs": true
     }
 }
