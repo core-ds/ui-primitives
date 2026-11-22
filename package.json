@@ -31,5 +31,5 @@
         "simple-git-hooks": "^2.14.0",
         "sort-package-json": "4.0.0"
     },
-    "packageManager": "pnpm@12.15.0"
+    "packageManager": "pnpm@12.22.0"
 }
