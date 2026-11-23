@@ -11,7 +11,7 @@ import slash from 'slash';
 import { globbyStream, globby } from 'globby';
 import { cosmiconfig } from 'cosmiconfig';
 import { Config } from './index.mjs';
-import { verify } from './rules.mjs';
+import { verify } from './runtime.mjs';
 import { toPlatformPath } from '@actions/core';
 import micromatch from 'micromatch';
 import { ensureArray, isIgnoreConfig } from './utils.mjs';
