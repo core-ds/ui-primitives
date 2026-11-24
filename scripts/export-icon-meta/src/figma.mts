@@ -4,14 +4,16 @@ export async function getFileComponents(fileKey: string): Promise<GetFileCompone
     const response = await fetch(`https://api.figma.com/v1/files/${fileKey}/components`, {
         headers: { 'X-FIGMA-TOKEN': process.env.FIGMA_TOKEN },
     });
+    const json = (await response.json()) as GetFileComponentsResponse;
 
-    return response.json();
+    return json;
 }
 
 export async function getFileComponentSets(fileKey: string): Promise<GetFileComponentSetsResponse> {
     const response = await fetch(`https://api.figma.com/v1/files/${fileKey}/component_sets`, {
         headers: { 'X-FIGMA-TOKEN': process.env.FIGMA_TOKEN },
     });
+    const json = (await response.json()) as GetFileComponentSetsResponse;
 
-    return response.json();
+    return json;
 }

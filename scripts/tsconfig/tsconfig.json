@@ -1,8 +1,8 @@
 {
     "$schema": "https://json.schemastore.org/tsconfig",
+    "extends": "@tsconfig/node24",
     "include": ["${configDir}/src"],
     "compilerOptions": {
-        "strict": true,
         "outDir": "${configDir}/dist",
         "rootDir": "${configDir}/src",
         "declaration": true,

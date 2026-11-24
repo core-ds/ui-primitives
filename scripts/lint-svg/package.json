@@ -17,15 +17,20 @@
         "clean": "rimraf dist tsconfig.tsbuildinfo"
     },
     "dependencies": {
+        "@actions/core": "catalog:",
         "cosmiconfig": "^10.0.1",
+        "domhandler": "^6.0.1",
         "globby": "catalog:",
+        "htmlparser2": "^12.0.0",
+        "micromatch": "^4.0.8",
         "slash": "^5.1.0",
         "yargs": "catalog:"
     },
     "devDependencies": {
+        "@types/micromatch": "^4.0.10",
         "@types/yargs": "catalog:",
+        "@typescript/native": "catalog:",
         "rimraf": "catalog:",
-        "scripts-tsconfig": "workspace:*",
-        "typescript": "catalog:"
+        "scripts-tsconfig": "workspace:*"
     }
 }

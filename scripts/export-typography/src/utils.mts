@@ -33,8 +33,9 @@ export async function fetchFile(fileKey: string): Promise<GetFileResponse> {
     const response = await fetch(`https://api.figma.com/v1/files/${fileKey}`, {
         headers: { 'X-FIGMA-TOKEN': process.env.FIGMA_TOKEN },
     });
+    const json = (await response.json()) as GetFileResponse;
 
-    return response.json();
+    return json;
 }
 
 export function handleLetterSpacing(letterSpacing: number | undefined): number | undefined {
