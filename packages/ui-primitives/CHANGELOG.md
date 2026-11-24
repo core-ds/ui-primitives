@@ -1,5 +1,11 @@
 # ui-primitives
 
+## 36.23.1
+
+### Patch Changes
+
+- [#1250](https://github.com/core-ds/ui-primitives/pull/1250) [`1728fca`](https://github.com/core-ds/ui-primitives/commit/1728fcad8982e74203bf76e0944f64b9fee33bbd) Thanks [@hextion](https://github.com/hextion)! - Внутренние улучшения, не влияющие на работу
+
 ## 36.23.0
 
 ### Minor Changes
