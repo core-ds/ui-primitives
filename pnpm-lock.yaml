@@ -300,12 +300,18 @@ importers:
             '@typescript/native':
                 specifier: 'catalog:'
                 version: typescript@7.0.2
+            lint-filename:
+                specifier: workspace:*
+                version: link:scripts/lint-filename
             lint-staged:
                 specifier: ^17.6.0
                 version: 17.6.0
             lint-svg:
                 specifier: workspace:*
                 version: link:scripts/lint-svg
+            minify-json:
+                specifier: workspace:*
+                version: link:scripts/minify-json
             prettier:
                 specifier: ^3.9.9
                 version: 3.9.10
@@ -1103,6 +1109,40 @@ importers:
                 specifier: workspace:*
                 version: link:../tsconfig
 
+    scripts/lint-filename:
+        dependencies:
+            cosmiconfig:
+                specifier: ^10.0.1
+                version: 10.0.1
+            globby:
+                specifier: 'catalog:'
+                version: 16.2.4
+            micromatch:
+                specifier: ^4.0.8
+                version: 4.0.8
+            slash:
+                specifier: ^5.1.0
+                version: 5.1.0
+            yargs:
+                specifier: 'catalog:'
+                version: 18.2.0
+        devDependencies:
+            '@types/micromatch':
+                specifier: ^4.0.10
+                version: 4.0.10
+            '@types/yargs':
+                specifier: 'catalog:'
+                version: 17.0.35
+            '@typescript/native':
+                specifier: 'catalog:'
+                version: typescript@7.0.2
+            rimraf:
+                specifier: 'catalog:'
+                version: 6.1.3
+            scripts-tsconfig:
+                specifier: workspace:*
+                version: link:../tsconfig
+
     scripts/lint-svg:
         dependencies:
             '@actions/core':
@@ -1133,6 +1173,34 @@ importers:
             '@types/micromatch':
                 specifier: ^4.0.10
                 version: 4.0.10
+            '@types/yargs':
+                specifier: 'catalog:'
+                version: 17.0.35
+            '@typescript/native':
+                specifier: 'catalog:'
+                version: typescript@7.0.2
+            rimraf:
+                specifier: 'catalog:'
+                version: 6.1.3
+            scripts-tsconfig:
+                specifier: workspace:*
+                version: link:../tsconfig
+
+    scripts/minify-json:
+        dependencies:
+            fs-extra:
+                specifier: 'catalog:'
+                version: 11.4.1
+            globby:
+                specifier: 'catalog:'
+                version: 16.2.4
+            yargs:
+                specifier: 'catalog:'
+                version: 18.2.0
+        devDependencies:
+            '@types/fs-extra':
+                specifier: 'catalog:'
+                version: 11.0.4
             '@types/yargs':
                 specifier: 'catalog:'
                 version: 17.0.35
