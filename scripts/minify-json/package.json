@@ -1,0 +1,24 @@
+{
+    "name": "minify-json",
+    "version": "0.0.0",
+    "private": true,
+    "license": "MIT",
+    "type": "module",
+    "bin": "./dist/bin.mjs",
+    "scripts": {
+        "bootstrap": "tsc",
+        "clean": "rimraf dist tsconfig.tsbuildinfo"
+    },
+    "dependencies": {
+        "fs-extra": "catalog:",
+        "globby": "catalog:",
+        "yargs": "catalog:"
+    },
+    "devDependencies": {
+        "@types/fs-extra": "catalog:",
+        "@types/yargs": "catalog:",
+        "@typescript/native": "catalog:",
+        "rimraf": "catalog:",
+        "scripts-tsconfig": "workspace:*"
+    }
+}

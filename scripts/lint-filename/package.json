@@ -1,0 +1,33 @@
+{
+    "name": "lint-filename",
+    "version": "0.0.0",
+    "private": true,
+    "license": "MIT",
+    "type": "module",
+    "exports": {
+        "./package.json": "./package.json",
+        ".": {
+            "import": "./dist/index.mjs",
+            "types": "./dist/index.d.mts"
+        }
+    },
+    "bin": "./dist/bin.mjs",
+    "scripts": {
+        "bootstrap": "tsc",
+        "clean": "rimraf dist tsconfig.tsbuildinfo"
+    },
+    "dependencies": {
+        "cosmiconfig": "^10.0.1",
+        "globby": "catalog:",
+        "micromatch": "^4.0.8",
+        "slash": "^5.1.0",
+        "yargs": "catalog:"
+    },
+    "devDependencies": {
+        "@types/micromatch": "^4.0.10",
+        "@types/yargs": "catalog:",
+        "@typescript/native": "catalog:",
+        "rimraf": "catalog:",
+        "scripts-tsconfig": "workspace:*"
+    }
+}
