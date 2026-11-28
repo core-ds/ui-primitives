@@ -123,7 +123,7 @@ jobs:
         if: vars.CDN_SKIP_DEPLOY != 'true'
         runs-on: ubuntu-latest
         steps:
-            - name: Configure AWS
+            - name: Configure AWS cli
               run: |
                   aws configure set region ${{ vars.AWS_REGION }}
                   aws configure set aws_access_key_id ${{ secrets.AWS_ACCESS_KEY_ID }}
@@ -131,8 +131,7 @@ jobs:
                   aws configure set request_checksum_calculation when_required
                   aws configure set response_checksum_validation when_required
 
-            - name: Download cdn distributive
-              id: pack-cdn
+            - name: Unpack
               uses: actions/download-artifact@v8
               with:
                   artifact-ids: ${{ needs.pack.outputs.pack-cdn-artifact-id }}
