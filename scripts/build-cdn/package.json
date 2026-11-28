@@ -1,0 +1,26 @@
+{
+    "name": "build-cdn",
+    "version": "0.0.0",
+    "private": true,
+    "license": "MIT",
+    "type": "module",
+    "bin": "./dist/index.mjs",
+    "scripts": {
+        "bootstrap": "tsc",
+        "clean": "rimraf dist tsconfig.tsbuildinfo"
+    },
+    "dependencies": {
+        "@actions/core": "catalog:",
+        "fs-extra": "catalog:",
+        "globby": "catalog:",
+        "yargs": "catalog:"
+    },
+    "devDependencies": {
+        "@types/fs-extra": "catalog:",
+        "@types/node": "catalog:",
+        "@types/yargs": "catalog:",
+        "@typescript/native": "catalog:",
+        "rimraf": "catalog:",
+        "scripts-tsconfig": "workspace:*"
+    }
+}

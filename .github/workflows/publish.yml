@@ -67,6 +67,7 @@ jobs:
         runs-on: ubuntu-latest
         outputs:
             pack-dir-artifact-id: ${{ steps.pack.outputs.pack-dir-artifact-id }}
+            pack-cdn-artifact-id: ${{ steps.pack-cdn.outputs.artifact-id }}
         permissions:
             contents: read # to check out repo (actions/checkout)
         steps:
@@ -83,12 +84,21 @@ jobs:
             - name: Build artifacts
               run: |
                   pnpm build
+                  pnpm build-cdn-dist
 
             - name: Pack
               id: pack
               uses: changesets/action/pack@v2
               with:
                   publish-plan-artifact-id: ${{ needs.select-mode.outputs.publish-plan-artifact-id }}
+
+            - name: Pack cdn distributive
+              id: pack-cdn
+              uses: actions/upload-artifact@v7
+              with:
+                  retention-days: 1
+                  name: cdn-dist
+                  path: cdn-dist
 
     publish:
         needs: pack
@@ -107,3 +117,51 @@ jobs:
               uses: changesets/action/publish@v2
               with:
                   pack-dir-artifact-id: ${{ needs.pack.outputs.pack-dir-artifact-id }}
+
+    deploy:
+        needs: pack
+        if: vars.CDN_SKIP_DEPLOY != 'true'
+        runs-on: ubuntu-latest
+        steps:
+            - name: Configure AWS cli
+              run: |
+                  aws configure set region ${{ vars.AWS_REGION }}
+                  aws configure set aws_access_key_id ${{ secrets.AWS_ACCESS_KEY_ID }}
+                  aws configure set aws_secret_access_key ${{ secrets.AWS_SECRET_ACCESS_KEY }}
+                  aws configure set request_checksum_calculation when_required
+                  aws configure set response_checksum_validation when_required
+
+            - name: Unpack
+              uses: actions/download-artifact@v8
+              with:
+                  artifact-ids: ${{ needs.pack.outputs.pack-cdn-artifact-id }}
+                  path: cdn-dist
+
+            - name: Sync
+              run: |
+                  aws s3 sync cdn-dist/icons s3://${{ vars.S3_ICONS_BUCKET_NAME }} --endpoint-url=${{ vars.S3_ENDPOINT_URL }} --no-progress
+
+            - name: Purge cache
+              if: vars.CDN_SKIP_CACHE_PURGE != 'true'
+              uses: actions/github-script@v8
+              env:
+                  CDN_API_KEY: ${{ secrets.CDN_API_KEY }}
+                  CDN_API_URL: ${{ vars.CDN_API_URL }}
+                  CDN_RESOURCE_ID: ${{ vars.CDN_RESOURCE_ID }}
+                  CDN_ICONS_PATH: ${{ vars.S3_ICONS_BUCKET_NAME }}
+              with:
+                  script: |
+                      const response = await fetch(new URL(`cdn/resources/${process.env.CDN_RESOURCE_ID}/purge`, process.env.CDN_API_URL), {
+                          headers: {
+                              Authorization: `APIKey ${process.env.CDN_API_KEY}`,
+                              'Content-Type': 'application/json',
+                          },
+                          method: 'POST',
+                          body: JSON.stringify({
+                              paths: [`/${process.env.CDN_ICONS_PATH}`],
+                          }),
+                      });
+
+                      if (!response.ok) {
+                          core.setFailed(`Failed to purge cdn cache with status: ${response.status}`);
+                      }
