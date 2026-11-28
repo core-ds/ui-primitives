@@ -316,7 +316,7 @@ jobs:
                   CDN_ICONS_PATH: ${{ vars.S3_ICONS_BUCKET_NAME }}
               with:
                   script: |
-                      await fetch(new URL(`cdn/resources/${process.env.CDN_RESOURCE_ID}/purge`, process.env.CDN_API_URL), {
+                      const response = await fetch(new URL(`cdn/resources/${process.env.CDN_RESOURCE_ID}/purge`, process.env.CDN_API_URL), {
                           headers: {
                               Authorization: `APIKey ${process.env.CDN_API_KEY}`,
                               'Content-Type': 'application/json',
@@ -326,3 +326,5 @@ jobs:
                               paths: [`/${process.env.CDN_ICONS_PATH}`],
                           }),
                       });
+
+                      core.info(`response status ${response.status} ${response.ok}`);
