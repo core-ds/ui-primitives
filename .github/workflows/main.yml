@@ -51,8 +51,6 @@ jobs:
         needs: codegen
         if: always() && (github.event_name != 'pull_request' || needs.codegen.result == 'success')
         runs-on: ubuntu-latest
-        outputs:
-            pack-cdn-artifact-id: ${{ steps.upload.outputs.artifact-id }}
         steps:
             - name: Checkout
               uses: actions/checkout@v7
@@ -75,18 +73,11 @@ jobs:
                   retention-days: 1
                   name: dist
                   path: |
+                      cdn-dist
                       icons-demo/dist
                       packages/*/dist
                       scripts/*/dist
                       token-converter/dist
-
-            - name: Upload cdn dist
-              id: upload
-              uses: actions/upload-artifact@v7
-              with:
-                  retention-days: 1
-                  name: cdn-dist
-                  path: cdn-dist
 
     lint:
         needs: codegen
