@@ -11,7 +11,7 @@
     "scripts": {
         "bootstrap": "pnpm -r run bootstrap && pnpm rebuild",
         "build": "pnpm -r --sequential run build",
-        "build-cdn-dist": "pnpm build-cdn 'icons/*/*.svg' --ignore icons/android icons/logo-am --out cdn-dist/icons ",
+        "build-cdn-dist": "pnpm build-cdn 'icons/*/*.svg' --ignore icons/android icons/logo-am icons/dev --out cdn-dist/icons ",
         "clean": "pnpm -r run clean",
         "codegen": "pnpm -r run codegen && pnpm format",
         "format": "pnpm format-check --log-level silent --write",
