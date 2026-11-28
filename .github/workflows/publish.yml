@@ -139,7 +139,7 @@ jobs:
 
             - name: Sync
               run: |
-                  aws s3 sync cdn-dist/icons s3://${{ vars.S3_ICONS_BUCKET_NAME }} --endpoint-url=${{ vars.S3_ENDPOINT_URL }}
+                  aws s3 sync cdn-dist/icons s3://${{ vars.S3_ICONS_BUCKET_NAME }} --endpoint-url=${{ vars.S3_ENDPOINT_URL }} --no-progress
 
             - name: Purge cache
               if: vars.CDN_SKIP_CACHE_PURGE != 'true'
