@@ -286,6 +286,7 @@ jobs:
 
     deploy:
         needs: build
+        if: vars.CDN_SKIP_DEPLOY != 'true'
         runs-on: ubuntu-latest
         steps:
             - name: Configure AWS
@@ -308,6 +309,7 @@ jobs:
                   aws s3 sync cdn-dist/icons s3://${{ vars.S3_ICONS_BUCKET_NAME }} --endpoint-url=${{ vars.S3_ENDPOINT_URL }}
 
             - name: Purge cache
+              if: vars.CDN_SKIP_CACHE_PURGE != 'true'
               uses: actions/github-script@v8
               env:
                   CDN_API_KEY: ${{ secrets.CDN_API_KEY }}
@@ -327,4 +329,6 @@ jobs:
                           }),
                       });
 
-                      core.info(`response status ${response.status} ${response.ok}`);
+                      if (!response.ok) {
+                          core.setFailed(`Failed to purge cdn cache with status: ${response.status}`);
+                      }
