@@ -65,6 +65,7 @@ jobs:
             - name: Build
               run: |
                   pnpm build
+                  pnpm build-cdn-dist
 
             - name: Upload dist
               uses: actions/upload-artifact@v7
@@ -76,6 +77,13 @@ jobs:
                       packages/*/dist
                       scripts/*/dist
                       token-converter/dist
+
+            - name: Upload cdn dist
+              uses: actions/upload-artifact@v7
+              with:
+                  retention-days: 1
+                  name: cdn-dist
+                  path: cdn-dist
 
     lint:
         needs: codegen

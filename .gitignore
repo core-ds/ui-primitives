@@ -10,6 +10,7 @@ coverage
 .npmrc
 
 dist
+cdn-dist
 
 .yarn/*
 !.yarn/patches
