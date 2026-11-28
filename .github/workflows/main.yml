@@ -51,6 +51,8 @@ jobs:
         needs: codegen
         if: always() && (github.event_name != 'pull_request' || needs.codegen.result == 'success')
         runs-on: ubuntu-latest
+        outputs:
+            pack-cdn-artifact-id: ${{ steps.upload.outputs.artifact-id }}
         steps:
             - name: Checkout
               uses: actions/checkout@v7
@@ -79,6 +81,7 @@ jobs:
                       token-converter/dist
 
             - name: Upload cdn dist
+              id: upload
               uses: actions/upload-artifact@v7
               with:
                   retention-days: 1
@@ -280,3 +283,45 @@ jobs:
             - name: Check for failure
               run: |
                   exit $RETURN_CODE
+
+    deploy:
+        needs: build
+        runs-on: ubuntu-latest
+        steps:
+            - name: Configure AWS
+              run: |
+                  aws configure set region ${{ vars.AWS_REGION }}
+                  aws configure set aws_access_key_id ${{ secrets.AWS_ACCESS_KEY_ID }}
+                  aws configure set aws_secret_access_key ${{ secrets.AWS_SECRET_ACCESS_KEY }}
+                  aws configure set request_checksum_calculation when_required
+                  aws configure set response_checksum_validation when_required
+
+            - name: Download cdn distributive
+              id: pack-cdn
+              uses: actions/download-artifact@v8
+              with:
+                  artifact-ids: ${{ needs.build.outputs.pack-cdn-artifact-id }}
+                  path: cdn-dist
+
+            - name: Sync
+              run: |
+                  aws s3 sync cdn-dist/icons s3://${{ vars.S3_ICONS_BUCKET_NAME }} --endpoint-url=${{ vars.S3_ENDPOINT_URL }}
+
+            - name: Purge cache
+              uses: actions/github-script@v8
+              env:
+                  CDN_API_KEY: ${{ secrets.CDN_API_KEY }}
+                  CDN_API_URL: ${{ vars.CDN_API_URL }}
+                  CDN_RESOURCE_ID: ${{ vars.CDN_RESOURCE_ID }}
+                  CDN_ICONS_PATH: ${{ vars.S3_ICONS_BUCKET_NAME }}
+              with:
+                  script: |
+                      await fetch(new URL(`cdn/resources/${process.env.CDN_RESOURCE_ID}/purge`, process.env.CDN_API_URL), {
+                          headers: {
+                              Authorization: `APIKey ${process.env.CDN_API_KEY}`,
+                          },
+                          method: 'POST',
+                          body: JSON.stringify({
+                              paths: [`/${process.env.CDN_ICONS_PATH}`],
+                          }),
+                      });
